@@ -1,5 +1,9 @@
 # Cambios
 
+- 2026-11-15 · Nueva sección "Dinero y coberturas" en cada ficha: presupuesto y cuánto se sabe, en qué se gasta, otros ingresos, empresas de fachada, bancos, crimen organizado y ONG de cobertura, más una lista de casos documentados con filtros. Cargada para Alemania; el validador avisa en las otras siete fichas reales hasta completarlas.
+
+- 2026-11-15 · Ola 3: ficha real de Alemania (BND, BfV, MAD, coordinación en la Cancillería y PKGr; conducción de Jäger, Selen y Rosenberg; presupuesto del BND 2026-2027, reforma con medidas activas, freno judicial en el caso AfD, dron de Leipzig y detención del ex presidente del BND August Hanning; 15 operaciones, 7 casos, 6 fallas y falsas banderas, 7 topos y desertores, 7 filtraciones, ocultamientos y campañas, 8 casos de dinero).
+
 - 2026-11-15 · Ola 3: ficha real de Francia (DGSE, DGSI, DRM, DRSD, coordinación del Elíseo y CNCTR; conducción de Lerner y Berthon, presupuesto de la ley de programación militar, atribución al FSB de julio de 2026; 8 operaciones, 6 casos, 6 fallas y falsas banderas, 4 topos, 7 filtraciones, ocultamientos y campañas).
 
 - 2026-11-15 · Ola 2 completa: ficha real de Israel (Mossad, Shin Bet, Aman, Unidad 8200, Consejo de Seguridad Nacional y subcomisión de la Knéset; conducción de Gofman, Zini y Binder; el 7 de octubre sin comisión estatal, el fallo sobre el despido de Ronen Bar y las elecciones de 2026; 15 operaciones desde la captura de Eichmann en Argentina hasta la guerra con Irán de 2026, 7 casos, 6 fallas y falsas banderas, 7 denunciantes, topos y desertores, 6 filtraciones, ocultamientos y campañas).

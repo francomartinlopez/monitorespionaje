@@ -1,715 +1,196 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Alemania · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["de"] = {
- "sample": true,
- "id": "de",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Alemania: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 3,
-  "senales": 4,
-  "ciber": 3,
-  "imagenes": 2,
-  "encubierta": 2,
-  "contra": 3
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "BKAmt": {
-   "since": 1959,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Coordinación de inteligencia de la Cancillería: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "BND": {
-   "since": 1996,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio Federal de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "BfV": {
-   "since": 1930,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Oficina Federal de Protección de la Constitución: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "MAD": {
-   "since": 1925,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio de Contrainteligencia Militar: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "PKGr": {
-   "since": 1931,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comité de Control Parlamentario: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "de",
+  updated: "2026-11-15",
+  summary: [
+    "Alemania reparte la inteligencia entre tres servicios federales. El Servicio Federal de Inteligencia (BND) espía en el exterior y depende de la Cancillería. La Oficina Federal de Protección de la Constitución (BfV) hace contrainteligencia y vigila el extremismo dentro del país. El Servicio de Contrainteligencia Militar (MAD) cuida a las fuerzas armadas.",
+    "Martin Jäger preside el BND desde septiembre de 2025 y quiere convertirlo en la \"primera línea de defensa\" del país. Sinan Selen dirige el BfV desde octubre de 2025 y Martina Rosenberg encabeza el MAD. En octubre de 2026 los tres dijeron ante el Bundestag que Rusia es el adversario más peligroso y que libra una guerra en las sombras contra Alemania.",
+    "En 2026 el gobierno presentó una reforma que daría al BND y al BfV medidas activas contra sabotajes y ciberataques, algo que los servicios alemanes nunca tuvieron. El presupuesto del BND sube de 1.510 millones de euros en 2026 a 1.850 millones previstos para 2027.",
+    "El pasado condiciona el diseño: tras la Gestapo y la Stasi, la policía y los servicios están separados y no hay policía secreta. Los escándalos son frecuentes: la ayuda del BND a la Agencia de Seguridad Nacional estadounidense (NSA), la falla ante el grupo neonazi NSU y, en octubre de 2026, la detención de un ex presidente del BND acusado de espionaje."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Presidente del BND", v: "Martin Jäger", n: "desde el 11 sep 2025" },
+    { l: "Presupuesto del BND", v: "€ 1.510 M", n: "2026; € 1.850 M previstos para 2027, según el Bundestag" },
+    { l: "Personal del BND", v: "≈ 6.500", n: "según beck-aktuell (abril de 2026)" },
+    { l: "Presidente del BfV", v: "Sinan Selen", n: "desde octubre de 2025; primer jefe nacido fuera de Alemania" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 3, senales: 4, ciber: 3, imagenes: 3, encubierta: 2, contra: 3 },
+  powerWhy: {
+    humana: "El BND tiene red propia en todo el mundo, pero viene de décadas de prioridad baja a la inteligencia humana frente a la técnica.",
+    senales: "Interceptación estratégica de comunicaciones internacionales y cooperación estrecha con la NSA en estaciones como Bad Aibling.",
+    ciber: "Capacidad de ciberespionaje del BND y comando cibernético militar, pero sin facultades legales de ataque hasta la reforma de 2026.",
+    imagenes: "Satélites radar SARah de las Fuerzas Armadas y análisis de imágenes del BND.",
+    encubierta: "La ley no permite sabotajes ni acciones letales; la reforma de 2026 propone medidas activas acotadas.",
+    contra: "La fiscalía federal detiene cada año a decenas de agentes rusos, chinos e iraníes, pero el país sufrió topos graves dentro del propio BND."
+  },
+  priorities: [
+    { h: "Rusia", x: "Espionaje, sabotaje, ciberataques y desinformación; el BND habla de una guerra en las sombras." },
+    { h: "Apoyo a Ucrania", x: "Proteger la logística militar, las fábricas de armas y los proveedores que envían material a Kiev." },
+    { h: "Extremismo y terrorismo", x: "Islamismo, extrema derecha y extrema izquierda; el informe de 2025 registró 58.851 delitos extremistas." },
+    { h: "China", x: "Espionaje científico y tecnológico, influencia política y vigilancia de opositores chinos." },
+    { h: "Irán", x: "Vigilancia de disidentes y planes contra objetivos judíos e israelíes en Alemania." }
+  ],
+  focos: ["Rusia", "Ucrania", "China", "Irán", "Medio Oriente", "Ciberespacio"],
+  bodies: {
+    "BKAmt": { since: 1975, how: "El coordinador de los servicios trabaja en la Cancillería, que supervisa al BND y reúne cada semana a los jefes de seguridad. Fija prioridades y lleva la reforma del BND.", staff: "Una división de la Cancillería.", budget: "Dentro de la Cancillería.", tech: [], where: ["Cancillería federal, Berlín"] },
+    "BND": { since: 1956, how: "Inteligencia exterior civil y militar, interceptación estratégica de comunicaciones y análisis para el gobierno. Depende de la Cancillería y no tiene poderes policiales.", staff: "Unas 6.500 personas, según beck-aktuell (2026).", budget: "1.510 millones de euros en 2026, según el Bundestag.", tech: ["Interceptación estratégica", "Estaciones de escucha", "Análisis de imágenes", "Inteligencia artificial"], where: ["Sede en Chausseestraße, Berlín", "Pullach (Baviera)", "Bad Aibling"] },
+    "BfV": { since: 1950, how: "Contrainteligencia, protección contra sabotajes y vigilancia del extremismo y de partidos sospechosos de atacar el orden constitucional. Depende del Ministerio del Interior y coordina con 16 oficinas estatales.", staff: "No se publica en esta ficha; la cifra figura en el presupuesto federal.", budget: "Dentro del Ministerio del Interior.", tech: ["Informantes (V-Leute)", "Interceptación con orden de la Comisión G10", "Troyanos estatales desde 2021"], where: ["Colonia", "Berlín"] },
+    "MAD": { since: 1956, how: "Contrainteligencia y seguridad dentro de las Fuerzas Armadas (Bundeswehr), incluida la detección de extremistas en sus filas.", staff: "Más de 1.000 personas, según estimaciones de prensa.", budget: "Dentro de Defensa.", tech: ["Controles de seguridad", "Contrainteligencia militar"], where: ["Colonia", "Bases de la Bundeswehr"] },
+    "PKGr": { since: 1978, how: "Comité del Bundestag que controla a los tres servicios en sesiones secretas y una vez por año en audiencia pública. Lo preside el diputado Marc Henrichmann (CDU).", staff: "Nueve diputados y una secretaría con asesores.", budget: "Dentro del Bundestag.", tech: [], where: ["Bundestag, Berlín"] }
+  },
+  civil: [
+    "El canciller responde por el BND a través de su jefe de gabinete y del coordinador de los servicios.",
+    "El Ministerio del Interior conduce al BfV y Defensa al MAD; las 16 regiones tienen sus propias oficinas de protección de la Constitución.",
+    "La separación entre policía y servicios, nacida después de la Gestapo, impide que los servicios detengan personas."
+  ],
+  law: {
+    domestic: [
+      "La ley G10 limita el secreto de las comunicaciones y exige autorización de la Comisión G10 del Bundestag.",
+      "La ley del BfV le permite vigilar a organizaciones y partidos sospechosos de extremismo, con control judicial posterior.",
+      "Desde 2021 los tres servicios pueden instalar troyanos para leer mensajes cifrados antes de que se envíen."
+    ],
+    foreign: [
+      "La ley del BND regula la interceptación de comunicaciones extranjeras; desde 2020 debe respetar los derechos fundamentales también fuera del país.",
+      "El BND no tiene base legal para sabotajes ni acciones armadas; la reforma de 2026 propone medidas activas limitadas.",
+      "El intercambio de datos con servicios extranjeros necesita acuerdos escritos y controles."
+    ],
+    oversight: [
+      "Comité de Control Parlamentario (PKGr).",
+      "Comisión G10 y Consejo de Control Independiente (UKRat), creado en 2022.",
+      "Tribunal Constitucional Federal y tribunales administrativos."
+    ]
+  },
+  rights: [
+    { d: "1968-06", dir: "amplia", area: "Comunicaciones", h: "Leyes de emergencia y ley G10", x: "Una reforma constitucional permite a los servicios intervenir comunicaciones sin aviso al afectado." },
+    { d: "1978-04", dir: "recorta", area: "Transparencia", h: "Control parlamentario", x: "Nace la comisión del Bundestag que controla a los servicios, antecesora del PKGr." },
+    { d: "1991-12", dir: "recorta", area: "Transparencia", h: "Ley de archivos de la Stasi", x: "Los ciudadanos pueden leer lo que la policía secreta de Alemania Oriental reunió sobre ellos." },
+    { d: "2016-12", dir: "amplia", area: "Comunicaciones", h: "Reforma del BND tras el escándalo NSA", x: "Da base legal a la interceptación de comunicaciones entre extranjeros desde Alemania." },
+    { d: "2020-05", dir: "recorta", area: "Privacidad", h: "Fallo del Tribunal Constitucional", x: "El BND debe respetar los derechos fundamentales también al espiar a extranjeros en el exterior, en un caso impulsado por periodistas." },
+    { d: "2021-03", dir: "recorta", area: "Debido proceso", h: "Consejo de Control Independiente", x: "Una nueva ley del BND crea un órgano de jueces que autoriza y revisa la interceptación." },
+    { d: "2021-06", dir: "amplia", area: "Comunicaciones", h: "Troyanos para los servicios", x: "El BfV, el BND y el MAD pueden infectar dispositivos para leer mensajes antes del cifrado." },
+    { d: "2026-02", dir: "recorta", area: "Debido proceso", h: "Freno judicial en el caso AfD", x: "Un tribunal de Colonia prohíbe al BfV tratar al partido Alternativa para Alemania como extremista confirmado hasta el fallo de fondo." },
+    { d: "2026-08", dir: "amplia", area: "Debido proceso", h: "Reforma con medidas activas", x: "El gabinete aprueba dar al BND y al BfV facultades de intervención contra sabotajes y ciberataques y más plazo de guardado de datos." }
+  ],
+  events: [
+    { d: "1970-06-01", lat: 47.17, lon: 8.52, c: "Switzerland", t: "senales", ev: 1, h: "Operación Rubikon", x: "El BND y la CIA compran en secreto la empresa suiza Crypto AG y venden a más de cien países máquinas de cifrado que podían leer.", u: "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/", st: "The Washington Post, ZDF y SRF (2020)" },
+    { d: "1974-04-24", lat: 50.73, lon: 7.1, c: "Germany", t: "contra", ev: 1, h: "Cae Guillaume", x: "La contrainteligencia detiene en Bonn a un asesor del canciller Willy Brandt que espiaba para Alemania Oriental.", u: "https://en.wikipedia.org/wiki/Guillaume_affair", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2000-01-01", lat: 48.06, lon: 11.52, c: "Germany", t: "humana", ev: 1, h: "Curveball", x: "El BND interroga a un refugiado iraquí que inventa laboratorios móviles de armas biológicas; EE.UU. usó su relato para justificar la guerra de 2003.", u: "https://en.wikipedia.org/wiki/Curveball_(informant)", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2004-01-01", lat: 50.11, lon: 8.68, c: "Germany", t: "senales", ev: 1, h: "Operación Eikonal", x: "El BND intercepta tráfico en un nodo de internet de Fráncfort y comparte datos con la NSA hasta 2008.", u: "https://dserver.bundestag.de/btd/18/128/1812850.pdf", st: "Bundestag, informe de la comisión NSA (2017)" },
+    { d: "2015-05-01", lat: 52.52, lon: 13.38, c: "Germany", t: "contra", ev: 1, h: "Hackeo al Bundestag", x: "Piratas del grupo APT28 roban datos de la red del Parlamento; Alemania lo atribuyó a la inteligencia militar rusa (GRU).", u: "https://en.wikipedia.org/wiki/2015_Bundestag_cyberattack", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2019-08-23", lat: 52.52, lon: 13.35, c: "Germany", t: "contra", ev: 1, h: "El asesinato del Tiergarten", x: "Un ciudadano georgiano es asesinado en un parque de Berlín; en 2021 un tribunal concluyó que el crimen fue encargado por el Estado ruso.", u: "https://en.wikipedia.org/wiki/Killing_of_Zelimkhan_Khangoshvili", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2022-12-21", lat: 52.53, lon: 13.38, c: "Germany", t: "contra", ev: 1, h: "Un topo en el BND", x: "Detienen en Berlín a Carsten L., jefe de una unidad del BND, acusado de entregar documentos al FSB ruso.", u: "https://generalbundesanwalt.de/SharedDocs/Pressemitteilungen/EN/2023/Pressemitteilung-vom-08-09-2023.html", st: "Fiscalía federal de Alemania" },
+    { d: "2025-12-12", lat: 52.51, lon: 13.4, c: "Germany", t: "contra", ev: 1, h: "Berlín culpa al GRU", x: "El gobierno convoca al embajador ruso y atribuye al GRU un ciberataque al control aéreo y una campaña de desinformación electoral.", u: "https://www.zdfheute.de/politik/deutschland/bundesregierung-russland-cyberangriff-botschafter-100.html", st: "ZDF" },
+    { d: "2026-01-15", lat: 52.5, lon: 13.42, c: "Germany", t: "contra", ev: 2, h: "Detenida una lobista prorrusa", x: "La fiscalía federal hace detener en Berlín a una germano-ucraniana acusada de pasar datos sobre la guerra a un contacto en la embajada rusa.", u: "https://www.zdfheute.de/politik/deutschland/berlin-mutmassliche-spionin-russland-anklage-100.html", st: "ZDF" },
+    { d: "2026-04-28", lat: 52.48, lon: 13.36, c: "Germany", t: "contra", ev: 2, h: "Detenido Sergej K.", x: "Un hombre de Kazajistán es detenido en Berlín, acusado de pasar a un servicio ruso datos sobre la ayuda a Ucrania y posibles blancos de sabotaje.", u: "https://www.zdfheute.de/politik/deutschland/russland-spion-berlin-ukraine-verteidigung-ruestung-100.html", st: "ZDF" },
+    { d: "2026-05-19", lat: 48.14, lon: 11.58, c: "Germany", t: "contra", ev: 2, h: "Espionaje científico para China", x: "Una pareja es detenida en Múnich, acusada de buscar investigadores de tecnología militar para un servicio chino.", u: "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/wissenschaftsspionage-china-ehepaar-festnahme-2026-05-20", st: "beck-aktuell (dpa)" },
+    { d: "2026-08-05", lat: 51.42, lon: 12.24, c: "Germany", t: "contra", ev: 2, h: "Dron con explosivos en Leipzig", x: "Aparece un dron armado junto a aviones de carga ucranianos en el aeropuerto de Leipzig/Halle; el gobierno responsabilizó a Moscú.", u: "https://de.euronews.com/my-europe/2026/09/02/verbindungen-russland-ermittler-drohnen-angreifer-leipzig", st: "Euronews" },
+    { d: "2026-08-18", lat: 48.78, lon: 9.18, c: "Germany", t: "contra", ev: 1, h: "Condena por paquetes con rastreadores", x: "Un tribunal de Stuttgart condena a un ucraniano por explorar blancos de sabotaje para una entidad estatal rusa y absuelve a otros dos.", u: "https://www.beck-aktuell.de/heute-im-recht/rechtsprechung/olg-stuttgart-6St3BJs15825-sabotage-pakete-brand-deutschland-russland-ukraine-urteil-2026-08-18", st: "beck-aktuell (dpa)" },
+    { d: "2026-10-06", lat: 52.15, lon: 7.34, c: "Germany", t: "contra", ev: 2, h: "Detienen a un ex jefe del BND", x: "August Hanning, presidente del BND entre 1998 y 2005, es detenido por recibir unos 2.000 documentos internos del servicio.", u: "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/ex-bnd-praesidenten-august-hanning-festgenommen-2026-10-06", st: "beck-aktuell" },
+    { d: "2026-10-22", lat: 52.25, lon: 14.1, c: "Germany", t: "contra", ev: 2, h: "Espía en Oder-Spree", x: "Detienen en Brandeburgo a un ucraniano acusado de reunir datos sobre tanques, municiones y bases del flanco este de la OTAN para Rusia.", u: "https://de.euronews.com/2026/10/22/spionage-brandenburg-ukrainer-russland-spion", st: "Euronews" }
+  ],
+  interest: {
+    "Russia": 3, "Ukraine": 3, "China": 2, "Iran": 2, "Turkey": 2, "Belarus": 2, "Syria": 2, "Afghanistan": 2, "Iraq": 1, "Lebanon": 1, "Israel": 1,
+    "Mali": 1, "Azerbaijan": 1, "North Korea": 1, "Poland": 1, "Lithuania": 1, "Serbia": 1, "United States of America": 1, "Libya": 1
+  },
+  timeline: [
+    { era: "Posguerra", d: "1946", h: "La Organización Gehlen", x: "Un ex general de la Wehrmacht arma una red de espionaje bajo tutela estadounidense, con muchos ex nazis." },
+    { era: "", d: "1950", h: "Nace el BfV", x: "La República Federal crea su oficina de protección de la Constitución, sin poderes policiales." },
+    { era: "Guerra Fría", d: "1956", h: "Nace el BND", x: "La Organización Gehlen pasa a ser el servicio exterior oficial, con sede en Pullach." },
+    { era: "", d: "1961", h: "El caso Felfe", x: "Se descubre que el jefe de contrainteligencia soviética del BND trabajaba para la KGB." },
+    { era: "", d: "1974", h: "Guillaume", x: "La caída de un espía de Alemania Oriental en la Cancillería lleva a la renuncia de Willy Brandt." },
+    { era: "Reunificación", d: "1990–1991", h: "El fin de la Stasi", x: "Se disuelve la policía secreta oriental y sus archivos se abren a las víctimas." },
+    { era: "Siglo XXI", d: "2011–2013", h: "NSU y Snowden", x: "Un grupo neonazi mató durante años sin ser detectado; luego se revela la ayuda del BND a la NSA." },
+    { era: "", d: "2016–2020", h: "Amri y Karlsruhe", x: "El atentado de Berlín expone fallas; el Tribunal Constitucional pone límites al BND en el exterior." },
+    { era: "Actual", d: "2025–2026", h: "Guerra en las sombras", x: "Jäger y Selen al frente, reforma con medidas activas, dron en Leipzig y detención de Hanning.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: false, d: "1970–2018", h: "Rubikon: las máquinas de cifrado truchas", x: "El BND y la CIA fueron dueños en secreto de Crypto AG, que vendía equipos de cifrado a gobiernos de todo el mundo, entre ellos Argentina. Las máquinas tenían debilidades que permitían leer los mensajes. El BND vendió su parte en 1993.", who: "The Washington Post, ZDF y SRF, con documentos internos de la CIA y el BND", missing: "", u: "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/", st: "The Washington Post (2020)" },
+    { ev: 1, ilegal: true, d: "2004–2015", h: "El BND al servicio de la NSA", x: "El BND cargó en sus sistemas miles de términos de búsqueda de la NSA, entre ellos datos de empresas, políticos y gobiernos europeos. Una comisión del Bundestag confirmó el uso y la falta de control.", who: "Comisión de investigación NSA del Bundestag (2017)", missing: "", u: "https://dserver.bundestag.de/btd/18/128/1812850.pdf", st: "Bundestag (Drucksache 18/12850)" },
+    { ev: 1, ilegal: true, d: "1990–2011", h: "Informantes alrededor del NSU", x: "Oficinas de protección de la Constitución pagaban a informantes dentro de la escena neonazi que rodeaba al NSU. Ninguno llevó a detectar al grupo, que mató a diez personas. La comisión del Bundestag habló de un fracaso masivo.", who: "Comisión de investigación NSU del Bundestag (2013)", missing: "", u: "https://dserver.bundestag.de/btd/17/146/1714600.pdf", st: "Bundestag (Drucksache 17/14600)" },
+    { ev: 2, ilegal: true, d: "1999–2006", h: "Periodistas espiados por el BND", x: "Der Spiegel informó en 2017 que el BND vigiló teléfonos y correos de periodistas extranjeros de medios como la BBC y The New York Times. El caso alimentó la demanda que ganó en 2020 ante el Tribunal Constitucional.", who: "Der Spiegel y Reporteros sin Fronteras", missing: "Reconocimiento oficial de cada caso.", u: "https://www.spiegel.de/international/germany/german-intelligence-spied-on-foreign-journalists-for-years-a-1136188.html", st: "Der Spiegel (2017)" },
+    { ev: 1, ilegal: true, d: "2019", h: "El asesinato del Tiergarten", x: "Un tribunal de Berlín condenó en 2021 a un ruso por matar a un exiliado georgiano y dijo que el crimen fue encargado por el Estado ruso. El condenado fue liberado en el canje de presos de 2024.", who: "Tribunal superior de Berlín (2021)", missing: "", u: "https://en.wikipedia.org/wiki/Killing_of_Zelimkhan_Khangoshvili", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 3, ilegal: false, d: "2025–2026", h: "El BfV contra la oposición", x: "El partido Alternativa para Alemania (AfD) sostiene que el BfV lo vigila para sacarlo de la competencia política. En febrero de 2026 un tribunal frenó su calificación como extremista confirmado, aunque mantuvo la sospecha.", who: "AfD", missing: "Un fallo de fondo que declare la vigilancia como persecución política; el tribunal no dijo eso.", u: "https://www.zdfheute.de/politik/deutschland/afd-gericht-einstufung-rechtsextrem-100.html", st: "ZDF" },
+    { ev: 4, ilegal: false, d: "1990–", h: "Alemania no es un Estado soberano", x: "El movimiento Reichsbürger afirma que la República Federal es una empresa y que los aliados controlan a sus servicios.", who: "Reichsbürger y sitios conspirativos", missing: "Cualquier documento que lo pruebe.", debunk: "Se apoya en lecturas falsas de tratados de posguerra. El Tratado Dos más Cuatro de 1990 devolvió la plena soberanía, y el BfV vigila al movimiento como extremista.", u: "https://en.wikipedia.org/wiki/Reichsb%C3%BCrger_movement", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "2011-11", ev: 1, w: 3, h: "El NSU", x: "Un trío neonazi mató a diez personas entre 2000 y 2007; la policía buscó a los culpables entre las familias de las víctimas.", why: "No está en duda: varias comisiones parlamentarias documentaron errores de policía y servicios.", wx: "Informes del Bundestag y de parlamentos regionales, y juicio de 2018.", who: "Bundestag", u: "https://dserver.bundestag.de/btd/17/146/1714600.pdf", st: "Bundestag (2013)" },
+    { k: "falla", d: "2016-12-19", ev: 1, w: 3, h: "Anis Amri", x: "Un tunecino fichado como peligroso mata a doce personas con un camión en un mercado navideño de Berlín.", why: "No está en duda: una comisión del Bundestag concluyó que las autoridades lo subestimaron.", wx: "Informe final de 2021.", who: "Bundestag", u: "https://dserver.bundestag.de/btd/19/308/1930800.pdf", st: "Bundestag (Drucksache 19/30800)" },
+    { k: "falla", d: "2003-02", ev: 1, w: 3, h: "Curveball", x: "El testimonio inventado de una fuente del BND llegó al discurso de EE.UU. en la ONU para justificar la guerra de Irak.", why: "No está en duda: la propia fuente admitió en 2011 que mintió.", wx: "Entrevistas con la fuente y comisiones de EE.UU.", who: "Comisión presidencial de EE.UU. sobre armas de destrucción masiva (2005)", u: "https://en.wikipedia.org/wiki/Curveball_(informant)", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falla", d: "2022-02-24", ev: 2, w: 2, h: "La invasión de Ucrania", x: "El jefe del BND, Bruno Kahl, estaba en Kiev cuando empezó la invasión y tuvo que salir por tierra.", why: "El viaje es un hecho; se discute si el BND subestimó la probabilidad de una invasión total.", wx: "Informes de prensa; no hay evaluación oficial publicada.", who: "Prensa alemana", u: "https://en.wikipedia.org/wiki/Bruno_Kahl", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "1978-07-25", ev: 1, w: 3, h: "El agujero de Celle", x: "La oficina de protección de la Constitución de Baja Sajonia vuela un muro de la cárcel de Celle para simular un intento de fuga de la guerrilla RAF e infiltrar a un informante.", why: "No está en duda: el gobierno regional lo admitió en 1986.", wx: "Comisión del parlamento de Baja Sajonia.", who: "Gobierno de Baja Sajonia (1986)", u: "https://en.wikipedia.org/wiki/Celler_Loch", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "1980-09-26", ev: 3, w: 2, h: "El atentado del Oktoberfest", x: "Una bomba mata a 13 personas en Múnich. Hay versiones de que la red secreta stay-behind de la OTAN estuvo detrás.", why: "La fiscalía federal reabrió el caso en 2014 y lo cerró en 2020 como atentado de extrema derecha; el vínculo con servicios no se probó.", wx: "Hay testimonios y documentos sueltos, pero no pruebas de una operación estatal.", who: "Periodistas, abogados de víctimas e investigadores independientes", u: "https://en.wikipedia.org/wiki/Oktoberfest_bombing", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "El BND tiene oficiales en embajadas, muchos declarados como enlace ante el país anfitrión. Rusia, China e Irán usan sus embajadas en Berlín como base; un caso de 2026 pasaba por un contacto en la embajada rusa.",
+    campo: "El BND maneja fuentes en el exterior y apoya a soldados alemanes en misiones. La reforma de 2026 quiere un servicio más operativo, que asuma riesgos mayores para obtener información.",
+    oficina: "Desde 2019 la mayor parte del BND trabaja en su sede de Berlín, con análisis para la Cancillería y los ministerios. El BfV analiza desde Colonia junto a 16 oficinas regionales.",
+    reclutamiento: "El BND hace campañas públicas para sumar técnicos e informáticos. Del otro lado, Rusia recluta en Alemania a ayudantes baratos y sin formación por internet, según el fiscal federal.",
+    tecnica: "Interceptación estratégica de comunicaciones, estaciones como Bad Aibling, troyanos estatales, satélites radar militares e inteligencia artificial para analizar datos.",
+    enlaces: "Coopera con EE.UU., el Reino Unido, Francia, los Países Bajos y los vecinos de la OTAN. La alianza con la NSA fue la más intensa y la más polémica."
+  },
+  insiders: [
+    { k: "topo", dir: "sale", ev: 1, d: "1961-11", n: "Heinz Felfe", h: "El cazador de topos era el topo", x: "El jefe de contrainteligencia contra la URSS en el BND trabajó una década para la KGB y quemó a decenas de agentes.", cargo: "Contrainteligencia del BND", hacia: "KGB", fin: "Condenado en 1963 a 14 años; canjeado en 1969.", who: "Justicia alemana", u: "https://en.wikipedia.org/wiki/Heinz_Felfe", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "sale", ev: 1, d: "1974-04", n: "Günter Guillaume", h: "El espía junto al canciller", x: "Un asesor personal de Willy Brandt era oficial de la inteligencia exterior de Alemania Oriental.", cargo: "Cancillería federal", hacia: "HVA (Alemania Oriental)", fin: "Condenado a 13 años, canjeado en 1981. Brandt renunció en 1974.", who: "Justicia alemana", u: "https://en.wikipedia.org/wiki/Guillaume_affair", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desertor", dir: "entra", ev: 1, d: "1979-01", n: "Werner Stiller", h: "Un oficial de la Stasi cruza al Oeste", x: "Un oficial de inteligencia de Alemania Oriental huye con documentos que permiten detener a una red de espías en el Oeste.", cargo: "HVA (Alemania Oriental)", hacia: "BND", fin: "Vivió con otra identidad en Occidente.", who: "BND y justicia alemana", u: "https://en.wikipedia.org/wiki/Werner_Stiller", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "sale", ev: 1, d: "2014-07", n: "Markus R.", h: "Un empleado del BND vende a la CIA", x: "Un empleado administrativo del BND entregó más de 200 documentos a la CIA durante años y luego ofreció material a Rusia.", cargo: "BND", hacia: "CIA", fin: "Condenado en 2016 a ocho años de prisión.", who: "Justicia alemana", u: "https://www.lto.de/recht/nachrichten/n/weitere-festnahme-russland-spionage-bnd-mutmasslicher-mittaeter", st: "LTO" },
+    { k: "topo", dir: "sale", ev: 2, d: "2022-12", n: "Carsten L.", h: "Documentos del BND para el FSB", x: "Un jefe de unidad del BND imprimió documentos internos que un socio llevó a Moscú en plena guerra; según la fiscalía, el FSB les pagó unos 850.000 euros.", cargo: "BND (seguridad interna)", hacia: "FSB ruso", fin: "Juicio ante el tribunal superior de Berlín desde diciembre de 2023.", who: "Fiscalía federal de Alemania", u: "https://generalbundesanwalt.de/SharedDocs/Pressemitteilungen/EN/2023/Pressemitteilung-vom-08-09-2023.html", st: "Fiscalía federal" },
+    { k: "topo", dir: "sale", ev: 1, d: "2024-04", n: "Jian G.", h: "El asistente del eurodiputado", x: "El asistente de un eurodiputado de la AfD pasó información del Parlamento Europeo y espió a opositores chinos en Alemania.", cargo: "Parlamento Europeo", hacia: "Inteligencia china", fin: "Condenado en septiembre de 2025 a cuatro años y nueve meses.", who: "Justicia alemana", u: "https://www.zdfheute.de/politik/deutschland/festnahme-spione-china-deutsche-hochschulen-100.html", st: "ZDF" },
+    { k: "topo", dir: "sale", ev: 2, d: "2026-10", n: "August Hanning", h: "Un ex presidente del BND detenido", x: "Según la fiscalía, su ex jefe de oficina le pasó casi 2.000 documentos del BND hasta 2022 y él los usó en su trabajo de consultor, incluido un análisis para un servicio extranjero.", cargo: "Ex presidente del BND (1998-2005)", hacia: "Clientes privados y un servicio extranjero no identificado oficialmente", fin: "En prisión preventiva desde octubre de 2026; rige la presunción de inocencia.", who: "Fiscalía federal de Alemania", u: "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/ex-bnd-praesidenten-august-hanning-festgenommen-2026-10-06", st: "beck-aktuell" }
+  ],
+  leaks: [
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "1970–2020", h: "El secreto de Rubikon", x: "El BND ocultó durante décadas su participación en Crypto AG, incluso ante el Parlamento.", aquien: "Al Bundestag y al público", como: "ZDF, SRF y The Washington Post publicaron documentos internos en 2020.", obj: "Proteger la operación y la relación con la CIA.", who: "The Washington Post, ZDF y SRF", u: "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/", st: "The Washington Post" },
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "2011-11", h: "Las carpetas trituradas del NSU", x: "Días después de descubrirse el NSU, un funcionario del BfV destruye carpetas sobre informantes de la escena neonazi.", aquien: "A la fiscalía y al Parlamento", como: "La comisión del Bundestag lo reveló en 2012; el presidente del BfV, Heinz Fromm, renunció.", obj: "Evitar preguntas sobre los informantes.", who: "Comisión NSU del Bundestag", u: "https://dserver.bundestag.de/btd/17/146/1714600.pdf", st: "Bundestag" },
+    { k: "filtracion", rol: "blanco", ev: 2, d: "2013-10", h: "El teléfono de Merkel", x: "Documentos filtrados por Edward Snowden indican que la NSA espió el celular de la canciller Angela Merkel.", obj: "Revelar el alcance de la vigilancia de EE.UU. sobre aliados.", who: "Der Spiegel; el gobierno de EE.UU. dijo que no la espiaba ni la espiaría", u: "https://en.wikipedia.org/wiki/2013_mass_surveillance_disclosures", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "robo", rol: "blanco", ev: 1, d: "2015-05", h: "Datos robados del Bundestag", x: "El grupo APT28 se lleva gigas de correos y documentos de la red del Parlamento, incluida la oficina de Merkel.", obj: "Espionaje político.", who: "Gobierno alemán y fiscalía federal, que en 2020 pidió la captura de un oficial del GRU", u: "https://en.wikipedia.org/wiki/2015_Bundestag_cyberattack", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desinfo", rol: "blanco", ev: 1, d: "2016-01", h: "El caso Lisa", x: "Medios estatales rusos difunden que una chica ruso-alemana fue violada por migrantes en Berlín; la policía comprobó que era falso.", obj: "Movilizar a la comunidad rusoparlante contra el gobierno de Merkel.", who: "Policía de Berlín y gobierno alemán", u: "https://en.wikipedia.org/wiki/Lisa_case", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "filtracion", rol: "blanco", ev: 1, d: "2024-03", h: "La llamada sobre los misiles Taurus", x: "Medios rusos publican una videollamada interceptada de oficiales de la Fuerza Aérea alemana que hablaban de misiles para Ucrania.", obj: "Dividir a los aliados de Ucrania y presionar al gobierno.", who: "Ministerio de Defensa de Alemania, que confirmó la grabación", u: "https://en.wikipedia.org/wiki/Taurus_leak", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desinfo", rol: "blanco", ev: 1, d: "2024–2025", h: "Storm-1516 en las elecciones", x: "Una campaña con videos falsos y más de cien sitios truchos ataca a candidatos en la campaña de 2025.", obj: "Influir y desestabilizar la elección federal.", who: "Cancillería alemana, que la atribuyó al GRU en diciembre de 2025", u: "https://correctiv.org/aktuelles/hybride-kriegsfuehrung/2025/12/12/russlands-botschafter-einbestellt-behoerden-bestaetigen-correctiv-recherche-zu-einflussoperation/", st: "CORRECTIV" }
+  ],
+  dinero: {
+    presupuesto: "El presupuesto federal muestra solo el total de cada servicio: el BND recibe 1.510 millones de euros en 2026 dentro del capítulo de la Cancillería. El detalle va en planes económicos secretos que aprueba el Vertrauensgremium, un grupo de la comisión de presupuesto que sesiona a puertas cerradas. El Tribunal de Cuentas los revisa con reglas especiales.",
+    uso: "La mayor parte se va en personal, técnica de interceptación, informática y edificios, como la sede de Berlín. Lo que se paga a fuentes e informantes no aparece en el presupuesto público.",
+    ingresos: "No hay registro público de ingresos propios del BND. Entre 1970 y 1993 compartió con la CIA las ganancias de Crypto AG, la empresa de cifrado que controlaban en secreto.",
+    empresas: "El BND usó empresas propias o compradas como cobertura; el caso documentado más grande es Crypto AG. La Organización Gehlen, su antecesora, vivió de fondos de inteligencia estadounidenses en la posguerra.",
+    bancos: "En 2008 el BND pagó unos 5 millones de euros por datos robados de clientes alemanes del banco LGT de Liechtenstein y los pasó al fisco. Los servicios también rastrean el dinero del terrorismo, la evasión de sanciones y las redes de influencia extranjera.",
+    crimen: "En 1994 una compra encubierta de plutonio de contrabando, montada con informantes del BND, terminó con material nuclear llegando a Múnich en un vuelo comercial. Las oficinas de protección de la Constitución pagan a informantes dentro de grupos extremistas; uno dijo haber usado el dinero para organizar a la escena neonazi.",
+    cobertura: "Esta ficha no encontró casos documentados recientes de ONG alemanas usadas como pantalla del BND. El BfV advierte, en cambio, que Rusia, China e Irán usan asociaciones, lobbies y círculos culturales en Alemania; la detenida de enero de 2026 presidía una asociación de lobby prorrusa."
+  },
+  fondos: [
+    { k: "fachada", rol: "autor", ev: 1, d: "1970–1993", h: "Crypto AG, una empresa del BND y la CIA", x: "Los dos servicios compraron en secreto la empresa suiza a través de una fundación de Liechtenstein y cobraron sus ganancias mientras leían los mensajes de sus clientes.", obj: "Espiar a más de cien gobiernos y financiar la operación con las propias ventas.", who: "The Washington Post, ZDF y SRF, con documentos internos", u: "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/", st: "The Washington Post (2020)" },
+    { k: "crimen", rol: "autor", ev: 1, d: "1994-08", h: "El plutonio del aeropuerto de Múnich", x: "Informantes del BND organizan la compra de plutonio a contrabandistas; el material llega desde Moscú en un vuelo de Lufthansa y los vendedores son detenidos.", obj: "Mostrar el riesgo del contrabando nuclear ruso; una comisión investigó si el propio BND creó el negocio.", who: "Comisión de investigación del Bundestag (1995-1998)", u: "https://de.wikipedia.org/wiki/Plutonium-Aff%C3%A4re", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "crimen", rol: "autor", ev: 1, d: "1994–2001", h: "El informante mejor pago de la escena neonazi", x: "Tino Brandt, jefe del Thüringer Heimatschutz, cobró unos 200.000 marcos de la oficina regional de Turingia mientras armaba el grupo en el que se movía el trío del NSU.", monto: "≈ 200.000 marcos, según testimonios ante el Bundestag", obj: "Obtener información de la escena; el dinero terminó fortaleciéndola.", who: "Comisión NSU del Bundestag", u: "https://www.bundestag.de/webarchiv/presse/hib/2013_02/01-253004", st: "Bundestag (hib, 2013)" },
+    { k: "banco", rol: "autor", ev: 1, d: "2008-02", h: "Los datos del banco LGT", x: "El BND compra a un ex empleado del banco LGT de Liechtenstein un disco con datos de clientes; se destapa la evasión del jefe del correo alemán, Klaus Zumwinkel.", monto: "Cerca de 5 millones de euros, según la prensa", obj: "Perseguir la evasión fiscal; se discutió si estaba dentro del mandato del BND.", who: "Gobierno alemán, que confirmó el papel del BND; el monto, según la prensa", u: "https://en.wikipedia.org/wiki/2008_Liechtenstein_tax_affair", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "presupuesto", rol: "autor", ev: 1, d: "2009–", h: "Planes secretos aprobados en secreto", x: "El Vertrauensgremium, formado por miembros de la comisión de presupuesto, aprueba y controla los planes económicos del BND, el BfV y el MAD; al resto del Parlamento solo le llega el total.", obj: "Mantener en secreto el detalle del gasto.", who: "Bundestag", u: "https://www.bundestag.de/ausschuesse/a08_haushalt/vertrauensgremium", st: "Bundestag" },
+    { k: "presupuesto", rol: "autor", ev: 1, d: "2026", h: "El BND recibe más dinero", x: "El presupuesto del BND pasa de 1.510 millones de euros en 2026 a 1.850 millones previstos para 2027.", monto: "€ 1.510 M (2026) · € 1.850 M (2027, proyecto)", obj: "Más personal, técnica y capacidad operativa frente a Rusia.", who: "Bundestag", u: "https://www.bundestag.de/presse/hib/kurzmeldungen-1205354", st: "Bundestag (hib, agosto de 2026)" },
+    { k: "desvio", rol: "autor", ev: 2, d: "2010–2022", h: "Documentos del BND a cambio de dinero", x: "Según la fiscalía, August Hanning pagó a su ex jefe de oficina para recibir casi 2.000 documentos del BND y los usó en su negocio de consultoría.", obj: "Lucro privado con información del Estado.", who: "Fiscalía federal de Alemania; rige la presunción de inocencia", u: "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/ex-bnd-praesidenten-august-hanning-festgenommen-2026-10-06", st: "beck-aktuell" },
+    { k: "cobertura", rol: "blanco", ev: 2, d: "2026-01", h: "Una asociación de lobby prorrusa", x: "La germano-ucraniana detenida en Berlín ofrecía servicios de marketing y presidía una asociación de lobby, mientras pasaba información a la embajada rusa, según la fiscalía.", obj: "Acceso a círculos políticos y datos sobre la guerra.", who: "Fiscalía federal de Alemania", u: "https://www.zdfheute.de/politik/deutschland/berlin-mutmassliche-spionin-russland-anklage-100.html", st: "ZDF" }
+  ],
+  companies: [
+    { n: "Rohde & Schwarz", c: "nacional", rubro: "Comunicaciones y guerra electrónica", rel: "Contratista", x: "Provee equipos de radio, cifrado e interceptación a las fuerzas armadas y a organismos de seguridad." },
+    { n: "Hensoldt", c: "nacional", rubro: "Sensores y defensa", rel: "Contratista", x: "Fabrica radares y sistemas de inteligencia electrónica; el Estado alemán tiene una participación." },
+    { n: "Deutsche Telekom", c: "nacional", rubro: "Telecomunicaciones", rel: "Cooperación con el Estado", x: "La comisión NSA del Bundestag examinó el acceso del BND a cables de la empresa en la operación Eikonal." },
+    { n: "FinFisher", c: "nacional", rubro: "Software espía", rel: "Exportador investigado", x: "Vendió el troyano FinSpy a gobiernos; quebró en 2022 tras una investigación por exportaciones sin permiso." },
+    { n: "Crypto AG", c: "extranjera", rubro: "Cifrado", rel: "Propiedad encubierta", x: "Empresa suiza que el BND y la CIA controlaron en secreto entre 1970 y 1993." }
+  ],
+  struggles: [
+    { a: "Cancillería y BND", b: "Defensores de derechos civiles", k: "Con la sociedad civil", stake: "Alcance de la reforma de 2026", state: "Abierta", x: "La Sociedad por los Derechos Civiles y colegios de abogados advierten que la reforma debilita el secreto profesional y el control." },
+    { a: "BfV", b: "AfD", k: "Con la política", stake: "Vigilancia del principal partido opositor", state: "Abierta", x: "El partido litiga contra su calificación como extremista y un tribunal frenó al BfV en 2026; el caso de fondo sigue." },
+    { a: "BND", b: "Tribunal Constitucional", k: "Con otros poderes", stake: "Límites a la interceptación", state: "Latente", x: "Karlsruhe obligó a reescribir las reglas de interceptación y fijó plazos que empujan la reforma." },
+    { a: "BfV", b: "Oficinas regionales", k: "Entre agencias", stake: "Coordinación y datos", state: "Latente", x: "El sistema federal de 17 oficinas dificultó compartir información, como mostraron el NSU y Amri." },
+    { a: "Alemania", b: "Rusia", k: "Con otros Estados", stake: "Apoyo a Ucrania y guerra híbrida", state: "Abierta", x: "Sabotajes, espionaje y desinformación rusos frente a detenciones, expulsiones y nuevas leyes alemanas." }
+  ],
+  sources: [
+    { t: "Bundestag: audiencia pública de los jefes de los servicios (octubre de 2026)", u: "https://www.bundestag.de/presse/hib/kurzmeldungen-1222500" },
+    { t: "Bundestag: presupuesto 2027 del BND", u: "https://www.bundestag.de/presse/hib/kurzmeldungen-1205354" },
+    { t: "ESUT: Martin Jäger asume en el BND", u: "https://esut.de/2025/09/meldungen/63395/martin-jaeger-ist-praesident-des-bundesnachrichtendienstes/" },
+    { t: "Deutschland.de: el BND quiere ser la primera línea de defensa", u: "https://www.deutschland.de/en/news/bnd-leader-wants-to-turn-the-intelligence-service-into-a-defence-unit" },
+    { t: "beck-aktuell: la reforma de los servicios (agosto de 2026)", u: "https://www.beck-aktuell.de/heute-im-recht/rechtspolitik-gesetzgebung/bundesregierung-gesetzreform-nachrichtendienste-bnd-verfassungsschutz-aktive-befugnisse-2026-08-12" },
+    { t: "beck-aktuell: el BND a los 70 años", u: "https://www.beck-aktuell.de/heute-im-recht/rechtspolitik-gesetzgebung/bnd-70-jahre-wandel-kriege-ki-hybride-kriegsfuehrung-2026-04-23" },
+    { t: "beck-aktuell: informe de protección de la Constitución 2025", u: "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/verfassungsschutzbericht-2025-vorgestellt-2026-06-30" },
+    { t: "Jura Online: el tribunal de Colonia y la AfD", u: "https://jura-online.de/blog/2026/03/05/verfassungsschutz-und-das-parteienprivileg-vg-koeln-bremst-das-bundesamt-im-eilverfahren/" },
+    { t: "beck-aktuell: detención de August Hanning", u: "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/ex-bnd-praesidenten-august-hanning-festgenommen-2026-10-06" },
+    { t: "Fiscalía federal: acusación contra Carsten L. y Arthur E.", u: "https://generalbundesanwalt.de/SharedDocs/Pressemitteilungen/EN/2023/Pressemitteilung-vom-08-09-2023.html" },
+    { t: "Euronews: Leipzig y la responsabilidad rusa", u: "https://de.euronews.com/my-europe/2026/09/02/verbindungen-russland-ermittler-drohnen-angreifer-leipzig" },
+    { t: "Bundestag: informe final de la comisión NSA (2017)", u: "https://dserver.bundestag.de/btd/18/128/1812850.pdf" }
   ]
- },
- "rights": [
-  {
-   "d": "1953",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1959",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1968",
-   "dir": "recorta",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1977",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1984",
-   "dir": "recorta",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1995",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2002",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2010",
-   "dir": "recorta",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "2020",
-   "dir": "amplia",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  }
- ],
- "events": [
-  {
-   "d": "1961-07-05",
-   "lat": 54.46,
-   "lon": 7.93,
-   "t": "encubierta",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1968-03-23",
-   "lat": 14.67,
-   "lon": 46,
-   "t": "contra",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1972-02-07",
-   "lat": 54.07,
-   "lon": 9.28,
-   "t": "humana",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1976-06-01",
-   "lat": 39.26,
-   "lon": -105.02,
-   "t": "sabotaje",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1982-12-10",
-   "lat": 10.29,
-   "lon": -30.34,
-   "t": "contra",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1986-10-11",
-   "lat": 50.67,
-   "lon": 11.14,
-   "t": "contra",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1990-10-13",
-   "lat": 51.38,
-   "lon": 13.04,
-   "t": "senales",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1995-12-17",
-   "lat": -18.67,
-   "lon": -81.47,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1998-06-24",
-   "lat": -27.63,
-   "lon": -39.53,
-   "t": "senales",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2001-02-26",
-   "lat": -20.24,
-   "lon": 96.32,
-   "t": "sabotaje",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2006-02-20",
-   "lat": 25.67,
-   "lon": -14.68,
-   "t": "senales",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2011-03-24",
-   "lat": 3.86,
-   "lon": 120.25,
-   "t": "contra",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2017-10-17",
-   "lat": 49.43,
-   "lon": 13.39,
-   "t": "sabotaje",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2020-04-15",
-   "lat": 49.41,
-   "lon": 10.2,
-   "t": "encubierta",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  }
- ],
- "interest": {
-  "United Kingdom": 3,
-  "France": 3,
-  "Israel": 3,
-  "India": 1,
-  "Syria": 1,
-  "Iraq": 1,
-  "Brazil": 1,
-  "South Korea": 2,
-  "North Korea": 2,
-  "Taiwan": 2,
-  "Libya": 1,
-  "Sudan": 1,
-  "Mali": 2,
-  "Serbia": 1,
-  "Indonesia": 1,
-  "Somalia": 2
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "2010",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1981",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2001",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "2019",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1985",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "2009",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };

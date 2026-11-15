@@ -532,6 +532,57 @@
   "tecnica": "Texto de prueba.",
   "enlaces": "Texto de prueba."
  },
+ "dinero": {
+  "presupuesto": "Texto de prueba.",
+  "uso": "Texto de prueba.",
+  "ingresos": "Texto de prueba.",
+  "empresas": "Texto de prueba.",
+  "bancos": "Texto de prueba.",
+  "crimen": "Texto de prueba.",
+  "cobertura": "Texto de prueba."
+ },
+ "fondos": [
+  {
+   "k": "presupuesto",
+   "rol": "autor",
+   "ev": 1,
+   "d": "20XX",
+   "h": "Presupuesto de prueba",
+   "x": "Texto de prueba.",
+   "monto": "Monto de prueba",
+   "who": "Ley de presupuesto"
+  },
+  {
+   "k": "fachada",
+   "rol": "autor",
+   "ev": 2,
+   "d": "19XX",
+   "h": "Empresa de fachada de prueba",
+   "x": "Texto de prueba.",
+   "obj": "Texto de prueba.",
+   "who": "Una investigación periodística"
+  },
+  {
+   "k": "crimen",
+   "rol": "autor",
+   "ev": 3,
+   "d": "20XX",
+   "h": "Vínculo criminal de prueba",
+   "x": "Texto de prueba.",
+   "obj": "Texto de prueba.",
+   "who": "Un ex agente"
+  },
+  {
+   "k": "cobertura",
+   "rol": "blanco",
+   "ev": 2,
+   "d": "20XX",
+   "h": "ONG de cobertura de prueba",
+   "x": "Texto de prueba.",
+   "obj": "Texto de prueba.",
+   "who": "Un gobierno extranjero"
+  }
+ ],
  "insiders": [
   {
    "k": "denunciante",

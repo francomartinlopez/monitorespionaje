@@ -67,6 +67,15 @@ Object.entries(FICHAS).forEach(([id, f]) => {
     if (!x.d || !x.h || !x.x || !x.who) err(w, `insiders[${i}] incompleto (d, h, x, who)`);
     if (!f.sample && !isUrl(x.u)) err(w, `insiders[${i}] sin fuente (u)`);
   });
+  if (!f.sample) (ctx.DINERO || []).forEach(m => { if (!f.dinero?.[m.k]) warn(w, `dinero.${m.k} vacío (dinero y coberturas)`); });
+  if (!f.sample && !(f.fondos || []).length) warn(w, "ficha real sin casos de dinero y coberturas");
+  (f.fondos || []).forEach((x, i) => {
+    if (!["presupuesto", "fachada", "banco", "crimen", "cobertura", "desvio"].includes(x.k)) err(w, `fondos[${i}].k inválido`);
+    if (!["autor", "blanco"].includes(x.rol)) err(w, `fondos[${i}].rol inválido (autor|blanco)`);
+    if (![1, 2, 3, 4].includes(x.ev)) err(w, `fondos[${i}].ev inválido`);
+    if (!x.d || !x.h || !x.x || !x.who) err(w, `fondos[${i}] incompleto (d, h, x, who)`);
+    if (!f.sample && !isUrl(x.u)) err(w, `fondos[${i}] sin fuente (u)`);
+  });
   if (!f.sample && !(f.leaks || []).length) warn(w, "ficha real sin filtraciones ni desinformación");
   (f.leaks || []).forEach((x, i) => {
     if (!["filtracion", "accidental", "robo", "ocultamiento", "desinfo"].includes(x.k)) err(w, `leaks[${i}].k inválido`);

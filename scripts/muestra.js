@@ -94,6 +94,13 @@ for (const p of ctx.PAISES) {
       { k: "falsa", ev: 4, w: 1, d: "20XX", h: "Teoría de prueba", x: P, why: P + " Qué la desmiente.", wx: "", who: "Redes sociales" }
     ],
     modus: { embajadas: P, campo: P, oficina: P, reclutamiento: P, tecnica: P, enlaces: P },
+    dinero: { presupuesto: P, uso: P, ingresos: P, empresas: P, bancos: P, crimen: P, cobertura: P },
+    fondos: [
+      { k: "presupuesto", rol: "autor", ev: 1, d: "20XX", h: "Presupuesto de prueba", x: P, monto: "Monto de prueba", who: "Ley de presupuesto" },
+      { k: "fachada", rol: "autor", ev: 2, d: "19XX", h: "Empresa de fachada de prueba", x: P, obj: P, who: "Una investigación periodística" },
+      { k: "crimen", rol: "autor", ev: 3, d: "20XX", h: "Vínculo criminal de prueba", x: P, obj: P, who: "Un ex agente" },
+      { k: "cobertura", rol: "blanco", ev: 2, d: "20XX", h: "ONG de cobertura de prueba", x: P, obj: P, who: "Un gobierno extranjero" }
+    ],
     insiders: [
       { k: "denunciante", dir: "sale", ev: 1, d: "20XX", n: "Persona de prueba", h: "Denuncia de prueba", x: P, cargo: "Organismo de prueba", hacia: "Un medio", fin: P, who: "Un tribunal" },
       { k: "topo", dir: "sale", ev: 1, d: "19XX", n: "Persona de prueba", h: "Topo de prueba", x: P, cargo: "Organismo de prueba", hacia: "Un servicio extranjero", fin: P, who: "Un tribunal" },

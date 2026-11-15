@@ -208,7 +208,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   }
 
   // ================= FICHA DE PAÍS =================
-  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Fallas y falsas banderas"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
+  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Fallas y falsas banderas"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["dinero", "Dinero y coberturas"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
 
   function renderCountry(p) {
     const f = FICHAS[p.id];
@@ -294,6 +294,14 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
         <div class="fl-list" id="lkList"></div>
       </section>
 
+      <section class="block" id="sec-dinero">
+        <h2>Dinero y coberturas <small>Cuánto les da el Estado y cuánto se sabe, en qué lo gastan, otros ingresos, empresas de fachada, bancos, crimen organizado y organizaciones de cobertura</small></h2>
+        ${f.dinero ? `<div class="prio modus">${window.DINERO.filter(m => f.dinero[m.k]).map(m => `<div><span>${esc(m.n)}</span><p>${esc(f.dinero[m.k])}</p></div>`).join("")}</div>` : `<p class="muted">Sin datos cargados todavía.</p>`}
+        <h3 class="sub">Casos documentados</h3>
+        <div class="chips" id="fdChips"></div>
+        <div class="fl-list" id="fdList"></div>
+      </section>
+
       <section class="block" id="sec-relaciones">
         <h2>Relaciones <small>Con otros servicios y con empresas nacionales y extranjeras</small></h2>
         ${relCols(p)}
@@ -332,6 +340,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     drawFailures(f);
     drawKinds(f.insiders, "px", PX_KIND, PX_DIR, x => `${x.cargo ? `<dt>Dónde estaba</dt><dd>${esc(x.cargo)}</dd>` : ""}${x.hacia ? `<dt>A quién</dt><dd>${esc(x.hacia)}</dd>` : ""}${x.fin ? `<dt>Qué pasó</dt><dd>${esc(x.fin)}</dd>` : ""}`);
     drawKinds(f.leaks, "lk", LK_KIND, LK_ROL, x => `${x.aquien ? `<dt>A quién se ocultó</dt><dd>${esc(x.aquien)}</dd>` : ""}${x.como ? `<dt>Cómo salió a la luz</dt><dd>${esc(x.como)}</dd>` : ""}${x.obj ? `<dt>Objetivo o efecto</dt><dd>${esc(x.obj)}</dd>` : ""}`);
+    drawKinds(f.fondos, "fd", FD_KIND, LK_ROL, x => `${x.monto ? `<dt>Monto</dt><dd>${esc(x.monto)}</dd>` : ""}${x.obj ? `<dt>Para qué</dt><dd>${esc(x.obj)}</dd>` : ""}`);
     // mapa con línea de tiempo
     const m = OpMap(document.getElementById("opMap"), p, f);
     cleanup = () => { io.disconnect(); m.destroy(); };
@@ -436,6 +445,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   const PX_DIR = { sale: "Desde adentro", entra: "Desde afuera" };
   const LK_KIND = { filtracion: { n: "Filtración intencional", c: "var(--cyan)" }, accidental: { n: "Filtración no intencional", c: "var(--blue)" }, robo: { n: "Robo de información", c: "var(--violet)" }, ocultamiento: { n: "Ocultamiento", c: "var(--amber-lo)" }, desinfo: { n: "Desinformación", c: "var(--magenta)" } };
   const LK_ROL = { autor: "Lo hizo", blanco: "Lo sufrió" };
+  const FD_KIND = { presupuesto: { n: "Presupuesto", c: "var(--cyan)" }, fachada: { n: "Empresa de fachada", c: "var(--violet)" }, banco: { n: "Bancos y finanzas", c: "var(--blue)" }, crimen: { n: "Crimen organizado", c: "var(--magenta)" }, cobertura: { n: "ONG y cobertura", c: "var(--amber-lo)" }, desvio: { n: "Desvío o uso indebido", c: "var(--red)" } };
   // lista cronológica con filtros por tipo y por dirección (sirve para personas y para filtraciones)
   function drawKinds(items, pre, KIND, DIR, extra) {
     const chips = document.getElementById(pre + "Chips"), list = document.getElementById(pre + "List"), F = items || [];

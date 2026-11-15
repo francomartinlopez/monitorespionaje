@@ -34,6 +34,16 @@ window.MODUS = [
   { k: "enlaces", n: "Enlaces y apoyos", x: "Servicios aliados, fuerzas armadas, policía, empresas e intermediarios." }
 ];
 
+window.DINERO = [
+  { k: "presupuesto", n: "Presupuesto y transparencia", x: "Cuánto les asigna el Estado, qué parte es pública y quién la controla." },
+  { k: "uso", n: "En qué se gasta", x: "Personal, técnica, operaciones, pagos a fuentes y gastos reservados." },
+  { k: "ingresos", n: "Otras fuentes de ingreso", x: "Ingresos propios, negocios, fondos de otros países o de actividades ilegales." },
+  { k: "empresas", n: "Empresas propias y de fachada", x: "Compañías controladas por el servicio o usadas como cobertura." },
+  { k: "bancos", n: "Bancos y circuitos financieros", x: "Cuentas, bancos amigos, paraísos fiscales y seguimiento del dinero ajeno." },
+  { k: "crimen", n: "Relación con el crimen organizado", x: "Uso de mafias, contrabandistas o extremistas como fuentes, socios o instrumentos." },
+  { k: "cobertura", n: "ONG y organizaciones de cobertura", x: "Fundaciones, asociaciones, medios y ONG usadas como pantalla o canal de fondos." }
+];
+
 window.RUBROS = [
   { k: "humana", n: "Inteligencia humana", s: "HUMINT", x: "Agentes, informantes y redes de reclutamiento." },
   { k: "senales", n: "Señales y comunicaciones", s: "SIGINT", x: "Interceptación de comunicaciones y señales electrónicas." },
