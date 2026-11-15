@@ -1,625 +1,143 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Argentina · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["ar"] = {
- "sample": true,
- "id": "ar",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Argentina: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "6",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 2,
-  "senales": 2,
-  "ciber": 2,
-  "imagenes": 1,
-  "encubierta": 1,
-  "contra": 2
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "SIDE": {
-   "since": 1983,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Secretaría de Inteligencia de Estado: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "SIA": {
-   "since": 2005,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio de Inteligencia Argentino: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "ASN": {
-   "since": 2006,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Agencia de Seguridad Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "AFC": {
-   "since": 2006,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Agencia Federal de Ciberseguridad: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "DNIEM": {
-   "since": 1933,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Dirección Nacional de Inteligencia Estratégica Militar: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "DNIC": {
-   "since": 1912,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Dirección Nacional de Inteligencia Criminal: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "CBI": {
-   "since": 1909,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comisión Bicameral de Fiscalización de los Organismos de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "ar",
+  updated: "2026-11-15",
+  summary: [
+    "El sistema de inteligencia argentino volvió a girar alrededor de la Secretaría de Inteligencia de Estado (SIDE). Javier Milei disolvió en julio de 2024 la Agencia Federal de Inteligencia (AFI), creada en 2015 tras la muerte del fiscal Alberto Nisman, y restituyó la SIDE con cuatro organismos debajo.",
+    "La SIDE tuvo tres jefes en dos años: Silvestre Sívori, Sergio Neiffert y, desde diciembre de 2025, el contador Cristian Auguadra, cercano al asesor presidencial Santiago Caputo. Su presupuesto vigente ronda los 176.000 millones de pesos en 2026, tras varias ampliaciones por decreto.",
+    "El decreto de necesidad y urgencia 941/2025, vigente desde el 2 de enero de 2026, reformó la Ley de Inteligencia sin pasar por el Congreso. Declaró encubiertas todas las actividades de inteligencia, habilitó a los agentes a aprehender personas en flagrancia o por pedido judicial y le dio a la SIDE el control del presupuesto del resto del sistema.",
+    "La historia pesa: la SIDE fue parte de la represión de la dictadura y del Plan Cóndor, y la Justicia condenó el desvío de la investigación del atentado a la AMIA. La desconfianza explica por qué cada reforma por decreto choca con la oposición, organizaciones de derechos humanos y parte del Congreso."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Secretario de Inteligencia", v: "Cristian Auguadra", n: "desde el 3 dic 2025 (Decreto 852/2025)" },
+    { l: "Presupuesto vigente", v: "$ 176.000 M", n: "2026, tras ampliaciones por decreto (Chequeado)" },
+    { l: "Ley marco", v: "Ley 25.520", n: "de 2001, reformada por los DNU 614/2024 y 941/2025" },
+    { l: "Jefes de la SIDE con Milei", v: "3", n: "Sívori, Neiffert y Auguadra" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 2, senales: 2, ciber: 2, imagenes: 1, encubierta: 1, contra: 2 },
+  powerWhy: {
+    humana: "Tiene presencia en la región y enlace con servicios aliados como la CIA, pero sin una red global documentada.",
+    senales: "La interceptación de comunicaciones en el país la gestiona un organismo de la Corte Suprema por orden judicial; no se conoce capacidad propia relevante en el exterior.",
+    ciber: "Creó en 2024 una agencia de ciberseguridad, convertida en ciberinteligencia en 2026; todavía en formación.",
+    imagenes: "Argentina tiene satélites civiles de observación (SAOCOM), pero no un programa de inteligencia por imágenes conocido.",
+    encubierta: "Tuvo operaciones en el exterior en la dictadura (Plan Cóndor, Centroamérica, Algeciras); hoy no hay acción encubierta externa documentada.",
+    contra: "Contrainteligencia reorganizada en 2026; su historial frente al terrorismo (Embajada y AMIA) es de falla grave."
+  },
+  priorities: [
+    { h: "Terrorismo y Medio Oriente", x: "Hezbollah e Irán tras los atentados de 1992 y 1994, y la cercanía con Israel y EE.UU. del gobierno actual." },
+    { h: "Crimen organizado", x: "Narcotráfico en Rosario y en la Triple Frontera, contrabando y lavado." },
+    { h: "Ciberseguridad", x: "Protección de redes del Estado tras sucesivos hackeos a organismos públicos." },
+    { h: "Recursos estratégicos", x: "El plan de inteligencia de 2025 incluyó litio, energía y recursos naturales como áreas de interés." },
+    { h: "Malvinas y Atlántico Sur", x: "Presencia militar británica, pesca ilegal y la proyección antártica." }
+  ],
+  focos: ["Triple Frontera", "Rosario y el narcotráfico", "Medio Oriente (Irán y Hezbollah)", "Atlántico Sur y Malvinas", "Ciberespacio estatal"],
+  bodies: {
+    "SIDE": { since: 1946, how: "Órgano superior del Sistema de Inteligencia Nacional: conduce a los demás organismos, aprueba sus presupuestos y coordina a las áreas de inteligencia de Defensa y Seguridad. Responde al presidente; desde 2026 tiene además un subsecretario con facultades delegadas.", staff: "No se publica.", budget: "Unos 176.000 millones de pesos vigentes en 2026, con una parte de gastos reservados que no rinden cuentas en público (Chequeado).", tech: ["Plan de Inteligencia Nacional", "Coordinación de la Comunidad de Inteligencia Nacional"], where: ["Buenos Aires (sede de calle 25 de Mayo)"] },
+    "SIA": { since: 2024, how: "Servicio de inteligencia sobre todo exterior, creado al disolverse la AFI. Reúne información sobre amenazas externas y mantiene el enlace con servicios extranjeros.", staff: "No se publica.", budget: "Dentro del presupuesto de la SIDE.", tech: ["Inteligencia humana", "Enlace con servicios aliados"], where: ["Exterior", "Buenos Aires"] },
+    "ANC": { since: 2024, how: "Nació como Agencia de Seguridad Nacional, dedicada a amenazas internas y crimen organizado, y en 2026 pasó a llamarse Agencia Nacional de Contrainteligencia.", staff: "No se publica.", budget: "Dentro del presupuesto de la SIDE.", tech: ["Contrainteligencia", "Seguimiento de amenazas internas"], where: ["Argentina"] },
+    "AFC": { since: 2024, how: "Creada como Agencia Federal de Ciberseguridad y transformada en 2026 en Agencia Federal de Ciberinteligencia. La protección de redes del Estado pasó a otra área del gobierno.", staff: "No se publica.", budget: "Dentro del presupuesto de la SIDE.", tech: ["Ciberinteligencia", "Análisis de amenazas digitales"], where: ["Argentina"] },
+    "DNIEM": { since: 2001, how: "Inteligencia estratégica militar del Ministerio de Defensa. La ley le prohíbe hacer inteligencia sobre asuntos de política interna.", staff: "No se publica.", budget: "Dentro del presupuesto de Defensa.", tech: ["Inteligencia militar"], where: ["Argentina", "Atlántico Sur"] },
+    "DNIC": { since: 2001, how: "Inteligencia criminal del Ministerio de Seguridad: coordina la información de las fuerzas federales sobre delitos complejos.", staff: "No se publica.", budget: "Dentro del presupuesto de Seguridad.", tech: ["Bases de datos de fuerzas federales"], where: ["Argentina"] },
+    "IGI": { since: 2024, how: "Control interno del sistema. Nació como División de Asuntos Internos, que dirigió Auguadra, y en 2026 pasó a ser Inspectoría General de Inteligencia.", staff: "No se publica.", budget: "Dentro del presupuesto de la SIDE.", tech: [], where: ["Buenos Aires"] },
+    "CBI": { since: 2001, how: "Comisión del Congreso que controla a los organismos de inteligencia, revisa los gastos reservados y recibe un informe anual secreto.", staff: "Diputados y senadores de varios bloques.", budget: "Parte del Congreso.", tech: [], where: ["Congreso de la Nación"] }
+  },
+  civil: [
+    "La SIDE depende directamente de la Presidencia. En la práctica, la prensa atribuye su conducción política al asesor Santiago Caputo, que no tiene cargo formal sobre el organismo.",
+    "El DNU 941/2025 sumó un control explícito desde la Jefatura de Gabinete y creó una Comunidad de Inteligencia Nacional que reúne a las áreas de inteligencia de Defensa, Seguridad y otros organismos bajo la dirección de la SIDE.",
+    "Los presidentes suelen cambiar a su jefe de inteligencia durante el mandato; Milei lleva tres en dos años."
+  ],
+  law: {
+    domestic: [
+      "La Ley 25.520 prohíbe hacer inteligencia sobre personas por su raza, religión, acciones privadas u opinión política, y prohíbe usar el sistema para influir en la política interna.",
+      "Interceptar comunicaciones exige orden judicial; desde 2016 las ejecuta una dirección de la Corte Suprema, no los servicios.",
+      "Desde 2026 los agentes pueden aprehender personas en flagrancia o por pedido judicial, con aviso inmediato a la policía, algo que la ley original les negaba."
+    ],
+    foreign: [
+      "El SIA concentra la inteligencia exterior y el enlace con servicios extranjeros.",
+      "La SIDE puede pedir apoyo técnico y logístico a las Fuerzas Armadas y de seguridad para ciertas tareas.",
+      "Todas las actividades de inteligencia son encubiertas desde 2026, lo que amplía el secreto sobre las operaciones."
+    ],
+    oversight: [
+      "Comisión Bicameral de Fiscalización de los Organismos y Actividades de Inteligencia del Congreso.",
+      "Control de los decretos por la Comisión Bicameral de Trámite Legislativo; el Congreso puede rechazarlos con el voto de ambas cámaras.",
+      "Inspectoría General de Inteligencia, como control interno."
+    ]
+  },
+  rights: [
+    { d: "1976", dir: "amplia", area: "Debido proceso", h: "Dictadura y represión clandestina", x: "La SIDE y el Batallón de Inteligencia 601 del Ejército participan en secuestros, centros clandestinos y la coordinación regional del Plan Cóndor." },
+    { d: "1988", dir: "recorta", area: "Debido proceso", h: "Ley de Defensa Nacional", x: "Prohíbe a las Fuerzas Armadas hacer inteligencia sobre asuntos de política interna." },
+    { d: "2001", dir: "recorta", area: "Privacidad", h: "Ley de Inteligencia Nacional 25.520", x: "Prohíbe la inteligencia por motivos políticos, religiosos o privados y crea la comisión de control del Congreso." },
+    { d: "2015", dir: "recorta", area: "Comunicaciones", h: "Ley 27.126: nace la AFI", x: "Tras la muerte de Nisman, las escuchas salen de manos de los servicios y se limitan los fondos reservados." },
+    { d: "2016", dir: "amplia", area: "Transparencia", h: "Vuelve el secreto de los fondos reservados", x: "Un decreto de Mauricio Macri restituye el carácter secreto de los gastos de la AFI." },
+    { d: "2024-07", dir: "amplia", area: "Debido proceso", h: "DNU 614/2024: vuelve la SIDE", x: "Disuelve la AFI, reorganiza el sistema y habilita a los servicios a actuar otra vez como auxiliares de la Justicia." },
+    { d: "2024", dir: "recorta", area: "Transparencia", h: "El Congreso rechaza más fondos reservados", x: "Ambas cámaras rechazan el DNU que daba 100.000 millones de pesos en gastos reservados a la SIDE, el primer decreto anulado así en la historia." },
+    { d: "2025-05", dir: "amplia", area: "Expresión", h: "Se filtra el Plan de Inteligencia Nacional", x: "La Nación revela que el plan contempla vigilar a quienes erosionen la confianza en el gobierno; el gobierno lo niega." },
+    { d: "2026-01", dir: "amplia", area: "Debido proceso", h: "DNU 941/2025", x: "Declara encubiertas todas las actividades de inteligencia, permite aprehender personas y amplía la ciberinteligencia." }
+  ],
+  events: [
+    { d: "1976-06-01", lat: -34.63, lon: -58.47, c: "Argentina", t: "encubierta", ev: 1, h: "Automotores Orletti", x: "Centro clandestino operado por la SIDE con servicios de Uruguay y Chile dentro del Plan Cóndor; la Justicia condenó a sus responsables en 2011.", u: "https://es.wikipedia.org/wiki/Automotores_Orletti", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1980-06-12", lat: -12.05, lon: -77.04, c: "Peru", t: "encubierta", ev: 1, h: "Secuestros en Lima", x: "Inteligencia del Ejército argentino secuestra a militantes montoneros en Lima con apoyo local, en el marco del Plan Cóndor.", u: "https://es.wikipedia.org/wiki/Operaci%C3%B3n_C%C3%B3ndor", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1981-01-01", lat: 14.08, lon: -87.21, c: "Honduras", t: "encubierta", ev: 1, h: "Asesores en Centroamérica", x: "Oficiales del Batallón de Inteligencia 601 entrenan a la contra nicaragüense desde Honduras, antes de que EE.UU. tomara el control de la operación.", u: "https://es.wikipedia.org/wiki/Batall%C3%B3n_de_Inteligencia_601", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1982-05-01", lat: 36.13, lon: -5.45, c: "Spain", t: "sabotaje", ev: 1, h: "Operación Algeciras", x: "Durante la guerra de Malvinas, un comando argentino prepara volar un buque británico en Gibraltar; la policía española lo detiene antes.", u: "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Algeciras", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1995-07-01", lat: -34.6, lon: -58.4, c: "Argentina", t: "humana", ev: 1, h: "El pago a Telleldín", x: "Con fondos de la SIDE se pagan 400.000 dólares al acusado Carlos Telleldín para que involucre a policías bonaerenses en el atentado a la AMIA; la Justicia lo condenó como encubrimiento.", u: "https://chequeado.com/el-explicador/amia-5-claves-para-entender-el-fallo-de-casacion-en-la-causa-por-el-encubrimiento-del-atentado/", st: "Chequeado" },
+    { d: "2018-01-15", lat: -38.0, lon: -57.55, c: "Argentina", t: "humana", ev: 2, h: "Seguimiento a familiares del ARA San Juan", x: "Agentes de la AFI fotografiaron y siguieron a familiares de los tripulantes del submarino. La Justicia sobreseyó a Macri y a la cúpula de la AFI al no considerarlo delito.", u: "https://www.mdzol.com/politica/la-corte-suprema-cerro-la-causa-del-ara-san-juan-y-confirmo-el-sobreseimiento-mauricio-macri-n1373173", st: "MDZ" }
+  ],
+  interest: {
+    "United Kingdom": 3, "Iran": 3, "Lebanon": 2, "Paraguay": 2, "Brazil": 2, "Chile": 2, "Bolivia": 2, "Venezuela": 2, "United States of America": 2, "Israel": 2, "China": 2,
+    "Uruguay": 1, "Russia": 1, "Colombia": 1, "Peru": 1, "Falkland Is.": 3
+  },
+  timeline: [
+    { era: "Orígenes", d: "1946", h: "Nace la CIDE", x: "Perón crea la Coordinación de Informaciones de Estado, antecesora de la SIDE." },
+    { era: "", d: "1956", h: "Secretaría de Informaciones de Estado (SIDE)", x: "El organismo toma el nombre con el que se lo conoció durante medio siglo." },
+    { era: "Dictadura", d: "1976–1983", h: "Represión y Plan Cóndor", x: "La SIDE y el Batallón 601 participan en desapariciones y en la coordinación con otras dictaduras." },
+    { era: "", d: "1982", h: "Guerra de Malvinas", x: "Falla de evaluación sobre la reacción británica, documentada luego en el Informe Rattenbach." },
+    { era: "Democracia", d: "1988", h: "Ley de Defensa Nacional", x: "Los militares quedan fuera de la inteligencia interior." },
+    { era: "", d: "1992–1994", h: "Atentados a la Embajada de Israel y a la AMIA", x: "107 muertos en total; los servicios no los anticiparon y luego desviaron la investigación." },
+    { era: "", d: "2001", h: "Ley de Inteligencia Nacional", x: "Primer marco legal integral, con control del Congreso." },
+    { era: "", d: "2013", h: "Memorándum con Irán", x: "El acuerdo para investigar la AMIA con Irán abre una crisis con parte de la Justicia y de los servicios." },
+    { era: "", d: "2014", h: "Desplazan a Antonio Stiuso", x: "Sale el histórico director de operaciones de la SIDE, en medio de la pelea con el gobierno de Cristina Kirchner." },
+    { era: "", d: "2015", h: "Muerte de Nisman y nace la AFI", x: "El fiscal de la causa AMIA aparece muerto días después de denunciar a la presidenta; se disuelve la SIDE." },
+    { era: "", d: "2019", h: "Condenas por el encubrimiento de la AMIA", x: "Un tribunal oral condena a ex funcionarios, entre ellos el ex jefe de la SIDE Hugo Anzorreguy y el ex juez Juan José Galeano." },
+    { era: "Milei", d: "2024", h: "Vuelve la SIDE", x: "El DNU 614/2024 disuelve la AFI; el Congreso rechaza el aumento de fondos reservados. Casación atribuye la AMIA a Irán y Hezbollah." },
+    { era: "", d: "2025", h: "Plan filtrado y cambio de jefe", x: "Se filtra el Plan de Inteligencia Nacional; Auguadra reemplaza a Neiffert y se aprueba un juicio en ausencia por la AMIA." },
+    { era: "", d: "2026", h: "DNU 941/2025", x: "Reforma por decreto que vuelve encubiertas todas las actividades y habilita aprehensiones.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "1994–2004", h: "Encubrimiento del atentado a la AMIA", x: "La SIDE pagó 400.000 dólares a un acusado para que inculpara a policías y desviara la investigación. La Justicia condenó a ex funcionarios en 2019 y Casación revisó las condenas en 2024.", who: "Tribunal Oral Federal 2 y Cámara Federal de Casación Penal", missing: "", u: "https://chequeado.com/el-explicador/amia-5-claves-para-entender-el-fallo-de-casacion-en-la-causa-por-el-encubrimiento-del-atentado/", st: "Chequeado" },
+    { ev: 1, ilegal: true, d: "1976–1983", h: "Centros clandestinos y Plan Cóndor", x: "La SIDE operó el centro clandestino Automotores Orletti, donde pasaron detenidos argentinos, uruguayos y chilenos. Sus responsables fueron condenados por crímenes de lesa humanidad.", who: "Tribunales federales (juicios de lesa humanidad)", missing: "", u: "https://es.wikipedia.org/wiki/Automotores_Orletti", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: false, d: "2015", h: "La muerte de Alberto Nisman", x: "El fiscal de la causa AMIA apareció muerto de un disparo en enero de 2015. La investigación judicial sostiene que fue un homicidio vinculado a su trabajo, pero no identificó a los autores; la pericia clave es cuestionada por la defensa.", who: "Fiscal Eduardo Taiano y la Cámara Federal", missing: "Identificar a los autores y una pericia que no esté en disputa. La hipótesis de participación de agentes de inteligencia no tiene pruebas.", u: "https://www.iprofesional.com/politica/420990-se-cumplen-diez-anos-de-la-muerte-del-fiscal-nisman-como-sigue-la-investigacion", st: "iProfesional" },
+    { ev: 2, ilegal: false, d: "2018", h: "Seguimiento a familiares del ARA San Juan", x: "Agentes de la AFI fotografiaron y reunieron datos de familiares de los 44 tripulantes del submarino. La Corte Suprema dejó firme el sobreseimiento de Macri y de la cúpula de la AFI.", who: "Familiares de las víctimas y fiscales de la causa", missing: "Un fallo que considere ilegales esas tareas; la Justicia entendió que no hubo delito.", u: "https://www.mdzol.com/politica/la-corte-suprema-cerro-la-causa-del-ara-san-juan-y-confirmo-el-sobreseimiento-mauricio-macri-n1373173", st: "MDZ" },
+    { ev: 3, ilegal: true, d: "2016–2019", h: "Las bases AMBA", x: "Se investigó una red de bases de la AFI en el conurbano que habría espiado a dirigentes políticos. El juez Julián Ercolini sobreseyó a la cúpula de la AFI por falta de elementos.", who: "Querellas y la comisión de control del Congreso", missing: "Pruebas que vinculen las tareas con órdenes de la conducción; la causa terminó sin condenas.", u: "https://www.mdzol.com/politica/bases-amba-sobreseyeron-la-cupula-la-afi-el-macrismo-presunto-espionaje-ilegal-n1557851", st: "MDZ" },
+    { ev: 2, ilegal: true, d: "2025", h: "El Plan de Inteligencia Nacional", x: "La Nación reveló que el plan de la SIDE contemplaba reunir información sobre quienes erosionen la confianza pública en el gobierno, e incluía a organizaciones ambientalistas. El gobierno dijo que es un documento secreto y negó espionaje interno.", who: "La Nación (Hugo Alconada Mon) y organizaciones civiles", missing: "El documento completo o una confirmación oficial de su contenido.", u: "https://www.lanacion.com.ar/sociedad/polemica-y-denuncia-la-side-contempla-monitorear-tambien-a-organizaciones-ambientalistas-e-nid19062025", st: "La Nación" }
+  ],
+  failures: [
+    { k: "falla", d: "1982-04-02", ev: 1, w: 3, h: "Malvinas: la reacción británica", x: "La conducción militar y su inteligencia supusieron que el Reino Unido no respondería con una fuerza de guerra y que EE.UU. se mantendría neutral.", why: "No está en duda: el informe de la comisión Rattenbach, encargado por las propias Fuerzas Armadas, señaló errores graves de evaluación.", wx: "Informe Rattenbach (1983), desclasificado en 2012.", who: "Comisión Rattenbach", u: "https://es.wikipedia.org/wiki/Informe_Rattenbach", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falla", d: "1992-03-17", ev: 1, w: 3, h: "Atentado a la Embajada de Israel", x: "Un coche bomba destruye la embajada y mata a 22 personas. Los servicios no lo anticiparon y la investigación quedó años estancada.", why: "La falla no está en duda. Casación atribuyó el ataque a Hezbollah con apoyo de Irán en 2024.", wx: "Fallos de la Corte Suprema (1999) y de Casación (2024).", who: "Corte Suprema y Cámara Federal de Casación Penal", u: "https://chequeado.com/el-explicador/amia-5-claves-para-entender-el-fallo-de-casacion-en-la-causa-por-el-encubrimiento-del-atentado/", st: "Chequeado" },
+    { k: "falla", d: "1994-07-18", ev: 1, w: 3, h: "Atentado a la AMIA", x: "Un segundo ataque, con 85 muertos, dos años después del primero. A la falla de prevención se sumó el desvío de la investigación desde la propia SIDE.", why: "No está en duda: hay condenas por el encubrimiento y un fallo de Casación de 2024 que atribuye el ataque a Irán y Hezbollah.", wx: "Juicio por encubrimiento (2019) y fallo de Casación (2024).", who: "Tribunales federales", u: "https://chequeado.com/el-explicador/amia-5-claves-para-entender-el-fallo-de-casacion-en-la-causa-por-el-encubrimiento-del-atentado/", st: "Chequeado" },
+    { k: "falsa", d: "1995", ev: 1, w: 3, h: "La pista policial fabricada", x: "No fue un ataque disfrazado, sino una pista falsa: con dinero de la SIDE se compró la declaración de Telleldín para culpar a policías bonaerenses del atentado.", why: "No está en duda: el tribunal que juzgó el encubrimiento dio por probado el pago y la maniobra.", wx: "Sentencias de 2019 y 2024.", who: "Tribunal Oral Federal 2 y Casación", u: "https://chequeado.com/el-explicador/amia-5-claves-para-entender-el-fallo-de-casacion-en-la-causa-por-el-encubrimiento-del-atentado/", st: "Chequeado" },
+    { k: "falsa", d: "1992", ev: 4, w: 1, h: "La embajada voló desde adentro", x: "Circula la versión de que la explosión de la Embajada de Israel fue interna y no un coche bomba, lo que exculparía a los autores externos.", why: "Teoría sin sustento: la Corte Suprema dio por probado el coche bomba en 1999 y atribuyó el ataque a la Jihad Islámica, brazo de Hezbollah. Prendió por las demoras y el secreto de la investigación.", wx: "Peritajes y fallo de la Corte Suprema.", who: "Versiones difundidas en los años noventa", u: "https://es.wikipedia.org/wiki/Atentado_a_la_Embajada_de_Israel_en_Buenos_Aires", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "Empresas de telecomunicaciones", c: "nacional", rubro: "Telecomunicaciones", rel: "Obligación legal", x: "Deben habilitar las escuchas ordenadas por jueces, que desde 2016 ejecuta una dirección de la Corte Suprema y no los servicios." }
+  ],
+  struggles: [
+    { a: "Santiago Caputo", b: "Karina Milei", k: "Interna del gobierno", stake: "Control de la SIDE", state: "Abierta", x: "El reemplazo de Neiffert por Auguadra en diciembre de 2025 fue leído como un triunfo de Caputo en la interna con la secretaria general de la Presidencia." },
+    { a: "Poder Ejecutivo", b: "Congreso", k: "Con otros poderes", stake: "Fondos reservados y reformas por decreto", state: "Abierta", x: "El Congreso anuló en 2024 el aumento de gastos reservados; la oposición busca rechazar el DNU 941/2025, que el gobierno sostiene con apoyo de aliados." },
+    { a: "Servicios", b: "Justicia federal", k: "Con otros poderes", stake: "Influencia sobre causas judiciales", state: "Histórica", x: "Durante décadas la SIDE mantuvo vínculos con juzgados federales; la salida de Antonio Stiuso en 2014 expuso esa relación." },
+    { a: "SIDE", b: "Periodistas y organizaciones civiles", k: "Con la sociedad civil", stake: "Vigilancia interna", state: "Abierta", x: "La filtración del Plan de Inteligencia Nacional y el DNU 941/2025 generaron denuncias penales y pedidos de explicaciones en el Congreso." }
+  ],
+  sources: [
+    { t: "Chequeado: de la AFI a la SIDE, qué cambió Milei en el sistema de inteligencia", u: "https://chequeado.com/el-explicador/de-la-afi-a-la-side-de-santiago-caputo-que-cambio-milei-en-el-sistema-de-inteligencia/" },
+    { t: "Chequeado: el presupuesto de la SIDE en 2026", u: "https://chequeado.com/el-explicador/el-gobierno-volvio-a-aumentar-el-presupuesto-de-la-side-sumo-mas-de-30-mil-millones-y-ya-recibio-casi-80-mil-millones-extra-en-los-ultimos-50-dias/" },
+    { t: "Buenos Aires Times: Milei nombra a Auguadra al frente de la SIDE", u: "https://batimes.com.ar/news/argentina/milei-names-argentinas-new-spy-boss-in-side-leadership-switch.phtml" },
+    { t: "Marval: cambios estructurales en la Ley de Inteligencia (DNU 941/2025)", u: "https://www.marval.com/Publicacion/cambios-estructurales-en-la-ley-de-inteligencia-nacional-17452" },
+    { t: "El Cronista: el Congreso y los decretos sobre la SIDE", u: "https://www.cronista.com/economia-politica/el-gobierno-prepara-una-tercera-reforma-por-ley-y-relativiza-la-amenaza-del-congreso-al-dnu" },
+    { t: "La Nación: el Plan de Inteligencia Nacional y las organizaciones ambientalistas", u: "https://www.lanacion.com.ar/sociedad/polemica-y-denuncia-la-side-contempla-monitorear-tambien-a-organizaciones-ambientalistas-e-nid19062025" },
+    { t: "Chequeado: 5 claves del fallo de Casación sobre el encubrimiento de la AMIA", u: "https://chequeado.com/el-explicador/amia-5-claves-para-entender-el-fallo-de-casacion-en-la-causa-por-el-encubrimiento-del-atentado/" },
+    { t: "El Litoral: confirman el juicio en ausencia por la AMIA", u: "https://www.ellitoral.com/politica/juicio-ausencia-amia-atentado-decision-judicial-iranies-acusados-justicia-federal-rafecas-procesamiento_0_zQENsx9zVe.html" },
+    { t: "iProfesional: cómo sigue la causa por la muerte de Nisman", u: "https://www.iprofesional.com/politica/420990-se-cumplen-diez-anos-de-la-muerte-del-fiscal-nisman-como-sigue-la-investigacion" },
+    { t: "MDZ: la Corte cierra la causa por espionaje a familiares del ARA San Juan", u: "https://www.mdzol.com/politica/la-corte-suprema-cerro-la-causa-del-ara-san-juan-y-confirmo-el-sobreseimiento-mauricio-macri-n1373173" },
+    { t: "MDZ: sobreseen a la cúpula de la AFI en la causa de las bases AMBA", u: "https://www.mdzol.com/politica/bases-amba-sobreseyeron-la-cupula-la-afi-el-macrismo-presunto-espionaje-ilegal-n1557851" },
+    { t: "El Observador: Caputo se impone en la interna por la SIDE", u: "https://www.elobservador.com.uy/argentina/politica/milei-cambio-al-jefe-la-side-y-santiago-caputo-se-impuso-la-interna-karina-n6026831/amp" }
   ]
- },
- "rights": [
-  {
-   "d": "1951",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1961",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1970",
-   "dir": "recorta",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1975",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1983",
-   "dir": "recorta",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1995",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2002",
-   "dir": "recorta",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2012",
-   "dir": "recorta",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2019",
-   "dir": "amplia",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  }
- ],
- "events": [
-  {
-   "d": "1961-10-06",
-   "lat": 2.53,
-   "lon": -81.77,
-   "t": "senales",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1965-11-01",
-   "lat": -35.42,
-   "lon": -58.29,
-   "t": "senales",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1971-04-08",
-   "lat": -35.34,
-   "lon": -62.81,
-   "t": "sabotaje",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1975-06-18",
-   "lat": -39.56,
-   "lon": 79.49,
-   "t": "sabotaje",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1981-03-15",
-   "lat": -30.78,
-   "lon": -56.72,
-   "t": "encubierta",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1984-01-24",
-   "lat": -30.97,
-   "lon": -59.79,
-   "t": "encubierta",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1991-05-19",
-   "lat": -36.02,
-   "lon": -53.11,
-   "t": "sabotaje",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1994-07-01",
-   "lat": 5.32,
-   "lon": 9.87,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1998-04-14",
-   "lat": -36.64,
-   "lon": -55.93,
-   "t": "senales",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2004-12-19",
-   "lat": -30.78,
-   "lon": -59.53,
-   "t": "senales",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2007-01-11",
-   "lat": 7.58,
-   "lon": -103.83,
-   "t": "senales",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2012-05-10",
-   "lat": 18.84,
-   "lon": -70.77,
-   "t": "senales",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2015-01-22",
-   "lat": -30.75,
-   "lon": -62.95,
-   "t": "ciber",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2023-06-26",
-   "lat": -16.05,
-   "lon": 6.55,
-   "t": "humana",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  }
- ],
- "interest": {
-  "France": 1,
-  "Israel": 1,
-  "Saudi Arabia": 3,
-  "Venezuela": 1,
-  "Mexico": 1,
-  "Brazil": 1,
-  "Japan": 2,
-  "Egypt": 2,
-  "Belarus": 1,
-  "Serbia": 1,
-  "Indonesia": 3,
-  "Vietnam": 2,
-  "Somalia": 2
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1965",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "2016",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "1988",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "2016",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1990",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1971",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };

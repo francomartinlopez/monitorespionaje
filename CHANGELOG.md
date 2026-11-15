@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ola 2: ficha real de Argentina (organigrama actualizado al DNU 941/2025, presupuesto 2026, conducción de Auguadra, nueve hitos de derechos civiles, operaciones de la dictadura a 2018, casos AMIA, Orletti, Nisman, ARA San Juan, bases AMBA y Plan de Inteligencia Nacional, fallas y falsas banderas). Línea de derechos civiles: hitos ubicados por mes y alturas escalonadas para que no se pisen.
+
 - 2026-11-15 · Nueva sección en cada ficha: "Fallas y falsas banderas", una cronología de fallas de inteligencia y operaciones de falsa bandera, cada una con nivel de evidencia, por qué está o no en duda y cuánta evidencia hay sobre esa duda. Cargada para EE.UU. (8 fallas, 4 falsas banderas).
 
 - 2026-11-15 · Fase 1 completa: escala de poder y de interés estratégico en Metodología, justificación de cada valor de poder en las fichas, validador (`scripts/validate.js`, con prueba en navegador) y guía de estilo. Fase 2, ola 1: primera ficha real, Estados Unidos (18 organismos, 12 hitos de derechos civiles, 18 operaciones con fuente, 12 casos, empresas y luchas de poder; datos al 15-nov-2026). Pendiente de verificación: que abran los enlaces de fuentes históricas citados de memoria (Senado, National Security Archive, Wikipedia).

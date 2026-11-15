@@ -355,15 +355,17 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   }
 
   function rightsChart(f) {
-    const R = f.rights, ys = R.map(r => +String(r.d).slice(0, 4)), y0 = Math.min(...ys) - 3, y1 = Math.max(...ys, 2026) + 1;
+    const R = f.rights, yf = r => +String(r.d).slice(0, 4) + ((+String(r.d).slice(5, 7) || 1) - 1) / 12;
+    const ys = R.map(yf), y0 = Math.min(...ys) - 3, y1 = Math.max(...ys, 2026) + 1;
+    const cnt = { amplia: 0, recorta: 0 }, lvl = R.map(r => cnt[r.dir]++ % 4);
     const x = y => 3 + (y - y0) / (y1 - y0) * 94;
     const up = R.filter(r => r.dir === "amplia").length;
     return `<div class="rights">
       <div class="rights-sum"><span style="color:var(--orange)">▲ ${up} hitos amplían la vigilancia</span><span style="color:var(--ph)">▼ ${R.length - up} agregan controles</span>${sampleTag(f.sample)}</div>
       <div class="rights-axis"><div class="line"></div><span class="lab up">Más poder de vigilancia</span><span class="lab dn">Más controles y derechos</span>
-      ${R.map((r, i) => { const h = 34 + (i % 3) * 22, upd = r.dir === "amplia", c = upd ? "var(--orange)" : "var(--ph)";
-        return `<button type="button" class="rmark" data-i="${i}" aria-label="${esc(r.d)}: ${esc(r.h)}" style="--c:${c};left:${x(+String(r.d).slice(0, 4))}%;${upd ? `bottom:50%;flex-direction:column` : `top:50%;flex-direction:column-reverse`}">
-          <span class="yr">${esc(r.d)}</span><span class="cap"></span><span class="stem" style="height:${h}px"></span></button>`; }).join("")}
+      ${R.map((r, i) => { const h = 22 + lvl[i] * 20, upd = r.dir === "amplia", c = upd ? "var(--orange)" : "var(--ph)";
+        return `<button type="button" class="rmark" data-i="${i}" aria-label="${esc(r.d)}: ${esc(r.h)}" style="--c:${c};left:${x(yf(r))}%;${upd ? `bottom:50%;flex-direction:column` : `top:50%;flex-direction:column-reverse`}">
+          <span class="yr">${esc(String(r.d).slice(0, 4))}</span><span class="cap"></span><span class="stem" style="height:${h}px"></span></button>`; }).join("")}
       </div>
       <div class="rights-detail" id="rightsDetail">Tocá un hito para ver qué ley, fallo, programa o reforma fue y qué derecho tocó.</div></div>`;
   }

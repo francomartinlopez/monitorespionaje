@@ -103,11 +103,12 @@ window.PAISES = [
     agencies: [
       { code: "SIDE", name: "Secretaría de Inteligencia de Estado", g: "k" },
       { code: "SIA", name: "Servicio de Inteligencia Argentino", g: "c" },
-      { code: "ASN", name: "Agencia de Seguridad Nacional", g: "p" },
-      { code: "AFC", name: "Agencia Federal de Ciberseguridad", g: "c" },
+      { code: "ANC", name: "Agencia Nacional de Contrainteligencia (ex Agencia de Seguridad Nacional)", g: "p" },
+      { code: "AFC", name: "Agencia Federal de Ciberinteligencia", g: "c" },
       { code: "DNIEM", name: "Dirección Nacional de Inteligencia Estratégica Militar", g: "m" },
       { code: "DNIC", name: "Dirección Nacional de Inteligencia Criminal", g: "p" },
-      { code: "CBI", name: "Comisión Bicameral de Fiscalización de los Organismos de Inteligencia", g: "j" }
+      { code: "IGI", name: "Inspectoría General de Inteligencia", g: "j" },
+      { code: "CBI", name: "Comisión Bicameral de Fiscalización de los Organismos y Actividades de Inteligencia", g: "j" }
     ] },
   { id: "va", name: "Vaticano", short: "Vaticano", map: "Vatican", tier: 1, center: [12.45, 41.9],
     note: "No tiene un servicio de inteligencia formal. Su capacidad de información descansa en la red diplomática y en la seguridad interna.",
