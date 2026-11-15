@@ -1,0 +1,536 @@
+// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+(window.FICHAS = window.FICHAS || {})["br"] = {
+ "sample": true,
+ "id": "br",
+ "updated": "2026-11-15",
+ "summary": [
+  "Texto de prueba. Panorama de la comunidad de inteligencia de Brasil: su peso en el mundo, su lógica y sus prioridades.",
+  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
+ ],
+ "keyFacts": [
+  {
+   "l": "Organismos",
+   "v": "4",
+   "n": "en el organigrama"
+  },
+  {
+   "l": "Presupuesto",
+   "v": "[DATO]",
+   "n": "dato de prueba"
+  },
+  {
+   "l": "Personal",
+   "v": "[DATO]",
+   "n": "dato de prueba"
+  },
+  {
+   "l": "Ley marco",
+   "v": "[LEY]",
+   "n": "dato de prueba"
+  }
+ ],
+ "power": {
+  "humana": 2,
+  "senales": 2,
+  "ciber": 2,
+  "imagenes": 2,
+  "encubierta": 1,
+  "contra": 2
+ },
+ "priorities": [
+  {
+   "h": "Prioridad de prueba 1",
+   "x": "Texto de prueba."
+  },
+  {
+   "h": "Prioridad de prueba 2",
+   "x": "Texto de prueba."
+  },
+  {
+   "h": "Prioridad de prueba 3",
+   "x": "Texto de prueba."
+  },
+  {
+   "h": "Prioridad de prueba 4",
+   "x": "Texto de prueba."
+  }
+ ],
+ "focos": [
+  "Foco de prueba A",
+  "Foco de prueba B",
+  "Foco de prueba C"
+ ],
+ "bodies": {
+  "GSI": {
+   "since": 1974,
+   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
+   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
+   "how": "Texto de prueba. Cómo trabaja Gabinete de Seguridad Institucional: misión, a quién responde y qué puede hacer.",
+   "tech": [
+    "Tecnología de prueba A",
+    "Tecnología de prueba B"
+   ],
+   "where": [
+    "Región de prueba 1",
+    "Región de prueba 2"
+   ]
+  },
+  "ABIN": {
+   "since": 1904,
+   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
+   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
+   "how": "Texto de prueba. Cómo trabaja Agencia Brasileña de Inteligencia: misión, a quién responde y qué puede hacer.",
+   "tech": [
+    "Tecnología de prueba A",
+    "Tecnología de prueba B"
+   ],
+   "where": [
+    "Región de prueba 1",
+    "Región de prueba 2"
+   ]
+  },
+  "PF": {
+   "since": 1984,
+   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
+   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
+   "how": "Texto de prueba. Cómo trabaja Inteligencia de la Policía Federal: misión, a quién responde y qué puede hacer.",
+   "tech": [
+    "Tecnología de prueba A",
+    "Tecnología de prueba B"
+   ],
+   "where": [
+    "Región de prueba 1",
+    "Región de prueba 2"
+   ]
+  },
+  "Defensa": {
+   "since": 2005,
+   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
+   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
+   "how": "Texto de prueba. Cómo trabaja Inteligencia de las Fuerzas Armadas: misión, a quién responde y qué puede hacer.",
+   "tech": [
+    "Tecnología de prueba A",
+    "Tecnología de prueba B"
+   ],
+   "where": [
+    "Región de prueba 1",
+    "Región de prueba 2"
+   ]
+  },
+  "CCAI": {
+   "since": 1912,
+   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
+   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
+   "how": "Texto de prueba. Cómo trabaja Comisión Mixta de Control de las Actividades de Inteligencia: misión, a quién responde y qué puede hacer.",
+   "tech": [
+    "Tecnología de prueba A",
+    "Tecnología de prueba B"
+   ],
+   "where": [
+    "Región de prueba 1",
+    "Región de prueba 2"
+   ]
+  }
+ },
+ "law": {
+  "domestic": [
+   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
+   "Texto de prueba. Límites a la interceptación dentro del país."
+  ],
+  "foreign": [
+   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
+   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  ],
+  "oversight": [
+   "Texto de prueba. Control parlamentario.",
+   "Texto de prueba. Control judicial.",
+   "Texto de prueba. Inspectores y auditorías."
+  ]
+ },
+ "rights": [
+  {
+   "d": "1952",
+   "dir": "recorta",
+   "h": "Hito de prueba 1",
+   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
+   "area": "Comunicaciones"
+  },
+  {
+   "d": "1962",
+   "dir": "amplia",
+   "h": "Hito de prueba 2",
+   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
+   "area": "Datos personales"
+  },
+  {
+   "d": "1967",
+   "dir": "amplia",
+   "h": "Hito de prueba 3",
+   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
+   "area": "Debido proceso"
+  },
+  {
+   "d": "1975",
+   "dir": "amplia",
+   "h": "Hito de prueba 4",
+   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
+   "area": "Debido proceso"
+  },
+  {
+   "d": "1987",
+   "dir": "recorta",
+   "h": "Hito de prueba 5",
+   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
+   "area": "Comunicaciones"
+  },
+  {
+   "d": "1993",
+   "dir": "recorta",
+   "h": "Hito de prueba 6",
+   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
+   "area": "Datos personales"
+  },
+  {
+   "d": "2001",
+   "dir": "amplia",
+   "h": "Hito de prueba 7",
+   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
+   "area": "Privacidad"
+  },
+  {
+   "d": "2010",
+   "dir": "amplia",
+   "h": "Hito de prueba 8",
+   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
+   "area": "Expresión"
+  },
+  {
+   "d": "2017",
+   "dir": "recorta",
+   "h": "Hito de prueba 9",
+   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
+   "area": "Privacidad"
+  }
+ ],
+ "events": [
+  {
+   "d": "1961-01-10",
+   "lat": -31.43,
+   "lon": -28.06,
+   "t": "contra",
+   "h": "Operación de prueba 1",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 2
+  },
+  {
+   "d": "1968-12-08",
+   "lat": -14.35,
+   "lon": -53.71,
+   "t": "humana",
+   "h": "Operación de prueba 2",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 2
+  },
+  {
+   "d": "1970-07-21",
+   "lat": 43.1,
+   "lon": 23.46,
+   "t": "contra",
+   "h": "Operación de prueba 3",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 1
+  },
+  {
+   "d": "1973-01-12",
+   "lat": -18.91,
+   "lon": -43.06,
+   "t": "ciber",
+   "h": "Operación de prueba 4",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 3
+  },
+  {
+   "d": "1981-07-04",
+   "lat": -15.54,
+   "lon": -52.43,
+   "t": "contra",
+   "h": "Operación de prueba 5",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 2
+  },
+  {
+   "d": "1983-05-04",
+   "lat": 27.61,
+   "lon": -43.49,
+   "t": "ciber",
+   "h": "Operación de prueba 6",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 1
+  },
+  {
+   "d": "1988-04-09",
+   "lat": -12.7,
+   "lon": -51.84,
+   "t": "humana",
+   "h": "Operación de prueba 7",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 2
+  },
+  {
+   "d": "1994-12-01",
+   "lat": -15.71,
+   "lon": -43.65,
+   "t": "humana",
+   "h": "Operación de prueba 8",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 1
+  },
+  {
+   "d": "1999-10-17",
+   "lat": -17.67,
+   "lon": -0.31,
+   "t": "ciber",
+   "h": "Operación de prueba 9",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 2
+  },
+  {
+   "d": "2004-03-07",
+   "lat": 0.06,
+   "lon": 124.72,
+   "t": "contra",
+   "h": "Operación de prueba 10",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 3
+  },
+  {
+   "d": "2009-12-25",
+   "lat": 15.84,
+   "lon": -50.53,
+   "t": "sabotaje",
+   "h": "Operación de prueba 11",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 2
+  },
+  {
+   "d": "2012-02-20",
+   "lat": 45.54,
+   "lon": 127,
+   "t": "humana",
+   "h": "Operación de prueba 12",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 1
+  },
+  {
+   "d": "2015-04-26",
+   "lat": 25.75,
+   "lon": -103.82,
+   "t": "sabotaje",
+   "h": "Operación de prueba 13",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 1
+  },
+  {
+   "d": "2022-06-15",
+   "lat": -23.52,
+   "lon": 126.76,
+   "t": "senales",
+   "h": "Operación de prueba 14",
+   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
+   "ev": 1
+  }
+ ],
+ "timeline": [
+  {
+   "era": "Orígenes",
+   "d": "19XX",
+   "h": "Hito de prueba",
+   "x": "Texto de prueba."
+  },
+  {
+   "era": "",
+   "d": "19XX",
+   "h": "Hito de prueba",
+   "x": "Texto de prueba."
+  },
+  {
+   "era": "Guerra Fría",
+   "d": "19XX",
+   "h": "Hito de prueba",
+   "x": "Texto de prueba."
+  },
+  {
+   "era": "",
+   "d": "19XX",
+   "h": "Hito de prueba",
+   "x": "Texto de prueba."
+  },
+  {
+   "era": "",
+   "d": "19XX",
+   "h": "Hito de prueba",
+   "x": "Texto de prueba."
+  },
+  {
+   "era": "Posguerra Fría",
+   "d": "19XX",
+   "h": "Hito de prueba",
+   "x": "Texto de prueba."
+  },
+  {
+   "era": "",
+   "d": "20XX",
+   "h": "Hito de prueba",
+   "x": "Texto de prueba."
+  },
+  {
+   "era": "Era digital",
+   "d": "20XX",
+   "h": "Hito de prueba",
+   "x": "Texto de prueba."
+  },
+  {
+   "era": "",
+   "d": "20XX",
+   "h": "Hito de prueba",
+   "x": "Texto de prueba.",
+   "now": true
+  }
+ ],
+ "cases": [
+  {
+   "ev": 1,
+   "h": "Caso de prueba 1",
+   "d": "2001",
+   "ilegal": true,
+   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
+   "who": "Una comisión parlamentaria",
+   "missing": "",
+   "debunk": ""
+  },
+  {
+   "ev": 1,
+   "h": "Caso de prueba 2",
+   "d": "2009",
+   "ilegal": false,
+   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
+   "who": "Un gobierno extranjero",
+   "missing": "",
+   "debunk": ""
+  },
+  {
+   "ev": 2,
+   "h": "Caso de prueba 3",
+   "d": "2010",
+   "ilegal": false,
+   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
+   "who": "Una comisión parlamentaria",
+   "missing": "Texto de prueba. Qué falta para subir de categoría.",
+   "debunk": ""
+  },
+  {
+   "ev": 2,
+   "h": "Caso de prueba 4",
+   "d": "1998",
+   "ilegal": false,
+   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
+   "who": "Un tribunal",
+   "missing": "Texto de prueba. Qué falta para subir de categoría.",
+   "debunk": ""
+  },
+  {
+   "ev": 3,
+   "h": "Caso de prueba 5",
+   "d": "1970",
+   "ilegal": true,
+   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
+   "who": "Un ex agente",
+   "missing": "Texto de prueba. Qué falta para subir de categoría.",
+   "debunk": ""
+  },
+  {
+   "ev": 4,
+   "h": "Caso de prueba 6",
+   "d": "2018",
+   "ilegal": true,
+   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
+   "who": "Un ex agente",
+   "missing": "Texto de prueba. Qué falta para subir de categoría.",
+   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
+  }
+ ],
+ "companies": [
+  {
+   "n": "Empresa nacional de prueba",
+   "c": "nacional",
+   "rubro": "Defensa",
+   "rel": "Contratista",
+   "x": "Texto de prueba."
+  },
+  {
+   "n": "Empresa nacional de prueba",
+   "c": "nacional",
+   "rubro": "Telecomunicaciones",
+   "rel": "Cooperación legal",
+   "x": "Texto de prueba."
+  },
+  {
+   "n": "Empresa extranjera de prueba",
+   "c": "extranjera",
+   "rubro": "Tecnología",
+   "rel": "Proveedor",
+   "x": "Texto de prueba."
+  },
+  {
+   "n": "Empresa extranjera de prueba",
+   "c": "extranjera",
+   "rubro": "Software espía",
+   "rel": "Objetivo de vigilancia",
+   "x": "Texto de prueba."
+  }
+ ],
+ "civil": [
+  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
+  "Texto de prueba. Relación con la cancillería y otros ministerios."
+ ],
+ "struggles": [
+  {
+   "a": "Organismo A",
+   "b": "Organismo B",
+   "k": "Entre agencias",
+   "stake": "Presupuesto y control",
+   "state": "Abierta",
+   "x": "Texto de prueba."
+  },
+  {
+   "a": "Sección interna X",
+   "b": "Sección interna Y",
+   "k": "Interna",
+   "stake": "Conducción",
+   "state": "Latente",
+   "x": "Texto de prueba."
+  },
+  {
+   "a": "Servicios",
+   "b": "Justicia",
+   "k": "Con otros poderes",
+   "stake": "Causas judiciales",
+   "state": "Abierta",
+   "x": "Texto de prueba."
+  },
+  {
+   "a": "Servicios",
+   "b": "Partido o empresa",
+   "k": "Con la política y la economía",
+   "stake": "Influencia",
+   "state": "Latente",
+   "x": "Texto de prueba."
+  }
+ ],
+ "sources": [
+  {
+   "t": "Fuente de prueba",
+   "u": "#"
+  }
+ ]
+};
