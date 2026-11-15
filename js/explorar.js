@@ -14,6 +14,7 @@
     { id: "software-espia", k: "Mapa", n: "Mercado del software espía", x: "Proveedores, herramientas y a quién le venden." },
     { id: "expulsiones", k: "Mapa", n: "Expulsiones y canjes", x: "Diplomáticos expulsados y espías canjeados, año por año." },
     { id: "personas", k: "Red", n: "Personas", x: "Topos, desertores, agentes dobles y directores." },
+    { id: "practicas", k: "Tabla", n: "Qué hace cada servicio", x: "A quién espían y si hay casos de extorsión, asesinatos, tortura, armas o asistencia." },
     { id: "comparar", k: "Herramienta", n: "Comparar dos países", x: "Poder, leyes, casos y relación, cara a cara." },
     { id: "cronologia", k: "Línea de tiempo", n: "Cronología global", x: "Un carril por país en la misma línea de tiempo." },
     { id: "archivo", k: "Documentos", n: "Archivo desclasificado", x: "Fondos documentales y documentos de cada caso." }
@@ -154,6 +155,24 @@
       const go = () => document.getElementById("per-" + i).scrollIntoView({ behavior: "smooth", block: "center" });
       g.addEventListener("click", go); g.addEventListener("keydown", e => { if (e.key === "Enter") go(); });
     });
+  } };
+
+  // ================= PRÁCTICAS POR PAÍS =================
+  R.practicas = { title: "Qué hace cada servicio", render() {
+    const PR = window.PRACTICAS, NONE = window.PRAC_NONE, groups = [...new Set(PR.map(x => x.g))];
+    const anySample = PAISES.some(p => FICHAS[p.id]?.sample);
+    const rows = PAISES.map(p => { const f = FICHAS[p.id] || {};
+      return `<tr><td class="c"><a href="#p-${p.id}">${esc(p.name)}</a>${f.sample ? ` <span class="muted" style="font-size:11px">(sin cargar)</span>` : ""}</td>${PR.map(m => {
+        const v = f.sample ? null : f.practicas?.[m.k]; if (!v) return `<td><span class="cell na" title="Sin cargar"></span></td>`;
+        const E = v.ev ? EVI[v.ev] : NONE;
+        return `<td><span class="cell${v.ev ? "" : " none"}" style="--c:${E.c}" title="${esc(p.name)} · ${esc(m.n)}: ${esc(E.n)}. ${esc(v.x)}"></span></td>`; }).join("")}</tr>`; }).join("");
+    app.innerHTML = head("Qué hace cada servicio", "A quién espía cada país y si hay casos documentados de extorsión, asesinatos, tortura y secuestros, o de armas, inteligencia, tecnología y entrenamiento dados a otros. El color es el nivel de evidencia del caso más firme; pasá el cursor por una celda para leer el resumen y entrá a la ficha para ver la fuente.", false) + `
+      <div class="pm-leg">${[1, 2, 3, 4].map(e => `<span style="--c:${EVI[e].c}"><i></i>${EVI[e].n}</span>`).join("")}<span><i style="background:transparent;border:1px dashed #2b4033"></i>Sin casos documentados</span><span><i style="background:transparent;border:1px solid #1a2a20"></i>Sin cargar</span></div>
+      <div class="pm-wrap"><table class="pm"><thead>
+        <tr><th></th>${groups.map(g => `<th class="g" colspan="${PR.filter(x => x.g === g).length}">${esc(g)}</th>`).join("")}</tr>
+        <tr><th></th>${PR.map(m => `<th title="${esc(m.x)}">${esc(m.n)}</th>`).join("")}</tr></thead>
+        <tbody>${rows}</tbody></table></div>
+      <p class="muted" style="font-size:13px">"Sin casos documentados" significa que la ficha no encontró casos públicos, no que se pueda descartar la práctica.</p>`;
   } };
 
   // ================= COMPARAR =================

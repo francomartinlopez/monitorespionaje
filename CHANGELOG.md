@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Nueva sección "Qué hacen y a quién espían" en cada ficha: espionaje a funcionarios propios, políticos, periodistas, activistas y ONG, aliados y rivales; extorsión, asesinatos, tortura y secuestros; armas, inteligencia, tecnología y entrenamiento dados a otros, cada uno con nivel de evidencia y fuente. Nueva tabla en Explorar (#practicas) que compara los 20 países; las fichas de prueba aparecen sin pintar. Cargada para Alemania.
+
 - 2026-11-15 · Nueva sección "Dinero y coberturas" en cada ficha: presupuesto y cuánto se sabe, en qué se gasta, otros ingresos, empresas de fachada, bancos, crimen organizado y ONG de cobertura, más una lista de casos documentados con filtros. Cargada para Alemania; el validador avisa en las otras siete fichas reales hasta completarlas.
 
 - 2026-11-15 · Ola 3: ficha real de Alemania (BND, BfV, MAD, coordinación en la Cancillería y PKGr; conducción de Jäger, Selen y Rosenberg; presupuesto del BND 2026-2027, reforma con medidas activas, freno judicial en el caso AfD, dron de Leipzig y detención del ex presidente del BND August Hanning; 15 operaciones, 7 casos, 6 fallas y falsas banderas, 7 topos y desertores, 7 filtraciones, ocultamientos y campañas, 8 casos de dinero).

@@ -208,7 +208,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   }
 
   // ================= FICHA DE PAÍS =================
-  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Fallas y falsas banderas"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["dinero", "Dinero y coberturas"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
+  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Fallas y falsas banderas"], ["practicas", "Qué hacen y a quién espían"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["dinero", "Dinero y coberturas"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
 
   function renderCountry(p) {
     const f = FICHAS[p.id];
@@ -280,6 +280,11 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
         <h2>Fallas y falsas banderas <small>Fallas de inteligencia y operaciones de falsa bandera, confirmadas o en duda, y cuánta evidencia hay</small></h2>
         <div class="chips" id="flChips"></div>
         <div class="fl-list" id="flList"></div>
+      </section>
+
+      <section class="block" id="sec-practicas">
+        <h2>Qué hacen y a quién espían <small>Si hay casos documentados de espionaje a su propio gobierno, a políticos, periodistas, activistas, aliados y rivales; de extorsión, asesinatos, tortura y secuestros; y de armas, inteligencia, tecnología y entrenamiento dados a otros</small></h2>
+        ${pracBlock(f)}
       </section>
 
       <section class="block" id="sec-gente">
@@ -469,6 +474,16 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     chips.querySelectorAll("[data-k]").forEach(b => b.addEventListener("click", () => { kind = b.dataset.k; chips.querySelectorAll("[data-k]").forEach(x => x.classList.toggle("on", x === b)); draw(); }));
     chips.querySelectorAll("[data-r]").forEach(b => b.addEventListener("click", () => { dir = dir === b.dataset.r ? "all" : b.dataset.r; chips.querySelectorAll("[data-r]").forEach(x => { x.classList.toggle("on", x.dataset.r === dir); x.setAttribute("aria-pressed", String(x.dataset.r === dir)); }); draw(); }));
     draw();
+  }
+
+  function pracBlock(f) {
+    if (!f.practicas) return `<p class="muted">Sin datos cargados todavía.</p>`;
+    const groups = [...new Set(window.PRACTICAS.map(x => x.g))];
+    return groups.map(g => `<h3 class="sub">${esc(g)}</h3><div class="pr-grid">${window.PRACTICAS.filter(x => x.g === g).map(m => {
+      const v = f.practicas[m.k] || { ev: 0, x: "" }, E = v.ev ? EVI[v.ev] : window.PRAC_NONE;
+      return `<div class="pr${v.ev ? "" : " none"}" style="--c:${E.c}"><div class="pr-h"><b>${esc(m.n)}</b><span class="evtag" style="--c:${E.c}">${esc(E.n)}</span></div>
+        <p>${esc(v.x || "")}</p>${v.u ? `<a href="${esc(v.u)}" target="_blank" rel="noopener">${esc(v.st || "Fuente")}</a>` : ""}</div>`; }).join("")}</div>`).join("")
+      + `<p class="muted" style="font-size:13px;margin:10px 0 0">El color indica el nivel de evidencia del caso más firme. "Sin casos documentados" significa que esta ficha no encontró casos públicos, no que se pueda descartar.</p>`;
   }
 
   function relCols(p) {

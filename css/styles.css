@@ -515,3 +515,25 @@ a:hover .lane-l { fill: var(--ph); }
 .modus p { margin: 0; font-size: 14px; color: var(--soft); }
 .prio.modus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 @media (max-width: 900px) { .prio.modus { grid-template-columns: 1fr; } }
+
+/* Qué hacen y a quién espían */
+.pr-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.pr { background: var(--surface); border: 1px solid #1f3327; border-left: 3px solid var(--c); border-radius: var(--r); padding: 11px 13px; }
+.pr.none { opacity: .72; }
+.pr-h { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 6px; }
+.pr-h b { font-weight: 600; color: var(--text-hi); font-size: 14px; }
+.pr-h .evtag { margin-top: 0; white-space: nowrap; }
+.pr p { margin: 0 0 4px; font-size: 13.5px; color: var(--soft); }
+.pr a { font: 500 11.5px var(--f-mono); color: var(--ph); }
+.pm-wrap { overflow-x: auto; }
+.pm { border-collapse: collapse; font-size: 12.5px; min-width: 900px; }
+.pm th { font: 500 10.5px var(--f-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .04em; padding: 6px 4px; vertical-align: bottom; }
+.pm th.g { color: var(--orange); text-align: left; border-bottom: 1px solid var(--line); }
+.pm td { padding: 3px; text-align: center; }
+.pm td.c a { color: var(--text-hi); text-decoration: none; white-space: nowrap; }
+.pm td.c { text-align: left; padding-right: 10px; }
+.pm .cell { display: block; width: 100%; min-width: 34px; height: 24px; border-radius: 2px; background: var(--c); opacity: .85; cursor: help; }
+.pm .cell.none { background: transparent; border: 1px dashed #2b4033; opacity: 1; }
+.pm .cell.na { background: transparent; border: 1px solid #1a2a20; }
+.pm-leg { display: flex; flex-wrap: wrap; gap: 14px; margin: 12px 0; font-size: 13px; color: var(--soft); }
+.pm-leg i { display: inline-block; width: 14px; height: 14px; border-radius: 2px; background: var(--c); vertical-align: -2px; margin-right: 6px; }

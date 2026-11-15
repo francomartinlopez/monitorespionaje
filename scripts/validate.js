@@ -67,6 +67,13 @@ Object.entries(FICHAS).forEach(([id, f]) => {
     if (!x.d || !x.h || !x.x || !x.who) err(w, `insiders[${i}] incompleto (d, h, x, who)`);
     if (!f.sample && !isUrl(x.u)) err(w, `insiders[${i}] sin fuente (u)`);
   });
+  if (!f.sample && !f.practicas) warn(w, "ficha real sin \"practicas\" (qué hacen y a quién espían)");
+  if (f.practicas) (ctx.PRACTICAS || []).forEach(m => { const v = f.practicas[m.k];
+    if (!v) { warn(w, `practicas.${m.k} vacío`); return; }
+    if (![0, 1, 2, 3, 4].includes(v.ev)) err(w, `practicas.${m.k}.ev inválido (0 a 4)`);
+    if (!v.x) err(w, `practicas.${m.k} sin texto (x)`);
+    if (!f.sample && v.ev > 0 && !isUrl(v.u)) err(w, `practicas.${m.k} sin fuente (u)`);
+  });
   if (!f.sample) (ctx.DINERO || []).forEach(m => { if (!f.dinero?.[m.k]) warn(w, `dinero.${m.k} vacío (dinero y coberturas)`); });
   if (!f.sample && !(f.fondos || []).length) warn(w, "ficha real sin casos de dinero y coberturas");
   (f.fondos || []).forEach((x, i) => {

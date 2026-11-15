@@ -44,6 +44,25 @@ window.DINERO = [
   { k: "cobertura", n: "ONG y organizaciones de cobertura", x: "Fundaciones, asociaciones, medios y ONG usadas como pantalla o canal de fondos." }
 ];
 
+// Qué hacen y a quién espían. ev 0 = sin casos documentados encontrados; 1 a 4 = escala de evidencia.
+window.PRACTICAS = [
+  { g: "A quién espían", k: "propios", n: "Funcionarios del propio gobierno", x: "Ministros, diplomáticos, militares y empleados del propio Estado." },
+  { g: "A quién espían", k: "politicos", n: "Políticos y partidos", x: "Legisladores, candidatos y partidos, oficialistas u opositores." },
+  { g: "A quién espían", k: "periodistas", n: "Periodistas", x: "Periodistas, medios y sus fuentes." },
+  { g: "A quién espían", k: "activistas", n: "Activistas y ONG", x: "Movimientos sociales, defensores de derechos, sindicatos y ONG." },
+  { g: "A quién espían", k: "aliados", n: "Gobiernos aliados", x: "Funcionarios, embajadas y organismos de países amigos." },
+  { g: "A quién espían", k: "rivales", n: "Rivales y enemigos", x: "Gobiernos, fuerzas armadas y servicios adversarios." },
+  { g: "Qué métodos usan", k: "extorsion", n: "Extorsión y chantaje", x: "Presión con información comprometedora, amenazas a familiares, sobornos forzados." },
+  { g: "Qué métodos usan", k: "asesinato", n: "Asesinatos selectivos", x: "Muertes planificadas dentro o fuera del país." },
+  { g: "Qué métodos usan", k: "tortura", n: "Tortura y malos tratos", x: "Propia o por complicidad con otros servicios." },
+  { g: "Qué métodos usan", k: "secuestro", n: "Secuestros y detenciones secretas", x: "Capturas sin proceso, traslados clandestinos y cárceles secretas." },
+  { g: "Qué dan a otros", k: "armas", n: "Entrega o venta de armas", x: "Envíos encubiertos de armas o equipos militares." },
+  { g: "Qué dan a otros", k: "inteligencia", n: "Asistencia de inteligencia", x: "Información compartida con otros países o fuerzas." },
+  { g: "Qué dan a otros", k: "tecnologia", n: "Tecnología de vigilancia", x: "Equipos, software espía o cifrado entregados a otros." },
+  { g: "Qué dan a otros", k: "entrenamiento", n: "Entrenamiento de servicios extranjeros", x: "Formación y creación de servicios de otros países." }
+];
+window.PRAC_NONE = { n: "Sin casos documentados", c: "#5b6f63" };
+
 window.RUBROS = [
   { k: "humana", n: "Inteligencia humana", s: "HUMINT", x: "Agentes, informantes y redes de reclutamiento." },
   { k: "senales", n: "Señales y comunicaciones", s: "SIGINT", x: "Interceptación de comunicaciones y señales electrónicas." },

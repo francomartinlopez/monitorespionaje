@@ -533,6 +533,64 @@
   "tecnica": "Texto de prueba.",
   "enlaces": "Texto de prueba."
  },
+ "practicas": {
+  "propios": {
+   "ev": 2,
+   "x": "Texto de prueba."
+  },
+  "politicos": {
+   "ev": 3,
+   "x": "Texto de prueba."
+  },
+  "periodistas": {
+   "ev": 3,
+   "x": "Texto de prueba."
+  },
+  "activistas": {
+   "ev": 0,
+   "x": "Texto de prueba."
+  },
+  "aliados": {
+   "ev": 2,
+   "x": "Texto de prueba."
+  },
+  "rivales": {
+   "ev": 0,
+   "x": "Texto de prueba."
+  },
+  "extorsion": {
+   "ev": 3,
+   "x": "Texto de prueba."
+  },
+  "asesinato": {
+   "ev": 0,
+   "x": "Texto de prueba."
+  },
+  "tortura": {
+   "ev": 2,
+   "x": "Texto de prueba."
+  },
+  "secuestro": {
+   "ev": 1,
+   "x": "Texto de prueba."
+  },
+  "armas": {
+   "ev": 0,
+   "x": "Texto de prueba."
+  },
+  "inteligencia": {
+   "ev": 3,
+   "x": "Texto de prueba."
+  },
+  "tecnologia": {
+   "ev": 0,
+   "x": "Texto de prueba."
+  },
+  "entrenamiento": {
+   "ev": 3,
+   "x": "Texto de prueba."
+  }
+ },
  "dinero": {
   "presupuesto": "Texto de prueba.",
   "uso": "Texto de prueba.",
