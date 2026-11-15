@@ -368,6 +368,21 @@
    "ev": 2
   }
  ],
+ "interest": {
+  "France": 1,
+  "Israel": 1,
+  "Saudi Arabia": 3,
+  "Venezuela": 1,
+  "Mexico": 1,
+  "Brazil": 1,
+  "Japan": 2,
+  "Egypt": 2,
+  "Belarus": 1,
+  "Serbia": 1,
+  "Indonesia": 3,
+  "Vietnam": 2,
+  "Somalia": 2
+ },
  "timeline": [
   {
    "era": "Orígenes",

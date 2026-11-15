@@ -368,6 +368,24 @@
    "ev": 1
   }
  ],
+ "interest": {
+  "Iraq": 2,
+  "Afghanistan": 2,
+  "Brazil": 2,
+  "Argentina": 1,
+  "Japan": 3,
+  "North Korea": 3,
+  "Mali": 2,
+  "Nigeria": 1,
+  "Belarus": 1,
+  "Serbia": 1,
+  "Indonesia": 3,
+  "Philippines": 1,
+  "Vietnam": 1,
+  "Colombia": 2,
+  "Ethiopia": 1,
+  "Somalia": 1
+ },
  "timeline": [
   {
    "era": "Orígenes",

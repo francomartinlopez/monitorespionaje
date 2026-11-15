@@ -340,6 +340,19 @@
    "ev": 2
   }
  ],
+ "interest": {
+  "Russia": 1,
+  "United Kingdom": 3,
+  "France": 2,
+  "Ukraine": 2,
+  "India": 1,
+  "Pakistan": 2,
+  "Syria": 2,
+  "Afghanistan": 2,
+  "Venezuela": 2,
+  "Argentina": 1,
+  "Vietnam": 1
+ },
  "timeline": [
   {
    "era": "Orígenes",

@@ -564,6 +564,17 @@
    "ev": 1
   }
  ],
+ "interest": {
+  "Iran": 1,
+  "Israel": 2,
+  "Turkey": 1,
+  "Saudi Arabia": 1,
+  "Syria": 1,
+  "Japan": 2,
+  "Mali": 3,
+  "Indonesia": 2,
+  "Philippines": 1
+ },
  "timeline": [
   {
    "era": "Orígenes",

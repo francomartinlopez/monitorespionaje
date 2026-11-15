@@ -354,6 +354,32 @@
    "ev": 1
   }
  ],
+ "interest": {
+  "United States of America": 1,
+  "Iran": 1,
+  "Ukraine": 3,
+  "Turkey": 1,
+  "Saudi Arabia": 3,
+  "Syria": 1,
+  "Afghanistan": 1,
+  "Cuba": 2,
+  "Mexico": 1,
+  "Brazil": 1,
+  "Argentina": 1,
+  "Japan": 2,
+  "South Korea": 2,
+  "North Korea": 2,
+  "Taiwan": 2,
+  "Sudan": 2,
+  "Mali": 3,
+  "Nigeria": 2,
+  "Kazakhstan": 2,
+  "Belarus": 1,
+  "Philippines": 1,
+  "Vietnam": 1,
+  "Colombia": 1,
+  "Somalia": 1
+ },
  "timeline": [
   {
    "era": "Orígenes",

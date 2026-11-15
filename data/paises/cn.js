@@ -368,6 +368,25 @@
    "ev": 1
   }
  ],
+ "interest": {
+  "United Kingdom": 2,
+  "Iran": 3,
+  "Ukraine": 1,
+  "Turkey": 1,
+  "Pakistan": 1,
+  "Saudi Arabia": 1,
+  "Syria": 1,
+  "Iraq": 1,
+  "Venezuela": 1,
+  "Cuba": 1,
+  "Taiwan": 2,
+  "Egypt": 3,
+  "Libya": 2,
+  "Nigeria": 1,
+  "Belarus": 2,
+  "Poland": 1,
+  "Colombia": 2
+ },
  "timeline": [
   {
    "era": "Orígenes",

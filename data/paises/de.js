@@ -340,6 +340,24 @@
    "ev": 2
   }
  ],
+ "interest": {
+  "United Kingdom": 3,
+  "France": 3,
+  "Israel": 3,
+  "India": 1,
+  "Syria": 1,
+  "Iraq": 1,
+  "Brazil": 1,
+  "South Korea": 2,
+  "North Korea": 2,
+  "Taiwan": 2,
+  "Libya": 1,
+  "Sudan": 1,
+  "Mali": 2,
+  "Serbia": 1,
+  "Indonesia": 1,
+  "Somalia": 2
+ },
  "timeline": [
   {
    "era": "Orígenes",

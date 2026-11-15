@@ -340,6 +340,29 @@
    "ev": 2
   }
  ],
+ "interest": {
+  "United States of America": 1,
+  "United Kingdom": 2,
+  "France": 3,
+  "Germany": 1,
+  "Israel": 2,
+  "India": 1,
+  "Pakistan": 3,
+  "Syria": 3,
+  "Afghanistan": 1,
+  "Venezuela": 2,
+  "Cuba": 1,
+  "Mexico": 1,
+  "Argentina": 2,
+  "Japan": 2,
+  "Sudan": 3,
+  "Kazakhstan": 1,
+  "Poland": 1,
+  "Serbia": 2,
+  "Vietnam": 1,
+  "Colombia": 1,
+  "Somalia": 2
+ },
  "timeline": [
   {
    "era": "Orígenes",

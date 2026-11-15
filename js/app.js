@@ -389,6 +389,11 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   function OpMap(box, p, f) {
     const evs = f.events.filter(e => !e.nomap).map((e, i) => ({ ...e, i, t0: parseD(e.d).getTime(), xy: pt([e.lon, e.lat]) }));
     const home = pt(p.center), feat = FEAT[p.map];
+    // país donde cae cada hecho (para la capa de intensidad)
+    evs.forEach(e => { const hit = FEATURES.find(F => d3.geoContains(F, [e.lon, e.lat])); e.cn = hit ? hit.properties.name : null; });
+    const LVC = { 1: "#ffd23f", 2: "#ff9433", 3: "#ff4d3d" };
+    const LAYERS = { none: "Ninguna", interes: "Interés estratégico", intensidad: "Intensidad de operaciones" };
+    let layer = "intensidad";
     const start = Math.min(...evs.map(e => e.t0)) - 365 * 864e5, end = parseD(META.updated).getTime();
     const on = new Set(Object.keys(EV));
     let cur = end, timer = null;
@@ -397,8 +402,9 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     const ticks = []; for (let y = Math.ceil(y0 / step) * step; y <= y1; y += step) ticks.push(y);
     const pos = t => ((t - start) / (end - start) * 100).toFixed(2);
 
-    box.innerHTML = `<div class="map-split"><div>
-        <div class="map-stage"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Operaciones de ${esc(p.name)} en el mundo">${BASE}${feat ? `<path class="m-hl" d="${path(feat)}"/>` : ""}
+    box.innerHTML = `<div class="layer-bar" role="group" aria-label="Colorear países"><span class="lbl">Colorear países</span>${Object.entries(LAYERS).map(([k, n]) => `<button type="button" class="chip${k === layer ? " on" : ""}" data-layer="${k}" aria-pressed="${k === layer}">${n}</button>`).join("")}<span class="layer-note" id="opLayerNote"></span></div>
+      <div class="map-split"><div>
+        <div class="map-stage"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Operaciones de ${esc(p.name)} en el mundo">${BASE}<g id="opFill"></g>${feat ? `<path class="m-hl" d="${path(feat)}"/>` : ""}
           <g id="opArcs"></g><g id="opDots"></g>
           <g class="node big">${rings(home[0], home[1], 1.35)}<rect x="${home[0] - 5}" y="${home[1] - 5}" width="10" height="10"/>${nodeLabel(p.id, home[0], home[1], p.short.toUpperCase())}</g></svg>
           <div class="scan" aria-hidden="true"></div>
@@ -413,11 +419,30 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
           <div class="tl-btns"><button type="button" class="btn" id="opPrev">◀ Hecho</button><button type="button" class="btn" id="opNext">Hecho ▶</button><button type="button" class="btn" id="opNow">Hoy</button></div>
         </div></div>
       <aside class="map-side"><h4 id="opCount"></h4><div class="ev-list" id="opList"></div></aside></div>
-      <div class="legend">${Object.values(EV).map(t => `<span><i class="dot" style="--c:${t.c}"></i>${t.n}</span>`).join("")}<span class="hint">☞ Tocá un punto para ver el hecho</span></div>`;
+      <div class="legend" id="opLegend"></div>`;
 
     const $ = s => box.querySelector(s), range = $("#opRange");
+    const evLegend = Object.values(EV).map(t => `<span><i class="dot" style="--c:${t.c}"></i>${t.n}</span>`).join("");
+    function drawLayer(shown) {
+      let lv = {};
+      if (layer === "interes") lv = f.interest || {};
+      else if (layer === "intensidad") {
+        const n = {}; shown.forEach(e => { if (e.cn) n[e.cn] = (n[e.cn] || 0) + 1; });
+        const max = Math.max(0, ...Object.values(n));
+        Object.entries(n).forEach(([c, k]) => lv[c] = Math.max(1, Math.ceil(k / max * 3)));
+      }
+      $("#opFill").innerHTML = Object.entries(lv).filter(([c]) => FEAT[c]).map(([c, l]) => `<path class="lv-fill" data-c="${esc(c)}" data-l="${l}" d="${path(FEAT[c])}" style="--c:${LVC[l]}"/>`).join("");
+      $("#opFill").querySelectorAll(".lv-fill").forEach(el => {
+        const lab = layer === "interes" ? ["", "Interés bajo", "Interés medio", "Interés alto"] : ["", "Intensidad baja", "Intensidad media", "Intensidad alta"];
+        el.addEventListener("mousemove", ev => showTip(ev, `<b>${esc(window.esName(el.dataset.c))}</b><span class="d">${lab[el.dataset.l]}</span>`)); el.addEventListener("mouseleave", hideTip);
+      });
+      const names = layer === "interes" ? ["Bajo", "Medio", "Alto"] : ["Baja", "Media", "Alta"];
+      $("#opLegend").innerHTML = (layer === "none" ? "" : `<span class="lg-t">${LAYERS[layer]}:</span>${[1, 2, 3].map(l => `<span><i class="sq" style="background:${LVC[l]}"></i>${names[l - 1]}</span>`).join("")}<span class="lg-sep"></span>`) + evLegend;
+      $("#opLayerNote").innerHTML = layer === "interes" ? `Hacia dónde mira este servicio, según su doctrina y prioridades${f.sample ? ` <span class="sample-tag">de prueba</span>` : ""}` : layer === "intensidad" ? "Cantidad de hechos por país hasta la fecha del mapa, relativa al país con más hechos" : "";
+    }
     function draw() {
       const shown = evs.filter(e => e.t0 <= cur && on.has(e.t));
+      drawLayer(shown);
       const last = shown[shown.length - 1];
       const ageOf = e => (cur - e.t0) / (365 * 864e5);
       $("#opArcs").innerHTML = shown.map(e => `<path d="${arc(home, e.xy, .12)}" fill="none" stroke="${EV[e.t].c}" stroke-width="1.1" opacity="${Math.max(.12, .7 - ageOf(e) * .04).toFixed(2)}"/>`).join("");
@@ -442,6 +467,9 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     $("#opPrev").addEventListener("click", () => { stop(); const e = [...evs].reverse().find(e => e.t0 < cur - 864e5); set(e ? e.t0 : start); });
     $("#opNext").addEventListener("click", () => { stop(); const e = evs.find(e => e.t0 > cur); set(e ? e.t0 : end); });
     $("#opNow").addEventListener("click", () => { stop(); set(end); });
+    box.querySelectorAll("[data-layer]").forEach(b => b.addEventListener("click", () => {
+      layer = b.dataset.layer; box.querySelectorAll("[data-layer]").forEach(x => { x.classList.toggle("on", x === b); x.setAttribute("aria-pressed", String(x === b)); }); draw();
+    }));
     document.querySelectorAll("#evChips [data-t]").forEach(b => b.addEventListener("click", () => {
       const k = b.dataset.t; on.has(k) ? on.delete(k) : on.add(k); b.classList.toggle("on", on.has(k)); b.setAttribute("aria-pressed", String(on.has(k))); draw();
     }));

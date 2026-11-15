@@ -6,8 +6,7 @@
   const { esc, fmt, sampleTag, showTip, moveTip, hideTip, W, H, BASE, path, pt, arc, FEAT, rings, nodeLabel, byId, app } = ME;
   const PAISES = window.PAISES, FICHAS = window.FICHAS, EV = window.EV_TYPES, EVI = window.EVIDENCE, RT = window.REL_TYPES, RUBROS = window.RUBROS;
 
-  const NAME_ES = { "United States of America": "Estados Unidos", "United Kingdom": "Reino Unido", Canada: "Canadá", Australia: "Australia", "New Zealand": "Nueva Zelanda", Denmark: "Dinamarca", France: "Francia", Netherlands: "Países Bajos", Norway: "Noruega", Germany: "Alemania", Belgium: "Bélgica", Italy: "Italia", Spain: "España", Sweden: "Suecia", Austria: "Austria", Bulgaria: "Bulgaria", Croatia: "Croacia", Cyprus: "Chipre", Czechia: "Chequia", Estonia: "Estonia", Finland: "Finlandia", Greece: "Grecia", Hungary: "Hungría", Ireland: "Irlanda", Latvia: "Letonia", Lithuania: "Lituania", Luxembourg: "Luxemburgo", Malta: "Malta", Poland: "Polonia", Portugal: "Portugal", Romania: "Rumania", Slovakia: "Eslovaquia", Slovenia: "Eslovenia", Switzerland: "Suiza", Albania: "Albania", Iceland: "Islandia", Montenegro: "Montenegro", Macedonia: "Macedonia del Norte", Turkey: "Turquía", China: "China", Russia: "Rusia", India: "India", Pakistan: "Pakistán", Iran: "Irán", Kazakhstan: "Kazajistán", Kyrgyzstan: "Kirguistán", Tajikistan: "Tayikistán", Uzbekistan: "Uzbekistán", Belarus: "Bielorrusia" };
-  const es = n => NAME_ES[n] || n;
+  const es = n => window.esName(n);
 
   ME.EXPLORE = [
     { id: "alianzas", k: "Mapa", n: "Alianzas de inteligencia", x: "Cinco Ojos, Catorce Ojos, Club de Berna, OTAN y Shanghái." },

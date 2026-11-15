@@ -326,6 +326,21 @@
    "ev": 2
   }
  ],
+ "interest": {
+  "Germany": 1,
+  "Iran": 3,
+  "Afghanistan": 2,
+  "Venezuela": 2,
+  "Cuba": 2,
+  "Argentina": 1,
+  "Egypt": 3,
+  "Sudan": 1,
+  "Nigeria": 2,
+  "Belarus": 1,
+  "Serbia": 2,
+  "Indonesia": 2,
+  "Vietnam": 1
+ },
  "timeline": [
   {
    "era": "Orígenes",

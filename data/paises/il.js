@@ -354,6 +354,24 @@
    "ev": 1
   }
  ],
+ "interest": {
+  "Russia": 1,
+  "France": 1,
+  "Germany": 1,
+  "Iran": 3,
+  "Turkey": 1,
+  "Saudi Arabia": 3,
+  "Cuba": 3,
+  "Argentina": 2,
+  "Egypt": 2,
+  "Libya": 1,
+  "Mali": 2,
+  "Nigeria": 2,
+  "Belarus": 3,
+  "Serbia": 1,
+  "Philippines": 2,
+  "Somalia": 2
+ },
  "timeline": [
   {
    "era": "Orígenes",

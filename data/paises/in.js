@@ -354,6 +354,23 @@
    "ev": 2
   }
  ],
+ "interest": {
+  "United States of America": 3,
+  "Russia": 3,
+  "China": 2,
+  "United Kingdom": 2,
+  "France": 1,
+  "Afghanistan": 2,
+  "Venezuela": 1,
+  "Japan": 2,
+  "South Korea": 1,
+  "Egypt": 2,
+  "Mali": 3,
+  "Kazakhstan": 1,
+  "Poland": 3,
+  "Vietnam": 1,
+  "Somalia": 3
+ },
  "timeline": [
   {
    "era": "Orígenes",

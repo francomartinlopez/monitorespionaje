@@ -326,6 +326,26 @@
    "ev": 3
   }
  ],
+ "interest": {
+  "China": 1,
+  "United Kingdom": 3,
+  "France": 3,
+  "Germany": 1,
+  "Ukraine": 1,
+  "Turkey": 2,
+  "Syria": 3,
+  "Iraq": 2,
+  "Cuba": 2,
+  "Mexico": 3,
+  "Brazil": 1,
+  "South Korea": 1,
+  "Taiwan": 1,
+  "Egypt": 2,
+  "Sudan": 1,
+  "Belarus": 2,
+  "Vietnam": 1,
+  "Colombia": 1
+ },
  "timeline": [
   {
    "era": "Orígenes",

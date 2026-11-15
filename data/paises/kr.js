@@ -340,6 +340,25 @@
    "ev": 3
   }
  ],
+ "interest": {
+  "United States of America": 3,
+  "Germany": 1,
+  "India": 1,
+  "Pakistan": 1,
+  "Syria": 2,
+  "Mexico": 1,
+  "Brazil": 1,
+  "Argentina": 1,
+  "Mali": 1,
+  "Nigeria": 1,
+  "Belarus": 1,
+  "Poland": 2,
+  "Serbia": 2,
+  "Indonesia": 2,
+  "Philippines": 3,
+  "Colombia": 1,
+  "Ethiopia": 3
+ },
  "timeline": [
   {
    "era": "Orígenes",

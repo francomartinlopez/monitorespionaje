@@ -468,3 +468,14 @@ a:hover .lane-l { fill: var(--ph); }
   .vs-head a { font-size: 30px; }
   .x-head h1 { font-size: 40px; }
 }
+
+/* capa de países en el mapa de operaciones */
+.layer-bar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; padding: 12px 16px; border-bottom: 1px solid #1f3327; background: var(--bg-2); }
+.layer-bar .lbl { font: 500 10.5px var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+.layer-bar .chip { min-height: 34px; }
+.layer-note { font-size: 12.5px; color: var(--muted); margin-left: 6px; }
+.lv-fill { fill: var(--c); fill-opacity: .55; stroke: var(--c); stroke-width: .8; stroke-opacity: .9; }
+.lv-fill:hover { fill-opacity: .75; }
+.legend .lg-t { font: 500 11px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--text); }
+.legend .lg-sep { width: 1px; height: 16px; background: var(--line-2); }
+.legend .sq { width: 11px; height: 11px; }

@@ -66,6 +66,9 @@ for (const p of ctx.PAISES) {
       area: pick(["Privacidad", "Comunicaciones", "Debido proceso", "Expresión", "Datos personales"])
     })),
     events,
+    // interés estratégico por país (nombre del mapa → 1 bajo, 2 medio, 3 alto): DE PRUEBA
+    interest: (() => { const ri = rng(p.id + "-interes"), pool = ["United States of America", "Russia", "China", "United Kingdom", "France", "Germany", "Iran", "Israel", "Ukraine", "Turkey", "India", "Pakistan", "Saudi Arabia", "Syria", "Iraq", "Afghanistan", "Venezuela", "Cuba", "Mexico", "Brazil", "Argentina", "Japan", "South Korea", "North Korea", "Taiwan", "Egypt", "Libya", "Sudan", "Mali", "Nigeria", "Kazakhstan", "Belarus", "Poland", "Serbia", "Indonesia", "Philippines", "Vietnam", "Colombia", "Ethiopia", "Somalia"].filter(n => n !== p.map);
+      const out = {}; pool.forEach(n => { const x = ri(); if (x < .45) out[n] = x < .1 ? 3 : x < .25 ? 2 : 1; }); return out; })(),
     timeline: [
       { era: "Orígenes", d: "19XX", h: "Hito de prueba", x: P },
       { era: "", d: "19XX", h: "Hito de prueba", x: P },

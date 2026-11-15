@@ -21,6 +21,7 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 - `law` {domestic[], foreign[], oversight[]}.
 - `rights` [{d, dir: "amplia"|"recorta", area, h, x}]: avance sobre los derechos civiles. `amplia` = más poder de vigilancia; `recorta` = más controles.
 - `events` [{d, lat, lon, t, h, x, nomap?}]: mapa de operaciones. `t` ∈ encubierta, sabotaje, ciber, senales, humana, contra. Agregar siempre al final.
+- `interest` {nombre de país en data/world.js: 1 bajo · 2 medio · 3 alto}: interés estratégico del servicio por país, para la capa "Interés estratégico" del mapa de operaciones. La capa "Intensidad de operaciones" se calcula sola a partir de `events`.
 - `timeline` [{era, d, h, x, now?}]: cronología histórica.
 - `cases` [{ev, h, d, ilegal, x, who, missing, debunk}]. `ev`: 1 demostrado · 2 con sustento sólido · 3 denuncia sin pruebas firmes · 4 teoría conspirativa. `who` = quién lo afirma; `missing` = qué falta para subir de categoría; `debunk` (sólo ev 4) = de dónde salió y qué la desmiente.
 - `companies` [{n, c: "nacional"|"extranjera", rubro, rel, x}].
