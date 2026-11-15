@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ola 2: ficha real del Reino Unido (MI6, MI5, GCHQ, Inteligencia de Defensa, Comité Conjunto, comité parlamentario y tribunal de control; conducción de Metreweli, McCallum y Keast-Butler; 11 hitos de derechos, 8 operaciones, 8 casos, 6 fallas y falsas banderas, 8 denunciantes, topos y desertores, 7 filtraciones, ocultamientos y campañas de desinformación, incluidas la filtración afgana y las pruebas falsas del MI5).
+
 - 2026-11-15 · Ola 2: ficha real de China (MSS, MPS, inteligencia militar, las tres fuerzas creadas en 2024 al disolverse la Fuerza de Apoyo Estratégico, Frente Unido y comisión de disciplina; purgas de 2026, 14 operaciones, 8 casos, 5 fallas y falsas banderas, 7 denunciantes, topos y desertores, 9 filtraciones, ocultamientos y campañas de desinformación). El organigrama de China reemplaza la "Fuerza Aeroespacial y de Ciberespacio" por las tres fuerzas reales. Corregidas las etiquetas de años superpuestas en la línea de tiempo de los mapas.
 
 - 2026-11-15 · Tres agregados en cada ficha: "Cómo operan" en el resumen (embajadas, campo, sede, reclutamiento, medios técnicos y enlaces), la sección "Denunciantes, topos y desertores" y la sección "Filtraciones, ocultamientos, robos y desinformación", con filtros por tipo y por si el país lo hizo o lo sufrió. Cargadas para EE.UU., Argentina y Rusia.

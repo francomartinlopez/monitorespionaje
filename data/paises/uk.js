@@ -1,747 +1,175 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha del Reino Unido · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["uk"] = {
- "sample": true,
- "id": "uk",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Reino Unido: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "5",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 5,
-  "senales": 5,
-  "ciber": 4,
-  "imagenes": 3,
-  "encubierta": 4,
-  "contra": 4
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "JIC": {
-   "since": 1917,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comité Conjunto de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "MI6": {
-   "since": 1939,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio Secreto de Inteligencia (SIS): misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "MI5": {
-   "since": 1989,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio de Seguridad: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "GCHQ": {
-   "since": 1954,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Cuartel General de Comunicaciones del Gobierno: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "DI": {
-   "since": 1974,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia de Defensa: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "ISC": {
-   "since": 1932,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comité de Inteligencia y Seguridad del Parlamento: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "IPT": {
-   "since": 1945,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Tribunal de Poderes de Investigación: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "uk",
+  updated: "2026-11-15",
+  summary: [
+    "El Reino Unido tiene tres agencias civiles: el Servicio Secreto de Inteligencia (MI6), que espía en el exterior; el Servicio de Seguridad (MI5), a cargo de la contrainteligencia y el antiterrorismo dentro del país; y el Cuartel General de Comunicaciones del Gobierno (GCHQ), que intercepta comunicaciones y protege las redes. Las tres comparten un presupuesto único y responden a ministros civiles.",
+    "Blaise Metreweli dirige el MI6 desde el 1 de octubre de 2025 y es la primera mujer en el cargo. Ken McCallum encabeza el MI5 desde 2020 y Anne Keast-Butler el GCHQ desde 2023. Los tres describen una amenaza simultánea de Rusia, Irán y China.",
+    "El país es el socio más cercano de EE.UU. en la alianza Cinco Ojos, que nació con el acuerdo de interceptación UKUSA de 1946. Canadá, Australia y Nueva Zelanda forman parte de la misma red.",
+    "Los controles son mayores que hace treinta años, pero los escándalos siguen. En 2025 y 2026 se supo que el MI5 dio información falsa a tres tribunales y que el gobierno ocultó con una orden judicial secreta la filtración de datos de miles de afganos."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Jefa del MI6", v: "Blaise Metreweli", n: "desde el 1 oct 2025, primera mujer en el cargo" },
+    { l: "Presupuesto de inteligencia", v: "£ 4.500 M", n: "Cuenta Única de Inteligencia 2025-26 (Tesoro británico)" },
+    { l: "Detenciones por Irán", v: "+50", n: "en el último año, según el MI5 (octubre de 2026)" },
+    { l: "Ley marco", v: "Investigatory Powers Act", n: "de 2016, reformada en 2024" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 5, senales: 5, ciber: 4, imagenes: 2, encubierta: 3, contra: 4 },
+  powerWhy: {
+    humana: "El MI6 tiene una red mundial y una larga tradición de reclutar oficiales soviéticos y rusos, como Gordievski y Skripal.",
+    senales: "El GCHQ es el segundo pilar de Cinco Ojos, con estaciones en Chipre, Omán y otros lugares y acceso a cables submarinos.",
+    ciber: "Cuenta con una Fuerza Cibernética Nacional ofensiva desde 2020 y un centro nacional de ciberseguridad dentro del GCHQ.",
+    imagenes: "Depende sobre todo de los satélites de EE.UU.; recién empieza a tener constelaciones propias.",
+    encubierta: "Hace operaciones encubiertas con fuerzas especiales y apoyo a aliados, pero en menor escala que EE.UU. o Rusia.",
+    contra: "El MI5 frustró decenas de atentados y redes extranjeras, aunque fallas como la de Manchester en 2017 muestran límites."
+  },
+  priorities: [
+    { h: "Rusia", x: "Sabotaje, ciberataques, asesinatos y espionaje contra el Reino Unido y sus aliados; apoyo a Ucrania." },
+    { h: "Irán", x: "Planes de ataque contra disidentes, contra la comunidad judía y, desde 2026, contra bases militares." },
+    { h: "China", x: "Espionaje tecnológico y político, influencia en el Parlamento y en universidades." },
+    { h: "Terrorismo", x: "Extremismo islamista y, cada vez más, de extrema derecha entre jóvenes radicalizados en internet." },
+    { h: "Tecnología", x: "Inteligencia artificial, cifrado y protección de la infraestructura crítica." }
+  ],
+  focos: ["Rusia y Ucrania", "Irán", "China", "Medio Oriente", "Chipre y el Mediterráneo oriental", "Ciberespacio"],
+  bodies: {
+    "JIC": { since: 1936, how: "Comité dentro de la Oficina del Gabinete que reúne a los jefes de las agencias y elabora las evaluaciones conjuntas para el primer ministro. Su papel quedó cuestionado tras el dossier sobre Irak de 2002.", staff: "Una secretaría de evaluación de pocas decenas de personas.", budget: "Dentro de la Oficina del Gabinete.", tech: ["Evaluaciones conjuntas"], where: ["Londres (Oficina del Gabinete)"] },
+    "MI6": { since: 1909, how: "Recluta y maneja fuentes humanas en el exterior y hace operaciones encubiertas. Responde al canciller. Solo su jefe, conocido como C, es identificado en público.", staff: "Unas 3.000 a 4.000 personas, según estimaciones de prensa.", budget: "Parte de la Cuenta Única de Inteligencia.", tech: ["Inteligencia humana", "Apoyo técnico propio"], where: ["Vauxhall Cross, Londres", "Embajadas en todo el mundo"] },
+    "MI5": { since: 1909, how: "Contrainteligencia, antiterrorismo y protección de la seguridad interna. No tiene poder de arresto: trabaja con la policía antiterrorista. Responde al ministro del Interior.", staff: "Más de 5.000 personas, según el propio servicio.", budget: "Parte de la Cuenta Única de Inteligencia.", tech: ["Agentes informantes", "Vigilancia", "Centro de evaluación de amenazas de IA (2026)"], where: ["Thames House, Londres", "Reino Unido"] },
+    "GCHQ": { since: 1919, how: "Intercepta comunicaciones, hace ciberoperaciones y, a través de su Centro Nacional de Ciberseguridad, protege redes del Estado y de empresas. Responde al canciller.", staff: "Más de 7.000 personas, según la propia agencia.", budget: "Parte de la Cuenta Única de Inteligencia, la mayor porción.", tech: ["Interceptación de cables", "Fuerza Cibernética Nacional", "Criptografía"], where: ["Cheltenham", "Bude", "Chipre", "Estaciones en el exterior"] },
+    "DI": { since: 1964, how: "Inteligencia del Ministerio de Defensa: análisis militar, inteligencia geoespacial y apoyo a las fuerzas armadas. Desde 2022 publica evaluaciones diarias sobre la guerra en Ucrania.", staff: "Varios miles entre civiles y militares.", budget: "Dentro del presupuesto de Defensa.", tech: ["Inteligencia geoespacial", "Análisis militar"], where: ["Londres", "Wyton"] },
+    "ISC": { since: 1994, how: "Comité de parlamentarios de ambas cámaras que controla a las agencias, revisa sus gastos y publica informes. Desde 2013 puede pedir información y no solo recibirla.", staff: "Nueve miembros y un equipo de apoyo.", budget: "Parte del Parlamento.", tech: [], where: ["Londres"] },
+    "IPT": { since: 2000, how: "Tribunal especial que recibe quejas contra las agencias y revisa el uso de poderes de vigilancia. Celebra muchas audiencias en secreto.", staff: "Jueces designados.", budget: "Parte del sistema judicial.", tech: [], where: ["Londres"] }
+  },
+  civil: [
+    "Las agencias responden a ministros civiles: el MI5 al ministro del Interior y el MI6 y el GCHQ al canciller. El primer ministro tiene la responsabilidad final.",
+    "El Consejo de Seguridad Nacional, creado en 2010, y el asesor de seguridad nacional coordinan a las agencias con el gobierno.",
+    "Un comisionado de poderes de investigación (IPCO), juez de alto rango, aprueba las órdenes de vigilancia junto con el ministro."
+  ],
+  law: {
+    domestic: [
+      "La Investigatory Powers Act de 2016 regula interceptación, recolección masiva de datos y hackeo, con doble autorización de un ministro y un juez.",
+      "La ley de 2021 sobre fuentes encubiertas permite autorizar a informantes a cometer delitos durante una operación.",
+      "La National Security Act de 2023 crea delitos de espionaje, sabotaje e injerencia extranjera y un registro de influencia extranjera."
+    ],
+    foreign: [
+      "La Intelligence Services Act de 1994 da base legal al MI6 y al GCHQ para operar en el exterior.",
+      "La sección 7 de esa ley permite a un ministro autorizar actos fuera del país que serían ilegales en el Reino Unido.",
+      "Las órdenes de capacidad técnica pueden obligar a empresas extranjeras a modificar sus sistemas, como en el caso de Apple."
+    ],
+    oversight: [
+      "Comité de Inteligencia y Seguridad del Parlamento (ISC).",
+      "Comisionado de Poderes de Investigación (IPCO) y sus inspectores.",
+      "Tribunal de Poderes de Investigación (IPT) para quejas de ciudadanos."
+    ]
+  },
+  rights: [
+    { d: "1911-08", dir: "amplia", area: "Expresión", h: "Official Secrets Act", x: "Crea delitos amplios de espionaje y de revelación de información oficial." },
+    { d: "1985-07", dir: "recorta", area: "Comunicaciones", h: "Ley de Interceptación", x: "Tras una condena del Tribunal Europeo de Derechos Humanos, las escuchas pasan a necesitar orden ministerial con base legal." },
+    { d: "1989-04", dir: "recorta", area: "Debido proceso", h: "Security Service Act", x: "El MI5 tiene por primera vez existencia legal y límites escritos." },
+    { d: "1994-05", dir: "recorta", area: "Transparencia", h: "Intelligence Services Act", x: "Reconoce por ley al MI6 y al GCHQ y crea el comité parlamentario de control." },
+    { d: "2000-07", dir: "amplia", area: "Comunicaciones", h: "RIPA", x: "Amplía la vigilancia de comunicaciones y la habilita para cientos de organismos públicos." },
+    { d: "2015-02", dir: "recorta", area: "Privacidad", h: "El IPT falla contra el GCHQ", x: "El tribunal declara ilegal el intercambio de datos con la NSA antes de 2014 por falta de reglas públicas." },
+    { d: "2016-11", dir: "amplia", area: "Comunicaciones", h: "Investigatory Powers Act", x: "Legaliza la recolección masiva y el hackeo, y obliga a guardar registros de navegación por un año." },
+    { d: "2021-05", dir: "recorta", area: "Privacidad", h: "Fallo europeo sobre interceptación masiva", x: "El Tribunal Europeo de Derechos Humanos concluye que el régimen de interceptación revelado por Snowden violaba la privacidad." },
+    { d: "2021-03", dir: "amplia", area: "Debido proceso", h: "Ley de fuentes encubiertas", x: "Permite autorizar a informantes a cometer delitos durante las operaciones." },
+    { d: "2024-04", dir: "amplia", area: "Privacidad", h: "Reforma de la ley de poderes", x: "Facilita usar grandes bases de datos y obliga a las empresas a avisar antes de cambios técnicos que afecten la vigilancia." },
+    { d: "2025-01", dir: "amplia", area: "Privacidad", h: "Orden secreta a Apple", x: "El Ministerio del Interior exige acceso a copias de iCloud cifradas; Apple retira esa protección para usuarios británicos y recurre al tribunal." }
+  ],
+  events: [
+    { d: "1953-08-19", lat: 35.69, lon: 51.39, c: "Iran", t: "encubierta", ev: 1, h: "Golpe contra Mossadegh", x: "El MI6 propone y organiza junto a la CIA el derrocamiento del primer ministro iraní, que había nacionalizado el petróleo británico.", u: "https://nsarchive.gwu.edu/briefing-book/iran/2017-06-15/iran-1953-state-department-finally-releases-updated-official-history", st: "National Security Archive" },
+    { d: "1980-01-01", lat: 54.6, lon: -5.93, c: "United Kingdom", t: "humana", ev: 1, h: "Stakeknife en Irlanda del Norte", x: "Un jefe de la unidad de seguridad interna del IRA trabaja como agente del Ejército y del MI5 mientras participa en interrogatorios y asesinatos.", u: "https://en.wikipedia.org/wiki/Freddie_Scappaticci", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1985-07-20", lat: 60.71, lon: 28.75, c: "Russia", t: "humana", ev: 1, h: "La fuga de Gordievski", x: "El MI6 saca de la Unión Soviética a su agente de la KGB escondido en el baúl de un auto diplomático, hacia Finlandia.", u: "https://en.wikipedia.org/wiki/Oleg_Gordievsky", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1988-03-06", lat: 36.14, lon: -5.35, t: "encubierta", ev: 1, h: "Operación Flavius en Gibraltar", x: "Soldados del SAS matan a tres miembros desarmados del IRA. El Tribunal Europeo de Derechos Humanos condenó al Reino Unido en 1995.", u: "https://en.wikipedia.org/wiki/Operation_Flavius", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2004-03-08", lat: 32.89, lon: 13.19, c: "Libya", t: "encubierta", ev: 1, h: "Entrega de Belhaj a Gadafi", x: "El MI6 ayuda a la CIA a trasladar al opositor libio Abdel Hakim Belhaj y a su esposa embarazada a Trípoli, donde fue torturado. El gobierno británico pidió disculpas en 2018.", u: "https://en.wikipedia.org/wiki/Abdel_Hakim_Belhaj", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2008-01-01", lat: 50.83, lon: -4.54, c: "United Kingdom", t: "senales", ev: 1, h: "Tempora en Bude", x: "El GCHQ intercepta los cables de fibra óptica que llegan a la costa británica y guarda grandes volúmenes de tráfico, según documentos de Snowden.", u: "https://en.wikipedia.org/wiki/Tempora", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2010-01-01", lat: 50.85, lon: 4.35, c: "Belgium", t: "ciber", ev: 1, h: "Operación Socialist contra Belgacom", x: "El GCHQ hackea a la principal operadora belga para espiar comunicaciones internacionales; la fiscalía belga lo atribuyó al Reino Unido en 2018.", u: "https://en.wikipedia.org/wiki/Operation_Socialist", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2026-03-01", lat: 51.68, lon: -1.78, c: "United Kingdom", t: "contra", ev: 2, h: "Plan contra la base de Fairford", x: "El MI5 investiga un plan atribuido a Irán contra la base aérea de Fairford, usada por bombarderos de EE.UU.; McCallum dijo que no es el único.", u: "https://english.ahram.org.eg/News/578884.aspx", st: "Ahram Online (AP)" }
+  ],
+  interest: {
+    "Russia": 3, "China": 3, "Iran": 3, "Ukraine": 3, "Falkland Is.": 3,
+    "United States of America": 2, "Ireland": 2, "Afghanistan": 2, "Syria": 2, "Iraq": 2, "Yemen": 2, "Pakistan": 2, "Israel": 2, "Belarus": 2, "Cyprus": 2, "Argentina": 2,
+    "France": 1, "Germany": 1, "Libya": 1, "Somalia": 1, "North Korea": 1, "Lebanon": 1, "Turkey": 1, "Taiwan": 1, "Belgium": 1
+  },
+  timeline: [
+    { era: "Orígenes", d: "1909", h: "Nace el Secret Service Bureau", x: "Del que salen el MI5 y el MI6, ante el temor al espionaje alemán." },
+    { era: "", d: "1939–1945", h: "Bletchley Park", x: "Los descifradores británicos rompen Enigma y crean la base del futuro GCHQ." },
+    { era: "Guerra Fría", d: "1946", h: "Acuerdo UKUSA", x: "Reino Unido y EE.UU. reparten la interceptación del mundo; luego se suman Canadá, Australia y Nueva Zelanda." },
+    { era: "", d: "1951–1963", h: "Los Cinco de Cambridge", x: "Se descubren topos soviéticos en lo más alto del MI6 y la cancillería; Philby huye a Moscú." },
+    { era: "", d: "1985", h: "La fuga de Gordievski", x: "El MI6 rescata de Moscú a su mejor fuente dentro de la KGB." },
+    { era: "Ley", d: "1989–1994", h: "Las agencias existen por ley", x: "El Parlamento reconoce al MI5, el MI6 y el GCHQ y crea su comité de control." },
+    { era: "Post 11-S", d: "2003", h: "El dossier de Irak", x: "Evaluaciones exageradas sobre armas de destrucción masiva sostienen la entrada en la guerra." },
+    { era: "", d: "2013", h: "Snowden", x: "Se revela Tempora y el intercambio masivo de datos con la NSA." },
+    { era: "", d: "2018", h: "Salisbury", x: "El GRU ataca a Skripal con novichok; Occidente expulsa a más de cien diplomáticos rusos." },
+    { era: "Actual", d: "2025–2026", h: "Nueva conducción y nuevos escándalos", x: "Metreweli asume en el MI6; salen a la luz la filtración afgana y las pruebas falsas del MI5.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2004", h: "La entrega de Belhaj a Libia", x: "El MI6 dio información que permitió a la CIA secuestrar a Abdel Hakim Belhaj y a su esposa y llevarlos a Libia, donde él fue torturado. En 2018 la primera ministra Theresa May pidió disculpas en el Parlamento y el Estado pagó una compensación.", who: "Gobierno británico (disculpa oficial de 2018)", missing: "", u: "https://en.wikipedia.org/wiki/Abdel_Hakim_Belhaj", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "1978–2003", h: "Stakeknife y la colusión en Irlanda del Norte", x: "El agente más valioso del Estado dentro del IRA participó en asesinatos mientras el Ejército y el MI5 lo protegían. La investigación Kenova publicó su informe final en diciembre de 2025.", who: "Operación Kenova, investigación policial independiente", missing: "", u: "https://en.wikipedia.org/wiki/Freddie_Scappaticci", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "1989", h: "El asesinato de Pat Finucane", x: "Paramilitares leales a Londres mataron al abogado de derechos humanos en Belfast con apoyo de agentes del Estado. Una revisión oficial de 2012 confirmó la colusión y el primer ministro David Cameron pidió disculpas.", who: "Revisión de Desmond de Silva (2012)", missing: "", u: "https://en.wikipedia.org/wiki/Pat_Finucane", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "2020–2025", h: "Las pruebas falsas del MI5", x: "El MI5 dijo a tres tribunales que nunca había confirmado a la BBC que un extremista violento era su informante, pero existía una grabación que lo probaba. Pidió disculpas y pagó una compensación a la víctima del agente.", who: "Tribunales británicos y el comisionado de poderes de investigación", missing: "", u: "https://www.itv.com/news/2026-11-03/mi5-spared-legal-action-after-false-evidence-given-to-three-courts", st: "ITV News" },
+    { ev: 1, ilegal: true, d: "2008–2013", h: "La interceptación masiva del GCHQ", x: "Los documentos de Snowden mostraron que el GCHQ guardaba grandes volúmenes de comunicaciones de los cables. En 2021 el Tribunal Europeo de Derechos Humanos concluyó que ese régimen violaba la privacidad.", who: "Tribunal Europeo de Derechos Humanos (Big Brother Watch contra Reino Unido)", missing: "", u: "https://en.wikipedia.org/wiki/Tempora", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "2001–2010", h: "Complicidad con torturas", x: "Agentes británicos interrogaron o pasaron preguntas a detenidos que sabían maltratados, como Binyam Mohamed. El comité parlamentario lo documentó en 2018.", who: "Comité de Inteligencia y Seguridad del Parlamento", missing: "", u: "https://en.wikipedia.org/wiki/Binyam_Mohamed", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 3, ilegal: false, d: "2025", h: "El juicio a los acusados de espiar para China", x: "La fiscalía retiró los cargos contra Christopher Cash y Christopher Berry porque el gobierno no declaró que China fuera una amenaza en la época de los hechos. La oposición habló de encubrimiento; una comisión parlamentaria encontró fallas de sistema y no una conspiración.", who: "Oposición conservadora y la Alianza Interparlamentaria sobre China", missing: "Prueba de que el gobierno buscó que el juicio cayera; la comisión no la encontró.", u: "https://www.scmp.com/news/world/europe/article/3335089/uks-china-spy-case-collapsed-due-shambolic-failure-not-conspiracy-inquiry-finds", st: "South China Morning Post" },
+    { ev: 4, ilegal: false, d: "1997", h: "El MI6 mató a la princesa Diana", x: "Circula la versión de que el MI6 provocó el choque en París para evitar que Diana se casara con Dodi Al Fayed.", who: "Mohamed Al Fayed y teorías en internet", missing: "Cualquier prueba de participación de un servicio.", debunk: "La difundió el padre de Dodi. La policía británica en 2006 y un jurado en 2008 concluyeron que el choque se debió al chofer alcoholizado y a la persecución de fotógrafos.", u: "https://en.wikipedia.org/wiki/Operation_Paget", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "1982-04-02", ev: 1, w: 3, h: "La invasión de Malvinas", x: "El gobierno y el comité de inteligencia no anticiparon la decisión argentina de invadir las islas.", why: "No está en duda la sorpresa; el informe Franks de 1983 sostuvo que la invasión no podía preverse, algo que muchos analistas discuten.", wx: "Informe oficial y archivos desclasificados.", who: "Comité Franks", u: "https://en.wikipedia.org/wiki/Franks_Report", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falla", d: "2002-09", ev: 1, w: 3, h: "Las armas de Irak", x: "El dossier del gobierno afirmó que Irak podía usar armas químicas en 45 minutos. No se encontraron esas armas.", why: "No está en duda: la investigación Chilcot concluyó en 2016 que las evaluaciones se presentaron con una certeza que no tenían.", wx: "Informes Butler (2004) y Chilcot (2016).", who: "Investigación sobre Irak (Chilcot)", u: "https://en.wikipedia.org/wiki/Iraq_Inquiry", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falla", d: "2005-07-07", ev: 1, w: 2, h: "Las bombas de Londres", x: "Dos de los cuatro suicidas habían aparecido antes en investigaciones del MI5, pero no se los consideró prioridad.", why: "Se discute si con los recursos de entonces se podía hacer más; el comité parlamentario concluyó que la priorización fue razonable.", wx: "Informes del comité parlamentario de 2006 y 2009 y la investigación judicial.", who: "Comité de Inteligencia y Seguridad", u: "https://en.wikipedia.org/wiki/7_July_2005_London_bombings", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falla", d: "2017-05-22", ev: 1, w: 3, h: "El atentado de Manchester", x: "Un suicida mata a 22 personas en un concierto. El MI5 había recibido dos datos sobre él que no evaluó a fondo.", why: "No está en duda: la investigación pública de 2023 concluyó que se perdió una oportunidad importante de evitarlo, y McCallum pidió disculpas.", wx: "Informe del juez John Saunders (2023).", who: "Investigación pública sobre el atentado", u: "https://en.wikipedia.org/wiki/Manchester_Arena_bombing", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "1924-10", ev: 2, w: 2, h: "La carta de Zinóviev", x: "Una supuesta carta de Moscú que pedía agitación comunista se publica días antes de una elección y perjudica al Partido Laborista.", why: "Era una falsificación. Un estudio oficial de 1999 concluyó que probablemente oficiales del MI6 la filtraron a los conservadores.", wx: "Investigación de la historiadora oficial de la cancillería.", who: "Cancillería británica (estudio de Gill Bennett, 1999)", u: "https://en.wikipedia.org/wiki/Zinoviev_letter", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "2018-03", ev: 4, w: 3, h: "Salisbury fue montado por Londres", x: "Medios estatales rusos sostuvieron que el envenenamiento de Skripal fue una operación británica para culpar a Rusia.", why: "Teoría sin sustento: la Organización para la Prohibición de las Armas Químicas confirmó el novichok y una investigación pública concluyó en 2025 que fue una operación del GRU.", wx: "Análisis de laboratorio internacional, identificación de los agentes y una investigación judicial.", who: "Gobierno y medios estatales de Rusia", u: "https://www.aljazeera.com/news/2025/12/4/russias-putin-found-morally-responsible-for-nerve-agent-death-in-uk", st: "Al Jazeera" }
+  ],
+  modus: {
+    embajadas: "El MI6 opera estaciones dentro de las embajadas británicas, con oficiales declarados ante el país anfitrión y otros con cobertura diplomática no declarada. El GCHQ comparte instalaciones con bases militares en el exterior, como en Chipre.",
+    campo: "Los oficiales del MI6 reclutan y manejan agentes extranjeros; el MI5 maneja informantes dentro del país, incluso en grupos extremistas, con autorización para que cometan delitos. Las fuerzas especiales apoyan operaciones de alto riesgo.",
+    oficina: "El análisis se concentra en Londres y Cheltenham, y el Comité Conjunto de Inteligencia produce evaluaciones para el primer ministro. El GCHQ es la agencia más grande y la más técnica.",
+    reclutamiento: "Desde 2025 el MI6 ofrece un canal en la web oscura para que posibles fuentes lo contacten. Recluta funcionarios desencantados y ofrece dinero, protección y reasentamiento.",
+    tecnica: "Interceptación de cables submarinos, estaciones de escucha, ciberoperaciones ofensivas con la Fuerza Cibernética Nacional y órdenes que obligan a empresas a habilitar el acceso a datos.",
+    enlaces: "La alianza Cinco Ojos con EE.UU., Canadá, Australia y Nueva Zelanda es el centro de su trabajo. Coopera con servicios europeos y del Golfo y con empresas de telecomunicaciones."
+  },
+  insiders: [
+    { k: "topo", dir: "sale", ev: 1, d: "1934", n: "Kim Philby", h: "El agente soviético dentro del MI6", x: "Reclutado en Cambridge, llega a jefe de contrainteligencia soviética del MI6 y a enlace con la CIA.", cargo: "MI6", hacia: "NKVD y KGB", fin: "Huye a Moscú en 1963 y muere allí en 1988.", who: "Gobierno británico y el propio Philby", u: "https://en.wikipedia.org/wiki/Kim_Philby", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "sale", ev: 1, d: "1953", n: "George Blake", h: "El oficial que entregó el túnel de Berlín", x: "Un oficial del MI6 delata a cientos de agentes occidentales y la operación del túnel de escuchas de Berlín.", cargo: "MI6", hacia: "KGB", fin: "Condenado a 42 años en 1961, escapó de prisión en 1966 y murió en Moscú en 2020.", who: "Tribunal británico", u: "https://en.wikipedia.org/wiki/George_Blake", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "sale", ev: 1, d: "1968", n: "Geoffrey Prime", h: "El traductor del GCHQ", x: "Un lingüista del GCHQ pasa durante años secretos sobre la interceptación británica y estadounidense.", cargo: "GCHQ", hacia: "KGB", fin: "Condenado a 35 años en 1982.", who: "Tribunal británico", u: "https://en.wikipedia.org/wiki/Geoffrey_Prime", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "denunciante", dir: "sale", ev: 1, d: "1997", n: "David Shayler", h: "Las denuncias contra el MI5", x: "Un ex oficial del MI5 acusa al servicio de vigilar a políticos y afirma que el MI6 financió un plan para matar a Gadafi.", cargo: "MI5", hacia: "Prensa", fin: "Condenado en 2002 por violar la ley de secretos oficiales.", who: "Tribunal británico", u: "https://en.wikipedia.org/wiki/David_Shayler", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "denunciante", dir: "sale", ev: 1, d: "2003-01", n: "Katharine Gun", h: "El pedido de espiar a la ONU", x: "Una traductora del GCHQ filtra un correo de la NSA que pedía ayuda para espiar a delegados del Consejo de Seguridad antes de la guerra de Irak.", cargo: "GCHQ", hacia: "The Observer", fin: "La acusaron, pero la fiscalía retiró los cargos en 2004.", who: "Documento publicado y reconocido en el proceso", u: "https://en.wikipedia.org/wiki/Katharine_Gun", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "sale", ev: 1, d: "2019", n: "Daniel Khalife", h: "El soldado que espiaba para Irán", x: "Un soldado británico pasa información militar a agentes iraníes y en 2023 se escapa de prisión atado debajo de un camión.", cargo: "Ejército británico", hacia: "Inteligencia iraní", fin: "Recapturado y condenado en 2025.", who: "Tribunal británico", u: "https://en.wikipedia.org/wiki/Daniel_Khalife", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "entra", ev: 1, d: "1974", n: "Oleg Gordievski", h: "El jefe de la KGB en Londres", x: "Un oficial de la KGB trabaja once años para el MI6 y le informa del miedo soviético a un ataque nuclear en 1983.", cargo: "KGB", hacia: "MI6", fin: "Exfiltrado de Moscú en 1985; murió en Inglaterra en 2025.", who: "Gobierno británico", u: "https://en.wikipedia.org/wiki/Oleg_Gordievsky", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desertor", dir: "entra", ev: 1, d: "1992", n: "Vasili Mitrojin", h: "El archivo de la KGB", x: "Un archivista de la KGB llega a una embajada británica con copias de miles de expedientes y el MI6 lo saca de Rusia.", cargo: "KGB", hacia: "MI6", fin: "Vivió protegido en el Reino Unido hasta 2004.", who: "Gobierno británico", u: "https://en.wikipedia.org/wiki/Vasili_Mitrokhin", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "desinfo", rol: "autor", ev: 1, d: "1943-04", h: "Operación Mincemeat", x: "La inteligencia británica deja flotar frente a España un cadáver con documentos falsos que anunciaban un desembarco en Grecia y no en Sicilia.", obj: "Engañar a Alemania sobre la invasión de Sicilia; funcionó.", who: "Archivos británicos desclasificados", u: "https://en.wikipedia.org/wiki/Operation_Mincemeat", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desinfo", rol: "autor", ev: 1, d: "1948–1977", h: "El Departamento de Investigación de Información", x: "Una oficina secreta de la cancillería produce propaganda anticomunista que llega a medios de todo el mundo sin que se sepa su origen.", obj: "Influir en la opinión pública durante la Guerra Fría.", who: "Archivos de la cancillería desclasificados", u: "https://en.wikipedia.org/wiki/Information_Research_Department", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "filtracion", rol: "blanco", ev: 1, d: "2013-06", h: "Los documentos de Snowden sobre el GCHQ", x: "Se revelan Tempora, el hackeo a Belgacom y el espionaje a delegaciones en la cumbre del G20 de Londres de 2009.", obj: "Exponer la vigilancia masiva.", who: "The Guardian y documentos reconocidos en tribunales", u: "https://en.wikipedia.org/wiki/Tempora", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "robo", rol: "blanco", ev: 2, d: "2021–2022", h: "El hackeo a la Comisión Electoral", x: "Hackers acceden a los registros de electores del Reino Unido. En 2024 el gobierno lo atribuyó a actores vinculados al Estado chino.", obj: "Espionaje sobre el sistema electoral y la población.", who: "Gobierno británico; China lo niega", u: "https://en.wikipedia.org/wiki/APT31", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "accidental", rol: "blanco", ev: 1, d: "2022-02", h: "La lista de afganos", x: "Un funcionario de Defensa envía por error una planilla con datos de más de 18.000 afganos que habían colaborado con las fuerzas británicas, y en 2023 aparece en Facebook.", obj: "Ninguno: error humano que expuso a represalias de los talibanes, incluso a espías y fuerzas especiales británicas.", who: "Ministerio de Defensa y Comisionado de Información", u: "https://www.civilserviceworld.com/professions/article/mod-afghan-data-breach-arap-arr-ico", st: "Civil Service World" },
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "2023-09", h: "La superorden sobre la filtración afgana", x: "El gobierno obtiene una orden judicial que prohíbe informar sobre la filtración y sobre la propia orden, y monta en secreto un plan de reasentamiento.", aquien: "Al público y al Parlamento", como: "Un juez del Tribunal Superior levantó la orden en julio de 2025.", obj: "Evitar que los talibanes conocieran la lista; también evitó el debate público sobre su costo.", who: "Tribunal Superior y Ministerio de Defensa", u: "https://www.newlawjournal.co.uk/content/list-put-afghans-at-risk-of-taliban-reprisal", st: "New Law Journal" },
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "2020–2025", h: "El agente X ante los tribunales", x: "El MI5 dijo a tres tribunales que nunca había confirmado la identidad de su informante a periodistas, cuando sí lo había hecho.", aquien: "A la justicia", como: "La BBC tenía una grabación de la conversación con un oficial del MI5.", obj: "Proteger al informante y la política de no confirmar ni negar.", who: "Tribunal de Poderes de Investigación y Tribunal Superior", u: "https://www.itv.com/news/2026-11-03/mi5-spared-legal-action-after-false-evidence-given-to-three-courts", st: "ITV News" }
+  ],
+  companies: [
+    { n: "BT y otras operadoras", c: "nacional", rubro: "Telecomunicaciones", rel: "Obligación legal", x: "Deben colaborar con la interceptación; los documentos de Snowden mencionaron a varias como socias del programa Tempora." },
+    { n: "Apple", c: "extranjera", rubro: "Tecnología", rel: "Conflicto judicial", x: "Recibió en 2025 una orden secreta de acceso a datos cifrados de iCloud, retiró esa función en el Reino Unido y la recurrió ante el tribunal." },
+    { n: "BAE Systems", c: "nacional", rubro: "Defensa y ciberseguridad", rel: "Contratista", x: "Principal contratista de defensa; su división digital trabaja para el gobierno en ciberseguridad e inteligencia." },
+    { n: "Palantir", c: "extranjera", rubro: "Análisis de datos", rel: "Proveedor", x: "Tiene contratos con Defensa y con el sistema de salud británico, criticados por organizaciones de privacidad." }
+  ],
+  struggles: [
+    { a: "Gobierno", b: "Fiscalía (CPS)", k: "Con otros poderes", stake: "El juicio a los acusados de espiar para China", state: "Cerrada", x: "Cada lado culpó al otro por la caída del caso en 2025; la comisión parlamentaria repartió responsabilidades." },
+    { a: "Ministerio del Interior", b: "Apple y organizaciones de privacidad", k: "Con la economía", stake: "Acceso a datos cifrados", state: "Abierta", x: "Apple presentó un nuevo recurso en 2026 contra la orden que exige acceso a copias cifradas de usuarios británicos." },
+    { a: "MI5", b: "Tribunales y prensa", k: "Con otros poderes", stake: "La verdad sobre el agente X", state: "Abierta", x: "Un tribunal decidió en noviembre de 2026 no iniciar un proceso por desacato, pero el caso dejó en duda la palabra del servicio ante los jueces." },
+    { a: "Servicios", b: "Familias de víctimas en Irlanda del Norte", k: "Con la sociedad civil", stake: "Verdad sobre la colusión", state: "Abierta", x: "La investigación Kenova y una ley de 2023 que cerraba causas del conflicto generaron fuerte rechazo de víctimas de ambos lados." }
+  ],
+  sources: [
+    { t: "Business Standard: Blaise Metreweli, primera mujer al frente del MI6", u: "https://www.business-standard.com/world-news/mi6-first-woman-chief-blaise-metreweli-uk-intelligence-history-125061600295_1.html" },
+    { t: "Anadolu: discurso anual del jefe del MI5 (octubre de 2026)", u: "https://aa.com.tr/en/europe/uk-faces-rising-threat-from-far-right-terrorism-warns-mi5-chief/4087874" },
+    { t: "GCHQ: primera conferencia anual de su directora (mayo de 2026)", u: "https://www.globalsecurity.org/intell/library/news/2026/intell-260527-gchq02.htm" },
+    { t: "Parlamento británico: presupuesto de la Cuenta Única de Inteligencia 2025-26", u: "https://parallelparliament.co.uk/question/61239/defence-finance" },
+    { t: "Gobierno británico: estado financiero de las agencias 2025-26", u: "https://www.gov.uk/government/publications/security-and-intelligence-agencies-financial-statement-2025-26/security-and-intelligence-agencies-financial-statement-2025-26-html" },
+    { t: "ITV: el MI5 y las pruebas falsas ante tres tribunales", u: "https://www.itv.com/news/2026-11-03/mi5-spared-legal-action-after-false-evidence-given-to-three-courts" },
+    { t: "Centre for Women's Justice: acuerdo con Beth", u: "https://www.centreforwomensjustice.org.uk/news/2026/3/17/survivor-of-abuse-by-mi5-agent-wins-damages-settlement" },
+    { t: "Civil Service World: la filtración de datos de afganos", u: "https://www.civilserviceworld.com/professions/article/mod-afghan-data-breach-arap-arr-ico" },
+    { t: "Privacy International: el recurso contra la orden a Apple", u: "https://privacyinternational.org/legal-action/pi-apple-tcn-challenge" },
+    { t: "South China Morning Post: la caída del juicio por espionaje chino", u: "https://www.scmp.com/news/world/europe/article/3335089/uks-china-spy-case-collapsed-due-shambolic-failure-not-conspiracy-inquiry-finds" },
+    { t: "Ahram Online / AP: Irán y la base de Fairford", u: "https://english.ahram.org.eg/News/578884.aspx" }
   ]
- },
- "rights": [
-  {
-   "d": "1952",
-   "dir": "recorta",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1960",
-   "dir": "recorta",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1969",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1975",
-   "dir": "amplia",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1984",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1994",
-   "dir": "recorta",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2003",
-   "dir": "recorta",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2010",
-   "dir": "recorta",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2019",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  }
- ],
- "events": [
-  {
-   "d": "1962-07-24",
-   "lat": 55.25,
-   "lon": 0.77,
-   "t": "contra",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1964-01-23",
-   "lat": -18.63,
-   "lon": 141.64,
-   "t": "senales",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1971-04-24",
-   "lat": -35.63,
-   "lon": -106.62,
-   "t": "encubierta",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1975-11-24",
-   "lat": 51.05,
-   "lon": -3.99,
-   "t": "ciber",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1979-10-05",
-   "lat": 47.95,
-   "lon": 0.19,
-   "t": "humana",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1984-02-02",
-   "lat": 48.82,
-   "lon": 3.92,
-   "t": "ciber",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1989-04-21",
-   "lat": 49.43,
-   "lon": -5.13,
-   "t": "encubierta",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1993-10-13",
-   "lat": -33.51,
-   "lon": -146.31,
-   "t": "senales",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1998-10-03",
-   "lat": -1.31,
-   "lon": 121.61,
-   "t": "encubierta",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2004-06-19",
-   "lat": 48.88,
-   "lon": 1.66,
-   "t": "senales",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2007-03-26",
-   "lat": -0.07,
-   "lon": -114.41,
-   "t": "contra",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2012-11-10",
-   "lat": 1.53,
-   "lon": 114.16,
-   "t": "sabotaje",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2017-04-05",
-   "lat": 46.65,
-   "lon": -91.04,
-   "t": "sabotaje",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2020-05-05",
-   "lat": 48.95,
-   "lon": -1.93,
-   "t": "contra",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  }
- ],
- "interest": {
-  "China": 1,
-  "Germany": 3,
-  "Iran": 1,
-  "Pakistan": 2,
-  "Syria": 3,
-  "Brazil": 1,
-  "Japan": 1,
-  "South Korea": 1,
-  "North Korea": 1,
-  "Egypt": 1,
-  "Libya": 1,
-  "Sudan": 1,
-  "Nigeria": 2,
-  "Kazakhstan": 2,
-  "Belarus": 1,
-  "Poland": 3,
-  "Serbia": 1,
-  "Indonesia": 1,
-  "Ethiopia": 2,
-  "Somalia": 2
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "2015",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1969",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "1970",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "1989",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "2019",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1984",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
