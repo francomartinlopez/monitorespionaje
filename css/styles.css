@@ -116,6 +116,11 @@ button { font: inherit; color: inherit; }
 .map-foot { position: absolute; right: 14px; bottom: 10px; font: 400 10px/1.4 var(--f-mono); color: #4f8f6c; letter-spacing: .1em; text-align: right; pointer-events: none; }
 .node { cursor: pointer; }
 .node rect { fill: var(--ph); }
+.node .ring { fill: none; stroke: var(--ph); stroke-width: 1.2; }
+.node.big text { font-size: 13px; }
+.node.big .ring { stroke-width: 1.6; }
+.node .ring.r2 { stroke-width: .9; stroke-opacity: .55; }
+.node:hover .ring, .node:focus .ring { stroke: #fff; }
 .node text { fill: var(--ph-hi); font: 500 10px var(--f-mono); letter-spacing: .06em; paint-order: stroke; stroke: var(--bg); stroke-width: 3px; }
 .node:hover text, .node:focus text { fill: #fff; }
 .node:hover rect, .node:focus rect { fill: #fff; }

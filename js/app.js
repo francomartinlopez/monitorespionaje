@@ -44,6 +44,8 @@
   }
   // etiquetas: hacia dónde va el nombre de cada país en el mapa
   const LBL = { us: "l", uk: "l", fr: [-9, 13, "end"], va: "b", de: "t", il: "l", sa: "l", cn: "l", kr: "b", cu: "l", in: "r", ae: "b", tr: "b", ua: "r", ru: "t" };
+  // dos anillos alrededor del punto central de cada país, para que se vea mejor
+  const rings = (x, y, k = 1) => `<circle class="ring r1" cx="${x}" cy="${y}" r="${8 * k}"/><circle class="ring r2" cx="${x}" cy="${y}" r="${12.5 * k}"/>`;
   function nodeLabel(id, x, y, txt) {
     const o = LBL[id] || "r";
     const a = Array.isArray(o) ? o : { r: [9, 4, "start"], l: [-9, 4, "end"], t: [0, -10, "middle"], b: [0, 17, "middle"] }[o];
@@ -138,7 +140,7 @@
     const relSvg = window.RELACIONES.map((r, i) => P[r.a] && P[r.b] ? `<path class="rel ${r.t}" data-i="${i}" d="${arc(P[r.a], P[r.b])}" stroke="${RT[r.t].c}"/>` : "").join("");
     const allEv = PAISES.flatMap(p => (FICHAS[p.id]?.events || []).map(e => ({ ...e, p }))).filter(e => !e.nomap);
     const focos = allEv.map(e => { const [x, y] = pt([e.lon, e.lat]); return `<circle class="ev-dot" cx="${x}" cy="${y}" r="3.2" fill="${EV[e.t].c}" fill-opacity=".85" data-k="${allEv.indexOf(e)}"/>`; }).join("");
-    const nodes = PAISES.map(p => { const [x, y] = P[p.id]; return `<g class="node" data-id="${p.id}" tabindex="0" role="link" aria-label="${esc(p.name)}"><rect x="${x - 3.5}" y="${y - 3.5}" width="7" height="7"/>${nodeLabel(p.id, x, y, p.short.toUpperCase())}</g>`; }).join("");
+    const nodes = PAISES.map(p => { const [x, y] = P[p.id]; return `<g class="node" data-id="${p.id}" tabindex="0" role="link" aria-label="${esc(p.name)}">${rings(x, y)}<rect x="${x - 3.5}" y="${y - 3.5}" width="7" height="7"/>${nodeLabel(p.id, x, y, p.short.toUpperCase())}</g>`; }).join("");
     host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Mapa de relaciones entre servicios de inteligencia">${BASE}${members}
       <g id="relLayer">${relSvg}</g><g id="focLayer" style="display:none">${focos}</g><g>${nodes}</g></svg>
       <div class="scan" aria-hidden="true"></div>
@@ -388,7 +390,7 @@
     box.innerHTML = `<div class="map-split"><div>
         <div class="map-stage"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Operaciones de ${esc(p.name)} en el mundo">${BASE}${feat ? `<path class="m-hl" d="${path(feat)}"/>` : ""}
           <g id="opArcs"></g><g id="opDots"></g>
-          <g class="node"><rect x="${home[0] - 4}" y="${home[1] - 4}" width="8" height="8"/>${nodeLabel(p.id, home[0], home[1], p.short.toUpperCase())}</g></svg>
+          <g class="node big">${rings(home[0], home[1], 1.35)}<rect x="${home[0] - 5}" y="${home[1] - 5}" width="10" height="10"/>${nodeLabel(p.id, home[0], home[1], p.short.toUpperCase())}</g></svg>
           <div class="scan" aria-hidden="true"></div>
           <div class="map-corner" id="opDate"></div></div>
         <div class="tl-bar">
