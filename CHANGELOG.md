@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Verificación de enlaces de EE.UU.: se corrigieron cuatro direcciones que habían cambiado (golpe de 1953 en el National Security Archive, audiencia MKUltra y estudio sobre tortura del Comité de Inteligencia del Senado, nota de ProPublica sobre AT&T). Las demás fuentes primarias (Senado, Archivos Nacionales, Departamento de Estado, FBI, prensa) responden bien.
+
 - 2026-11-15 · Ola 2: ficha real de Argentina (organigrama actualizado al DNU 941/2025, presupuesto 2026, conducción de Auguadra, nueve hitos de derechos civiles, operaciones de la dictadura a 2018, casos AMIA, Orletti, Nisman, ARA San Juan, bases AMBA y Plan de Inteligencia Nacional, fallas y falsas banderas). Línea de derechos civiles: hitos ubicados por mes y alturas escalonadas para que no se pisen.
 
 - 2026-11-15 · Nueva sección en cada ficha: "Fallas y falsas banderas", una cronología de fallas de inteligencia y operaciones de falsa bandera, cada una con nivel de evidencia, por qué está o no en duda y cuánta evidencia hay sobre esa duda. Cargada para EE.UU. (8 fallas, 4 falsas banderas).
