@@ -9,6 +9,21 @@ window.MONITOR_META = {
 };
 
 // Rubros operativos para medir el poder de cada país (1 a 5).
+// Escala de poder: qué significa cada valor (vale para los seis rubros).
+window.POWER_SCALE = {
+  5: "Alcance global y sostenido: opera en casi cualquier país, con capacidades propias de primer nivel y resultados documentados.",
+  4: "Alcance global o regional fuerte, con capacidades propias avanzadas pero con límites de escala o dependencia de aliados.",
+  3: "Capacidad regional sólida, con operaciones documentadas fuera de sus fronteras en ese rubro.",
+  2: "Capacidad sobre todo nacional o cercana, con operaciones externas puntuales.",
+  1: "Capacidad mínima o sin evidencia pública de actividad relevante en ese rubro."
+};
+// Interés estratégico de un servicio sobre otro país (capa del mapa de operaciones).
+window.INTEREST_SCALE = {
+  3: "Alto: país señalado como amenaza o prioridad en documentos oficiales de estrategia, con operaciones documentadas o presencia sostenida.",
+  2: "Medio: aliado clave, competidor regional o escenario de conflicto donde el servicio sigue de cerca lo que pasa.",
+  1: "Bajo: interés puntual, por un tema concreto (terrorismo, narcotráfico, tecnología, diáspora)."
+};
+
 window.RUBROS = [
   { k: "humana", n: "Inteligencia humana", s: "HUMINT", x: "Agentes, informantes y redes de reclutamiento." },
   { k: "senales", n: "Señales y comunicaciones", s: "SIGINT", x: "Interceptación de comunicaciones y señales electrónicas." },

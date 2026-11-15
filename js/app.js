@@ -230,7 +230,8 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
         <div class="res-grid"><div class="prose">${f.summary.map(t => `<p>${esc(t)}</p>`).join("")}</div>
           <div class="facts">${f.keyFacts.map(k => `<div class="fact"><div class="l">${esc(k.l)}</div><div class="v">${esc(k.v)}</div><div class="n">${esc(k.n)}</div></div>`).join("")}</div></div>
         <h3 class="sub">Alcance y poder por rubro</h3>
-        <div class="power">${RUBROS.map(r => `<div class="pw"><div class="n">${esc(r.n)}<small>${r.s}</small></div><div class="bars" title="${esc(r.x)}">${[1, 2, 3, 4, 5].map(i => `<i class="${i <= f.power[r.k] ? "on" : ""}"></i>`).join("")}</div><div class="v">${f.power[r.k]}</div></div>`).join("")}</div>
+        <div class="power">${RUBROS.map(r => `<div class="pw"><div class="n">${esc(r.n)}<small>${r.s}</small></div><div class="bars" title="${esc((f.powerWhy || {})[r.k] || r.x)}">${[1, 2, 3, 4, 5].map(i => `<i class="${i <= f.power[r.k] ? "on" : ""}"></i>`).join("")}</div><div class="v">${f.power[r.k]}</div></div>`).join("")}</div>
+        ${f.powerWhy ? `<details class="why"><summary>Por qué estos valores</summary><dl>${RUBROS.map(r => `<dt>${esc(r.n)} · ${f.power[r.k]}</dt><dd>${esc(f.powerWhy[r.k] || "")}</dd>`).join("")}</dl></details>` : ""}
         <h3 class="sub">Intereses y prioridades de seguridad nacional</h3>
         <div class="prio">${f.priorities.map((x, i) => `<div><span>${String(i + 1).padStart(2, "0")}</span><b style="display:inline">${esc(x.h)}</b><p>${esc(x.x)}</p></div>`).join("")}</div>
         <h3 class="sub">Dónde operan · principales focos</h3>
@@ -483,6 +484,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       <h1>Metodología</h1>
       <div class="prose">
         <p>El monitor sigue a 20 países: once del núcleo, cinco muy relevantes y cuatro relevantes en su región o por una habilidad puntual. Canadá, Australia y Nueva Zelanda entran como parte de la alianza Cinco Ojos, dentro de las fichas de EE.UU. y el Reino Unido.</p>
+        <p>Responsable editorial: Franco Martín López. Todo el contenido está redactado con palabras propias a partir de las fuentes citadas en cada ficha.</p>
         <p>La actualización es semanal. Las alertas cubren operaciones, capturas, expulsiones y filtraciones de los últimos días; se retiran cuando pasan dos semanas sin novedades.</p>
       </div>
       <div class="section-title"><h2>Escala de evidencia</h2><span>Cómo se clasifica cada caso controvertido</span></div>
@@ -490,6 +492,11 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       <div class="prose"><p>Cada caso dice quién lo afirma (un tribunal, un gobierno, un medio, un ex agente) y qué falta para subir de categoría. Si aparece evidencia nueva, el caso cambia de etiqueta y queda registrado. Las teorías conspirativas se incluyen con borde punteado y el sello "no verificado", junto con su origen y lo que las desmiente.</p></div>
       <div class="section-title"><h2>Poder por rubro</h2><span>Seis rubros, de 1 a 5</span></div>
       <div class="law-grid">${RUBROS.map(r => `<div class="law"><h4>${esc(r.n)} · ${r.s}</h4><p style="margin:0;color:var(--soft);font-size:14px">${esc(r.x)}</p></div>`).join("")}</div>
+      <div class="section-title"><h2>Escala de poder</h2><span>El mismo criterio para los seis rubros; cada valor de una ficha lleva su justificación</span></div>
+      <div class="ev-scale">${[5, 4, 3, 2, 1].map(l => `<div style="--c:rgba(106,245,154,${(.25 + l * .15).toFixed(2)})"><b style="color:var(--ph)">${l}</b>${esc(window.POWER_SCALE[l])}</div>`).join("")}</div>
+      <div class="section-title"><h2>Interés estratégico</h2><span>Capa del mapa de operaciones de cada ficha</span></div>
+      <div class="ev-scale">${[3, 2, 1].map(l => `<div style="--c:${["", "#ffd23f", "#ff9433", "#ff4d3d"][l]}"><b>${["", "Bajo", "Medio", "Alto"][l]}</b>${esc(window.INTEREST_SCALE[l])}</div>`).join("")}</div>
+      <div class="prose"><p>La intensidad de operaciones, en cambio, no es editorial: se calcula contando los hechos cargados en cada país hasta la fecha que muestra el mapa.</p></div>
       <div class="section-title"><h2>Niveles de alerta</h2></div>
       <div class="ev-scale">${[5, 4, 3, 2, 1].map(l => `<div style="--c:${window.LV[l]}"><b>Nivel ${l} · ${window.LV_LABEL[l]}</b></div>`).join("")}</div>
       <div class="section-title"><h2>Derechos civiles</h2></div>

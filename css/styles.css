@@ -479,3 +479,10 @@ a:hover .lane-l { fill: var(--ph); }
 .legend .lg-t { font: 500 11px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--text); }
 .legend .lg-sep { width: 1px; height: 16px; background: var(--line-2); }
 .legend .sq { width: 11px; height: 11px; }
+
+.why { margin-top: 14px; border: 1px solid #1f3327; border-radius: var(--r); background: var(--bg-2); }
+.why summary { cursor: pointer; padding: 10px 14px; font: 500 11.5px var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--ph); min-height: 44px; display: flex; align-items: center; }
+.why dl { margin: 0; padding: 0 14px 12px; display: grid; grid-template-columns: 220px 1fr; gap: 8px 16px; font-size: 14px; }
+.why dt { color: var(--text-hi); font-weight: 500; }
+.why dd { margin: 0; color: var(--soft); }
+@media (max-width: 900px) { .why dl { grid-template-columns: 1fr; } }

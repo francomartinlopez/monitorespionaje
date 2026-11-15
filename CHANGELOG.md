@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Fase 1 completa: escala de poder y de interés estratégico en Metodología, justificación de cada valor de poder en las fichas, validador (`scripts/validate.js`, con prueba en navegador) y guía de estilo. Fase 2, ola 1: primera ficha real, Estados Unidos (18 organismos, 12 hitos de derechos civiles, 18 operaciones con fuente, 12 casos, empresas y luchas de poder; datos al 15-nov-2026). Pendiente de verificación: que abran los enlaces de fuentes históricas citados de memoria (Senado, National Security Archive, Wikipedia).
+
 - 2026-11-15 · Mapa de operaciones de cada ficha: capa para colorear países en amarillo, naranja y rojo según el interés estratégico (dato editorial, de prueba por ahora) o la intensidad de operaciones (calculada con los hechos hasta la fecha del mapa). Nombres de países en castellano en los mapas.
 
 - 2026-11-15 · Nueve secciones nuevas en el menú Explorar y en la portada: alianzas de inteligencia, infraestructura de vigilancia, mercado del software espía, expulsiones y canjes, personas (red), comparador de dos países, cronología global por carriles, archivo desclasificado y "Cómo funciona" (ciclo, tipos de inteligencia y glosario).

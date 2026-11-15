@@ -1,771 +1,189 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Estados Unidos · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["us"] = {
- "sample": true,
- "id": "us",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Estados Unidos: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "18",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 5,
-  "senales": 5,
-  "ciber": 5,
-  "imagenes": 5,
-  "encubierta": 5,
-  "contra": 4
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "ODNI": {
-   "since": 1915,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Oficina del Director de Inteligencia Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "CIA": {
-   "since": 1998,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Agencia Central de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "NSA": {
-   "since": 1921,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Agencia de Seguridad Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "DIA": {
-   "since": 1946,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Agencia de Inteligencia de Defensa: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "NGA": {
-   "since": 1926,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Agencia Nacional de Inteligencia Geoespacial: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "NRO": {
-   "since": 1977,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Oficina Nacional de Reconocimiento: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "G-2": {
-   "since": 1950,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia del Ejército: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "ONI": {
-   "since": 2010,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Oficina de Inteligencia Naval: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "AF ISR": {
-   "since": 1949,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia de la Fuerza Aérea: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "MCIA": {
-   "since": 1949,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia del Cuerpo de Marines: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "NSIC": {
-   "since": 1900,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia de la Fuerza Espacial: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "FBI": {
-   "since": 2003,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Buró Federal de Investigaciones: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "DEA": {
-   "since": 1916,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia de la Administración de Control de Drogas: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "I&A": {
-   "since": 1935,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia del Departamento de Seguridad Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "CGI": {
-   "since": 1950,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia de la Guardia Costera: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "INR": {
-   "since": 1909,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Oficina de Inteligencia e Investigación del Departamento de Estado: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "OIA": {
-   "since": 1900,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Oficina de Inteligencia del Tesoro: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "DOE-IN": {
-   "since": 1949,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia del Departamento de Energía: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "FISC": {
-   "since": 1935,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Tribunal de Vigilancia de Inteligencia Extranjera: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "SSCI · HPSCI": {
-   "since": 1918,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comisiones de inteligencia del Senado y la Cámara: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "PCLOB": {
-   "since": 1995,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Junta de Supervisión de Privacidad y Libertades Civiles: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "us",
+  updated: "2026-11-15",
+  summary: [
+    "Estados Unidos tiene la comunidad de inteligencia más grande y cara del mundo: 18 organismos coordinados por la Oficina del Director de Inteligencia Nacional (ODNI), creada después del 11-S. Sólo el Programa Nacional de Inteligencia recibió 73.300 millones de dólares en el año fiscal 2025, sin contar los programas de inteligencia militar.",
+    "Entre 2025 y 2026 la conducción vivió una sacudida inusual. La ODNI recortó cerca del 40 % de su personal con el plan ODNI 2.0, la NSA estuvo casi un año sin director confirmado y Tulsi Gabbard renunció en mayo de 2026. Tras unas semanas con Bill Pulte como interino, el Senado confirmó a Jay Clayton como director de Inteligencia Nacional a fines de julio.",
+    "En lo operativo, la CIA volvió a la acción encubierta de alto perfil. Trump confirmó en octubre de 2025 que la había autorizado en Venezuela, y la agencia aportó fuentes y seguimiento para la captura de Nicolás Maduro en enero de 2026. Durante la guerra con Irán, iniciada el 28 de febrero de 2026, las evaluaciones de inteligencia quedaron en el centro de la pelea política.",
+    "En lo legal, la Sección 702 de la ley FISA, la principal herramienta de vigilancia de comunicaciones de extranjeros, venció el 12 de junio de 2026 por primera vez desde 2008. La recolección sigue bajo la autorización judicial vigente hasta comienzos de 2027, mientras el Congreso discute si exigir orden judicial para buscar datos de estadounidenses."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Organismos", v: "18", n: "miembros de la comunidad de inteligencia (ODNI)" },
+    { l: "Presupuesto NIP", v: "US$ 73.300 M", n: "año fiscal 2025, sin el programa militar (ODNI)" },
+    { l: "Director de Inteligencia Nacional", v: "Jay Clayton", n: "confirmado el 28 jul 2026" },
+    { l: "Sección 702", v: "Vencida", n: "desde el 12 jun 2026; la recolección sigue por orden judicial" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 5, senales: 5, ciber: 5, imagenes: 5, encubierta: 5, contra: 4 },
+  powerWhy: {
+    humana: "La CIA mantiene estaciones en casi todo el mundo y mostró en 2026 fuentes dentro del círculo de Maduro y operaciones de engaño en Irán.",
+    senales: "La NSA y la red de los Cinco Ojos son la mayor estructura de interceptación conocida; la Sección 702 aporta buena parte del informe diario del presidente.",
+    ciber: "La NSA y el Comando Cibernético operan en forma conjunta; Stuxnet y el apagón de Caracas en 2026 muestran capacidad ofensiva de primer nivel.",
+    imagenes: "La NRO y la NGA operan la mayor constelación de satélites espía y el principal centro de análisis geoespacial del mundo.",
+    encubierta: "Siete décadas de acción encubierta documentada, desde Irán 1953 hasta Venezuela 2026, con autorización presidencial formal (findings).",
+    contra: "El FBI detectó redes rusas y topos históricos, pero Ames y Hanssen operaron durante años y la penetración china (Salt Typhoon) muestra límites."
+  },
+  priorities: [
+    { h: "China", x: "Principal competidor estratégico: tecnología, Taiwán, ciberespionaje y presencia militar en el Indo-Pacífico." },
+    { h: "Irán", x: "Guerra abierta en 2026 y negociación posterior; programa nuclear, misiles y red de aliados armados en la región." },
+    { h: "Rusia", x: "Guerra en Ucrania, sabotajes en Europa, operaciones de influencia y arsenal nuclear." },
+    { h: "Hemisferio occidental", x: "Carteles designados como organizaciones terroristas en 2025, Venezuela y migración, con más tareas para la CIA y el FBI." },
+    { h: "Terrorismo", x: "Estado Islámico y Al Qaeda en Medio Oriente y África, y la amenaza de ataques en el propio territorio." },
+    { h: "Infraestructura crítica", x: "Defensa de redes de telecomunicaciones, energía y agua frente a intrusiones estatales." }
+  ],
+  focos: ["China e Indo-Pacífico", "Irán y el Golfo", "Rusia y Ucrania", "Venezuela y el Caribe", "México y carteles", "Terrorismo en Medio Oriente y África"],
+  bodies: {
+    "ODNI": { since: 2005, how: "Coordina a los 18 organismos, arma el presupuesto del Programa Nacional de Inteligencia y prepara el informe diario del presidente. No tiene agentes propios en el exterior: su poder depende de la autoridad que le dé la Casa Blanca.", staff: "Cerca de 1.300 personas tras el recorte de 2025, desde unas 1.800 a comienzos de ese año (prensa especializada).", budget: "Su presupuesto propio no se publica; administra el total del programa nacional, de 73.300 millones en 2025.", tech: ["Plataformas de análisis compartidas", "Centros nacionales (antiterrorismo, contrainteligencia)"], where: ["Washington (Liberty Crossing, McLean)"] },
+    "CIA": { since: 1947, how: "Reúne inteligencia humana en el exterior, analiza para el presidente y es el único organismo civil autorizado a ejecutar acción encubierta, siempre con una orden presidencial formal (finding) informada al Congreso.", staff: "Cifra clasificada; estimaciones de prensa hablan de más de 20.000 personas.", budget: "14.700 millones de dólares en 2013, según el presupuesto clasificado que filtró Edward Snowden; no hay cifra oficial posterior.", tech: ["Inteligencia humana", "Centro de Misiones Cibernéticas", "Drones armados (en el pasado)"], where: ["Estaciones en casi todo el mundo", "Sede en Langley, Virginia"] },
+    "NSA": { since: 1952, how: "Intercepta y descifra comunicaciones y señales extranjeras, y protege los sistemas cifrados del gobierno. Comparte director con el Comando Cibernético del Pentágono.", staff: "Cifra clasificada; se la considera la mayor agencia de inteligencia por personal.", budget: "10.800 millones de dólares en 2013, según el presupuesto filtrado por Snowden.", tech: ["Interceptación de cables y satélites", "Supercomputación y criptoanálisis", "Programas bajo la Sección 702"], where: ["Fort Meade, Maryland", "Estaciones conjuntas con los Cinco Ojos"] },
+    "DIA": { since: 1961, how: "Produce inteligencia militar para el Pentágono y los comandos: capacidades de ejércitos extranjeros, armas y planes. Coordina a los agregados militares en las embajadas.", staff: "No hay una cifra oficial actualizada.", budget: "Parte del Programa de Inteligencia Militar; no se publica por separado.", tech: ["Inteligencia humana militar", "Análisis de medición y firmas (MASINT)"], where: ["Agregadurías militares en el mundo", "Sede en Washington"] },
+    "NGA": { since: 1996, how: "Analiza imágenes satelitales y aéreas y produce cartografía para defensa e inteligencia. Nació como NIMA y tomó su nombre actual en 2003.", staff: "Cifra no publicada.", budget: "No se publica.", tech: ["Imágenes satelitales propias y comerciales", "Inteligencia artificial aplicada a imágenes"], where: ["Springfield, Virginia", "San Luis, Misuri"] },
+    "NRO": { since: 1961, how: "Diseña, lanza y opera los satélites espía de Estados Unidos. Su existencia fue secreta hasta 1992.", staff: "Cifra no publicada.", budget: "No se publica.", tech: ["Satélites de imágenes y señales", "Constelaciones de satélites pequeños"], where: ["Órbita terrestre", "Chantilly, Virginia"] },
+    "G-2": { since: 1885, how: "Inteligencia del Ejército: apoya a las tropas en el terreno con información táctica y operativa.", staff: "No se publica.", budget: "Parte del programa militar.", tech: ["Drones y sensores tácticos"], where: ["Despliegues del Ejército"] },
+    "ONI": { since: 1882, how: "La agencia de inteligencia más antigua del país: sigue a las armadas extranjeras, sus submarinos y el tráfico marítimo.", staff: "No se publica.", budget: "Parte del programa militar.", tech: ["Seguimiento acústico y marítimo"], where: ["Suitland, Maryland", "Flotas en el mundo"] },
+    "AF ISR": { since: 1948, how: "Inteligencia, vigilancia y reconocimiento de la Fuerza Aérea: aviones espía, drones y análisis de señales.", staff: "No se publica.", budget: "Parte del programa militar.", tech: ["Aviones de reconocimiento", "Drones de gran altitud"], where: ["Bases aéreas en el mundo"] },
+    "MCIA": { since: 1987, how: "Inteligencia del Cuerpo de Marines para operaciones expedicionarias y anfibias.", staff: "No se publica.", budget: "Parte del programa militar.", tech: ["Inteligencia táctica"], where: ["Quantico, Virginia"] },
+    "NSIC": { since: 2021, how: "Inteligencia de la Fuerza Espacial: sigue las armas y satélites de otros países. Es el miembro más nuevo de la comunidad.", staff: "No se publica.", budget: "Parte del programa militar.", tech: ["Vigilancia del espacio"], where: ["Base Wright-Patterson, Ohio"] },
+    "FBI": { since: 1908, how: "Policía federal y principal agencia de contrainteligencia dentro del país: persigue espías, terrorismo y delitos federales. Puede pedir a la CIA y la NSA datos sobre extranjeros y consultarlos.", staff: "Decenas de miles de empleados; la parte de inteligencia no se publica por separado.", budget: "Su presupuesto general es público; la porción de inteligencia, no.", tech: ["Escuchas con orden judicial", "Bases biométricas"], where: ["56 oficinas en EE.UU.", "Agregadurías legales en embajadas"] },
+    "DEA": { since: 2006, how: "Su oficina de inteligencia de seguridad nacional se sumó a la comunidad en 2006 para cruzar información sobre narcotráfico y terrorismo.", staff: "No se publica.", budget: "No se publica.", tech: ["Interceptación con orden judicial", "Informantes"], where: ["Oficinas en América Latina, Asia y Europa"] },
+    "I&A": { since: 2007, how: "Inteligencia del Departamento de Seguridad Nacional: comparte información con policías estatales y locales sobre terrorismo y amenazas internas.", staff: "No se publica.", budget: "No se publica.", tech: ["Centros de fusión con policías estatales"], where: ["Estados Unidos"] },
+    "CGI": { since: 2001, how: "Inteligencia de la Guardia Costera: tráfico marítimo, narcotráfico por mar y migración.", staff: "No se publica.", budget: "No se publica.", tech: ["Seguimiento marítimo"], where: ["Costas de EE.UU. y el Caribe"] },
+    "INR": { since: 1947, how: "Oficina de análisis del Departamento de Estado. Pequeña y sin recolección propia, es conocida por evaluaciones independientes, como sus dudas sobre las armas de Irak en 2002.", staff: "Unas pocas centenas de analistas.", budget: "No se publica.", tech: ["Análisis de fuentes diplomáticas"], where: ["Washington"] },
+    "OIA": { since: 2004, how: "Inteligencia del Tesoro: sigue el dinero de terroristas, Estados sancionados y redes criminales.", staff: "No se publica.", budget: "No se publica.", tech: ["Datos financieros y de sanciones"], where: ["Washington"] },
+    "DOE-IN": { since: 1977, how: "Inteligencia del Departamento de Energía: programas nucleares extranjeros y protección de los laboratorios nacionales.", staff: "No se publica.", budget: "No se publica.", tech: ["Expertos de los laboratorios nucleares"], where: ["Laboratorios nacionales de EE.UU."] },
+    "FISC": { since: 1978, how: "Tribunal secreto que autoriza vigilancia dentro del país con fines de inteligencia y aprueba cada año las certificaciones de la Sección 702.", staff: "Once jueces federales designados por el presidente de la Corte Suprema.", budget: "Parte del Poder Judicial.", tech: [], where: ["Washington"] },
+    "SSCI · HPSCI": { since: 1976, how: "Comisiones de inteligencia del Senado y la Cámara: reciben los informes de acción encubierta, controlan el presupuesto y aprueban a los directores.", staff: "Personal propio de cada comisión.", budget: "Parte del Congreso.", tech: [], where: ["Capitolio"] },
+    "PCLOB": { since: 2007, how: "Junta independiente que revisa programas antiterroristas y de vigilancia para proteger la privacidad y las libertades civiles.", staff: "Cinco miembros y un equipo chico.", budget: "Presupuesto propio pequeño.", tech: [], where: ["Washington"] }
+  },
+  civil: [
+    "El presidente recibe cada día el Informe Diario del Presidente, que arma la ODNI con aportes de toda la comunidad, y firma las órdenes (findings) que autorizan la acción encubierta.",
+    "El Consejo de Seguridad Nacional fija prioridades y coordina con Defensa, Estado y Tesoro; el Departamento de Estado tiene su propia oficina de análisis (INR).",
+    "En 2025 y 2026 crecieron las tensiones por la politización: despidos de jefes (como el director de la NSA en abril de 2025), recortes en la ODNI y choques públicos por las evaluaciones sobre Irán."
+  ],
+  law: {
+    domestic: [
+      "La Cuarta Enmienda exige orden judicial para intervenir comunicaciones de estadounidenses; la ley FISA de 1978 creó un tribunal secreto para hacerlo con fines de inteligencia.",
+      "La CIA tiene prohibido hacer tareas policiales o de seguridad interna; dentro del país, la contrainteligencia es del FBI.",
+      "Los datos de estadounidenses que quedan atrapados en la vigilancia de extranjeros pueden consultarse con reglas de minimización; si eso requiere orden judicial es el centro de la pelea por la Sección 702."
+    ],
+    foreign: [
+      "La Orden Ejecutiva 12333 (1981) regula la recolección en el exterior con muy poco control judicial.",
+      "La Sección 702 permitía vigilar sin orden individual a extranjeros fuera del país con ayuda obligatoria de empresas de EE.UU.; venció en junio de 2026, pero la autorización judicial de marzo de 2026 la mantiene vigente hasta 2027.",
+      "La acción encubierta en el exterior requiere una orden presidencial escrita y aviso a las comisiones de inteligencia del Congreso."
+    ],
+    oversight: [
+      "Comisiones de inteligencia del Senado y de la Cámara, creadas tras la Comisión Church.",
+      "Tribunal de Vigilancia de Inteligencia Extranjera (FISC) y su tribunal de revisión.",
+      "Inspectores generales de cada agencia y del conjunto de la comunidad, y la Junta de Privacidad y Libertades Civiles (PCLOB)."
+    ]
+  },
+  rights: [
+    { d: "1956", dir: "amplia", area: "Expresión", h: "Comienza COINTELPRO", x: "El FBI infiltra y hostiga en secreto a organizaciones políticas y de derechos civiles; el programa sale a la luz en 1971." },
+    { d: "1976", dir: "recorta", area: "Debido proceso", h: "Comisión Church y nuevas comisiones de control", x: "Tras la investigación del Senado sobre abusos de la CIA, el FBI y la NSA, el Congreso crea comisiones permanentes de inteligencia." },
+    { d: "1978", dir: "recorta", area: "Comunicaciones", h: "Ley FISA", x: "Las escuchas con fines de inteligencia dentro del país pasan a necesitar orden de un tribunal especial." },
+    { d: "1981", dir: "amplia", area: "Comunicaciones", h: "Orden Ejecutiva 12333", x: "Reagan fija un marco amplio para la recolección en el exterior, con controles casi sólo internos del Poder Ejecutivo." },
+    { d: "2001", dir: "amplia", area: "Privacidad", h: "Ley Patriota", x: "Tras el 11-S se amplían las herramientas de vigilancia, incluida la Sección 215, luego usada para registros telefónicos masivos." },
+    { d: "2008", dir: "amplia", area: "Comunicaciones", h: "Ley de Enmiendas a FISA y Sección 702", x: "Legaliza la vigilancia de extranjeros sin orden individual y da inmunidad a las telefónicas que colaboraron con las escuchas sin orden de 2001–2007." },
+    { d: "2013", dir: "amplia", area: "Privacidad", h: "Revelaciones de Snowden", x: "Los documentos muestran la recolección masiva de registros telefónicos de estadounidenses y el programa PRISM." },
+    { d: "2015", dir: "recorta", area: "Privacidad", h: "Ley USA FREEDOM", x: "Termina la recolección masiva de registros telefónicos por parte de la NSA: los datos quedan en las empresas." },
+    { d: "2020", dir: "recorta", area: "Debido proceso", h: "Fallo del Noveno Circuito (caso Moalin)", x: "Un tribunal federal de apelaciones concluye que el programa de registros telefónicos violó la ley." },
+    { d: "2022", dir: "recorta", area: "Datos personales", h: "Orden Ejecutiva 14086", x: "Agrega límites de necesidad y proporcionalidad a la inteligencia de señales y un mecanismo de reclamo para ciudadanos europeos." },
+    { d: "2024", dir: "amplia", area: "Comunicaciones", h: "Ley RISAA", x: "Renueva la Sección 702 por dos años y amplía la lista de empresas que pueden ser obligadas a colaborar." },
+    { d: "2026", dir: "recorta", area: "Comunicaciones", h: "Vence la Sección 702", x: "El Congreso no logra renovarla y caduca el 12 de junio; la recolección sigue por la autorización judicial vigente mientras se discute exigir orden judicial." }
+  ],
+  events: [
+    { d: "1953-08-19", lat: 35.69, lon: 51.39, c: "Iran", t: "encubierta", ev: 1, h: "Golpe contra Mossadegh", x: "La CIA, junto al MI6, organiza el derrocamiento del primer ministro iraní; la agencia lo reconoció en documentos liberados en 2013.", u: "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB435/", st: "National Security Archive" },
+    { d: "1954-06-27", lat: 14.63, lon: -90.51, c: "Guatemala", t: "encubierta", ev: 1, h: "Operación PBSuccess en Guatemala", x: "La CIA arma y dirige la campaña que fuerza la renuncia del presidente Jacobo Árbenz.", u: "https://history.state.gov/historicaldocuments/frus1952-54Guat", st: "Departamento de Estado (FRUS)" },
+    { d: "1961-04-17", lat: 22.16, lon: -81.05, c: "Cuba", t: "encubierta", ev: 1, h: "Bahía de Cochinos", x: "Fracasa la invasión de exiliados cubanos entrenados por la CIA para derrocar a Fidel Castro.", u: "https://history.state.gov/milestones/1961-1968/bay-of-pigs", st: "Departamento de Estado" },
+    { d: "1970-06-01", lat: 47.17, lon: 8.52, c: "Switzerland", t: "senales", ev: 2, h: "Crypto AG, la empresa espía", x: "La CIA y el BND compran en secreto el fabricante suizo de cifrado y leen durante décadas las comunicaciones de más de cien gobiernos clientes.", u: "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/", st: "The Washington Post" },
+    { d: "1970-09-15", lat: -33.45, lon: -70.67, c: "Chile", t: "encubierta", ev: 1, h: "Acción encubierta en Chile", x: "Nixon ordena a la CIA impedir que Salvador Allende asuma; siguen años de financiamiento a la oposición, según el Senado.", u: "https://www.intelligence.senate.gov/sites/default/files/94chile.pdf", st: "Senado de EE.UU. (Comisión Church)" },
+    { d: "1979-12-24", lat: 34.01, lon: 71.58, c: "Pakistan", t: "encubierta", ev: 1, h: "Operación Ciclón", x: "La CIA, con el ISI paquistaní, arma y financia a los muyahidines contra la invasión soviética de Afganistán.", u: "https://en.wikipedia.org/wiki/Operation_Cyclone", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1994-02-21", lat: 38.88, lon: -77.1, c: "United States of America", t: "contra", ev: 1, h: "Detienen a Aldrich Ames", x: "El FBI detiene al oficial de la CIA que espiaba para Moscú desde 1985 y había entregado a agentes estadounidenses.", u: "https://www.fbi.gov/history/famous-cases/aldrich-ames", st: "FBI" },
+    { d: "2001-02-18", lat: 38.9, lon: -77.26, c: "United States of America", t: "contra", ev: 1, h: "Detienen a Robert Hanssen", x: "El FBI atrapa a uno de sus propios agentes, que espió para Moscú durante más de veinte años.", u: "https://www.fbi.gov/history/famous-cases/robert-hanssen", st: "FBI" },
+    { d: "2002-12-01", lat: 53.63, lon: 21.27, c: "Poland", t: "encubierta", ev: 1, h: "Cárceles secretas en Europa", x: "La CIA retiene e interroga a sospechosos de terrorismo en prisiones secretas en el exterior; el Tribunal Europeo de Derechos Humanos condenó a Polonia en 2014 por albergar una.", u: "https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf", st: "Comisión de Inteligencia del Senado" },
+    { d: "2010-06-17", lat: 33.72, lon: 51.73, c: "Iran", t: "sabotaje", ev: 2, h: "Stuxnet en Natanz", x: "Se descubre el gusano informático que dañó centrifugadoras iraníes; la prensa lo atribuye a un programa conjunto de EE.UU. e Israel.", u: "https://www.nytimes.com/2012/06/01/world/middleeast/obama-ordered-wave-of-cyberattacks-against-iran.html", st: "The New York Times" },
+    { d: "2010-06-27", lat: 40.85, lon: -73.87, c: "United States of America", t: "contra", ev: 1, h: "Cae la red de ilegales rusos", x: "El FBI detiene a diez agentes rusos que vivían con identidades falsas; días después son canjeados en Viena.", u: "https://en.wikipedia.org/wiki/Illegals_Program", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2011-05-02", lat: 34.17, lon: 73.24, c: "Pakistan", t: "encubierta", ev: 1, h: "Muerte de Osama bin Laden", x: "Una operación dirigida por la CIA y ejecutada por fuerzas especiales mata al líder de Al Qaeda en Abbottabad.", u: "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Lanza_de_Neptuno", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2013-06-06", lat: 39.11, lon: -76.77, c: "United States of America", t: "senales", ev: 1, h: "Se revela PRISM", x: "Los documentos de Snowden muestran que la NSA obtiene datos de las grandes tecnológicas bajo la Sección 702.", u: "https://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data", st: "The Guardian" },
+    { d: "2013-10-24", lat: 52.52, lon: 13.4, c: "Germany", t: "senales", ev: 2, h: "El teléfono de Merkel", x: "Documentos filtrados indican que la NSA vigiló el celular de la canciller alemana y de decenas de líderes.", u: "https://www.theguardian.com/world/2013/oct/24/nsa-surveillance-world-leaders-calls", st: "The Guardian" },
+    { d: "2024-08-01", lat: 39.93, lon: 32.86, c: "Turkey", t: "contra", ev: 1, h: "Canje de Ankara", x: "El mayor intercambio de presos entre Occidente y Rusia desde la Guerra Fría, con mediación de los servicios turcos.", u: "https://en.wikipedia.org/wiki/2024_Ankara_prisoner_exchange", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2025-10-15", lat: 10.49, lon: -66.88, c: "Venezuela", t: "encubierta", ev: 1, h: "Acción encubierta en Venezuela", x: "Trump confirma que autorizó a la CIA a operar en secreto contra el gobierno de Maduro.", u: "https://www.opb.org/article/2025/10/16/trump-confirms-the-cia-is-conducting-covert-operations-inside-venezuela/", st: "AP / OPB" },
+    { d: "2026-01-03", lat: 10.45, lon: -66.9, c: "Venezuela", t: "humana", ev: 1, h: "Captura de Maduro", x: "La CIA aporta una fuente cercana a Maduro y un equipo en Caracas desde agosto; fuerzas especiales lo capturan en Fuerte Tiuna.", u: "https://www.defenseone.com/threats/2026/01/us-spy-agencies-contributed-operation-captured-maduro/410437/", st: "Defense One" },
+    { d: "2026-04-04", lat: 32.4, lon: 53.7, c: "Iran", t: "encubierta", ev: 1, h: "Engaño para rescatar a un aviador", x: "Según el director de la CIA, una campaña de engaño de la agencia dio tiempo para rescatar a un tripulante derribado en Irán.", u: "https://www.defenseone.com/threats/2026/04/cia-deception-campaign-helped-us-rescue-downed-airman-iran/412655/", st: "Defense One" }
+  ],
+  interest: {
+    "China": 3, "Russia": 3, "Iran": 3, "North Korea": 3, "Venezuela": 3, "Mexico": 3, "Taiwan": 3,
+    "Cuba": 2, "Ukraine": 2, "Israel": 2, "Syria": 2, "Iraq": 2, "Yemen": 2, "Afghanistan": 2, "Pakistan": 2, "India": 2, "Saudi Arabia": 2, "Colombia": 2, "Panama": 2, "Greenland": 2, "Somalia": 2, "Lebanon": 2,
+    "Turkey": 1, "Egypt": 1, "Libya": 1, "Mali": 1, "Niger": 1, "Nigeria": 1, "Brazil": 1, "Argentina": 1, "Germany": 1, "France": 1, "United Kingdom": 1, "Japan": 1, "South Korea": 1, "Philippines": 1, "Vietnam": 1, "Belarus": 1, "Serbia": 1, "Nicaragua": 1, "Haiti": 1, "Ecuador": 1
+  },
+  timeline: [
+    { era: "Orígenes", d: "1882", h: "Nace la Oficina de Inteligencia Naval", x: "La agencia de inteligencia más antigua del país." },
+    { era: "", d: "1908", h: "Nace el antecesor del FBI", x: "El Departamento de Justicia crea su oficina de investigaciones." },
+    { era: "", d: "1919–1929", h: "La Cámara Negra", x: "Oficina de descifrado civil y militar; la cierra el secretario de Estado Stimson." },
+    { era: "", d: "1942", h: "Oficina de Servicios Estratégicos (OSS)", x: "Primera agencia de espionaje y sabotaje en el exterior, durante la Segunda Guerra Mundial." },
+    { era: "Guerra Fría", d: "1947", h: "Ley de Seguridad Nacional", x: "Crea la CIA y el Consejo de Seguridad Nacional." },
+    { era: "", d: "1952", h: "Nace la NSA", x: "Por directiva presidencial secreta, para unificar la inteligencia de señales." },
+    { era: "", d: "1953–1961", h: "Era de los golpes encubiertos", x: "Irán, Guatemala y Bahía de Cochinos." },
+    { era: "", d: "1961", h: "Nacen la DIA y la NRO", x: "La inteligencia militar se unifica y los satélites espía pasan a una oficina secreta." },
+    { era: "", d: "1975–1976", h: "Comisión Church", x: "El Senado expone abusos de la CIA, el FBI y la NSA y crea controles permanentes." },
+    { era: "", d: "1978", h: "Ley FISA", x: "Las escuchas de inteligencia en el país pasan a necesitar orden judicial." },
+    { era: "", d: "1986", h: "Escándalo Irán-Contras", x: "Ventas secretas de armas a Irán para financiar a la contra nicaragüense, contra lo dispuesto por el Congreso." },
+    { era: "Posguerra Fría", d: "1992", h: "Se reconoce la existencia de la NRO", x: "Fin del secreto sobre la oficina de satélites espía." },
+    { era: "", d: "1994", h: "Caso Ames", x: "El topo más dañino de la historia de la CIA." },
+    { era: "11-S y después", d: "2001", h: "Atentados del 11-S y Ley Patriota", x: "La comisión investigadora señala fallas para compartir información entre la CIA y el FBI." },
+    { era: "", d: "2004", h: "Nace la ODNI", x: "La ley de reforma de inteligencia crea al director de Inteligencia Nacional por encima de la CIA." },
+    { era: "", d: "2011", h: "Operación contra bin Laden", x: "La CIA dirige la operación en Abbottabad, Pakistán." },
+    { era: "Era digital", d: "2013", h: "Filtraciones de Snowden", x: "Exponen la vigilancia masiva de la NSA y sus socios." },
+    { era: "", d: "2015", h: "Ley USA FREEDOM", x: "Fin de la recolección masiva de registros telefónicos." },
+    { era: "", d: "2025", h: "ODNI 2.0", x: "La ODNI recorta cerca del 40 % de su personal; despiden al director de la NSA." },
+    { era: "", d: "2026", h: "Venezuela, Irán y la Sección 702", x: "Captura de Maduro, guerra con Irán, vence la Sección 702 y asume Jay Clayton como director de Inteligencia Nacional.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "1953–1973", h: "MKUltra", x: "Programa de la CIA que experimentó con drogas como el LSD y técnicas de control mental, a veces en personas que no sabían que participaban. Casi todos los archivos fueron destruidos en 1973.", who: "Senado de EE.UU. (audiencias de 1977) y la propia CIA", missing: "", u: "https://www.intelligence.senate.gov/sites/default/files/hearings/95mkultra.pdf", st: "Senado de EE.UU." },
+    { ev: 1, ilegal: true, d: "1956–1971", h: "COINTELPRO", x: "El FBI infiltró, vigiló y saboteó a organizaciones políticas, del movimiento por los derechos civiles y de izquierda, incluido Martin Luther King.", who: "Comisión Church y archivos del propio FBI", missing: "", u: "https://vault.fbi.gov/cointel-pro", st: "FBI Vault" },
+    { ev: 1, ilegal: false, d: "1953", h: "Golpe en Irán", x: "La CIA y el MI6 organizaron el derrocamiento de Mohammad Mossadegh. La agencia reconoció su papel en documentos liberados en 2013.", who: "La propia CIA (documentos desclasificados)", missing: "", u: "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB435/", st: "National Security Archive" },
+    { ev: 1, ilegal: true, d: "1985–1987", h: "Irán-Contras", x: "Funcionarios del Consejo de Seguridad Nacional y la CIA vendieron armas a Irán en secreto y desviaron fondos a la contra nicaragüense, pese a la prohibición del Congreso.", who: "Comisiones del Congreso y el fiscal independiente Lawrence Walsh", missing: "", u: "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "2002–2009", h: "Programa de detención e interrogatorio", x: "La CIA retuvo a sospechosos en cárceles secretas y aplicó técnicas como el submarino. El Senado concluyó que fueron brutales y que no aportaron información decisiva.", who: "Comisión de Inteligencia del Senado (informe de 2014)", missing: "", u: "https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf", st: "Senado de EE.UU." },
+    { ev: 1, ilegal: true, d: "2006–2015", h: "Registros telefónicos masivos", x: "La NSA reunió los registros de llamadas de millones de estadounidenses con base en la Sección 215 de la Ley Patriota. Dos tribunales de apelaciones concluyeron que la ley no lo autorizaba.", who: "Tribunales federales de apelaciones (2015 y 2020)", missing: "", u: "https://en.wikipedia.org/wiki/United_States_v._Moalin", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: false, d: "1970–2018", h: "Crypto AG", x: "Según una historia interna de la CIA obtenida por la prensa, la agencia y el BND alemán eran dueños en secreto del fabricante suizo de cifrado y leían las comunicaciones de sus clientes.", who: "The Washington Post, ZDF y SRF, con documentos internos de la CIA", missing: "Reconocimiento oficial de la CIA o del gobierno alemán.", u: "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/", st: "The Washington Post" },
+    { ev: 2, ilegal: false, d: "2010", h: "Stuxnet", x: "Gusano informático que dañó centrifugadoras en Natanz. La prensa, citando a funcionarios, lo atribuye a un programa conjunto con Israel conocido como Juegos Olímpicos.", who: "The New York Times (fuentes oficiales anónimas) e investigaciones técnicas", missing: "Reconocimiento oficial de EE.UU. o de Israel.", u: "https://www.nytimes.com/2012/06/01/world/middleeast/obama-ordered-wave-of-cyberattacks-against-iran.html", st: "The New York Times" },
+    { ev: 2, ilegal: false, d: "2002–2013", h: "Espionaje al teléfono de Merkel", x: "Documentos filtrados indicaron que la NSA vigiló el celular de la canciller alemana. La Casa Blanca dijo que no la escuchaba ni la escucharía, sin hablar del pasado.", who: "Der Spiegel y The Guardian, con documentos de Snowden", missing: "Confirmación oficial de la vigilancia pasada.", u: "https://www.theguardian.com/world/2013/oct/24/nsa-surveillance-world-leaders-calls", st: "The Guardian" },
+    { ev: 3, ilegal: true, d: "1980s", h: "Un plan de la CIA para difundir el crack", x: "Investigaciones periodísticas mostraron que narcotraficantes vinculados a la contra nicaragüense vendían cocaína en Estados Unidos. El inspector general de la CIA admitió vínculos de la agencia con personas acusadas de narcotráfico, pero no un plan.", who: "Serie Dark Alliance de Gary Webb (1996) y activistas", missing: "Pruebas de que la CIA buscó o dirigió la venta de droga, más allá de tolerar a aliados implicados.", u: "https://en.wikipedia.org/wiki/Dark_Alliance", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 4, ilegal: false, d: "1963", h: "La CIA mató a Kennedy", x: "La idea de que la agencia organizó el asesinato del presidente circula desde los años sesenta, alimentada por el secreto de los archivos.", who: "Libros, películas y parte de la opinión pública", missing: "", debunk: "La Comisión Warren y el Comité de la Cámara de 1979 no encontraron participación de la CIA, y los archivos liberados hasta 2025 tampoco. Prendió por la desconfianza tras la Comisión Church y los años de secreto.", u: "https://www.archives.gov/research/jfk", st: "Archivos Nacionales de EE.UU." },
+    { ev: 4, ilegal: false, d: "2001", h: "El 11-S fue organizado desde adentro", x: "Sostiene que el gobierno o sus servicios planearon los atentados o los dejaron pasar a propósito.", who: "Movimiento 9/11 Truth", missing: "", debunk: "La Comisión del 11-S documentó la autoría de Al Qaeda y las fallas de la CIA y el FBI para compartir datos; el NIST explicó técnicamente el colapso de las torres. Prendió por esas fallas reales y por la guerra de Irak.", u: "https://www.9-11commission.gov/report/", st: "Comisión del 11-S" }
+  ],
+  companies: [
+    { n: "In-Q-Tel", c: "nacional", rubro: "Capital de riesgo", rel: "Brazo inversor de la CIA", x: "Fondo creado por la CIA en 1999 para invertir en tecnologías útiles para la comunidad de inteligencia." },
+    { n: "Palantir", c: "nacional", rubro: "Análisis de datos", rel: "Contratista", x: "Recibió inversión de In-Q-Tel en sus comienzos; hoy provee software a agencias de inteligencia, defensa y migraciones." },
+    { n: "Booz Allen Hamilton", c: "nacional", rubro: "Consultoría", rel: "Contratista", x: "Uno de los mayores contratistas de inteligencia; Snowden trabajaba para la NSA como empleado suyo." },
+    { n: "AT&T", c: "nacional", rubro: "Telecomunicaciones", rel: "Cooperación con la NSA", x: "Documentos de Snowden describieron una relación de décadas con la NSA para acceder al tráfico que pasa por su red." },
+    { n: "Grandes tecnológicas", c: "nacional", rubro: "Tecnología", rel: "Obligadas por la Sección 702", x: "Empresas como Microsoft, Google y Apple entregan datos de extranjeros bajo orden; el programa PRISM se reveló en 2013." },
+    { n: "Crypto AG", c: "extranjera", rubro: "Cifrado", rel: "Propiedad secreta", x: "Fabricante suizo que, según documentos internos, la CIA y el BND controlaron en secreto entre 1970 y 2018." },
+    { n: "NSO Group", c: "extranjera", rubro: "Software espía", rel: "Proveedor y luego sancionada", x: "El FBI compró una licencia para probar Pegasus y decidió no usarla; en 2021 Comercio incluyó a NSO en su lista negra." }
+  ],
+  struggles: [
+    { a: "CIA", b: "FBI", k: "Entre agencias", stake: "Compartir información y la frontera entre exterior e interior", state: "Histórica, atenuada", x: "La Comisión del 11-S señaló que ambas no compartieron datos clave sobre los atacantes; la reforma de 2004 buscó corregirlo." },
+    { a: "ODNI", b: "CIA y Pentágono", k: "Entre agencias", stake: "Quién manda en el presupuesto y las prioridades", state: "Abierta", x: "La ODNI nunca logró autoridad plena sobre la CIA y las agencias militares; los recortes de 2025 y los cambios de jefe la debilitaron más." },
+    { a: "Casa Blanca", b: "Analistas de inteligencia", k: "Con el poder político", stake: "Independencia de las evaluaciones", state: "Abierta", x: "En marzo de 2026 renunció el director del Centro Nacional Antiterrorista en desacuerdo con la guerra con Irán, y las evaluaciones públicas chocaron con los argumentos oficiales." },
+    { a: "Congreso", b: "Poder Ejecutivo", k: "Con otros poderes", stake: "Orden judicial para buscar datos de estadounidenses", state: "Abierta", x: "Una alianza de legisladores de ambos partidos dejó vencer la Sección 702 en junio de 2026 para forzar reformas." },
+    { a: "Dirección del FBI", b: "Agentes de carrera", k: "Interna", stake: "Control político del FBI", state: "Abierta", x: "Bajo Kash Patel hubo despidos de agentes, renuncias de la cúpula y un informe interno sobre fallas pasadas que críticos ven como ajuste de cuentas." }
+  ],
+  sources: [
+    { t: "ODNI: miembros de la comunidad de inteligencia", u: "https://www.dni.gov/index.php/what-we-do/members-of-the-ic" },
+    { t: "ODNI: presupuesto del Programa Nacional de Inteligencia 2025", u: "https://www.dni.gov/index.php/newsroom/press-releases/press-releases-2025/4121-pr-39-25" },
+    { t: "Nextgov: plan ODNI 2.0 (agosto 2025)", u: "https://www.nextgov.com/people/2025/08/us-spy-chief-announces-plans-shrink-odni/407594" },
+    { t: "CNBC: el Senado confirma a Jay Clayton (julio 2026)", u: "https://www.cnbc.com/2026/07/28/jay-clayton-bill-pulte-senate-vote-trump-spy-chief.html" },
+    { t: "DefenseScoop: Joshua Rudd asume en la NSA (marzo 2026)", u: "https://defensescoop.com/2026/03/10/gen-rudd-cyber-command-commander-nsa-director/" },
+    { t: "Servicio de Investigación del Congreso: el vencimiento de la Sección 702", u: "https://www.everycrsreport.com/reports/LSB11444.html" },
+    { t: "Al-Monitor: la inteligencia y la guerra con Irán (marzo 2026)", u: "https://www.al-monitor.com/originals/2026/03/iran-was-not-rebuilding-nuclear-enrichment-us-intelligence-finds" },
+    { t: "Lawfare: el declive de la ODNI", u: "https://www.lawfaremedia.org/article/gradually--and-then-suddenly--the-decline-and-fall-of-odni" },
+    { t: "Senado de EE.UU.: la Comisión Church", u: "https://www.senate.gov/about/powers-procedures/investigations/church-committee.htm" },
+    { t: "Archivos Nacionales: Orden Ejecutiva 12333", u: "https://www.archives.gov/federal-register/codification/executive-order/12333.html" },
+    { t: "Congress.gov: Ley de Reforma de Inteligencia de 2004", u: "https://www.congress.gov/bill/108th-congress/senate-bill/2845" },
+    { t: "Congress.gov: Ley RISAA (2024)", u: "https://www.congress.gov/bill/118th-congress/house-bill/7888" },
+    { t: "The Washington Post: el presupuesto negro de 2013", u: "https://www.washingtonpost.com/world/national-security/black-budget-summary-details-us-spy-networks-successes-failures-and-objectives/2013/08/29/7e57bb78-10ab-11e3-8cdd-bcdc09410972_story.html" },
+    { t: "ProPublica: la NSA y AT&T", u: "https://www.propublica.org/article/nsa-spying-relies-on-att-the-telecom-giant" },
+    { t: "Departamento de Comercio: NSO Group en la lista negra (2021)", u: "https://www.commerce.gov/news/press-releases/2021/11/commerce-adds-nso-group-and-other-foreign-companies-entity-list" },
+    { t: "AP vía Mynorthwest: el informe Patel del FBI (octubre 2026)", u: "https://mynorthwest.com/national/fbi-releases-classified-patel-report-examining-past-failures-at-the-bureau/4282374" }
   ]
- },
- "rights": [
-  {
-   "d": "1953",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1961",
-   "dir": "recorta",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1968",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1975",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1985",
-   "dir": "recorta",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1992",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2002",
-   "dir": "recorta",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2011",
-   "dir": "amplia",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2016",
-   "dir": "amplia",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  }
- ],
- "events": [
-  {
-   "d": "1962-12-05",
-   "lat": 37.31,
-   "lon": -76.37,
-   "t": "sabotaje",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1965-08-09",
-   "lat": -37.14,
-   "lon": 26,
-   "t": "ciber",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1972-09-27",
-   "lat": 17.24,
-   "lon": 44.16,
-   "t": "ciber",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1974-08-01",
-   "lat": 52.31,
-   "lon": -115.25,
-   "t": "encubierta",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1978-12-15",
-   "lat": 50.94,
-   "lon": -119.51,
-   "t": "contra",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1983-07-14",
-   "lat": 59.6,
-   "lon": 98.75,
-   "t": "senales",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1991-10-17",
-   "lat": 24.52,
-   "lon": -49.23,
-   "t": "ciber",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1992-03-18",
-   "lat": 36.83,
-   "lon": -77.26,
-   "t": "senales",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1997-08-26",
-   "lat": 17.47,
-   "lon": -68.46,
-   "t": "senales",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2004-08-06",
-   "lat": 42.06,
-   "lon": -77.16,
-   "t": "senales",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2008-03-27",
-   "lat": 11.74,
-   "lon": 44.51,
-   "t": "contra",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2011-07-20",
-   "lat": 34.9,
-   "lon": -80.11,
-   "t": "humana",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2017-01-26",
-   "lat": 47.97,
-   "lon": -49.63,
-   "t": "ciber",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2020-12-04",
-   "lat": 42.65,
-   "lon": -78,
-   "t": "sabotaje",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  }
- ],
- "interest": {
-  "Iran": 1,
-  "Israel": 2,
-  "Turkey": 1,
-  "Saudi Arabia": 1,
-  "Syria": 1,
-  "Japan": 2,
-  "Mali": 3,
-  "Indonesia": 2,
-  "Philippines": 1
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1966",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1968",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "1969",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "1964",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1964",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1982",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
