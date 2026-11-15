@@ -42,7 +42,9 @@ window.PAISES = [
       { code: "CCSN", name: "Comisión Central de Seguridad Nacional del Partido", g: "k" },
       { code: "MSS", name: "Ministerio de Seguridad del Estado", g: "c" },
       { code: "JSD-IB", name: "Oficina de Inteligencia del Estado Mayor Conjunto", g: "m" },
-      { code: "FAE", name: "Fuerza Aeroespacial y de Ciberespacio del EPL", g: "m" },
+      { code: "FCE", name: "Fuerza del Ciberespacio del EPL", g: "m" },
+      { code: "FAI", name: "Fuerza de Apoyo a la Información del EPL", g: "m" },
+      { code: "FAM", name: "Fuerza Aeroespacial Militar del EPL", g: "m" },
       { code: "MPS", name: "Ministerio de Seguridad Pública", g: "p" },
       { code: "UFWD", name: "Departamento de Trabajo del Frente Unido", g: "c" },
       { code: "CCDI", name: "Comisión Central de Control Disciplinario", g: "j" }

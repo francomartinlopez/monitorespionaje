@@ -1,744 +1,184 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de China · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["cn"] = {
- "sample": true,
- "id": "cn",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de China: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "6",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 4,
-  "senales": 5,
-  "ciber": 5,
-  "imagenes": 4,
-  "encubierta": 3,
-  "contra": 5
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "CCSN": {
-   "since": 1966,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comisión Central de Seguridad Nacional del Partido: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "MSS": {
-   "since": 2013,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Ministerio de Seguridad del Estado: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "JSD-IB": {
-   "since": 1996,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Oficina de Inteligencia del Estado Mayor Conjunto: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "FAE": {
-   "since": 2007,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Fuerza Aeroespacial y de Ciberespacio del EPL: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "MPS": {
-   "since": 1974,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Ministerio de Seguridad Pública: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "UFWD": {
-   "since": 1992,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Departamento de Trabajo del Frente Unido: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "CCDI": {
-   "since": 1917,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comisión Central de Control Disciplinario: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "cn",
+  updated: "2026-11-15",
+  summary: [
+    "En China la inteligencia responde al Partido Comunista antes que al Estado. El Ministerio de Seguridad del Estado (MSS) hace espionaje exterior y contrainteligencia; el Ministerio de Seguridad Pública (MPS) controla a la población y persigue a disidentes también fuera del país; y el Ejército Popular de Liberación (EPL) tiene su propia inteligencia y fuerzas de ciberataque.",
+    "El ministro de Seguridad del Estado es Chen Yixin desde octubre de 2022, un hombre de confianza de Xi Jinping. En 2026 publicó en revistas del Partido sus prioridades hasta 2030: Taiwán, seguridad tecnológica, contraespionaje y riesgos de la inteligencia artificial.",
+    "El EPL atraviesa la mayor purga desde la Revolución Cultural. En enero de 2026 el Ministerio de Defensa anunció investigaciones contra Zhang Youxia, el general de más rango, y contra Liu Zhenli, jefe del Estado Mayor Conjunto, del que depende la inteligencia militar.",
+    "Afuera, gobiernos occidentales atribuyen a China algunas de las campañas de ciberespionaje más amplias conocidas, como Salt Typhoon contra operadoras de telecomunicaciones. En Europa crecen las detenciones por espionaje, y en EE.UU. un jurado condenó en mayo de 2026 al responsable de una comisaría clandestina china en Nueva York."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Ministro de Seguridad del Estado", v: "Chen Yixin", n: "desde octubre de 2022" },
+    { l: "Presupuesto de defensa", v: "1,91 billones de yuanes", n: "2026, unos 277.000 millones de dólares; el Pentágono cree que el gasto real es mayor" },
+    { l: "Seguridad pública", v: "258.270 millones de yuanes", n: "gasto central previsto para 2026, +5,9 %" },
+    { l: "Comisión Militar Central", v: "2 miembros", n: "quedaban Xi Jinping y Zhang Shengmin tras las purgas de enero de 2026" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 4, senales: 4, ciber: 5, imagenes: 4, encubierta: 3, contra: 5 },
+  powerWhy: {
+    humana: "Recluta a gran escala entre científicos, empresarios y la diáspora, con resultados probados en juicios de EE.UU. y Europa, aunque con agentes a menudo poco entrenados.",
+    senales: "Interceptación propia del EPL y del MSS, estaciones en el exterior que estudios privados ubican en Cuba y acceso a redes construidas por empresas chinas.",
+    ciber: "Gobiernos occidentales le atribuyen las campañas de espionaje informático más extendidas conocidas, con contratistas privados que trabajan por encargo.",
+    imagenes: "Tiene una de las mayores flotas de satélites de observación del mundo, solo detrás de EE.UU.",
+    encubierta: "Operaciones de influencia, presión sobre disidentes y comisarías clandestinas en el exterior; no hay registro público de sabotajes o asesinatos como los rusos.",
+    contra: "Vigilancia masiva interna, leyes que obligan a cooperar y el desmantelamiento de la red de la CIA en el país entre 2010 y 2012, según funcionarios de EE.UU."
+  },
+  priorities: [
+    { h: "Taiwán", x: "Información política y militar, influencia sobre la isla y preparación ante un posible conflicto." },
+    { h: "Tecnología y economía", x: "Obtener tecnología militar, semiconductores, aviación e inteligencia artificial, y proteger la propia." },
+    { h: "Estados Unidos y sus aliados", x: "Planes militares, redes de telecomunicaciones e infraestructura crítica." },
+    { h: "Disidentes y diáspora", x: "Seguimiento de uigures, tibetanos, activistas de Hong Kong y críticos en el exterior; repatriaciones forzadas." },
+    { h: "Estabilidad del Partido", x: "Control interno, lucha contra la corrupción y lealtad de las fuerzas armadas." }
+  ],
+  focos: ["Taiwán", "Estados Unidos", "Europa", "Mar de China Meridional", "Diáspora china", "Cuba y América Latina"],
+  bodies: {
+    "CCSN": { since: 2014, how: "Comisión del Partido presidida por Xi Jinping que fija la política de seguridad nacional y coordina a todos los organismos. Sus reuniones y su composición casi no se publican.", staff: "No se publica.", budget: "No se publica.", tech: ["Coordinación del sistema de seguridad"], where: ["Pekín"] },
+    "MSS": { since: 1983, how: "Servicio civil de inteligencia exterior y contrainteligencia, con oficinas en cada provincia que operan con bastante autonomía. Recluta fuentes, contrata a empresas privadas de hackeo y, desde 2023, publica avisos de contraespionaje en WeChat.", staff: "No se publica.", budget: "No se publica.", tech: ["Contratistas de ciberataque", "Campañas de reclutamiento por internet"], where: ["Pekín", "Oficinas provinciales", "Exterior"] },
+    "JSD-IB": { since: 2016, how: "Inteligencia militar del Estado Mayor Conjunto, heredera del antiguo Segundo Departamento. Maneja agregados militares y fuentes en el exterior. Su jefe máximo, Liu Zhenli, está bajo investigación desde enero de 2026.", staff: "No se publica.", budget: "Dentro del gasto de defensa.", tech: ["Agregados militares", "Análisis militar"], where: ["Pekín", "Embajadas"] },
+    "FCE": { since: 2024, how: "Fuerza creada en abril de 2024 sobre el antiguo departamento de sistemas de red de la Fuerza de Apoyo Estratégico. Concentra la ciberguerra militar, ofensiva y defensiva.", staff: "No se publica.", budget: "Dentro del gasto de defensa.", tech: ["Ciberataque", "Defensa de redes militares"], where: ["China"] },
+    "FAI": { since: 2024, how: "Nació el 19 de abril de 2024, cuando se disolvió la Fuerza de Apoyo Estratégico, para integrar redes de información y comunicaciones del EPL.", staff: "No se publica.", budget: "Dentro del gasto de defensa.", tech: ["Redes de comando y comunicaciones"], where: ["China"] },
+    "FAM": { since: 2024, how: "Fuerza Aeroespacial Militar, creada en 2024 sobre el departamento de sistemas espaciales. Opera satélites de reconocimiento y estaciones de seguimiento, entre ellas una en Neuquén, Argentina, que China describe como civil.", staff: "No se publica.", budget: "Dentro del gasto de defensa.", tech: ["Satélites de reconocimiento", "Estaciones de seguimiento espacial"], where: ["China", "Neuquén (Argentina)", "Otras estaciones en el exterior"] },
+    "MPS": { since: 1949, how: "Policía nacional y aparato de vigilancia interna: cámaras, bases de datos y control de internet. También persigue a prófugos y críticos en el exterior, con operaciones como Cazador de Zorros y comisarías clandestinas, según fiscales de EE.UU.", staff: "No se publica.", budget: "258.270 millones de yuanes de gasto central en seguridad pública en 2026.", tech: ["Vigilancia masiva", "Contratistas de hackeo como i-Soon"], where: ["China", "Diáspora china"] },
+    "UFWD": { since: 1942, how: "Departamento del Partido que gestiona la influencia sobre grupos no comunistas, minorías y la diáspora. Trabaja con asociaciones de residentes chinos, estudiantes y empresarios en el exterior.", staff: "No se publica.", budget: "No se publica.", tech: ["Asociaciones de la diáspora", "Programas de influencia"], where: ["China", "Comunidades chinas en el exterior"] },
+    "CCDI": { since: 1978, how: "Comisión de disciplina del Partido: investiga y detiene a funcionarios, incluidos los de inteligencia y el ejército. En enero de 2026 expulsó al ex viceministro de Seguridad del Estado Gao Yichen.", staff: "No se publica.", budget: "No se publica.", tech: ["Detención extrajudicial (liuzhi)"], where: ["China"] }
+  },
+  civil: [
+    "No hay separación entre Partido, Estado y servicios: los ministros de seguridad integran la Comisión Central de Asuntos Políticos y Legales del Partido.",
+    "El ejército no responde al gobierno sino a la Comisión Militar Central del Partido, que preside Xi Jinping.",
+    "La Asamblea Popular Nacional aprueba las leyes de seguridad, pero no ejerce control sobre las operaciones."
+  ],
+  law: {
+    domestic: [
+      "La Ley de Seguridad Nacional de 2015 define la seguridad de forma amplia, incluida la ideológica y la cultural.",
+      "La Ley de Inteligencia Nacional de 2017 obliga a personas y organizaciones a colaborar con los servicios y a guardar secreto.",
+      "La Ley de Contraespionaje, reformada en 2023, amplía el espionaje a cualquier dato vinculado a la seguridad nacional."
+    ],
+    foreign: [
+      "La Ley de Ciberseguridad y la de Seguridad de Datos obligan a guardar datos en China y a entregarlos a las autoridades.",
+      "La Ley de Seguridad Nacional de Hong Kong de 2020 se aplica también a personas fuera de China.",
+      "La obligación de colaborar de 2017 alcanza a empresas chinas que operan en el exterior, según gobiernos occidentales."
+    ],
+    oversight: [
+      "La Comisión Central de Control Disciplinario del Partido investiga a los propios agentes.",
+      "La Comisión Nacional de Supervisión puede detener a funcionarios sin abogado durante meses.",
+      "No hay control parlamentario ni judicial independiente de los servicios."
+    ]
+  },
+  rights: [
+    { d: "1993-02", dir: "amplia", area: "Debido proceso", h: "Ley de Seguridad del Estado", x: "Da al MSS facultades de policía para investigar y detener en casos de seguridad nacional." },
+    { d: "2013-12", dir: "recorta", area: "Debido proceso", h: "Fin de la reeducación por el trabajo", x: "Se elimina el sistema que permitía encerrar personas hasta cuatro años sin juicio." },
+    { d: "2014-11", dir: "amplia", area: "Debido proceso", h: "Ley de Contraespionaje", x: "Reemplaza la ley de 1993 y amplía los poderes del MSS frente a organizaciones extranjeras." },
+    { d: "2017-06", dir: "amplia", area: "Privacidad", h: "Ley de Inteligencia Nacional", x: "Toda persona y organización debe apoyar y colaborar con el trabajo de inteligencia." },
+    { d: "2018-03", dir: "amplia", area: "Debido proceso", h: "Detención liuzhi", x: "La nueva Comisión Nacional de Supervisión puede retener a funcionarios hasta seis meses sin abogado." },
+    { d: "2020-06", dir: "amplia", area: "Expresión", h: "Ley de Seguridad Nacional de Hong Kong", x: "Crea delitos de secesión, subversión y colusión con fuerzas extranjeras, con alcance fuera del territorio." },
+    { d: "2021-11", dir: "recorta", area: "Privacidad", h: "Ley de Protección de Información Personal", x: "Limita el uso de datos por parte de empresas, aunque deja amplias excepciones para el Estado." },
+    { d: "2023-07", dir: "amplia", area: "Privacidad", h: "Reforma de la Ley de Contraespionaje", x: "Cualquier documento, dato o material vinculado a la seguridad nacional puede ser objeto de espionaje." },
+    { d: "2024-03", dir: "amplia", area: "Expresión", h: "Artículo 23 en Hong Kong", x: "Hong Kong aprueba su propia ley de seguridad con penas por espionaje y sedición." }
+  ],
+  events: [
+    { d: "2010-12-01", lat: 39.9, lon: 116.4, c: "China", t: "contra", ev: 2, h: "Cae la red de la CIA en China", x: "Entre 2010 y 2012 China mata o encarcela a más de una docena de fuentes de la CIA, según funcionarios de EE.UU.; el ex oficial Jerry Chun Shing Lee fue condenado después.", u: "https://en.wikipedia.org/wiki/Jerry_Chun_Shing_Lee", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2013-02-18", lat: 31.3, lon: 121.5, c: "China", t: "ciber", ev: 1, h: "La Unidad 61398 de Shanghái", x: "Una empresa de ciberseguridad identifica una unidad del EPL que robó datos de cientos de empresas; EE.UU. acusó a cinco oficiales en 2014.", u: "https://en.wikipedia.org/wiki/PLA_Unit_61398", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2015-06-04", lat: 38.9, lon: -77.03, c: "United States of America", t: "ciber", ev: 2, h: "Los legajos de la OPM", x: "Hackers roban los formularios de habilitación de seguridad de unos 21,5 millones de personas; funcionarios de EE.UU. lo atribuyen a China.", u: "https://en.wikipedia.org/wiki/Office_of_Personnel_Management_data_breach", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2018-04-01", lat: -38.19, lon: -70.15, c: "Argentina", t: "senales", ev: 3, h: "La estación de Neuquén", x: "Empieza a operar la estación de espacio lejano de Bajada del Agrio, a cargo de un organismo dependiente del EPL. EE.UU. sospecha uso militar; China y Argentina lo niegan.", u: "https://chequeado.com/el-explicador/que-se-sabe-sobre-la-base-espacial-china-ubicada-en-neuquen/", st: "Chequeado" },
+    { d: "2018-04-01", lat: 50.85, lon: 4.35, c: "Belgium", t: "humana", ev: 1, h: "Detienen a un oficial del MSS en Bélgica", x: "Xu Yanjun, oficial del MSS, es detenido cuando intentaba obtener secretos de motores de GE Aviation. Fue condenado en EE.UU. en 2021.", u: "https://en.wikipedia.org/wiki/Xu_Yanjun", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2022-10-01", lat: 40.85, lon: -73.9, c: "United States of America", t: "contra", ev: 1, h: "Comisaría clandestina en Nueva York", x: "El FBI allana una oficina de Chinatown que funcionaba como puesto del MPS para vigilar disidentes. Su responsable fue condenado en mayo de 2026.", u: "https://abc7.com/post/lu-jianwang-conviction-nyc-jury-convicts-man-accused-running-secret-chinese-spy-outpost-new-york-city/19100709/", st: "ABC7 / Associated Press" },
+    { d: "2023-02-04", lat: 47.0, lon: -109.6, c: "United States of America", t: "senales", ev: 1, h: "El globo sobre EE.UU.", x: "Un globo chino cruza EE.UU. sobre bases militares y es derribado. Washington dijo que espiaba; Pekín, que era meteorológico.", u: "https://en.wikipedia.org/wiki/2023_Chinese_balloon_incident", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2024-04-22", lat: 51.23, lon: 6.78, c: "Germany", t: "humana", ev: 2, h: "Espías de tecnología militar en Alemania", x: "La fiscalía federal detiene a tres personas acusadas de obtener tecnología militar para el MSS.", u: "https://www.agenzianova.com/en/news/Germany-three-people-arrested-on-charges-of-spying-for-China/", st: "Agenzia Nova" },
+    { d: "2024-07-01", lat: 22.95, lon: -82.36, c: "Cuba", t: "senales", ev: 2, h: "Antenas en Bejucal", x: "Un centro de estudios identifica cuatro sitios de interceptación en Cuba posiblemente vinculados a China. Pekín y La Habana lo niegan.", u: "https://www.csis.org/analysis/chinas-intelligence-footprint-cuba-new-evidence-and-implications-us-security", st: "CSIS" },
+    { d: "2024-10-01", lat: 40.0, lon: -98.0, c: "United States of America", t: "ciber", ev: 2, h: "Salt Typhoon", x: "Hackers entran en grandes operadoras de EE.UU. y llegan a sistemas de escuchas judiciales. El FBI y la agencia CISA lo atribuyeron a China.", u: "https://www.securityweek.com/cisa-fbi-confirm-china-hacked-telecoms-providers-for-spying/amp/", st: "SecurityWeek" },
+    { d: "2026-01-18", lat: 50.08, lon: 14.43, c: "Czechia", t: "humana", ev: 3, h: "Periodista detenido en Praga", x: "La policía checa detiene por espionaje a un periodista acreditado de un diario del Partido Comunista chino.", u: "https://europeanvalues.cz/en/chinese-espionage-case-tests-the-czechias-turn-toward-china/", st: "European Values Center" },
+    { d: "2026-02-04", lat: 48.85, lon: 2.35, c: "France", t: "senales", ev: 3, h: "Datos de Starlink en Francia", x: "La fiscalía de París detiene a cuatro personas, dos de ellas chinas, por intentar captar datos de satélites Starlink para China.", u: "https://www.devdiscourse.com/article/law-order/3793974-france-cracks-down-chinese-nationals-arrested-for-espionage", st: "Devdiscourse (Reuters)" },
+    { d: "2026-02-06", lat: 59.91, lon: 10.75, c: "Norway", t: "ciber", ev: 2, h: "Salt Typhoon en Noruega", x: "El servicio de seguridad noruego confirma intrusiones del grupo en su evaluación anual de amenazas.", u: "https://breached.company/salt-typhoon-expands-to-norway-chinas-telecom-hackers-are-now-a-global-threat/", st: "Breached Company" },
+    { d: "2026-05-20", lat: 48.14, lon: 11.58, c: "Germany", t: "humana", ev: 2, h: "Pareja detenida en Múnich", x: "Dos alemanes de origen chino son detenidos por buscar tecnología militar para un servicio chino, según la fiscalía federal.", u: "https://mezha.net/eng/bukvy/960716ee_german_prosecutors_arrested/", st: "Mezha" }
+  ],
+  interest: {
+    "Taiwan": 3, "United States of America": 3, "Japan": 3, "Philippines": 3,
+    "India": 2, "South Korea": 2, "Vietnam": 2, "Australia": 2, "United Kingdom": 2, "Germany": 2, "Netherlands": 2, "Canada": 2, "Russia": 2, "North Korea": 2, "Pakistan": 2, "Myanmar": 2, "Cambodia": 2, "Mongolia": 2, "Kazakhstan": 2, "Cuba": 2, "Argentina": 2,
+    "France": 1, "Czechia": 1, "Norway": 1, "Belgium": 1, "Brazil": 1, "Venezuela": 1, "Iran": 1, "Afghanistan": 1, "Laos": 1, "Indonesia": 1, "Malaysia": 1, "New Zealand": 1, "Djibouti": 1
+  },
+  timeline: [
+    { era: "Revolución", d: "1927", h: "Los primeros servicios del Partido", x: "El Partido Comunista crea su aparato de seguridad durante la guerra civil." },
+    { era: "", d: "1949", h: "Nace el Ministerio de Seguridad Pública", x: "Policía política y control interno de la nueva República Popular." },
+    { era: "Reforma", d: "1983", h: "Se crea el MSS", x: "Une la inteligencia exterior del Partido con la contrainteligencia de la policía." },
+    { era: "", d: "1985", h: "La deserción de Yu Qiangsheng", x: "Un funcionario de inteligencia huye a EE.UU. y delata a un traductor de la CIA que espiaba para China." },
+    { era: "", d: "1989", h: "Tiananmen", x: "La represión y el ocultamiento de su saldo marcan el rol de la seguridad en la supervivencia del Partido." },
+    { era: "Xi Jinping", d: "2014–2017", h: "Las leyes de seguridad", x: "Comisión de Seguridad Nacional y leyes de contraespionaje, seguridad nacional, ciberseguridad e inteligencia." },
+    { era: "", d: "2020", h: "Hong Kong y la pandemia", x: "Ley de seguridad para Hong Kong y ocultamiento inicial del brote de Wuhan." },
+    { era: "", d: "2024", h: "Fin de la Fuerza de Apoyo Estratégico", x: "El EPL crea fuerzas separadas de ciberespacio, información y aeroespacio." },
+    { era: "", d: "2026", h: "Purgas y detenciones", x: "Investigación a Zhang Youxia y Liu Zhenli; condena por la comisaría de Nueva York y más detenciones en Europa.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2022", h: "Comisarías clandestinas en el exterior", x: "La organización Safeguard Defenders reveló puestos del MPS en decenas de países para presionar a chinos a volver. En mayo de 2026 un jurado de Nueva York condenó a Lu Jianwang por operar uno en Manhattan.", who: "Tribunal federal de Nueva York y Safeguard Defenders", missing: "", u: "https://abc7.com/post/lu-jianwang-conviction-nyc-jury-convicts-man-accused-running-secret-chinese-spy-outpost-new-york-city/19100709/", st: "ABC7 / Associated Press" },
+    { ev: 1, ilegal: true, d: "2006–2014", h: "Robo de secretos industriales por la Unidad 61398", x: "Una unidad del EPL en Shanghái robó planos y datos de empresas de energía, metalurgia y tecnología. EE.UU. acusó a cinco oficiales en 2014, que nunca fueron entregados.", who: "Departamento de Justicia de EE.UU. y la empresa Mandiant", missing: "", u: "https://en.wikipedia.org/wiki/PLA_Unit_61398", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "2024", h: "Salt Typhoon", x: "Un grupo vinculado al MSS entró en redes de grandes operadoras y en sistemas de escuchas de EE.UU., y luego en otros países. La NSA identificó a empresas chinas contratistas de la operación.", who: "FBI, CISA y NSA de EE.UU.; servicio de seguridad de Noruega", missing: "Una acusación judicial que pruebe la cadena de mando hasta el MSS.", u: "https://www.washingtontimes.com/news/2026/apr/23/security-agencies-say-chinese-hackers-using-hijacked-networks-large/", st: "The Washington Times" },
+    { ev: 2, ilegal: true, d: "2021–2026", h: "Volt Typhoon", x: "Hackers se instalan en redes de agua, energía y transporte de EE.UU. sin robar datos, lo que se interpreta como preparación para sabotajes en una guerra. China lo niega.", who: "Agencias de seguridad de EE.UU. y sus aliados", missing: "Prueba pública de la unidad que lo ordena.", u: "https://www.nextgov.com/cybersecurity/2026/10/chinas-volt-typhoon-quietly-built-another-hacking-network-following-us-crackdown-new-findings-say/416848/", st: "Nextgov" },
+    { ev: 2, ilegal: false, d: "2024–2026", h: "Bases de interceptación en Cuba", x: "Un centro de estudios identificó en imágenes satelitales cuatro sitios en Cuba aptos para interceptar comunicaciones de EE.UU. En 2026 el Departamento de Estado dijo que China opera tres de ellos.", who: "CSIS y Departamento de Estado de EE.UU.", missing: "Pruebas públicas de que China opera los sitios; ambos gobiernos lo niegan.", u: "https://www.csis.org/analysis/chinas-intelligence-footprint-cuba-new-evidence-and-implications-us-security", st: "CSIS" },
+    { ev: 3, ilegal: false, d: "2018–2026", h: "La estación de Neuquén", x: "La antena de Bajada del Agrio la opera un organismo del EPL. EE.UU. y un comité del Congreso estadounidense sospechan que puede servir para seguir satélites militares; los gobiernos chino y argentino dicen que es civil.", who: "Gobierno y Congreso de EE.UU.", missing: "Una inspección independiente o documentos que muestren uso militar.", u: "https://www.lmneuquen.com/neuquen/que-dice-el-nuevo-informe-del-congreso-estados-unidos-la-base-espacial-china-neuquen-n1229911", st: "LM Neuquén" },
+    { ev: 3, ilegal: true, d: "2024–2025", h: "Linda Sun, asesora de dos gobernadores", x: "Una ex asesora de los gobernadores de Nueva York fue acusada de actuar como agente chino: bloquear reuniones con Taiwán y favorecer a funcionarios chinos a cambio de beneficios. El juicio terminó en diciembre de 2025 sin veredicto.", who: "Fiscalía federal de Nueva York", missing: "Un veredicto: el jurado no logró unanimidad.", u: "https://www.nbcnews.com/news/us-news/trial-ex-new-york-governors-aide-accused-selling-influence-china-ends-rcna250597", st: "NBC News" },
+    { ev: 4, ilegal: false, d: "2020", h: "El laboratorio de Wuhan como arma biológica", x: "Circula la idea de que el coronavirus fue diseñado como arma por el EPL y liberado a propósito.", who: "Rumores en redes sociales y algunos políticos", missing: "Cualquier prueba de un programa de armas o de liberación deliberada.", debunk: "Nace de mezclar la hipótesis de un accidente de laboratorio, que sigue abierta, con la de un ataque. Ninguna agencia de inteligencia de EE.UU. sostiene que el virus fuera un arma biológica.", u: "https://www.dni.gov/index.php/newsroom/reports-publications/reports-publications-2021/item/2236-updated-assessment-on-covid-19-origins", st: "Oficina del Director de Inteligencia Nacional de EE.UU." }
+  ],
+  failures: [
+    { k: "falla", d: "2003-02", ev: 1, w: 3, h: "El SARS", x: "Las autoridades ocultaron durante meses la epidemia y las cifras reales, lo que facilitó su expansión.", why: "No está en duda: el gobierno destituyó al ministro de Salud y al alcalde de Pekín en abril de 2003.", wx: "Reconocimiento oficial y denuncia del médico Jiang Yanyong.", who: "Gobierno chino y Organización Mundial de la Salud", u: "https://en.wikipedia.org/wiki/Jiang_Yanyong", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falla", d: "2019-11-24", ev: 2, w: 2, h: "Las elecciones de Hong Kong", x: "Pekín esperaba que los candidatos oficialistas ganaran las elecciones de distrito en medio de las protestas, y perdieron casi todos los consejos.", why: "La derrota es un hecho; la falla de información se apoya en reportes de prensa sobre los informes de la Oficina de Enlace.", wx: "Fuentes anónimas citadas por la prensa internacional.", who: "Prensa internacional", u: "https://en.wikipedia.org/wiki/2019_Hong_Kong_local_elections", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falla", d: "2020-01", ev: 1, w: 3, h: "El brote de Wuhan", x: "El sistema de alerta temprana creado después del SARS no se activó; la policía sancionó a médicos que avisaron del virus.", why: "No está en duda: el propio Estado rehabilitó al médico Li Wenliang tras su muerte.", wx: "Documentos oficiales y testimonios de médicos.", who: "Gobierno chino y prensa internacional", u: "https://en.wikipedia.org/wiki/Li_Wenliang", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falla", d: "2023-02-04", ev: 1, w: 3, h: "El globo descubierto", x: "Un globo de vigilancia cruzó a la vista de todos el territorio de EE.UU., fue derribado y recuperado, lo que provocó una crisis diplomática.", why: "Lo que se discute es si el globo se desvió por error o si su trayectoria fue planeada.", wx: "Restos recuperados por EE.UU. y declaraciones de ambos gobiernos.", who: "Gobierno de EE.UU.", u: "https://en.wikipedia.org/wiki/2023_Chinese_balloon_incident", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "2024-04", ev: 4, w: 3, h: "Volt Typhoon, invento de EE.UU.", x: "Organismos estatales chinos sostienen que Volt Typhoon es una banda criminal usada por la inteligencia estadounidense para culpar a China.", why: "Teoría sin sustento: lo atribuyen varios gobiernos y empresas independientes, y funcionarios de EE.UU. dicen que sus pares chinos lo admitieron de forma tácita en 2024.", wx: "Análisis técnicos de varias empresas y gobiernos; ninguna prueba de una operación estadounidense.", who: "Centro Nacional de Respuesta a Virus Informáticos de China", u: "https://www.securityweek.com/cisa-fbi-confirm-china-hacked-telecoms-providers-for-spying/amp/", st: "SecurityWeek" }
+  ],
+  modus: {
+    embajadas: "El MSS y la inteligencia militar usan embajadas, consulados y agregadurías, pero también periodistas de medios estatales, estudiantes y académicos. Los consulados mantienen vínculo con asociaciones de residentes chinos.",
+    campo: "Prefiere fuentes sin entrenamiento formal: científicos, empresarios y estudiantes que entregan información por dinero, contratos o patriotismo. Las oficinas provinciales del MSS compiten entre sí y a veces trabajan con agentes improvisados que son descubiertos con facilidad.",
+    oficina: "Una enorme capacidad de análisis y de procesamiento de datos, alimentada por el ciberespionaje y por bases de datos internas. Los informes llegan a la cúpula del Partido a través de la Comisión de Seguridad Nacional.",
+    reclutamiento: "Usa redes profesionales como LinkedIn, ofertas de consultoría falsas, programas de talentos y viajes pagos a China. También presiona a familiares de quienes viven afuera.",
+    tecnica: "Ciberespionaje a escala masiva con unidades del EPL, del MSS y contratistas privados; satélites de observación; estaciones de seguimiento y probables antenas de interceptación en el exterior.",
+    enlaces: "Las leyes obligan a empresas y ciudadanos a colaborar. Coopera con Rusia en seguridad interna y con servicios de Asia Central y el sudeste asiático contra disidentes y fraudes."
+  },
+  insiders: [
+    { k: "topo", dir: "entra", ev: 1, d: "1952", n: "Larry Wu-tai Chin", h: "El traductor de la CIA", x: "Un traductor de la CIA pasa documentos a China durante más de treinta años.", cargo: "CIA", hacia: "Inteligencia china", fin: "Condenado en 1986, murió en su celda antes de la sentencia.", who: "Tribunal federal de EE.UU.", u: "https://en.wikipedia.org/wiki/Larry_Wu-tai_Chin", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desertor", dir: "sale", ev: 1, d: "1985", n: "Yu Qiangsheng", h: "El desertor que delató a Chin", x: "Un funcionario de inteligencia chino huye a EE.UU. y entrega los datos que permitieron descubrir a Larry Wu-tai Chin.", cargo: "Ministerio de Seguridad del Estado", hacia: "EE.UU.", fin: "Su paradero posterior no es público.", who: "FBI y prensa de la época", u: "https://en.wikipedia.org/wiki/Yu_Qiangsheng", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "entra", ev: 2, d: "1982", n: "Katrina Leung", h: "La informante doble del FBI", x: "Una informante muy pagada del FBI en Los Ángeles resultó tener contacto secreto con el MSS y mantener relaciones con sus dos controladores.", cargo: "Informante del FBI", hacia: "MSS", fin: "Los cargos más graves se cayeron; aceptó en 2005 delitos menores de mentir e impuestos.", who: "Departamento de Justicia de EE.UU.", u: "https://en.wikipedia.org/wiki/Katrina_Leung", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "denunciante", dir: "sale", ev: 1, d: "2003-04", n: "Jiang Yanyong", h: "La denuncia del SARS", x: "Un cirujano militar revela que Pekín escondía casos de SARS, lo que obligó al gobierno a admitir la epidemia.", cargo: "Hospital 301 del EPL", hacia: "Prensa internacional", fin: "Fue detenido semanas en 2004 por pedir una revisión de Tiananmen y vivió vigilado hasta su muerte en 2023.", who: "Gobierno chino, que reconoció el ocultamiento", u: "https://en.wikipedia.org/wiki/Jiang_Yanyong", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desertor", dir: "sale", ev: 1, d: "2012-02", n: "Wang Lijun", h: "La huida al consulado de EE.UU.", x: "El jefe de policía de Chongqing se refugia un día en el consulado estadounidense en Chengdu con información sobre el asesinato de un británico.", cargo: "Policía de Chongqing", hacia: "Consulado de EE.UU. en Chengdu", fin: "Se entregó a funcionarios de Pekín; condenado a 15 años. Su caso derribó a Bo Xilai.", who: "Tribunal chino y gobierno de EE.UU.", u: "https://en.wikipedia.org/wiki/Wang_Lijun", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "entra", ev: 1, d: "2010", n: "Jerry Chun Shing Lee", h: "El ex oficial de la CIA", x: "Un ex oficial de la CIA guardaba en cuadernos nombres de fuentes y recibió dinero de agentes chinos.", cargo: "Ex CIA", hacia: "MSS", fin: "Condenado a 19 años en 2019.", who: "Tribunal federal de EE.UU.", u: "https://en.wikipedia.org/wiki/Jerry_Chun_Shing_Lee", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "denunciante", dir: "sale", ev: 1, d: "2019-12", n: "Li Wenliang", h: "El médico que avisó del virus", x: "Un oftalmólogo de Wuhan advierte a colegas sobre una neumonía parecida al SARS y la policía lo obliga a firmar una retractación.", cargo: "Hospital Central de Wuhan", hacia: "Colegas por mensajería", fin: "Murió de covid en febrero de 2020; el Estado lo declaró luego mártir.", who: "Gobierno chino, que anuló la sanción", u: "https://en.wikipedia.org/wiki/Li_Wenliang", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "1989-06", h: "Las muertes de Tiananmen", x: "El gobierno nunca publicó un número de muertos de la represión y censura cualquier mención del tema.", aquien: "Al público chino y al mundo", como: "Testimonios, cables diplomáticos desclasificados y las Madres de Tiananmen, que reunieron nombres.", obj: "Borrar el hecho de la memoria pública.", who: "Organizaciones de familiares y documentos diplomáticos", u: "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "2019-12", h: "Los primeros casos de Wuhan", x: "Las autoridades sancionaron a médicos que alertaron y demoraron información sobre el contagio entre personas.", aquien: "Al público y a la Organización Mundial de la Salud", como: "Mensajes de médicos, la prensa y documentos internos filtrados.", obj: "Evitar alarma política en la víspera de reuniones del Partido.", who: "Gobierno chino, que rehabilitó a Li Wenliang, y prensa internacional", u: "https://en.wikipedia.org/wiki/Li_Wenliang", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "robo", rol: "autor", ev: 2, d: "2015", h: "Los legajos de la OPM", x: "Hackers roban datos de unos 21,5 millones de funcionarios y aspirantes a cargos sensibles de EE.UU.", obj: "Un mapa de quién trabaja en inteligencia y defensa en EE.UU.", who: "Funcionarios de EE.UU.; China lo niega", u: "https://en.wikipedia.org/wiki/Office_of_Personnel_Management_data_breach", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "filtracion", rol: "blanco", ev: 1, d: "2019-11", h: "China Cables", x: "Documentos internos del Partido describen el funcionamiento de los campos de detención de uigures en Xinjiang.", obj: "Exponer el sistema de detención masiva.", who: "Consorcio Internacional de Periodistas de Investigación (ICIJ)", u: "https://en.wikipedia.org/wiki/China_Cables", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "filtracion", rol: "blanco", ev: 1, d: "2022-05", h: "Los archivos policiales de Xinjiang", x: "Un hacker entrega a un investigador miles de fotos y documentos de la policía de Xinjiang, con órdenes de disparar a quien escape.", obj: "Probar la represión en los campos.", who: "Consorcio de medios internacionales", u: "https://en.wikipedia.org/wiki/Xinjiang_Police_Files", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "accidental", rol: "blanco", ev: 1, d: "2022-07", h: "La base de datos de la policía de Shanghái", x: "Una base de datos policial con información de cientos de millones de personas queda expuesta en internet sin contraseña y se ofrece a la venta.", obj: "Ninguno: falla de seguridad del propio Estado.", who: "Investigadores de seguridad y prensa internacional", u: "https://en.wikipedia.org/wiki/2022_Shanghai_police_database_leak", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desinfo", rol: "autor", ev: 1, d: "2020-03", h: "El virus vino del ejército de EE.UU.", x: "Un vocero de la Cancillería china difunde que soldados estadounidenses llevaron el virus a Wuhan.", obj: "Desviar la responsabilidad por el brote.", who: "Publicaciones del vocero Zhao Lijian", u: "https://en.wikipedia.org/wiki/Zhao_Lijian", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desinfo", rol: "autor", ev: 1, d: "2019–2026", h: "Spamouflage", x: "Una red de miles de cuentas falsas difunde propaganda a favor de Pekín y ataca a críticos en muchas plataformas.", obj: "Influir en debates sobre Hong Kong, Taiwán, la pandemia y elecciones extranjeras.", who: "Meta, que la vinculó en 2023 con la policía china, y otras empresas", u: "https://en.wikipedia.org/wiki/Spamouflage", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "filtracion", rol: "blanco", ev: 1, d: "2024-02", h: "Los archivos de i-Soon", x: "Alguien publica en GitHub contratos, objetivos y chats de una empresa que hackeaba por encargo del MPS y el MSS.", obj: "Exponer a la empresa; la autoría no se conoce. EE.UU. acusó después a empleados y a dos oficiales del MPS.", who: "Investigadores de seguridad y Departamento de Justicia de EE.UU.", u: "https://axios.com/2024/02/27/china-hackers-data-leak", st: "Axios" }
+  ],
+  companies: [
+    { n: "i-Soon (Anxun)", c: "nacional", rubro: "Ciberseguridad", rel: "Contratista de hackeo", x: "Hackeaba por encargo de oficinas del MPS y del MSS, según sus archivos filtrados en 2024 y una acusación de EE.UU." },
+    { n: "Sichuan Juxinhe y Beijing Huanyu Tianqiong", c: "nacional", rubro: "Ciberseguridad", rel: "Contratistas (según la NSA)", x: "La NSA las identificó como contratistas del gobierno para Salt Typhoon." },
+    { n: "Huawei y ZTE", c: "nacional", rubro: "Telecomunicaciones", rel: "Riesgo señalado por gobiernos", x: "EE.UU. y varios países europeos las excluyeron de redes críticas por la obligación legal de colaborar con los servicios; las empresas niegan que haya espionaje." },
+    { n: "Hikvision y Dahua", c: "nacional", rubro: "Videovigilancia", rel: "Proveedor del Estado", x: "Fabrican cámaras usadas en la vigilancia de Xinjiang; EE.UU. las sancionó." },
+    { n: "China Satellite Launch and Tracking Control (CLTC)", c: "nacional", rubro: "Espacio", rel: "Organismo militar", x: "Opera la estación de Neuquén; depende de la estructura militar china." }
+  ],
+  struggles: [
+    { a: "Xi Jinping", b: "Cúpula del EPL", k: "Con las fuerzas armadas", stake: "Lealtad y control del ejército", state: "Abierta", x: "Las purgas de 2025 y 2026 dejaron a la Comisión Militar Central con solo dos miembros, incluido el general a cargo de la disciplina." },
+    { a: "CCDI", b: "MSS", k: "Con otros poderes", stake: "Corrupción en los servicios", state: "Abierta", x: "La comisión de disciplina expulsó en enero de 2026 al ex viceministro de Seguridad del Estado Gao Yichen." },
+    { a: "MSS", b: "MPS", k: "Entre agencias", stake: "Operaciones en el exterior y contratistas", state: "Latente", x: "Ambos contratan a las mismas empresas de hackeo y operan sobre la diáspora, con oficinas provinciales que actúan por separado." },
+    { a: "Partido", b: "Empresas tecnológicas", k: "Con la economía", stake: "Datos y algoritmos", state: "Abierta", x: "Las leyes de datos e inteligencia obligan a las empresas a entregar información; el MSS advierte sobre el uso de inteligencia artificial extranjera." }
+  ],
+  sources: [
+    { t: "Chen Yixin en Qiushi: las amenazas a la seguridad nacional (abril de 2026)", u: "https://www.qstheory.cn/20260415/31b9a8832e3c4aeeb9968aab8f64da33/c.html" },
+    { t: "The Standard: el ministro de Seguridad del Estado y los riesgos de la IA", u: "https://www.thestandard.com.hk/china/article/342726/Chinas-spy-chief-warns-of-national-security-risks-from-ai" },
+    { t: "AP: investigación a Zhang Youxia", u: "https://wtop.com/world/2026/01/chinas-top-general-under-investigation-in-latest-military-purge" },
+    { t: "The Washington Times: purga militar y expulsión de Gao Yichen", u: "https://m.washingtontimes.com/news/2026/jan/24/two-chinese-generals-latest-victims-xis-military-purge/" },
+    { t: "Report.az: presupuestos de defensa y seguridad pública 2026", u: "https://report.az/en/other-countries/china-sharply-increases-military-spending" },
+    { t: "Jamestown: la disolución de la Fuerza de Apoyo Estratégico", u: "https://jamestown.org/program/a-disturbance-in-the-force-the-reorganization-of-peoples-liberation-army-command-and-elimination-of-chinas-strategic-support-force/" },
+    { t: "ABC7 / AP: condena por la comisaría clandestina de Nueva York", u: "https://abc7.com/post/lu-jianwang-conviction-nyc-jury-convicts-man-accused-running-secret-chinese-spy-outpost-new-york-city/19100709/" },
+    { t: "CSIS: la presencia de inteligencia china en Cuba", u: "https://www.csis.org/analysis/chinas-intelligence-footprint-cuba-new-evidence-and-implications-us-security" },
+    { t: "Chequeado: qué se sabe de la base espacial china en Neuquén", u: "https://chequeado.com/el-explicador/que-se-sabe-sobre-la-base-espacial-china-ubicada-en-neuquen/" },
+    { t: "Nextgov: Volt Typhoon reconstruye su red", u: "https://www.nextgov.com/cybersecurity/2026/10/chinas-volt-typhoon-quietly-built-another-hacking-network-following-us-crackdown-new-findings-say/416848/" },
+    { t: "The Washington Times: contratistas de Salt Typhoon según la NSA", u: "https://www.washingtontimes.com/news/2026/apr/23/security-agencies-say-chinese-hackers-using-hijacked-networks-large/" },
+    { t: "RUSI: crecen las detenciones por espionaje chino en Europa", u: "https://rusi.org/news-and-comment/in-the-news/countries-are-now-forced-confront-it-rise-chinese-espionage-arrests-alarms-europe" },
+    { t: "Axios: los archivos filtrados de i-Soon", u: "https://axios.com/2024/02/27/china-hackers-data-leak" },
+    { t: "NBC News: el juicio a Linda Sun termina sin veredicto", u: "https://www.nbcnews.com/news/us-news/trial-ex-new-york-governors-aide-accused-selling-influence-china-ends-rcna250597" }
   ]
- },
- "rights": [
-  {
-   "d": "1950",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1962",
-   "dir": "recorta",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1967",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1979",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1986",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1995",
-   "dir": "recorta",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2002",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2009",
-   "dir": "recorta",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "2021",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  }
- ],
- "events": [
-  {
-   "d": "1961-07-10",
-   "lat": 36.54,
-   "lon": 117.54,
-   "t": "senales",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1967-03-21",
-   "lat": -34.43,
-   "lon": 64,
-   "t": "contra",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1971-07-20",
-   "lat": 39.82,
-   "lon": 119.69,
-   "t": "encubierta",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1974-03-04",
-   "lat": 43.71,
-   "lon": 117.23,
-   "t": "ciber",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1981-03-02",
-   "lat": 25.83,
-   "lon": -55.55,
-   "t": "encubierta",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1986-07-04",
-   "lat": 58.22,
-   "lon": -50.71,
-   "t": "encubierta",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1988-07-15",
-   "lat": -15.23,
-   "lon": -67.76,
-   "t": "encubierta",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1994-03-12",
-   "lat": 57.92,
-   "lon": 131.15,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1998-06-23",
-   "lat": 36.76,
-   "lon": 117.73,
-   "t": "humana",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2002-04-14",
-   "lat": 56.22,
-   "lon": -148.07,
-   "t": "encubierta",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2007-05-24",
-   "lat": 36.56,
-   "lon": 119.33,
-   "t": "humana",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2013-08-25",
-   "lat": 42.98,
-   "lon": -29.78,
-   "t": "humana",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2017-03-06",
-   "lat": 42.52,
-   "lon": 111.84,
-   "t": "sabotaje",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2020-03-04",
-   "lat": -20.35,
-   "lon": 86.3,
-   "t": "encubierta",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  }
- ],
- "interest": {
-  "United Kingdom": 2,
-  "Iran": 3,
-  "Ukraine": 1,
-  "Turkey": 1,
-  "Pakistan": 1,
-  "Saudi Arabia": 1,
-  "Syria": 1,
-  "Iraq": 1,
-  "Venezuela": 1,
-  "Cuba": 1,
-  "Taiwan": 2,
-  "Egypt": 3,
-  "Libya": 2,
-  "Nigeria": 1,
-  "Belarus": 2,
-  "Poland": 1,
-  "Colombia": 2
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1985",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1980",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "1973",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "1996",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1979",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1991",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };

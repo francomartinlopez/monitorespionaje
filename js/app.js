@@ -481,7 +481,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     const on = new Set(Object.keys(EV));
     let cur = end, timer = null;
     const y0 = new Date(start).getUTCFullYear(), y1 = new Date(end).getUTCFullYear();
-    const step = Math.max(1, Math.round((y1 - y0) / 7 / 5) * 5);
+    const span = y1 - y0, step = [1, 2, 5, 10, 20, 25, 50].find(k => span / k <= 8) || 100;
     const ticks = []; for (let y = Math.ceil(y0 / step) * step; y <= y1; y += step) ticks.push(y);
     const pos = t => ((t - start) / (end - start) * 100).toFixed(2);
 

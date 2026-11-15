@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ola 2: ficha real de China (MSS, MPS, inteligencia militar, las tres fuerzas creadas en 2024 al disolverse la Fuerza de Apoyo Estratégico, Frente Unido y comisión de disciplina; purgas de 2026, 14 operaciones, 8 casos, 5 fallas y falsas banderas, 7 denunciantes, topos y desertores, 9 filtraciones, ocultamientos y campañas de desinformación). El organigrama de China reemplaza la "Fuerza Aeroespacial y de Ciberespacio" por las tres fuerzas reales. Corregidas las etiquetas de años superpuestas en la línea de tiempo de los mapas.
+
 - 2026-11-15 · Tres agregados en cada ficha: "Cómo operan" en el resumen (embajadas, campo, sede, reclutamiento, medios técnicos y enlaces), la sección "Denunciantes, topos y desertores" y la sección "Filtraciones, ocultamientos, robos y desinformación", con filtros por tipo y por si el país lo hizo o lo sufrió. Cargadas para EE.UU., Argentina y Rusia.
 
 - 2026-11-15 · Ola 2: ficha real de Rusia (FSB, SVR, GRU, FSO, Guardia Nacional y Consejo de Seguridad; conducción a noviembre de 2026, leyes de vigilancia hasta los cortes por orden del FSB, 16 operaciones de Trotsky a Leipzig, 11 casos, 10 fallas y falsas banderas, empresas y luchas de poder). Crimea se marca como territorio disputado en el mapa.
