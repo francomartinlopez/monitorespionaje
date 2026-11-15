@@ -460,6 +460,52 @@
    "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
   }
  ],
+ "failures": [
+  {
+   "k": "falla",
+   "ev": 1,
+   "w": 3,
+   "d": "19XX",
+   "h": "Falla de prueba 1",
+   "x": "Texto de prueba.",
+   "why": "Texto de prueba. Por qué no está en duda.",
+   "wx": "",
+   "who": "Una comisión investigadora"
+  },
+  {
+   "k": "falla",
+   "ev": 2,
+   "w": 2,
+   "d": "20XX",
+   "h": "Falla de prueba 2",
+   "x": "Texto de prueba.",
+   "why": "Texto de prueba. Qué se discute.",
+   "wx": "",
+   "who": "Prensa especializada"
+  },
+  {
+   "k": "falsa",
+   "ev": 3,
+   "w": 1,
+   "d": "19XX",
+   "h": "Falsa bandera de prueba",
+   "x": "Texto de prueba.",
+   "why": "Texto de prueba. Por qué está en duda.",
+   "wx": "",
+   "who": "Un ex agente"
+  },
+  {
+   "k": "falsa",
+   "ev": 4,
+   "w": 1,
+   "d": "20XX",
+   "h": "Teoría de prueba",
+   "x": "Texto de prueba.",
+   "why": "Texto de prueba. Qué la desmiente.",
+   "wx": "",
+   "who": "Redes sociales"
+  }
+ ],
  "companies": [
   {
    "n": "Empresa nacional de prueba",

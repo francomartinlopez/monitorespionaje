@@ -57,6 +57,15 @@ Object.entries(FICHAS).forEach(([id, f]) => {
     if (c.ev === 4 && !c.debunk) err(w, `cases[${i}] conspirativo sin "debunk"`);
     if (!f.sample && !isUrl(c.u)) err(w, `cases[${i}] sin fuente (u)`);
   });
+  if (!f.sample && !(f.failures || []).length) warn(w, "ficha real sin fallas ni falsas banderas");
+  (f.failures || []).forEach((x, i) => {
+    if (!["falla", "falsa"].includes(x.k)) err(w, `failures[${i}].k inválido`);
+    if (![1, 2, 3, 4].includes(x.ev)) err(w, `failures[${i}].ev inválido`);
+    if (![1, 2, 3].includes(x.w)) err(w, `failures[${i}].w inválido (1–3)`);
+    if (!x.why) err(w, `failures[${i}] sin "why" (por qué está o no en duda)`);
+    if (!x.who) err(w, `failures[${i}] sin "who"`);
+    if (!f.sample && !isUrl(x.u)) err(w, `failures[${i}] sin fuente (u)`);
+  });
   Object.entries(f.interest || {}).forEach(([n, l]) => { if (!names.has(n)) err(w, `interest: país desconocido "${n}"`); if (![1, 2, 3].includes(l)) err(w, `interest["${n}"] fuera de 1–3`); });
   if (!f.sample) {
     const txt = JSON.stringify(f);

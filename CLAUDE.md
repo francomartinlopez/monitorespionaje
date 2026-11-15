@@ -24,6 +24,7 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 - `interest` {nombre de país en data/world.js: 1 bajo · 2 medio · 3 alto}: interés estratégico del servicio por país, para la capa "Interés estratégico" del mapa de operaciones. La capa "Intensidad de operaciones" se calcula sola a partir de `events`.
 - `timeline` [{era, d, h, x, now?}]: cronología histórica.
 - `cases` [{ev, h, d, ilegal, x, who, missing, debunk, u, st}]. `u`/`st` = fuente principal (obligatoria en fichas reales). `ev`: 1 demostrado · 2 con sustento sólido · 3 denuncia sin pruebas firmes · 4 teoría conspirativa. `who` = quién lo afirma; `missing` = qué falta para subir de categoría; `debunk` (sólo ev 4) = de dónde salió y qué la desmiente.
+- `failures` [{k: "falla"|"falsa", d, h, x, ev, why, w, wx?, who, u, st}]: fallas de inteligencia y operaciones de falsa bandera. `ev` = misma escala de evidencia que los casos; `why` = por qué está o no en duda; `w` = cuánta evidencia hay sobre esa duda (1 escasa · 2 parcial · 3 abundante) y `wx` una línea que lo explica.
 - `companies` [{n, c: "nacional"|"extranjera", rubro, rel, x}].
 - `struggles` [{a, b, k, stake, state, x}]: luchas de poder (internas, entre agencias, con otros poderes, con la política y la economía).
 - `sources` [{t, u}].

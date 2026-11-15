@@ -208,7 +208,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   }
 
   // ================= FICHA DE PAÍS =================
-  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
+  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Fallas y falsas banderas"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
 
   function renderCountry(p) {
     const f = FICHAS[p.id];
@@ -274,6 +274,12 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
         <div class="cases" id="caseList"></div>
       </section>
 
+      <section class="block" id="sec-fallas">
+        <h2>Fallas y falsas banderas <small>Fallas de inteligencia y operaciones de falsa bandera, confirmadas o en duda, y cuánta evidencia hay</small></h2>
+        <div class="chips" id="flChips"></div>
+        <div class="fl-list" id="flList"></div>
+      </section>
+
       <section class="block" id="sec-relaciones">
         <h2>Relaciones <small>Con otros servicios y con empresas nacionales y extranjeras</small></h2>
         ${relCols(p)}
@@ -309,6 +315,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     }));
     // casos
     drawCases(f);
+    drawFailures(f);
     // mapa con línea de tiempo
     const m = OpMap(document.getElementById("opMap"), p, f);
     cleanup = () => { io.disconnect(); m.destroy(); };
@@ -376,6 +383,34 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     };
     chips.querySelectorAll("[data-k]").forEach(b => b.addEventListener("click", () => { filt = b.dataset.k; chips.querySelectorAll("[data-k]").forEach(x => x.classList.toggle("on", x === b)); draw(); }));
     chips.querySelector("[data-il]").addEventListener("click", e => { onlyIl = !onlyIl; e.currentTarget.classList.toggle("on", onlyIl); e.currentTarget.setAttribute("aria-pressed", String(onlyIl)); draw(); });
+    draw();
+  }
+
+  const FL_KIND = { falla: { n: "Falla de inteligencia", c: "var(--cyan)" }, falsa: { n: "Falsa bandera", c: "var(--violet)" } };
+  const FL_WEIGHT = { 3: "Abundante", 2: "Parcial", 1: "Escasa" };
+  function drawFailures(f) {
+    const chips = document.getElementById("flChips"), list = document.getElementById("flList"), F = f.failures || [];
+    if (!F.length) { chips.innerHTML = ""; list.innerHTML = `<p class="muted">Sin datos cargados todavía.</p>`; return; }
+    let kind = "all", ev = "all";
+    const n = k => F.filter(x => x.k === k).length;
+    chips.innerHTML = `<button type="button" class="chip on" data-k="all">Todas · ${F.length}</button>${Object.entries(FL_KIND).map(([k, t]) => `<button type="button" class="chip" data-k="${k}" style="--c:${t.c}"><i></i>${t.n} · ${n(k)}</button>`).join("")}
+      <span class="chip-sep" aria-hidden="true"></span>${[1, 2, 3, 4].map(e => `<button type="button" class="chip" data-e="${e}" aria-pressed="false" style="--c:${EVI[e].c}"><i></i>${EVI[e].n}</button>`).join("")}`;
+    const draw = () => {
+      const L = F.filter(x => (kind === "all" || x.k === kind) && (ev === "all" || x.ev === +ev)).sort((a, b) => String(a.d).localeCompare(String(b.d)));
+      list.innerHTML = L.map(x => { const K = FL_KIND[x.k], E = EVI[x.ev];
+        return `<article class="fl" style="--k:${K.c};--c:${E.c}">
+          <div class="fl-d">${esc(x.d)}</div>
+          <div class="fl-b${x.ev === 4 ? " consp" : ""}">
+            <div class="meta"><span class="kind">${K.n}</span><span class="evtag" style="--c:${E.c}">${E.n}</span>${x.ev === 4 ? `<span class="stamp-nv">No verificado</span>` : ""}</div>
+            <h4>${esc(x.h)}</h4><p>${esc(x.x)}</p>
+            <dl><dt>¿En duda?</dt><dd>${esc(x.why)}</dd>
+              <dt>Evidencia</dt><dd><span class="wbar" aria-label="${FL_WEIGHT[x.w]}">${[1, 2, 3].map(i => `<i class="${i <= x.w ? "on" : ""}"></i>`).join("")}</span> ${FL_WEIGHT[x.w]}${x.wx ? ` · ${esc(x.wx)}` : ""}</dd>
+              <dt>Lo afirma</dt><dd>${esc(x.who)}</dd>
+              ${x.u ? `<dt>Fuente</dt><dd><a href="${esc(x.u)}" ${String(x.u).startsWith("http") ? 'target="_blank" rel="noopener"' : ""}>${esc(x.st || "Fuente")}</a></dd>` : ""}</dl>
+          </div></article>`; }).join("") || `<p class="muted">No hay hechos con ese filtro.</p>`;
+    };
+    chips.querySelectorAll("[data-k]").forEach(b => b.addEventListener("click", () => { kind = b.dataset.k; chips.querySelectorAll("[data-k]").forEach(x => x.classList.toggle("on", x === b)); draw(); }));
+    chips.querySelectorAll("[data-e]").forEach(b => b.addEventListener("click", () => { ev = ev === b.dataset.e ? "all" : b.dataset.e; chips.querySelectorAll("[data-e]").forEach(x => { x.classList.toggle("on", x.dataset.e === ev); x.setAttribute("aria-pressed", String(x.dataset.e === ev)); }); draw(); }));
     draw();
   }
 

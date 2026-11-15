@@ -87,6 +87,12 @@ for (const p of ctx.PAISES) {
       missing: ev === 1 ? "" : `${P} Qué falta para subir de categoría.`,
       debunk: ev === 4 ? `${P} De dónde salió, por qué prendió y qué la desmiente.` : ""
     })),
+    failures: [
+      { k: "falla", ev: 1, w: 3, d: "19XX", h: "Falla de prueba 1", x: P, why: P + " Por qué no está en duda.", wx: "", who: "Una comisión investigadora" },
+      { k: "falla", ev: 2, w: 2, d: "20XX", h: "Falla de prueba 2", x: P, why: P + " Qué se discute.", wx: "", who: "Prensa especializada" },
+      { k: "falsa", ev: 3, w: 1, d: "19XX", h: "Falsa bandera de prueba", x: P, why: P + " Por qué está en duda.", wx: "", who: "Un ex agente" },
+      { k: "falsa", ev: 4, w: 1, d: "20XX", h: "Teoría de prueba", x: P, why: P + " Qué la desmiente.", wx: "", who: "Redes sociales" }
+    ],
     companies: [
       { n: "Empresa nacional de prueba", c: "nacional", rubro: "Defensa", rel: "Contratista", x: P },
       { n: "Empresa nacional de prueba", c: "nacional", rubro: "Telecomunicaciones", rel: "Cooperación legal", x: P },
