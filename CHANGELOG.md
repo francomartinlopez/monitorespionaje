@@ -1,5 +1,9 @@
 # Cambios
 
+- 2026-11-15 · Tres agregados en cada ficha: "Cómo operan" en el resumen (embajadas, campo, sede, reclutamiento, medios técnicos y enlaces), la sección "Denunciantes, topos y desertores" y la sección "Filtraciones, ocultamientos, robos y desinformación", con filtros por tipo y por si el país lo hizo o lo sufrió. Cargadas para EE.UU., Argentina y Rusia.
+
+- 2026-11-15 · Ola 2: ficha real de Rusia (FSB, SVR, GRU, FSO, Guardia Nacional y Consejo de Seguridad; conducción a noviembre de 2026, leyes de vigilancia hasta los cortes por orden del FSB, 16 operaciones de Trotsky a Leipzig, 11 casos, 10 fallas y falsas banderas, empresas y luchas de poder). Crimea se marca como territorio disputado en el mapa.
+
 - 2026-11-15 · Verificación de enlaces de EE.UU.: se corrigieron cuatro direcciones que habían cambiado (golpe de 1953 en el National Security Archive, audiencia MKUltra y estudio sobre tortura del Comité de Inteligencia del Senado, nota de ProPublica sobre AT&T). Las demás fuentes primarias (Senado, Archivos Nacionales, Departamento de Estado, FBI, prensa) responden bien.
 
 - 2026-11-15 · Ola 2: ficha real de Argentina (organigrama actualizado al DNU 941/2025, presupuesto 2026, conducción de Auguadra, nueve hitos de derechos civiles, operaciones de la dictadura a 2018, casos AMIA, Orletti, Nisman, ARA San Juan, bases AMBA y Plan de Inteligencia Nacional, fallas y falsas banderas). Línea de derechos civiles: hitos ubicados por mes y alturas escalonadas para que no se pisen.

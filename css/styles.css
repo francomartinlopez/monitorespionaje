@@ -17,7 +17,7 @@
   --ph-hi: #a8ffc6;
   --ph-lo: #2e8a58;
   --ph-soft: rgba(106, 245, 154, .12);
-  --red: #ff4d3d; --orange: #ff9433; --amber: #ffd23f; --cyan: #4fd1e8; --violet: #c9a7ff;
+  --red: #ff4d3d; --orange: #ff9433; --amber: #ffd23f; --cyan: #4fd1e8; --violet: #c9a7ff; --blue: #6fa8ff; --magenta: #ff6ad5; --amber-lo: #d8b46a;
   --land: #081a10; --sea: #030504; --grat: #133b26;
 
   --f-display: "Barlow Condensed", "Arial Narrow", sans-serif;
@@ -507,3 +507,11 @@ a:hover .lane-l { fill: var(--ph); }
 .wbar i.on { background: var(--ph); }
 @media (max-width: 900px) { .fl { grid-template-columns: 1fr; } .fl-d { text-align: left; padding: 10px 0 0 22px; } }
 .fl .stamp-nv { margin-left: 4px; font-size: 11px; padding: 3px 6px; }
+
+/* denunciantes y filtraciones (reusan la lista .fl) */
+.fl .dirtag { font: 500 10.5px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--line, #1d2a22); padding: 3px 6px; }
+.fl h4 small { font-weight: 400; font-size: 14px; color: var(--soft); }
+.modus span { display: block; font: 500 10.5px/1.2 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--ph); margin-bottom: 6px; }
+.modus p { margin: 0; font-size: 14px; color: var(--soft); }
+.prio.modus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 900px) { .prio.modus { grid-template-columns: 1fr; } }

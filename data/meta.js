@@ -24,6 +24,16 @@ window.INTEREST_SCALE = {
   1: "Bajo: interés puntual, por un tema concreto (terrorismo, narcotráfico, tecnología, diáspora)."
 };
 
+// Cómo operan: aspectos que cada ficha describe en "modus"
+window.MODUS = [
+  { k: "embajadas", n: "Embajadas y cobertura", x: "Oficiales con pasaporte diplomático, agregados y otras coberturas oficiales en el exterior." },
+  { k: "campo", n: "Trabajo de campo", x: "Oficiales de caso, agentes sin cobertura oficial, fuentes y equipos operativos." },
+  { k: "oficina", n: "Sede y análisis", x: "Analistas, técnicos y conducción en la sede; cómo llega la información a quien decide." },
+  { k: "reclutamiento", n: "Reclutamiento", x: "A quién buscan como fuente y con qué incentivos." },
+  { k: "tecnica", n: "Medios técnicos", x: "Interceptación, ciber, satélites y bases propias." },
+  { k: "enlaces", n: "Enlaces y apoyos", x: "Servicios aliados, fuerzas armadas, policía, empresas e intermediarios." }
+];
+
 window.RUBROS = [
   { k: "humana", n: "Inteligencia humana", s: "HUMINT", x: "Agentes, informantes y redes de reclutamiento." },
   { k: "senales", n: "Señales y comunicaciones", s: "SIGINT", x: "Interceptación de comunicaciones y señales electrónicas." },

@@ -47,7 +47,7 @@ Object.entries(FICHAS).forEach(([id, f]) => {
     if (!EV_TYPES[e.t]) err(w, `events[${i}] tipo inválido "${e.t}"`);
     if (!e.nomap && !(Math.abs(e.lat) <= 90 && Math.abs(e.lon) <= 180)) err(w, `events[${i}] coordenadas inválidas`);
     if (!f.sample && !isUrl(e.u)) err(w, `events[${i}] sin fuente (u)`);
-    if (!f.sample && e.c && byName[e.c] && !e.nomap && !d3.geoContains(byName[e.c], [e.lon, e.lat])) warn(w, `events[${i}] "${e.h}": las coordenadas no caen en ${e.c}`);
+    if (!f.sample && e.c && byName[e.c] && !e.nomap && !e.disputed && !d3.geoContains(byName[e.c], [e.lon, e.lat])) warn(w, `events[${i}] "${e.h}": las coordenadas no caen en ${e.c}`);
   });
   for (let i = 1; i < (f.events || []).length; i++) if (f.events[i].d < f.events[i - 1].d) warn(w, `events no están en orden de fecha (${f.events[i].d})`);
   (f.cases || []).forEach((c, i) => {
@@ -58,6 +58,24 @@ Object.entries(FICHAS).forEach(([id, f]) => {
     if (!f.sample && !isUrl(c.u)) err(w, `cases[${i}] sin fuente (u)`);
   });
   if (!f.sample && !(f.failures || []).length) warn(w, "ficha real sin fallas ni falsas banderas");
+  if (!f.sample) (ctx.MODUS || []).forEach(m => { if (!f.modus?.[m.k]) warn(w, `modus.${m.k} vacío (cómo operan)`); });
+  if (!f.sample && !(f.insiders || []).length) warn(w, "ficha real sin denunciantes, topos ni desertores");
+  (f.insiders || []).forEach((x, i) => {
+    if (!["denunciante", "topo", "desertor"].includes(x.k)) err(w, `insiders[${i}].k inválido`);
+    if (!["sale", "entra"].includes(x.dir)) err(w, `insiders[${i}].dir inválido (sale|entra)`);
+    if (![1, 2, 3, 4].includes(x.ev)) err(w, `insiders[${i}].ev inválido`);
+    if (!x.d || !x.h || !x.x || !x.who) err(w, `insiders[${i}] incompleto (d, h, x, who)`);
+    if (!f.sample && !isUrl(x.u)) err(w, `insiders[${i}] sin fuente (u)`);
+  });
+  if (!f.sample && !(f.leaks || []).length) warn(w, "ficha real sin filtraciones ni desinformación");
+  (f.leaks || []).forEach((x, i) => {
+    if (!["filtracion", "accidental", "robo", "ocultamiento", "desinfo"].includes(x.k)) err(w, `leaks[${i}].k inválido`);
+    if (!["autor", "blanco"].includes(x.rol)) err(w, `leaks[${i}].rol inválido (autor|blanco)`);
+    if (![1, 2, 3, 4].includes(x.ev)) err(w, `leaks[${i}].ev inválido`);
+    if (!x.d || !x.h || !x.x || !x.who) err(w, `leaks[${i}] incompleto (d, h, x, who)`);
+    if (x.k === "ocultamiento" && !x.aquien) err(w, `leaks[${i}] ocultamiento sin "aquien"`);
+    if (!f.sample && !isUrl(x.u)) err(w, `leaks[${i}] sin fuente (u)`);
+  });
   (f.failures || []).forEach((x, i) => {
     if (!["falla", "falsa"].includes(x.k)) err(w, `failures[${i}].k inválido`);
     if (![1, 2, 3, 4].includes(x.ev)) err(w, `failures[${i}].ev inválido`);

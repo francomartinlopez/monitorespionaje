@@ -208,7 +208,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   }
 
   // ================= FICHA DE PAÍS =================
-  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Fallas y falsas banderas"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
+  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Fallas y falsas banderas"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
 
   function renderCountry(p) {
     const f = FICHAS[p.id];
@@ -229,6 +229,8 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
         <h2>Resumen <small>Situación al ${fmt(f.updated)}</small></h2>
         <div class="res-grid"><div class="prose">${f.summary.map(t => `<p>${esc(t)}</p>`).join("")}</div>
           <div class="facts">${f.keyFacts.map(k => `<div class="fact"><div class="l">${esc(k.l)}</div><div class="v">${esc(k.v)}</div><div class="n">${esc(k.n)}</div></div>`).join("")}</div></div>
+        <h3 class="sub">Cómo operan</h3>
+        ${f.modus ? `<div class="prio modus">${window.MODUS.filter(m => f.modus[m.k]).map(m => `<div><span>${esc(m.n)}</span><p>${esc(f.modus[m.k])}</p></div>`).join("")}</div>` : `<p class="muted">Sin datos cargados todavía.</p>`}
         <h3 class="sub">Alcance y poder por rubro</h3>
         <div class="power">${RUBROS.map(r => `<div class="pw"><div class="n">${esc(r.n)}<small>${r.s}</small></div><div class="bars" title="${esc((f.powerWhy || {})[r.k] || r.x)}">${[1, 2, 3, 4, 5].map(i => `<i class="${i <= f.power[r.k] ? "on" : ""}"></i>`).join("")}</div><div class="v">${f.power[r.k]}</div></div>`).join("")}</div>
         ${f.powerWhy ? `<details class="why"><summary>Por qué estos valores</summary><dl>${RUBROS.map(r => `<dt>${esc(r.n)} · ${f.power[r.k]}</dt><dd>${esc(f.powerWhy[r.k] || "")}</dd>`).join("")}</dl></details>` : ""}
@@ -280,6 +282,18 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
         <div class="fl-list" id="flList"></div>
       </section>
 
+      <section class="block" id="sec-gente">
+        <h2>Denunciantes, topos y desertores <small>Quienes revelaron secretos, quienes espiaron para otro país y quienes se pasaron de bando</small></h2>
+        <div class="chips" id="pxChips"></div>
+        <div class="fl-list" id="pxList"></div>
+      </section>
+
+      <section class="block" id="sec-filtraciones">
+        <h2>Filtraciones, ocultamientos, robos y desinformación <small>Información que salió a propósito o por error, la que se escondió al público y a las autoridades civiles, la que robaron y la que se fabricó</small></h2>
+        <div class="chips" id="lkChips"></div>
+        <div class="fl-list" id="lkList"></div>
+      </section>
+
       <section class="block" id="sec-relaciones">
         <h2>Relaciones <small>Con otros servicios y con empresas nacionales y extranjeras</small></h2>
         ${relCols(p)}
@@ -316,6 +330,8 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     // casos
     drawCases(f);
     drawFailures(f);
+    drawKinds(f.insiders, "px", PX_KIND, PX_DIR, x => `${x.cargo ? `<dt>Dónde estaba</dt><dd>${esc(x.cargo)}</dd>` : ""}${x.hacia ? `<dt>A quién</dt><dd>${esc(x.hacia)}</dd>` : ""}${x.fin ? `<dt>Qué pasó</dt><dd>${esc(x.fin)}</dd>` : ""}`);
+    drawKinds(f.leaks, "lk", LK_KIND, LK_ROL, x => `${x.aquien ? `<dt>A quién se ocultó</dt><dd>${esc(x.aquien)}</dd>` : ""}${x.como ? `<dt>Cómo salió a la luz</dt><dd>${esc(x.como)}</dd>` : ""}${x.obj ? `<dt>Objetivo o efecto</dt><dd>${esc(x.obj)}</dd>` : ""}`);
     // mapa con línea de tiempo
     const m = OpMap(document.getElementById("opMap"), p, f);
     cleanup = () => { io.disconnect(); m.destroy(); };
@@ -416,6 +432,35 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     draw();
   }
 
+  const PX_KIND = { denunciante: { n: "Denunciante", c: "var(--cyan)" }, topo: { n: "Topo o doble agente", c: "var(--violet)" }, desertor: { n: "Desertor", c: "var(--blue)" } };
+  const PX_DIR = { sale: "Desde adentro", entra: "Desde afuera" };
+  const LK_KIND = { filtracion: { n: "Filtración intencional", c: "var(--cyan)" }, accidental: { n: "Filtración no intencional", c: "var(--blue)" }, robo: { n: "Robo de información", c: "var(--violet)" }, ocultamiento: { n: "Ocultamiento", c: "var(--amber-lo)" }, desinfo: { n: "Desinformación", c: "var(--magenta)" } };
+  const LK_ROL = { autor: "Lo hizo", blanco: "Lo sufrió" };
+  // lista cronológica con filtros por tipo y por dirección (sirve para personas y para filtraciones)
+  function drawKinds(items, pre, KIND, DIR, extra) {
+    const chips = document.getElementById(pre + "Chips"), list = document.getElementById(pre + "List"), F = items || [];
+    if (!F.length) { chips.innerHTML = ""; list.innerHTML = `<p class="muted">Sin datos cargados todavía.</p>`; return; }
+    let kind = "all", dir = "all";
+    const n = k => F.filter(x => x.k === k).length, dk = pre === "px" ? "dir" : "rol";
+    chips.innerHTML = `<button type="button" class="chip on" data-k="all">Todos · ${F.length}</button>${Object.entries(KIND).map(([k, t]) => `<button type="button" class="chip" data-k="${k}" style="--c:${t.c}"><i></i>${t.n} · ${n(k)}</button>`).join("")}
+      <span class="chip-sep" aria-hidden="true"></span>${Object.entries(DIR).map(([k, t]) => `<button type="button" class="chip" data-r="${k}" aria-pressed="false">${t} · ${F.filter(x => x[dk] === k).length}</button>`).join("")}`;
+    const draw = () => {
+      const L = F.filter(x => (kind === "all" || x.k === kind) && (dir === "all" || x[dk] === dir)).sort((a, b) => String(a.d).localeCompare(String(b.d)));
+      list.innerHTML = L.map(x => { const K = KIND[x.k] || { n: x.k, c: "var(--muted)" }, E = EVI[x.ev] || EVI[1];
+        return `<article class="fl" style="--k:${K.c};--c:${E.c}">
+          <div class="fl-d">${esc(x.d)}</div>
+          <div class="fl-b${x.ev === 4 ? " consp" : ""}">
+            <div class="meta"><span class="kind">${K.n}</span><span class="dirtag">${esc(DIR[x[dk]] || "")}</span><span class="evtag" style="--c:${E.c}">${E.n}</span>${x.ev === 4 ? `<span class="stamp-nv">No verificado</span>` : ""}</div>
+            <h4>${x.n ? `${esc(x.n)} <small>· ${esc(x.h)}</small>` : esc(x.h)}</h4><p>${esc(x.x)}</p>
+            <dl>${extra(x)}<dt>Lo afirma</dt><dd>${esc(x.who)}</dd>
+              ${x.u ? `<dt>Fuente</dt><dd><a href="${esc(x.u)}" ${String(x.u).startsWith("http") ? 'target="_blank" rel="noopener"' : ""}>${esc(x.st || "Fuente")}</a></dd>` : ""}</dl>
+          </div></article>`; }).join("") || `<p class="muted">No hay casos con ese filtro.</p>`;
+    };
+    chips.querySelectorAll("[data-k]").forEach(b => b.addEventListener("click", () => { kind = b.dataset.k; chips.querySelectorAll("[data-k]").forEach(x => x.classList.toggle("on", x === b)); draw(); }));
+    chips.querySelectorAll("[data-r]").forEach(b => b.addEventListener("click", () => { dir = dir === b.dataset.r ? "all" : b.dataset.r; chips.querySelectorAll("[data-r]").forEach(x => { x.classList.toggle("on", x.dataset.r === dir); x.setAttribute("aria-pressed", String(x.dataset.r === dir)); }); draw(); }));
+    draw();
+  }
+
   function relCols(p) {
     const mine = window.RELACIONES.filter(r => r.a === p.id || r.b === p.id).map(r => ({ o: byId[r.a === p.id ? r.b : r.a], t: r.t }));
     return `<div class="rel-cols">${Object.entries(RT).map(([k, t]) => { const l = mine.filter(m => m.t === k);
@@ -428,7 +473,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     const evs = f.events.filter(e => !e.nomap).map((e, i) => ({ ...e, i, t0: parseD(e.d).getTime(), xy: pt([e.lon, e.lat]) }));
     const home = pt(p.center), feat = FEAT[p.map];
     // país donde cae cada hecho (para la capa de intensidad)
-    evs.forEach(e => { const hit = FEATURES.find(F => d3.geoContains(F, [e.lon, e.lat])); e.cn = hit ? hit.properties.name : null; });
+    evs.forEach(e => { if (e.c && FEATURES.some(F => F.properties.name === e.c)) { e.cn = e.c; return; } const hit = FEATURES.find(F => d3.geoContains(F, [e.lon, e.lat])); e.cn = hit ? hit.properties.name : null; });
     const LVC = { 1: "#ffd23f", 2: "#ff9433", 3: "#ff4d3d" };
     const LAYERS = { none: "Ninguna", interes: "Interés estratégico", intensidad: "Intensidad de operaciones" };
     let layer = "intensidad";

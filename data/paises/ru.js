@@ -1,628 +1,201 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Rusia · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["ru"] = {
- "sample": true,
- "id": "ru",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Rusia: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "6",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 5,
-  "senales": 4,
-  "ciber": 5,
-  "imagenes": 4,
-  "encubierta": 5,
-  "contra": 4
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "CSN": {
-   "since": 1943,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Consejo de Seguridad de la Federación: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "SVR": {
-   "since": 2017,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio de Inteligencia Exterior: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "FSB": {
-   "since": 1970,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio Federal de Seguridad: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "GRU": {
-   "since": 2008,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Dirección Principal del Estado Mayor: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "FSO": {
-   "since": 2009,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio Federal de Protección: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Rosgvardia": {
-   "since": 1955,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Guardia Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Duma": {
-   "since": 1994,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comisión de seguridad de la Duma: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "ru",
+  updated: "2026-11-15",
+  summary: [
+    "Rusia tiene tres grandes servicios herederos de la tradición soviética: el Servicio Federal de Seguridad (FSB), sucesor interno de la KGB; el Servicio de Inteligencia Exterior (SVR); y la Dirección Principal del Estado Mayor, conocida todavía como GRU. Los tres responden directamente al presidente Vladímir Putin, ex oficial de la KGB y ex director del FSB.",
+    "En 2026 los jefes son los mismos de hace casi una década: Aleksandr Bórtnikov en el FSB desde 2008, Serguéi Naryshkin en el SVR desde 2016 e Ígor Kostiukov en el GRU desde 2018. La prensa independiente rusa informa que Bórtnikov, de 74 años, pidió retirarse y que el FSB prepara una reorganización.",
+    "Desde la invasión a Ucrania en 2022, los servicios rusos pasaron a una campaña de sabotaje en Europa con agentes reclutados por dinero, según gobiernos europeos y centros de estudio. Alemania culpó a Rusia en septiembre de 2026 por un dron con explosivos hallado junto a un avión ucraniano en el aeropuerto de Leipzig.",
+    "Puertas adentro, el FSB ganó en 2026 el poder de ordenar cortes de internet y telefonía móvil, mientras el Estado empuja el mensajero oficial Max. Al mismo tiempo, el SVR mantiene un canal con la CIA: Naryshkin se reunió en Moscú con su director, John Ratcliffe, en agosto de 2026."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Director del FSB", v: "Aleksandr Bórtnikov", n: "desde mayo de 2008; su salida se rumorea desde septiembre de 2026 (Meduza)" },
+    { l: "Defensa y seguridad", v: "38 %", n: "del gasto federal previsto para 2026, unos 16,8 billones de rublos (proyecto de presupuesto)" },
+    { l: "Sabotajes en Europa", v: "151", n: "incidentes vinculados a Rusia entre feb 2022 y feb 2026 (ICCT y GLOBSEC)" },
+    { l: "Guardia Nacional", v: "≈ 370.000", n: "efectivos en enero de 2024, según The Moscow Times" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 5, senales: 4, ciber: 5, imagenes: 3, encubierta: 5, contra: 4 },
+  powerWhy: {
+    humana: "Tradición de agentes ilegales y redes en todo el mundo; las expulsiones masivas de diplomáticos desde 2022 la golpearon, pero no la desarmaron.",
+    senales: "El FSB y el GRU tienen centros de interceptación propios y la ley obliga a todas las redes del país a conectar los equipos SORM.",
+    ciber: "Unidades del GRU y del SVR figuran detrás de algunos de los ataques más dañinos conocidos, como NotPetya y el hackeo al Partido Demócrata de EE.UU., según gobiernos occidentales.",
+    imagenes: "Tiene satélites militares de observación, pero con menos cobertura y resolución que EE.UU. o China.",
+    encubierta: "Asesinatos, sabotajes y operaciones de influencia en Europa y África atribuidos por tribunales y gobiernos, con un ritmo que creció desde 2022.",
+    contra: "El FSB controla con dureza la vida interna, pero no evitó el atentado de Crocus en 2024, la rebelión de Wagner ni ataques contra generales en Moscú."
+  },
+  priorities: [
+    { h: "La guerra en Ucrania", x: "Información sobre el frente, sabotaje del apoyo occidental a Kiev y control de los territorios ocupados." },
+    { h: "La OTAN y Europa", x: "Debilitar la ayuda a Ucrania con sabotajes, ciberataques y campañas de influencia." },
+    { h: "Estabilidad del régimen", x: "Vigilancia de opositores, periodistas y críticos de la guerra, dentro y fuera del país." },
+    { h: "El espacio postsoviético", x: "Mantener a Bielorrusia, Asia Central y el Cáucaso en su órbita y frenar lo que Moscú llama revoluciones de colores." },
+    { h: "África y el Sur Global", x: "Presencia militar y de inteligencia en el Sahel y en la República Centroafricana tras la absorción de Wagner." }
+  ],
+  focos: ["Ucrania", "Polonia y los países bálticos", "Alemania y Reino Unido", "Moldavia y Georgia", "Sahel y República Centroafricana", "Internet ruso"],
+  bodies: {
+    "CSN": { since: 1992, how: "Órgano consultivo del presidente que reúne a los ministros y jefes de seguridad. Su secretario, Serguéi Shoigú desde mayo de 2024, coordina la política de seguridad y viaja como enviado ante aliados como Corea del Norte.", staff: "Un aparato administrativo; no se publica su tamaño.", budget: "Dentro del presupuesto de la Presidencia.", tech: ["Coordinación de la comunidad de seguridad"], where: ["Kremlin, Moscú"] },
+    "SVR": { since: 1991, how: "Inteligencia exterior civil, nacida de la Primera Dirección General de la KGB. Recluta fuentes, usa agentes ilegales con identidades falsas y opera unidades de ciberespionaje. Su director también hace declaraciones públicas con fines de propaganda.", staff: "No se publica.", budget: "Clasificado.", tech: ["Agentes ilegales", "Ciberespionaje (APT29, según gobiernos occidentales)"], where: ["Embajadas en todo el mundo", "Yasenevo, Moscú"] },
+    "FSB": { since: 1995, how: "El servicio más poderoso: contrainteligencia, seguridad interna, lucha antiterrorista, guardia de fronteras, cifrado y vigilancia de comunicaciones. Desde 2022 también opera en el exterior, incluso en sabotajes en Europa según gobiernos europeos.", staff: "No se publica; incluye al Servicio de Guardia de Fronteras.", budget: "Clasificado, dentro del rubro de seguridad nacional.", tech: ["SORM", "Centros de seguridad de la información", "Cortes de comunicaciones por pedido propio desde 2026"], where: ["Lubianka, Moscú", "Territorios ocupados de Ucrania", "Europa"] },
+    "GRU": { since: 1918, how: "Inteligencia militar del Estado Mayor. Combina espionaje, fuerzas especiales, ciberataques y operaciones encubiertas como envenenamientos y voladuras. Su jefe, Ígor Kostiukov, encabezó en 2026 la delegación rusa en las negociaciones sobre Ucrania.", staff: "No se publica.", budget: "Dentro del gasto de defensa, en su mayor parte clasificado.", tech: ["Unidad 29155 (sabotaje y asesinatos)", "Unidades 26165 y 74455 (ciberataques)", "Fuerzas especiales"], where: ["Ucrania", "Europa", "África"] },
+    "FSO": { since: 1996, how: "Protege al presidente y a altos funcionarios y opera las comunicaciones gubernamentales. Es también cantera de cuadros leales a Putin.", staff: "No se publica.", budget: "Clasificado.", tech: ["Comunicaciones seguras del Estado"], where: ["Moscú", "Residencias presidenciales"] },
+    "Rosgvardia": { since: 2016, how: "Fuerza de seguridad interior creada sobre las tropas del Ministerio del Interior. En febrero de 2026 un decreto le dio un estado mayor propio con tareas de inteligencia, bajo el mando de Víktor Zolotov, ex jefe de custodia de Putin.", staff: "Unos 370.000 efectivos en enero de 2024 (The Moscow Times).", budget: "Dentro del rubro de seguridad nacional.", tech: ["Unidades blindadas", "Inteligencia propia desde 2026"], where: ["Rusia", "Territorios ocupados de Ucrania"] },
+    "Duma": { since: 1993, how: "La comisión de seguridad de la Duma aprueba las leyes que amplían las facultades de los servicios. No ejerce un control real sobre sus operaciones ni sobre su presupuesto secreto.", staff: "Diputados de la comisión, en su mayoría del oficialismo.", budget: "Parte de la Duma Estatal.", tech: [], where: ["Moscú"] }
+  },
+  civil: [
+    "Los servicios dependen directamente del presidente y no de un ministerio civil. Varios de sus ex jefes ocupan cargos clave, como Nikolái Pátrushev, ex director del FSB y hoy asesor de Putin.",
+    "El Consejo de Seguridad funciona como mesa de coordinación. Su secretario, Shoigú, no tiene mando directo sobre los servicios.",
+    "La justicia y la fiscalía rara vez frenan al FSB: la ley exige orden judicial para interceptar comunicaciones, pero los jueces aprueban casi todos los pedidos según organizaciones de derechos digitales."
+  ],
+  law: {
+    domestic: [
+      "La Constitución de 1993 protege el secreto de las comunicaciones y exige orden judicial para limitarlo.",
+      "La ley Yarovaya de 2016 obliga a guardar las comunicaciones y a entregar al FSB las claves de cifrado.",
+      "Desde 2019 todos los proveedores de internet deben instalar equipos de filtrado del Estado (ley de internet soberano).",
+      "Desde febrero de 2026 los operadores deben suspender servicios cuando lo pide el FSB, sin responder ante sus clientes."
+    ],
+    foreign: [
+      "Una ley de 2006 permite usar fuerzas armadas y especiales contra terroristas fuera del país por decisión del presidente.",
+      "Las leyes de agentes extranjeros y de traición, ampliadas desde 2012, castigan el contacto con organizaciones y gobiernos de otros países.",
+      "Las operaciones exteriores no tienen control parlamentario ni judicial conocido."
+    ],
+    oversight: [
+      "El presidente es el único control efectivo de los servicios.",
+      "La Fiscalía General supervisa formalmente la legalidad, pero no tiene acceso a las operaciones secretas.",
+      "No hay comisión parlamentaria con acceso a información clasificada sobre operaciones."
+    ]
+  },
+  rights: [
+    { d: "1991-10", dir: "recorta", area: "Debido proceso", h: "Se disuelve la KGB", x: "Tras el golpe fallido de agosto, la KGB se divide en varias agencias más chicas." },
+    { d: "1993-12", dir: "recorta", area: "Privacidad", h: "Constitución de 1993", x: "Garantiza el secreto de las comunicaciones y exige orden judicial para limitarlo." },
+    { d: "2006-03", dir: "amplia", area: "Debido proceso", h: "Ley contra el terrorismo", x: "Habilita operaciones armadas contra terroristas en el exterior; el mismo año muere envenenado Aleksandr Litvinenko en Londres." },
+    { d: "2012-11", dir: "amplia", area: "Expresión", h: "Agentes extranjeros y traición", x: "Las ONG con fondos externos deben registrarse como agentes extranjeros y se amplía el delito de traición." },
+    { d: "2016-07", dir: "amplia", area: "Comunicaciones", h: "Ley Yarovaya", x: "Obliga a guardar mensajes y llamadas y a entregar al FSB las claves para descifrarlos." },
+    { d: "2019-11", dir: "amplia", area: "Comunicaciones", h: "Ley de internet soberano", x: "Instala equipos de inspección profunda del tráfico en todos los proveedores, la base técnica de la censura actual." },
+    { d: "2022-03", dir: "amplia", area: "Expresión", h: "Leyes de censura de guerra", x: "Castiga con hasta 15 años de prisión la difusión de lo que el Estado considere información falsa sobre las Fuerzas Armadas." },
+    { d: "2025-06", dir: "amplia", area: "Privacidad", h: "Mensajero nacional Max", x: "Una ley crea una plataforma estatal de mensajería; organizaciones de derechos humanos advierten que facilita la vigilancia masiva." },
+    { d: "2026-02", dir: "amplia", area: "Comunicaciones", h: "Cortes por orden del FSB", x: "Putin firma la ley que obliga a los operadores a cortar internet y telefonía a pedido del FSB, incluso a personas puntuales." }
+  ],
+  events: [
+    { d: "1940-08-20", lat: 19.35, lon: -99.16, c: "Mexico", t: "encubierta", ev: 1, h: "Asesinato de Trotsky", x: "Un agente de la NKVD, Ramón Mercader, mata a León Trotsky en Coyoacán por orden de Stalin.", u: "https://en.wikipedia.org/wiki/Assassination_of_Leon_Trotsky", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1945-01-01", lat: 35.88, lon: -106.3, c: "United States of America", t: "humana", ev: 1, h: "Espías en el Proyecto Manhattan", x: "Fuentes soviéticas como Klaus Fuchs pasan secretos de la bomba atómica desde Los Álamos; Fuchs confesó en 1950.", u: "https://en.wikipedia.org/wiki/Atomic_spies", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1979-12-27", lat: 34.46, lon: 69.12, c: "Afghanistan", t: "encubierta", ev: 1, h: "Operación Tormenta-333", x: "Comandos de la KGB y del GRU asaltan el palacio presidencial de Kabul y matan al presidente Hafizullah Amin al iniciar la invasión.", u: "https://en.wikipedia.org/wiki/Operation_Storm-333", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2006-11-01", lat: 51.51, lon: -0.15, c: "United Kingdom", t: "encubierta", ev: 1, h: "Polonio en Londres", x: "Aleksandr Litvinenko, ex agente del FSB, es envenenado con polonio 210. Una investigación británica concluyó que fue una operación del FSB.", u: "https://www.occrp.org/en/news/uk-inquiry-putin-probably-ordered-litvinenkos-murder", st: "OCCRP" },
+    { d: "2014-02-27", lat: 44.95, lon: 34.1, c: "Ukraine", disputed: true, t: "encubierta", ev: 1, h: "Los hombrecitos verdes en Crimea", x: "Tropas sin insignias toman el parlamento y aeropuertos de Crimea. Putin admitió en 2015 que eran militares rusos.", u: "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2014-10-16", lat: 49.08, lon: 17.97, c: "Czechia", t: "sabotaje", ev: 1, h: "Voladura de Vrbětice", x: "Explotan depósitos de municiones y mueren dos personas. La policía checa concluyó en 2024 que lo hicieron miembros del GRU.", u: "https://kyivindependent.com/czech-police-says-russian-agents-behind-deadly-2014-bombing/?s=09", st: "The Kyiv Independent" },
+    { d: "2016-03-19", lat: 38.9, lon: -77.03, c: "United States of America", t: "ciber", ev: 1, h: "Hackeo al Partido Demócrata", x: "Unidades del GRU roban correos de la campaña de Hillary Clinton y los difunden, según la acusación del fiscal especial Robert Mueller.", u: "https://www.justice.gov/archives/opa/pr/grand-jury-indicts-12-russian-intelligence-officers-hacking-offenses-related-2016-election", st: "Departamento de Justicia de EE.UU." },
+    { d: "2017-06-27", lat: 50.45, lon: 30.52, c: "Ukraine", t: "ciber", ev: 1, h: "NotPetya", x: "Un falso ransomware borra datos en Ucrania y se expande por el mundo. Reino Unido y EE.UU. lo atribuyeron al ejército ruso en 2018.", u: "https://www.gov.uk/government/news/foreign-office-minister-condemns-russia-for-notpetya-attacks", st: "Gobierno del Reino Unido" },
+    { d: "2018-03-04", lat: 51.07, lon: -1.79, c: "United Kingdom", t: "encubierta", ev: 1, h: "Novichok en Salisbury", x: "Agentes del GRU envenenan a Serguéi Skripal y a su hija; una mujer muere después. La investigación británica concluyó en 2025 que Putin autorizó la operación.", u: "https://www.aljazeera.com/news/2025/12/4/russias-putin-found-morally-responsible-for-nerve-agent-death-in-uk", st: "Al Jazeera" },
+    { d: "2019-08-23", lat: 52.52, lon: 13.34, c: "Germany", t: "encubierta", ev: 1, h: "Asesinato en el Tiergarten", x: "Vadim Krasikov mata a un ex combatiente checheno en Berlín. Un tribunal alemán dio por probado que actuó por orden del Estado ruso.", u: "https://www.aljazeera.com/news/2021/12/15/german-court-convicts-russian-of-2019-state-contracted-killing", st: "Al Jazeera" },
+    { d: "2020-08-20", lat: 56.48, lon: 84.95, c: "Russia", t: "encubierta", ev: 2, h: "Envenenamiento de Navalni", x: "El opositor Alekséi Navalni cae en coma tras un vuelo desde Tomsk; laboratorios europeos hallan novichok. Periodistas identificaron a un equipo del FSB que lo seguía.", u: "https://en.wikipedia.org/wiki/Poisoning_of_Alexei_Navalny", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2022-12-05", lat: 46.05, lon: 14.5, c: "Slovenia", t: "contra", ev: 1, h: "Los falsos argentinos de Liubliana", x: "Eslovenia detiene a dos agentes ilegales del SVR que vivían como argentinos. Fueron liberados en el canje de Ankara de 2024.", u: "https://en.wikipedia.org/wiki/2024_Ankara_prisoner_exchange", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2024-02-16", lat: 66.8, lon: 65.8, c: "Russia", t: "encubierta", ev: 2, h: "Muerte de Navalni en prisión", x: "Navalni muere en una cárcel del Ártico. Cinco gobiernos europeos afirmaron en 2026 que fue envenenado con epibatidina, una toxina que no existe en Rusia.", u: "https://www.aljazeera.com/news/2026/2/14/russias-alexey-navalny-killed-by-dart-frog-poison-european-nations-allege", st: "Al Jazeera" },
+    { d: "2024-08-01", lat: 39.93, lon: 32.86, c: "Turkey", t: "humana", ev: 1, h: "Canje de Ankara", x: "Rusia recupera a Krasikov y a otros agentes a cambio de presos occidentales y opositores rusos.", u: "https://en.wikipedia.org/wiki/2024_Ankara_prisoner_exchange", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2025-11-17", lat: 51.85, lon: 21.6, c: "Poland", t: "sabotaje", ev: 2, h: "Explosión en la vía a Ucrania", x: "Una explosión daña la línea férrea que lleva ayuda a Ucrania. El gobierno polaco culpó a los servicios rusos.", u: "https://www.opb.org/article/2026/02/18/russia-hybrid-war-alarms-poland-and-nato/", st: "NPR" },
+    { d: "2026-08-05", lat: 51.42, lon: 12.24, c: "Germany", t: "sabotaje", ev: 2, h: "Dron con explosivos en Leipzig", x: "Un dron cargado con explosivos aparece junto a un avión de carga ucraniano; el detonador falló. Alemania responsabilizó a Rusia el 1 de septiembre.", u: "https://www.twz.com/news-features/germany-formally-accuses-russia-of-attempted-drone-strike-on-ukrainian-an-124-cargo-jet", st: "The War Zone" }
+  ],
+  interest: {
+    "Ukraine": 3, "United States of America": 3, "United Kingdom": 3, "Germany": 3, "Poland": 3, "Lithuania": 3, "Latvia": 3, "Estonia": 3, "Moldova": 3, "Georgia": 3, "Belarus": 3,
+    "France": 2, "Finland": 2, "Sweden": 2, "Norway": 2, "Netherlands": 2, "Czechia": 2, "Bulgaria": 2, "Romania": 2, "Serbia": 2, "Turkey": 2, "Kazakhstan": 2, "Armenia": 2, "Azerbaijan": 2,
+    "Syria": 2, "Iran": 2, "China": 2, "North Korea": 2, "Mali": 2, "Central African Rep.": 2, "Libya": 2, "Venezuela": 2, "Cuba": 2,
+    "Israel": 1, "Japan": 1, "Canada": 1, "India": 1, "Brazil": 1, "Argentina": 1, "Nicaragua": 1, "Sudan": 1, "Burkina Faso": 1, "Niger": 1
+  },
+  timeline: [
+    { era: "Soviética", d: "1917", h: "Nace la Cheka", x: "Lenin crea la policía política que da origen a toda la línea de servicios soviéticos." },
+    { era: "", d: "1934–1938", h: "La NKVD y el Gran Terror", x: "La policía secreta ejecuta y deporta a cientos de miles de personas." },
+    { era: "", d: "1954", h: "Se crea la KGB", x: "Reúne espionaje exterior, contrainteligencia y policía política; el GRU sigue aparte como servicio militar." },
+    { era: "Transición", d: "1991", h: "Fin de la KGB", x: "Su jefe participa en el golpe fallido de agosto y el organismo se divide." },
+    { era: "", d: "1995", h: "Nace el FSB", x: "La contrainteligencia toma su forma actual; Putin lo dirige en 1998 y 1999." },
+    { era: "Putin", d: "1999", h: "Bombas en edificios y la guerra de Chechenia", x: "Los atentados abren la segunda guerra chechena; el episodio de Riazán alimenta sospechas sobre el FSB." },
+    { era: "", d: "2006", h: "Litvinenko", x: "Primer asesinato con material radiactivo en suelo europeo, atribuido al FSB por una investigación británica." },
+    { era: "", d: "2014", h: "Crimea y el Donbás", x: "Operaciones encubiertas acompañan la anexión de Crimea; el GRU vuela depósitos en Chequia." },
+    { era: "", d: "2016–2018", h: "Elecciones y Salisbury", x: "Hackeo a la campaña de Clinton, NotPetya y el ataque con novichok contra Skripal." },
+    { era: "Guerra", d: "2022", h: "Invasión de Ucrania", x: "Falla la apuesta del FSB a una caída rápida de Kiev; Europa expulsa a cientos de diplomáticos rusos." },
+    { era: "", d: "2024", h: "Crocus, Navalni y el canje", x: "Un atentado del Estado Islámico mata a unas 145 personas en Moscú pese a la advertencia de EE.UU.; Navalni muere preso; Rusia recupera agentes en Ankara." },
+    { era: "", d: "2026", h: "Cortes del FSB y sabotaje en Leipzig", x: "Ley de cortes de comunicaciones, nuevo estado mayor de la Guardia Nacional y un dron con explosivos en Alemania.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2006", h: "Asesinato de Aleksandr Litvinenko", x: "El ex agente murió en Londres tras tomar té con polonio 210. La investigación pública británica concluyó que dos rusos lo envenenaron en una operación del FSB, probablemente aprobada por Pátrushev y por Putin. Rusia lo niega.", who: "Investigación pública del Reino Unido (juez Robert Owen, 2016)", missing: "", u: "https://www.occrp.org/en/news/uk-inquiry-putin-probably-ordered-litvinenkos-murder", st: "OCCRP" },
+    { ev: 1, ilegal: true, d: "2018", h: "El ataque a Skripal y la muerte de Dawn Sturgess", x: "Dos agentes del GRU untaron novichok en la puerta de Serguéi Skripal en Salisbury. Una mujer murió meses después al usar el frasco descartado. La investigación británica concluyó en 2025 que Putin autorizó la operación.", who: "Investigación pública del Reino Unido (Lord Anthony Hughes, 2025)", missing: "", u: "https://www.aljazeera.com/news/2025/12/4/russias-putin-found-morally-responsible-for-nerve-agent-death-in-uk", st: "Al Jazeera" },
+    { ev: 1, ilegal: true, d: "2019", h: "El asesinato del Tiergarten", x: "Vadim Krasikov mató a Zelimján Jangoshvili en un parque de Berlín. El tribunal lo condenó a perpetua y dijo que órganos del Estado ruso ordenaron el crimen. Rusia lo recuperó en el canje de 2024.", who: "Tribunal Superior de Berlín (diciembre de 2021)", missing: "", u: "https://www.aljazeera.com/news/2021/12/15/german-court-convicts-russian-of-2019-state-contracted-killing", st: "Al Jazeera" },
+    { ev: 1, ilegal: true, d: "2014", h: "Las explosiones de Vrbětice", x: "Dos depósitos de municiones checos volaron en 2014 y murieron dos trabajadores. Chequia culpó al GRU en 2021 y expulsó a 18 diplomáticos; la policía cerró la causa en 2024 con la misma conclusión.", who: "Gobierno y policía de Chequia", missing: "", u: "https://kyivindependent.com/czech-police-says-russian-agents-behind-deadly-2014-bombing/?s=09", st: "The Kyiv Independent" },
+    { ev: 2, ilegal: true, d: "2016", h: "Interferencia en la elección de EE.UU.", x: "El fiscal especial Robert Mueller acusó a doce oficiales del GRU de robar y difundir correos del Partido Demócrata. El Kremlin niega haber interferido.", who: "Departamento de Justicia de EE.UU. y Comité de Inteligencia del Senado", missing: "Un juicio: los acusados están en Rusia y nunca comparecieron.", u: "https://www.justice.gov/archives/opa/pr/grand-jury-indicts-12-russian-intelligence-officers-hacking-offenses-related-2016-election", st: "Departamento de Justicia de EE.UU." },
+    { ev: 2, ilegal: true, d: "2024", h: "La muerte de Navalni", x: "Rusia sostiene que Navalni murió por causas naturales en prisión. En febrero de 2026, Reino Unido, Francia, Alemania, Suecia y Países Bajos afirmaron que muestras de su cuerpo tenían epibatidina, una toxina letal.", who: "Cinco gobiernos europeos y la viuda, Yulia Navalnaya", missing: "Una investigación independiente que establezca quién administró la toxina.", u: "https://www.aljazeera.com/news/2026/2/14/russias-alexey-navalny-killed-by-dart-frog-poison-european-nations-allege", st: "Al Jazeera" },
+    { ev: 2, ilegal: true, d: "2022–2026", h: "La campaña de sabotaje en Europa", x: "Incendios, ataques a vías férreas y paquetes incendiarios en varios países, con agentes reclutados por dinero en redes sociales. Un relevamiento contó 151 incidentes y Polonia fue el país más afectado. El Kremlin niega cualquier vínculo.", who: "Gobiernos de Polonia, Alemania y Reino Unido; ICCT y GLOBSEC", missing: "Más condenas judiciales que prueben la cadena de mando hasta los servicios.", u: "https://notesfrompoland.com/?p=89791", st: "Notes from Poland" },
+    { ev: 1, ilegal: false, d: "2016–2026", h: "Vigilancia de comunicaciones a escala nacional", x: "Las leyes obligan a guardar las comunicaciones, conectar equipos de escucha y cortar el servicio a pedido del FSB. El Estado impulsa además el mensajero Max, que viene instalado en todos los teléfonos nuevos.", who: "Textos de las leyes y organizaciones de derechos digitales", missing: "", u: "https://en.zona.media/article/2026/04/07/russian_internet_censorship_2026", st: "Mediazona" },
+    { ev: 3, ilegal: true, d: "1999", h: "Las bombas en los edificios de 1999", x: "Cuatro atentados mataron a unas 300 personas y abrieron la segunda guerra de Chechenia. En Riazán, vecinos descubrieron bolsas con un detonador puestas por agentes del FSB, que después habló de un simulacro con azúcar. Varios de quienes investigaron el caso fueron asesinados o presos.", who: "Periodistas (David Satter), el abogado Mijaíl Trepashkin y diputados de la Duma", missing: "Documentos o testigos directos que prueben una orden del FSB para los atentados.", u: "https://www.rferl.org/amp/who-blew-up-moscow-apartment-buildings-1999/31033208.html", st: "Radio Free Europe" },
+    { ev: 3, ilegal: true, d: "2023", h: "La caída del avión de Prigozhin", x: "Yevgueni Prigozhin, jefe de Wagner, murió con su plana mayor cuando su avión cayó dos meses después de su rebelión. Funcionarios de EE.UU. dijeron que fue una explosión intencional; el Kremlin niega haber participado.", who: "Funcionarios de inteligencia de EE.UU. citados por la prensa", missing: "Una investigación independiente de los restos y de quién colocó el explosivo.", u: "https://en.wikipedia.org/wiki/2023_Wagner_Group_plane_crash", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 4, ilegal: false, d: "1963", h: "Oswald, agente de la KGB", x: "Circula la idea de que la KGB ordenó el asesinato de John F. Kennedy a través de Lee Harvey Oswald, que vivió en la Unión Soviética.", who: "Autores de teorías sobre el asesinato de Kennedy", missing: "Cualquier documento de la KGB o de la CIA que lo muestre.", debunk: "Nace de los años que Oswald pasó en Minsk. Los archivos desclasificados de EE.UU. muestran que la KGB lo vigiló y lo consideró inestable, no que lo reclutara.", u: "https://www.archives.gov/research/jfk", st: "Archivos Nacionales de EE.UU." }
+  ],
+  failures: [
+    { k: "falla", d: "1941-06-22", ev: 1, w: 3, h: "La invasión alemana", x: "Stalin descartó avisos de sus propios espías, como Richard Sorge, y de los británicos sobre el ataque de Hitler.", why: "No está en duda: los archivos soviéticos muestran los avisos y las anotaciones despectivas de Stalin.", wx: "Archivos abiertos desde los años noventa y abundante historiografía.", who: "Historiadores rusos y occidentales", u: "https://en.wikipedia.org/wiki/Operation_Barbarossa", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falla", d: "2004-09-01", ev: 1, w: 3, h: "La escuela de Beslán", x: "Un comando checheno toma una escuela con más de mil rehenes; mueren más de 330 personas, la mitad niños. La toma y el asalto expusieron fallas de prevención y de rescate.", why: "No está en duda la falla; se discute cuánto pesó el asalto de las fuerzas rusas en la cifra de muertes. El Tribunal Europeo de Derechos Humanos condenó a Rusia en 2017.", wx: "Sentencia europea y comisión parlamentaria rusa.", who: "Tribunal Europeo de Derechos Humanos", u: "https://en.wikipedia.org/wiki/Beslan_school_siege", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falla", d: "2022-02-24", ev: 2, w: 2, h: "La caída rápida de Kiev", x: "El FSB informó que el gobierno ucraniano caería en días y que parte de la población recibiría a las tropas rusas. Ninguna de las dos cosas pasó.", why: "La falla es clara; lo que se discute es si el FSB informó mal o si dijo lo que el Kremlin quería oír.", wx: "Se apoya en documentos capturados y fuentes citadas por el centro británico RUSI.", who: "Royal United Services Institute (RUSI)", u: "https://rusi.org/explore-our-research/publications/special-resources/preliminary-lessons-conventional-warfighting-russias-invasion-ukraine-february-july-2022", st: "RUSI" },
+    { k: "falla", d: "2024-03-22", ev: 1, w: 3, h: "Atentado en Crocus City Hall", x: "Hombres armados del Estado Islámico matan a unas 145 personas en un concierto cerca de Moscú. Dos semanas antes, EE.UU. había advertido a Rusia de un ataque.", why: "No está en duda: los jefes del SVR y del FSB admitieron que recibieron la advertencia, aunque la llamaron demasiado general.", wx: "Declaraciones de Naryshkin y Bórtnikov y de funcionarios de EE.UU.", who: "Gobiernos de EE.UU. y de Rusia", u: "https://meduza.io/en/feature/2026/11/02/from-st-petersburg-to-crocus-city-hall-how-u-s-warnings-of-terrorist-attacks-in-russia-have-played-out", st: "Meduza" },
+    { k: "falsa", d: "1939-11-26", ev: 2, w: 2, h: "Los disparos de Mainila", x: "La Unión Soviética denunció que Finlandia bombardeó una aldea rusa y usó el incidente para invadirla cuatro días después.", why: "La mayoría de los historiadores, incluidos rusos, sostiene que el ataque lo hizo la propia NKVD o el Ejército Rojo.", wx: "Hay documentos y análisis de artillería, pero no una orden escrita.", who: "Historiadores finlandeses y rusos", u: "https://en.wikipedia.org/wiki/Shelling_of_Mainila", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "1943-04-13", ev: 1, w: 3, h: "Katyn atribuida a los nazis", x: "La NKVD fusiló a unos 22.000 polacos en 1940 y la propaganda soviética culpó a Alemania durante medio siglo.", why: "No está en duda: Moscú admitió la autoría en 1990 y entregó documentos.", wx: "Reconocimiento oficial soviético y archivos publicados.", who: "Gobierno soviético (1990) y gobierno ruso", u: "https://en.wikipedia.org/wiki/Katyn_massacre", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "1999-09-22", ev: 3, w: 2, h: "El simulacro de Riazán", x: "Policías locales hallaron bolsas con detonador en el sótano de un edificio y detuvieron a agentes del FSB. El FSB dijo después que era un simulacro y que las bolsas tenían azúcar.", why: "En duda: la policía y el FSB local identificaron explosivo, pero no hay prueba de que fuera parte de los atentados de ese mes.", wx: "Testimonios y documentos de la época; las pruebas físicas quedaron en manos del FSB.", who: "Periodistas, ex agentes y diputados que investigaron el caso", u: "https://www.rferl.org/amp/who-blew-up-moscow-apartment-buildings-1999/31033208.html", st: "Radio Free Europe" },
+    { k: "falsa", d: "2014-02-27", ev: 1, w: 3, h: "Los hombrecitos verdes", x: "Soldados sin insignias toman Crimea y Moscú los presenta como milicias locales de autodefensa.", why: "No está en duda: Putin reconoció en 2015 que eran militares rusos.", wx: "Reconocimiento del propio presidente ruso.", who: "Vladímir Putin (documental de 2015)", u: "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "2018-02-09", ev: 2, w: 3, h: "Olympic Destroyer", x: "Un ciberataque sabotea la inauguración de los Juegos de Invierno en Corea del Sur y deja pistas falsas que apuntaban a Corea del Norte.", why: "Reino Unido atribuyó el ataque al GRU y EE.UU. acusó a seis oficiales en 2020; Rusia lo niega.", wx: "Análisis de empresas de ciberseguridad y acusación judicial de EE.UU.", who: "Gobiernos de Reino Unido y EE.UU.", u: "https://en.wikipedia.org/wiki/Olympic_Destroyer", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "2024-03-22", ev: 4, w: 3, h: "Crocus fue obra del FSB", x: "Circula la versión de que el FSB organizó el atentado de Crocus para justificar más represión o una nueva movilización.", why: "Teoría sin sustento: el Estado Islámico reivindicó el ataque con videos de los autores y EE.UU. lo había anticipado. Prendió por los antecedentes de Riazán y por la falla de prevención.", wx: "Reivindicación, videos y advertencia previa de EE.UU.; ninguna prueba de participación del FSB.", who: "Rumores en redes sociales", u: "https://www.voanews.com/a/fact-check-us-officials-dispute-kremlin-claims-that-crocus-attack-intel-was-very-vague/7557170.html", st: "Voice of America" }
+  ],
+  modus: {
+    embajadas: "El SVR y el GRU tienen residencias dentro de las embajadas, con oficiales que figuran como diplomáticos, agregados militares o periodistas de agencias estatales. Las expulsiones de cientos de diplomáticos rusos en Europa desde 2022 recortaron mucho esa red.",
+    campo: "Rusia es el país que más usa agentes ilegales: oficiales que viven años con identidades falsas, a veces como argentinos o brasileños, sin vínculo visible con la embajada. Desde 2022 el GRU y el FSB contratan a delincuentes y personas sin entrenamiento por Telegram para sabotajes en Europa, pagados en criptomonedas.",
+    oficina: "Las sedes de Yasenevo (SVR), Jodinka (GRU) y Lubianka (FSB) concentran análisis y conducción. Los informes van directo a Putin, que según varios analistas recibe lo que espera oír, como pasó antes de la invasión de 2022.",
+    reclutamiento: "Busca fuentes por dinero, por presión con material comprometedor (kompromat) y por afinidad ideológica. Usa la diáspora rusa y presiona a familiares que siguen en Rusia.",
+    tecnica: "Interceptación propia del FSB y del GRU, unidades de ciberataque del GRU y del SVR y el sistema SORM conectado a todas las redes del país. Las operaciones de influencia se tercerizan en agencias de relaciones públicas.",
+    enlaces: "Coopera con servicios de Bielorrusia, Asia Central, Irán y Corea del Norte. Usó a Wagner y a otras empresas como pantalla en África y Medio Oriente, y mantiene un canal con la CIA para temas puntuales."
+  },
+  insiders: [
+    { k: "topo", dir: "sale", ev: 1, d: "1961", n: "Oleg Penkovski", h: "El coronel del GRU de la crisis de los misiles", x: "Pasa a británicos y estadounidenses datos sobre los misiles soviéticos que ayudaron a identificarlos en Cuba.", cargo: "GRU", hacia: "MI6 y CIA", fin: "Detenido en 1962 y ejecutado en 1963.", who: "Juicio soviético y archivos de la CIA", u: "https://en.wikipedia.org/wiki/Oleg_Penkovsky", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "sale", ev: 1, d: "1974", n: "Oleg Gordievski", h: "El jefe de la KGB en Londres que trabajaba para el MI6", x: "Informa durante once años sobre la KGB y sobre el temor soviético a un ataque nuclear en 1983.", cargo: "KGB", hacia: "MI6", fin: "Descubierto, fue sacado de la URSS en el baúl de un auto en 1985; murió en Inglaterra en 2025.", who: "Gobierno británico y memorias del propio agente", u: "https://en.wikipedia.org/wiki/Oleg_Gordievsky", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desertor", dir: "sale", ev: 1, d: "1992", n: "Vasili Mitrojin", h: "El archivo copiado a mano", x: "Un archivista de la KGB copia en secreto durante años miles de expedientes y se los lleva a Londres.", cargo: "Archivo de la Primera Dirección de la KGB", hacia: "MI6", fin: "Vivió protegido en el Reino Unido hasta su muerte en 2004; su archivo está abierto en Cambridge.", who: "Gobierno británico", u: "https://en.wikipedia.org/wiki/Vasili_Mitrokhin", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "denunciante", dir: "sale", ev: 1, d: "1998", n: "Aleksandr Litvinenko", h: "La conferencia contra el FSB", x: "Junto a otros oficiales denuncia en público que sus jefes le ordenaron matar al empresario Borís Berezovski.", cargo: "FSB", hacia: "La prensa y luego el MI6", fin: "Preso y luego exiliado en Londres, murió envenenado con polonio en 2006.", who: "Investigación pública del Reino Unido", u: "https://www.occrp.org/en/news/uk-inquiry-putin-probably-ordered-litvinenkos-murder", st: "OCCRP" },
+    { k: "topo", dir: "sale", ev: 1, d: "1995", n: "Serguéi Skripal", h: "El coronel del GRU reclutado por los británicos", x: "Vende al MI6 nombres de agentes rusos en Europa durante casi una década.", cargo: "GRU", hacia: "MI6", fin: "Condenado en Rusia en 2006, canjeado en 2010 y envenenado en Salisbury en 2018.", who: "Tribunal ruso e investigación británica", u: "https://www.aljazeera.com/news/2025/12/4/russias-putin-found-morally-responsible-for-nerve-agent-death-in-uk", st: "Al Jazeera" },
+    { k: "desertor", dir: "sale", ev: 2, d: "2010", n: "Aleksandr Potéyev", h: "El que entregó a los ilegales", x: "Un coronel del SVR deja Rusia días antes de que el FBI detenga a diez agentes ilegales rusos en EE.UU.", cargo: "SVR", hacia: "EE.UU.", fin: "Condenado en ausencia por traición en Rusia en 2011.", who: "Tribunal militar ruso y prensa de ambos países", u: "https://en.wikipedia.org/wiki/Illegals_Program", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "entra", ev: 1, d: "1934", n: "Kim Philby", h: "El agente soviético dentro del MI6", x: "Reclutado en Cambridge, llega a ser enlace del MI6 con la CIA y pasa todo a Moscú.", cargo: "MI6", hacia: "NKVD y KGB", fin: "Huye a Moscú en 1963 y muere allí en 1988.", who: "Gobierno británico y el propio Philby", u: "https://en.wikipedia.org/wiki/Kim_Philby", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "entra", ev: 1, d: "1985", n: "Aldrich Ames", h: "La fuente más dañina para la CIA", x: "Un oficial de la CIA entrega a la KGB la lista de sus agentes soviéticos.", cargo: "CIA", hacia: "KGB y luego SVR", fin: "Detenido en 1994, cumple prisión perpetua en EE.UU.", who: "FBI y tribunal federal", u: "https://www.fbi.gov/history/famous-cases/aldrich-ames", st: "FBI" }
+  ],
+  leaks: [
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "1979-04", h: "El ántrax de Sverdlovsk", x: "Una fuga de esporas de una planta militar mata a decenas de personas. La KGB atribuyó las muertes a carne contaminada.", aquien: "Al público y a la comunidad internacional", como: "Borís Yeltsin admitió en 1992 que fue un accidente del programa de armas biológicas.", obj: "Ocultar un programa que violaba la convención sobre armas biológicas.", who: "Gobierno ruso (1992) e investigadores occidentales", u: "https://en.wikipedia.org/wiki/1979_Sverdlovsk_anthrax_leak", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desinfo", rol: "autor", ev: 1, d: "1983", h: "Operación INFEKTION", x: "La KGB difunde por el mundo la idea de que EE.UU. creó el virus del sida en un laboratorio militar.", obj: "Dañar la imagen de EE.UU., sobre todo en África y Asia.", who: "El jefe del SVR, Yevgueni Primakov, lo reconoció en 1992", u: "https://en.wikipedia.org/wiki/Operation_INFEKTION", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desinfo", rol: "autor", ev: 1, d: "2016", h: "La fábrica de trolls", x: "La Agencia de Investigación de Internet crea miles de cuentas falsas que se hacen pasar por estadounidenses durante la campaña electoral.", obj: "Polarizar el debate y favorecer a un candidato, según la acusación.", who: "Fiscal especial Robert Mueller y Comité de Inteligencia del Senado", u: "https://en.wikipedia.org/wiki/Internet_Research_Agency", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "filtracion", rol: "autor", ev: 2, d: "2017-05", h: "Macron Leaks", x: "A horas del balotaje se publican correos robados de la campaña de Emmanuel Macron mezclados con documentos falsos.", obj: "Dañar al candidato en el cierre de campaña.", who: "Acusación de EE.UU. de 2020 contra oficiales del GRU", u: "https://en.wikipedia.org/wiki/2017_Macron_e-mail_leaks", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "accidental", rol: "blanco", ev: 1, d: "2018-09", h: "Los espías de Salisbury, identificados", x: "Bases de datos rusas que se venden en el mercado negro permiten a periodistas identificar a los agentes del GRU que viajaron a Salisbury.", obj: "Ninguno: filtraciones de registros oficiales mal protegidos.", who: "Bellingcat y The Insider", u: "https://www.bellingcat.com/news/uk-and-europe/2018/09/26/skripal-suspect-boshirov-identified-ghru-colonel-anatoliy-chepiga/", st: "Bellingcat" },
+    { k: "robo", rol: "autor", ev: 2, d: "2020", h: "SolarWinds", x: "Una actualización infectada de un programa de gestión de redes abre la puerta a agencias del gobierno de EE.UU. y a miles de empresas.", obj: "Espionaje de largo plazo sobre el gobierno estadounidense.", who: "Gobierno de EE.UU., que lo atribuyó al SVR en 2021", u: "https://en.wikipedia.org/wiki/2020_United_States_federal_government_data_breach", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "filtracion", rol: "blanco", ev: 1, d: "2023-03", h: "Los archivos Vulkan", x: "Un empleado anónimo entrega a periodistas documentos de una contratista que desarrolla herramientas de ciberataque para los servicios rusos.", obj: "Exponer la colaboración de la empresa con el FSB y el GRU, según la fuente.", who: "Consorcio de medios internacionales", u: "https://en.wikipedia.org/wiki/Vulkan_files", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desinfo", rol: "autor", ev: 1, d: "2022–2024", h: "Doppelgänger", x: "Sitios que imitan a medios como Der Spiegel, Le Monde y The Washington Post publican notas falsas contra Ucrania.", obj: "Restar apoyo a Ucrania e influir en elecciones europeas y de EE.UU.", who: "Departamento de Justicia de EE.UU., que incautó 32 dominios en 2024", u: "https://thehackernews.com/2024/09/us-seizes-32-pro-russian-propaganda.html", st: "The Hacker News" }
+  ],
+  companies: [
+    { n: "VK", c: "nacional", rubro: "Plataformas digitales", rel: "Herramienta del Estado", x: "Desarrolla Max, el mensajero nacional obligatorio en teléfonos nuevos desde septiembre de 2025; especialistas creen que el FSB puede acceder a sus datos." },
+    { n: "Operadores de telecomunicaciones", c: "nacional", rubro: "Telecomunicaciones", rel: "Obligación legal", x: "Deben instalar equipos SORM, guardar comunicaciones y cortar el servicio a pedido del FSB." },
+    { n: "Kaspersky", c: "nacional", rubro: "Ciberseguridad", rel: "Denuncias de cercanía", x: "EE.UU. prohibió su software en 2024 por el riesgo de que el gobierno ruso acceda a datos; la empresa niega cualquier vínculo con los servicios." },
+    { n: "Positive Technologies", c: "nacional", rubro: "Ciberseguridad", rel: "Proveedor (según EE.UU.)", x: "El Tesoro de EE.UU. la sancionó en 2021 por apoyar operaciones del FSB y el GRU; la empresa lo niega." },
+    { n: "Wagner y Africa Corps", c: "nacional", rubro: "Militar privado", rel: "Brazo operativo", x: "Wagner sirvió de pantalla para operaciones en Siria y África; tras la muerte de Prigozhin, sus redes pasaron al control del Estado." }
+  ],
+  struggles: [
+    { a: "FSB", b: "GRU", k: "Entre agencias", stake: "Recursos y operaciones en Europa", state: "Abierta", x: "Ambos reclutan sabotajeadores en Europa y compiten por fondos; analistas advierten duplicación y fricción." },
+    { a: "Wagner", b: "Ministerio de Defensa", k: "Con las fuerzas armadas", stake: "Control del frente y de los recursos", state: "Cerrada", x: "Prigozhin marchó sobre Moscú en junio de 2023 sin que los servicios lo frenaran a tiempo; murió dos meses después." },
+    { a: "Serguéi Shoigú", b: "Nikolái Pátrushev", k: "Interna del gobierno", stake: "Influencia en el Consejo de Seguridad", state: "Abierta", x: "Tras el cambio de 2024, Pátrushev se negó a ceder su despacho del Kremlin a Shoigú, según el medio independiente Agentstvo." },
+    { a: "Guardia Nacional", b: "Ministerio de Defensa", k: "Con las fuerzas armadas", stake: "Fuerza armada leal al presidente", state: "Abierta", x: "El estado mayor propio creado en 2026 refuerza a la Guardia como fuerza paralela fuera del Ministerio de Defensa." },
+    { a: "Cúpula del FSB", b: "Sucesores de Bórtnikov", k: "Interna", stake: "La conducción del servicio", state: "Abierta", x: "La prensa independiente menciona al primer subdirector Serguéi Koroliov y a jefes de contrainteligencia como candidatos." },
+    { a: "Estado", b: "Usuarios de internet", k: "Con la sociedad civil", stake: "Acceso libre a la información", state: "Abierta", x: "Cortes de internet móvil, bloqueo de VPN y restricciones a Telegram empujan a la población hacia Max." }
+  ],
+  sources: [
+    { t: "CEPA: los jefes del FSB, el GRU y el SVR en 2026", u: "https://cepa.org/article/russias-paranoid-despot-and-his-secret-police/" },
+    { t: "Meduza: el FSB prepara un cambio de conducción", u: "https://meduza.io/en/news/2026/09/14/russia-s-dominant-security-agency-the-fsb-is-reportedly-preparing-for-a-leadership-shake-up-and-major-overhaul-as-early-as-october" },
+    { t: "Congreso de EE.UU. (CRS): servicios de inteligencia de Rusia", u: "https://www.congress.gov/crs_external_products/IF/PDF/IF12865/IF12865.2.pdf" },
+    { t: "Novaya Gazeta Europe: casi 40 % del presupuesto para defensa y policía", u: "https://novayagazeta.eu/en/articles/2025/09/30/nearly-40-of-russian-budget-earmarked-for-military-and-police-from-next-year-en-news" },
+    { t: "The Moscow Times: Putin amplía el papel de la Guardia Nacional", u: "https://www.themoscowtimes.com/2026/02/12/putin-expands-rosgvardias-role-a91934" },
+    { t: "The Kyiv Independent: ley que permite al FSB ordenar cortes de internet", u: "https://kyivindependent.com/putin-signs-law-enabling-fsb-to-order-individual-internet-and-mobile-disconnections-cites-security-concerns/" },
+    { t: "Mediazona: la censura de internet en Rusia en 2026", u: "https://en.zona.media/article/2026/04/07/russian_internet_censorship_2026" },
+    { t: "Notes from Poland: el informe del ICCT sobre sabotaje ruso", u: "https://notesfrompoland.com/?p=89791" },
+    { t: "The Moscow Times: los planes europeos contra el sabotaje", u: "https://www.themoscowtimes.com/2026/08/06/europes-anti-russian-sabotage-plans-miss-the-real-problem" },
+    { t: "The War Zone: Alemania culpa a Rusia por el dron de Leipzig", u: "https://www.twz.com/news-features/germany-formally-accuses-russia-of-attempted-drone-strike-on-ukrainian-an-124-cargo-jet" },
+    { t: "TRT World: Naryshkin confirma su reunión con el director de la CIA", u: "https://trtworld.com/article/b1baf05468ef" },
+    { t: "Departamento de Justicia de EE.UU.: acusación a doce oficiales del GRU", u: "https://www.justice.gov/archives/opa/pr/grand-jury-indicts-12-russian-intelligence-officers-hacking-offenses-related-2016-election" },
+    { t: "Gobierno del Reino Unido: atribución de NotPetya", u: "https://www.gov.uk/government/news/foreign-office-minister-condemns-russia-for-notpetya-attacks" },
+    { t: "Al Jazeera: la investigación sobre Dawn Sturgess", u: "https://www.aljazeera.com/news/2025/12/4/russias-putin-found-morally-responsible-for-nerve-agent-death-in-uk" },
+    { t: "Al Jazeera: cinco gobiernos europeos sobre la muerte de Navalni", u: "https://www.aljazeera.com/news/2026/2/14/russias-alexey-navalny-killed-by-dart-frog-poison-european-nations-allege" },
+    { t: "The Moscow Times: Shoigú y Pátrushev en el Consejo de Seguridad", u: "https://www.themoscowtimes.com/2024/10/14/shoigu-grows-increasingly-vulnerable-as-putins-favor-wanes-a86653/pdf" }
   ]
- },
- "rights": [
-  {
-   "d": "1952",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1958",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1968",
-   "dir": "recorta",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1977",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1983",
-   "dir": "recorta",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1995",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2001",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2009",
-   "dir": "amplia",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2018",
-   "dir": "amplia",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  }
- ],
- "events": [
-  {
-   "d": "1962-09-22",
-   "lat": 25.24,
-   "lon": 4.25,
-   "t": "encubierta",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1967-05-27",
-   "lat": -26.58,
-   "lon": 141.38,
-   "t": "senales",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1972-07-08",
-   "lat": 57.22,
-   "lon": 36.78,
-   "t": "ciber",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1976-02-06",
-   "lat": -17.35,
-   "lon": 132.13,
-   "t": "humana",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1979-10-16",
-   "lat": 56.12,
-   "lon": -60.15,
-   "t": "sabotaje",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1985-08-23",
-   "lat": -36.18,
-   "lon": 123.08,
-   "t": "senales",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1990-04-11",
-   "lat": -34.48,
-   "lon": -87.93,
-   "t": "ciber",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1993-06-26",
-   "lat": 54.66,
-   "lon": 39.31,
-   "t": "senales",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1998-06-02",
-   "lat": -21.17,
-   "lon": -81.34,
-   "t": "encubierta",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2003-06-19",
-   "lat": 15.75,
-   "lon": 49.8,
-   "t": "contra",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2006-09-21",
-   "lat": 52.14,
-   "lon": 43.59,
-   "t": "humana",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2011-04-19",
-   "lat": -5.42,
-   "lon": 107.23,
-   "t": "sabotaje",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2018-12-11",
-   "lat": 56.59,
-   "lon": 34.79,
-   "t": "encubierta",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2020-07-23",
-   "lat": 56.86,
-   "lon": 43.45,
-   "t": "encubierta",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  }
- ],
- "interest": {
-  "Iraq": 2,
-  "Afghanistan": 2,
-  "Brazil": 2,
-  "Argentina": 1,
-  "Japan": 3,
-  "North Korea": 3,
-  "Mali": 2,
-  "Nigeria": 1,
-  "Belarus": 1,
-  "Serbia": 1,
-  "Indonesia": 3,
-  "Philippines": 1,
-  "Vietnam": 1,
-  "Colombia": 2,
-  "Ethiopia": 1,
-  "Somalia": 1
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "2016",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1969",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2014",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "2011",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1990",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "2017",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };

@@ -93,6 +93,20 @@ for (const p of ctx.PAISES) {
       { k: "falsa", ev: 3, w: 1, d: "19XX", h: "Falsa bandera de prueba", x: P, why: P + " Por qué está en duda.", wx: "", who: "Un ex agente" },
       { k: "falsa", ev: 4, w: 1, d: "20XX", h: "Teoría de prueba", x: P, why: P + " Qué la desmiente.", wx: "", who: "Redes sociales" }
     ],
+    modus: { embajadas: P, campo: P, oficina: P, reclutamiento: P, tecnica: P, enlaces: P },
+    insiders: [
+      { k: "denunciante", dir: "sale", ev: 1, d: "20XX", n: "Persona de prueba", h: "Denuncia de prueba", x: P, cargo: "Organismo de prueba", hacia: "Un medio", fin: P, who: "Un tribunal" },
+      { k: "topo", dir: "sale", ev: 1, d: "19XX", n: "Persona de prueba", h: "Topo de prueba", x: P, cargo: "Organismo de prueba", hacia: "Un servicio extranjero", fin: P, who: "Un tribunal" },
+      { k: "topo", dir: "entra", ev: 2, d: "20XX", n: "Persona de prueba", h: "Fuente reclutada de prueba", x: P, cargo: "Servicio extranjero", hacia: "Este país", fin: P, who: "Prensa especializada" },
+      { k: "desertor", dir: "sale", ev: 1, d: "19XX", n: "Persona de prueba", h: "Deserción de prueba", x: P, cargo: "Organismo de prueba", hacia: "Otro país", fin: P, who: "Un gobierno extranjero" }
+    ],
+    leaks: [
+      { k: "filtracion", rol: "blanco", ev: 1, d: "20XX", h: "Filtración de prueba", x: P, obj: P, who: "Una investigación periodística" },
+      { k: "accidental", rol: "blanco", ev: 2, d: "20XX", h: "Filtración no intencional de prueba", x: P, obj: P, who: "Prensa especializada" },
+      { k: "robo", rol: "autor", ev: 2, d: "20XX", h: "Robo de prueba", x: P, obj: P, who: "Un gobierno extranjero" },
+      { k: "ocultamiento", rol: "autor", ev: 1, d: "19XX", h: "Ocultamiento de prueba", x: P, aquien: "Al Congreso", como: P, who: "Una comisión parlamentaria" },
+      { k: "desinfo", rol: "autor", ev: 3, d: "20XX", h: "Desinformación de prueba", x: P, obj: P, who: "Un ex agente" }
+    ],
     companies: [
       { n: "Empresa nacional de prueba", c: "nacional", rubro: "Defensa", rel: "Contratista", x: P },
       { n: "Empresa nacional de prueba", c: "nacional", rubro: "Telecomunicaciones", rel: "Cooperación legal", x: P },

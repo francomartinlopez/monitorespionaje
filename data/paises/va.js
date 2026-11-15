@@ -519,6 +519,121 @@
    "who": "Redes sociales"
   }
  ],
+ "modus": {
+  "embajadas": "Texto de prueba.",
+  "campo": "Texto de prueba.",
+  "oficina": "Texto de prueba.",
+  "reclutamiento": "Texto de prueba.",
+  "tecnica": "Texto de prueba.",
+  "enlaces": "Texto de prueba."
+ },
+ "insiders": [
+  {
+   "k": "denunciante",
+   "dir": "sale",
+   "ev": 1,
+   "d": "20XX",
+   "n": "Persona de prueba",
+   "h": "Denuncia de prueba",
+   "x": "Texto de prueba.",
+   "cargo": "Organismo de prueba",
+   "hacia": "Un medio",
+   "fin": "Texto de prueba.",
+   "who": "Un tribunal"
+  },
+  {
+   "k": "topo",
+   "dir": "sale",
+   "ev": 1,
+   "d": "19XX",
+   "n": "Persona de prueba",
+   "h": "Topo de prueba",
+   "x": "Texto de prueba.",
+   "cargo": "Organismo de prueba",
+   "hacia": "Un servicio extranjero",
+   "fin": "Texto de prueba.",
+   "who": "Un tribunal"
+  },
+  {
+   "k": "topo",
+   "dir": "entra",
+   "ev": 2,
+   "d": "20XX",
+   "n": "Persona de prueba",
+   "h": "Fuente reclutada de prueba",
+   "x": "Texto de prueba.",
+   "cargo": "Servicio extranjero",
+   "hacia": "Este país",
+   "fin": "Texto de prueba.",
+   "who": "Prensa especializada"
+  },
+  {
+   "k": "desertor",
+   "dir": "sale",
+   "ev": 1,
+   "d": "19XX",
+   "n": "Persona de prueba",
+   "h": "Deserción de prueba",
+   "x": "Texto de prueba.",
+   "cargo": "Organismo de prueba",
+   "hacia": "Otro país",
+   "fin": "Texto de prueba.",
+   "who": "Un gobierno extranjero"
+  }
+ ],
+ "leaks": [
+  {
+   "k": "filtracion",
+   "rol": "blanco",
+   "ev": 1,
+   "d": "20XX",
+   "h": "Filtración de prueba",
+   "x": "Texto de prueba.",
+   "obj": "Texto de prueba.",
+   "who": "Una investigación periodística"
+  },
+  {
+   "k": "accidental",
+   "rol": "blanco",
+   "ev": 2,
+   "d": "20XX",
+   "h": "Filtración no intencional de prueba",
+   "x": "Texto de prueba.",
+   "obj": "Texto de prueba.",
+   "who": "Prensa especializada"
+  },
+  {
+   "k": "robo",
+   "rol": "autor",
+   "ev": 2,
+   "d": "20XX",
+   "h": "Robo de prueba",
+   "x": "Texto de prueba.",
+   "obj": "Texto de prueba.",
+   "who": "Un gobierno extranjero"
+  },
+  {
+   "k": "ocultamiento",
+   "rol": "autor",
+   "ev": 1,
+   "d": "19XX",
+   "h": "Ocultamiento de prueba",
+   "x": "Texto de prueba.",
+   "aquien": "Al Congreso",
+   "como": "Texto de prueba.",
+   "who": "Una comisión parlamentaria"
+  },
+  {
+   "k": "desinfo",
+   "rol": "autor",
+   "ev": 3,
+   "d": "20XX",
+   "h": "Desinformación de prueba",
+   "x": "Texto de prueba.",
+   "obj": "Texto de prueba.",
+   "who": "Un ex agente"
+  }
+ ],
  "companies": [
   {
    "n": "Empresa nacional de prueba",
