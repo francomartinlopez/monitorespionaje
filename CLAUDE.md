@@ -27,6 +27,16 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 - `struggles` [{a, b, k, stake, state, x}]: luchas de poder (internas, entre agencias, con otros poderes, con la política y la economía).
 - `sources` [{t, u}].
 
+## Secciones de Explorar (`data/explorar.js`, interfaz en `js/explorar.js`)
+- `ALIANZAS`: miembros por nombre de país de `data/world.js`. Reales.
+- `INFRA`: instalaciones de vigilancia con tipo, coordenadas `ll` [lon, lat], quién la opera y nivel de evidencia `ev`. `lab: "l"` y `dy` acomodan la etiqueta.
+- `SPYWARE`: proveedores reales; los `flows` hacia clientes son de prueba.
+- `EXPULSIONES`: de prueba (generadas). Formato `{y, a, b, n, k: "expulsion"|"canje"}` con ids de país.
+- `ORGS_RED` y `PERSONAS`: red de personas; `w` = para quién trabajaba, `s` = hacia quién pasó información.
+- `ARCHIVO`: `fondos` reales; `docs` de prueba.
+- `CICLO`, `INTS`, `GLOSARIO`: página "Cómo funciona".
+- Rutas: #alianzas, #infraestructura, #software-espia, #expulsiones, #personas, #comparar/<a>/<b>, #cronologia, #archivo, #como-funciona.
+
 ## Reglas editoriales
 - No copiar frases de las fuentes: redactar con palabras propias.
 - Cada caso dice quién lo afirma. No atribuir una operación a un Estado sin una fuente que lo haga.

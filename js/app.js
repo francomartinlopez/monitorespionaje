@@ -1,5 +1,6 @@
 /* Monitor de Espionaje — interfaz. Sin dependencias salvo d3-geo y topojson para los mapas.
    Rutas: #inicio · #p-<id> (ficha de país) · #metodologia */
+window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
 (function () {
   "use strict";
   const META = window.MONITOR_META, PAISES = window.PAISES, FICHAS = window.FICHAS || {};
@@ -57,10 +58,13 @@
   document.getElementById("footEdition").textContent = `Monitor de Espionaje · ${META.edition}`;
   document.getElementById("skeletonBand").hidden = !META.skeleton;
   const menu = document.getElementById("navMenu"), navBtn = document.getElementById("navBtn");
+  const menu2 = document.getElementById("navMenu2"), navBtn2 = document.getElementById("navBtn2");
   menu.innerHTML = [1, 2, 3].map(t => `<h4>${esc(window.TIERS[t].n)}</h4>` + PAISES.filter(p => p.tier === t).map(p => `<a href="#p-${p.id}">${esc(p.name)}<span>${esc(p.agencies.filter(a => a.g !== "j" && a.g !== "k").slice(0, 2).map(a => a.code).join(" · "))}</span></a>`).join("")).join("");
-  navBtn.addEventListener("click", e => { e.stopPropagation(); menu.hidden = !menu.hidden; navBtn.setAttribute("aria-expanded", String(!menu.hidden)); });
-  document.addEventListener("click", e => { if (!menu.hidden && !menu.contains(e.target)) { menu.hidden = true; navBtn.setAttribute("aria-expanded", "false"); } });
-  document.addEventListener("keydown", e => { if (e.key === "Escape" && !menu.hidden) { menu.hidden = true; navBtn.focus(); } });
+  [[navBtn, menu], [navBtn2, menu2]].forEach(([b, m]) => {
+    b.addEventListener("click", e => { e.stopPropagation(); const open = m.hidden; document.querySelectorAll(".navdrop-menu").forEach(x => x.hidden = true); m.hidden = !open; b.setAttribute("aria-expanded", String(open)); });
+    document.addEventListener("click", e => { if (!m.hidden && !m.contains(e.target)) { m.hidden = true; b.setAttribute("aria-expanded", "false"); } });
+    document.addEventListener("keydown", e => { if (e.key === "Escape" && !m.hidden) { m.hidden = true; b.focus(); } });
+  });
 
   // ---------- alertas ----------
   function renderAlerts() {
@@ -84,13 +88,16 @@
     menu.hidden = true;
     const first = current === null;
     document.querySelectorAll(".mainnav > a").forEach(a => a.classList.toggle("on", a.dataset.nav === (h.startsWith("p-") ? "" : h)));
+    document.querySelectorAll(".navdrop-menu").forEach(m => m.hidden = true);
+    const ext = window.ME.ROUTES[h.split("/")[0]];
     if (h.startsWith("p-") && byId[h.slice(2)]) { renderCountry(byId[h.slice(2)]); current = "country"; }
     else if (h === "metodologia") { renderMethod(); current = "method"; }
+    else if (ext) { const r = ext.render(h.split("/").slice(1)); if (typeof r === "function") cleanup = r; current = "ext"; document.title = ext.title + " · Monitor de Espionaje"; }
     else { renderHome(); current = "home"; }
     document.getElementById("alerts").hidden = current !== "home";
     if (current === "home") { scrollTo(0, first ? 0 : homeScroll); return; }
     scrollTo(0, 0);
-    document.title = current === "country" ? `${byId[h.slice(2)].name} · Monitor de Espionaje` : "Metodología · Monitor de Espionaje";
+    if (current !== "ext") document.title = current === "country" ? `${byId[h.slice(2)].name} · Monitor de Espionaje` : "Metodología · Monitor de Espionaje";
   }
   addEventListener("hashchange", route);
 
@@ -110,6 +117,9 @@
         <div class="map-stage" id="homeMap"></div>
         <div class="legend" id="homeLegend"></div>
       </div>
+
+      <div class="section-title"><h2>Explorar</h2><span>Mapas temáticos, personas, comparaciones y archivo</span></div>
+      <div class="explore">${window.ME.EXPLORE.map(e => `<a class="xtile" href="#${e.id}"><span class="k">${esc(e.k)}</span><b>${esc(e.n)}</b><span>${esc(e.x)}</span></a>`).join("")}</div>
 
       <div class="section-title"><h2>Países monitoreados</h2><span>20 países, de las potencias de inteligencia a los especialistas regionales</span></div>
       ${[1, 2, 3].map(t => `<div class="tier-head"><h3>${esc(window.TIERS[t].n)}</h3><span>${esc(window.TIERS[t].x)}</span></div>
@@ -459,6 +469,7 @@
     </div>`;
   }
 
+  Object.assign(window.ME, { esc, fmt, parseD, sampleTag, showTip, moveTip, hideTip, W, H, BASE, path, pt, arc, FEAT, rings, nodeLabel, byId, app, powerSum });
   renderAlerts();
-  route();
+  addEventListener("DOMContentLoaded", route);
 })();

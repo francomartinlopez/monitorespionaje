@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=20261115c">
+<link rel="stylesheet" href="css/styles.css?v=20261115f">
 </head>
 <body>
 <header class="topbar">
@@ -43,6 +43,11 @@
         <button type="button" id="navBtn" aria-expanded="false" aria-controls="navMenu">Países <span aria-hidden="true">▾</span></button>
         <div class="navdrop-menu" id="navMenu" hidden></div>
       </div>
+      <div class="navdrop">
+        <button type="button" id="navBtn2" aria-expanded="false" aria-controls="navMenu2">Explorar <span aria-hidden="true">▾</span></button>
+        <div class="navdrop-menu one" id="navMenu2" hidden></div>
+      </div>
+      <a href="#como-funciona" data-nav="como-funciona">Cómo funciona</a>
       <a href="#metodologia" data-nav="metodologia">Metodología</a>
     </nav>
     <div class="stamp" id="stamp"></div>
@@ -67,30 +72,32 @@
 <script src="vendor/d3-array.min.js"></script>
 <script src="vendor/d3-geo.min.js"></script>
 <script src="vendor/topojson-client.min.js"></script>
-<script src="data/world.js?v=20261115c"></script>
-<script src="data/meta.js?v=20261115c"></script>
-<script src="data/paises.js?v=20261115c"></script>
-<script src="data/relaciones.js?v=20261115c"></script>
-<script src="data/paises/us.js?v=20261115c"></script>
-<script src="data/paises/ru.js?v=20261115c"></script>
-<script src="data/paises/cn.js?v=20261115c"></script>
-<script src="data/paises/uk.js?v=20261115c"></script>
-<script src="data/paises/il.js?v=20261115c"></script>
-<script src="data/paises/fr.js?v=20261115c"></script>
-<script src="data/paises/de.js?v=20261115c"></script>
-<script src="data/paises/ir.js?v=20261115c"></script>
-<script src="data/paises/kp.js?v=20261115c"></script>
-<script src="data/paises/ar.js?v=20261115c"></script>
-<script src="data/paises/va.js?v=20261115c"></script>
-<script src="data/paises/ua.js?v=20261115c"></script>
-<script src="data/paises/tr.js?v=20261115c"></script>
-<script src="data/paises/pk.js?v=20261115c"></script>
-<script src="data/paises/in.js?v=20261115c"></script>
-<script src="data/paises/sa.js?v=20261115c"></script>
-<script src="data/paises/cu.js?v=20261115c"></script>
-<script src="data/paises/ae.js?v=20261115c"></script>
-<script src="data/paises/br.js?v=20261115c"></script>
-<script src="data/paises/kr.js?v=20261115c"></script>
-<script src="js/app.js?v=20261115c"></script>
+<script src="data/world.js?v=20261115f"></script>
+<script src="data/meta.js?v=20261115f"></script>
+<script src="data/paises.js?v=20261115f"></script>
+<script src="data/relaciones.js?v=20261115f"></script>
+<script src="data/explorar.js?v=20261115f"></script>
+<script src="data/paises/us.js?v=20261115f"></script>
+<script src="data/paises/ru.js?v=20261115f"></script>
+<script src="data/paises/cn.js?v=20261115f"></script>
+<script src="data/paises/uk.js?v=20261115f"></script>
+<script src="data/paises/il.js?v=20261115f"></script>
+<script src="data/paises/fr.js?v=20261115f"></script>
+<script src="data/paises/de.js?v=20261115f"></script>
+<script src="data/paises/ir.js?v=20261115f"></script>
+<script src="data/paises/kp.js?v=20261115f"></script>
+<script src="data/paises/ar.js?v=20261115f"></script>
+<script src="data/paises/va.js?v=20261115f"></script>
+<script src="data/paises/ua.js?v=20261115f"></script>
+<script src="data/paises/tr.js?v=20261115f"></script>
+<script src="data/paises/pk.js?v=20261115f"></script>
+<script src="data/paises/in.js?v=20261115f"></script>
+<script src="data/paises/sa.js?v=20261115f"></script>
+<script src="data/paises/cu.js?v=20261115f"></script>
+<script src="data/paises/ae.js?v=20261115f"></script>
+<script src="data/paises/br.js?v=20261115f"></script>
+<script src="data/paises/kr.js?v=20261115f"></script>
+<script src="js/app.js?v=20261115f"></script>
+<script src="js/explorar.js?v=20261115f"></script>
 </body>
 </html>
