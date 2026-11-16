@@ -1,5 +1,8 @@
 # Cambios
 
+- 2026-11-15 · Ola 3: ficha real de Irán (Consejo Supremo de Seguridad Nacional, MOIS, inteligencia de la Guardia, Fuerza Quds y FARAJA): masacre de enero de 2026, guerra y muerte de Alí Jamenei, muerte del ministro Jatib y del jefe de inteligencia de la Guardia Jademi, reparto de cargos de agosto; 14 operaciones desde Bajtiar hasta 2026, AMIA con nivel "con sustento sólido", 7 casos, 6 fallas, 5 topos y desertores, 6 filtraciones y ocultamientos, prácticas y dinero completos.
+- 2026-11-15 · Nuevos rubros de prácticas: "Derrocar gobiernos" e "Intervención en elecciones", cargados en las nueve fichas reales.
+
 - 2026-11-15 · "Qué hacen y a quién espían" suma dos grupos: "Cómo influyen en otras sociedades" (propaganda y desinformación, fomento de divisiones y conflictos, influencia cultural, religiosa e ideológica, financiamiento de partidos y candidatos) y "A quién usan como agentes" (emigrantes y diáspora, empresarios, religiosos). Cargados en las ocho fichas reales.
 
 - 2026-11-15 · Completadas "Qué hacen y a quién espían" y "Dinero y coberturas" en las ocho fichas reales (EE.UU., Argentina, Rusia, China, Reino Unido, Israel, Francia y Alemania). Nuevo rubro "Sabotajes" entre los métodos. La tabla de Explorar ya compara los ocho países cargados.

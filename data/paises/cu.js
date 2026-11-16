@@ -575,20 +575,28 @@
    "ev": 0,
    "x": "Texto de prueba."
   },
-  "partidos": {
+  "golpes": {
    "ev": 1,
+   "x": "Texto de prueba."
+  },
+  "elecciones": {
+   "ev": 1,
+   "x": "Texto de prueba."
+  },
+  "partidos": {
+   "ev": 2,
    "x": "Texto de prueba."
   },
   "diaspora": {
-   "ev": 1,
+   "ev": 2,
    "x": "Texto de prueba."
   },
   "empresarios": {
-   "ev": 2,
+   "ev": 0,
    "x": "Texto de prueba."
   },
   "religiosos": {
-   "ev": 2,
+   "ev": 0,
    "x": "Texto de prueba."
   },
   "armas": {

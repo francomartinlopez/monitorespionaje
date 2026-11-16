@@ -174,7 +174,9 @@
     diaspora: {"ev": 1, "x": "El Frente Unido y la policía usan asociaciones de residentes chinos para vigilar y presionar a la diáspora, como la comisaría clandestina de Nueva York.", "u": "https://abc7.com/post/lu-jianwang-conviction-nyc-jury-convicts-man-accused-running-secret-chinese-spy-outpost-new-york-city/19100709/", "st": "ABC7"},
     empresarios: {"ev": 1, "x": "La empresaria Katrina Leung fue durante años fuente del FBI y, a la vez, pasaba información al MSS chino.", "u": "https://en.wikipedia.org/wiki/Katrina_Leung", "st": "Wikipedia (síntesis de fuentes)"},
     religiosos: {"ev": 1, "x": "El Estado controla el clero mediante asociaciones oficiales, como la Asociación Patriótica Católica, y vigila a monjes tibetanos e imanes uigures.", "u": "https://en.wikipedia.org/wiki/Chinese_Patriotic_Catholic_Association", "st": "Wikipedia (síntesis de fuentes)"},
-    partidos: {"ev": 2, "x": "En Australia, donaciones de empresarios ligados al Frente Unido llevaron en 2017 a la renuncia del senador Sam Dastyari y a nuevas leyes contra la injerencia extranjera.", "u": "https://en.wikipedia.org/wiki/Sam_Dastyari", "st": "Wikipedia (síntesis de fuentes)"}
+    partidos: {"ev": 2, "x": "En Australia, donaciones de empresarios ligados al Frente Unido llevaron en 2017 a la renuncia del senador Sam Dastyari y a nuevas leyes contra la injerencia extranjera.", "u": "https://en.wikipedia.org/wiki/Sam_Dastyari", "st": "Wikipedia (síntesis de fuentes)"},
+    golpes: {"ev": 0, "x": "Esta ficha no encontró intentos de derrocamiento de gobiernos extranjeros atribuidos con pruebas a los servicios chinos."},
+    elecciones: {"ev": 2, "x": "Gobiernos y empresas de ciberseguridad describen campañas chinas de desinformación en elecciones de Taiwán, Canadá y EE.UU.", "u": "https://en.wikipedia.org/wiki/Spamouflage", "st": "Wikipedia (síntesis de fuentes)"}
   },
   dinero: {
     presupuesto: "China no publica el presupuesto de sus servicios. El gasto de seguridad interna, que incluye policía y vigilancia, supera desde hace años al de defensa según cálculos de investigadores sobre datos oficiales.",

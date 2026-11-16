@@ -158,7 +158,9 @@
     diaspora: {"ev": 0, "x": "Esta ficha no encontró casos documentados de emigrantes argentinos usados como agentes. La dictadura sí vigiló y persiguió a exiliados en el exterior."},
     empresarios: {"ev": 0, "x": "Esta ficha no encontró casos documentados de empresarios usados como agentes de los servicios argentinos."},
     religiosos: {"ev": 1, "x": "El sacerdote Christian von Wernich, capellán de la policía bonaerense, fue condenado en 2007 por participar en secuestros y torturas en centros clandestinos.", "u": "https://es.wikipedia.org/wiki/Christian_von_Wernich", "st": "Wikipedia (síntesis de fuentes)"},
-    partidos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de financiamiento de partidos extranjeros por los servicios argentinos."}
+    partidos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de financiamiento de partidos extranjeros por los servicios argentinos."},
+    golpes: {"ev": 2, "x": "Oficiales del Batallón 601 asesoraron el golpe de Luis García Meza en Bolivia en 1980.", "u": "https://es.wikipedia.org/wiki/Batall%C3%B3n_de_Inteligencia_601", "st": "Wikipedia (síntesis de fuentes)"},
+    elecciones: {"ev": 0, "x": "Esta ficha no encontró casos documentados de intervención de los servicios argentinos en elecciones."}
   },
   dinero: {
     presupuesto: "La SIDE empezó 2026 con unos 97.000 millones de pesos y, tras varios decretos, llegó a unos 176.000 millones, según Chequeado. Cerca del 11 % son gastos reservados, cuyo uso no se publica. Los controla una comisión bicameral del Congreso.",

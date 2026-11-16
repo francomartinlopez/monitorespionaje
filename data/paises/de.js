@@ -168,7 +168,9 @@
     diaspora: {"ev": 0, "x": "Esta ficha no encontró casos documentados de emigrantes alemanes usados como agentes."},
     empresarios: {"ev": 1, "x": "Ejecutivos de Crypto AG trabajaron durante décadas para el BND y la CIA sin que los clientes lo supieran.", "u": "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/", "st": "The Washington Post (2020)"},
     religiosos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de religiosos usados como agentes por servicios alemanes."},
-    partidos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de financiamiento de partidos extranjeros por los servicios alemanes."}
+    partidos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de financiamiento de partidos extranjeros por los servicios alemanes."},
+    golpes: {"ev": 0, "x": "Esta ficha no encontró intentos de derrocamiento de gobiernos atribuidos a servicios alemanes."},
+    elecciones: {"ev": 0, "x": "Esta ficha no encontró casos documentados de intervención de servicios alemanes en elecciones. Alemania fue blanco de la campaña rusa Storm-1516 en 2025."}
   },
   dinero: {
     presupuesto: "El presupuesto federal muestra solo el total de cada servicio: el BND recibe 1.510 millones de euros en 2026 dentro del capítulo de la Cancillería. El detalle va en planes económicos secretos que aprueba el Vertrauensgremium, un grupo de la comisión de presupuesto que sesiona a puertas cerradas. El Tribunal de Cuentas los revisa con reglas especiales.",

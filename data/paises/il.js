@@ -171,7 +171,9 @@
     diaspora: {"ev": 1, "x": "Jonathan Pollard, judío estadounidense, espió para Israel desde la Marina de EE.UU.", "u": "https://en.wikipedia.org/wiki/Jonathan_Pollard", "st": "Wikipedia (síntesis de fuentes)"},
     empresarios: {"ev": 1, "x": "El productor de Hollywood Arnon Milchan reconoció en 2013 que trabajó para la red de compras secretas de Israel.", "u": "https://en.wikipedia.org/wiki/Arnon_Milchan", "st": "Wikipedia (síntesis de fuentes)"},
     religiosos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de religiosos usados como agentes por los servicios israelíes."},
-    partidos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de financiamiento de partidos extranjeros por los servicios israelíes."}
+    partidos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de financiamiento de partidos extranjeros por los servicios israelíes."},
+    golpes: {"ev": 0, "x": "Esta ficha no encontró intentos de derrocamiento de gobiernos atribuidos con pruebas a los servicios israelíes."},
+    elecciones: {"ev": 0, "x": "Esta ficha no encontró casos atribuidos al Estado. Empresas privadas israelíes de ex agentes, como el llamado Team Jorge, fueron denunciadas por manipular elecciones en otros países."}
   },
   dinero: {
     presupuesto: "Los presupuestos del Mossad y del Shin Bet son secretos y van dentro de la Oficina del Primer Ministro; una subcomisión de la Knéset los revisa a puertas cerradas. La inteligencia militar va dentro de Defensa.",

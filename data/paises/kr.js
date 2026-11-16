@@ -589,6 +589,14 @@
    "ev": 3,
    "x": "Texto de prueba."
   },
+  "golpes": {
+   "ev": 3,
+   "x": "Texto de prueba."
+  },
+  "elecciones": {
+   "ev": 0,
+   "x": "Texto de prueba."
+  },
   "partidos": {
    "ev": 3,
    "x": "Texto de prueba."
@@ -602,23 +610,23 @@
    "x": "Texto de prueba."
   },
   "religiosos": {
-   "ev": 0,
+   "ev": 3,
    "x": "Texto de prueba."
   },
   "armas": {
-   "ev": 3,
+   "ev": 2,
    "x": "Texto de prueba."
   },
   "inteligencia": {
-   "ev": 3,
+   "ev": 2,
    "x": "Texto de prueba."
   },
   "tecnologia": {
-   "ev": 2,
+   "ev": 0,
    "x": "Texto de prueba."
   },
   "entrenamiento": {
-   "ev": 2,
+   "ev": 0,
    "x": "Texto de prueba."
   }
  },

@@ -169,7 +169,9 @@
     diaspora: {"ev": 0, "x": "Esta ficha no encontró casos documentados de emigrantes británicos usados como agentes."},
     empresarios: {"ev": 1, "x": "Paul Henderson, director de Matrix Churchill, era fuente del MI6 mientras su empresa exportaba a Irak.", "u": "https://en.wikipedia.org/wiki/Matrix_Churchill", "st": "Wikipedia (síntesis de fuentes)"},
     religiosos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de religiosos usados como agentes por los servicios británicos."},
-    partidos: {"ev": 0, "x": "Esta ficha no encontró casos documentados recientes de financiamiento de partidos extranjeros por los servicios británicos."}
+    partidos: {"ev": 0, "x": "Esta ficha no encontró casos documentados recientes de financiamiento de partidos extranjeros por los servicios británicos."},
+    golpes: {"ev": 1, "x": "El MI6 planificó con la CIA el derrocamiento de Mohammad Mosaddeq en Irán en 1953.", "u": "https://nsarchive.gwu.edu/briefing-book/iran/2017-06-15/iran-1953-state-department-finally-releases-updated-official-history", "st": "National Security Archive"},
+    elecciones: {"ev": 2, "x": "Una carta falsa atribuida al dirigente soviético Zinóviev se publicó días antes de la elección británica de 1924; una investigación oficial de 1999 señaló posibles filtraciones desde el MI6.", "u": "https://en.wikipedia.org/wiki/Zinoviev_letter", "st": "Wikipedia (síntesis de fuentes)"}
   },
   dinero: {
     presupuesto: "Los tres servicios se financian con la Cuenta Única de Inteligencia, de unos 4.500 millones de libras en 2025-2026, con estado financiero público. El Comité de Inteligencia y Seguridad del Parlamento revisa el gasto.",

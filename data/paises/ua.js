@@ -588,8 +588,16 @@
    "ev": 3,
    "x": "Texto de prueba."
   },
-  "partidos": {
+  "golpes": {
    "ev": 2,
+   "x": "Texto de prueba."
+  },
+  "elecciones": {
+   "ev": 1,
+   "x": "Texto de prueba."
+  },
+  "partidos": {
+   "ev": 1,
    "x": "Texto de prueba."
   },
   "diaspora": {
@@ -597,15 +605,15 @@
    "x": "Texto de prueba."
   },
   "empresarios": {
-   "ev": 1,
+   "ev": 0,
    "x": "Texto de prueba."
   },
   "religiosos": {
-   "ev": 1,
+   "ev": 2,
    "x": "Texto de prueba."
   },
   "armas": {
-   "ev": 0,
+   "ev": 2,
    "x": "Texto de prueba."
   },
   "inteligencia": {
@@ -617,7 +625,7 @@
    "x": "Texto de prueba."
   },
   "entrenamiento": {
-   "ev": 2,
+   "ev": 0,
    "x": "Texto de prueba."
   }
  },

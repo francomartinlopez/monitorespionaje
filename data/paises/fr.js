@@ -159,7 +159,9 @@
     diaspora: {"ev": 0, "x": "Esta ficha no encontró casos documentados de emigrantes franceses usados como agentes."},
     empresarios: {"ev": 2, "x": "Ex directivos de Elf dijeron que la petrolera funcionaba como herramienta de la política y de los servicios franceses en África.", "u": "https://en.wikipedia.org/wiki/Elf_Aquitaine", "st": "Wikipedia (síntesis de fuentes)"},
     religiosos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de religiosos usados como agentes por los servicios franceses."},
-    partidos: {"ev": 1, "x": "La causa Elf mostró pagos de la petrolera estatal a dirigentes africanos y a partidos franceses en los años noventa.", "u": "https://en.wikipedia.org/wiki/Elf_Aquitaine", "st": "Wikipedia (síntesis de fuentes)"}
+    partidos: {"ev": 1, "x": "La causa Elf mostró pagos de la petrolera estatal a dirigentes africanos y a partidos franceses en los años noventa.", "u": "https://en.wikipedia.org/wiki/Elf_Aquitaine", "st": "Wikipedia (síntesis de fuentes)"},
+    golpes: {"ev": 2, "x": "En la Françafrique, Francia sostuvo o derribó gobiernos en ex colonias; el mercenario Bob Denard dio golpes en Comoras con tolerancia de los servicios, según investigaciones posteriores.", "u": "https://en.wikipedia.org/wiki/Bob_Denard", "st": "Wikipedia (síntesis de fuentes)"},
+    elecciones: {"ev": 0, "x": "Esta ficha no encontró casos documentados de intervención de los servicios franceses en elecciones extranjeras recientes."}
   },
   dinero: {
     presupuesto: "La ley de programación militar prevé 4.600 millones de euros para la DGSE entre 2024 y 2030. Además existen fondos especiales, controlados por una comisión de verificación de magistrados y parlamentarios.",

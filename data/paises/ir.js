@@ -1,851 +1,215 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Irán · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["ir"] = {
- "sample": true,
- "id": "ir",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Irán: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "5",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 4,
-  "senales": 2,
-  "ciber": 4,
-  "imagenes": 1,
-  "encubierta": 4,
-  "contra": 4
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "CSSN": {
-   "since": 1908,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Consejo Supremo de Seguridad Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "MOIS": {
-   "since": 1915,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Ministerio de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "IO-CGRI": {
-   "since": 1951,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Organización de Inteligencia de la Guardia Revolucionaria: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Quds": {
-   "since": 1995,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Fuerza Quds: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "FARAJA": {
-   "since": 1999,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Policía y su inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "ir",
+  updated: "2026-11-15",
+  summary: [
+    "Irán tiene dos aparatos de inteligencia que compiten entre sí. El Ministerio de Inteligencia (MOIS) es civil y responde al gobierno. La Organización de Inteligencia de la Guardia Revolucionaria (CGRI) y la Fuerza Quds, a cargo de las operaciones en el exterior, responden al líder supremo. La policía, FARAJA, tiene su propia rama de inteligencia.",
+    "El país vive su peor crisis desde 1979. Entre diciembre de 2025 y enero de 2026 las fuerzas de seguridad reprimieron protestas en todo el país, con miles de muertos según organizaciones de derechos humanos. El 28 de febrero de 2026 EE.UU. e Israel atacaron Irán y mataron al líder supremo Alí Jamenei. Su hijo Mojtaba lo sucedió.",
+    "La guerra golpeó a la cúpula de inteligencia. Israel mató en marzo al ministro de Inteligencia, Esmaeil Jatib, y en abril al jefe de inteligencia de la Guardia, Majid Jademi. Tras el acuerdo para terminar la guerra, en agosto Mojtaba Jamenei repartió los cargos clave entre veteranos de la inteligencia, como Ahmad Vahidi al frente de la Guardia y Hossein Taeb en la milicia Basij.",
+    "Hacia afuera, la Fuerza Quds arma y entrena a aliados en la región y organiza planes contra opositores, judíos e israelíes en Europa, a menudo con delincuentes contratados. Para Argentina, Irán es el país al que la justicia atribuye el atentado contra la AMIA de 1994; Irán lo niega."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Líder supremo", v: "Mojtaba Jamenei", n: "desde marzo de 2026, tras la muerte de su padre" },
+    { l: "Comandante de la Guardia", v: "Ahmad Vahidi", n: "desde el 1 mar 2026; primer jefe de la Fuerza Quds (1988-1997)" },
+    { l: "Ministro de Inteligencia", v: "Interino, sin nombre público", n: "desde la muerte de Esmaeil Jatib, el 18 mar 2026" },
+    { l: "Muertos en las protestas", v: "más de 6.000 verificados", n: "según HRANA a fines de enero de 2026; otras ONG estiman más" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 3, senales: 2, ciber: 3, imagenes: 1, encubierta: 4, contra: 2 },
+  powerWhy: {
+    humana: "Redes en Medio Oriente a través de aliados armados y en la diáspora iraní, pero con poca penetración en Occidente.",
+    senales: "Interceptación interna amplia y control de internet; poca capacidad de escucha fuera de la región.",
+    ciber: "Grupos ligados a la Guardia y al MOIS hacen sabotajes, robos de datos y operaciones de influencia, como el hackeo a la campaña de Trump en 2024.",
+    imagenes: "Algunos satélites propios de baja calidad y dependencia de socios como Rusia y China.",
+    encubierta: "La Fuerza Quds arma y entrena milicias en varios países y organiza asesinatos y secuestros en el exterior.",
+    contra: "Reprime con eficacia a su propia población, pero Israel penetró su aparato hasta matar a su cúpula en 2025 y 2026."
+  },
+  priorities: [
+    { h: "Supervivencia del régimen", x: "Vigilar y reprimir protestas, minorías, periodistas y activistas." },
+    { h: "Israel y EE.UU.", x: "Cazar espías, responder a los ataques y sostener a la red de aliados." },
+    { h: "Opositores en el exterior", x: "Vigilar, secuestrar o atacar a disidentes y medios de la diáspora." },
+    { h: "Programa nuclear y de misiles", x: "Protegerlo de sabotajes y conseguir tecnología pese a las sanciones." },
+    { h: "Eje de la Resistencia", x: "Armar y coordinar a Hezbolá, a los hutíes y a milicias en Irak." }
+  ],
+  focos: ["Israel", "EE.UU.", "Irak", "Líbano", "Diáspora iraní", "Golfo Pérsico"],
+  bodies: {
+    "CSSN": { since: 1989, how: "Fija la política de seguridad y coordina a las fuerzas y servicios. Desde agosto de 2026 su secretario es Mohsen Rezaei, ex comandante de la Guardia, en reemplazo de Mohammad Bagher Zolghadr; su antecesor Alí Lariyaní murió en un ataque israelí en marzo.", staff: "No se publica.", budget: "Dentro de la Presidencia.", tech: [], where: ["Teherán"] },
+    "MOIS": { since: 1984, how: "Servicio civil de inteligencia y contrainteligencia que responde al presidente, aunque el líder supremo aprueba al ministro. Persigue a opositores, vigila a minorías religiosas y opera en el exterior. Desde marzo de 2026 lo conduce un ministro interino cuyo nombre no se publicó.", staff: "No se publica.", budget: "Tiene partida en el presupuesto nacional; no se publica el detalle.", tech: ["Interceptación", "Redes de informantes", "Grupos de ciberataque"], where: ["Teherán", "Embajadas en el exterior"] },
+    "IO-CGRI": { since: 2009, how: "Inteligencia de la Guardia Revolucionaria, creada tras las protestas de 2009. Se dedica a la seguridad política, detiene a doble nacionales y activistas y compite con el MOIS. Su jefe, Majid Jademi, murió en abril de 2026 y no hay sucesor público.", staff: "No se publica.", budget: "Dentro de la Guardia, que tiene además negocios propios.", tech: ["Interceptación", "Ciberataques", "Interrogatorios"], where: ["Teherán", "Todo el país"] },
+    "Quds": { since: 1988, how: "Rama de la Guardia para operaciones en el exterior: arma, entrena y financia a aliados y organiza ataques contra enemigos. La dirige Esmail Qaani desde la muerte de Qasem Soleimani en 2020.", staff: "No se publica; estimaciones de prensa hablan de varios miles.", budget: "No se publica.", tech: ["Armas y drones para aliados", "Redes de delincuentes contratados"], where: ["Teherán", "Irak, Líbano, Siria y Yemen", "Embajadas"] },
+    "FARAJA": { since: 2011, how: "Policía nacional con rama de inteligencia, que vigila protestas, redes sociales y el uso del velo. Participó en la represión de enero de 2026, según Amnistía Internacional y Human Rights Watch.", staff: "No se publica.", budget: "Dentro del Ministerio del Interior.", tech: ["Cámaras con reconocimiento facial", "Ciberpolicía (FATA)"], where: ["Todo el país"] }
+  },
+  civil: [
+    "El líder supremo controla la Guardia, la Fuerza Quds y la Basij, y aprueba al ministro de Inteligencia.",
+    "El presidente, hoy Masoud Pezeshkian, conduce formalmente al MOIS, pero tiene poco control sobre el aparato de seguridad.",
+    "El Parlamento vota al ministro de Inteligencia y no tiene un control efectivo sobre las operaciones."
+  ],
+  law: {
+    domestic: [
+      "La ley del Ministerio de Inteligencia de 1983 creó el MOIS y le dio poderes amplios de vigilancia interna.",
+      "Delitos vagos como \"corrupción en la tierra\" o \"enemistad con Dios\" permiten condenas a muerte por protestar o espiar.",
+      "En 2025 se endurecieron las penas por espionaje y colaboración con Israel y EE.UU., incluida la pena de muerte."
+    ],
+    foreign: [
+      "Las operaciones de la Fuerza Quds no tienen marco legal público y responden al líder supremo.",
+      "Los diplomáticos iraníes participaron en operaciones en el exterior, como el plan de bomba de 2018 en Francia.",
+      "Irán no reconoce la doble nacionalidad y usa detenidos con pasaporte extranjero en negociaciones."
+    ],
+    oversight: [
+      "No hay control independiente de los servicios.",
+      "La comisión de seguridad nacional del Parlamento recibe informes, sin poder real sobre la Guardia.",
+      "La justicia, encabezada por un ex ministro de Inteligencia, depende del líder supremo."
+    ]
+  },
+  rights: [
+    { d: "1983-08", dir: "amplia", area: "Debido proceso", h: "Nace el Ministerio de Inteligencia", x: "Una ley centraliza la vigilancia política en un ministerio con amplios poderes." },
+    { d: "1988-07", dir: "amplia", area: "Debido proceso", h: "Ejecuciones de presos políticos", x: "Comisiones especiales ordenan ejecutar a miles de presos en pocas semanas." },
+    { d: "1999-01", dir: "recorta", area: "Transparencia", h: "El MOIS admite los asesinatos en cadena", x: "El ministerio reconoce que agentes suyos mataron a intelectuales y escritores; se purga parte del servicio." },
+    { d: "2009-10", dir: "amplia", area: "Reunión y protesta", h: "Nace la inteligencia de la Guardia", x: "Tras las protestas por la elección, la Guardia crea su propio servicio para la seguridad política." },
+    { d: "2019-11", dir: "amplia", area: "Comunicaciones", h: "Apagón de internet", x: "El gobierno corta internet en todo el país durante la represión de las protestas por la nafta." },
+    { d: "2023-04", dir: "amplia", area: "Privacidad", h: "Cámaras contra el velo", x: "La policía anuncia cámaras con reconocimiento facial para identificar a mujeres sin velo." },
+    { d: "2025-10", dir: "amplia", area: "Debido proceso", h: "Ley contra el espionaje", x: "Se endurecen las penas por colaborar con Israel o EE.UU., con pena de muerte en algunos casos." },
+    { d: "2026-01", dir: "amplia", area: "Comunicaciones", h: "Apagón y masacre", x: "Desde el 8 de enero se corta todo internet mientras las fuerzas de seguridad matan a miles de manifestantes." }
+  ],
+  events: [
+    { d: "1991-08-06", lat: 48.84, lon: 2.25, c: "France", t: "encubierta", ev: 1, h: "Asesinato de Shapur Bajtiar", x: "El último primer ministro del sha es asesinado en su casa de las afueras de París; la justicia francesa condenó a un iraní.", u: "https://en.wikipedia.org/wiki/Shapour_Bakhtiar", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1992-09-17", lat: 52.49, lon: 13.3, c: "Germany", t: "encubierta", ev: 1, h: "Restaurante Mykonos", x: "Cuatro dirigentes kurdos iraníes son asesinados en Berlín; en 1997 un tribunal concluyó que la orden vino de la cúpula iraní.", u: "https://en.wikipedia.org/wiki/Mykonos_restaurant_assassinations", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1994-07-18", lat: -34.6, lon: -58.4, c: "Argentina", t: "encubierta", ev: 2, h: "Atentado a la AMIA", x: "Un coche bomba mata a 85 personas en Buenos Aires; la justicia argentina lo atribuye a Irán y Hezbolá, que lo niegan.", u: "https://www.ellitoral.com/politica/juicio-ausencia-amia-atentado-decision-judicial-iranies-acusados-justicia-federal-rafecas-procesamiento_0_zQENsx9zVe.html", st: "El Litoral" },
+    { d: "2012-08-15", lat: 26.29, lon: 50.11, c: "Saudi Arabia", t: "ciber", ev: 2, h: "Shamoon en Saudi Aramco", x: "Un virus borra datos de unas 30.000 computadoras de la petrolera saudí; EE.UU. y expertos lo atribuyeron a Irán.", u: "https://en.wikipedia.org/wiki/Shamoon", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2018-06-30", lat: 48.96, lon: 2.53, c: "France", t: "encubierta", ev: 1, h: "Bomba contra opositores en Villepinte", x: "La policía frena un plan para atacar un acto opositor cerca de París; un diplomático iraní fue condenado en Bélgica en 2021.", u: "https://en.wikipedia.org/wiki/Assadollah_Assadi", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2019-10-14", lat: 33.31, lon: 44.37, c: "Iraq", t: "encubierta", ev: 1, h: "Atrapan a Ruhollah Zam", x: "El periodista opositor es atraído a Irak, capturado y llevado a Irán, donde lo ejecutaron en 2020.", u: "https://en.wikipedia.org/wiki/Ruhollah_Zam", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2020-07-28", lat: 25.2, lon: 55.27, c: "United Arab Emirates", t: "encubierta", ev: 1, h: "Secuestro de Jamshid Sharmahd", x: "El opositor germano-iraní desaparece en Dubái y reaparece detenido en Irán; fue ejecutado en 2024.", u: "https://en.wikipedia.org/wiki/Jamshid_Sharmahd", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2020-10-09", lat: 40.9, lon: 29.4, c: "Turkey", t: "encubierta", ev: 1, h: "Secuestro de Habib Chaab", x: "Un opositor árabe iraní con residencia sueca es secuestrado en Estambul y llevado a Irán; fue ejecutado en 2023.", u: "https://en.wikipedia.org/wiki/Habib_Chaab", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2022-07-15", lat: 41.33, lon: 19.82, c: "Albania", t: "ciber", ev: 1, h: "Ciberataque a Albania", x: "Hackers paralizan servicios del gobierno albanés; Albania lo atribuyó a Irán y rompió relaciones diplomáticas.", u: "https://en.wikipedia.org/wiki/Albania%E2%80%93Iran_relations", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2024-06-01", lat: 38.9, lon: -77.03, c: "United States of America", t: "ciber", ev: 1, h: "Hackeo a la campaña de Trump", x: "Hackers de la Guardia roban documentos de la campaña de Donald Trump; el FBI y la ODNI lo atribuyeron a Irán.", u: "https://en.wikipedia.org/wiki/Iranian_interference_in_the_2024_United_States_elections", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2025-11-05", lat: 56.16, lon: 10.2, c: "Denmark", t: "humana", ev: 2, h: "Detenido un agente de la Fuerza Quds", x: "Un danés de origen afgano es detenido en Aarhus por espiar blancos judíos en Berlín y entregar la información en Teherán.", u: "https://v1.iranintl.com/en/202511053557", st: "Iran International" },
+    { d: "2026-01-08", lat: 35.7, lon: 51.4, c: "Iran", t: "contra", nomap: true, ev: 1, h: "La masacre de enero", x: "Con internet cortado, las fuerzas de seguridad matan a miles de manifestantes entre el 8 y el 9 de enero.", u: "https://www.amnesty.org/en/latest/news/2026/01/what-happened-at-the-protests-in-iran/", st: "Amnistía Internacional" },
+    { d: "2026-03-06", lat: 51.51, lon: -0.12, c: "United Kingdom", t: "humana", ev: 2, h: "Detenidos en Londres", x: "La policía detiene a cuatro hombres acusados de vigilar a la comunidad judía de Londres para la inteligencia iraní.", u: "https://www.fdd.org/analysis/2026/03/13/irans-war-across-europe-complacency-must-finally-end/", st: "FDD (The Jewish Chronicle)" },
+    { d: "2026-04-22", lat: 35.7, lon: 51.38, c: "Iran", t: "contra", ev: 2, h: "Ejecuciones por espionaje", x: "Irán ejecuta a la 14.ª persona acusada de espiar para el Mossad desde el inicio de la guerra; las ONG denuncian juicios sin garantías.", u: "https://www.al-monitor.com/originals/2026/04/iran-executes-14th-person-war-over-alleged-mossad-ties-what-know", st: "Al-Monitor" }
+  ],
+  interest: {
+    "Israel": 3, "United States of America": 3, "Iraq": 3, "Lebanon": 3, "Syria": 2, "Yemen": 2, "Saudi Arabia": 2, "United Arab Emirates": 2, "Bahrain": 2,
+    "Afghanistan": 2, "Azerbaijan": 2, "Turkey": 2, "United Kingdom": 2, "Germany": 2, "Albania": 2, "France": 1, "Netherlands": 1, "Sweden": 1, "Denmark": 1,
+    "Argentina": 1, "Venezuela": 1, "Pakistan": 1, "Russia": 1, "China": 1
+  },
+  timeline: [
+    { era: "Monarquía", d: "1957", h: "La SAVAK", x: "El sha crea su policía secreta con ayuda de la CIA y del Mossad." },
+    { era: "Revolución", d: "1979", h: "Cae el sha", x: "La SAVAK se disuelve; nacen la Guardia Revolucionaria y nuevos servicios." },
+    { era: "", d: "1984", h: "Nace el MOIS", x: "El Ministerio de Inteligencia centraliza el espionaje civil." },
+    { era: "", d: "1988–1992", h: "Ejecuciones y asesinatos en Europa", x: "Ejecución masiva de presos y asesinatos de opositores en el exterior, como Mykonos." },
+    { era: "", d: "1994", h: "AMIA", x: "El atentado en Buenos Aires que la justicia argentina atribuye a Irán." },
+    { era: "", d: "1998", h: "Asesinatos en cadena", x: "Agentes del MOIS matan a intelectuales; el ministerio lo admite al año siguiente." },
+    { era: "Siglo XXI", d: "2009", h: "Movimiento Verde", x: "Represión de las protestas y creación de la inteligencia de la Guardia." },
+    { era: "", d: "2020", h: "Soleimani", x: "EE.UU. mata al jefe de la Fuerza Quds en Bagdad." },
+    { era: "", d: "2022", h: "Mujer, vida, libertad", x: "Protestas tras la muerte de Mahsa Amini bajo custodia policial." },
+    { era: "", d: "2025", h: "Guerra de junio", x: "Israel ataca Irán con apoyo de redes de agentes dentro del país." },
+    { era: "Actual", d: "2026", h: "Masacre, guerra y sucesión", x: "Represión de enero, muerte de Jamenei y de la cúpula de inteligencia, y reparto de cargos entre veteranos de la Guardia.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "1992", h: "Los asesinatos del Mykonos", x: "Cuatro opositores kurdos fueron asesinados en un restaurante de Berlín. En 1997 un tribunal alemán concluyó que el crimen fue ordenado por la cúpula del Estado iraní, y la Unión Europea retiró a sus embajadores.", who: "Tribunal superior de Berlín (1997)", missing: "", u: "https://en.wikipedia.org/wiki/Mykonos_restaurant_assassinations", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "1994", h: "El atentado a la AMIA", x: "La justicia argentina atribuye el atentado a Irán y a Hezbolá y pidió la captura de ex funcionarios iraníes, entre ellos el agregado cultural Mohsen Rabbani. Irán niega su participación. En 2026 avanza un juicio en ausencia.", who: "Justicia argentina", missing: "Un juicio con los acusados presentes y la apertura de los archivos iraníes.", u: "https://www.ellitoral.com/politica/juicio-ausencia-amia-atentado-decision-judicial-iranies-acusados-justicia-federal-rafecas-procesamiento_0_zQENsx9zVe.html", st: "El Litoral" },
+    { ev: 1, ilegal: true, d: "1998", h: "Los asesinatos en cadena", x: "Escritores e intelectuales opositores fueron asesinados en Irán. En 1999 el propio Ministerio de Inteligencia admitió que agentes suyos los mataron, aunque los presentó como un grupo descontrolado.", who: "Ministerio de Inteligencia de Irán (1999)", missing: "", u: "https://en.wikipedia.org/wiki/Chain_murders_of_Iran", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "2018", h: "El diplomático de la bomba", x: "Assadollah Assadi, diplomático iraní en Viena, entregó explosivos a una pareja para atacar un acto opositor cerca de París. Un tribunal belga lo condenó a 20 años en 2021, y Bélgica lo canjeó en 2023.", who: "Justicia de Bélgica", missing: "", u: "https://en.wikipedia.org/wiki/Assadollah_Assadi", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "2026", h: "La masacre de enero", x: "Las fuerzas de seguridad dispararon contra manifestantes en todo el país. HRANA verificó más de 6.000 muertos y decenas de miles de detenidos; las autoridades dieron una cifra oficial de 3.117.", who: "Amnistía Internacional, Human Rights Watch y HRANA", missing: "", u: "https://www.amnesty.org/en/latest/news/2026/01/what-happened-at-the-protests-in-iran/", st: "Amnistía Internacional" },
+    { ev: 2, ilegal: true, d: "2024–2026", h: "La red de ataques en Europa", x: "Desde marzo de 2026 un grupo desconocido reivindicó al menos 15 ataques contra blancos judíos y occidentales en Europa. Gobiernos y analistas lo vinculan con Irán, que lo niega.", who: "Fiscalías europeas y centros de análisis", missing: "Una sentencia judicial que pruebe la orden de Teherán.", u: "https://www.algemeiner.com/2026/05/21/germany-charges-two-iran-backed-operatives-plot-kill-jewish-leaders/", st: "Algemeiner" },
+    { ev: 4, ilegal: false, d: "2022–2026", h: "Las protestas son obra del Mossad y la CIA", x: "El gobierno iraní presenta las protestas de 2022 y 2026 como una operación organizada por servicios extranjeros.", who: "Gobierno y medios oficiales iraníes", missing: "Pruebas de que las protestas fueran dirigidas desde afuera.", debunk: "Las protestas nacieron de causas internas, como la muerte de Mahsa Amini y la crisis económica, y se extendieron a todo el país. Que medios o gobiernos extranjeros las apoyaran no prueba que las organizaran.", u: "https://www.amnesty.org/en/latest/news/2026/01/what-happened-at-the-protests-in-iran/", st: "Amnistía Internacional" }
+  ],
+  failures: [
+    { k: "falla", d: "2025-06", ev: 1, w: 3, h: "Israel dentro del país", x: "En la guerra de junio y en la de 2026, Israel usó drones montados dentro de Irán y mató a jefes militares y de inteligencia.", why: "No está en duda: Irán lo admitió y ejecutó a decenas de acusados de espionaje.", wx: "Declaraciones oficiales de ambos países y pruebas visuales.", who: "Gobiernos de Irán e Israel", u: "https://www.newarab.com/news/how-mossads-network-agents-helped-israel-strike-inside-iran", st: "The New Arab" },
+    { k: "falla", d: "2026-03-18", ev: 1, w: 3, h: "La muerte del ministro de Inteligencia", x: "El ministro Esmaeil Jatib sobrevive al primer ataque, pero Israel lo localiza y lo mata semanas después en Teherán.", why: "No está en duda: el presidente Pezeshkian confirmó la muerte.", wx: "Confirmación oficial iraní.", who: "Presidencia de Irán", u: "https://aljazeera.com/news/2026/3/18/israel-says-it-killed-iran-intel-minister-in-third-assassination-in-2-days", st: "Al Jazeera" },
+    { k: "falla", d: "2024-07-31", ev: 1, w: 3, h: "Haniyeh en una casa de la Guardia", x: "El jefe político de Hamás muere en una residencia oficial custodiada por la Guardia en Teherán.", why: "No está en duda que murió allí; se discute si fue un misil o una bomba colocada antes.", wx: "Informes de prensa con versiones distintas.", who: "Gobiernos de Irán e Israel", u: "https://en.wikipedia.org/wiki/Assassination_of_Ismail_Haniyeh", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falla", d: "2018-01", ev: 1, w: 3, h: "El robo del archivo nuclear", x: "Agentes del Mossad se llevan de un depósito de Teherán miles de documentos sobre el programa nuclear.", why: "No está en duda: Israel lo mostró en público e Irán no pudo desmentirlo con pruebas.", wx: "Documentos revisados por expertos internacionales.", who: "Gobierno de Israel", u: "https://en.wikipedia.org/wiki/Mossad_activities_in_Iran", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "2020-01-08", ev: 1, w: 3, h: "El avión ucraniano", x: "La Guardia derriba por error un avión de pasajeros en Teherán y el gobierno lo niega tres días.", why: "No es una falsa bandera, pero sí un ocultamiento: Irán lo admitió ante pruebas en video.", wx: "Admisión oficial y videos.", who: "Gobierno de Irán", u: "https://en.wikipedia.org/wiki/Ukraine_International_Airlines_Flight_752", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "1978-08-19", ev: 2, w: 2, h: "El incendio del cine Rex", x: "Unas 400 personas mueren en un cine de Abadán; los revolucionarios culparon a la SAVAK y años después se condenó a islamistas.", why: "Hay un juicio de 1980 que culpó a militantes islamistas, pero también acusaciones de manipulación del proceso.", wx: "Juicio de 1980 y testimonios contradictorios.", who: "Justicia iraní (1980) e historiadores", u: "https://en.wikipedia.org/wiki/Cinema_Rex_fire", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "Las embajadas iraníes alojan oficiales del MOIS y de la Fuerza Quds; un diplomático en Viena entregó explosivos para el plan de 2018. Los centros culturales e islámicos sirvieron de base, como señaló la justicia argentina sobre el agregado Mohsen Rabbani.",
+    campo: "La Fuerza Quds actúa en el terreno con aliados armados. En Europa contrata delincuentes comunes y pandillas para vigilar o atacar, en lugar de exponer a sus oficiales.",
+    oficina: "El MOIS y la inteligencia de la Guardia tienen sede en Teherán y compiten por casos y recursos. La guerra de 2026 dejó vacantes y jefes interinos.",
+    reclutamiento: "Recluta en comunidades chiítas, en la diáspora iraní y entre delincuentes. También presiona a familiares en Irán para obligar a emigrantes a colaborar.",
+    tecnica: "Control y cortes de internet, cámaras con reconocimiento facial, interceptación interna y grupos de hackers ligados a la Guardia y al MOIS.",
+    enlaces: "Hezbolá, los hutíes y milicias de Irak forman el llamado Eje de la Resistencia. Coopera con Rusia, a la que vendió drones, y con China."
+  },
+  insiders: [
+    { k: "desertor", dir: "sale", ev: 2, d: "2007-02", n: "Alí Reza Asgari", h: "Un viceministro desaparece en Estambul", x: "Un ex viceministro de Defensa y ex jefe de la Guardia desaparece en Turquía; la prensa occidental dijo que desertó y aportó datos sobre el programa nuclear.", cargo: "Ex viceministro de Defensa", hacia: "Servicios occidentales, según la prensa", fin: "Su destino no se aclaró oficialmente.", who: "Prensa internacional", u: "https://en.wikipedia.org/wiki/Ali-Reza_Asgari", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desertor", dir: "sale", ev: 1, d: "2009-06", n: "Shahram Amiri", h: "El científico que volvió", x: "Un científico nuclear desaparece en Arabia Saudita, aparece en EE.UU. y vuelve a Irán en 2010 diciendo que lo habían secuestrado.", cargo: "Programa nuclear", hacia: "CIA, según funcionarios de EE.UU.", fin: "Ejecutado en Irán en 2016 por traición.", who: "Gobierno de Irán y funcionarios de EE.UU.", u: "https://en.wikipedia.org/wiki/Shahram_Amiri", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "entra", ev: 1, d: "2018-05", n: "Gonen Segev", h: "Un ex ministro israelí espía para Irán", x: "Un ex ministro de Energía de Israel, que vivía en Nigeria, pasa información a la inteligencia iraní.", cargo: "Ex ministro de Israel", hacia: "Inteligencia iraní", fin: "Condenado en Israel en 2019 a once años de prisión.", who: "Justicia israelí", u: "https://en.wikipedia.org/wiki/Gonen_Segev", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "sale", ev: 3, d: "2023-01", n: "Alí Reza Akbari", h: "Ejecutado como espía británico", x: "Un ex viceministro de Defensa con ciudadanía británica es ejecutado acusado de espiar para el MI6.", cargo: "Ex viceministro de Defensa", hacia: "MI6, según Irán", fin: "Ejecutado; el Reino Unido negó la acusación y sancionó al fiscal general iraní.", who: "Gobierno de Irán; el Reino Unido lo niega", u: "https://en.wikipedia.org/wiki/Alireza_Akbari", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "sale", ev: 3, d: "2026", n: "Decenas de iraníes", h: "Ejecutados por espiar para el Mossad", x: "Desde la guerra de junio de 2025 Irán ejecutó a decenas de personas acusadas de pasar coordenadas y datos a Israel.", cargo: "Ciudadanos y empleados de distintos sectores", hacia: "Mossad, según Irán", fin: "Ejecutados tras juicios que las ONG consideran sin garantías.", who: "Justicia iraní; ONG de derechos humanos cuestionan las pruebas", u: "https://www.al-monitor.com/originals/2026/04/iran-executes-14th-person-war-over-alleged-mossad-ties-what-know", st: "Al-Monitor" }
+  ],
+  leaks: [
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "1988", h: "Las ejecuciones de 1988", x: "El Estado ejecutó a miles de presos políticos y nunca publicó listas ni lugares de entierro.", aquien: "Al público y a las familias", como: "Testimonios, una grabación de 1988 del ayatolá Montazeri publicada en 2016 e investigaciones de la ONU.", obj: "Ocultar la magnitud de las ejecuciones.", who: "Amnistía Internacional y relatores de la ONU", u: "https://en.wikipedia.org/wiki/1988_executions_of_Iranian_political_prisoners", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "2020-01", h: "El derribo del vuelo 752", x: "La Guardia derriba un avión de Ukraine International Airlines y mueren 176 personas; el gobierno lo niega durante tres días.", aquien: "Al público, al propio gobierno civil y a otros países", como: "Videos, pruebas de inteligencia extranjeras y presión internacional.", obj: "Evitar la responsabilidad.", who: "Gobierno de Irán, que lo admitió", u: "https://en.wikipedia.org/wiki/Ukraine_International_Airlines_Flight_752", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "filtracion", rol: "blanco", ev: 1, d: "2019-11", h: "Los cables de Irán", x: "Se filtran cientos de informes del MOIS sobre su trabajo en Irak.", obj: "Revelar la influencia iraní en Irak.", who: "The Intercept y The New York Times", u: "https://en.wikipedia.org/wiki/Iran_Cables", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "filtracion", rol: "blanco", ev: 1, d: "2021-08", h: "Las cámaras de Evin", x: "Hackers publican videos de las cámaras de la cárcel de Evin con golpes a detenidos.", obj: "Mostrar los malos tratos en las cárceles.", who: "Grupo de hackers y medios internacionales; las autoridades reconocieron los videos", u: "https://en.wikipedia.org/wiki/Evin_Prison", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "robo", rol: "blanco", ev: 1, d: "2018-01", h: "El archivo nuclear", x: "El Mossad se lleva de Teherán unos cien mil documentos del programa nuclear.", obj: "Probar el pasado militar del programa.", who: "Gobierno de Israel", u: "https://en.wikipedia.org/wiki/Mossad_activities_in_Iran", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desinfo", rol: "autor", ev: 1, d: "2024", h: "Sitios falsos en la elección de EE.UU.", x: "Grupos iraníes crean sitios de noticias falsos dirigidos a votantes estadounidenses, según Microsoft y las agencias de EE.UU.", obj: "Dividir a los votantes y dañar a un candidato.", who: "ODNI, FBI y Microsoft", u: "https://en.wikipedia.org/wiki/Iranian_interference_in_the_2024_United_States_elections", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  practicas: {
+    propios: { ev: 1, x: "La inteligencia de la Guardia detiene a funcionarios del propio Estado; un miembro del equipo negociador nuclear fue condenado por espionaje en 2016.", u: "https://en.wikipedia.org/wiki/Abdolrasoul_Dorri_Esfahani", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 1, x: "Los candidatos opositores de 2009, Mir Hossein Musavi y Mehdi Karrubi, están bajo arresto domiciliario desde 2011.", u: "https://en.wikipedia.org/wiki/Mir-Hossein_Mousavi", st: "Wikipedia (síntesis de fuentes)" },
+    periodistas: { ev: 1, x: "El periodista Ruhollah Zam fue atrapado en Irak y ejecutado en 2020; en 2026 hubo ejecuciones por enviar datos a medios del exterior.", u: "https://en.wikipedia.org/wiki/Ruhollah_Zam", st: "Wikipedia (síntesis de fuentes)" },
+    activistas: { ev: 1, x: "En 2018 la inteligencia de la Guardia detuvo a ambientalistas acusados de espionaje; uno de ellos, Kavous Seyed-Emami, murió bajo custodia.", u: "https://en.wikipedia.org/wiki/Kavous_Seyed-Emami", st: "Wikipedia (síntesis de fuentes)" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados de espionaje iraní contra sus aliados." },
+    rivales: { ev: 1, x: "Reclutó a un ex ministro israelí y a decenas de israelíes para tareas de espionaje, según la justicia de Israel.", u: "https://en.wikipedia.org/wiki/Gonen_Segev", st: "Wikipedia (síntesis de fuentes)" },
+    extorsion: { ev: 1, x: "Detiene a personas con doble nacionalidad y las usa en negociaciones con sus países, como la británica Nazanin Zaghari-Ratcliffe, liberada en 2022.", u: "https://en.wikipedia.org/wiki/Nazanin_Zaghari-Ratcliffe", st: "Wikipedia (síntesis de fuentes)" },
+    asesinato: { ev: 1, x: "Un tribunal alemán atribuyó a la cúpula iraní los asesinatos del Mykonos de 1992; Francia condenó a un iraní por matar a Shapur Bajtiar en 1991.", u: "https://en.wikipedia.org/wiki/Mykonos_restaurant_assassinations", st: "Wikipedia (síntesis de fuentes)" },
+    sabotaje: { ev: 2, x: "El virus Shamoon borró datos de Saudi Aramco en 2012 y Albania atribuyó a Irán el ciberataque de 2022 contra su gobierno.", u: "https://en.wikipedia.org/wiki/Shamoon", st: "Wikipedia (síntesis de fuentes)" },
+    tortura: { ev: 1, x: "La ONU, Amnistía Internacional y videos filtrados de la cárcel de Evin documentan torturas a detenidos políticos.", u: "https://en.wikipedia.org/wiki/Evin_Prison", st: "Wikipedia (síntesis de fuentes)" },
+    secuestro: { ev: 1, x: "Secuestró a opositores en Dubái, Estambul e Irak y los llevó a Irán, donde varios fueron ejecutados.", u: "https://en.wikipedia.org/wiki/Jamshid_Sharmahd", st: "Wikipedia (síntesis de fuentes)" },
+    propaganda: { ev: 1, x: "Grupos iraníes crearon sitios de noticias falsos dirigidos al público de EE.UU. en 2024, según la ODNI y Microsoft.", u: "https://en.wikipedia.org/wiki/Iranian_interference_in_the_2024_United_States_elections", st: "Wikipedia (síntesis de fuentes)" },
+    conflictos: { ev: 1, x: "La Fuerza Quds arma a milicias en Irak, Líbano, Siria y Yemen, que participan en guerras regionales.", u: "https://en.wikipedia.org/wiki/Quds_Force", st: "Wikipedia (síntesis de fuentes)" },
+    cultural: { ev: 1, x: "Alemania cerró en 2024 el Centro Islámico de Hamburgo por considerarlo un brazo del líder supremo; EE.UU. sancionó en 2020 a la universidad Al-Mustafa por reclutar para la Fuerza Quds.", u: "https://en.wikipedia.org/wiki/Islamic_Centre_Hamburg", st: "Wikipedia (síntesis de fuentes)" },
+    golpes: { ev: 2, x: "Bahréin denunció en 1981 un intento de golpe de un grupo chiíta apoyado por Irán.", u: "https://en.wikipedia.org/wiki/1981_Bahraini_coup_attempt", st: "Wikipedia (síntesis de fuentes)" },
+    elecciones: { ev: 1, x: "Hackers de la Guardia robaron documentos de la campaña de Donald Trump en 2024 e intentaron difundirlos, según el FBI y la ODNI.", u: "https://en.wikipedia.org/wiki/Iranian_interference_in_the_2024_United_States_elections", st: "Wikipedia (síntesis de fuentes)" },
+    partidos: { ev: 1, x: "Financia y arma a Hezbolá, que también es un partido con bancas en el Parlamento libanés, y apoya a partidos y milicias en Irak.", u: "https://en.wikipedia.org/wiki/Hezbollah", st: "Wikipedia (síntesis de fuentes)" },
+    diaspora: { ev: 1, x: "En el plan de 2018 el diplomático Assadi usó a una pareja belga de origen iraní para llevar la bomba; ambos fueron condenados.", u: "https://en.wikipedia.org/wiki/Assadollah_Assadi", st: "Wikipedia (síntesis de fuentes)" },
+    empresarios: { ev: 1, x: "El comerciante de oro Reza Zarrab montó con un banco turco un esquema para mover fondos iraníes pese a las sanciones; lo reconoció ante la justicia de EE.UU.", u: "https://en.wikipedia.org/wiki/Reza_Zarrab", st: "Wikipedia (síntesis de fuentes)" },
+    religiosos: { ev: 2, x: "La justicia argentina acusa al clérigo y agregado cultural Mohsen Rabbani de organizar la red del atentado a la AMIA desde mezquitas de Buenos Aires.", u: "https://en.wikipedia.org/wiki/Mohsen_Rabbani", st: "Wikipedia (síntesis de fuentes)" },
+    armas: { ev: 1, x: "Entregó misiles y drones a Hezbolá y a los hutíes, y vendió drones Shahed a Rusia para la guerra en Ucrania.", u: "https://en.wikipedia.org/wiki/HESA_Shahed_136", st: "Wikipedia (síntesis de fuentes)" },
+    inteligencia: { ev: 1, x: "Comparte información y planificación con Hezbolá, los hutíes y milicias de Irak.", u: "https://en.wikipedia.org/wiki/Quds_Force", st: "Wikipedia (síntesis de fuentes)" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados de exportación iraní de tecnología de vigilancia." },
+    entrenamiento: { ev: 1, x: "La Fuerza Quds entrena a Hezbolá y a milicias de Irak, Siria y Yemen.", u: "https://en.wikipedia.org/wiki/Quds_Force", st: "Wikipedia (síntesis de fuentes)" }
+  },
+  dinero: {
+    presupuesto: "El presupuesto nacional incluye partidas para el MOIS y la Guardia, pero sin detalle. Esta ficha no encontró cifras verificadas recientes; buena parte del dinero de la Guardia viene de fuera del presupuesto.",
+    uso: "Represión interna, aliados armados en la región, programa de misiles y drones, y operaciones en el exterior. EE.UU. estima que Irán dio a Hezbolá cientos de millones de dólares por año.",
+    ingresos: "La Guardia controla un conglomerado de empresas de construcción, energía y telecomunicaciones, y vende petróleo por fuera de las sanciones a través de intermediarios.",
+    empresas: "Khatam al-Anbiya, el brazo de ingeniería de la Guardia, gana contratos públicos enormes. Redes de empresas pantalla compran tecnología y mueven petróleo en el exterior.",
+    bancos: "Para evadir sanciones usó casas de cambio, bancos de países amigos y comerciantes de oro, como en el esquema con el banco turco Halkbank juzgado en EE.UU.",
+    crimen: "Contrata a narcotraficantes y pandillas en Europa para vigilar y atacar; EE.UU. sancionó en 2025 a la banda sueca Foxtrot por trabajar para Irán. En 2011 un agente intentó contratar a un cártel mexicano para matar al embajador saudí en Washington.",
+    cobertura: "Usa centros islámicos, universidades religiosas, agregadurías culturales y fundaciones de caridad, según gobiernos europeos, EE.UU. y la justicia argentina."
+  },
+  fondos: [
+    { k: "fachada", rol: "autor", ev: 1, d: "1990–", h: "Khatam al-Anbiya", x: "El cuartel de construcción de la Guardia se convierte en uno de los mayores contratistas del país, en petróleo, gas, represas y transporte.", obj: "Financiar a la Guardia y darle poder económico.", who: "Sanciones de EE.UU. y la Unión Europea", u: "https://en.wikipedia.org/wiki/Khatam-al-Anbiya_Construction_Headquarters", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "banco", rol: "autor", ev: 1, d: "2012–2016", h: "Oro por gas en Halkbank", x: "Un comerciante de oro y un banco estatal turco mueven miles de millones de dólares de Irán por fuera de las sanciones; un directivo del banco fue condenado en EE.UU. en 2018.", monto: "Miles de millones de dólares, según la acusación", obj: "Cobrar exportaciones de energía pese a las sanciones.", who: "Justicia de EE.UU.", u: "https://en.wikipedia.org/wiki/Reza_Zarrab", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "crimen", rol: "autor", ev: 1, d: "2011", h: "El cártel y el embajador saudí", x: "Un iraní-estadounidense intenta contratar a sicarios de un cártel mexicano, que en realidad eran informantes, para matar al embajador saudí en EE.UU.; fue condenado a 25 años.", obj: "Asesinato en territorio estadounidense.", who: "Justicia de EE.UU.", u: "https://en.wikipedia.org/wiki/2011_alleged_Iran_assassination_plot", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "crimen", rol: "autor", ev: 1, d: "2023–2025", h: "La red Foxtrot", x: "EE.UU. sanciona a una banda criminal sueca y a su jefe por hacer ataques contra blancos judíos e israelíes por encargo de Irán.", obj: "Atacar sin exponer a oficiales iraníes.", who: "Tesoro de EE.UU. (2025) y servicio de seguridad sueco", u: "https://en.wikipedia.org/wiki/Foxtrot_network", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "cobertura", rol: "autor", ev: 1, d: "1953–2024", h: "El Centro Islámico de Hamburgo", x: "Alemania prohíbe y cierra en 2024 el centro de la Mezquita Azul de Hamburgo por difundir la ideología del régimen y apoyar a Hezbolá.", obj: "Influencia religiosa y política en la diáspora.", who: "Ministerio del Interior de Alemania", u: "https://en.wikipedia.org/wiki/Islamic_Centre_Hamburg", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "cobertura", rol: "autor", ev: 2, d: "1983–1994", h: "El agregado cultural de Buenos Aires", x: "Según la justicia argentina, el clérigo Mohsen Rabbani usó su cargo cultural y mezquitas para armar la red del atentado a la AMIA.", obj: "Preparar el atentado.", who: "Justicia argentina; Irán lo niega", u: "https://en.wikipedia.org/wiki/Mohsen_Rabbani", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "Khatam al-Anbiya", c: "nacional", rubro: "Construcción y energía", rel: "Propiedad de la Guardia", x: "Brazo de ingeniería de la Guardia, sancionado por EE.UU. y la Unión Europea." },
+    { n: "Telecommunication Company of Iran", c: "nacional", rubro: "Telecomunicaciones", rel: "Control indirecto de la Guardia", x: "Un consorcio vinculado a la Guardia compró en 2009 la mayoría de la empresa de telecomunicaciones estatal." },
+    { n: "Halkbank", c: "extranjera", rubro: "Banca", rel: "Evasión de sanciones", x: "Banco estatal turco juzgado en EE.UU. por ayudar a Irán a mover fondos." },
+    { n: "Proveedores chinos de telecomunicaciones", c: "extranjera", rubro: "Telecomunicaciones", rel: "Proveedores", x: "Empresas chinas proveyeron equipos de red que, según la prensa, permiten la interceptación." }
+  ],
+  struggles: [
+    { a: "MOIS", b: "Inteligencia de la Guardia", k: "Entre agencias", stake: "Control de la seguridad interna", state: "Abierta", x: "Los dos servicios compiten por casos y recursos; tras 2026 la Guardia concentra más poder." },
+    { a: "Guardia y líder supremo", b: "Gobierno de Pezeshkian", k: "Con la política", stake: "Conducción del Estado", state: "Latente", x: "Mojtaba Jamenei repartió los cargos de seguridad entre aliados de la Guardia; el gobierno civil tiene poco margen." },
+    { a: "Régimen", b: "Sociedad", k: "Con la sociedad civil", stake: "Supervivencia del régimen", state: "Abierta", x: "Las protestas de 2022 y 2026 fueron reprimidas con miles de muertos y ejecuciones." },
+    { a: "Irán", b: "Israel y EE.UU.", k: "Con otros Estados", stake: "Programa nuclear e influencia regional", state: "Abierta", x: "Tras la guerra de 2026 hay un acuerdo para terminarla, pero la guerra encubierta sigue." }
+  ],
+  sources: [
+    { t: "Al Jazeera: Mojtaba Jamenei, nuevo líder supremo", u: "https://www.aljazeera.com/news/2026/3/8/iran-names-khameneis-son-as-new-supreme-leader-after-fathers-killing-2" },
+    { t: "Al Jazeera: Irán confirma la muerte del ministro de Inteligencia", u: "https://aljazeera.com/news/2026/3/18/israel-says-it-killed-iran-intel-minister-in-third-assassination-in-2-days" },
+    { t: "Asharq Al-Awsat: el misterio en la conducción de la inteligencia iraní", u: "https://english.aawsat.com/world/5308515-mystery-shrouds-leadership-iran%E2%80%99s-intelligence-agencies" },
+    { t: "Iran International: Mojtaba Jamenei reorganiza el mando militar", u: "https://www.iranintl.com/en/202608102529" },
+    { t: "The New Arab: el nuevo mando de Irán", u: "https://www.newarab.com/news/irans-supreme-leader-just-overhauled-its-military-leadership?amp=1" },
+    { t: "Amnistía Internacional: qué pasó en las protestas", u: "https://www.amnesty.org/en/latest/news/2026/01/what-happened-at-the-protests-in-iran/" },
+    { t: "RTÉ (AFP): balance de HRANA", u: "https://www.rte.ie/news/world/2026/0126/1555169-iran-protests-toll" },
+    { t: "AA: cronología de la guerra de 108 días", u: "https://aa.com.tr/en/us-israel-iran-war/timeline-how-the-us-israel-war-with-iran-unfolded-over-108-days/3967739" },
+    { t: "Al-Monitor: ejecuciones por espionaje", u: "https://www.al-monitor.com/originals/2026/04/iran-executes-14th-person-war-over-alleged-mossad-ties-what-know" },
+    { t: "Universidad Nacional de Servicio Público de Hungría: terrorismo vinculado a Irán en Europa en 2026", u: "https://jli.uni-nke.hu/document/jli-uni-nke-hu/Analyses_2026_17_Terrorist%20activity%20linked%20to%20Iran%20in%20Europe%20in%202026_(Kemeny%20J.).pdf" },
+    { t: "El Litoral: juicio en ausencia por la AMIA", u: "https://www.ellitoral.com/politica/juicio-ausencia-amia-atentado-decision-judicial-iranies-acusados-justicia-federal-rafecas-procesamiento_0_zQENsx9zVe.html" }
   ]
- },
- "rights": [
-  {
-   "d": "1952",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1959",
-   "dir": "recorta",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1971",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1977",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1986",
-   "dir": "recorta",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1993",
-   "dir": "recorta",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "2000",
-   "dir": "recorta",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2010",
-   "dir": "amplia",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2020",
-   "dir": "amplia",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  }
- ],
- "events": [
-  {
-   "d": "1962-08-11",
-   "lat": 37.36,
-   "lon": 53.31,
-   "t": "senales",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1966-05-24",
-   "lat": 25.93,
-   "lon": 17.61,
-   "t": "sabotaje",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1971-04-06",
-   "lat": 39.69,
-   "lon": 63.62,
-   "t": "ciber",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1975-02-24",
-   "lat": 38.47,
-   "lon": 55.69,
-   "t": "contra",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1981-09-10",
-   "lat": 0.73,
-   "lon": -1.47,
-   "t": "contra",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1982-11-25",
-   "lat": 32.93,
-   "lon": -101.51,
-   "t": "senales",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1990-01-25",
-   "lat": 43.12,
-   "lon": 85.56,
-   "t": "humana",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1992-04-27",
-   "lat": 50.94,
-   "lon": -123.3,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1996-07-11",
-   "lat": 32.23,
-   "lon": 46.14,
-   "t": "contra",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2002-09-02",
-   "lat": 34.56,
-   "lon": 51.35,
-   "t": "senales",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2007-04-11",
-   "lat": 32.78,
-   "lon": 52.29,
-   "t": "sabotaje",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2010-07-08",
-   "lat": 37.48,
-   "lon": 51.85,
-   "t": "encubierta",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2016-02-02",
-   "lat": -0.99,
-   "lon": -30.5,
-   "t": "sabotaje",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2022-07-20",
-   "lat": 24.17,
-   "lon": 68.26,
-   "t": "humana",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  }
- ],
- "interest": {
-  "Russia": 1,
-  "United Kingdom": 3,
-  "France": 2,
-  "Ukraine": 2,
-  "India": 1,
-  "Pakistan": 2,
-  "Syria": 2,
-  "Afghanistan": 2,
-  "Venezuela": 2,
-  "Argentina": 1,
-  "Vietnam": 1
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "2013",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "2022",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "1989",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "2018",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1990",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1978",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };

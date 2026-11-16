@@ -60,6 +60,8 @@ window.PRACTICAS = [
   { g: "Cómo influyen en otras sociedades", k: "propaganda", n: "Propaganda y desinformación", x: "Mensajes, medios, cuentas falsas o noticias inventadas dirigidas a la población de otro país." },
   { g: "Cómo influyen en otras sociedades", k: "conflictos", n: "Fomentar divisiones y conflictos", x: "Avivar tensiones políticas, étnicas o religiosas, desestabilizar gobiernos o provocar choques." },
   { g: "Cómo influyen en otras sociedades", k: "cultural", n: "Influencia cultural, religiosa e ideológica", x: "Institutos, becas, revistas, fundaciones, centros de estudio, iglesias o movimientos culturales, religiosos, ideológicos y filosóficos financiados en secreto o usados para influir." },
+  { g: "Cómo influyen en otras sociedades", k: "golpes", n: "Derrocar gobiernos", x: "Golpes de Estado, intentos de derrocamiento o desestabilización de un gobierno extranjero." },
+  { g: "Cómo influyen en otras sociedades", k: "elecciones", n: "Intervención en elecciones", x: "Hackeos, filtraciones, desinformación, dinero o presión para torcer una elección, propia o ajena." },
   { g: "Cómo influyen en otras sociedades", k: "partidos", n: "Financiamiento de partidos y candidatos", x: "Dinero, apoyo o campañas a favor de partidos, candidatos o movimientos políticos de otro país." },
   { g: "A quién usan como agentes", k: "diaspora", n: "Emigrantes y diáspora", x: "Ciudadanos propios o sus descendientes que viven en otro país, usados como fuentes, agentes o para vigilar a otros emigrantes." },
   { g: "A quién usan como agentes", k: "empresarios", n: "Empresarios y empresas", x: "Hombres de negocios, ejecutivos o compañías usados como fuentes, agentes o cobertura." },
