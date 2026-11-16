@@ -1,851 +1,147 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Dinamarca · contenido real · revisada el 2026-11-16
 (window.FICHAS = window.FICHAS || {})["dk"] = {
- "sample": true,
- "id": "dk",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Dinamarca: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "3",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 2,
-  "senales": 4,
-  "ciber": 3,
-  "imagenes": 1,
-  "encubierta": 1,
-  "contra": 3
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "RSU": {
-   "since": 1957,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comité de Seguridad del Gobierno: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "FE": {
-   "since": 1980,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio de Inteligencia de Defensa: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "PET": {
-   "since": 1999,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio de Seguridad e Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "TET": {
-   "since": 1979,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Autoridad de Control de los Servicios de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "dk",
+  updated: "2026-11-16",
+  summary: [
+    "Dinamarca tiene dos servicios: el Servicio de Inteligencia de Defensa (FE), que se ocupa del exterior y de las señales, y el Servicio de Seguridad e Inteligencia (PET), de la seguridad interna. Por su posición entre el mar del Norte y el Báltico, por donde pasan cables clave, es un socio valioso de la NSA estadounidense.",
+    "Esa cercanía generó un escándalo: en 2021 la televisión pública DR reveló que el FE ayudó a la NSA a espiar, a través de cables daneses, a dirigentes europeos como Angela Merkel. El ex jefe del FE Lars Findsen fue acusado de filtrar secretos, pero la causa se cerró en 2023.",
+    "Desde 2025 la relación con EE.UU. es tensa por el interés de Donald Trump en Groenlandia. En agosto de 2025 Dinamarca convocó al principal diplomático estadounidense después de que informes de inteligencia señalaran operaciones de influencia encubiertas de estadounidenses ligados a Trump en la isla. El PET reforzó su presencia en Groenlandia."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Operación con la NSA", v: "Escuchas a líderes europeos", n: "revelada por DR en 2021" },
+    { l: "Ex jefe del FE", v: "Lars Findsen", n: "acusado de filtración; causa cerrada en 2023" },
+    { l: "Groenlandia", v: "Diplomático de EE.UU. convocado", n: "agosto de 2025" },
+    { l: "Socio de la NSA", v: "Desde la Guerra Fría", n: "cables que cruzan Dinamarca" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 2, senales: 4, ciber: 3, imagenes: 2, encubierta: 1, contra: 3 },
+  powerWhy: {
+    humana: "Servicio chico, centrado en Rusia, el Ártico y el terrorismo.",
+    senales: "Interceptación de cables clave en cooperación con la NSA.",
+    ciber: "Centro de ciberseguridad dentro del FE.",
+    imagenes: "Vigilancia del Ártico con apoyo aliado.",
+    encubierta: "No hay operaciones encubiertas documentadas.",
+    contra: "Detecta influencias en Groenlandia y espionaje ruso."
+  },
+  priorities: [
+    { h: "Rusia", x: "Báltico, sabotaje y drones sobre infraestructura." },
+    { h: "Groenlandia", x: "Influencia de EE.UU., China y Rusia." },
+    { h: "Ártico", x: "Rutas marítimas y presencia militar." },
+    { h: "Terrorismo", x: "Islamismo y extrema derecha." },
+    { h: "Ciberseguridad", x: "Ataques a infraestructura crítica." }
+  ],
+  focos: ["Rusia", "Groenlandia", "Ártico", "Estados Unidos", "China"],
+  bodies: {
+    "RSU": { since: 2010, how: "Comité de Seguridad del Gobierno, presidido por el primer ministro.", staff: "No aplica.", budget: "No aplica.", tech: [], where: ["Copenhague"] },
+    "FE": { since: 1967, how: "Servicio de Inteligencia de Defensa: inteligencia exterior, señales y ciberseguridad.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: ["Interceptación de cables", "Centro de ciberseguridad"], where: ["Copenhague"] },
+    "PET": { since: 1951, how: "Servicio de Seguridad e Inteligencia: contraespionaje, terrorismo y protección, incluida Groenlandia.", staff: "No se publica.", budget: "Dentro de Justicia.", tech: [], where: ["Søborg"] },
+    "TET": { since: 2014, how: "Autoridad de Control de los Servicios de Inteligencia: supervisa al FE y al PET.", staff: "No se publica.", budget: "Público.", tech: [], where: ["Copenhague"] }
+  },
+  civil: [
+    "El FE responde al Ministerio de Defensa y el PET al de Justicia.",
+    "La autoridad de control TET denunció en 2020 irregularidades del FE.",
+    "Un comité parlamentario recibe información de ambos servicios."
+  ],
+  law: {
+    domestic: [
+      "La ley del FE de 2013 regula sus funciones y prohíbe espiar a residentes daneses.",
+      "La ley del PET de 2013 regula la seguridad interna.",
+      "Leyes de 2025 ampliaron el registro de inversiones extranjeras en sectores críticos."
+    ],
+    foreign: [
+      "El FE puede operar en el exterior y compartir datos con aliados."
+    ],
+    oversight: [
+      "Autoridad de Control de los Servicios de Inteligencia (TET).",
+      "Comité de Servicios de Inteligencia del Parlamento."
+    ]
+  },
+  rights: [
+    { d: "2014", dir: "recorta", area: "Privacidad", h: "Autoridad de control", x: "Se crea el TET para supervisar a los servicios." },
+    { d: "2020-08", dir: "recorta", area: "Privacidad", h: "Informe del TET", x: "La autoridad acusa al FE de reunir datos de ciudadanos daneses y de ocultar información." }
+  ],
+  events: [
+    { d: "2014", lat: 55.65, lon: 12.1, c: "Denmark", t: "senales", ev: 1, h: "Operación Dunhammer", x: "El FE ayuda a la NSA a interceptar a dirigentes europeos a través de cables daneses, según DR.", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2025-08-27", lat: 66.0, lon: -45.0, c: "Greenland", t: "humana", ev: 2, h: "Influencia en Groenlandia", x: "Dinamarca convoca al diplomático estadounidense por operaciones de influencia de personas ligadas a Trump.", u: "https://www.aljazeera.com/news/2025/8/27/denmark-summons-us-diplomat-over-greenland-interference-attempts", st: "Al Jazeera" }
+  ],
+  interest: {
+    "Russia": 3, "Greenland": 3, "United States of America": 2, "China": 2, "Iran": 1, "Sweden": 1, "Germany": 1
+  },
+  timeline: [
+    { era: "Guerra Fría", d: "1951", h: "Nace el PET", x: "Servicio de seguridad ligado a la OTAN." },
+    { era: "", d: "1967", h: "Nace el FE", x: "Inteligencia de defensa y señales." },
+    { era: "Siglo XXI", d: "2020", h: "Escándalo del FE", x: "La autoridad de control denuncia al servicio." },
+    { era: "", d: "2021", h: "Dunhammer", x: "Se revela el espionaje a líderes europeos con la NSA." },
+    { era: "Actual", d: "2025–2026", h: "Groenlandia", x: "Tensión con EE.UU. por la isla.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2012–2014", h: "Dunhammer", x: "Un informe interno del FE citado por DR concluyó que la NSA usó cables daneses para espiar a dirigentes de Alemania, Francia, Suecia y Noruega con ayuda danesa. El gobierno no lo desmintió.", who: "DR, sobre un informe interno del FE", missing: "", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "2025", h: "La influencia en Groenlandia", x: "Informes de inteligencia citados por DR señalaron que al menos tres estadounidenses ligados a la administración Trump hicieron operaciones de influencia para promover la separación de Groenlandia. Dinamarca convocó al diplomático de EE.UU.; Washington no comentó el fondo.", who: "Gobierno de Dinamarca y DR", missing: "Identificación pública y pruebas.", u: "https://www.thestar.com.my/news/world/2025/08/27/danish-foreign-minister-summons-us-diplomat-over-greenland-broadcaster-reports", st: "Reuters, vía The Star" }
+  ],
+  failures: [
+    { k: "falla", d: "2020", ev: 1, w: 3, h: "El FE fuera de control", x: "La autoridad de control concluyó que el FE reunió datos de daneses y ocultó información al organismo.", why: "Lo dijo la autoridad de control; un estudio posterior relativizó parte de las acusaciones.", wx: "Informe del TET y comisión posterior.", who: "Autoridad de Control (TET)", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "Oficiales y agregados en embajadas; el PET actúa en Groenlandia.",
+    campo: "Fuentes humanas limitadas; foco en Rusia y el Ártico.",
+    oficina: "El FE publica una evaluación anual de amenazas.",
+    reclutamiento: "Personal militar y civil por concurso.",
+    tecnica: "Interceptación de cables con apoyo de la NSA.",
+    enlaces: "NSA, servicios nórdicos y OTAN; desconfianza creciente con EE.UU. desde 2025."
+  },
+  insiders: [
+    { k: "denunciante", dir: "sale", ev: 1, d: "2020", n: "Denunciante del FE", h: "El empleado que alertó a la autoridad de control", x: "Un empleado entregó a la autoridad de control información sobre irregularidades del FE.", cargo: "Empleado del FE", hacia: "Autoridad de Control (TET)", fin: "Su identidad no se hizo pública.", who: "Autoridad de Control (TET)", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "sale", ev: 3, d: "2021", n: "Lars Findsen", h: "El jefe acusado de filtrar", x: "El ex director del FE fue detenido y acusado de revelar secretos de Estado; él lo negó.", cargo: "Director del FE", hacia: "Periodistas, según la acusación", fin: "La fiscalía retiró los cargos en 2023.", who: "Fiscalía de Dinamarca", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "filtracion", rol: "autor", ev: 1, d: "2021-05", h: "Dunhammer", x: "Se publica el informe interno sobre la cooperación con la NSA contra líderes europeos.", obj: "Exponer el espionaje a aliados.", who: "DR", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  practicas: {
+    propios: { ev: 2, x: "El FE reunió datos de ciudadanos daneses, según la autoridad de control.", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    periodistas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    activistas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    aliados: { ev: 1, x: "Ayudó a la NSA a espiar a líderes europeos, según DR.", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
+    rivales: { ev: 1, x: "Rusia es el blanco central.", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    conflictos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    partidos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    armas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    inteligencia: { ev: 1, x: "Comparte inteligencia de señales con la NSA.", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "Los presupuestos del FE y el PET figuran en los de Defensa y Justicia. Esta ficha no encontró las cifras de 2026 verificadas.",
+    uso: "Interceptación, ciberseguridad y contraespionaje.",
+    ingresos: "Esta ficha no encontró ingresos propios.",
+    empresas: "Esta ficha no encontró empresas de fachada documentadas.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "Esta ficha no encontró casos documentados.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
+  },
+  fondos: [
+    { k: "presupuesto", rol: "autor", ev: 1, d: "2008–2014", h: "El centro de datos con la NSA", x: "Dinamarca financió con la NSA un centro de procesamiento de datos de cables en Sandagergård, según DR.", obj: "Interceptar el tráfico que cruza el país.", who: "DR", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "TDC", c: "nacional", rubro: "Telecomunicaciones", rel: "Infraestructura", x: "Principal operadora danesa, dueña de cables usados en la interceptación." }
+  ],
+  struggles: [
+    { a: "Dinamarca", b: "EE.UU.", k: "Con otros Estados", stake: "Groenlandia", state: "Abierta", x: "Convocatorias diplomáticas y desconfianza entre aliados." }
+  ],
+  sources: [
+    { t: "Al Jazeera: Dinamarca convoca al diplomático de EE.UU. (2025)", u: "https://www.aljazeera.com/news/2025/8/27/denmark-summons-us-diplomat-over-greenland-interference-attempts" },
+    { t: "Reuters: influencia encubierta en Groenlandia", u: "https://www.thestar.com.my/news/world/2025/08/27/danish-foreign-minister-summons-us-diplomat-over-greenland-broadcaster-reports" },
+    { t: "Wikipedia: Danish Defence Intelligence Service", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service" }
   ]
- },
- "rights": [
-  {
-   "d": "1953",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1959",
-   "dir": "recorta",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1969",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1977",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1985",
-   "dir": "recorta",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1991",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2003",
-   "dir": "recorta",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2010",
-   "dir": "amplia",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2017",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  }
- ],
- "events": [
-  {
-   "d": "1961-09-11",
-   "lat": 34.14,
-   "lon": 9.17,
-   "t": "humana",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1968-11-26",
-   "lat": 54.94,
-   "lon": 10.94,
-   "t": "sabotaje",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1972-12-15",
-   "lat": 44.08,
-   "lon": 10.14,
-   "t": "contra",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1975-01-17",
-   "lat": 25.18,
-   "lon": 106.14,
-   "t": "humana",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1981-05-24",
-   "lat": 24.23,
-   "lon": -50.74,
-   "t": "sabotaje",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1984-03-20",
-   "lat": 49.23,
-   "lon": -58.2,
-   "t": "sabotaje",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1989-11-17",
-   "lat": 26.01,
-   "lon": -102.01,
-   "t": "ciber",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1994-10-14",
-   "lat": 52.44,
-   "lon": 13.54,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1998-10-07",
-   "lat": 36.45,
-   "lon": -32.09,
-   "t": "senales",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2002-10-10",
-   "lat": 59.59,
-   "lon": 18,
-   "t": "sabotaje",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2009-11-14",
-   "lat": 59.64,
-   "lon": 7.75,
-   "t": "encubierta",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2013-08-04",
-   "lat": 47.74,
-   "lon": 52.07,
-   "t": "sabotaje",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2016-11-13",
-   "lat": -2.68,
-   "lon": 30.89,
-   "t": "humana",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2021-03-01",
-   "lat": 5.16,
-   "lon": 11.01,
-   "t": "sabotaje",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  }
- ],
- "interest": {
-  "Germany": 2,
-  "Israel": 1,
-  "Ukraine": 2,
-  "India": 3,
-  "Pakistan": 1,
-  "Syria": 1,
-  "Afghanistan": 3,
-  "Argentina": 2,
-  "Japan": 3,
-  "South Korea": 1,
-  "Egypt": 3,
-  "Libya": 2,
-  "Mali": 2,
-  "Poland": 1,
-  "Serbia": 2,
-  "Philippines": 3,
-  "Colombia": 1
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1972",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1979",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2016",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "2016",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "2004",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "2009",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
