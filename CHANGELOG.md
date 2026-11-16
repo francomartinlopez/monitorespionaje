@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ola 3 completa el núcleo: ficha real del Vaticano (Secretaría de Estado, nunciaturas, Gendarmería, Guardia Suiza y ASIF). Advertencia de León XIV sobre los servicios (dic. 2025), denuncia de espionaje de EE.UU. (Klippenstein, abril de 2026, como "denuncia sin pruebas firmes"), misión rusa mencionada en la causa de Roma, caso Becciu y pagos a Marogna (en apelación), Vatileaks, rutas de escape nazis, Ambrosiano. El validador ya no compara coordenadas en microestados.
+
 - 2026-11-15 · Ola 3: ficha real de Corea del Norte. La RGB pasa a llamarse Oficina General de Información de Reconocimiento (2025) y la Seguridad del Estado, Oficina Estatal de Información (2026); se actualizaron los nombres en el organigrama. Robos de Bybit, KelpDAO y del primer semestre de 2026, esquema de informáticos falsos, secuestros de japoneses, Rangún, vuelo 858, Kim Jong Nam, tropas en Rusia; prácticas y dinero completos.
 
 - 2026-11-15 · Ola 3: ficha real de Irán (Consejo Supremo de Seguridad Nacional, MOIS, inteligencia de la Guardia, Fuerza Quds y FARAJA): masacre de enero de 2026, guerra y muerte de Alí Jamenei, muerte del ministro Jatib y del jefe de inteligencia de la Guardia Jademi, reparto de cargos de agosto; 14 operaciones desde Bajtiar hasta 2026, AMIA con nivel "con sustento sólido", 7 casos, 6 fallas, 5 topos y desertores, 6 filtraciones y ocultamientos, prácticas y dinero completos.

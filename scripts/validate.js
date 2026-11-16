@@ -2,6 +2,8 @@
 // Uso: node scripts/validate.js            → controla los datos
 //      node scripts/validate.js --browser  → además abre todas las páginas en Chromium (requiere playwright de Python)
 // Sale con código 1 si hay errores. Los avisos no bloquean.
+// Microestados: el mapa 1:110M no tiene resolución para comprobar coordenadas.
+const TINY = new Set(["Vatican", "Monaco", "San Marino", "Liechtenstein", "Andorra", "Malta", "Singapore", "Bahrain"]);
 const fs = require("fs"), path = require("path"), vm = require("vm"), { execFileSync } = require("child_process");
 const root = path.join(__dirname, "..");
 const ctx = {}; ctx.window = ctx; vm.createContext(ctx);
@@ -47,7 +49,7 @@ Object.entries(FICHAS).forEach(([id, f]) => {
     if (!EV_TYPES[e.t]) err(w, `events[${i}] tipo inválido "${e.t}"`);
     if (!e.nomap && !(Math.abs(e.lat) <= 90 && Math.abs(e.lon) <= 180)) err(w, `events[${i}] coordenadas inválidas`);
     if (!f.sample && !isUrl(e.u)) err(w, `events[${i}] sin fuente (u)`);
-    if (!f.sample && e.c && byName[e.c] && !e.nomap && !e.disputed && !d3.geoContains(byName[e.c], [e.lon, e.lat])) warn(w, `events[${i}] "${e.h}": las coordenadas no caen en ${e.c}`);
+    if (!f.sample && e.c && byName[e.c] && !e.nomap && !e.disputed && !TINY.has(e.c) && !d3.geoContains(byName[e.c], [e.lon, e.lat])) warn(w, `events[${i}] "${e.h}": las coordenadas no caen en ${e.c}`);
   });
   for (let i = 1; i < (f.events || []).length; i++) if (f.events[i].d < f.events[i - 1].d) warn(w, `events no están en orden de fecha (${f.events[i].d})`);
   (f.cases || []).forEach((c, i) => {
