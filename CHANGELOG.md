@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ola 4: ficha real de Pakistán (NSD, ISI, IB, MI y FIA). Asim Malik al frente de la ISI y como asesor de seguridad nacional, condena de Faiz Hameed, carta de los jueces de Islamabad, autorización de escuchas de 2024 y sistema de vigilancia masiva (Amnistía), desapariciones forzadas, Mehran Bank, Bombay 2008 y Pahalgam 2025 (denuncia sin pruebas firmes), Abbottabad, ataques en Afganistán de 2026; prácticas y dinero completos.
+
 - 2026-11-15 · Ola 4: ficha real de Turquía (MGK, MİT, inteligencia de la Gendarmería, de la policía y del Estado Mayor). Kalın al frente del MİT, presupuesto 2025-2026, desarme del PKK supervisado por el MİT, camiones a Siria, París 2013, plan contra Berivan Aslan, traslados forzados (Kosovo, Kenia), Khashoggi, redes atribuidas a Israel, Irán y los Emiratos, causa de espionaje contra İmamoğlu (denuncia sin pruebas firmes), combatientes sirios en Libia y el Cáucaso; prácticas y dinero completos.
 
 - 2026-11-15 · Ola 4: ficha real de Ucrania (CNSD, SZRU, SBU, GUR y comisión de la Rada) con la cúpula de 2026 (Ivashchenko en la GUR, Poklad interino en el SBU, Umerov en el SZRU). Puente de Crimea, Telaraña, ataque al puesto del FSB en Donetsk, Nord Stream (con sustento sólido, juicio en Hamburgo), caso Kaplunov y tiroteo SBU-GUR, caso Midas; prácticas y dinero completos.
