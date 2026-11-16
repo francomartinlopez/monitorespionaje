@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Venezuela: SEBIN, DGCIM y CICPC; la captura de Maduro (enero de 2026) y la transición de Delcy Rodríguez, los crímenes de lesa humanidad según la ONU, El Helicoide, el caso Ojeda en Chile y los desertores Figuera y Carvajal.
+
 - 2026-11-15 · Ficha real de Bielorrusia: KGB, GUBOPiK, Centro Operativo y Analítico y GRU; el desvío del vuelo de Ryanair, los desaparecidos de 1999-2000, la represión de 2020, los presos políticos como moneda de negociación y los globos sobre Lituania.
 
 - 2026-11-15 · Ficha real de Países Bajos: AIVD, MIVD, NCTV y CTIVD; el hackeo ruso frustrado a la OPAQ, el falso brasileño en la CPI, Laundry Bear, Stuxnet según de Volkskrant y la ley de interceptación masiva.
