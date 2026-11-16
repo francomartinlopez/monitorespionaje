@@ -283,7 +283,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       </section>
 
       <section class="block" id="sec-practicas">
-        <h2>Qué hacen y a quién espían <small>Si hay casos documentados de espionaje a su propio gobierno, a políticos, periodistas, activistas, aliados y rivales; de extorsión, asesinatos, tortura y secuestros; y de armas, inteligencia, tecnología y entrenamiento dados a otros</small></h2>
+        <h2>Qué hacen y a quién espían <small>A quién espían; si hay casos de extorsión, asesinatos, sabotajes, tortura y secuestros; cómo influyen en otras sociedades con propaganda, conflictos, ideas y dinero; a quién usan como agentes (emigrantes, empresarios, religiosos); y qué dan a otros países</small></h2>
         ${pracBlock(f)}
       </section>
 
