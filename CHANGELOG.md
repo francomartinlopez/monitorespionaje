@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ola 5: ficha real de Cuba (MININT, DI, contrainteligencia y contrainteligencia militar). Ramón Romero Curbelo al frente de la DI y visita de la CIA (mayo de 2026), 32 cubanos muertos en Caracas, Rocha, Montes, Myers, Red Avispa, derribo de 1996 y acusación a Raúl Castro, muerte de Payá (con sustento sólido, según la CIDH), informe del Departamento de Estado sobre el ICAP (denuncia sin pruebas firmes), caso Ochoa; prácticas y dinero completos.
+
 - 2026-11-15 · Ola 4 completa: ficha real de Arabia Saudita (CPSA, GIP, Seguridad del Estado e inteligencia militar). Khashoggi, espías de Twitter (condena de 2022), fallo británico de 2026 por Pegasus contra Ghanem al-Masarir, demanda de Saad al-Jabri sobre el "escuadrón del Tigre" (denuncia sin pruebas firmes), Ritz-Carlton, Hariri, red de cuentas de Smaat, Timber Sycamore, empresas Sakab; prácticas y dinero completos.
 
 - 2026-11-15 · Ola 4: ficha real de India (NSCS, R&AW, IB, NTRO, DIA y NIA). Parag Jain en la R&AW, Mahesh Dixit en la IB, caso Pannun (Gupta se declaró culpable en 2026), Nijjar bajado a "denuncia sin pruebas firmes" tras la declaración de la policía canadiense de julio de 2026, asesinatos en Pakistán según The Guardian, Pegasus y el comité de la Corte Suprema, comisión Hogue sobre interferencia en Canadá, Kargil, topos Rabinder Singh y Madhuri Gupta; prácticas y dinero completos.

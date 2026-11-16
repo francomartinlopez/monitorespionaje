@@ -1,851 +1,170 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Cuba · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["cu"] = {
- "sample": true,
- "id": "cu",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Cuba: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 4,
-  "senales": 2,
-  "ciber": 2,
-  "imagenes": 1,
-  "encubierta": 3,
-  "contra": 5
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "MININT": {
-   "since": 1964,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Ministerio del Interior: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "DI": {
-   "since": 1975,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Dirección de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "DGCI": {
-   "since": 1937,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Dirección General de Contrainteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "CIM": {
-   "since": 1910,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Contrainteligencia Militar: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "cu",
+  updated: "2026-11-15",
+  summary: [
+    "Los servicios cubanos dependen del Ministerio del Interior (MININT). La Dirección de Inteligencia (DI) trabaja en el exterior y la Dirección General de Contrainteligencia vigila a la población. Desde mayo de 2026 se sabe en público que la DI la dirige el general de brigada Ramón Romero Curbelo, que recibió en La Habana al director de la CIA, John Ratcliffe.",
+    "Pese a su tamaño, la DI logró algunas de las penetraciones más profundas en el gobierno de EE.UU.: la analista Ana Belén Montes en la Agencia de Inteligencia de Defensa, el funcionario Kendall Myers en el Departamento de Estado y el ex embajador Víctor Manuel Rocha, que espió desde 1981 y fue condenado en 2024.",
+    "Cuba exportó durante décadas seguridad e inteligencia a sus aliados, sobre todo a Venezuela. En enero de 2026 murieron 32 cubanos, 21 de ellos del MININT, durante la operación de EE.UU. que capturó a Nicolás Maduro; La Habana reconoció así una presencia que antes negaba.",
+    "En 2026 Washington endureció la presión: sanciones, corte del petróleo, la acusación contra Raúl Castro por el derribo de 1996 y un informe del Departamento de Estado que presenta a Cuba como centro de una red de espionaje e influencia en EE.UU. La Habana lo rechazó."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Jefe de la DI", v: "Ramón Romero Curbelo", n: "identificado en público en mayo de 2026" },
+    { l: "Ministro del Interior", v: "Lázaro Álvarez Casas", n: "" },
+    { l: "Cubanos muertos en Caracas", v: "32", n: "21 del MININT, el 3 ene 2026" },
+    { l: "Rocha", v: "15 años de prisión", n: "espió para Cuba desde 1981, condenado en abril de 2024" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 5, senales: 2, ciber: 2, imagenes: 1, encubierta: 3, contra: 5 },
+  powerWhy: {
+    humana: "Reclutó a funcionarios de alto nivel en EE.UU. durante décadas, apostando a la afinidad ideológica más que al dinero.",
+    senales: "Interceptación desde la isla con apoyo histórico soviético y ruso, de alcance limitado.",
+    ciber: "Capacidades modestas; esta ficha no encontró operaciones cibernéticas cubanas documentadas de envergadura.",
+    imagenes: "Sin satélites propios.",
+    encubierta: "Apoyo a guerrillas e infiltración de grupos del exilio; sus redes en Venezuela fueron sorprendidas en 2026.",
+    contra: "En 1987 un desertor reveló que casi todos los agentes de la CIA en la isla trabajaban en realidad para Cuba."
+  },
+  priorities: [
+    { h: "EE.UU.", x: "Penetrar el gobierno y anticipar la política de Washington hacia la isla." },
+    { h: "Exilio cubano", x: "Infiltrar y vigilar a los grupos de Miami y de América Latina." },
+    { h: "Control interno", x: "Vigilar a opositores, artistas y periodistas independientes." },
+    { h: "Aliados", x: "Sostener la seguridad de gobiernos amigos, como el de Venezuela." },
+    { h: "Supervivencia", x: "Negociar con EE.UU. en medio de la crisis energética de 2026." }
+  ],
+  focos: ["EE.UU.", "Exilio en Miami", "Venezuela", "Nicaragua", "Disidencia interna"],
+  bodies: {
+    "MININT": { since: 1961, how: "Ministerio del Interior que concentra la inteligencia, la contrainteligencia, la policía y las cárceles. Lo dirige Lázaro Álvarez Casas.", staff: "No se publica.", budget: "No se publica.", tech: [], where: ["La Habana"] },
+    "DI": { since: 1961, how: "Dirección de Inteligencia (antes Dirección General de Inteligencia): espionaje en el exterior, sobre todo en EE.UU. y América Latina. Recluta por afinidad ideológica y maneja a sus agentes durante décadas.", staff: "No se publica.", budget: "Secreto.", tech: ["Agentes de larga duración", "Mensajes cifrados por radio"], where: ["La Habana", "Embajadas", "EE.UU.", "Venezuela"] },
+    "DGCI": { since: 1959, how: "Contrainteligencia y seguridad del Estado: vigila a opositores, periodistas, artistas y extranjeros dentro de la isla.", staff: "No se publica.", budget: "Secreto.", tech: ["Interceptación telefónica", "Redes de informantes"], where: ["Todo el país"] },
+    "CIM": { since: 1960, how: "Contrainteligencia Militar de las Fuerzas Armadas Revolucionarias; también tuvo personal en Venezuela.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: [], where: ["Unidades militares"] }
+  },
+  civil: [
+    "No hay separación entre el partido gobernante y los servicios; el MININT responde a la dirección del Partido Comunista.",
+    "La familia Castro conserva influencia en la seguridad: el nieto de Raúl Castro participó en la reunión con la CIA de mayo de 2026.",
+    "Las Fuerzas Armadas controlan buena parte de la economía a través del conglomerado GAESA."
+  ],
+  law: {
+    domestic: [
+      "El Código Penal de 2022 castiga con dureza la propaganda contra el orden constitucional y el financiamiento extranjero de organizaciones.",
+      "El Decreto Ley 35 de 2021 regula las telecomunicaciones y castiga publicaciones en redes.",
+      "No hay control judicial independiente de las escuchas."
+    ],
+    foreign: [
+      "Cuba no reconoce operaciones de inteligencia en el exterior; presenta la presencia en Venezuela como cooperación de seguridad."
+    ],
+    oversight: [
+      "No hay control parlamentario ni judicial independiente de los servicios.",
+      "La Comisión Interamericana de Derechos Humanos documenta abusos, sin acceso a la isla."
+    ]
+  },
+  rights: [
+    { d: "2003-03", dir: "amplia", area: "Expresión", h: "La Primavera Negra", x: "Detienen y condenan a 75 opositores y periodistas independientes." },
+    { d: "2021-07", dir: "amplia", area: "Debido proceso", h: "Represión del 11 de julio", x: "Cientos de manifestantes detenidos y condenados tras las protestas masivas." },
+    { d: "2021-08", dir: "amplia", area: "Expresión", h: "Decreto Ley 35", x: "Permite sancionar contenidos en redes que afecten el orden público." },
+    { d: "2022-05", dir: "amplia", area: "Expresión", h: "Nuevo Código Penal", x: "Amplía delitos contra la seguridad del Estado y castiga el financiamiento extranjero." }
+  ],
+  events: [
+    { d: "1996-02-24", lat: 23.4, lon: -82.5, c: "Cuba", t: "contra", ev: 1, nomap: true, h: "Derribo de las avionetas de Hermanos al Rescate", x: "Aviones cubanos derriban dos avionetas del grupo del exilio; espías infiltrados habían avisado de los vuelos, según la acusación de EE.UU. de 2026.", u: "https://www.aljazeera.com/news/2026/5/20/trump-administration-indicts-cubas-raul-castro-over-1996-plane-shootdown", st: "Al Jazeera" },
+    { d: "1998-09", lat: 25.8, lon: -80.35, c: "United States of America", t: "humana", ev: 1, h: "Cae la Red Avispa", x: "El FBI detiene a agentes cubanos que infiltraban grupos del exilio y bases militares en Florida.", u: "https://en.wikipedia.org/wiki/Cuban_Five", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2001-09-21", lat: 38.85, lon: -77.05, c: "United States of America", t: "humana", ev: 1, h: "Detienen a Ana Belén Montes", x: "La principal analista sobre Cuba de la Agencia de Inteligencia de Defensa trabajaba para La Habana desde 1985.", u: "https://en.wikipedia.org/wiki/Ana_Montes", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2012-07-22", lat: 20.38, lon: -76.64, c: "Cuba", t: "encubierta", ev: 2, h: "Muerte de Oswaldo Payá", x: "El opositor muere en un choque; la Comisión Interamericana concluyó en 2023 que agentes del Estado participaron.", u: "https://virginislandsnewsonline.com/en/news/human-rights-body-finds-cuban-govt-responsible-in-2012-deaths-of-dissidents", st: "Reuters" },
+    { d: "2023-12-01", lat: 25.8, lon: -80.35, c: "United States of America", t: "contra", ev: 1, h: "Detienen a Víctor Manuel Rocha", x: "El ex embajador de EE.UU. en Bolivia es detenido en Miami tras confesar su lealtad a Cuba a un agente encubierto del FBI.", u: "https://www.justice.gov/usao-sdfl/pr/former-us-ambassador-and-national-security-council-official-admits-secretly-acting", st: "Departamento de Justicia de EE.UU." },
+    { d: "2026-01-03", lat: 10.48, lon: -66.9, c: "Venezuela", t: "contra", ev: 1, h: "Mueren 32 cubanos en Caracas", x: "La custodia cubana de Maduro cae en la operación de EE.UU.; 21 de los muertos eran del MININT.", u: "https://www.dawn.com/news/1966185", st: "AFP, vía Dawn" }
+  ],
+  interest: {
+    "United States of America": 3, "Venezuela": 3, "Nicaragua": 2, "Mexico": 2, "Colombia": 2, "Bolivia": 2, "Spain": 2,
+    "Russia": 2, "China": 1, "Canada": 1, "Brazil": 1, "Argentina": 1, "Angola": 1, "Iran": 1
+  },
+  timeline: [
+    { era: "Revolución", d: "1959–1961", h: "Nacen los servicios", x: "Con asesoría soviética, se crean la Seguridad del Estado y la inteligencia exterior." },
+    { era: "Guerra Fría", d: "1960–1989", h: "Exportar la revolución", x: "Apoyo a guerrillas en América Latina y África, con la DGI como brazo." },
+    { era: "", d: "1987", h: "La deserción de Aspillaga", x: "Un oficial revela que los agentes de la CIA en Cuba eran dobles." },
+    { era: "", d: "1989", h: "Caso Ochoa", x: "Fusilan a militares y oficiales del MININT por narcotráfico; se purga el ministerio." },
+    { era: "Posguerra Fría", d: "1998–2009", h: "Caen las redes en EE.UU.", x: "Red Avispa, Montes y Myers." },
+    { era: "", d: "2000–2025", h: "Venezuela", x: "Asesores cubanos en la seguridad y la inteligencia de Chávez y Maduro." },
+    { era: "Actual", d: "2026", h: "Golpe en Caracas y presión de EE.UU.", x: "Muertos en Venezuela, visita de la CIA, acusación a Raúl Castro e informe del Departamento de Estado.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "1981–2023", h: "Víctor Manuel Rocha", x: "El diplomático de EE.UU., que llegó a embajador en Bolivia y trabajó en el Consejo de Seguridad Nacional, actuó en secreto para la inteligencia cubana durante cuatro décadas. Lo descubrió un agente del FBI que se hizo pasar por oficial cubano. Se declaró culpable y fue condenado a 15 años.", who: "Departamento de Justicia de EE.UU.", missing: "", u: "https://www.justice.gov/usao-sdfl/pr/former-us-ambassador-and-national-security-council-official-admits-secretly-acting", st: "Departamento de Justicia de EE.UU." },
+    { ev: 1, ilegal: true, d: "1985–2001", h: "Ana Belén Montes", x: "La analista de la Agencia de Inteligencia de Defensa pasó información a Cuba durante 16 años, por convicción política. Fue condenada a 25 años y liberada en 2023.", who: "Justicia de EE.UU.", missing: "", u: "https://en.wikipedia.org/wiki/Ana_Montes", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "2012", h: "La muerte de Oswaldo Payá", x: "El fundador del Movimiento Cristiano Liberación y Harold Cepero murieron en un choque. La Comisión Interamericana concluyó en 2023 que hay pruebas serias de que participaron agentes del Estado. Cuba sostiene que fue un accidente, como dictaminaron sus tribunales.", who: "Comisión Interamericana de Derechos Humanos", missing: "Un juicio independiente y acceso a las pruebas en Cuba.", u: "https://virginislandsnewsonline.com/en/news/human-rights-body-finds-cuban-govt-responsible-in-2012-deaths-of-dissidents", st: "Reuters" },
+    { ev: 1, ilegal: true, d: "1996", h: "El derribo de Hermanos al Rescate", x: "Aviones militares cubanos derribaron dos avionetas del exilio y mataron a cuatro personas. Espías de la Red Avispa habían infiltrado al grupo. En mayo de 2026 EE.UU. acusó a Raúl Castro de haber dado la orden; La Habana lo llamó legítima defensa.", who: "Departamento de Justicia de EE.UU.", missing: "", u: "https://www.aljazeera.com/news/2026/5/20/trump-administration-indicts-cubas-raul-castro-over-1996-plane-shootdown", st: "Al Jazeera" },
+    { ev: 3, ilegal: false, d: "1959–2026", h: "La red de influencia en EE.UU.", x: "Un informe del Departamento de Estado de julio de 2026 sostiene que Cuba usa al Instituto Cubano de Amistad con los Pueblos (ICAP) y a grupos de solidaridad para influir en la izquierda estadounidense. La prensa señaló que el informe trae poca información nueva; Cuba lo rechazó.", who: "Departamento de Estado de EE.UU.", missing: "Pruebas de operaciones dirigidas por la inteligencia, más allá de la militancia política abierta.", u: "https://www.local10.com/news/world/2026/07/20/trump-administration-accuses-cuba-of-promoting-left-wing-terrorism/", st: "Local 10" }
+  ],
+  failures: [
+    { k: "falla", d: "2026-01", ev: 1, w: 2, h: "Sorprendidos en Caracas", x: "La custodia cubana de Maduro no previó la operación de EE.UU.; expertos dicen que subestimó la cooperación de informantes dentro del entorno de Maduro.", why: "No está en duda el resultado; se discute cuánto sabía la inteligencia cubana.", wx: "Análisis de ex diplomáticos y expertos citados por AFP.", who: "Expertos citados por AFP", u: "https://www.dawn.com/news/1966185", st: "AFP, vía Dawn" },
+    { k: "falla", d: "1989", ev: 1, w: 3, h: "El caso Ochoa", x: "Oficiales del MININT participaban en narcotráfico; el régimen fusiló a cuatro y purgó el ministerio.", why: "Se discute si fue una falla de control o una operación tolerada desde arriba.", wx: "Juicio público y testimonios de desertores.", who: "Gobierno de Cuba", u: "https://en.wikipedia.org/wiki/Arnaldo_Ochoa", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "La DI trabaja desde embajadas y la misión ante la ONU; EE.UU. expulsó a diplomáticos cubanos en varias ocasiones.",
+    campo: "Agentes de larga duración en EE.UU., a los que se pide llevar una vida normal y esperar años; contacto en terceros países.",
+    oficina: "La conducción se concentra en La Habana, con estrecha coordinación con la dirección política.",
+    reclutamiento: "Recluta por afinidad ideológica o resentimiento con EE.UU., no por dinero: Montes y Rocha no cobraban grandes sumas.",
+    tecnica: "Medios simples y probados: mensajes por radio de onda corta, encuentros en terceros países y cifrado manual.",
+    enlaces: "Cooperación histórica con la KGB y hoy con Rusia; asesoría a los servicios de Venezuela y Nicaragua."
+  },
+  insiders: [
+    { k: "topo", dir: "entra", ev: 1, d: "1985–2001", n: "Ana Belén Montes", h: "La analista de la DIA", x: "Pasó información clasificada sobre Cuba y operaciones de EE.UU.", cargo: "Analista de la Agencia de Inteligencia de Defensa", hacia: "Inteligencia cubana", fin: "Condenada a 25 años; liberada en 2023.", who: "Justicia de EE.UU.", u: "https://en.wikipedia.org/wiki/Ana_Montes", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "entra", ev: 1, d: "1979–2009", n: "Walter Kendall Myers", h: "El funcionario del Departamento de Estado", x: "Espió con su esposa durante tres décadas.", cargo: "Analista de inteligencia del Departamento de Estado", hacia: "Inteligencia cubana", fin: "Condenado a prisión perpetua en 2010.", who: "Justicia de EE.UU.", u: "https://en.wikipedia.org/wiki/Walter_Kendall_Myers", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "entra", ev: 1, d: "1981–2023", n: "Víctor Manuel Rocha", h: "El embajador", x: "Diplomático de carrera que sirvió a Cuba durante toda su carrera.", cargo: "Embajador en Bolivia y miembro del Consejo de Seguridad Nacional", hacia: "Dirección de Inteligencia", fin: "Condenado a 15 años en 2024.", who: "Departamento de Justicia de EE.UU.", u: "https://www.justice.gov/usao-sdfl/pr/former-us-ambassador-and-national-security-council-official-admits-secretly-acting", st: "Departamento de Justicia de EE.UU." },
+    { k: "desertor", dir: "sale", ev: 1, d: "1987", n: "Florentino Aspillaga", h: "El desertor que expuso a la CIA", x: "Oficial de la DGI que huyó en Viena y reveló que casi todos los agentes de la CIA en Cuba eran dobles.", cargo: "Oficial de la Dirección General de Inteligencia", hacia: "CIA", fin: "Vive en EE.UU. con otra identidad.", who: "CIA y prensa", u: "https://en.wikipedia.org/wiki/Florentino_Aspillaga", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "2000–2026", h: "La presencia en Venezuela", x: "Cuba negó durante años tener militares y agentes en la seguridad de Maduro.", aquien: "Al público y a gobiernos de la región", como: "La propia Habana lo admitió tras la muerte de 32 cubanos en enero de 2026.", obj: "Ocultar su papel en la seguridad venezolana.", who: "Gobierno de Cuba", u: "https://www.yahoo.com/news/articles/cuba-says-32-combatants-were-170607225.html", st: "Miami Herald, vía Yahoo" },
+    { k: "filtracion", rol: "blanco", ev: 1, d: "1987", h: "Las revelaciones de Aspillaga", x: "Un desertor entrega a la CIA detalles de la inteligencia cubana y de sus agentes dobles.", obj: "Desertar con información valiosa.", who: "CIA y prensa", u: "https://en.wikipedia.org/wiki/Florentino_Aspillaga", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  practicas: {
+    propios: { ev: 1, x: "La Seguridad del Estado vigila a la población, a funcionarios y a militares; el caso Ochoa terminó con fusilamientos de oficiales en 1989.", u: "https://en.wikipedia.org/wiki/Arnaldo_Ochoa", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 2, x: "La Comisión Interamericana atribuyó a agentes del Estado la muerte del opositor Oswaldo Payá en 2012.", u: "https://virginislandsnewsonline.com/en/news/human-rights-body-finds-cuban-govt-responsible-in-2012-deaths-of-dissidents", st: "Reuters" },
+    periodistas: { ev: 1, x: "Periodistas independientes son vigilados, detenidos y obligados a exiliarse; 27 fueron condenados en la Primavera Negra de 2003.", u: "https://en.wikipedia.org/wiki/Black_Spring_(Cuba)", st: "Wikipedia (síntesis de fuentes)" },
+    activistas: { ev: 1, x: "Cientos de manifestantes del 11 de julio de 2021 fueron detenidos y condenados.", u: "https://en.wikipedia.org/wiki/2021_Cuban_protests", st: "Wikipedia (síntesis de fuentes)" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados de espionaje cubano contra gobiernos aliados." },
+    rivales: { ev: 1, x: "EE.UU. es su blanco principal: Montes, Myers y Rocha penetraron el Pentágono, el Departamento de Estado y el Consejo de Seguridad Nacional.", u: "https://www.justice.gov/usao-sdfl/pr/former-us-ambassador-and-national-security-council-official-admits-secretly-acting", st: "Departamento de Justicia de EE.UU." },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados de extorsión fuera del país." },
+    asesinato: { ev: 2, x: "La muerte de Payá y el derribo de 1996, por el que EE.UU. acusó a Raúl Castro.", u: "https://www.aljazeera.com/news/2026/5/20/trump-administration-indicts-cubas-raul-castro-over-1996-plane-shootdown", st: "Al Jazeera" },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados de los servicios cubanos." },
+    tortura: { ev: 2, x: "Organizaciones de derechos humanos denunciaron malos tratos a detenidos del 11 de julio de 2021.", u: "https://en.wikipedia.org/wiki/2021_Cuban_protests", st: "Wikipedia (síntesis de fuentes)" },
+    secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados de secuestros en el exterior." },
+    propaganda: { ev: 2, x: "El Departamento de Estado sostiene que el ICAP coordina más de 2.000 organizaciones de solidaridad en más de 150 países; EE.UU. lo sancionó en junio de 2026.", u: "https://www.foxnews.com/politics/us-bases-ice-facilities-targeted-cuba-linked-24-hour-activist-mobilization-plan", st: "Fox News" },
+    conflictos: { ev: 1, x: "Apoyó a guerrillas en América Latina y envió tropas a Angola y Etiopía durante la Guerra Fría.", u: "https://en.wikipedia.org/wiki/Cuban_intervention_in_Angola", st: "Wikipedia (síntesis de fuentes)" },
+    cultural: { ev: 2, x: "Usa redes de solidaridad, brigadas de trabajo voluntario y programas académicos para difundir su visión política, según el Departamento de Estado.", u: "https://www.local10.com/news/world/2026/07/20/trump-administration-accuses-cuba-of-promoting-left-wing-terrorism/", st: "Local 10" },
+    golpes: { ev: 1, x: "Entrenó y armó a la guerrilla sandinista, que tomó el poder en Nicaragua en 1979.", u: "https://en.wikipedia.org/wiki/Nicaraguan_Revolution", st: "Wikipedia (síntesis de fuentes)" },
+    elecciones: { ev: 0, x: "Esta ficha no encontró intervenciones documentadas en elecciones extranjeras." },
+    partidos: { ev: 3, x: "El Departamento de Estado acusa a Cuba de cultivar partidos y grupos de izquierda en EE.UU. y la región; no presentó pruebas de financiamiento.", u: "https://www.local10.com/news/world/2026/07/20/trump-administration-accuses-cuba-of-promoting-left-wing-terrorism/", st: "Local 10" },
+    diaspora: { ev: 1, x: "La Red Avispa infiltró grupos del exilio en Miami; en 2026 EE.UU. deportó a otro agente que espiaba a exiliados desde la década de 1990.", u: "https://www.local10.com/news/world/2026/09/02/cuban-intelligence-asset-lived-in-miami-dade-to-spy-on-exiles-feds-say/", st: "Local 10" },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 0, x: "Esta ficha no encontró casos de religiosos usados como agentes en el exterior." },
+    armas: { ev: 1, x: "Armó a guerrillas latinoamericanas y a fuerzas aliadas en África durante la Guerra Fría.", u: "https://en.wikipedia.org/wiki/Cuban_intervention_in_Angola", st: "Wikipedia (síntesis de fuentes)" },
+    inteligencia: { ev: 1, x: "Prestó personal de seguridad e inteligencia al gobierno de Venezuela; 21 agentes del MININT murieron en Caracas en 2026.", u: "https://www.dawn.com/news/1966185", st: "AFP, vía Dawn" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró transferencias documentadas de tecnología de vigilancia." },
+    entrenamiento: { ev: 2, x: "Asesoró y formó a los servicios de Venezuela, según gobiernos y ex funcionarios venezolanos.", u: "https://www.yahoo.com/news/articles/cuba-says-32-combatants-were-170607225.html", st: "Miami Herald, vía Yahoo" }
+  },
+  dinero: {
+    presupuesto: "El presupuesto del MININT y de la DI es secreto. Esta ficha no encontró cifras verificadas.",
+    uso: "Agentes en el exterior, vigilancia interna y misiones de seguridad en países aliados.",
+    ingresos: "Las misiones de seguridad y médicas en Venezuela se pagaban con petróleo; ese ingreso se cortó en 2026.",
+    empresas: "El conglomerado militar GAESA controla turismo, remesas y comercio, y es la principal caja del Estado, fuera del control del Parlamento.",
+    bancos: "Esta ficha no encontró casos documentados de uso de bancos por los servicios.",
+    crimen: "En 1989 se probó que oficiales del MININT participaban en narcotráfico; el régimen los fusiló y dijo que actuaban por su cuenta.",
+    cobertura: "El ICAP coordina redes de solidaridad en el exterior; EE.UU. lo considera una fachada de inteligencia y lo sancionó en 2026."
+  },
+  fondos: [
+    { k: "crimen", rol: "autor", ev: 1, d: "1986–1989", h: "El caso Ochoa", x: "Oficiales del MININT facilitaron envíos de cocaína del cártel de Medellín por Cuba para obtener divisas.", obj: "Conseguir dólares para el Estado, según la versión de los acusados.", who: "Tribunal militar cubano", u: "https://en.wikipedia.org/wiki/Arnaldo_Ochoa", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "cobertura", rol: "autor", ev: 2, d: "2018–2025", h: "Fondos para redes de solidaridad", x: "El Departamento de Estado dice que una organización afín recibió unos 28 millones de dólares, la mayoría de entidades ligadas al empresario Neville Roy Singham.", monto: "28 millones de dólares", obj: "Sostener redes de influencia, según EE.UU.", who: "Departamento de Estado de EE.UU.", u: "https://dominicantoday.com/?p=4480", st: "Dominican Today" }
+  ],
+  companies: [
+    { n: "GAESA", c: "nacional", rubro: "Conglomerado militar", rel: "De las Fuerzas Armadas", x: "Controla buena parte de la economía en divisas." },
+    { n: "Instituto Cubano de Amistad con los Pueblos (ICAP)", c: "nacional", rubro: "Organismo estatal", rel: "Fachada, según EE.UU.", x: "Lo preside Fernando González, uno de los Cinco Cubanos." }
+  ],
+  struggles: [
+    { a: "Cuba", b: "EE.UU.", k: "Con otros Estados", stake: "La supervivencia del régimen", state: "Abierta", x: "En 2026 hubo corte de petróleo, sanciones, la acusación contra Raúl Castro y una visita de la CIA." },
+    { a: "MININT", b: "Fuerzas Armadas", k: "Entre agencias", stake: "Poder interno", state: "Latente", x: "Tras el caso Ochoa, el Ejército de Raúl Castro tomó el control del MININT en 1989." }
+  ],
+  sources: [
+    { t: "Bloomberg Línea: la visita de Ratcliffe a La Habana", u: "https://www.bloomberglinea.com/2026/05/15/detalles-de-la-visita-del-director-de-la-cia-john-ratcliffe-a-cuba-con-quien-se-reunio/" },
+    { t: "Departamento de Justicia: condena de Rocha", u: "https://www.justice.gov/usao-sdfl/pr/former-us-ambassador-and-national-security-council-official-admits-secretly-acting" },
+    { t: "AFP vía Dawn: Cuba sorprendida en Caracas", u: "https://www.dawn.com/news/1966185" },
+    { t: "Al Jazeera: acusación contra Raúl Castro", u: "https://www.aljazeera.com/news/2026/5/20/trump-administration-indicts-cubas-raul-castro-over-1996-plane-shootdown" },
+    { t: "Local 10: informe del Departamento de Estado", u: "https://www.local10.com/news/world/2026/07/20/trump-administration-accuses-cuba-of-promoting-left-wing-terrorism/" },
+    { t: "Reuters: la Comisión Interamericana y Payá", u: "https://virginislandsnewsonline.com/en/news/human-rights-body-finds-cuban-govt-responsible-in-2012-deaths-of-dissidents" }
   ]
- },
- "rights": [
-  {
-   "d": "1953",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1959",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1969",
-   "dir": "recorta",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1977",
-   "dir": "amplia",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1985",
-   "dir": "recorta",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1992",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2001",
-   "dir": "recorta",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2009",
-   "dir": "recorta",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2020",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  }
- ],
- "events": [
-  {
-   "d": "1961-04-17",
-   "lat": 34.56,
-   "lon": 98.59,
-   "t": "senales",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1965-05-15",
-   "lat": 26.26,
-   "lon": -83.86,
-   "t": "ciber",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1971-09-26",
-   "lat": 21.73,
-   "lon": -79.8,
-   "t": "humana",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1973-06-14",
-   "lat": 24.27,
-   "lon": -77.69,
-   "t": "ciber",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1980-01-14",
-   "lat": 25.43,
-   "lon": -129.35,
-   "t": "ciber",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1986-06-02",
-   "lat": -19.02,
-   "lon": -52.58,
-   "t": "contra",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1988-11-16",
-   "lat": 23.92,
-   "lon": -79.42,
-   "t": "humana",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1993-05-26",
-   "lat": 10.82,
-   "lon": 104.4,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1999-07-12",
-   "lat": 12.15,
-   "lon": -58.13,
-   "t": "ciber",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2004-03-13",
-   "lat": -18.11,
-   "lon": 147.87,
-   "t": "encubierta",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2009-03-08",
-   "lat": 41.02,
-   "lon": -50.14,
-   "t": "encubierta",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2010-08-06",
-   "lat": -5.83,
-   "lon": 140.68,
-   "t": "senales",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2017-02-01",
-   "lat": 6.35,
-   "lon": 72.18,
-   "t": "encubierta",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2020-06-24",
-   "lat": 36.02,
-   "lon": 142.48,
-   "t": "contra",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  }
- ],
- "interest": {
-  "United States of America": 2,
-  "China": 1,
-  "Israel": 1,
-  "Ukraine": 2,
-  "Turkey": 2,
-  "Syria": 1,
-  "Iraq": 2,
-  "Argentina": 1,
-  "North Korea": 2,
-  "Taiwan": 2,
-  "Libya": 2,
-  "Mali": 3,
-  "Belarus": 1,
-  "Serbia": 2,
-  "Indonesia": 1,
-  "Philippines": 3,
-  "Colombia": 1
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "2008",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1999",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2021",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "1967",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1998",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "2018",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
