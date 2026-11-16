@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Austria: DSN y servicios militares; la condena de Egisto Ott por espiar para Rusia con Jan Marsalek (2026), el allanamiento de la BVT en 2018 y el atentado de Viena de 2020.
+
 - 2026-11-15 · Ficha real de Argelia: DGSI, DGDSE y DCSA, herederos del DRS; la década negra, Tibhirine, el juicio del general Toufik, el secuestro de un opositor en Francia y el apoyo al Polisario.
 
 - 2026-11-15 · Ficha real de Jordania: GID, inteligencia militar y PSD; el doble agente de Khost, el caso de sedición del príncipe Hamzah, Pegasus contra activistas, el envenenamiento de Meshal y la prohibición de los Hermanos Musulmanes.

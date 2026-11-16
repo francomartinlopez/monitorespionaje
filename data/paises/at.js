@@ -1,859 +1,149 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Austria · contenido real · revisada el 2026-11-16
 (window.FICHAS = window.FICHAS || {})["at"] = {
- "sample": true,
- "id": "at",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Austria: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 2,
-  "senales": 2,
-  "ciber": 2,
-  "imagenes": 1,
-  "encubierta": 1,
-  "contra": 2
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "NSR": {
-   "since": 1983,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Consejo Nacional de Seguridad: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "HNaA": {
-   "since": 1960,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Oficina de Inteligencia del Ejército: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "AbwA": {
-   "since": 1989,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Oficina de Defensa (contrainteligencia militar): misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "DSN": {
-   "since": 1944,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Dirección de Seguridad del Estado e Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "at",
+  updated: "2026-11-16",
+  summary: [
+    "Viena, sede de la ONU, la OSCE y la OPEP, es desde la Guerra Fría una de las capitales del espionaje mundial. La ley austríaca castigó hasta hace poco solo el espionaje dirigido contra la propia Austria, lo que permitió a servicios extranjeros operar con libertad. Austria no tiene un servicio civil de inteligencia exterior: sus servicios son la Dirección de Seguridad del Estado e Inteligencia (DSN) y los dos servicios militares.",
+    "La DSN nació en 2021 para reemplazar a la Oficina para la Protección de la Constitución (BVT), desacreditada después de que el Ministerio del Interior de Herbert Kickl ordenara allanarla en 2018 y de que servicios aliados redujeran el intercambio de información. En noviembre de 2020 un atentado yihadista en Viena mató a cuatro personas pese a advertencias previas.",
+    "En mayo de 2026 un jurado de Viena condenó al ex oficial de la BVT Egisto Ott a cuatro años y un mes por espiar para Rusia como cómplice de Jan Marsalek, ex directivo de Wirecard prófugo en Rusia. Ott ayudó a localizar al periodista de investigación Christo Grozev, según la fiscalía."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Condena de Egisto Ott", v: "4 años y 1 mes", n: "mayo de 2026, apelada" },
+    { l: "Nace la DSN", v: "Diciembre de 2021", n: "reemplaza a la BVT" },
+    { l: "Allanamiento de la BVT", v: "Febrero de 2018", n: "ordenado bajo el ministro Kickl" },
+    { l: "Atentado de Viena", v: "2 de noviembre de 2020", n: "cuatro muertos" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 2, senales: 2, ciber: 2, imagenes: 1, encubierta: 1, contra: 2 },
+  powerWhy: {
+    humana: "Sin servicio civil exterior; la inteligencia militar tiene capacidades limitadas.",
+    senales: "La inteligencia militar opera estaciones de escucha modestas.",
+    ciber: "Capacidad defensiva en construcción.",
+    imagenes: "Sin capacidades propias.",
+    encubierta: "La neutralidad limita la acción encubierta.",
+    contra: "Un ex oficial de la propia BVT espió para Rusia durante años."
+  },
+  priorities: [
+    { h: "Rusia", x: "Espionaje desde las misiones en Viena." },
+    { h: "Terrorismo", x: "Yihadismo y radicalización en línea." },
+    { h: "Extremismo", x: "Extrema derecha e islamismo." },
+    { h: "Reconstruir la confianza", x: "Recuperar el intercambio con servicios aliados." },
+    { h: "Organismos internacionales", x: "Proteger a la ONU y la OSCE en Viena." }
+  ],
+  focos: ["Rusia", "Yihadismo", "Viena internacional", "Balcanes", "Irán"],
+  bodies: {
+    "NSR": { since: 2001, how: "Consejo Nacional de Seguridad, que asesora al gobierno.", staff: "No aplica.", budget: "No aplica.", tech: [], where: ["Viena"] },
+    "HNaA": { since: 1985, how: "Oficina de Inteligencia del Ejército: inteligencia exterior militar y de señales.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: ["Estaciones de escucha"], where: ["Viena"] },
+    "AbwA": { since: 1985, how: "Oficina de Defensa: contrainteligencia militar.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: [], where: ["Viena"] },
+    "DSN": { since: 2021, how: "Dirección de Seguridad del Estado e Inteligencia del Ministerio del Interior: contraespionaje, terrorismo y extremismo, con una rama de inteligencia separada de la policial.", staff: "No se publica.", budget: "Público.", tech: [], where: ["Viena"] }
+  },
+  civil: [
+    "La DSN depende del Ministerio del Interior y los servicios militares de Defensa.",
+    "Un subcomité parlamentario controla a los servicios.",
+    "El allanamiento de 2018 mostró la vulnerabilidad del servicio a la política."
+  ],
+  law: {
+    domestic: [
+      "La ley de protección del Estado de 2016, reformada en 2021, regula a la DSN.",
+      "El código penal castigaba solo el espionaje contra Austria; en 2025 y 2026 se discutió ampliarlo.",
+      "Las escuchas necesitan autorización de un comisionado de protección jurídica."
+    ],
+    foreign: [
+      "La inteligencia militar es la única que opera en el exterior."
+    ],
+    oversight: [
+      "Subcomités parlamentarios de Interior y Defensa.",
+      "Comisionado de protección jurídica."
+    ]
+  },
+  rights: [
+    { d: "2016-07", dir: "amplia", area: "Privacidad", h: "Ley de protección del Estado", x: "Más facultades a la BVT con controles limitados." },
+    { d: "2021-12", dir: "recorta", area: "Debido proceso", h: "Reforma de la DSN", x: "Separa la inteligencia de la policía y crea nuevos controles." }
+  ],
+  events: [
+    { d: "2018-02-28", lat: 48.2, lon: 16.4, c: "Austria", t: "contra", ev: 1, h: "Allanamiento de la BVT", x: "Policías bajo el Ministerio del Interior allanan la oficina de contrainteligencia y se llevan datos sensibles; un tribunal lo declaró ilegal.", u: "https://en.wikipedia.org/wiki/Federal_Office_for_the_Protection_of_the_Constitution_and_Counterterrorism", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2020-11-02", lat: 48.21, lon: 16.37, c: "Austria", t: "contra", ev: 1, h: "Atentado de Viena", x: "Un yihadista mata a cuatro personas; Eslovaquia había avisado que intentó comprar munición.", u: "https://en.wikipedia.org/wiki/2020_Vienna_attack", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2026-05-20", lat: 48.2, lon: 16.35, c: "Austria", t: "contra", ev: 1, h: "Condena de Egisto Ott", x: "Un jurado condena al ex oficial de la BVT por espiar para Rusia.", u: "https://www.thestar.com.my/news/world/2026/05/21/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds", st: "Reuters, vía The Star" }
+  ],
+  interest: {
+    "Russia": 3, "Iran": 1, "Serbia": 1, "Bosnia and Herz.": 1, "Turkey": 1, "Hungary": 1
+  },
+  timeline: [
+    { era: "Guerra Fría", d: "1955", h: "Neutralidad", x: "Viena se vuelve punto de encuentro de espías del Este y del Oeste." },
+    { era: "", d: "2018", h: "Allanamiento de la BVT", x: "Aliados reducen el intercambio de información." },
+    { era: "", d: "2020", h: "Atentado de Viena", x: "Falla al procesar una advertencia eslovaca." },
+    { era: "Reforma", d: "2021", h: "Nace la DSN", x: "Reemplaza a la BVT." },
+    { era: "Actual", d: "2026", h: "Condena de Ott", x: "El mayor juicio de espionaje en décadas.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2015–2020", h: "Egisto Ott y Jan Marsalek", x: "El ex oficial de la BVT pasó datos de bases policiales, teléfonos y computadoras del Estado a Rusia por encargo de Jan Marsalek. Ayudó a ubicar al periodista Christo Grozev, cuya casa fue allanada. Fue condenado en mayo de 2026 y apeló.", who: "Tribunal Regional de Viena", missing: "", u: "https://www.thestar.com.my/news/world/2026/05/21/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds", st: "Reuters, vía The Star" },
+    { ev: 1, ilegal: true, d: "2018", h: "El allanamiento de la BVT", x: "Policías de una unidad dirigida por un dirigente del partido FPÖ allanaron la oficina de contrainteligencia y se llevaron archivos sobre la extrema derecha. Un tribunal declaró ilegal el operativo y servicios aliados limitaron la cooperación.", who: "Tribunal Regional Superior de Viena y comisión parlamentaria", missing: "", u: "https://en.wikipedia.org/wiki/Federal_Office_for_the_Protection_of_the_Constitution_and_Counterterrorism", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "2020-07", ev: 1, w: 3, h: "La advertencia eslovaca", x: "La BVT no actuó a tiempo ante el aviso de que el futuro atacante intentó comprar munición en Eslovaquia.", why: "No está en duda; lo concluyó una comisión oficial.", wx: "Informe de la comisión de 2021.", who: "Comisión de investigación del gobierno", u: "https://en.wikipedia.org/wiki/2020_Vienna_attack", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "Austria tiene poca inteligencia en el exterior; servicios extranjeros operan desde sus misiones en Viena.",
+    campo: "La DSN trabaja dentro del país; la inteligencia militar sigue los Balcanes y el este.",
+    oficina: "La DSN informa al Ministerio del Interior.",
+    reclutamiento: "Personal policial y militar; nuevas carreras de analistas desde 2021.",
+    tecnica: "Escuchas con control jurídico; capacidades modestas.",
+    enlaces: "Cooperación con servicios europeos, dañada tras 2018 y en reconstrucción."
+  },
+  insiders: [
+    { k: "topo", dir: "sale", ev: 1, d: "2015–2020", n: "Egisto Ott", h: "El oficial que trabajó para Marsalek", x: "Pasó información de bases de datos policiales y equipos del Estado a Rusia.", cargo: "Oficial de la BVT", hacia: "Jan Marsalek y la inteligencia rusa", fin: "Condenado en 2026 a 4 años y 1 mes; apeló.", who: "Tribunal Regional de Viena", u: "https://brusselssignal.eu/2026/05/former-austrian-intelligence-officer-convicted-of-spying-for-russia/", st: "Brussels Signal" },
+    { k: "topo", dir: "sale", ev: 1, d: "1988–2018", n: "Coronel retirado del Ejército", h: "El coronel que espió treinta años", x: "Un coronel del Ejército pasó información a la inteligencia militar rusa durante décadas.", cargo: "Coronel del Ejército", hacia: "Inteligencia militar rusa (GRU)", fin: "Condenado en 2020.", who: "Justicia de Austria", u: "https://www.internazionale.it/ultime-notizie-reuters/2026/05/20/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds", st: "Reuters, vía Internazionale" }
+  ],
+  leaks: [
+    { k: "robo", rol: "blanco", ev: 1, d: "2015–2020", h: "Teléfonos y computadoras del Estado", x: "Equipos seguros del gobierno terminaron en manos rusas a través de Ott, según la condena.", obj: "Acceso a sistemas del Estado.", who: "Tribunal Regional de Viena", u: "https://www.thestar.com.my/news/world/2026/05/21/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds", st: "Reuters, vía The Star" }
+  ],
+  practicas: {
+    propios: { ev: 1, x: "El Ministerio del Interior allanó a su propio servicio de contrainteligencia en 2018.", u: "https://en.wikipedia.org/wiki/Federal_Office_for_the_Protection_of_the_Constitution_and_Counterterrorism", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    periodistas: { ev: 0, x: "Esta ficha no encontró casos de vigilancia de periodistas por el servicio austríaco." },
+    activistas: { ev: 1, x: "La DSN vigila a la extrema derecha y al islamismo.", u: "https://en.wikipedia.org/wiki/Federal_Office_for_the_Protection_of_the_Constitution_and_Counterterrorism", st: "Wikipedia (síntesis de fuentes)" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 1, x: "Rusia es el principal blanco de la contrainteligencia.", u: "https://www.thestar.com.my/news/world/2026/05/21/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds", st: "Reuters, vía The Star" },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    conflictos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    partidos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 1, x: "Vigila a organizaciones islamistas; en 2020 allanó a la Hermandad Musulmana en la operación Luxor, luego declarada en parte ilegal.", u: "https://en.wikipedia.org/wiki/2020_Vienna_attack", st: "Wikipedia (síntesis de fuentes)" },
+    armas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    inteligencia: { ev: 1, x: "Coopera con servicios europeos; la cooperación se redujo tras 2018.", u: "https://en.wikipedia.org/wiki/Federal_Office_for_the_Protection_of_the_Constitution_and_Counterterrorism", st: "Wikipedia (síntesis de fuentes)" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "El presupuesto de la DSN es público dentro del Ministerio del Interior. Esta ficha no encontró la cifra de 2026 verificada.",
+    uso: "Personal, contraterrorismo y contraespionaje.",
+    ingresos: "Esta ficha no encontró ingresos propios.",
+    empresas: "Wirecard, empresa alemana con directivos austríacos, sirvió de cobertura a Marsalek, según investigaciones.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "Esta ficha no encontró casos documentados.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
+  },
+  fondos: [
+    { k: "fachada", rol: "blanco", ev: 2, d: "2015–2020", h: "Marsalek y Wirecard", x: "El directivo de Wirecard usó su posición y contactos para financiar operaciones para Rusia, según fiscalías europeas.", obj: "Espionaje y operaciones contra opositores.", who: "Fiscalías de Austria y el Reino Unido", u: "https://fintelegram.com/austrian-spy-egisto-ott-convicted-how-marsaleks-spy-network-reopens-the-wirecard-case/", st: "FinTelegram" }
+  ],
+  companies: [
+    { n: "Wirecard", c: "extranjera", rubro: "Pagos", rel: "Cobertura", x: "Su ex directivo Jan Marsalek dirigió operaciones rusas, según la justicia británica y austríaca." }
+  ],
+  struggles: [
+    { a: "Ministerio del Interior (FPÖ, 2018)", b: "BVT", k: "Con la política", stake: "El control del servicio", state: "Cerrada", x: "El allanamiento llevó a la disolución de la BVT y a la creación de la DSN." }
+  ],
+  sources: [
+    { t: "Reuters: condena de Egisto Ott (2026)", u: "https://www.thestar.com.my/news/world/2026/05/21/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds" },
+    { t: "Brussels Signal: el mayor caso de espionaje", u: "https://brusselssignal.eu/2026/05/former-austrian-intelligence-officer-convicted-of-spying-for-russia/" },
+    { t: "Wikipedia: BVT", u: "https://en.wikipedia.org/wiki/Federal_Office_for_the_Protection_of_the_Constitution_and_Counterterrorism" },
+    { t: "Wikipedia: 2020 Vienna attack", u: "https://en.wikipedia.org/wiki/2020_Vienna_attack" }
   ]
- },
- "rights": [
-  {
-   "d": "1952",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1962",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1968",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1978",
-   "dir": "amplia",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1986",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1994",
-   "dir": "recorta",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2004",
-   "dir": "recorta",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2011",
-   "dir": "amplia",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "2019",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  }
- ],
- "events": [
-  {
-   "d": "1961-02-08",
-   "lat": 35.82,
-   "lon": 66.85,
-   "t": "ciber",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1965-10-11",
-   "lat": 47.02,
-   "lon": 15.31,
-   "t": "encubierta",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1969-11-02",
-   "lat": 50.53,
-   "lon": 13.44,
-   "t": "senales",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1976-09-06",
-   "lat": 22.41,
-   "lon": 149.88,
-   "t": "ciber",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1981-12-11",
-   "lat": 29.01,
-   "lon": -65.18,
-   "t": "humana",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1986-03-27",
-   "lat": -23.8,
-   "lon": -35.73,
-   "t": "contra",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1989-10-11",
-   "lat": 2.31,
-   "lon": 0.73,
-   "t": "humana",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1994-02-08",
-   "lat": 34.72,
-   "lon": 45.09,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1997-10-27",
-   "lat": 50.55,
-   "lon": 10.92,
-   "t": "contra",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2003-06-22",
-   "lat": 50.85,
-   "lon": -115.62,
-   "t": "senales",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2009-04-18",
-   "lat": -14.47,
-   "lon": -139.1,
-   "t": "sabotaje",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2013-06-12",
-   "lat": 33.47,
-   "lon": 106.51,
-   "t": "humana",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2016-10-21",
-   "lat": 33.47,
-   "lon": -103.94,
-   "t": "sabotaje",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2021-02-12",
-   "lat": 49.7,
-   "lon": 13.85,
-   "t": "contra",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  }
- ],
- "interest": {
-  "United States of America": 2,
-  "China": 3,
-  "United Kingdom": 3,
-  "France": 2,
-  "Germany": 3,
-  "Iran": 1,
-  "Israel": 2,
-  "Ukraine": 1,
-  "Saudi Arabia": 3,
-  "Iraq": 3,
-  "Afghanistan": 2,
-  "Venezuela": 1,
-  "Mexico": 1,
-  "Argentina": 1,
-  "Japan": 1,
-  "Taiwan": 3,
-  "Egypt": 1,
-  "Libya": 1,
-  "Nigeria": 2,
-  "Kazakhstan": 2,
-  "Belarus": 2,
-  "Indonesia": 2,
-  "Vietnam": 1,
-  "Colombia": 1,
-  "Ethiopia": 3
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1990",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1996",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "1973",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "2014",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1980",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1983",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
