@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Suman Rumania, Georgia, Moldavia, Azerbaiyán, Catar y Colombia (relevantes por una habilidad): el monitor llega a 46 países.
+
 - 2026-11-15 · Suman Italia y España (muy relevantes) y Grecia, Chipre y Bélgica (relevantes por una habilidad): el monitor llega a 40 países.
 
 - 2026-11-15 · Suman Venezuela, Ruanda y Suecia (relevantes por una habilidad): el monitor llega a 35 países.

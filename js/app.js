@@ -590,7 +590,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     app.innerHTML = `<div class="method">
       <h1>Metodología</h1>
       <div class="prose">
-        <p>El monitor sigue a 40 países: once del núcleo, doce muy relevantes y diecisiete relevantes en su región o por una habilidad puntual. Canadá, Australia y Nueva Zelanda entran como parte de la alianza Cinco Ojos, dentro de las fichas de EE.UU. y el Reino Unido.</p>
+        <p>El monitor sigue a 46 países: once del núcleo, doce muy relevantes y veintitrés relevantes en su región o por una habilidad puntual. Canadá, Australia y Nueva Zelanda entran como parte de la alianza Cinco Ojos, dentro de las fichas de EE.UU. y el Reino Unido.</p>
         <p>Responsable editorial: Franco Martín López. Todo el contenido está redactado con palabras propias a partir de las fuentes citadas en cada ficha.</p>
         <p>La actualización es semanal. Las alertas cubren operaciones, capturas, expulsiones y filtraciones de los últimos días; se retiran cuando pasan dos semanas sin novedades.</p>
       </div>

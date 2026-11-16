@@ -1,4 +1,4 @@
-// Los 40 países del monitor. Los organismos son reales; el resto del contenido de cada
+// Los 46 países del monitor. Los organismos son reales; el resto del contenido de cada
 // ficha está en data/paises/<id>.js.
 // g: grupo del organigrama → k coordinación · c inteligencia civil · m militar · p policial y seguridad · j control y justicia
 // tier: 1 núcleo · 2 muy relevante · 3 relevante en su región o por una habilidad
@@ -346,6 +346,49 @@ window.PAISES = [
       { code: "SGRS", name: "Servicio General de Inteligencia y Seguridad", g: "m" },
       { code: "OCAM", name: "Órgano de Coordinación para el Análisis de la Amenaza", g: "p" },
       { code: "Comité R", name: "Comité Permanente de Control de los Servicios de Inteligencia", g: "j" }
+    ] },
+  { id: "ro", name: "Rumania", short: "Rumania", map: "Romania", tier: 3, center: [26.1, 44.43], skill: "Elección anulada por injerencia rusa",
+    agencies: [
+      { code: "CSAT", name: "Consejo Supremo de Defensa del País", g: "k" },
+      { code: "SIE", name: "Servicio de Información Exterior", g: "c" },
+      { code: "DGIA", name: "Dirección General de Información de la Defensa", g: "m" },
+      { code: "SRI", name: "Servicio Rumano de Información", g: "p" },
+      { code: "Comisión", name: "Comisión parlamentaria de control del SRI", g: "j" }
+    ] },
+  { id: "ge", name: "Georgia", short: "Georgia", map: "Georgia", tier: 3, center: [44.79, 41.72], skill: "Vigilancia masiva y giro hacia Moscú",
+    agencies: [
+      { code: "CSN", name: "Consejo de Seguridad Nacional", g: "k" },
+      { code: "GIS", name: "Servicio de Inteligencia de Georgia", g: "c" },
+      { code: "Defensa", name: "Inteligencia Militar", g: "m" },
+      { code: "SSG", name: "Servicio de Seguridad del Estado", g: "p" }
+    ] },
+  { id: "md", name: "Moldavia", short: "Moldavia", map: "Moldova", tier: 3, center: [28.86, 47.0], skill: "Blanco de la injerencia electoral rusa",
+    agencies: [
+      { code: "CSS", name: "Consejo Supremo de Seguridad", g: "k" },
+      { code: "SIS", name: "Servicio de Información y Seguridad", g: "c" },
+      { code: "IGP", name: "Inspección General de Policía", g: "p" },
+      { code: "CNA", name: "Centro Nacional Anticorrupción", g: "p" }
+    ] },
+  { id: "az", name: "Azerbaiyán", short: "Azerbaiyán", map: "Azerbaijan", tier: 3, center: [49.87, 40.41], skill: "Programas espía y campañas de influencia en el exterior",
+    agencies: [
+      { code: "CS", name: "Consejo de Seguridad", g: "k" },
+      { code: "XKX", name: "Servicio de Inteligencia Exterior", g: "c" },
+      { code: "Defensa", name: "Inteligencia Militar", g: "m" },
+      { code: "DTX", name: "Servicio de Seguridad del Estado", g: "p" }
+    ] },
+  { id: "qa", name: "Catar", short: "Catar", map: "Qatar", tier: 3, center: [51.53, 25.29], skill: "Mediación con grupos armados e influencia en Occidente",
+    agencies: [
+      { code: "CSD", name: "Consejo Supremo de Defensa", g: "k" },
+      { code: "QSS", name: "Servicio de Seguridad del Estado", g: "c" },
+      { code: "Defensa", name: "Inteligencia Militar", g: "m" }
+    ] },
+  { id: "co", name: "Colombia", short: "Colombia", map: "Colombia", tier: 3, center: [-74.07, 4.71], skill: "Escuchas ilegales y espionaje político",
+    agencies: [
+      { code: "CSN", name: "Consejo de Seguridad Nacional", g: "k" },
+      { code: "DNI", name: "Dirección Nacional de Inteligencia", g: "c" },
+      { code: "CGFM", name: "Inteligencia de las Fuerzas Militares", g: "m" },
+      { code: "DIPOL", name: "Dirección de Inteligencia Policial", g: "p" },
+      { code: "Comisión", name: "Comisión Legal de Seguimiento a las Actividades de Inteligencia", g: "j" }
     ] }
 ];
 
