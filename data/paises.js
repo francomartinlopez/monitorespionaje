@@ -1,4 +1,4 @@
-// Los 53 países del monitor. Los organismos son reales; el resto del contenido de cada
+// Los 57 países del monitor. Los organismos son reales; el resto del contenido de cada
 // ficha está en data/paises/<id>.js.
 // g: grupo del organigrama → k coordinación · c inteligencia civil · m militar · p policial y seguridad · j control y justicia
 // tier: 1 núcleo · 2 muy relevante · 3 relevante en su región o por una habilidad
@@ -442,6 +442,34 @@ window.PAISES = [
       { code: "CSIS", name: "Servicio Canadiense de Inteligencia de Seguridad", g: "p" },
       { code: "RCMP", name: "Real Policía Montada de Canadá", g: "p" },
       { code: "NSIRA", name: "Agencia de Revisión de la Seguridad Nacional y la Inteligencia", g: "j" }
+    ] },
+  { id: "at", name: "Austria", short: "Austria", map: "Austria", tier: 3, center: [16.37, 48.21], skill: "Viena, plaza histórica del espionaje",
+    agencies: [
+      { code: "NSR", name: "Consejo Nacional de Seguridad", g: "k" },
+      { code: "HNaA", name: "Oficina de Inteligencia del Ejército", g: "m" },
+      { code: "AbwA", name: "Oficina de Defensa (contrainteligencia militar)", g: "m" },
+      { code: "DSN", name: "Dirección de Seguridad del Estado e Inteligencia", g: "p" }
+    ] },
+  { id: "dk", name: "Dinamarca", short: "Dinamarca", map: "Denmark", tier: 3, center: [12.57, 55.68], skill: "Cables daneses al servicio de la NSA",
+    agencies: [
+      { code: "RSU", name: "Comité de Seguridad del Gobierno", g: "k" },
+      { code: "FE", name: "Servicio de Inteligencia de Defensa", g: "m" },
+      { code: "PET", name: "Servicio de Seguridad e Inteligencia", g: "p" },
+      { code: "TET", name: "Autoridad de Control de los Servicios de Inteligencia", g: "j" }
+    ] },
+  { id: "rs", name: "Serbia", short: "Serbia", map: "Serbia", tier: 3, center: [20.46, 44.82], skill: "Programas espía contra periodistas y lazos con Moscú",
+    agencies: [
+      { code: "CSN", name: "Consejo de Seguridad Nacional", g: "k" },
+      { code: "BIA", name: "Agencia de Información de Seguridad", g: "c" },
+      { code: "VOA", name: "Agencia de Inteligencia Militar", g: "m" },
+      { code: "VBA", name: "Agencia de Seguridad Militar", g: "m" }
+    ] },
+  { id: "bd", name: "Bangladesh", short: "Bangladesh", map: "Bangladesh", tier: 3, center: [90.41, 23.81], skill: "Cárceles secretas y desapariciones forzadas",
+    agencies: [
+      { code: "NSI", name: "Inteligencia de Seguridad Nacional", g: "c" },
+      { code: "NTMC", name: "Centro Nacional de Monitoreo de Telecomunicaciones", g: "c" },
+      { code: "DGFI", name: "Dirección General de Inteligencia de las Fuerzas", g: "m" },
+      { code: "SB", name: "Rama Especial de la Policía", g: "p" }
     ] }
 ];
 
