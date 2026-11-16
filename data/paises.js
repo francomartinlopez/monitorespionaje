@@ -201,8 +201,8 @@ window.PAISES = [
     ] },
   { id: "jp", name: "Japón", short: "Japón", map: "Japan", tier: 2, center: [139.69, 35.69],
     agencies: [
-      { code: "NSS", name: "Secretaría de Seguridad Nacional", g: "k" },
-      { code: "CIRO", name: "Oficina de Investigación e Inteligencia del Gabinete", g: "c" },
+      { code: "NIC", name: "Consejo Nacional de Inteligencia", g: "k" },
+      { code: "NIB", name: "Oficina Nacional de Inteligencia (ex CIRO)", g: "c" },
       { code: "DIH", name: "Cuartel General de Inteligencia de Defensa", g: "m" },
       { code: "PSIA", name: "Agencia de Inteligencia de Seguridad Pública", g: "p" },
       { code: "NPA", name: "Oficina de Seguridad de la Agencia Nacional de Policía", g: "p" }
