@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Suman Venezuela y Ruanda (relevantes por una habilidad): el monitor llega a 34 países.
+
 - 2026-11-15 · Ficha real de Corea del Sur: NIS con Lee Jong-seok, drones sobre Pyongyang y condenas de 2026, disolución del comando de contrainteligencia militar, filtración de agentes encubiertos, caso Sue Mi Terry (acuerdo de 2026), comentarios electorales de 2012, KCIA (Kim Dae-jung, asesinato de Park, Koreagate); prácticas y dinero completos. Quedan cargados los 20 países originales.
 
 - 2026-11-15 · Suman Polonia (muy relevante), Hungría, Países Bajos y Bielorrusia (relevantes por una habilidad): el monitor llega a 32 países. Corea del Sur actualiza su organigrama: la Agencia de Contrainteligencia de Defensa reemplaza al disuelto Comando (DCC) y se agrega el Comando de Inteligencia de Defensa.

@@ -1,4 +1,4 @@
-// Los 32 países del monitor. Los organismos son reales; el resto del contenido de cada
+// Los 34 países del monitor. Los organismos son reales; el resto del contenido de cada
 // ficha está en data/paises/<id>.js.
 // g: grupo del organigrama → k coordinación · c inteligencia civil · m militar · p policial y seguridad · j control y justicia
 // tier: 1 núcleo · 2 muy relevante · 3 relevante en su región o por una habilidad
@@ -286,6 +286,20 @@ window.PAISES = [
       { code: "GRU", name: "Dirección Principal de Inteligencia del Estado Mayor", g: "m" },
       { code: "KGB", name: "Comité de Seguridad del Estado", g: "p" },
       { code: "GUBOPiK", name: "Dirección contra el Crimen Organizado y la Corrupción", g: "p" }
+    ] },
+  { id: "ve", name: "Venezuela", short: "Venezuela", map: "Venezuela", tier: 3, center: [-66.9, 10.48], skill: "Control interno con asesoría cubana",
+    agencies: [
+      { code: "CODENA", name: "Consejo de Defensa de la Nación", g: "k" },
+      { code: "SEBIN", name: "Servicio Bolivariano de Inteligencia Nacional", g: "c" },
+      { code: "DGCIM", name: "Dirección General de Contrainteligencia Militar", g: "m" },
+      { code: "CICPC", name: "Cuerpo de Investigaciones Científicas, Penales y Criminalísticas", g: "p" }
+    ] },
+  { id: "rw", name: "Ruanda", short: "Ruanda", map: "Rwanda", tier: 3, center: [30.06, -1.95], skill: "Persecución de opositores en el exterior",
+    agencies: [
+      { code: "CSN", name: "Consejo de Seguridad Nacional", g: "k" },
+      { code: "NISS", name: "Servicio Nacional de Inteligencia y Seguridad", g: "c" },
+      { code: "DMI", name: "Inteligencia Militar", g: "m" },
+      { code: "RIB", name: "Oficina de Investigación de Ruanda", g: "p" }
     ] }
 ];
 
