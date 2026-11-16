@@ -1,877 +1,154 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Suiza · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["ch"] = {
- "sample": true,
- "id": "ch",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Suiza: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 2,
-  "senales": 3,
-  "ciber": 2,
-  "imagenes": 1,
-  "encubierta": 1,
-  "contra": 3
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "Consejo": {
-   "since": 1967,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Delegación del Consejo Federal para la Seguridad: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "SRC": {
-   "since": 1909,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio de Inteligencia de la Confederación: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "MND": {
-   "since": 1927,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio de Inteligencia Militar: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "fedpol": {
-   "since": 1954,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Oficina Federal de Policía: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "AS-SRC": {
-   "since": 1920,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Autoridad de Supervisión Independiente de la Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "DelGes": {
-   "since": 1959,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Delegación de las Comisiones de Gestión del Parlamento: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "ch",
+  updated: "2026-11-15",
+  summary: [
+    "Suiza es neutral, pero Ginebra y Berna concentran organismos internacionales, bancos y diplomáticos, lo que las convierte en un centro del espionaje mundial. El Servicio de Inteligencia de la Confederación (SRC, NDB en alemán) es el servicio civil, dirigido desde noviembre de 2025 por Serge Bavaud. El Servicio de Inteligencia Militar (MND) cubre lo militar y la Oficina Federal de Policía (fedpol) persigue los delitos.",
+    "En su informe de 2026 el SRC señaló por primera vez a Rusia como la principal amenaza para el país. Según el servicio, Moscú usa a Suiza como base en el centro de Europa y mantiene decenas de presuntos oficiales de inteligencia con cobertura diplomática. El propio SRC atraviesa una crisis interna por una reestructuración y por una investigación de la fiscalía sobre una posible fuga de datos secretos hacia Rusia.",
+    "La historia del espionaje suizo tiene dos escándalos centrales. En 1989 se supo que la policía federal había reunido fichas sobre unas 900.000 personas. En 2020 se reveló que Crypto AG, una empresa de Zug que vendía máquinas de cifrado a más de 100 países, pertenecía en secreto a la CIA y al servicio alemán BND."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Director del SRC", v: "Serge Bavaud", n: "desde noviembre de 2025" },
+    { l: "Principal amenaza", v: "Rusia", n: "informe Seguridad Suiza 2026" },
+    { l: "Fichas de la policía federal", v: "Unas 900.000", n: "escándalo de 1989" },
+    { l: "Crypto AG", v: "CIA y BND", n: "dueños secretos durante décadas, revelado en 2020" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 2, senales: 3, ciber: 2, imagenes: 1, encubierta: 1, contra: 2 },
+  powerWhy: {
+    humana: "Servicio chico, con prioridad en la protección del país y de los organismos internacionales.",
+    senales: "El sistema Onyx intercepta comunicaciones satelitales; la ley permite rastrear cables bajo control judicial.",
+    ciber: "Capacidad limitada; un ataque a un proveedor expuso datos de la administración en 2023.",
+    imagenes: "Sin satélites propios; depende de socios.",
+    encubierta: "La neutralidad limita la acción encubierta; no hay operaciones documentadas.",
+    contra: "Decenas de espías rusos operan con cobertura diplomática, según el propio servicio."
+  },
+  priorities: [
+    { h: "Rusia", x: "Espionaje con cobertura diplomática y operaciones híbridas." },
+    { h: "Ginebra internacional", x: "Proteger organismos, negociaciones y diplomáticos." },
+    { h: "China", x: "Presión económica y vigilancia de la diáspora tibetana y uigur." },
+    { h: "Terrorismo", x: "Radicalización en línea de jóvenes." },
+    { h: "Proliferación", x: "Tecnología de doble uso y sanciones." }
+  ],
+  focos: ["Rusia", "China", "Irán", "Ginebra", "Proliferación"],
+  bodies: {
+    "Consejo": { since: 2010, how: "Delegación del Consejo Federal para la Seguridad, formada por tres ministros, que fija prioridades de inteligencia.", staff: "No aplica.", budget: "No aplica.", tech: [], where: ["Berna"] },
+    "SRC": { since: 2010, how: "Servicio de Inteligencia de la Confederación: inteligencia exterior e interior en un solo servicio civil. Atraviesa una reestructuración que su director quiere terminar a fines de 2026.", staff: "Unas 450 personas, según estimaciones públicas.", budget: "Público en el presupuesto federal.", tech: ["Interceptación satelital Onyx", "Rastreo de cables con autorización"], where: ["Berna"] },
+    "MND": { since: 1937, how: "Servicio de Inteligencia Militar del Ejército: análisis militar y apoyo a las fuerzas armadas.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: [], where: ["Berna"] },
+    "fedpol": { since: 2000, how: "Oficina Federal de Policía: investiga delitos contra el Estado junto con la Fiscalía Federal.", staff: "No se publica.", budget: "Público.", tech: [], where: ["Berna"] },
+    "AS-SRC": { since: 2017, how: "Autoridad de Supervisión Independiente de la Inteligencia: controla la legalidad del SRC y del MND.", staff: "No se publica.", budget: "Público.", tech: [], where: ["Berna"] },
+    "DelGes": { since: 1992, how: "Delegación de las Comisiones de Gestión del Parlamento, con acceso a información secreta.", staff: "Seis parlamentarios.", budget: "No aplica.", tech: [], where: ["Berna"] }
+  },
+  civil: [
+    "El SRC depende del Departamento de Defensa, hoy a cargo de Martin Pfister.",
+    "Las medidas intrusivas necesitan autorización del Tribunal Administrativo Federal y del ministro.",
+    "Los votantes aprobaron en 2016 la ley de inteligencia en un referéndum."
+  ],
+  law: {
+    domestic: [
+      "La ley de inteligencia de 2015, aprobada por referéndum en 2016, permite escuchas y entrada a sistemas con autorización judicial.",
+      "En 2026 el gobierno envió al Parlamento una revisión de esa ley.",
+      "El código penal castiga el espionaje político, económico y militar contra Suiza."
+    ],
+    foreign: [
+      "El SRC puede operar en el exterior; la ley prohíbe actividades que dañen la neutralidad."
+    ],
+    oversight: [
+      "Autoridad de Supervisión Independiente (AS-SRC).",
+      "Delegación de las Comisiones de Gestión del Parlamento.",
+      "Tribunal Administrativo Federal, que autoriza medidas intrusivas."
+    ]
+  },
+  rights: [
+    { d: "1989-11", dir: "recorta", area: "Privacidad", h: "Escándalo de las fichas", x: "Se revela que la policía federal fichó a unas 900.000 personas; los afectados pudieron pedir sus archivos." },
+    { d: "2016-09", dir: "amplia", area: "Privacidad", h: "Ley de inteligencia", x: "Los votantes aprueban escuchas, entrada a computadoras y rastreo de cables." },
+    { d: "2026-06", dir: "amplia", area: "Privacidad", h: "Revisión de la ley", x: "El gobierno propone ampliar facultades del servicio." }
+  ],
+  events: [
+    { d: "1989-11-24", lat: 46.95, lon: 7.45, c: "Switzerland", t: "contra", ev: 1, h: "Escándalo de las fichas", x: "Una comisión parlamentaria revela que la policía federal vigiló a cientos de miles de personas durante la Guerra Fría.", u: "https://en.wikipedia.org/wiki/Secret_files_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2020-02-11", lat: 47.17, lon: 8.52, c: "Switzerland", t: "senales", ev: 1, h: "Revelación de Crypto AG", x: "Medios revelan que la empresa de cifrado de Zug pertenecía a la CIA y al BND, que leían las comunicaciones de sus clientes.", u: "https://en.wikipedia.org/wiki/Crypto_AG", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2026-09", lat: 46.94, lon: 7.44, c: "Switzerland", t: "contra", ev: 3, h: "Sospecha de fuga hacia Rusia", x: "La Fiscalía Federal investiga si datos secretos del SRC llegaron a Rusia; un informe presentado por el ministro de Defensa dejó preguntas abiertas.", u: "https://www.srf.ch/news/schweiz/spionageverdacht-im-ndb-bericht-zur-russlandaffaere-entscheidende-fragen-bleiben-offen", st: "SRF" }
+  ],
+  interest: {
+    "Russia": 3, "China": 2, "Iran": 2, "Germany": 1, "France": 1, "Italy": 1, "United States of America": 1, "Ukraine": 1
+  },
+  timeline: [
+    { era: "Guerra Fría", d: "1950–1989", h: "Fichas de la policía federal", x: "Vigilancia masiva de supuestos subversivos." },
+    { era: "", d: "1970–2018", h: "Crypto AG", x: "La CIA y el BND controlan en secreto una empresa suiza de cifrado." },
+    { era: "Siglo XXI", d: "2010", h: "Nace el SRC", x: "Se fusionan la inteligencia exterior e interior." },
+    { era: "", d: "2016", h: "Referéndum", x: "Los votantes aprueban la ley de inteligencia." },
+    { era: "Actual", d: "2025–2026", h: "Crisis y Rusia", x: "Nuevo director, reestructuración y sospecha de fuga de datos.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: false, d: "1970–2018", h: "Crypto AG", x: "Investigaciones de prensa de 2020 mostraron que la CIA y el BND compraron en secreto la empresa suiza y manipularon sus máquinas para leer las comunicaciones de más de 100 gobiernos. Una investigación parlamentaria suiza concluyó que el servicio suizo sabía de la operación desde 1993 y la aprovechó.", who: "Delegación de las Comisiones de Gestión del Parlamento suizo", missing: "", u: "https://en.wikipedia.org/wiki/Crypto_AG", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "1950–1989", h: "El escándalo de las fichas", x: "La policía federal reunió fichas sobre unas 900.000 personas y organizaciones, en su mayoría sin sospecha de delito. El escándalo llevó a reformas y a que los afectados pudieran ver sus archivos.", who: "Comisión parlamentaria de investigación", missing: "", u: "https://en.wikipedia.org/wiki/Secret_files_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 3, ilegal: true, d: "2026", h: "La fuga hacia Rusia", x: "Una investigación sobre la división de ciberseguridad del SRC detectó \"incertidumbres\" sobre si datos secretos llegaron a Rusia. La Fiscalía Federal investiga; no hay acusados públicos.", who: "Gobierno suizo y Fiscalía Federal", missing: "El resultado de la investigación penal.", u: "https://www.srf.ch/news/schweiz/spionageverdacht-im-ndb-bericht-zur-russlandaffaere-entscheidende-fragen-bleiben-offen", st: "SRF" }
+  ],
+  failures: [
+    { k: "falla", d: "2016–2026", ev: 2, w: 2, h: "La crisis interna del SRC", x: "Una reestructuración prolongada provocó salidas de personal y paralizó parte del trabajo del servicio, según la prensa suiza.", why: "La crisis la reconoció el nuevo director; su impacto operativo se discute.", wx: "Declaraciones oficiales y prensa.", who: "Director del SRC y prensa suiza", u: "https://www.srf.ch/news/schweiz/umbruch-an-der-spitze-warum-baut-der-neue-chef-schon-wieder-um-beim-nachrichtendienst", st: "SRF" }
+  ],
+  modus: {
+    embajadas: "El SRC tiene pocos oficiales en el exterior; Rusia, en cambio, usa sus misiones en Ginebra y Berna como cobertura, según el servicio suizo.",
+    campo: "Fuentes humanas en el país y cooperación con servicios extranjeros.",
+    oficina: "El SRC produce el informe anual Seguridad Suiza y evaluaciones para el gobierno.",
+    reclutamiento: "Concursos públicos; personal policial y militar en comisión.",
+    tecnica: "Interceptación satelital Onyx, rastreo de cables con autorización judicial y entrada a sistemas.",
+    enlaces: "Cooperación con servicios europeos y de EE.UU., pese a la neutralidad."
+  },
+  insiders: [
+    { k: "topo", dir: "sale", ev: 1, d: "1962–1975", n: "Jean-Louis Jeanmaire", h: "El brigadier que trabajó para Moscú", x: "Pasó información militar a agregados soviéticos durante más de una década.", cargo: "Brigadier, jefe de la defensa aérea civil", hacia: "Inteligencia militar soviética (GRU)", fin: "Condenado a 18 años en 1977; liberado en 1988.", who: "Tribunal militar suizo", u: "https://en.wikipedia.org/wiki/Jean-Louis_Jeanmaire", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "1993–2020", h: "Lo que sabía el servicio suizo de Crypto AG", x: "El servicio suizo conocía la operación de la CIA y el BND y no informó al gobierno.", obj: "Obtener información de la operación.", aquien: "El Consejo Federal", como: "Investigaciones de medios en 2020 y la investigación parlamentaria.", who: "Delegación de las Comisiones de Gestión del Parlamento", u: "https://en.wikipedia.org/wiki/Crypto_AG", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "robo", rol: "blanco", ev: 3, d: "2026", h: "Datos del SRC", x: "La Fiscalía investiga si datos secretos del servicio llegaron a Rusia.", obj: "No determinado.", who: "Fiscalía Federal", u: "https://buttondown.com/frontpageseu/archive/switzerland-intelligence-agency-data-leak-probe/", st: "FrontPages.eu (síntesis de prensa suiza)" }
+  ],
+  practicas: {
+    propios: { ev: 1, x: "La policía federal fichó a funcionarios y ciudadanos durante la Guerra Fría.", u: "https://en.wikipedia.org/wiki/Secret_files_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 1, x: "Partidos de izquierda y sus militantes figuraban en las fichas reveladas en 1989.", u: "https://en.wikipedia.org/wiki/Secret_files_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    periodistas: { ev: 1, x: "Periodistas figuraban entre los fichados por la policía federal.", u: "https://en.wikipedia.org/wiki/Secret_files_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    activistas: { ev: 1, x: "Pacifistas y antinucleares fueron fichados durante la Guerra Fría.", u: "https://en.wikipedia.org/wiki/Secret_files_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 1, x: "El servicio suizo aprovechó la información de Crypto AG sobre gobiernos de todo el mundo, según el Parlamento.", u: "https://en.wikipedia.org/wiki/Crypto_AG", st: "Wikipedia (síntesis de fuentes)" },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    conflictos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    partidos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    empresarios: { ev: 1, x: "Crypto AG, una empresa suiza, fue el vehículo de una operación de espionaje mundial.", u: "https://en.wikipedia.org/wiki/Crypto_AG", st: "Wikipedia (síntesis de fuentes)" },
+    religiosos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    armas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    inteligencia: { ev: 1, x: "Coopera con servicios europeos y de EE.UU.; el nuevo director quiere ampliar esas alianzas.", u: "https://www.blick.ch/themen/nachrichtendienst-des-bundes", st: "Blick" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró transferencias documentadas." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "El presupuesto del SRC es público dentro del de Defensa. Esta ficha no encontró la cifra de 2026 verificada; el director pidió más recursos.",
+    uso: "Personal, interceptación y reestructuración del servicio.",
+    ingresos: "Esta ficha no encontró ingresos propios.",
+    empresas: "Crypto AG fue una empresa de fachada de servicios extranjeros en territorio suizo.",
+    bancos: "Los bancos suizos son blanco frecuente de servicios extranjeros que buscan rastrear fondos.",
+    crimen: "Esta ficha no encontró uso de organizaciones criminales.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura del servicio suizo."
+  },
+  fondos: [
+    { k: "fachada", rol: "blanco", ev: 1, d: "1970–2018", h: "Crypto AG", x: "La CIA y el BND compraron la empresa por medio de una fundación de Liechtenstein y la usaron como fachada.", monto: "Unos 5,75 millones de dólares en la compra de 1970, según la prensa", obj: "Espiar comunicaciones de gobiernos de todo el mundo.", who: "Washington Post, ZDF y SRF", u: "https://en.wikipedia.org/wiki/Crypto_AG", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "Crypto AG", c: "nacional", rubro: "Cifrado", rel: "Fachada extranjera", x: "Propiedad secreta de la CIA y el BND; disuelta en 2018." }
+  ],
+  struggles: [
+    { a: "Dirección del SRC", b: "Personal del servicio", k: "Interna", stake: "La reestructuración", state: "Abierta", x: "Años de reformas generaron salidas y malestar; el nuevo director busca cerrarlas en 2026." }
+  ],
+  sources: [
+    { t: "Swissinfo: la situación de seguridad empeora (2026)", u: "https://swissinfo.ch/eng/foreign-affairs/switzerlands-security-situation-has-deteriorated-further-according-to-the-src/91650054" },
+    { t: "SRF: el informe sobre la sospecha de espionaje en el SRC", u: "https://www.srf.ch/news/schweiz/spionageverdacht-im-ndb-bericht-zur-russlandaffaere-entscheidende-fragen-bleiben-offen" },
+    { t: "Admin.ch: nombramiento de Serge Bavaud", u: "https://www.admin.ch/de/newnsb/f9t8-q8vlWDfMgsQF5IHm" },
+    { t: "Wikipedia: Crypto AG", u: "https://en.wikipedia.org/wiki/Crypto_AG" }
   ]
- },
- "rights": [
-  {
-   "d": "1954",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1960",
-   "dir": "recorta",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1967",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1978",
-   "dir": "amplia",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1987",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1996",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2003",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2010",
-   "dir": "amplia",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2018",
-   "dir": "amplia",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  }
- ],
- "events": [
-  {
-   "d": "1961-05-04",
-   "lat": -31.85,
-   "lon": -117.48,
-   "t": "encubierta",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1967-06-18",
-   "lat": 44.51,
-   "lon": 1.48,
-   "t": "ciber",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1971-10-11",
-   "lat": -5.61,
-   "lon": -30.72,
-   "t": "encubierta",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1975-08-15",
-   "lat": -28.32,
-   "lon": 109.56,
-   "t": "humana",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1982-11-14",
-   "lat": 11.88,
-   "lon": -35.16,
-   "t": "humana",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1984-02-22",
-   "lat": 45.82,
-   "lon": 5.49,
-   "t": "humana",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1989-05-11",
-   "lat": 54.51,
-   "lon": 25.29,
-   "t": "ciber",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1995-05-15",
-   "lat": 43.73,
-   "lon": 8.47,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1998-02-12",
-   "lat": 46.68,
-   "lon": 8.48,
-   "t": "senales",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2002-09-04",
-   "lat": -22.93,
-   "lon": 112.55,
-   "t": "encubierta",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2009-08-03",
-   "lat": 34.34,
-   "lon": -120.88,
-   "t": "sabotaje",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2011-02-18",
-   "lat": -0.9,
-   "lon": 38.39,
-   "t": "ciber",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2018-02-11",
-   "lat": 16.71,
-   "lon": -145.11,
-   "t": "humana",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2023-04-19",
-   "lat": 45.61,
-   "lon": -4.7,
-   "t": "contra",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  }
- ],
- "interest": {
-  "China": 1,
-  "France": 2,
-  "Saudi Arabia": 2,
-  "Syria": 1,
-  "Iraq": 2,
-  "Cuba": 1,
-  "Argentina": 3,
-  "South Korea": 1,
-  "North Korea": 1,
-  "Taiwan": 1,
-  "Belarus": 2,
-  "Philippines": 2,
-  "Vietnam": 2,
-  "Ethiopia": 2,
-  "Somalia": 2
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "2010",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "2007",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2006",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "1971",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "2004",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "2005",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
