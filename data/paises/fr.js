@@ -88,15 +88,20 @@
     "Afghanistan": 2, "Pakistan": 2, "Central African Rep.": 2, "Azerbaijan": 2, "Belarus": 1, "Somalia": 1, "Djibouti": 1, "Senegal": 1, "United States of America": 1, "United Kingdom": 1, "Germany": 1, "Turkey": 1
   },
   timeline: [
-    { era: "Orígenes", d: "1871", h: "Nace el Deuxième Bureau", x: "La inteligencia militar moderna francesa surge tras la derrota ante Prusia." },
-    { era: "", d: "1894–1906", h: "El caso Dreyfus", x: "Un oficial judío es condenado con pruebas fabricadas por la inteligencia militar." },
-    { era: "Guerra Fría", d: "1946", h: "El SDECE", x: "Se crea el servicio exterior, antecesor de la DGSE, con fuerte rol en Indochina y Argelia." },
-    { era: "", d: "1965", h: "Ben Barka", x: "El escándalo lleva a pasar el SDECE al Ministerio de Defensa." },
-    { era: "", d: "1982", h: "Nace la DGSE", x: "El SDECE se reorganiza tras la llegada de François Mitterrand." },
-    { era: "", d: "1985", h: "Rainbow Warrior", x: "El hundimiento del barco de Greenpeace obliga a renunciar al ministro de Defensa." },
-    { era: "Terrorismo", d: "2012–2015", h: "Merah, Charlie Hebdo y el Bataclan", x: "Una serie de atentados expone fallas y lleva a la ley de inteligencia de 2015." },
-    { era: "", d: "2022", h: "Ucrania", x: "El jefe de inteligencia militar es removido por no anticipar la invasión rusa." },
-    { era: "Actual", d: "2024–2026", h: "Rusia en el centro", x: "Lerner en la DGSE, ley contra injerencias, detenciones de espías y atribución pública al FSB.", now: true }
+    {"era": "Antiguo régimen", "d": "1628", "h": "El gabinete negro", "x": "El criptógrafo Antoine Rossignol descifra cartas enemigas para el cardenal Richelieu; nace un servicio de apertura de correo.", "ctx": "Absolutismo de Luis XIII y guerras de religión."},
+    {"era": "", "d": "1752–1774", "h": "El Secreto del Rey", "x": "Luis XV mantiene una diplomacia y una red de espías paralelas a sus propios ministros.", "ctx": "Rivalidad con Gran Bretaña y Austria."},
+    {"era": "", "d": "1799–1815", "h": "La policía de Fouché", "x": "Joseph Fouché, ministro de Policía, arma la red de informantes más grande de Europa.", "ctx": "Consulado e Imperio de Napoleón."},
+    {"era": "Tercera República", "d": "1871", "h": "Nace el Deuxième Bureau", "x": "La inteligencia militar moderna francesa surge tras la derrota ante Prusia.", "ctx": "Derrota ante Prusia y caída del Segundo Imperio."},
+    {"era": "", "d": "1894–1906", "h": "El caso Dreyfus", "x": "Un oficial judío es condenado con pruebas fabricadas por la inteligencia militar.", "ctx": "Nacionalismo y antisemitismo en la Tercera República."},
+    {"era": "", "d": "1940–1944", "h": "El BCRA", "x": "La Francia Libre de De Gaulle crea en Londres su servicio de inteligencia y acción con la Resistencia.", "ctx": "Ocupación alemana y régimen de Vichy."},
+    {"era": "Guerra Fría", "d": "1946", "h": "El SDECE", "x": "Se crea el servicio exterior, antecesor de la DGSE, con fuerte rol en Indochina y Argelia.", "ctx": "Posguerra y comienzo de la Guerra Fría."},
+    {"era": "", "d": "1954–1962", "h": "La Mano Roja", "x": "El SDECE usa una organización ficticia para atentar contra apoyos del independentismo argelino en Europa.", "ctx": "Guerra de Argelia."},
+    {"era": "", "d": "1965", "h": "Ben Barka", "x": "El escándalo lleva a pasar el SDECE al Ministerio de Defensa.", "ctx": "Presidencia de De Gaulle y política africana."},
+    {"era": "", "d": "1982", "h": "Nace la DGSE", "x": "El SDECE se reorganiza tras la llegada de François Mitterrand.", "ctx": "Llegada de la izquierda al poder con Mitterrand."},
+    {"era": "", "d": "1985", "h": "Rainbow Warrior", "x": "El hundimiento del barco de Greenpeace obliga a renunciar al ministro de Defensa.", "ctx": "Ensayos nucleares en el Pacífico."},
+    {"era": "Terrorismo", "d": "2012–2015", "h": "Merah, Charlie Hebdo y el Bataclan", "x": "Una serie de atentados expone fallas y lleva a la ley de inteligencia de 2015.", "ctx": "Auge del Estado Islámico."},
+    {"era": "", "d": "2022", "h": "Ucrania", "x": "El jefe de inteligencia militar es removido por no anticipar la invasión rusa.", "ctx": "Invasión rusa de Ucrania."},
+    {"era": "Actual", "d": "2024–2026", "h": "Rusia en el centro", "x": "Lerner en la DGSE, ley contra injerencias, detenciones de espías y atribución pública al FSB.", "now": true, "ctx": "Salida de las tropas francesas del Sahel."}
   ],
   cases: [
     { ev: 1, ilegal: true, d: "1985", h: "El hundimiento del Rainbow Warrior", x: "Agentes de la DGSE pusieron dos bombas en el barco de Greenpeace en Nueva Zelanda y murió el fotógrafo Fernando Pereira. El gobierno lo negó primero y luego lo admitió; dos agentes fueron condenados en Nueva Zelanda.", who: "Justicia neozelandesa y gobierno francés", missing: "", u: "https://en.wikipedia.org/wiki/Sinking_of_the_Rainbow_Warrior", st: "Wikipedia (síntesis de fuentes)" },

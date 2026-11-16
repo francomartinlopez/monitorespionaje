@@ -84,7 +84,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   function route() {
     const h = (location.hash || "#inicio").slice(1);
     if (current === "home") homeScroll = scrollY;
-    hideTip(); if (cleanup) { cleanup(); cleanup = null; }
+    hideTip(); if (cleanup) { cleanup(); cleanup = null; } if (accCleanup) { accCleanup(); accCleanup = null; }
     menu.hidden = true;
     const first = current === null;
     document.querySelectorAll(".mainnav > a").forEach(a => a.classList.toggle("on", a.dataset.nav === (h.startsWith("p-") ? "" : h)));
@@ -119,16 +119,18 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       </div>
 
       <div class="section-title"><h2>Explorar</h2><span>Mapas temáticos, personas, comparaciones y archivo</span></div>
-      <div class="explore">${window.ME.EXPLORE.map(e => `<a class="xtile" href="#${e.id}"><span class="k">${esc(e.k)}</span><b>${esc(e.n)}</b><span>${esc(e.x)}</span></a>`).join("")}</div>
+      <div class="acc-list" id="accList">${window.ME.EXPLORE.map(e => `<div class="acc" data-id="${e.id}"><button type="button" class="acc-h" aria-expanded="false"><span class="k">${esc(e.k)}</span><b>${esc(e.n)}</b><span class="x">${esc(e.x)}</span><i aria-hidden="true">+</i></button><div class="acc-body" hidden></div><a class="acc-link" href="#${e.id}" hidden>Abrir en página propia →</a></div>`).join("")}</div>
 
       <div class="section-title"><h2>Países monitoreados</h2><span>${PAISES.length} países, de las potencias de inteligencia a los especialistas regionales</span></div>
       ${[1, 2, 3].map(t => `<div class="tier-head"><h3>${esc(window.TIERS[t].n)}</h3><span>${esc(window.TIERS[t].x)}</span></div>
         <div class="cards">${PAISES.filter(p => p.tier === t).map(card).join("")}</div>`).join("")}
 
       <div class="section-title"><h2>Poder por rubro</h2><span>Comparación de capacidades, de 1 a 5 · tocá una columna para ordenar${sampleTag(PAISES.some(p => FICHAS[p.id]?.sample))}</span></div>
+      <p class="rub-legend">${RUBROS.map(r => `<span><b>${r.s}</b> ${esc(r.n.toLowerCase())}</span>`).join("")}</p>
       <div class="cmp-wrap"><table class="cmp" id="cmp"></table></div>`;
     drawHomeMap();
     drawCmp("tot");
+    bindAccordion();
   }
 
   function card(p) {
@@ -197,6 +199,19 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     });
   }
 
+  let accCleanup = null;
+  function bindAccordion() {
+    const L = document.getElementById("accList"); if (!L) return;
+    const closeAll = () => { if (accCleanup) { accCleanup(); accCleanup = null; } hideTip();
+      L.querySelectorAll(".acc").forEach(a => { a.classList.remove("open"); a.querySelector(".acc-h").setAttribute("aria-expanded", "false"); const b = a.querySelector(".acc-body"); b.hidden = true; b.innerHTML = ""; a.querySelector(".acc-link").hidden = true; }); };
+    L.querySelectorAll(".acc").forEach(a => a.querySelector(".acc-h").addEventListener("click", () => {
+      const was = a.classList.contains("open"); closeAll(); if (was) return;
+      const body = a.querySelector(".acc-body"), r = window.ME.ROUTES[a.dataset.id];
+      a.classList.add("open"); a.querySelector(".acc-h").setAttribute("aria-expanded", "true"); body.hidden = false; a.querySelector(".acc-link").hidden = false;
+      const c = r.render([], body); if (typeof c === "function") accCleanup = c;
+      a.scrollIntoView({ block: "start", behavior: "smooth" });
+    }));
+  }
   function drawCmp(sortKey) {
     const t = document.getElementById("cmp"); if (!t) return;
     const rows = PAISES.filter(p => FICHAS[p.id]).map(p => ({ p, f: FICHAS[p.id] }));
@@ -266,7 +281,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
 
       <section class="block" id="sec-cronologia">
         <h2>Cronología histórica <small>Cambios de estructura, doctrina y operaciones hasta hoy</small></h2>
-        <div class="tl">${f.timeline.map(t => `<div class="era">${esc(t.era)}</div><div class="it${t.now ? " now" : ""}"><span class="d">${esc(t.d)}</span><span><b>${esc(t.h)}</b><p>${esc(t.x)}</p></span></div>`).join("")}</div>
+        ${f.timeline.some(t => t.ctx) ? `<div class="tl-heads"><span></span><span>Fecha</span><span>Hecho</span><span>Contexto histórico</span></div>` : ""}<div class="tl${f.timeline.some(t => t.ctx) ? " tl-ctx" : ""}">${f.timeline.map(t => `<div class="era">${esc(t.era)}</div><div class="it${t.now ? " now" : ""}"><span class="d">${esc(t.d)}</span><span><b>${esc(t.h)}</b><p>${esc(t.x)}</p></span>${t.ctx ? `<span class="ctx"><i>Contexto</i>${esc(t.ctx)}</span>` : ""}</div>`).join("")}</div>
       </section>
 
       <section class="block" id="sec-casos">

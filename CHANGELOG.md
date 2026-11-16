@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-16 · Cronologías del núcleo llevadas hasta el primer servicio de inteligencia conocido (de la Opríchnina rusa y Walsingham a la red Culper y el Sun Tzu chino) y nueva columna de contexto histórico en cada fecha. Explorar pasa a ser una lista desplegable en la portada. "Poder por rubro" explica las siglas.
+
 - 2026-11-16 · El monitor pasa a 60 países (12 núcleo, 16 muy relevantes, 32 relevantes). Ucrania sube al núcleo y Cuba a muy relevantes. Nuevas fichas de Marruecos y Líbano (muy relevantes) e Irak (relevante), con relaciones y lugar en "Quién manda". Se corrige el enlace del caso de sobornos en el Parlamento Europeo.
 
 - 2026-11-16 · Nueva sección "Organizaciones proxy" en las 57 fichas: 79 casos en 34 países (grupos armados, terroristas, carteles y mafias, empresas, ONG, instituciones y centros académicos), con papel, vigencia, evidencia y fuente. "Quién manda" suma un nivel 5 de proxies y muestra el nombre de todos los países.

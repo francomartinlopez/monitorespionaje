@@ -93,15 +93,20 @@
     "Mali": 1, "Azerbaijan": 1, "North Korea": 1, "Poland": 1, "Lithuania": 1, "Serbia": 1, "United States of America": 1, "Libya": 1
   },
   timeline: [
-    { era: "Posguerra", d: "1946", h: "La Organización Gehlen", x: "Un ex general de la Wehrmacht arma una red de espionaje bajo tutela estadounidense, con muchos ex nazis." },
-    { era: "", d: "1950", h: "Nace el BfV", x: "La República Federal crea su oficina de protección de la Constitución, sin poderes policiales." },
-    { era: "Guerra Fría", d: "1956", h: "Nace el BND", x: "La Organización Gehlen pasa a ser el servicio exterior oficial, con sede en Pullach." },
-    { era: "", d: "1961", h: "El caso Felfe", x: "Se descubre que el jefe de contrainteligencia soviética del BND trabajaba para la KGB." },
-    { era: "", d: "1974", h: "Guillaume", x: "La caída de un espía de Alemania Oriental en la Cancillería lleva a la renuncia de Willy Brandt." },
-    { era: "Reunificación", d: "1990–1991", h: "El fin de la Stasi", x: "Se disuelve la policía secreta oriental y sus archivos se abren a las víctimas." },
-    { era: "Siglo XXI", d: "2011–2013", h: "NSU y Snowden", x: "Un grupo neonazi mató durante años sin ser detectado; luego se revela la ayuda del BND a la NSA." },
-    { era: "", d: "2016–2020", h: "Amri y Karlsruhe", x: "El atentado de Berlín expone fallas; el Tribunal Constitucional pone límites al BND en el exterior." },
-    { era: "Actual", d: "2025–2026", h: "Guerra en las sombras", x: "Jäger y Selen al frente, reforma con medidas activas, dron en Leipzig y detención de Hanning.", now: true }
+    {"era": "Prusia", "d": "1850–1878", "h": "Wilhelm Stieber", "x": "El jefe de la policía secreta de Bismarck organiza el espionaje contra Austria y Francia.", "ctx": "Unificación alemana bajo Prusia."},
+    {"era": "Imperio", "d": "1889", "h": "La Sección IIIb", "x": "El Estado Mayor crea su servicio de inteligencia militar, que actúa en la Primera Guerra Mundial.", "ctx": "Imperio alemán de Guillermo II."},
+    {"era": "Weimar y nazismo", "d": "1920", "h": "Nace la Abwehr", "x": "El ejército crea la Abwehr, que bajo Wilhelm Canaris será el espionaje militar nazi.", "ctx": "República de Weimar y límites del Tratado de Versalles."},
+    {"era": "", "d": "1933–1945", "h": "Gestapo y SD", "x": "El nazismo crea la Gestapo y el servicio de seguridad de las SS, núcleo de la represión y del Holocausto.", "ctx": "Dictadura de Hitler y Segunda Guerra Mundial."},
+    {"era": "Posguerra", "d": "1946", "h": "La Organización Gehlen", "x": "Un ex general de la Wehrmacht arma una red de espionaje bajo tutela estadounidense, con muchos ex nazis.", "ctx": "Alemania ocupada y dividida en zonas."},
+    {"era": "", "d": "1950", "h": "Nace la Stasi", "x": "Alemania Oriental crea el Ministerio para la Seguridad del Estado, que vigilará a millones de personas.", "ctx": "Dos Alemanias en bloques opuestos."},
+    {"era": "", "d": "1950", "h": "Nace el BfV", "x": "La República Federal crea su oficina de protección de la Constitución, sin poderes policiales.", "ctx": "República Federal y nueva Constitución."},
+    {"era": "Guerra Fría", "d": "1956", "h": "Nace el BND", "x": "La Organización Gehlen pasa a ser el servicio exterior oficial, con sede en Pullach.", "ctx": "Rearme de Alemania Occidental y entrada en la OTAN."},
+    {"era": "", "d": "1961", "h": "El caso Felfe", "x": "Se descubre que el jefe de contrainteligencia soviética del BND trabajaba para la KGB.", "ctx": "Construcción del Muro de Berlín."},
+    {"era": "", "d": "1974", "h": "Guillaume", "x": "La caída de un espía de Alemania Oriental en la Cancillería lleva a la renuncia de Willy Brandt.", "ctx": "Ostpolitik de Willy Brandt."},
+    {"era": "Reunificación", "d": "1990–1991", "h": "El fin de la Stasi", "x": "Se disuelve la policía secreta oriental y sus archivos se abren a las víctimas.", "ctx": "Caída del Muro y reunificación."},
+    {"era": "Siglo XXI", "d": "2011–2013", "h": "NSU y Snowden", "x": "Un grupo neonazi mató durante años sin ser detectado; luego se revela la ayuda del BND a la NSA.", "ctx": "Crisis financiera y gobierno de Merkel."},
+    {"era": "", "d": "2016–2020", "h": "Amri y Karlsruhe", "x": "El atentado de Berlín expone fallas; el Tribunal Constitucional pone límites al BND en el exterior.", "ctx": "Crisis de refugiados."},
+    {"era": "Actual", "d": "2025–2026", "h": "Guerra en las sombras", "x": "Jäger y Selen al frente, reforma con medidas activas, dron en Leipzig y detención de Hanning.", "now": true, "ctx": "Guerra en Ucrania y rearme alemán."}
   ],
   cases: [
     { ev: 1, ilegal: false, d: "1970–2018", h: "Rubikon: las máquinas de cifrado truchas", x: "El BND y la CIA fueron dueños en secreto de Crypto AG, que vendía equipos de cifrado a gobiernos de todo el mundo, entre ellos Argentina. Las máquinas tenían debilidades que permitían leer los mensajes. El BND vendió su parte en 1993.", who: "The Washington Post, ZDF y SRF, con documentos internos de la CIA y el BND", missing: "", u: "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/", st: "The Washington Post (2020)" },

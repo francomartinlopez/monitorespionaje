@@ -92,17 +92,21 @@
     "Argentina": 1, "Venezuela": 1, "Pakistan": 1, "Russia": 1, "China": 1
   },
   timeline: [
-    { era: "Monarquía", d: "1957", h: "La SAVAK", x: "El sha crea su policía secreta con ayuda de la CIA y del Mossad." },
-    { era: "Revolución", d: "1979", h: "Cae el sha", x: "La SAVAK se disuelve; nacen la Guardia Revolucionaria y nuevos servicios." },
-    { era: "", d: "1984", h: "Nace el MOIS", x: "El Ministerio de Inteligencia centraliza el espionaje civil." },
-    { era: "", d: "1988–1992", h: "Ejecuciones y asesinatos en Europa", x: "Ejecución masiva de presos y asesinatos de opositores en el exterior, como Mykonos." },
-    { era: "", d: "1994", h: "AMIA", x: "El atentado en Buenos Aires que la justicia argentina atribuye a Irán." },
-    { era: "", d: "1998", h: "Asesinatos en cadena", x: "Agentes del MOIS matan a intelectuales; el ministerio lo admite al año siguiente." },
-    { era: "Siglo XXI", d: "2009", h: "Movimiento Verde", x: "Represión de las protestas y creación de la inteligencia de la Guardia." },
-    { era: "", d: "2020", h: "Soleimani", x: "EE.UU. mata al jefe de la Fuerza Quds en Bagdad." },
-    { era: "", d: "2022", h: "Mujer, vida, libertad", x: "Protestas tras la muerte de Mahsa Amini bajo custodia policial." },
-    { era: "", d: "2025", h: "Guerra de junio", x: "Israel ataca Irán con apoyo de redes de agentes dentro del país." },
-    { era: "Actual", d: "2026", h: "Masacre, guerra y sucesión", x: "Represión de enero, muerte de Jamenei y de la cúpula de inteligencia, y reparto de cargos entre veteranos de la Guardia.", now: true }
+    {"era": "Antigüedad", "d": "Siglo VI a.C.", "h": "Los ojos y oídos del rey", "x": "El Imperio persa aqueménida usa inspectores reales y un correo rápido para vigilar a los sátrapas.", "ctx": "Ciro y Darío construyen el mayor imperio de su tiempo."},
+    {"era": "Pahlavi", "d": "1925–1941", "h": "La policía de Reza Sha", "x": "La policía política del nuevo sha persigue a comunistas, clérigos y tribus rebeldes.", "ctx": "Fundación de la dinastía Pahlavi."},
+    {"era": "", "d": "1953", "h": "Golpe contra Mosaddeq", "x": "La CIA y el MI6 organizan el derrocamiento del primer ministro que nacionalizó el petróleo.", "ctx": "Disputa por el petróleo y Guerra Fría."},
+    {"era": "Monarquía", "d": "1957", "h": "La SAVAK", "x": "El sha crea su policía secreta con ayuda de la CIA y del Mossad.", "ctx": "El sha refuerza su poder con asesoría de la CIA y del Mossad."},
+    {"era": "Revolución", "d": "1979", "h": "Cae el sha", "x": "La SAVAK se disuelve; nacen la Guardia Revolucionaria y nuevos servicios.", "ctx": "Revolución islámica."},
+    {"era": "", "d": "1984", "h": "Nace el MOIS", "x": "El Ministerio de Inteligencia centraliza el espionaje civil.", "ctx": "Guerra con Irak."},
+    {"era": "", "d": "1988–1992", "h": "Ejecuciones y asesinatos en Europa", "x": "Ejecución masiva de presos y asesinatos de opositores en el exterior, como Mykonos.", "ctx": "Fin de la guerra con Irak y muerte de Jomeini."},
+    {"era": "", "d": "1990", "h": "La Fuerza Quds", "x": "La Guardia Revolucionaria forma su unidad de operaciones en el exterior.", "ctx": "Reconstrucción de posguerra y expansión regional."},
+    {"era": "", "d": "1994", "h": "AMIA", "x": "El atentado en Buenos Aires que la justicia argentina atribuye a Irán.", "ctx": "Expansión de Hezbollah y red exterior iraní."},
+    {"era": "", "d": "1998", "h": "Asesinatos en cadena", "x": "Agentes del MOIS matan a intelectuales; el ministerio lo admite al año siguiente.", "ctx": "Gobierno reformista de Jatamí."},
+    {"era": "Siglo XXI", "d": "2009", "h": "Movimiento Verde", "x": "Represión de las protestas y creación de la inteligencia de la Guardia.", "ctx": "Reelección cuestionada de Ahmadineyad."},
+    {"era": "", "d": "2020", "h": "Soleimani", "x": "EE.UU. mata al jefe de la Fuerza Quds en Bagdad.", "ctx": "Retiro de EE.UU. del acuerdo nuclear."},
+    {"era": "", "d": "2022", "h": "Mujer, vida, libertad", "x": "Protestas tras la muerte de Mahsa Amini bajo custodia policial.", "ctx": "Muerte de Mahsa Amini en custodia."},
+    {"era": "", "d": "2025", "h": "Guerra de junio", "x": "Israel ataca Irán con apoyo de redes de agentes dentro del país.", "ctx": "Ataques de Israel y EE.UU. al programa nuclear."},
+    {"era": "Actual", "d": "2026", "h": "Masacre, guerra y sucesión", "x": "Represión de enero, muerte de Jamenei y de la cúpula de inteligencia, y reparto de cargos entre veteranos de la Guardia.", "now": true, "ctx": "Muerte de Jamenei y sucesión."}
   ],
   cases: [
     { ev: 1, ilegal: true, d: "1992", h: "Los asesinatos del Mykonos", x: "Cuatro opositores kurdos fueron asesinados en un restaurante de Berlín. En 1997 un tribunal alemán concluyó que el crimen fue ordenado por la cúpula del Estado iraní, y la Unión Europea retiró a sus embajadores.", who: "Tribunal superior de Berlín (1997)", missing: "", u: "https://en.wikipedia.org/wiki/Mykonos_restaurant_assassinations", st: "Wikipedia (síntesis de fuentes)" },

@@ -37,7 +37,7 @@
   const monitorNodes = (ids) => PAISES.filter(p => !ids || ids.includes(p.id)).map(p => { const [x, y] = pt(p.center); return `<g class="node" data-id="${p.id}" tabindex="0" role="link" aria-label="${esc(p.name)}">${rings(x, y, .8)}<rect x="${x - 3}" y="${y - 3}" width="6" height="6"/></g>`; }).join("");
 
   // ================= QUIÉN MANDA =================
-  R.poder = { title: "Quién manda", render(args) {
+  R.poder = { title: "Quién manda", render(args, root) { const app = root || ME.app;
     const P = window.PODER, B = window.BLOQUES, BD = Object.fromEntries(B.defs.map(d => [d.id, d]));
     const bloc = id => { const m = B.paises.find(x => x[0] === byId[id].map); return m ? m[1] : "neu"; };
     const cap = id => { const p = FICHAS[id]?.power || {}; return Object.values(p).reduce((a, b) => a + b, 0); };
@@ -104,7 +104,7 @@
   } };
 
   // ================= BLOQUES =================
-  R.bloques = { title: "Bloques de inteligencia", render(args) {
+  R.bloques = { title: "Bloques de inteligencia", render(args, root) { const app = root || ME.app;
     const B = window.BLOQUES, D = Object.fromEntries(B.defs.map(d => [d.id, d])), op = { n: .6, c: .36, p: .16 };
     let cur = D[args[0]] ? args[0] : null;
     const cnt = id => B.paises.filter(p => p[1] === id).length;
@@ -131,7 +131,7 @@
   } };
 
   // ================= ALIANZAS =================
-  R.alianzas = { title: "Alianzas de inteligencia", render(args) {
+  R.alianzas = { title: "Alianzas de inteligencia", render(args, root) { const app = root || ME.app;
     const A = window.ALIANZAS; let cur = A.find(a => a.id === args[0]) || A[0];
     app.innerHTML = head("Alianzas de inteligencia", "Qué países comparten inteligencia de manera estable y en qué rubro. Elegí una alianza para verla en el mapa.") + `
       <div class="chips" id="alChips">${A.map(a => `<button type="button" class="chip" data-id="${a.id}" style="--c:${a.c}"><i></i>${esc(a.n)} · ${a.members.length}</button>`).join("")}</div>
@@ -152,7 +152,7 @@
   } };
 
   // ================= INFRAESTRUCTURA =================
-  R.infraestructura = { title: "Infraestructura de vigilancia", render() {
+  R.infraestructura = { title: "Infraestructura de vigilancia", render(args, root) { const app = root || ME.app;
     const T = window.INFRA_TYPES, I = window.INFRA, on = new Set(Object.keys(T));
     app.innerHTML = head("Infraestructura de vigilancia", "Lo que sostiene el poder en señales: estaciones de escucha y satelitales, bases en el exterior y los nodos de cables submarinos por donde pasa internet.") + `
       <div class="chips" id="inChips">${Object.entries(T).map(([k, t]) => `<button type="button" class="chip on" data-t="${k}" aria-pressed="true" style="--c:${t.c}"><i></i>${t.n} · ${I.filter(x => x.t === k).length}</button>`).join("")}</div>
@@ -173,7 +173,7 @@
   } };
 
   // ================= SOFTWARE ESPÍA =================
-  R["software-espia"] = { title: "Mercado del software espía", render() {
+  R["software-espia"] = { title: "Mercado del software espía", render(args, root) { const app = root || ME.app;
     const S = window.SPYWARE, P = Object.fromEntries(S.providers.map(p => [p.id, p]));
     let sel = null;
     app.innerHTML = head("Mercado del software espía", "Las empresas que venden herramientas para intervenir teléfonos y computadoras, y los gobiernos que las compran. Cada línea es una venta o un uso documentado; el trazo indica el nivel de evidencia.") + `
@@ -197,7 +197,7 @@
   } };
 
   // ================= EXPULSIONES =================
-  R.expulsiones = { title: "Expulsiones y canjes", render() {
+  R.expulsiones = { title: "Expulsiones y canjes", render(args, root) { const app = root || ME.app;
     const E = window.EXPULSIONES, ys = E.map(e => e.y), years = Array.from({ length: Math.max(...ys) - Math.min(...ys) + 1 }, (_, i) => Math.min(...ys) + i);
     let yr = "all";
     app.innerHTML = head("Expulsiones y canjes", "Diplomáticos expulsados por espionaje y espías canjeados entre países. El grosor de cada línea es la cantidad de personas. Sólo se cuentan los pares entre países del monitor, con fuente en cada caso.") + `
@@ -227,7 +227,7 @@
   } };
 
   // ================= PERSONAS =================
-  R.personas = { title: "Personas", render() {
+  R.personas = { title: "Personas", render(args, root) { const app = root || ME.app;
     const O = window.ORGS_RED, Pp = window.PERSONAS, OI = Object.fromEntries(O.map(o => [o.id, o]));
     const west = O.filter(o => o.side === "o"), east = O.filter(o => o.side === "e");
     const VW = 1200, VH = Math.max(Pp.length * 54 + 60, 520);
@@ -256,7 +256,7 @@
   } };
 
   // ================= PRÁCTICAS POR PAÍS =================
-  R.practicas = { title: "Qué hace cada servicio", render() {
+  R.practicas = { title: "Qué hace cada servicio", render(args, root) { const app = root || ME.app;
     const PR = window.PRACTICAS, NONE = window.PRAC_NONE, groups = [...new Set(PR.map(x => x.g))];
     const anySample = PAISES.some(p => FICHAS[p.id]?.sample);
     const rows = PAISES.map(p => { const f = FICHAS[p.id] || {};
@@ -274,7 +274,7 @@
   } };
 
   // ================= COMPARAR =================
-  R.comparar = { title: "Comparar dos países", render(args) {
+  R.comparar = { title: "Comparar dos países", render(args, root) { const app = root || ME.app;
     const a = byId[args[0]] ? args[0] : "us", b = byId[args[1]] && args[1] !== a ? args[1] : (a === "cn" ? "us" : "cn");
     const A = byId[a], B = byId[b], FA = FICHAS[a], FB = FICHAS[b];
     const opt = sel => PAISES.map(p => `<option value="${p.id}"${p.id === sel ? " selected" : ""}>${esc(p.name)}</option>`).join("");
@@ -306,7 +306,7 @@
   } };
 
   // ================= CRONOLOGÍA GLOBAL =================
-  R.cronologia = { title: "Cronología global", render() {
+  R.cronologia = { title: "Cronología global", render(args, root) { const app = root || ME.app;
     const y0 = 1945, y1 = 2027, LW = 150, VW = 1200, lane = 26, top = 84;
     const x = y => LW + (y - y0) / (y1 - y0) * (VW - LW - 16);
     const eras = [[1947, 1991, "Guerra Fría"], [1991, 2001, "Posguerra Fría"], [2001, 2013, "11-S y después"], [2013, 2027, "Era digital"]];
@@ -332,7 +332,7 @@
   } };
 
   // ================= ARCHIVO =================
-  R.archivo = { title: "Archivo desclasificado", render() {
+  R.archivo = { title: "Archivo desclasificado", render(args, root) { const app = root || ME.app;
     const A = window.ARCHIVO, cs = [...new Set(A.docs.map(d => d.c))];
     app.innerHTML = head("Archivo desclasificado", "Los documentos oficiales liberados que sostienen los casos marcados como demostrados. Primero, los grandes fondos donde buscar; después, los documentos citados en el sitio.") + `
       <div class="section-title"><h2>Fondos documentales</h2><span>${A.fondos.length} archivos</span></div>
@@ -347,7 +347,7 @@
   } };
 
   // ================= CÓMO FUNCIONA =================
-  R["como-funciona"] = { title: "Cómo funciona", render() {
+  R["como-funciona"] = { title: "Cómo funciona", render(args, root) { const app = root || ME.app;
     const C = window.CICLO, n = C.length, cx = 250, cy = 250, rr = 170;
     const P = C.map((_, i) => { const a = -Math.PI / 2 + i * 2 * Math.PI / n; return [cx + rr * Math.cos(a), cy + rr * Math.sin(a)]; });
     const arrow = i => { const a0 = -Math.PI / 2 + i * 2 * Math.PI / n + .3, a1 = -Math.PI / 2 + (i + 1) * 2 * Math.PI / n - .3;

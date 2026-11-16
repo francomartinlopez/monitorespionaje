@@ -96,16 +96,19 @@
     "Argentina": 1, "United Kingdom": 1, "France": 1, "Germany": 1, "Cyprus": 1, "Libya": 1, "Sudan": 1, "Ethiopia": 1, "Pakistan": 1
   },
   timeline: [
-    { era: "Fundación", d: "1948–1951", h: "Nacen los servicios", x: "Se crean el Shin Bet, Aman y en 1949 el Mossad, sobre la base de la inteligencia de la Haganá." },
-    { era: "", d: "1954", h: "El caso Lavon", x: "Una red israelí pone bombas en Egipto para culparlas a otros; el escándalo sacude al gobierno." },
-    { era: "", d: "1960", h: "Eichmann", x: "La captura en Argentina convierte al Mossad en leyenda." },
-    { era: "Guerras", d: "1973", h: "Yom Kipur", x: "Aman no anticipa el ataque egipcio y sirio; la comisión Agranat obliga a renunciar a su jefe." },
-    { era: "", d: "1984", h: "El caso del ómnibus 300", x: "El Shin Bet mata a dos secuestradores capturados y encubre el hecho." },
-    { era: "", d: "1995", h: "El asesinato de Rabin", x: "Un extremista judío mata al primer ministro; la comisión Shamgar señala fallas del Shin Bet." },
-    { era: "Irán", d: "2010–2020", h: "La guerra en las sombras", x: "Stuxnet, robo del archivo nuclear y asesinatos de científicos iraníes." },
-    { era: "", d: "2023", h: "7 de octubre", x: "Hamás ataca el sur de Israel y mata a unas 1.200 personas; es la mayor falla de inteligencia del país." },
-    { era: "", d: "2024–2025", h: "Buscapersonas y guerra de junio", x: "Golpes contra Hezbollah e Irán; el gobierno intenta despedir al jefe del Shin Bet." },
-    { era: "", d: "2026", h: "Guerra con Irán y elecciones", x: "Muere Jamenei, asume Gofman en el Mossad y las elecciones dejan sin mayoría a los dos bloques.", now: true }
+    {"era": "Antes del Estado", "d": "1915–1917", "h": "NILI", "x": "Una red judía espía para los británicos dentro de la Palestina otomana; los turcos la descubren y ejecutan a sus jefes.", "ctx": "Primera Guerra Mundial y caída del Imperio otomano."},
+    {"era": "", "d": "1940–1948", "h": "El Shai", "x": "El servicio de inteligencia de la Haganá espía a las autoridades británicas y a las comunidades árabes.", "ctx": "Mandato británico en Palestina, revuelta árabe y Holocausto."},
+    {"era": "Fundación", "d": "1948–1951", "h": "Nacen los servicios", "x": "Se crean el Shin Bet, Aman y en 1949 el Mossad, sobre la base de la inteligencia de la Haganá.", "ctx": "Independencia de Israel y primera guerra árabe-israelí."},
+    {"era": "", "d": "1954", "h": "El caso Lavon", "x": "Una red israelí pone bombas en Egipto para culparlas a otros; el escándalo sacude al gobierno.", "ctx": "Ascenso de Nasser en Egipto."},
+    {"era": "", "d": "1960", "h": "Eichmann", "x": "La captura en Argentina convierte al Mossad en leyenda.", "ctx": "Juicios a criminales nazis y consolidación del Estado."},
+    {"era": "", "d": "1967", "h": "La guerra de los Seis Días", "x": "La inteligencia previa permite destruir la aviación egipcia en tierra en pocas horas.", "ctx": "Escalada con Egipto, Siria y Jordania."},
+    {"era": "Guerras", "d": "1973", "h": "Yom Kipur", "x": "Aman no anticipa el ataque egipcio y sirio; la comisión Agranat obliga a renunciar a su jefe.", "ctx": "Ocupación de los territorios tomados en 1967."},
+    {"era": "", "d": "1984", "h": "El caso del ómnibus 300", "x": "El Shin Bet mata a dos secuestradores capturados y encubre el hecho.", "ctx": "Guerra del Líbano y primeros años de la ocupación del sur libanés."},
+    {"era": "", "d": "1995", "h": "El asesinato de Rabin", "x": "Un extremista judío mata al primer ministro; la comisión Shamgar señala fallas del Shin Bet.", "ctx": "Acuerdos de Oslo con los palestinos."},
+    {"era": "Irán", "d": "2010–2020", "h": "La guerra en las sombras", "x": "Stuxnet, robo del archivo nuclear y asesinatos de científicos iraníes.", "ctx": "Programa nuclear iraní y Primavera Árabe."},
+    {"era": "", "d": "2023", "h": "7 de octubre", "x": "Hamás ataca el sur de Israel y mata a unas 1.200 personas; es la mayor falla de inteligencia del país.", "ctx": "Gobierno de Netanyahu y crisis por la reforma judicial."},
+    {"era": "", "d": "2024–2025", "h": "Buscapersonas y guerra de junio", "x": "Golpes contra Hezbollah e Irán; el gobierno intenta despedir al jefe del Shin Bet.", "ctx": "Guerra en Gaza y en Líbano."},
+    {"era": "", "d": "2026", "h": "Guerra con Irán y elecciones", "x": "Muere Jamenei, asume Gofman en el Mossad y las elecciones dejan sin mayoría a los dos bloques.", "now": true, "ctx": "Muerte de Jamenei y año electoral."}
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2002–2009", h: "El caso AIPAC", x: "Lawrence Franklin, analista del Pentágono, se declaró culpable en 2005 de pasar información clasificada sobre Irán a dos directivos de AIPAC, el principal lobby proisraelí de EE.UU. La fiscalía los acusó de transmitirla a Israel, pero retiró los cargos en 2009 porque el juez exigió probar la intención de espiar.", who: "Departamento de Justicia de EE.UU.; tribunal federal de Virginia", missing: "", u: "https://en.wikipedia.org/wiki/Lawrence_Franklin_espionage_scandal", st: "Wikipedia: caso Lawrence Franklin" },

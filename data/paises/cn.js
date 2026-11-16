@@ -97,15 +97,20 @@
     "France": 1, "Czechia": 1, "Norway": 1, "Belgium": 1, "Brazil": 1, "Venezuela": 1, "Iran": 1, "Afghanistan": 1, "Laos": 1, "Indonesia": 1, "Malaysia": 1, "New Zealand": 1, "Djibouti": 1
   },
   timeline: [
-    { era: "Revolución", d: "1927", h: "Los primeros servicios del Partido", x: "El Partido Comunista crea su aparato de seguridad durante la guerra civil." },
-    { era: "", d: "1949", h: "Nace el Ministerio de Seguridad Pública", x: "Policía política y control interno de la nueva República Popular." },
-    { era: "Reforma", d: "1983", h: "Se crea el MSS", x: "Une la inteligencia exterior del Partido con la contrainteligencia de la policía." },
-    { era: "", d: "1985", h: "La deserción de Yu Qiangsheng", x: "Un funcionario de inteligencia huye a EE.UU. y delata a un traductor de la CIA que espiaba para China." },
-    { era: "", d: "1989", h: "Tiananmen", x: "La represión y el ocultamiento de su saldo marcan el rol de la seguridad en la supervivencia del Partido." },
-    { era: "Xi Jinping", d: "2014–2017", h: "Las leyes de seguridad", x: "Comisión de Seguridad Nacional y leyes de contraespionaje, seguridad nacional, ciberseguridad e inteligencia." },
-    { era: "", d: "2020", h: "Hong Kong y la pandemia", x: "Ley de seguridad para Hong Kong y ocultamiento inicial del brote de Wuhan." },
-    { era: "", d: "2024", h: "Fin de la Fuerza de Apoyo Estratégico", x: "El EPL crea fuerzas separadas de ciberespacio, información y aeroespacio." },
-    { era: "", d: "2026", h: "Purgas y detenciones", x: "Investigación a Zhang Youxia y Liu Zhenli; condena por la comisaría de Nueva York y más detenciones en Europa.", now: true }
+    {"era": "Antigüedad", "d": "Siglo V a.C.", "h": "El arte de la guerra", "x": "El tratado atribuido a Sun Tzu dedica un capítulo a los espías y los clasifica en cinco tipos.", "ctx": "Período de las Primaveras y Otoños, con estados en guerra permanente."},
+    {"era": "Imperio", "d": "1382", "h": "La Guardia del Uniforme Bordado", "x": "El primer emperador Ming crea una policía secreta que vigila, arresta y tortura a funcionarios.", "ctx": "El emperador Hongwu concentra el poder tras expulsar a los mongoles."},
+    {"era": "", "d": "1420", "h": "El Depósito del Este", "x": "Una agencia de eunucos espía a funcionarios y a la propia Guardia; ambas rivalizan durante dos siglos.", "ctx": "Dinastía Ming en su apogeo, con capital en Pekín."},
+    {"era": "Revolución", "d": "1927", "h": "Los primeros servicios del Partido", "x": "El Partido Comunista crea su aparato de seguridad durante la guerra civil.", "ctx": "Ruptura con el Kuomintang y masacre de Shanghái; Zhou Enlai crea la Sección Especial del Partido."},
+    {"era": "", "d": "1939", "h": "El Departamento de Asuntos Sociales", "x": "Kang Sheng, formado con la NKVD soviética, dirige la seguridad del Partido en Yan'an y las purgas internas.", "ctx": "Guerra contra Japón y alianza incómoda con el Kuomintang."},
+    {"era": "", "d": "1949", "h": "Nace el Ministerio de Seguridad Pública", "x": "Policía política y control interno de la nueva República Popular.", "ctx": "Fundación de la República Popular tras la guerra civil."},
+    {"era": "", "d": "1966–1976", "h": "Revolución Cultural", "x": "Los servicios son purgados y Kang Sheng dirige la persecución de cuadros del propio Partido.", "ctx": "Mao lanza una campaña de masas contra sus rivales."},
+    {"era": "Reforma", "d": "1983", "h": "Se crea el MSS", "x": "Une la inteligencia exterior del Partido con la contrainteligencia de la policía.", "ctx": "Apertura económica de Deng Xiaoping."},
+    {"era": "", "d": "1985", "h": "La deserción de Yu Qiangsheng", "x": "Un funcionario de inteligencia huye a EE.UU. y delata a un traductor de la CIA que espiaba para China.", "ctx": "Acercamiento con EE.UU. en plena reforma."},
+    {"era": "", "d": "1989", "h": "Tiananmen", "x": "La represión y el ocultamiento de su saldo marcan el rol de la seguridad en la supervivencia del Partido.", "ctx": "Protestas por la democracia y crisis interna del Partido."},
+    {"era": "Xi Jinping", "d": "2014–2017", "h": "Las leyes de seguridad", "x": "Comisión de Seguridad Nacional y leyes de contraespionaje, seguridad nacional, ciberseguridad e inteligencia.", "ctx": "Xi Jinping concentra el poder y lanza la campaña anticorrupción."},
+    {"era": "", "d": "2020", "h": "Hong Kong y la pandemia", "x": "Ley de seguridad para Hong Kong y ocultamiento inicial del brote de Wuhan.", "ctx": "Protestas en Hong Kong y brote de covid-19."},
+    {"era": "", "d": "2024", "h": "Fin de la Fuerza de Apoyo Estratégico", "x": "El EPL crea fuerzas separadas de ciberespacio, información y aeroespacio.", "ctx": "Reorganización militar y rivalidad tecnológica con EE.UU."},
+    {"era": "", "d": "2026", "h": "Purgas y detenciones", "x": "Investigación a Zhang Youxia y Liu Zhenli; condena por la comisaría de Nueva York y más detenciones en Europa.", "now": true, "ctx": "Purgas en la cúpula militar y tensión por Taiwán."}
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2022", h: "Comisarías clandestinas en el exterior", x: "La organización Safeguard Defenders reveló puestos del MPS en decenas de países para presionar a chinos a volver. En mayo de 2026 un jurado de Nueva York condenó a Lu Jianwang por operar uno en Manhattan.", who: "Tribunal federal de Nueva York y Safeguard Defenders", missing: "", u: "https://abc7.com/post/lu-jianwang-conviction-nyc-jury-convicts-man-accused-running-secret-chinese-spy-outpost-new-york-city/19100709/", st: "ABC7 / Associated Press" },

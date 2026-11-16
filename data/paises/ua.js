@@ -80,13 +80,17 @@
     "Poland": 1, "Hungary": 1, "Turkey": 1, "United States of America": 1, "United Kingdom": 1, "Germany": 1
   },
   timeline: [
-    { era: "Independencia", d: "1991–1992", h: "Nacen el SBU y la GUR", x: "Ucrania hereda personal y archivos de la KGB soviética." },
-    { era: "", d: "2004", h: "Nace el SZRU", x: "La inteligencia exterior se separa del SBU." },
-    { era: "Guerra", d: "2014", h: "Crimea y el Donbás", x: "Muchos agentes del SBU en Crimea se pasan a Rusia; empieza la depuración." },
-    { era: "", d: "2022", h: "Invasión a gran escala", x: "Topos en la cúpula del SBU, puente de Crimea y Nord Stream." },
-    { era: "", d: "2023–2024", h: "Guerra en las sombras", x: "Drones navales, asesinatos de oficiales rusos y ataques profundos." },
-    { era: "", d: "2025", h: "Telaraña y crisis de la NABU", x: "Golpe contra los bombarderos rusos y protestas por la independencia anticorrupción." },
-    { era: "Actual", d: "2026", h: "Reorganización y choque interno", x: "Budanov a la Oficina del Presidente, nuevos jefes, tiroteo SBU-GUR y juicio por el Nord Stream.", now: true }
+    {"era": "Antecedentes", "d": "1918–1920", "h": "Servicios de la República Popular", "x": "La breve República Popular Ucraniana crea sus propios servicios de información en medio de la guerra.", "ctx": "Revolución rusa y guerras por la independencia ucraniana."},
+    {"era": "Soviética", "d": "1932–1933", "h": "El Holodomor", "x": "La GPU y la policía soviética aplican las requisas que llevan a la hambruna y persiguen a quienes huyen.", "ctx": "Colectivización forzada de Stalin."},
+    {"era": "", "d": "1944–1953", "h": "Contra la insurgencia", "x": "La NKVD y el MGB combaten a la insurgencia nacionalista en el oeste del país y deportan a cientos de miles.", "ctx": "Fin de la Segunda Guerra Mundial y anexión del oeste ucraniano."},
+    {"era": "", "d": "1954–1991", "h": "El KGB de Ucrania", "x": "La rama ucraniana del KGB vigila a disidentes, iglesias y nacionalistas; su estructura es la base del futuro SBU.", "ctx": "Guerra Fría y rusificación."},
+    {"era": "Independencia", "d": "1991–1992", "h": "Nacen el SBU y la GUR", "x": "Ucrania hereda personal y archivos de la KGB soviética.", "ctx": "Disolución de la URSS e independencia."},
+    {"era": "", "d": "2004", "h": "Nace el SZRU", "x": "La inteligencia exterior se separa del SBU.", "ctx": "Revolución Naranja."},
+    {"era": "Guerra", "d": "2014", "h": "Crimea y el Donbás", "x": "Muchos agentes del SBU en Crimea se pasan a Rusia; empieza la depuración.", "ctx": "Revolución del Maidán."},
+    {"era": "", "d": "2022", "h": "Invasión a gran escala", "x": "Topos en la cúpula del SBU, puente de Crimea y Nord Stream.", "ctx": "Invasión rusa."},
+    {"era": "", "d": "2023–2024", "h": "Guerra en las sombras", "x": "Drones navales, asesinatos de oficiales rusos y ataques profundos.", "ctx": "Guerra de desgaste."},
+    {"era": "", "d": "2025", "h": "Telaraña y crisis de la NABU", "x": "Golpe contra los bombarderos rusos y protestas por la independencia anticorrupción.", "ctx": "Negociaciones de paz con mediación de EE.UU."},
+    {"era": "Actual", "d": "2026", "h": "Reorganización y choque interno", "x": "Budanov a la Oficina del Presidente, nuevos jefes, tiroteo SBU-GUR y juicio por el Nord Stream.", "now": true, "ctx": "Guerra en su quinto año."}
   ],
   cases: [
     { ev: 2, ilegal: true, d: "2022", h: "El sabotaje del Nord Stream", x: "La fiscalía alemana acusa a Serhii Kuznietsov, ex oficial ucraniano, de dirigir un grupo que actuó por orden de autoridades estatales ucranianas y voló los gasoductos desde un velero. El juicio empezó en Hamburgo en octubre de 2026. Kuznietsov y Kiev lo niegan.", who: "Fiscalía federal de Alemania", missing: "Una sentencia y pruebas sobre quién dio la orden.", u: "https://www.eurointegration.com.ua/eng/news/2026/07/2/7240830/", st: "Evropeiska Pravda" },

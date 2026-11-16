@@ -84,16 +84,19 @@
     "Iran": 1, "Syria": 1, "United Arab Emirates": 1, "Bangladesh": 1, "Myanmar": 1, "Thailand": 1, "Mongolia": 1
   },
   timeline: [
-    { era: "Fundación", d: "1948", h: "Nace la República Popular Democrática", x: "Kim Il Sung arma un Estado de partido único con fuerte control policial." },
-    { era: "Guerra Fría", d: "1968", h: "Casa Azul y el Pueblo", x: "Comando contra el presidente surcoreano y captura del buque espía estadounidense USS Pueblo." },
-    { era: "", d: "1977–1983", h: "Secuestros y Rangún", x: "Secuestros de japoneses y atentado contra el gobierno surcoreano en Birmania." },
-    { era: "", d: "1987", h: "Vuelo 858", x: "Agentes norcoreanos derriban un avión de Korean Air con 115 personas; una de ellas confiesa." },
-    { era: "Kim Jong Il", d: "2002", h: "Admite los secuestros", x: "Kim Jong Il reconoce ante Japón el secuestro de japoneses." },
-    { era: "", d: "2009", h: "Nace la RGB", x: "Se unifican las agencias de espionaje militar y del partido en la Oficina General de Reconocimiento." },
-    { era: "Kim Jong Un", d: "2013", h: "Ejecutan a Jang Song Thaek", x: "El tío del líder es ejecutado tras un juicio de la Seguridad del Estado." },
-    { era: "", d: "2014–2017", h: "Sony, Bangladés, Kim Jong Nam y WannaCry", x: "La ciber y la acción encubierta llegan a escala global." },
-    { era: "", d: "2024–2025", h: "Rusia y Bybit", x: "Tropas en Kursk y el mayor robo de criptomonedas de la historia." },
-    { era: "Actual", d: "2026", h: "Nuevos nombres, mismo aparato", x: "La RGB y la Seguridad del Estado se renombran y amplían; siguen los robos y el esquema de informáticos.", now: true }
+    {"era": "Ocupación", "d": "1945–1948", "h": "Los primeros órganos de seguridad", "x": "Bajo ocupación soviética, asesores del NKVD organizan la policía política del norte.", "ctx": "División de Corea tras la derrota de Japón."},
+    {"era": "Fundación", "d": "1948", "h": "Nace la República Popular Democrática", "x": "Kim Il Sung arma un Estado de partido único con fuerte control policial.", "ctx": "Kim Il Sung toma el poder en el norte."},
+    {"era": "", "d": "1950–1953", "h": "Guerra de Corea", "x": "Los servicios del norte infiltran el sur y persiguen a los colaboradores en las zonas ocupadas.", "ctx": "Guerra entre las dos Coreas con intervención de EE.UU. y China."},
+    {"era": "Guerra Fría", "d": "1968", "h": "Casa Azul y el Pueblo", "x": "Comando contra el presidente surcoreano y captura del buque espía estadounidense USS Pueblo.", "ctx": "Dictadura de Park Chung-hee en el sur y escalada en la zona desmilitarizada."},
+    {"era": "", "d": "1973", "h": "Nace la Seguridad del Estado", "x": "Se crea el Departamento de Seguridad del Estado, que maneja los campos de prisioneros políticos.", "ctx": "Culto a Kim Il Sung y ascenso de Kim Jong Il."},
+    {"era": "", "d": "1977–1983", "h": "Secuestros y Rangún", "x": "Secuestros de japoneses y atentado contra el gobierno surcoreano en Birmania.", "ctx": "Competencia diplomática con Corea del Sur."},
+    {"era": "", "d": "1987", "h": "Vuelo 858", "x": "Agentes norcoreanos derriban un avión de Korean Air con 115 personas; una de ellas confiesa.", "ctx": "Juegos Olímpicos de Seúl de 1988."},
+    {"era": "Kim Jong Il", "d": "2002", "h": "Admite los secuestros", "x": "Kim Jong Il reconoce ante Japón el secuestro de japoneses.", "ctx": "Hambruna de los noventa y crisis económica."},
+    {"era": "", "d": "2009", "h": "Nace la RGB", "x": "Se unifican las agencias de espionaje militar y del partido en la Oficina General de Reconocimiento.", "ctx": "Programa nuclear y sucesión dinástica."},
+    {"era": "Kim Jong Un", "d": "2013", "h": "Ejecutan a Jang Song Thaek", "x": "El tío del líder es ejecutado tras un juicio de la Seguridad del Estado.", "ctx": "Kim Jong Un consolida el poder."},
+    {"era": "", "d": "2014–2017", "h": "Sony, Bangladés, Kim Jong Nam y WannaCry", "x": "La ciber y la acción encubierta llegan a escala global.", "ctx": "Pruebas nucleares y sanciones de la ONU."},
+    {"era": "", "d": "2024–2025", "h": "Rusia y Bybit", "x": "Tropas en Kursk y el mayor robo de criptomonedas de la historia.", "ctx": "Alianza militar con Rusia."},
+    {"era": "Actual", "d": "2026", "h": "Nuevos nombres, mismo aparato", "x": "La RGB y la Seguridad del Estado se renombran y amplían; siguen los robos y el esquema de informáticos.", "now": true, "ctx": "Tropas norcoreanas en la guerra de Ucrania."}
   ],
   cases: [
     { ev: 1, ilegal: true, d: "1977–1983", h: "Los secuestros de japoneses", x: "Agentes norcoreanos secuestraron a ciudadanos japoneses para enseñar idioma y costumbres a sus espías. En 2002 Kim Jong Il lo admitió; Japón reconoce 17 víctimas y Corea del Norte devolvió a cinco.", who: "Gobierno de Japón y admisión norcoreana (2002)", missing: "", u: "https://www.mofa.go.jp/region/asia-paci/n_korea/abduction/index.html", st: "Cancillería de Japón" },

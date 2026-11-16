@@ -91,16 +91,21 @@
     "France": 1, "Germany": 1, "Libya": 1, "Somalia": 1, "North Korea": 1, "Lebanon": 1, "Turkey": 1, "Taiwan": 1, "Belgium": 1
   },
   timeline: [
-    { era: "Orígenes", d: "1909", h: "Nace el Secret Service Bureau", x: "Del que salen el MI5 y el MI6, ante el temor al espionaje alemán." },
-    { era: "", d: "1939–1945", h: "Bletchley Park", x: "Los descifradores británicos rompen Enigma y crean la base del futuro GCHQ." },
-    { era: "Guerra Fría", d: "1946", h: "Acuerdo UKUSA", x: "Reino Unido y EE.UU. reparten la interceptación del mundo; luego se suman Canadá, Australia y Nueva Zelanda." },
-    { era: "", d: "1951–1963", h: "Los Cinco de Cambridge", x: "Se descubren topos soviéticos en lo más alto del MI6 y la cancillería; Philby huye a Moscú." },
-    { era: "", d: "1985", h: "La fuga de Gordievski", x: "El MI6 rescata de Moscú a su mejor fuente dentro de la KGB." },
-    { era: "Ley", d: "1989–1994", h: "Las agencias existen por ley", x: "El Parlamento reconoce al MI5, el MI6 y el GCHQ y crea su comité de control." },
-    { era: "Post 11-S", d: "2003", h: "El dossier de Irak", x: "Evaluaciones exageradas sobre armas de destrucción masiva sostienen la entrada en la guerra." },
-    { era: "", d: "2013", h: "Snowden", x: "Se revela Tempora y el intercambio masivo de datos con la NSA." },
-    { era: "", d: "2018", h: "Salisbury", x: "El GRU ataca a Skripal con novichok; Occidente expulsa a más de cien diplomáticos rusos." },
-    { era: "Actual", d: "2025–2026", h: "Nueva conducción y nuevos escándalos", x: "Metreweli asume en el MI6; salen a la luz la filtración afgana y las pruebas falsas del MI5.", now: true }
+    {"era": "Tudor", "d": "1573–1590", "h": "La red de Walsingham", "x": "Francis Walsingham, secretario de Isabel I, arma una red de espías y descifradores; descubre el complot de Babington en 1586.", "ctx": "Guerra con España y conflicto entre católicos y protestantes."},
+    {"era": "", "d": "1653–1660", "h": "El servicio de Thurloe", "x": "John Thurloe dirige el espionaje de Cromwell e intercepta el correo de los realistas.", "ctx": "República de Cromwell tras la guerra civil inglesa."},
+    {"era": "", "d": "1716–1844", "h": "La Oficina de Desciframiento", "x": "Una oficina secreta abre y descifra la correspondencia diplomática. Se cierra tras el escándalo por la apertura de las cartas del exiliado italiano Giuseppe Mazzini.", "ctx": "El Reino Unido se convierte en la mayor potencia marítima y colonial."},
+    {"era": "", "d": "1883", "h": "Nace la Special Branch", "x": "Scotland Yard crea una sección contra los atentados de los independentistas irlandeses.", "ctx": "Campaña de bombas feniana en Londres."},
+    {"era": "Siglo XX", "d": "1909", "h": "Nace el Secret Service Bureau", "x": "Del que salen el MI5 y el MI6, ante el temor al espionaje alemán.", "ctx": "Temor a los espías alemanes y carrera naval con Alemania."},
+    {"era": "", "d": "1914–1919", "h": "La Sala 40", "x": "Los descifradores del Almirantazgo leen los cables alemanes y en 1917 revelan el telegrama Zimmermann, que empuja a EE.UU. a la guerra.", "ctx": "Primera Guerra Mundial."},
+    {"era": "", "d": "1939–1945", "h": "Bletchley Park", "x": "Los descifradores británicos rompen Enigma y crean la base del futuro GCHQ.", "ctx": "Segunda Guerra Mundial."},
+    {"era": "Guerra Fría", "d": "1946", "h": "Acuerdo UKUSA", "x": "Reino Unido y EE.UU. reparten la interceptación del mundo; luego se suman Canadá, Australia y Nueva Zelanda.", "ctx": "Comienzo de la Guerra Fría y declive del Imperio británico."},
+    {"era": "", "d": "1951–1963", "h": "Los Cinco de Cambridge", "x": "Se descubren topos soviéticos en lo más alto del MI6 y la cancillería; Philby huye a Moscú.", "ctx": "Descolonización y crisis de Suez."},
+    {"era": "", "d": "1985", "h": "La fuga de Gordievski", "x": "El MI6 rescata de Moscú a su mejor fuente dentro de la KGB.", "ctx": "Gobierno de Thatcher y últimos años de la Guerra Fría."},
+    {"era": "Ley", "d": "1989–1994", "h": "Las agencias existen por ley", "x": "El Parlamento reconoce al MI5, el MI6 y el GCHQ y crea su comité de control.", "ctx": "Fin de la Guerra Fría y proceso de paz en Irlanda del Norte."},
+    {"era": "Post 11-S", "d": "2003", "h": "El dossier de Irak", "x": "Evaluaciones exageradas sobre armas de destrucción masiva sostienen la entrada en la guerra.", "ctx": "Gobierno de Blair y alianza con Bush."},
+    {"era": "", "d": "2013", "h": "Snowden", "x": "Se revela Tempora y el intercambio masivo de datos con la NSA.", "ctx": "Austeridad y debate sobre la vigilancia digital."},
+    {"era": "", "d": "2018", "h": "Salisbury", "x": "El GRU ataca a Skripal con novichok; Occidente expulsa a más de cien diplomáticos rusos.", "ctx": "Brexit y deterioro de la relación con Rusia."},
+    {"era": "Actual", "d": "2025–2026", "h": "Nueva conducción y nuevos escándalos", "x": "Metreweli asume en el MI6; salen a la luz la filtración afgana y las pruebas falsas del MI5.", "now": true, "ctx": "Gobierno laborista y guerra en Ucrania."}
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2004", h: "La entrega de Belhaj a Libia", x: "El MI6 dio información que permitió a la CIA secuestrar a Abdel Hakim Belhaj y a su esposa y llevarlos a Libia, donde él fue torturado. En 2018 la primera ministra Theresa May pidió disculpas en el Parlamento y el Estado pagó una compensación.", who: "Gobierno británico (disculpa oficial de 2018)", missing: "", u: "https://en.wikipedia.org/wiki/Abdel_Hakim_Belhaj", st: "Wikipedia (síntesis de fuentes)" },

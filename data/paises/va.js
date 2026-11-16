@@ -74,15 +74,18 @@
     "Venezuela": 1, "Argentina": 1, "Cuba": 1, "Poland": 1, "Mali": 1, "Nigeria": 1
   },
   timeline: [
-    { era: "Antiguo régimen", d: "1500–1599", h: "Nunciaturas permanentes", x: "La Santa Sede organiza una de las primeras redes diplomáticas estables de Europa." },
-    { era: "Siglo XX", d: "1929", h: "Pactos de Letrán", x: "Nace el Estado de la Ciudad del Vaticano." },
-    { era: "", d: "1945–1951", h: "Las rutas de escape", x: "Clérigos en Roma ayudan a criminales nazis a huir a América del Sur." },
-    { era: "Guerra Fría", d: "1960–1989", h: "Infiltración del Este", x: "Servicios polacos, checos y soviéticos reclutan clérigos para espiar al Vaticano." },
-    { era: "", d: "1978–1984", h: "Mediación por el Beagle", x: "El Vaticano evita una guerra entre Argentina y Chile." },
-    { era: "", d: "1981–1982", h: "Atentado y Ambrosiano", x: "Atentado contra Juan Pablo II y quiebra del Banco Ambrosiano, ligado al banco vaticano." },
-    { era: "Siglo XXI", d: "2012–2015", h: "Vatileaks", x: "Filtraciones de documentos internos y juicios en el Vaticano." },
-    { era: "", d: "2020–2023", h: "Hackeo chino y caso Becciu", x: "Hackers apuntan al Vaticano y un cardenal es condenado por manejo de fondos." },
-    { era: "Actual", d: "2025–2026", h: "León XIV y los servicios", x: "El papa advierte sobre los servicios que atacan a la Iglesia; se denuncian espionajes de EE.UU. y Rusia.", now: true }
+    {"era": "Antiguo régimen", "d": "1500–1599", "h": "Nunciaturas permanentes", "x": "La Santa Sede organiza una de las primeras redes diplomáticas estables de Europa.", "ctx": "Reforma protestante y Concilio de Trento."},
+    {"era": "", "d": "1555–1600", "h": "La Secretaría de Cifra", "x": "La Curia mantiene un secretario de cifra que cifra y descifra la correspondencia de los nuncios.", "ctx": "Guerras de religión en Europa."},
+    {"era": "", "d": "1566", "h": "La \"Santa Alianza\"", "x": "El periodista Eric Frattini sostiene que Pío V creó un servicio secreto con ese nombre; los historiadores no encontraron pruebas.", "ctx": "Contrarreforma y conflicto con la Inglaterra de Isabel I."},
+    {"era": "Siglo XX", "d": "1909–1921", "h": "El Sodalitium Pianum", "x": "Monseñor Umberto Benigni arma una red que vigila y denuncia a clérigos sospechosos de modernismo.", "ctx": "Campaña de Pío X contra el modernismo teológico."},
+    {"era": "Siglo XX", "d": "1929", "h": "Pactos de Letrán", "x": "Nace el Estado de la Ciudad del Vaticano.", "ctx": "Italia fascista reconoce al Estado vaticano."},
+    {"era": "", "d": "1945–1951", "h": "Las rutas de escape", "x": "Clérigos en Roma ayudan a criminales nazis a huir a América del Sur.", "ctx": "Fin de la Segunda Guerra Mundial."},
+    {"era": "Guerra Fría", "d": "1960–1989", "h": "Infiltración del Este", "x": "Servicios polacos, checos y soviéticos reclutan clérigos para espiar al Vaticano.", "ctx": "Persecución de la Iglesia en el bloque soviético."},
+    {"era": "", "d": "1978–1984", "h": "Mediación por el Beagle", "x": "El Vaticano evita una guerra entre Argentina y Chile.", "ctx": "Conflicto entre Argentina y Chile."},
+    {"era": "", "d": "1981–1982", "h": "Atentado y Ambrosiano", "x": "Atentado contra Juan Pablo II y quiebra del Banco Ambrosiano, ligado al banco vaticano.", "ctx": "Pontificado de Juan Pablo II y crisis de Solidaridad en Polonia."},
+    {"era": "Siglo XXI", "d": "2012–2015", "h": "Vatileaks", "x": "Filtraciones de documentos internos y juicios en el Vaticano.", "ctx": "Renuncia de Benedicto XVI."},
+    {"era": "", "d": "2020–2023", "h": "Hackeo chino y caso Becciu", "x": "Hackers apuntan al Vaticano y un cardenal es condenado por manejo de fondos.", "ctx": "Pontificado de Francisco y acuerdo con China."},
+    {"era": "Actual", "d": "2025–2026", "h": "León XIV y los servicios", "x": "El papa advierte sobre los servicios que atacan a la Iglesia; se denuncian espionajes de EE.UU. y Rusia.", "now": true, "ctx": "Primer papa estadounidense."}
   ],
   cases: [
     { ev: 1, ilegal: true, d: "1945–1951", h: "Las rutas de escape nazis", x: "El obispo austríaco Alois Hudal y otros clérigos en Roma ayudaron a criminales de guerra nazis a conseguir documentos y huir, muchos a Argentina. Se discute cuánto sabía la cúpula vaticana.", who: "Historiadores, archivos y el propio Hudal en sus memorias", missing: "", u: "https://en.wikipedia.org/wiki/Ratlines_(World_War_II)", st: "Wikipedia (síntesis de fuentes)" },
