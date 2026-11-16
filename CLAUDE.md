@@ -4,7 +4,7 @@ Sitio estático publicado con GitHub Pages desde `main` (raíz). Todo en españo
 Responsable editorial: Franco Martín López. Proyecto hermano de Monitor de Conflictos (`conflictoglobal`), con la misma base técnica.
 
 ## Estado
-Las 57 fichas son reales desde el 2026-11-16. Explorar todavía tiene datos de prueba (flujos de software espía, expulsiones, documentos del archivo). `MONITOR_META.skeleton` está en false desde el 2026-11-16; las secciones con datos de prueba llevan la etiqueta "de prueba".
+Desde el 2026-11-16 todo el contenido es real: 57 fichas, alertas, relaciones y Explorar. `MONITOR_META.skeleton` está en false. El validador rechaza cualquier dato con `sample` fuera de las fichas y exige fuente (`u`) en relaciones, alertas, software espía, expulsiones y archivo.
 Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un país, reemplazá su archivo entero y quitá `sample`.
 
 ## Países (57)
@@ -37,14 +37,18 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 - `struggles` [{a, b, k, stake, state, x}]: luchas de poder (internas, entre agencias, con otros poderes, con la política y la economía).
 - `sources` [{t, u}].
 
+## Alertas y relaciones
+- `ALERTS` en `data/meta.js`: {level, tag, date, countries, target, title, text, u, st}. Hechos de los últimos días con fuente.
+- `RELACIONES` en `data/relaciones.js`: [a, b, t, x, u, st]; `x` explica la clasificación.
+
 ## Secciones de Explorar (`data/explorar.js`, interfaz en `js/explorar.js`)
 - `BLOQUES`: mapa general en cinco bloques (occidental, euroasiático, autónomos, neutrales, zonas abiertas). `paises` = [nombre de `data/world.js`, bloque, grado n|c|p, nota?]. Clasificación editorial; la nota explica los casos discutibles. Todo país del monitor debe tener bloque.
 - `ALIANZAS`: miembros por nombre de país de `data/world.js`. Reales.
 - `INFRA`: instalaciones de vigilancia con tipo, coordenadas `ll` [lon, lat], quién la opera y nivel de evidencia `ev`. `lab: "l"` y `dy` acomodan la etiqueta.
-- `SPYWARE`: proveedores reales; los `flows` hacia clientes son de prueba.
-- `EXPULSIONES`: de prueba (generadas). Formato `{y, a, b, n, k: "expulsion"|"canje"}` con ids de país.
+- `SPYWARE`: proveedores y `flows` {p, c (país de data/world.js), ll, ev, x, u, st}: ventas o usos documentados.
+- `EXPULSIONES`: `{y, a, b, n, k: "expulsion"|"canje", d, x, u, st}` con ids de país; `a` expulsa a diplomáticos de `b`. Sólo pares entre países del monitor.
 - `ORGS_RED` y `PERSONAS`: red de personas; `w` = para quién trabajaba, `s` = hacia quién pasó información.
-- `ARCHIVO`: `fondos` reales; `docs` de prueba.
+- `ARCHIVO`: `fondos` y `docs` {d, t, c, k, x, u}.
 - `CICLO`, `INTS`, `GLOSARIO`: página "Cómo funciona".
 - Rutas: #bloques[/<id>], #practicas, #alianzas, #infraestructura, #software-espia, #expulsiones, #personas, #comparar/<a>/<b>, #cronologia, #archivo, #como-funciona.
 

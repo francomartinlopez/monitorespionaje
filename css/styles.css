@@ -312,6 +312,13 @@ h3.sub { font: 600 13px var(--f-mono); letter-spacing: .14em; text-transform: up
 .rel-col h4 { margin: 0 0 10px; font: 600 12px var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--c); display: flex; justify-content: space-between; }
 .rel-col a { display: block; padding: 6px 0; border-bottom: 1px solid var(--line); color: var(--text); font-size: 14px; }
 .rel-col a:hover { color: var(--ph); }
+.rel-it { border-bottom: 1px solid var(--line); padding: 4px 0 8px; }
+.rel-it > a { border-bottom: 0; padding-bottom: 2px; }
+.rel-it p { margin: 0; font-size: 12.5px; color: var(--muted); line-height: 1.45; }
+.rel-it p a.src, .sw-cl a, .ev-item p.muted a { display: inline; border: 0; padding: 0; color: var(--ph); font-size: 12px; }
+.sw-cl { list-style: none; margin: 8px 0 0; padding: 0; }
+.sw-cl li { font-size: 12.5px; line-height: 1.45; padding: 6px 0; border-top: 1px solid var(--line); color: var(--muted); }
+.sw-cl li b { color: var(--text); }
 .rel-col .none { color: var(--faint); font-size: 13px; }
 .tbl-wrap { overflow-x: auto; border: 1px solid #1f3327; border-radius: var(--r); }
 table.tbl { border-collapse: collapse; width: 100%; min-width: 640px; font-size: 13.5px; }

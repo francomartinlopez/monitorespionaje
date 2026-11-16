@@ -122,6 +122,13 @@ ctx.INFRA.forEach(x => { if (!ctx.INFRA_TYPES[x.t]) err("infra " + x.n, "tipo in
 ctx.EXPULSIONES.forEach((e, i) => { if (!ids.has(e.a) || !ids.has(e.b)) err("expulsiones", `[${i}] id desconocido`); });
 const orgIds = new Set(ctx.ORGS_RED.map(o => o.id));
 ctx.PERSONAS.forEach(p => [...p.w, ...p.s].forEach(o => { if (!orgIds.has(o)) err("personas " + p.n, `organismo desconocido "${o}"`); }));
+// sin datos de prueba y con fuente
+const noSample = (lbl, arr) => arr.forEach((x, i) => { if (x.sample) err(lbl, `[${i}] marcado como de prueba`); if (!isUrl(x.u)) err(lbl, `[${i}] sin fuente (u)`); });
+noSample("relaciones", ctx.RELACIONES); noSample("software espía", ctx.SPYWARE.flows); noSample("expulsiones", ctx.EXPULSIONES); noSample("archivo", ctx.ARCHIVO.docs); noSample("alertas", ctx.ALERTS);
+ctx.INFRA.forEach((x, i) => { if (x.sample) err("infra", `[${i}] marcado como de prueba`); });
+ctx.RELACIONES.forEach((r, i) => { if (!r.x) err("relaciones", `[${i}] sin explicación (x)`); });
+ctx.SPYWARE.flows.forEach((f, i) => { if (!names.has(f.c)) err("software espía", `[${i}] país desconocido "${f.c}"`); if (![1, 2, 3, 4].includes(f.ev)) err("software espía", `[${i}] ev inválido`); });
+ctx.EXPULSIONES.forEach((e, i) => { if (!["expulsion", "canje"].includes(e.k)) err("expulsiones", `[${i}] tipo inválido`); if (!isDate(e.d)) err("expulsiones", `[${i}] fecha inválida`); });
 ctx.ALERTS.forEach((a, i) => { if (!ids.has(a.target)) err("alertas", `[${i}] target desconocido`); if (!isDate(a.date)) err("alertas", `[${i}] fecha inválida`); });
 
 // navegador

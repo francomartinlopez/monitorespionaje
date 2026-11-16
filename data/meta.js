@@ -1,10 +1,10 @@
 // Datos generales del monitor: fecha de corte, alertas, categorías y escalas.
-// ESQUELETO: las alertas son de prueba y están marcadas con sample: true.
+// Las alertas son hechos reales de los últimos días, con fuente (u, st).
 window.MONITOR_META = {
-  updated: "2026-11-15",
-  updatedLabel: "15 nov 2026 · 06:00 ART",
+  updated: "2026-11-16",
+  updatedLabel: "16 nov 2026 · 06:00 ART",
   next: "semanal, lunes 06:00 ART",
-  edition: "Edición 0 · esqueleto",
+  edition: "Edición 1",
   skeleton: false
 };
 
@@ -111,8 +111,9 @@ window.LV = { 5: "#ff4d3d", 4: "#ff9433", 3: "#ffd23f", 2: "#6af59a", 1: "#4f8f6
 window.LV_LABEL = { 5: "Crítico", 4: "Alto", 3: "Elevado", 2: "Moderado", 1: "Bajo" };
 
 window.ALERTS = [
-  { sample: true, level: 5, tag: "Acción letal", date: "2026-11-12", countries: ["Rusia"], target: "ua", title: "Alerta de prueba: título de una operación grave", text: "Texto de prueba. Acá van tres a cinco frases propias sobre una operación atribuida, quién la atribuye y por qué importa." },
-  { sample: true, level: 4, tag: "Sabotaje", date: "2026-11-10", countries: ["Irán", "Israel"], target: "ir", title: "Alerta de prueba: sabotaje contra infraestructura", text: "Texto de prueba. Qué pasó, dónde y qué servicios aparecen involucrados según las fuentes." },
-  { sample: true, level: 3, tag: "Ciberespionaje", date: "2026-11-08", countries: ["China", "EE.UU."], target: "cn", title: "Alerta de prueba: intrusión atribuida en redes de gobierno", text: "Texto de prueba. Quién detectó la intrusión, a quién se atribuye y con qué evidencia." },
-  { sample: true, level: 2, tag: "Expulsión", date: "2026-11-06", countries: ["Alemania", "Rusia"], target: "de", title: "Alerta de prueba: expulsión de diplomáticos", text: "Texto de prueba. Cuántos, por qué y qué respuesta hubo." }
+  { level: 4, tag: "Contraespionaje", date: "2026-11-10", countries: ["Reino Unido", "EE.UU.", "Rusia"], target: "uk", title: "Detienen en Inglaterra a un oficial del ejército de EE.UU. por espiar para Rusia", text: "La policía antiterrorista británica detuvo cerca de Gloucester a un oficial de 41 años destinado en un cuartel de la OTAN. Lo acusan de ayudar a un servicio de inteligencia extranjero. La operación la hicieron el MI5 y el FBI, según autoridades de ambos países.", u: "https://www.washingtonpost.com/world/2026/11/10/us-army-officer-arrested-uk-suspicion-trying-steal-secrets-russia/", st: "The Washington Post" },
+  { level: 4, tag: "Amenaza", date: "2026-11-09", countries: ["Irán", "Reino Unido", "EE.UU."], target: "ir", title: "EE.UU. retira aviones de una base británica por una amenaza atribuida a Irán", text: "La Fuerza Aérea de EE.UU. sacó aviones cisterna de RAF Mildenhall, según The Wall Street Journal, por una amenaza vinculada a Irán. Es el segundo caso en dos meses: en octubre retiró bombarderos de Fairford tras un presunto complot que el gobierno británico relacionó con Irán.", u: "https://www.al-monitor.com/originals/2026/11/britain-says-its-bases-are-safe-after-us-refuelling-planes-evacuated", st: "Reuters vía Al-Monitor" },
+  { level: 4, tag: "Ciberrobo", date: "2026-10-31", countries: ["Corea del Norte"], target: "kp", title: "El FBI atribuye a Corea del Norte el robo de más de 6.000 millones de dólares a Binance", text: "El 29 de octubre hackers vaciaron billeteras de la plataforma Binance. El FBI y la empresa TRM Labs lo atribuyeron al grupo TraderTraitor, parte de Lazarus. Es el mayor robo de criptomonedas registrado.", u: "https://en.wikipedia.org/wiki/2026_Binance_hack", st: "Wikipedia (síntesis de fuentes)" },
+  { level: 3, tag: "Ciberataque", date: "2026-11-02", countries: ["Rusia", "Ucrania"], target: "ua", title: "Hackean las apps de alertas aéreas de Ucrania y de Rusia", text: "La app ucraniana Alerta Aérea envió falsos avisos nucleares y químicos el 1 de noviembre; Kiev culpó a Rusia. Horas después falló la app de emergencias rusa, y Volodímir Zelenski confirmó que fue una respuesta ucraniana.", u: "https://kyivindependent.com/zelensky-confirms-ukraine-targeted-russian-emergency-alert-systems-in-retaliatory-hack/", st: "The Kyiv Independent" },
+  { level: 2, tag: "Expulsión", date: "2026-10-23", countries: ["Austria", "Rusia"], target: "at", title: "Austria expulsa a cuatro diplomáticos rusos por espionaje", text: "Tres trabajaban en la embajada en Viena y uno en la misión rusa ante la OSCE. Con ellos, Austria suma 18 diplomáticos rusos expulsados desde 2020, según la prensa.", u: "https://meduza.io/en/news/2026/10/23/austria-orders-expulsion-of-four-russian-diplomats-suspected-of-spying", st: "Meduza" }
 ];

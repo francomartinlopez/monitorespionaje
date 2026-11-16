@@ -108,20 +108,22 @@
   R["software-espia"] = { title: "Mercado del software espía", render() {
     const S = window.SPYWARE, P = Object.fromEntries(S.providers.map(p => [p.id, p]));
     let sel = null;
-    app.innerHTML = head("Mercado del software espía", "Las empresas que venden herramientas para intervenir teléfonos y computadoras, y los gobiernos que las compran. Los proveedores son reales; los flujos hacia clientes todavía son de prueba.", true) + `
+    app.innerHTML = head("Mercado del software espía", "Las empresas que venden herramientas para intervenir teléfonos y computadoras, y los gobiernos que las compran. Cada línea es una venta o un uso documentado; el trazo indica el nivel de evidencia.") + `
       <div class="mapbox"><div class="map-split"><div id="swMap"></div><aside class="map-side"><h4>Proveedores · ${S.providers.length}</h4><div class="ev-list" id="swList"></div></aside></div>
-      <div class="legend"><span><i class="dot" style="--c:var(--amber)"></i>Proveedor</span><span><i class="sw dash" style="--c:var(--red)"></i>Venta a un gobierno (de prueba)</span><span class="hint">☞ Tocá un proveedor para aislar sus ventas</span></div></div>`;
+      <div class="legend"><span><i class="dot" style="--c:var(--amber)"></i>Proveedor</span><span><i class="sw" style="--c:var(--red)"></i>Venta o uso confirmado (evidencia 1)</span><span><i class="sw dash" style="--c:var(--red)"></i>Atribución sólida o sospechada (2 y 3)</span><span class="hint">☞ Tocá un proveedor para aislar sus ventas</span></div></div>`;
     const draw = () => {
       const fl = S.flows.map(f => { const a = pt(P[f.p].ll), b = pt(f.ll), dim = sel && f.p !== sel;
-        return `<path d="${arc(a, b, .2)}" fill="none" stroke="var(--red)" stroke-width="1.3" stroke-dasharray="5 4" opacity="${dim ? .08 : .85}"/><circle cx="${b[0]}" cy="${b[1]}" r="3.5" fill="var(--red)" opacity="${dim ? .15 : 1}"/>`; }).join("");
+        return `<path d="${arc(a, b, .2)}" fill="none" stroke="var(--red)" stroke-width="1.3" stroke-dasharray="${f.ev === 1 ? "" : "5 4"}" opacity="${dim ? .08 : .85}"/><circle class="swc" data-i="${S.flows.indexOf(f)}" tabindex="0" cx="${b[0]}" cy="${b[1]}" r="4" fill="var(--red)" opacity="${dim ? .15 : 1}"/>`; }).join("");
       const pv = S.providers.map((p, i) => { const [x, y] = pt(p.ll), dim = sel && p.id !== sel, dy = [-14, 22, 4, 0, 0, 0][i] || 0;
         return `<g class="prov" data-id="${p.id}" tabindex="0" opacity="${dim ? .3 : 1}"><path d="M${x} ${y - 7} L${x + 7} ${y} L${x} ${y + 7} L${x - 7} ${y} Z" fill="var(--amber)"/><circle cx="${x}" cy="${y}" r="12" fill="none" stroke="var(--amber)" stroke-opacity=".5"/>
           <text class="inf-l" x="${x - 14}" y="${y + 4 + dy}" text-anchor="end" fill="var(--amber)">${esc(p.tool.toUpperCase())}</text></g>`; }).join("");
       document.getElementById("swMap").innerHTML = stage(fl + pv, "Mapa del mercado del software espía", `<b>${sel ? esc(P[sel].n) : "Todos los proveedores"}</b>${sel ? esc(P[sel].tool) : "Proveedores y ventas"}`);
-      document.getElementById("swList").innerHTML = S.providers.map(p => `<button type="button" class="ev-item sw-item${sel === p.id ? " on" : ""}" data-id="${p.id}" style="--c:var(--amber)"><i></i><div><span class="d">${esc(p.country)} · herramienta: ${esc(p.tool)}</span><b>${esc(p.n)}</b><p>${esc(p.x)}</p></div></button>`).join("");
+      document.getElementById("swList").innerHTML = S.providers.map(p => `<div role="button" tabindex="0" class="ev-item sw-item${sel === p.id ? " on" : ""}" data-id="${p.id}" style="--c:var(--amber)"><i></i><div><span class="d">${esc(p.country)} · herramienta: ${esc(p.tool)}</span><b>${esc(p.n)}</b><p>${esc(p.x)}</p>${sel === p.id ? `<ul class="sw-cl">${S.flows.filter(f => f.p === p.id).map(f => `<li><b>${esc(es(f.c))}</b> · ${evTag(f.ev)} ${esc(f.x)} <a href="${esc(f.u)}" target="_blank" rel="noopener">Fuente ↗</a></li>`).join("")}</ul>` : `<p class="muted">${S.flows.filter(f => f.p === p.id).length} clientes documentados · tocá para verlos</p>`}</div></div>`).join("");
       const pick = id => { sel = sel === id ? null : id; draw(); };
+      bindTips(app, ".swc", el => { const f = S.flows[el.dataset.i]; return `<b>${esc(es(f.c))} · ${esc(P[f.p].tool)}</b><span class="d">${esc(f.x)}</span><span class="d">${esc(EVI[f.ev].n)}</span>`; });
       bindTips(app, ".prov", el => { const p = P[el.dataset.id]; return `<b>${esc(p.n)} · ${esc(p.tool)}</b><span class="d">${esc(p.country)}</span>`; }, el => pick(el.dataset.id));
-      app.querySelectorAll(".sw-item").forEach(b => b.addEventListener("click", () => pick(b.dataset.id)));
+      app.querySelectorAll(".sw-item").forEach(b => { b.addEventListener("click", () => pick(b.dataset.id)); b.addEventListener("keydown", e => { if (e.key === "Enter") pick(b.dataset.id); }); });
+      app.querySelectorAll(".sw-item a").forEach(a => a.addEventListener("click", e => e.stopPropagation()));
     };
     draw();
   } };
@@ -130,7 +132,7 @@
   R.expulsiones = { title: "Expulsiones y canjes", render() {
     const E = window.EXPULSIONES, ys = E.map(e => e.y), years = Array.from({ length: Math.max(...ys) - Math.min(...ys) + 1 }, (_, i) => Math.min(...ys) + i);
     let yr = "all";
-    app.innerHTML = head("Expulsiones y canjes", "Diplomáticos expulsados por espionaje y espías canjeados entre países. El grosor de cada línea es la cantidad de personas. Termómetro de la tensión entre bloques.", true) + `
+    app.innerHTML = head("Expulsiones y canjes", "Diplomáticos expulsados por espionaje y espías canjeados entre países. El grosor de cada línea es la cantidad de personas. Sólo se cuentan los pares entre países del monitor, con fuente en cada caso.") + `
       <div class="chips" id="exChips"><button type="button" class="chip on" data-y="all">Todos los años</button>${years.map(y => `<button type="button" class="chip" data-y="${y}">${y}</button>`).join("")}</div>
       <div class="mapbox"><div class="map-split"><div id="exMap"></div><aside class="map-side"><h4 id="exTot"></h4><div class="ev-list" id="exList"></div></aside></div>
       <div class="legend"><span><i class="sw" style="--c:var(--red)"></i>Expulsión (de quien expulsa hacia el país del expulsado)</span><span><i class="sw dash" style="--c:var(--amber)"></i>Canje</span></div></div>
@@ -145,7 +147,7 @@
       document.getElementById("exMap").innerHTML = stage(rows.map(r => { const A = pt(byId[r.a].center), B = pt(byId[r.b].center);
         return `<path class="exp" data-k="${r.a}|${r.b}|${r.n}|${r.t}" d="${arc(A, B, .22)}" fill="none" stroke="${r.t === "canje" ? "var(--amber)" : "var(--red)"}" stroke-width="${(1 + r.n / max * 7).toFixed(1)}" stroke-dasharray="${r.t === "canje" ? "6 4" : ""}" opacity=".75"/>`; }).join("") + monitorNodes(), "Mapa de expulsiones", `<b>${yr === "all" ? "2014–2026" : yr}</b>${L.reduce((s, e) => s + e.n, 0)} personas`);
       document.getElementById("exTot").textContent = `Pares de países · ${rows.length}`;
-      document.getElementById("exList").innerHTML = rows.map(r => `<div class="ev-item" style="--c:${r.t === "canje" ? "var(--amber)" : "var(--red)"}"><i></i><div><span class="d">${r.t === "canje" ? "Canje" : "Expulsión"}</span><b>${esc(byId[r.a].name)} → ${esc(byId[r.b].name)}</b><p>${r.n} personas</p></div></div>`).join("");
+      document.getElementById("exList").innerHTML = rows.map(r => `<div class="ev-item" style="--c:${r.t === "canje" ? "var(--amber)" : "var(--red)"}"><i></i><div><span class="d">${r.t === "canje" ? "Canje" : "Expulsión"}</span><b>${esc(byId[r.a].name)} → ${esc(byId[r.b].name)}</b><p>${r.n} personas</p>${L.filter(e => e.a === r.a && e.b === r.b && e.k === r.t).map(e => `<p class="muted">${esc(fmt(e.d))} · ${esc(e.x)} <a href="${esc(e.u)}" target="_blank" rel="noopener">${esc(e.st)} ↗</a></p>`).join("")}</div></div>`).join("");
       bindTips(app, ".exp", el => { const [a, b, n, t] = el.dataset.k.split("|"); return `<b>${esc(byId[a].name)} → ${esc(byId[b].name)}</b><span class="d">${n} personas · ${t === "canje" ? "canje" : "expulsión"}</span>`; });
       bindTips(app, "#exMap .node", el => `<b>${esc(byId[el.dataset.id].name)}</b>`, el => location.hash = "p-" + el.dataset.id);
       const by = years.map(y => ({ y, n: E.filter(e => e.y === y).reduce((s, e) => s + e.n, 0) })), bm = Math.max(...by.map(b => b.n));
@@ -267,10 +269,10 @@
     app.innerHTML = head("Archivo desclasificado", "Los documentos oficiales liberados que sostienen los casos marcados como demostrados. Primero, los grandes fondos donde buscar; después, los documentos citados en el sitio.") + `
       <div class="section-title"><h2>Fondos documentales</h2><span>${A.fondos.length} archivos</span></div>
       <div class="cards">${A.fondos.map(f => `<a class="card" href="${esc(f.u)}" target="_blank" rel="noopener"><div class="top"><span>${esc(f.c)}</span><span>Externo ↗</span></div><h3 style="font-size:24px">${esc(f.n)}</h3><div class="ag" style="font-family:var(--f-ui);font-size:13.5px">${esc(f.x)}</div></a>`).join("")}</div>
-      <div class="section-title"><h2>Documentos citados</h2><span>${A.docs.length} documentos${sampleTag(true)}</span></div>
+      <div class="section-title"><h2>Documentos citados</h2><span>${A.docs.length} documentos clave, con un enlace a su descripción</span></div>
       <div class="chips" id="arChips"><button type="button" class="chip on" data-c="all">Todos</button>${cs.map(c => `<button type="button" class="chip" data-c="${esc(c)}">${esc(c)}</button>`).join("")}</div>
       <div class="tbl-wrap"><table class="tbl"><thead><tr><th scope="col">Año</th><th scope="col">Documento</th><th scope="col">País</th><th scope="col">Tipo</th><th scope="col">Qué dice</th></tr></thead><tbody id="arBody"></tbody></table></div>`;
-    const draw = c => { app.querySelector("#arBody").innerHTML = A.docs.filter(d => c === "all" || d.c === c).map(d => `<tr><td class="mono">${esc(d.d)}</td><td><a href="${esc(d.u)}">${esc(d.t)}</a></td><td>${esc(d.c)}</td><td>${esc(d.k)}</td><td>${esc(d.x)}</td></tr>`).join("");
+    const draw = c => { app.querySelector("#arBody").innerHTML = [...A.docs].sort((x, y) => x.d.localeCompare(y.d)).filter(d => c === "all" || d.c === c).map(d => `<tr><td class="mono">${esc(d.d)}</td><td><a href="${esc(d.u)}" target="_blank" rel="noopener">${esc(d.t)} ↗</a></td><td>${esc(d.c)}</td><td>${esc(d.k)}</td><td>${esc(d.x)}</td></tr>`).join("");
       app.querySelectorAll("#arChips .chip").forEach(b => b.classList.toggle("on", b.dataset.c === c)); };
     app.querySelectorAll("#arChips .chip").forEach(b => b.addEventListener("click", () => draw(b.dataset.c)));
     draw("all");

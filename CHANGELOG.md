@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-16 · Todo el sitio con datos reales: cinco alertas de noviembre de 2026, relaciones con explicación y fuente, 42 ventas documentadas de software espía, expulsiones y canjes reales de 2014 a 2026, 15 documentos desclasificados y nodos de cables reales. El validador ya no acepta datos de prueba.
+
 - 2026-11-16 · Se apaga la banda de esqueleto: las 57 fichas son reales. Siguen marcadas "de prueba" las secciones con datos ficticios (software espía, expulsiones, archivo, parte de la infraestructura y de las relaciones).
 
 - 2026-11-16 · Nuevo mapa general de bloques de inteligencia en Explorar (#bloques): cinco bloques, grado de pertenencia y notas sobre casos discutibles.

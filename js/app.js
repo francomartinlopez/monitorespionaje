@@ -73,7 +73,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     box.innerHTML = `<div class="wrap alerts-in">
       <div class="sec-head"><h2><span class="live"></span>Alertas activas · ${al.length}</h2><span>Operaciones, capturas, expulsiones y filtraciones de los últimos días</span></div>
       <div class="alert-grid">${al.map(a => `<a class="alert" href="#p-${a.target}" style="--lv:${window.LV[a.level]}">
-        <div class="meta"><span class="pill">Nivel ${a.level}</span><span>${esc(a.tag)}</span><span>· ${fmt(a.date)}</span>${sampleTag(a.sample)}</div>
+        <div class="meta"><span class="pill">Nivel ${a.level}</span><span>${esc(a.tag)}</span><span>· ${fmt(a.date)}</span>${a.st ? `<span>· ${esc(a.st)}</span>` : ""}${sampleTag(a.sample)}</div>
         <div class="where">${esc(a.countries.join(" · "))}</div>
         <h3>${esc(a.title)}</h3><p>${esc(a.text)}</p><span class="go">Ver la ficha →</span></a>`).join("")}</div></div>`;
   }
@@ -106,7 +106,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     document.title = "Monitor de Espionaje";
     const rels = window.RELACIONES;
     app.innerHTML = `
-      <div class="section-title"><h2>Mapa de relaciones</h2><span>Cómo se vinculan los servicios de los ${PAISES.length} países: cooperación, enfrentamiento o relación ambigua${sampleTag(true)}</span></div>
+      <div class="section-title"><h2>Mapa de relaciones</h2><span>Cómo se vinculan los servicios de los ${PAISES.length} países: cooperación, enfrentamiento o relación ambigua</span></div>
       <div class="chips" id="relChips">
         <button type="button" class="chip on" data-mode="rel" style="--c:var(--ph)">Relaciones</button>
         <button type="button" class="chip" data-mode="focos" style="--c:var(--ph)">Focos de operaciones</button>
@@ -487,10 +487,10 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   }
 
   function relCols(p) {
-    const mine = window.RELACIONES.filter(r => r.a === p.id || r.b === p.id).map(r => ({ o: byId[r.a === p.id ? r.b : r.a], t: r.t }));
+    const mine = window.RELACIONES.filter(r => r.a === p.id || r.b === p.id).map(r => ({ o: byId[r.a === p.id ? r.b : r.a], t: r.t, x: r.x, u: r.u, st: r.st }));
     return `<div class="rel-cols">${Object.entries(RT).map(([k, t]) => { const l = mine.filter(m => m.t === k);
-      return `<div class="rel-col" style="--c:${t.c}"><h4><span>${t.n}</span><span>${l.length}</span></h4>${l.map(m => `<a href="#p-${m.o.id}">${esc(m.o.name)}</a>`).join("") || `<span class="none">Ninguno entre los países del monitor</span>`}</div>`; }).join("")}</div>
-      <p class="muted" style="font-size:13px;margin:8px 0 0">Clasificación preliminar, a confirmar con fuentes. Cada vínculo va a tener su explicación.</p>`;
+      return `<div class="rel-col" style="--c:${t.c}"><h4><span>${t.n}</span><span>${l.length}</span></h4>${l.map(m => `<div class="rel-it"><a href="#p-${m.o.id}">${esc(m.o.name)}</a><p>${esc(m.x)} <a class="src" href="${esc(m.u)}" target="_blank" rel="noopener">Fuente ↗</a></p></div>`).join("") || `<span class="none">Ninguno entre los países del monitor</span>`}</div>`; }).join("")}</div>
+      <p class="muted" style="font-size:13px;margin:8px 0 0">Clasificación editorial del Monitor sobre la relación entre los servicios, con la razón y la fuente de cada vínculo.</p>`;
   }
 
   // ---------- mapa de operaciones con línea de tiempo ----------
