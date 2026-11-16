@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Rumania: SRI, SIE, DGIA y CSAT; la elección anulada de 2024 por la campaña de TikTok, el centro secreto de la CIA, los protocolos SRI-fiscalía y la deserción de Pacepa.
+
 - 2026-11-15 · Ficha real de Bélgica: VSSE, SGRS, OCAM y Comité R; la operación Socialist de la GCHQ, Qatargate, el caso Creyelman, Voice of Europe y los atentados de 2016.
 
 - 2026-11-15 · Ficha real de Chipre: KYP, inteligencia de la Guardia Nacional y policía; el videogate de 2026 producido por Black Cube, la camioneta espía de 2019, Cyprus Confidential y el depósito de Hezbolá en Lárnaca.
