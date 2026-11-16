@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ola 4: ficha real de Turquía (MGK, MİT, inteligencia de la Gendarmería, de la policía y del Estado Mayor). Kalın al frente del MİT, presupuesto 2025-2026, desarme del PKK supervisado por el MİT, camiones a Siria, París 2013, plan contra Berivan Aslan, traslados forzados (Kosovo, Kenia), Khashoggi, redes atribuidas a Israel, Irán y los Emiratos, causa de espionaje contra İmamoğlu (denuncia sin pruebas firmes), combatientes sirios en Libia y el Cáucaso; prácticas y dinero completos.
+
 - 2026-11-15 · Ola 4: ficha real de Ucrania (CNSD, SZRU, SBU, GUR y comisión de la Rada) con la cúpula de 2026 (Ivashchenko en la GUR, Poklad interino en el SBU, Umerov en el SZRU). Puente de Crimea, Telaraña, ataque al puesto del FSB en Donetsk, Nord Stream (con sustento sólido, juicio en Hamburgo), caso Kaplunov y tiroteo SBU-GUR, caso Midas; prácticas y dinero completos.
 
 - 2026-11-15 · Ola 3 completa el núcleo: ficha real del Vaticano (Secretaría de Estado, nunciaturas, Gendarmería, Guardia Suiza y ASIF). Advertencia de León XIV sobre los servicios (dic. 2025), denuncia de espionaje de EE.UU. (Klippenstein, abril de 2026, como "denuncia sin pruebas firmes"), misión rusa mencionada en la causa de Roma, caso Becciu y pagos a Marogna (en apelación), Vatileaks, rutas de escape nazis, Ambrosiano. El validador ya no compara coordenadas en microestados.
