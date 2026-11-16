@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-16 · Explorar: la red de personas pasa de 11 a 28 (espías atómicos, Penkovski, Walker, Guillaume, Farewell, Eli Cohen, Marwan, Vanunu, Skripal y otros); infraestructura de 13 a 22 instalaciones; glosario de 15 a 30 términos, con el oficio del reclutamiento.
+
 - 2026-11-16 · Relaciones: de 61 a 201 vínculos; todos los países tienen al menos dos. Se suma el choque Argentina–Irán de 2026 (designaciones mutuas como terroristas, expulsión de un diplomático) en relaciones, fichas, alertas y expulsiones.
 - 2026-11-16 · Doce fichas reforzadas (Bangladés, Dinamarca, Moldavia, Kazajistán, Catar, Irak, Jordania, Argelia, Serbia, Líbano, Austria, Afganistán) con nuevos hechos, casos, fallas y aciertos. Doctrina y contexto histórico en las 60 fichas.
 

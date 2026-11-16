@@ -44,7 +44,7 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 
 ## Secciones de Explorar (`data/explorar.js`, interfaz en `js/explorar.js`)
 "Cómo funciona el espionaje" se dibuja al final de la portada (#homeComo) y la ruta #como-funciona lleva ahí. En la portada, Explorar es una lista desplegable: cada sección se abre en el lugar con `render(args, root)`. Las rutas propias (#poder, etc.) siguen funcionando.
-- `PODER`: esquema "Quién manda" (#poder[/<id>]). `niveles` 1 polos · 2 autónomos · 3 socios integrados · 4 regionales y neutrales; `paises` {id: {n, x, dep?[ids]}} para los 57; `internos` {id: [{h, x}]}: quién manda dentro de cada potencia. El nivel 5 (proxies) se arma solo con los `proxies` con `graf: true` de las fichas. El tamaño sale de `power` de la ficha.
+- `PODER`: esquema "Quién manda" (#poder[/<id>]). `niveles` 1 polos · 2 autónomos · 3 socios integrados · 4 regionales y neutrales; `paises` {id: {n, x, dep?[ids]}} para los 60; `internos` {id: [{h, x}]}: quién manda dentro de cada potencia. El nivel 5 (proxies) se arma solo con los `proxies` con `graf: true` de las fichas. El tamaño sale de `power` de la ficha.
 - `BLOQUES`: mapa general en cinco bloques (occidental, euroasiático, autónomos, neutrales, zonas abiertas). `paises` = [nombre de `data/world.js`, bloque, grado n|c|p, nota?]. Clasificación editorial; la nota explica los casos discutibles. Todo país del monitor debe tener bloque. Si se suma un país, mantener los niveles en múltiplos de cuatro.
 - `ALIANZAS`: miembros por nombre de país de `data/world.js`. Reales.
 - `INFRA`: instalaciones de vigilancia con tipo, coordenadas `ll` [lon, lat], quién la opera y nivel de evidencia `ev`. `lab: "l"` y `dy` acomodan la etiqueta.

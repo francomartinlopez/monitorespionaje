@@ -46,7 +46,16 @@ window.INFRA = [
   { n: "Bude", t: "cable", lab: "l", ll: [-4.55, 50.83], who: "Reino Unido (GCHQ)", ev: 1, x: "Estación del GCHQ en Cornualles, cerca del aterrizaje de cables transatlánticos; los documentos de Snowden la vincularon con la interceptación masiva de cables." },
   { n: "Marsella", t: "cable", ll: [5.37, 43.3], who: "Nodo comercial (Francia)", ev: 1, u: "https://en.wikipedia.org/wiki/2Africa", st: "Wikipedia: 2Africa", x: "Uno de los grandes puntos de aterrizaje de cables del Mediterráneo. Allí llega 2Africa, el cable que rodea el continente africano." },
   { n: "Fortaleza", t: "cable", ll: [-38.54, -3.72], who: "Nodo comercial (Brasil)", ev: 1, u: "https://en.wikipedia.org/wiki/EllaLink", st: "Wikipedia: EllaLink", x: "Punto de llegada de EllaLink, el cable directo entre Portugal y Brasil. Uno de sus objetivos fue evitar el paso por EE.UU. y la recolección de la NSA." },
-  { n: "Singapur", t: "cable", ll: [103.8, 1.35], who: "Nodo comercial (Singapur)", ev: 1, u: "https://en.wikipedia.org/wiki/SEA-ME-WE_3", st: "Wikipedia: SEA-ME-WE 3", x: "En Tuas aterrizan cables entre Europa, Medio Oriente y Asia, como SEA-ME-WE 3. Es un nodo clave entre el Índico y el Pacífico." }
+  { n: "Singapur", t: "cable", ll: [103.8, 1.35], who: "Nodo comercial (Singapur)", ev: 1, u: "https://en.wikipedia.org/wiki/SEA-ME-WE_3", st: "Wikipedia: SEA-ME-WE 3", x: "En Tuas aterrizan cables entre Europa, Medio Oriente y Asia, como SEA-ME-WE 3. Es un nodo clave entre el Índico y el Pacífico." },
+  { n: "Fort Meade", t: "escucha", dy: 10, ll: [-76.77, 39.11], who: "EE.UU. (NSA)", ev: 1, x: "Sede de la NSA y del Cibercomando, en Maryland." },
+  { n: "Buckley", t: "satelital", ll: [-104.75, 39.72], who: "EE.UU. (NRO y NSA)", ev: 1, x: "Estación en Colorado que recibe datos de satélites espía." },
+  { n: "Cheltenham", t: "escucha", dy: 8, ll: [-2.12, 51.9], who: "Reino Unido (GCHQ)", ev: 1, x: "Sede del GCHQ, el servicio británico de señales." },
+  { n: "Leitrim", t: "escucha", ll: [-75.59, 45.34], who: "Canadá (CSE)", ev: 1, x: "La estación de señales más antigua de Canadá, parte de la red de los Cinco Ojos." },
+  { n: "Geraldton", t: "satelital", lab: "l", ll: [114.84, -28.69], who: "Australia (ASD)", ev: 1, x: "Estación australiana que intercepta comunicaciones por satélite en el Índico y Asia." },
+  { n: "Diego García", t: "base", ll: [72.41, -7.31], who: "EE.UU. y Reino Unido", ev: 1, x: "Base en el Índico usada para bombarderos, vigilancia y, según el Senado de EE.UU., tránsito de detenidos de la CIA." },
+  { n: "Urim", t: "satelital", dy: 8, ll: [34.53, 31.31], who: "Israel (Unidad 8200)", ev: 2, x: "Base en el Néguev que intercepta satélites y cables, según una investigación de Le Monde diplomatique de 2010." },
+  { n: "Neuquén", t: "satelital", ll: [-70.15, -38.19], who: "China", ev: 2, x: "Estación de espacio lejano operada por un organismo del EPL. China dice que su uso es civil; EE.UU. sospecha de un uso militar." },
+  { n: "Tartus", t: "base", lab: "l", ll: [35.88, 34.9], who: "Rusia", ev: 1, x: "Base naval rusa en Siria, con puestos de escucha sobre el Mediterráneo oriental; su futuro se negocia desde 2024." },
 ];
 
 // ---------- mercado del software espía ----------
@@ -200,7 +209,10 @@ window.ORGS_RED = [
   { id: "mi6", n: "MI6", side: "o" }, { id: "cia", n: "CIA", side: "o" }, { id: "fbi", n: "FBI", side: "o" }, { id: "nsa", n: "NSA", side: "o" },
   { id: "dia", n: "DIA", side: "o" }, { id: "state", n: "Depto. de Estado", side: "o" }, { id: "navy", n: "Inteligencia naval EE.UU.", side: "o" },
   { id: "kgb", n: "KGB", side: "e" }, { id: "gru", n: "GRU", side: "e" }, { id: "hva", n: "HVA (RDA)", side: "e" }, { id: "dicu", n: "DI (Cuba)", side: "e" },
-  { id: "lakam", n: "Lakam (Israel)", side: "e" }, { id: "prensa", n: "Prensa", side: "e" }
+  { id: "lakam", n: "Lakam (Israel)", side: "e" }, { id: "prensa", n: "Prensa", side: "e" },
+  { id: "army", n: "Ejército de EE.UU.", side: "o" }, { id: "manhattan", n: "Proyecto Manhattan", side: "o" }, { id: "canc", n: "Cancillería alemana", side: "o" },
+  { id: "dgse", n: "Inteligencia francesa", side: "o" }, { id: "gid", n: "GID (Jordania)", side: "o" }, { id: "rcmp", n: "Canadá", side: "o" }, { id: "dimona", n: "Centro nuclear de Dimona", side: "o" },
+  { id: "mossad", n: "Mossad", side: "e" }, { id: "mss", n: "MSS (China)", side: "e" }, { id: "siria", n: "Gobierno de Siria", side: "o" }, { id: "egipto", n: "Gobierno de Egipto", side: "o" }, { id: "aq", n: "Al Qaeda", side: "e" }
 ];
 window.PERSONAS = [
   { n: "Kim Philby", y: "1912–1988", tag: "Agente doble", x: "Oficial del MI6 que espiaba para la URSS como parte de los Cinco de Cambridge; huyó a Moscú en 1963.", w: ["mi6"], s: ["kgb"] },
@@ -213,7 +225,24 @@ window.PERSONAS = [
   { n: "Jonathan Pollard", y: "1954", tag: "Espía", x: "Analista de inteligencia naval de EE.UU. que pasó documentos a Israel. Detenido en 1985.", w: ["navy"], s: ["lakam"] },
   { n: "Edward Snowden", y: "1983", tag: "Filtrador", x: "Ex empleado de la CIA y contratista de la NSA que entregó a periodistas documentos sobre la vigilancia masiva en 2013. Vive en Rusia.", w: ["cia", "nsa"], s: ["prensa"] },
   { n: "Richard Sorge", y: "1895–1944", tag: "Espía", x: "Espía soviético en Japón que anticipó la invasión alemana a la URSS. Ejecutado en Tokio en 1944.", w: ["gru"], s: [] },
-  { n: "Markus Wolf", y: "1923–2006", tag: "Director", x: "Jefe de la inteligencia exterior de Alemania Oriental durante más de treinta años.", w: ["hva"], s: [] }
+  { n: "Markus Wolf", y: "1923–2006", tag: "Director", x: "Jefe de la inteligencia exterior de Alemania Oriental durante más de treinta años.", w: ["hva"], s: [] },
+  { n: "Julius Rosenberg", y: "1918–1953", tag: "Espía", x: "Ingeniero que armó una red para pasar secretos militares y atómicos a la URSS. Fue ejecutado junto con su esposa Ethel.", w: ["army"], s: ["kgb"] },
+  { n: "Klaus Fuchs", y: "1911–1988", tag: "Topo", x: "Físico del Proyecto Manhattan y del programa británico que entregó a la URSS el diseño de la bomba. Confesó en 1950.", w: ["manhattan"], s: ["gru", "kgb"] },
+  { n: "Theodore Hall", y: "1925–1999", tag: "Topo", x: "El físico más joven de Los Álamos; pasó datos de la bomba por decisión propia. Nunca fue juzgado.", w: ["manhattan"], s: ["kgb"] },
+  { n: "George Koval", y: "1913–2006", tag: "Ilegal", x: "Agente del GRU nacido en EE.UU. que trabajó en plantas del Proyecto Manhattan.", w: ["manhattan"], s: ["gru"] },
+  { n: "Igor Gouzenko", y: "1919–1982", tag: "Desertor", x: "Empleado de cifrado soviético en Ottawa que desertó en 1945 con documentos sobre redes de espías atómicos.", w: ["gru"], s: ["rcmp"] },
+  { n: "Oleg Penkovski", y: "1919–1963", tag: "Agente doble", x: "Coronel del GRU que entregó a Occidente datos sobre los misiles soviéticos antes de la crisis de Cuba. Fue ejecutado.", w: ["gru"], s: ["cia", "mi6"] },
+  { n: "John Walker", y: "1937–2014", tag: "Topo", x: "Suboficial de la Armada que vendió claves de cifrado a la KGB durante 17 años y sumó a su familia.", w: ["navy"], s: ["kgb"] },
+  { n: "Günter Guillaume", y: "1927–1995", tag: "Topo", x: "Agente de Alemania Oriental que llegó a asistente del canciller Willy Brandt; su caída provocó la renuncia de Brandt en 1974.", w: ["canc"], s: ["hva"] },
+  { n: "Vladímir Vétrov", y: "1932–1985", tag: "Agente doble", x: "Oficial de la KGB, alias Farewell, que entregó a Francia miles de documentos sobre el espionaje tecnológico soviético.", w: ["kgb"], s: ["dgse"] },
+  { n: "Eli Cohen", y: "1924–1965", tag: "Ilegal", x: "Agente israelí que se instaló en Damasco como empresario y llegó al círculo del poder sirio. Fue ahorcado.", w: ["siria"], s: ["mossad"] },
+  { n: "Ashraf Marwan", y: "1944–2007", tag: "Agente doble", x: "Yerno de Nasser que informó al Mossad antes de la guerra de 1973. En Egipto lo consideran un doble agente que engañó a Israel.", w: ["egipto"], s: ["mossad"] },
+  { n: "Mordechai Vanunu", y: "1954", tag: "Filtrador", x: "Técnico de Dimona que reveló a la prensa británica el programa nuclear israelí en 1986. El Mossad lo secuestró en Roma.", w: ["dimona"], s: ["prensa"] },
+  { n: "Larry Wu-tai Chin", y: "1922–1986", tag: "Topo", x: "Traductor de la CIA que espió para China durante más de treinta años.", w: ["cia"], s: ["mss"] },
+  { n: "Katrina Leung", y: "1954", tag: "Agente doble", x: "Informante del FBI sobre China que también pasaba información a Pekín, según el FBI.", w: ["fbi"], s: ["mss"] },
+  { n: "Serguéi Skripal", y: "1951", tag: "Agente doble", x: "Coronel del GRU que trabajó para el MI6. Canjeado en 2010, fue envenenado con novichok en Salisbury en 2018.", w: ["gru"], s: ["mi6"] },
+  { n: "Humam al-Balawi", y: "1977–2009", tag: "Agente doble", x: "Médico jordano reclutado para infiltrar a Al Qaeda; se inmoló en una base de la CIA en Afganistán.", w: ["gid", "cia"], s: ["aq"] },
+  { n: "Chelsea Manning", y: "1987", tag: "Filtrador", x: "Analista de inteligencia del Ejército que entregó a WikiLeaks cables diplomáticos y partes de guerra en 2010.", w: ["army"], s: ["prensa"] },
 ];
 
 // ---------- archivo desclasificado ----------
@@ -278,7 +307,22 @@ window.GLOSARIO = [
   ["Medidas activas", "Término soviético para operaciones de influencia: desinformación, falsificaciones, apoyo encubierto a grupos."],
   ["Compartimentación", "Regla de que cada uno sepa sólo lo que necesita saber, para limitar el daño de una filtración."],
   ["Negación plausible", "Diseñar una operación para que el gobierno pueda negar su participación de forma creíble."],
-  ["Atribución", "Determinar quién está detrás de una operación, en especial de un ciberataque. Siempre conviene preguntar quién atribuye y con qué evidencia."]
+  ["Atribución", "Determinar quién está detrás de una operación, en especial de un ciberataque. Siempre conviene preguntar quién atribuye y con qué evidencia."],
+  ["Motivos del agente", "Por qué alguien acepta espiar. La fórmula clásica en inglés es MICE: dinero, ideología, coerción y ego."],
+  ["Voluntario", "Persona que se ofrece por su cuenta a un servicio extranjero, por ejemplo en una embajada. Muchos de los mejores agentes lo fueron."],
+  ["Trampa de miel", "Usar una relación sexual o romántica para reclutar, comprometer o chantajear a un blanco."],
+  ["Reclutamiento bajo bandera falsa", "Hacerle creer al agente que trabaja para otro país u organización."],
+  ["Leyenda", "Biografía falsa, con documentos y pasado inventado, que sostiene una identidad encubierta."],
+  ["Agente durmiente", "Agente instalado durante años sin actividad, a la espera de una orden."],
+  ["Agente de influencia", "Persona que no roba secretos, sino que empuja decisiones u opiniones a favor de otro Estado."],
+  ["Estación", "Oficina de un servicio dentro de una embajada. Los rusos la llaman residentura."],
+  ["Cobertura no oficial", "Oficial que actúa como empresario, periodista o académico, sin inmunidad diplomática."],
+  ["Contravigilancia", "Técnicas para detectar si a uno lo siguen antes de un encuentro."],
+  ["Contacto breve", "Entrega de material en un cruce de segundos entre dos personas que aparentan no conocerse."],
+  ["Libreta de un solo uso", "Clave de cifrado que se usa una vez y se destruye; bien usada, no se puede romper."],
+  ["Fuentes abiertas", "Información pública: prensa, redes, imágenes comerciales de satélite, registros."],
+  ["Engaño estratégico", "Operación para que el adversario crea algo falso y decida mal."],
+  ["Evaluación de daños", "Estudio de qué se perdió después de descubrir a un topo o una filtración."],
 ];
 
 // ---------- Bloques de inteligencia (mapa general) ----------
