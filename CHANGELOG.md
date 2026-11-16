@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de México: CNI, inteligencia militar y naval, UIF y FGR; la ley de 2025 y la Plataforma Central de Inteligencia, Pegasus (Gobierno Espía y Ejército Espía), la filtración de Guacamaya y la DFS.
+
 - 2026-11-15 · Ficha real de Egipto: GIS, Inteligencia Militar y Sector de Seguridad Nacional; la condena en Roma por el secuestro de Giulio Regeni, Predator contra Ahmed Tantawy, el caso Menendez y el conglomerado de medios del GIS.
 
 - 2026-11-15 · Ficha real de Japón: la reforma de 2026 (Consejo Nacional de Inteligencia y Oficina Nacional de Inteligencia, que reemplaza a la CIRO), el caso Ohkawara Kakohki, el espionaje ruso, Mukden y la Tokko. Se actualizan los organismos en data/paises.js.
