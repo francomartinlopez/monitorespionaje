@@ -139,7 +139,8 @@ ctx.INFRA.forEach((x, i) => { if (x.sample) err("infra", `[${i}] marcado como de
 ctx.RELACIONES.forEach((r, i) => { if (!r.x) err("relaciones", `[${i}] sin explicación (x)`); });
 ctx.SPYWARE.flows.forEach((f, i) => { if (!names.has(f.c)) err("software espía", `[${i}] país desconocido "${f.c}"`); if (![1, 2, 3, 4].includes(f.ev)) err("software espía", `[${i}] ev inválido`); });
 ctx.EXPULSIONES.forEach((e, i) => { if (!["expulsion", "canje"].includes(e.k)) err("expulsiones", `[${i}] tipo inválido`); if (!isDate(e.d)) err("expulsiones", `[${i}] fecha inválida`); });
-ctx.ALERTS.forEach((a, i) => { if (!ids.has(a.target)) err("alertas", `[${i}] target desconocido`); if (!isDate(a.date)) err("alertas", `[${i}] fecha inválida`); });
+if (![4, 8, 12].includes(ctx.ALERTS.length)) err("alertas", `tiene que haber 4, 8 o 12 alertas (hay ${ctx.ALERTS.length})`);
+ctx.ALERTS.forEach((a, i) => { if (!ids.has(a.target)) err("alertas", `[${i}] target desconocido`); if (!isDate(a.date)) err("alertas", `[${i}] fecha inválida`); if (![0, 1, 2, 3, 4, 5].includes(a.level)) err("alertas", `[${i}] nivel inválido`); });
 
 // navegador
 if (process.argv.includes("--browser")) {

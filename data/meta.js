@@ -1,5 +1,6 @@
 // Datos generales del monitor: fecha de corte, alertas, categorías y escalas.
 // Las alertas son hechos reales de los últimos días, con fuente (u, st).
+// Siempre 4, 8 o 12. Para completar se suman hechos de menor nivel o ya resueltos (nivel 0).
 window.MONITOR_META = {
   updated: "2026-11-16",
   updatedLabel: "16 nov 2026 · 06:00 ART",
@@ -108,14 +109,17 @@ window.REL_TYPES = {
   enf:  { n: "Enfrentamiento", c: "#ff4d3d" }
 };
 
-window.LV = { 5: "#ff4d3d", 4: "#ff9433", 3: "#ffd23f", 2: "#6af59a", 1: "#4f8f6c" };
-window.LV_LABEL = { 5: "Crítico", 4: "Alto", 3: "Elevado", 2: "Moderado", 1: "Bajo" };
+window.LV = { 0: "#6f7d76", 5: "#ff4d3d", 4: "#ff9433", 3: "#ffd23f", 2: "#6af59a", 1: "#4f8f6c" };
+window.LV_LABEL = { 0: "Resuelto", 5: "Crítico", 4: "Alto", 3: "Elevado", 2: "Moderado", 1: "Bajo" };
 
 window.ALERTS = [
   { level: 4, tag: "Contraespionaje", date: "2026-11-10", countries: ["Reino Unido", "EE.UU.", "Rusia"], target: "uk", title: "Detienen en Inglaterra a un oficial del ejército de EE.UU. por espiar para Rusia", text: "La policía antiterrorista británica detuvo cerca de Gloucester a un oficial de 41 años destinado en un cuartel de la OTAN. Lo acusan de ayudar a un servicio de inteligencia extranjero. La operación la hicieron el MI5 y el FBI, según autoridades de ambos países.", u: "https://www.washingtonpost.com/world/2026/11/10/us-army-officer-arrested-uk-suspicion-trying-steal-secrets-russia/", st: "The Washington Post" },
   { level: 4, tag: "Amenaza", date: "2026-11-09", countries: ["Irán", "Reino Unido", "EE.UU."], target: "ir", title: "EE.UU. retira aviones de una base británica por una amenaza atribuida a Irán", text: "La Fuerza Aérea de EE.UU. sacó aviones cisterna de RAF Mildenhall, según The Wall Street Journal, por una amenaza vinculada a Irán. Es el segundo caso en dos meses: en octubre retiró bombarderos de Fairford tras un presunto complot que el gobierno británico relacionó con Irán.", u: "https://www.al-monitor.com/originals/2026/11/britain-says-its-bases-are-safe-after-us-refuelling-planes-evacuated", st: "Reuters vía Al-Monitor" },
   { level: 4, tag: "Ciberrobo", date: "2026-10-31", countries: ["Corea del Norte"], target: "kp", title: "El FBI atribuye a Corea del Norte el robo de más de 6.000 millones de dólares a Binance", text: "El 29 de octubre hackers vaciaron billeteras de la plataforma Binance. El FBI y la empresa TRM Labs lo atribuyeron al grupo TraderTraitor, parte de Lazarus. Es el mayor robo de criptomonedas registrado.", u: "https://en.wikipedia.org/wiki/2026_Binance_hack", st: "Wikipedia (síntesis de fuentes)" },
   { level: 3, tag: "Ciberataque", date: "2026-11-02", countries: ["Rusia", "Ucrania"], target: "ua", title: "Hackean las apps de alertas aéreas de Ucrania y de Rusia", text: "La app ucraniana Alerta Aérea envió falsos avisos nucleares y químicos el 1 de noviembre; Kiev culpó a Rusia. Horas después falló la app de emergencias rusa, y Volodímir Zelenski confirmó que fue una respuesta ucraniana.", u: "https://kyivindependent.com/zelensky-confirms-ukraine-targeted-russian-emergency-alert-systems-in-retaliatory-hack/", st: "The Kyiv Independent" },
+  { level: 2, tag: "Contraespionaje", date: "2026-11-15", countries: ["Israel", "Irán"], target: "ir", title: "Israel acusa a otro ciudadano de espiar para Irán", text: "La fiscalía de Haifa acusó a un árabe israelí de fotografiar bases militares para la inteligencia iraní, tras una investigación del Shin Bet iniciada en octubre. Es uno más de una serie de casos desde la guerra de 2025.", u: "https://nxnoticias.com/acusan-israeli-espionaje-inteligencia-iran/", st: "NX Noticias" },
+  { level: 2, tag: "Contrainteligencia", date: "2026-11-04", countries: ["Canadá", "Ucrania"], target: "ca", title: "Un agente de contrainteligencia canadiense, acusado de pasar datos a Ucrania", text: "Un miembro de la contrainteligencia militar de Canadá fue acusado de entregar información operativa a Ucrania; irá a corte marcial en diciembre.", u: "https://kyivindependent.com/us-service-member-accused-of-attempting-to-spy-for-russia-identified-media-reports/", st: "The Kyiv Independent" },
+  { level: 1, tag: "Reestructura", date: "2026-10-29", countries: ["Irak"], target: "iq", title: "El primer ministro iraquí toma el control del servicio de inteligencia", text: "Ali al-Zaidi destituyó al jefe del INIS, Hamid al-Shatri, y asumió en persona la conducción del servicio. Pidió alejarlo del reparto de cargos entre partidos.", u: "https://www.thenationalnews.com/news/mena/2026/10/30/iraqi-prime-minister-takes-direct-control-of-intelligence-service/", st: "The National" },
   { level: 2, tag: "Expulsión", date: "2026-10-23", countries: ["Austria", "Rusia"], target: "at", title: "Austria expulsa a cuatro diplomáticos rusos por espionaje", text: "Tres trabajaban en la embajada en Viena y uno en la misión rusa ante la OSCE. Con ellos, Austria suma 18 diplomáticos rusos expulsados desde 2020, según la prensa.", u: "https://meduza.io/en/news/2026/10/23/austria-orders-expulsion-of-four-russian-diplomats-suspected-of-spying", st: "Meduza" }
 ];
 

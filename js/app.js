@@ -73,7 +73,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     box.innerHTML = `<div class="wrap alerts-in">
       <div class="sec-head"><h2><span class="live"></span>Alertas activas · ${al.length}</h2><span>Operaciones, capturas, expulsiones y filtraciones de los últimos días</span></div>
       <div class="alert-grid">${al.map(a => `<a class="alert" href="#p-${a.target}" style="--lv:${window.LV[a.level]}">
-        <div class="meta"><span class="pill">Nivel ${a.level}</span><span>${esc(a.tag)}</span><span>· ${fmt(a.date)}</span>${a.st ? `<span>· ${esc(a.st)}</span>` : ""}${sampleTag(a.sample)}</div>
+        <div class="meta"><span class="pill">${a.level ? `Nivel ${a.level}` : "Resuelto"}</span><span>${esc(a.tag)}</span><span>· ${fmt(a.date)}</span>${a.st ? `<span>· ${esc(a.st)}</span>` : ""}${sampleTag(a.sample)}</div>
         <div class="where">${esc(a.countries.join(" · "))}</div>
         <h3>${esc(a.title)}</h3><p>${esc(a.text)}</p><span class="go">Ver la ficha →</span></a>`).join("")}</div></div>`;
   }
@@ -216,7 +216,8 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     const t = document.getElementById("cmp"); if (!t) return;
     const rows = PAISES.filter(p => FICHAS[p.id]).map(p => ({ p, f: FICHAS[p.id] }));
     rows.sort((a, b) => sortKey === "tot" ? powerSum(b.f) - powerSum(a.f) : sortKey === "name" ? a.p.name.localeCompare(b.p.name) : (b.f.power[sortKey] - a.f.power[sortKey]) || powerSum(b.f) - powerSum(a.f));
-    const cell = v => `<td class="v" style="background:rgba(106,245,154,${(.1 + v * .17).toFixed(2)});color:${v >= 3 ? "var(--bg)" : "var(--text)"}">${v}</td>`;
+    const CMPC = { 1: "#0c2416", 2: "#12452a", 3: "#1f7a45", 4: "#38c46f", 5: "#7dffb0" };
+    const cell = v => `<td class="v" style="background:${CMPC[v]};color:${v >= 4 ? "#03140a" : v === 3 ? "#e9fff1" : "#8fb9a0"};${v === 5 ? "box-shadow:inset 0 0 12px rgba(180,255,210,.45);font-weight:700;" : ""}">${v}</td>`;
     t.innerHTML = `<thead><tr><th data-k="name" class="${sortKey === "name" ? "on" : ""}" scope="col">País</th>${RUBROS.map(r => `<th data-k="${r.k}" class="${sortKey === r.k ? "on" : ""}" scope="col" title="${esc(r.n)}">${r.s}</th>`).join("")}<th data-k="tot" class="${sortKey === "tot" ? "on" : ""}" scope="col">Total</th></tr></thead>
       <tbody>${rows.map(({ p, f }) => `<tr><td><a href="#p-${p.id}">${esc(p.name)}</a></td>${RUBROS.map(r => cell(f.power[r.k])).join("")}<td class="tot">${powerSum(f)}</td></tr>`).join("")}</tbody>`;
     t.querySelectorAll("th").forEach(th => { th.tabIndex = 0; const go = () => drawCmp(th.dataset.k); th.addEventListener("click", go); th.addEventListener("keydown", e => { if (e.key === "Enter") go(); }); });

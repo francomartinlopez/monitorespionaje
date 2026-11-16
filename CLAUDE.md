@@ -38,7 +38,7 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 - `sources` [{t, u}].
 
 ## Alertas y relaciones
-- `ALERTS` en `data/meta.js`: {level, tag, date, countries, target, title, text, u, st}. Hechos de los últimos días con fuente.
+- `ALERTS` en `data/meta.js`: {level, tag, date, countries, target, title, text, u, st}. Hechos de los últimos días con fuente. Siempre 4, 8 o 12 (filas completas de cuatro); para completar se suman hechos de menor nivel o ya resueltos, con `level: 0`.
 - `RELACIONES` en `data/relaciones.js`: [a, b, t, x, u, st]; `x` explica la clasificación.
 
 ## Secciones de Explorar (`data/explorar.js`, interfaz en `js/explorar.js`)
