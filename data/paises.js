@@ -1,4 +1,4 @@
-// Los 35 países del monitor. Los organismos son reales; el resto del contenido de cada
+// Los 40 países del monitor. Los organismos son reales; el resto del contenido de cada
 // ficha está en data/paises/<id>.js.
 // g: grupo del organigrama → k coordinación · c inteligencia civil · m militar · p policial y seguridad · j control y justicia
 // tier: 1 núcleo · 2 muy relevante · 3 relevante en su región o por una habilidad
@@ -308,6 +308,44 @@ window.PAISES = [
       { code: "MUST", name: "Servicio Militar de Inteligencia y Seguridad", g: "m" },
       { code: "Säpo", name: "Servicio de Seguridad", g: "p" },
       { code: "SIN", name: "Inspección de Inteligencia de Defensa", g: "j" }
+    ] },
+  { id: "it", name: "Italia", short: "Italia", map: "Italy", tier: 2, center: [12.5, 41.9],
+    agencies: [
+      { code: "DIS", name: "Departamento de Información para la Seguridad", g: "k" },
+      { code: "AISE", name: "Agencia de Información y Seguridad Exterior", g: "c" },
+      { code: "RIS", name: "Inteligencia del Estado Mayor de Defensa", g: "m" },
+      { code: "AISI", name: "Agencia de Información y Seguridad Interior", g: "p" },
+      { code: "COPASIR", name: "Comité Parlamentario para la Seguridad de la República", g: "j" }
+    ] },
+  { id: "es", name: "España", short: "España", map: "Spain", tier: 2, center: [-3.7, 40.42],
+    agencies: [
+      { code: "CDGAI", name: "Comisión Delegada del Gobierno para Asuntos de Inteligencia", g: "k" },
+      { code: "CNI", name: "Centro Nacional de Inteligencia", g: "c" },
+      { code: "CIFAS", name: "Centro de Inteligencia de las Fuerzas Armadas", g: "m" },
+      { code: "CITCO", name: "Centro de Inteligencia contra el Terrorismo y el Crimen Organizado", g: "p" },
+      { code: "Comisión", name: "Comisión de Control de los Créditos Destinados a Gastos Reservados", g: "j" }
+    ] },
+  { id: "gr", name: "Grecia", short: "Grecia", map: "Greece", tier: 3, center: [23.73, 37.98], skill: "Programas espía contra políticos y periodistas (Predator)",
+    agencies: [
+      { code: "PM", name: "Oficina del Primer Ministro", g: "k" },
+      { code: "EYP", name: "Servicio Nacional de Inteligencia", g: "c" },
+      { code: "Defensa", name: "Inteligencia del Estado Mayor de Defensa", g: "m" },
+      { code: "ADAE", name: "Autoridad para la Privacidad de las Comunicaciones", g: "j" }
+    ] },
+  { id: "cy", name: "Chipre", short: "Chipre", map: "Cyprus", tier: 3, center: [33.37, 35.17], skill: "Plaza de programas espía y bases británicas de escucha",
+    agencies: [
+      { code: "CNS", name: "Consejo Nacional de Seguridad", g: "k" },
+      { code: "KYP", name: "Servicio de Información de Chipre", g: "c" },
+      { code: "Guardia", name: "Inteligencia de la Guardia Nacional", g: "m" },
+      { code: "Policía", name: "Policía de Chipre", g: "p" }
+    ] },
+  { id: "be", name: "Bélgica", short: "Bélgica", map: "Belgium", tier: 3, center: [4.35, 50.85], skill: "Bruselas, plaza del espionaje europeo",
+    agencies: [
+      { code: "CNS", name: "Consejo Nacional de Seguridad", g: "k" },
+      { code: "VSSE", name: "Seguridad del Estado", g: "c" },
+      { code: "SGRS", name: "Servicio General de Inteligencia y Seguridad", g: "m" },
+      { code: "OCAM", name: "Órgano de Coordinación para el Análisis de la Amenaza", g: "p" },
+      { code: "Comité R", name: "Comité Permanente de Control de los Servicios de Inteligencia", g: "j" }
     ] }
 ];
 
