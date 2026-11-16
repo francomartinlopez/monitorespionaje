@@ -95,7 +95,7 @@ Object.entries(FICHAS).forEach(([id, f]) => {
     if (!f.sample && !isUrl(x.u)) err(w, `leaks[${i}] sin fuente (u)`);
   });
   (f.failures || []).forEach((x, i) => {
-    if (!["falla", "falsa"].includes(x.k)) err(w, `failures[${i}].k inválido`);
+    if (!["falla", "omision", "falsa"].includes(x.k)) err(w, `failures[${i}].k inválido`);
     if (![1, 2, 3, 4].includes(x.ev)) err(w, `failures[${i}].ev inválido`);
     if (![1, 2, 3].includes(x.w)) err(w, `failures[${i}].w inválido (1–3)`);
     if (!x.why) err(w, `failures[${i}] sin "why" (por qué está o no en duda)`);
@@ -114,6 +114,7 @@ Object.entries(FICHAS).forEach(([id, f]) => {
 ctx.RELACIONES.forEach((r, i) => { if (!ids.has(r.a) || !ids.has(r.b)) err("relaciones", `[${i}] id desconocido ${r.a}/${r.b}`); if (!ctx.REL_TYPES[r.t]) err("relaciones", `[${i}] tipo ${r.t}`); });
 const seen = new Set(); ctx.RELACIONES.forEach(r => { const k = [r.a, r.b].sort().join("-"); if (seen.has(k)) warn("relaciones", "par repetido " + k); seen.add(k); });
 ctx.ALIANZAS.forEach(a => a.members.forEach(n => { if (!names.has(n)) err("alianzas " + a.id, `país desconocido "${n}"`); }));
+if (ctx.PODER) { PAISES.forEach(p => { const v = ctx.PODER.paises[p.id]; if (!v) err("poder", `falta ${p.id}`); else { if (![1, 2, 3, 4].includes(v.n)) err("poder", `${p.id} nivel inválido`); if (!v.x) err("poder", `${p.id} sin explicación`); (v.dep || []).forEach(d => { if (!ctx.PODER.paises[d]) err("poder", `${p.id} depende de desconocido ${d}`); }); } }); } else err("poder", "falta window.PODER");
 if (ctx.BLOQUES) { const bid = new Set(ctx.BLOQUES.defs.map(b => b.id)), vis = new Set();
   ctx.BLOQUES.paises.forEach(([n, b, g]) => { if (!names.has(n)) err("bloques", `país desconocido "${n}"`); if (!bid.has(b)) err("bloques", `bloque desconocido "${b}" (${n})`); if (!ctx.BLOQUES.grados[g]) err("bloques", `grado desconocido "${g}" (${n})`); if (vis.has(n)) warn("bloques", `país repetido "${n}"`); vis.add(n); });
   PAISES.forEach(p => { if (!vis.has(p.map)) warn("bloques", `país del monitor sin bloque: ${p.id}`); });

@@ -108,6 +108,7 @@
     extorsion: { ev: 2, x: "El KGB presiona a familiares de exiliados para obtener información, según los servicios lituanos.", u: "https://euromaidanpress.com/2026/03/10/belarus-uses-prisoner-release-to-charm-west-but-lukashenka-stands-with-russia-anyway-says-defense-report/", st: "Euromaidan Press" },
     asesinato: { ev: 2, x: "Opositores desaparecidos en 1999 y 2000, según un ex integrante de una unidad especial y el Consejo de Europa.", u: "https://en.wikipedia.org/wiki/Viktar_Hanchar", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 2, x: "Globos de contrabando cerraron el aeropuerto de Vilna; Lituania lo considera un ataque híbrido.", u: "https://www.lrt.lt/en/news-in-english/19/2777094/lithuania-weighs-de-escalation-after-belarus-frees-prisoners-pressure-shifts-to-sanctions", st: "LRT" },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "La ONU documentó torturas a detenidos en 2020.", u: "https://en.wikipedia.org/wiki/2020%E2%80%932021_Belarusian_protests", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Forzó el aterrizaje de un avión para capturar a un opositor.", u: "https://en.wikipedia.org/wiki/Ryanair_Flight_4978", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 1, x: "La televisión estatal difunde confesiones forzadas de detenidos.", u: "https://en.wikipedia.org/wiki/Ryanair_Flight_4978", st: "Wikipedia (síntesis de fuentes)" },

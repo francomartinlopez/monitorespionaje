@@ -106,6 +106,7 @@
     extorsion: { ev: 2, x: "Los archivos contenían material comprometedor sobre la vida privada de clérigos.", u: "https://georgiatoday.ge/former-security-officer-allegedly-leaks-surveillance-files-including-kompromats-against-clergy/", st: "Georgia Today" },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 2, x: "Organizaciones de derechos humanos denunciaron golpizas a manifestantes detenidos en 2024 y 2025.", u: "https://en.wikipedia.org/wiki/2024%E2%80%932025_Georgian_protests", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "El periodista Mukhtarli denunció su secuestro en Tiflis con participación georgiana.", u: "https://oc-media.org/tag/ssg-files", st: "OC Media" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas de los servicios." },

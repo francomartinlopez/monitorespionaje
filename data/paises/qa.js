@@ -102,6 +102,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 2, x: "Sus vecinos acusan a Al Jazeera de servir a la política exterior catarí.", u: "https://en.wikipedia.org/wiki/Al_Jazeera", st: "Wikipedia (síntesis de fuentes)" },

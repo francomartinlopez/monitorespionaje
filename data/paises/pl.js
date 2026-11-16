@@ -118,6 +118,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes polacos documentados; Polonia es blanco de sabotajes rusos." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "Permitió que la CIA torturara a detenidos en su territorio, según el Tribunal Europeo.", u: "https://en.wikipedia.org/wiki/Stare_Kiejkuty", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Colaboró con los traslados secretos de detenidos de la CIA.", u: "https://en.wikipedia.org/wiki/Stare_Kiejkuty", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },

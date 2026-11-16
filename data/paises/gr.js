@@ -110,6 +110,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "Durante la dictadura de 1967-1974 la policía militar torturó a opositores.", u: "https://en.wikipedia.org/wiki/Greek_junta", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "Paquistaníes denunciaron haber sido secuestrados e interrogados por agentes griegos y británicos en 2005.", u: "https://en.wikipedia.org/wiki/National_Intelligence_Service_(Greece)", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },

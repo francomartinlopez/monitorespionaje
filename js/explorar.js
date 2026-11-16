@@ -9,6 +9,7 @@
   const es = n => window.esName(n);
 
   ME.EXPLORE = [
+    { id: "poder", k: "Esquema", n: "Quién manda", x: "La jerarquía real entre servicios: quién decide solo, quién depende de quién y quién manda adentro." },
     { id: "bloques", k: "Mapa", n: "Bloques de inteligencia", x: "El mundo dividido en cinco: occidental, euroasiático, autónomos, neutrales y zonas abiertas." },
     { id: "alianzas", k: "Mapa", n: "Alianzas de inteligencia", x: "Cinco Ojos, Catorce Ojos, Club de Berna, OTAN y Shanghái." },
     { id: "infraestructura", k: "Mapa", n: "Infraestructura de vigilancia", x: "Estaciones de escucha, satélites, bases y cables." },
@@ -34,6 +35,50 @@
     if (click) { el.addEventListener("click", () => click(el)); el.addEventListener("keydown", e => { if (e.key === "Enter") click(el); }); }
   });
   const monitorNodes = (ids) => PAISES.filter(p => !ids || ids.includes(p.id)).map(p => { const [x, y] = pt(p.center); return `<g class="node" data-id="${p.id}" tabindex="0" role="link" aria-label="${esc(p.name)}">${rings(x, y, .8)}<rect x="${x - 3}" y="${y - 3}" width="6" height="6"/></g>`; }).join("");
+
+  // ================= QUIÉN MANDA =================
+  R.poder = { title: "Quién manda", render(args) {
+    const P = window.PODER, B = window.BLOQUES, BD = Object.fromEntries(B.defs.map(d => [d.id, d]));
+    const bloc = id => { const m = B.paises.find(x => x[0] === byId[id].map); return m ? m[1] : "neu"; };
+    const cap = id => { const p = FICHAS[id]?.power || {}; return Object.values(p).reduce((a, b) => a + b, 0); };
+    const order = ["occ", "aut", "neu", "abi", "eur"], VW = 1000, rowY = { 1: 80, 2: 215, 3: 370, 4: 530 }, lblY = { 1: 22, 2: 158, 3: 300, 4: 462 }, VH = 600;
+    const pos = {};
+    [1, 2, 3, 4].forEach(n => {
+      const ids = Object.keys(P.paises).filter(id => P.paises[id].n === n && byId[id])
+        .sort((a, b) => order.indexOf(bloc(a)) - order.indexOf(bloc(b)) || cap(b) - cap(a));
+      const rows = n >= 3 ? 2 : 1, per = Math.ceil(ids.length / rows);
+      ids.forEach((id, i) => { const r = Math.floor(i / per), k = i % per, cnt = Math.min(per, ids.length - r * per);
+        pos[id] = [130 + (cnt === 1 ? 420 : k * (840 / Math.max(cnt - 1, 1))), rowY[n] + (rows > 1 ? (r ? 30 : -30) : 0)]; });
+    });
+    const rad = id => 5 + cap(id) * 0.75;
+    let cur = P.paises[args[0]] ? args[0] : null, showRel = true;
+    app.innerHTML = head("Quién manda", "Una lectura editorial de la jerarquía real entre servicios de inteligencia. La fila indica la autonomía: si el servicio decide solo o si, en lo estratégico, sigue a otro. El tamaño del punto es su capacidad, según el puntaje de cada ficha. Las líneas grises marcan de quién depende cada uno.") + `
+      <div class="chips" id="pwChips"><button type="button" class="chip on" data-r="1">Alianzas y enfrentamientos</button><button type="button" class="chip" data-r="0">Sólo dependencias</button></div>
+      <div class="mapbox"><div class="map-split"><div class="pw-stage"><svg id="pwSvg" viewBox="0 0 ${VW} ${VH}" role="img" aria-label="Esquema de jerarquía entre servicios"></svg></div><aside class="map-side" id="pwSide"></aside></div>
+      <div class="legend">${B.defs.filter(d => d.id !== "abi").map(d => `<span><i class="dot" style="--c:${d.c}"></i>${esc(d.n)}</span>`).join("")}<span><i class="sw" style="--c:var(--muted)"></i>Depende de</span><span><i class="sw" style="--c:var(--ph)"></i>Cooperación</span><span><i class="sw dash" style="--c:var(--red)"></i>Enfrentamiento</span></div></div>`;
+    const draw = () => {
+      app.querySelectorAll("#pwChips .chip").forEach(b => b.classList.toggle("on", +b.dataset.r === +showRel));
+      const near = id => !cur || id === cur || (P.paises[cur].dep || []).includes(id) || (P.paises[id].dep || []).includes(cur) || (window.RELACIONES || []).some(r => (r.a === cur && r.b === id) || (r.b === cur && r.a === id));
+      const rows = P.niveles.map(l => `<g class="pw-row">${l.n > 1 ? `<line x1="20" x2="${VW - 20}" y1="${lblY[l.n] - 16}" y2="${lblY[l.n] - 16}"/>` : ""}<text x="20" y="${lblY[l.n]}" class="pw-lv">${l.n} · ${esc(l.h).toUpperCase()}</text></g>`).join("");
+      const deps = Object.entries(P.paises).flatMap(([id, v]) => (v.dep || []).filter(d => pos[d] && pos[id]).map(d => { const [x1, y1] = pos[id], [x2, y2] = pos[d], on = !cur || cur === id || cur === d;
+        return `<path class="pw-dep" d="M${x1},${y1} C${x1},${(y1 + y2) / 2} ${x2},${(y1 + y2) / 2} ${x2},${y2}" opacity="${on ? .55 : .06}"/>`; })).join("");
+      const rels = showRel ? (window.RELACIONES || []).filter(r => r.t !== "amb" && pos[r.a] && pos[r.b] && (P.paises[r.a].n <= 2 && P.paises[r.b].n <= 2 || cur && (r.a === cur || r.b === cur))).map(r => { const [x1, y1] = pos[r.a], [x2, y2] = pos[r.b], on = !cur || r.a === cur || r.b === cur, mx = (x1 + x2) / 2, my = Math.min(y1, y2) - 40 - Math.abs(x1 - x2) * .08;
+        return `<path class="pw-rel ${r.t}" d="M${x1},${y1} Q${mx},${my} ${x2},${y2}" opacity="${on ? .8 : .05}"/>`; }).join("") : "";
+      const nodes = Object.keys(pos).map(id => { const [x, y] = pos[id], c = BD[bloc(id)]?.c || "#999", r = rad(id), dim = !near(id);
+        return `<g class="pw-n${cur === id ? " on" : ""}" data-id="${id}" tabindex="0" role="button" aria-label="${esc(byId[id].name)}" opacity="${dim ? .18 : 1}"><circle cx="${x}" cy="${y}" r="${r}" fill="${c}" fill-opacity=".85" stroke="${c}"/>${r > 13 || P.paises[id].n <= 2 || (cur && !dim) ? `<text x="${x}" y="${y + r + 12}" text-anchor="middle">${esc(byId[id].name)}</text>` : ""}</g>`; }).join("");
+      document.getElementById("pwSvg").innerHTML = rows + deps + rels + nodes;
+      const side = document.getElementById("pwSide");
+      if (!cur) side.innerHTML = `<h4>Cómo leerlo</h4><div class="ev-list">${P.niveles.map(l => `<p class="side-x"><b>${l.n} · ${esc(l.h)}.</b> ${esc(l.x)}</p>`).join("")}<p class="side-x">Dos servicios en la misma fila tienen la misma jerarquía aunque sean rivales: el Mossad no le responde a la CIA, aunque cooperen. Tocá un punto para ver de quién depende, con quién se alía y quién manda adentro.</p></div>`;
+      else { const v = P.paises[cur], deps2 = (v.dep || []).map(d => byId[d].name), subs = Object.keys(P.paises).filter(k => (P.paises[k].dep || []).includes(cur)).map(k => byId[k].name), I = P.internos[cur];
+        side.innerHTML = `<h4>${esc(byId[cur].name)} · nivel ${v.n}</h4><div class="ev-list"><p class="side-x">${esc(v.x)}</p>
+          ${deps2.length ? `<p class="side-x"><b>Depende de:</b> ${esc(deps2.join(", "))}</p>` : ""}${subs.length ? `<p class="side-x"><b>Dependen de él:</b> ${esc(subs.join(", "))}</p>` : ""}
+          ${I ? `<h5 class="bl-g">Quién manda adentro</h5><ol class="pw-int">${I.map(i => `<li><b>${esc(i.h)}</b><span>${esc(i.x)}</span></li>`).join("")}</ol>` : ""}
+          <p class="side-x"><a href="#p-${cur}">Abrir la ficha →</a></p></div>`; }
+      bindTips(app, ".pw-n", el => { const id = el.dataset.id, v = P.paises[id]; return `<b>${esc(byId[id].name)}</b><span class="d">Nivel ${v.n} · ${esc(P.niveles[v.n - 1].h)} · capacidad ${cap(id)}/30</span><span class="d">${esc(v.x)}</span>`; }, el => { cur = cur === el.dataset.id ? null : el.dataset.id; draw(); });
+    };
+    app.querySelectorAll("#pwChips .chip").forEach(b => b.addEventListener("click", () => { showRel = b.dataset.r === "1"; draw(); }));
+    draw();
+  } };
 
   // ================= BLOQUES =================
   R.bloques = { title: "Bloques de inteligencia", render(args) {

@@ -115,6 +115,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 3, x: "Hay sospechas sobre la muerte de Ashraf Marwan en Londres en 2007, sin conclusión oficial.", u: "https://en.wikipedia.org/wiki/Ashraf_Marwan", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "Un tribunal de Roma concluyó que oficiales egipcios secuestraron a Regeni, torturado hasta la muerte; Abu Omar denunció torturas tras su traslado.", u: "https://www.timeshighereducation.com/news/three-convicted-kidnapping-murdered-cambridge-phd-student", st: "Times Higher Education" },
     secuestro: { ev: 1, x: "Tres oficiales condenados en Roma por el secuestro de Regeni en 2016.", u: "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni", st: "Al Jazeera" },
     propaganda: { ev: 1, x: "El conglomerado de medios del GIS produce noticieros y series de televisión con mensajes del Estado.", u: "https://cpj.org/2025/07/egypts-intelligence-controlled-media-company-retaliates-against-programs-hosts-critical-of-government/", st: "CPJ" },

@@ -1,5 +1,9 @@
 # Cambios
 
+- 2026-11-16 · Nuevo esquema "Quién manda" (#poder): jerarquía de autonomía entre los 57 servicios, dependencias, alianzas y quién manda dentro de EE.UU., China, Rusia, Israel, Reino Unido y Francia.
+- 2026-11-16 · Nuevo tipo "Omisión o encubrimiento" en fallas; se reclasifican once casos (11-S, 7 de octubre, AMIA, Manchester, Anis Amri, Crocus, Bombay, Ayotzinapa, Ripoll, Merah, golpe en Turquía) y se suma la voladura de Río Tercero.
+- 2026-11-16 · Nueva práctica "Infraestructura civil como plataforma" en las 57 fichas (Crypto AG, Tempora, buscapersonas de Hezbollah, Neuquén, Eagle S). Israel suma el caso AIPAC (2005) y la denuncia sobre Epstein (evidencia 3); EE.UU., la influencia de AIPAC en el Congreso; China, la presión sobre la diáspora y la comisaría no oficial de Buenos Aires.
+
 - 2026-11-16 · Revisión final: 45 enlaces de Wikipedia rotos reemplazados por páginas existentes, fechas no ISO corregidas, frases largas divididas en 19 fichas, adjetivos de juicio quitados (Siria, Corea del Sur, Egipto, Suecia) y README actualizado.
 
 - 2026-11-16 · Todo el sitio con datos reales: cinco alertas de noviembre de 2026, relaciones con explicación y fuente, 42 ventas documentadas de software espía, expulsiones y canjes reales de 2014 a 2026, 15 documentos desclasificados y nodos de cables reales. El validador ya no acepta datos de prueba.

@@ -548,3 +548,20 @@ a:hover .lane-l { fill: var(--ph); }
 .pm .cell.na { background: transparent; border: 1px solid #1a2a20; }
 .pm-leg { display: flex; flex-wrap: wrap; gap: 14px; margin: 12px 0; font-size: 13px; color: var(--soft); }
 .pm-leg i { display: inline-block; width: 14px; height: 14px; border-radius: 2px; background: var(--c); vertical-align: -2px; margin-right: 6px; }
+
+/* Quién manda */
+.pw-stage { padding: 8px; background: var(--bg2, #070b09); }
+.pw-stage svg { width: 100%; height: auto; display: block; }
+.pw-row line { stroke: var(--line); stroke-dasharray: 2 4; }
+.pw-lv { fill: var(--muted); font: 600 11px var(--f-mono, monospace); letter-spacing: .12em; }
+.pw-dep { fill: none; stroke: var(--muted); stroke-width: 1; }
+.pw-rel { fill: none; stroke-width: 1.4; }
+.pw-rel.coop { stroke: var(--ph); }
+.pw-rel.enf { stroke: var(--red); stroke-dasharray: 5 4; }
+.pw-n { cursor: pointer; }
+.pw-n text { fill: var(--text); font: 11px var(--f-ui, sans-serif); paint-order: stroke; stroke: #000; stroke-width: 3px; }
+.pw-n.on circle { stroke: #fff; stroke-width: 2; }
+.pw-n:focus-visible circle { stroke: #fff; stroke-width: 2; }
+.pw-int { margin: 0; padding-left: 18px; }
+.pw-int li { margin: 0 0 8px; font-size: 13px; line-height: 1.45; }
+.pw-int li span { display: block; color: var(--muted); }

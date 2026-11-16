@@ -122,6 +122,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 1, x: "Oficiales del Ejército de Kwantung mataron en 1928 al jefe militar Zhang Zuolin.", u: "https://en.wikipedia.org/wiki/Huanggutun_incident", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 1, x: "El incidente de Mukden de 1931 fue un sabotaje propio atribuido a China.", u: "https://en.wikipedia.org/wiki/Mukden_incident", st: "Wikipedia (síntesis de fuentes)" },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "La policía política Tokko torturó a opositores antes de 1945; el escritor Takiji Kobayashi murió en una comisaría en 1933.", u: "https://en.wikipedia.org/wiki/Tokubetsu_K%C5%8Dt%C5%8D_Keisatsu", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 0, x: "Esta ficha no encontró secuestros documentados en la posguerra." },
     propaganda: { ev: 1, x: "Antes de 1945 los servicios militares hicieron propaganda en China y el sudeste asiático.", u: "https://en.wikipedia.org/wiki/Nakano_School", st: "Wikipedia (síntesis de fuentes)" },

@@ -90,7 +90,7 @@
     { ev: 1, ilegal: true, d: "1980–1985", h: "La DFS y el narcotráfico", x: "Agentes de la DFS dieron credenciales y protección a jefes del cartel de Guadalajara. El escándalo por el asesinato del agente de la DEA Enrique Camarena llevó a disolverla.", who: "Justicia de EE.UU. y de México", missing: "", u: "https://en.wikipedia.org/wiki/Direcci%C3%B3n_Federal_de_Seguridad", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
-    { k: "falla", d: "2014-09", ev: 1, w: 3, h: "Ayotzinapa", x: "El Estado no explicó la desaparición de 43 estudiantes; la versión oficial inicial fue desmentida por expertos internacionales.", why: "No está en duda que la versión oficial fue falsa; sigue sin aclararse el destino de los estudiantes.", wx: "Informes del grupo de expertos de la CIDH.", who: "Grupo de expertos de la CIDH", u: "https://en.wikipedia.org/wiki/2014_Iguala_mass_kidnapping", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "omision", d: "2014-09", ev: 1, w: 3, h: "Ayotzinapa", x: "El Estado no explicó la desaparición de 43 estudiantes; la versión oficial inicial fue desmentida por expertos internacionales.", why: "No está en duda que la versión oficial fue falsa; sigue sin aclararse el destino de los estudiantes.", wx: "Informes del grupo de expertos de la CIDH.", who: "Grupo de expertos de la CIDH", u: "https://en.wikipedia.org/wiki/2014_Iguala_mass_kidnapping", st: "Wikipedia (síntesis de fuentes)" },
     { k: "falla", d: "2022-09", ev: 1, w: 3, h: "Guacamaya", x: "Defensa no detectó la extracción de millones de correos, incluidos informes de inteligencia.", why: "No está en duda; el gobierno reconoció el robo.", wx: "Reconocimiento oficial y documentos publicados.", who: "Gobierno de México", u: "https://mexiconewsdaily.com/news/journalists-and-ngos-file-spyware-criminal-complaint-against-defense-ministry", st: "Mexico News Daily" }
   ],
   modus: {
@@ -119,6 +119,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 1, x: "La DFS participó en ejecuciones extrajudiciales durante la Guerra Sucia.", u: "https://en.wikipedia.org/wiki/Mexican_Dirty_War", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "La DFS torturó a detenidos en la Guerra Sucia, según comisiones de la verdad.", u: "https://en.wikipedia.org/wiki/Mexican_Dirty_War", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Cientos de opositores fueron desaparecidos por fuerzas del Estado en la Guerra Sucia.", u: "https://en.wikipedia.org/wiki/Mexican_Dirty_War", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },

@@ -126,6 +126,7 @@
     extorsion: { ev: 2, x: "Los jueces de Islamabad denunciaron presiones mediante el secuestro y la tortura de un familiar.", u: "https://www.dawn.com/news/1824028", st: "Dawn" },
     asesinato: { ev: 2, x: "El caso de Saleem Shahzad y otros periodistas muertos; una comisión judicial no identificó culpables.", u: "https://en.wikipedia.org/wiki/Syed_Saleem_Shahzad", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes a infraestructura atribuidos a la ISI con sustento sólido." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 2, x: "Los jueces de Islamabad y organizaciones de derechos humanos denunciaron torturas de agentes de inteligencia.", u: "https://www.aljazeera.com/news/2024/3/27/judges-vs-spies-pakistans-jurists-accuse-intel-agency-isi-of-intimidation", st: "Al Jazeera" },
     secuestro: { ev: 2, x: "La comisión oficial recibió 10.636 casos de desapariciones entre 2011 y 2025; las familias acusan a los servicios.", u: "https://www.dawn.com/news/1946385", st: "Dawn" },
     propaganda: { ev: 1, x: "Facebook eliminó en 2019 una red de cuentas falsas vinculada a empleados del servicio de prensa militar.", u: "https://www.dawn.com/news/1473284", st: "Dawn" },

@@ -104,6 +104,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 2, x: "Ejecuciones extrajudiciales atribuidas a fuerzas de seguridad, según organizaciones de derechos humanos.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 2, x: "Ex detenidos de Aynaghar describieron torturas.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "Desapariciones forzadas atribuidas a la DGFI.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },

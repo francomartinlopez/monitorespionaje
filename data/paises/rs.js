@@ -105,6 +105,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 1, x: "La UDBA yugoslava asesinó a emigrados en el exterior.", u: "https://en.wikipedia.org/wiki/UDBA", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     propaganda: { ev: 2, x: "Medios afines difunden la tesis de una conspiración extranjera contra el gobierno.", u: "https://en.wikipedia.org/wiki/2024%E2%80%932025_Serbian_anti-corruption_protests", st: "Wikipedia (síntesis de fuentes)" },

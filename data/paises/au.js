@@ -120,6 +120,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 1, x: "La ASD admitió operaciones cibernéticas ofensivas contra el Estado Islámico.", u: "https://en.wikipedia.org/wiki/Australian_Signals_Directorate", st: "Wikipedia (síntesis de fuentes)" },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },

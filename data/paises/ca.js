@@ -120,6 +120,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "Información falsa de la RCMP llevó a la tortura de Maher Arar en Siria.", u: "https://en.wikipedia.org/wiki/Maher_Arar", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },

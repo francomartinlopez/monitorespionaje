@@ -122,6 +122,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados de extorsión fuera del país." },
     asesinato: { ev: 2, x: "La muerte de Payá y el derribo de 1996, por el que EE.UU. acusó a Raúl Castro.", u: "https://www.aljazeera.com/news/2026/5/20/trump-administration-indicts-cubas-raul-castro-over-1996-plane-shootdown", st: "Al Jazeera" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados de los servicios cubanos." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 2, x: "Organizaciones de derechos humanos denunciaron malos tratos a detenidos del 11 de julio de 2021.", u: "https://en.wikipedia.org/wiki/2021_Cuban_protests", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados de secuestros en el exterior." },
     propaganda: { ev: 2, x: "El Departamento de Estado sostiene que el ICAP coordina más de 2.000 organizaciones de solidaridad en más de 150 países; EE.UU. lo sancionó en junio de 2026.", u: "https://www.foxnews.com/politics/us-bases-ice-facilities-targeted-cuba-linked-24-hour-activist-mobilization-plan", st: "Fox News" },

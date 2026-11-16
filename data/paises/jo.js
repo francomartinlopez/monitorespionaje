@@ -105,6 +105,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 2, x: "Human Rights Watch documentó torturas en centros de la GID.", u: "https://en.wikipedia.org/wiki/General_Intelligence_Directorate_(Jordan)", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "Recibió detenidos de la CIA para interrogarlos tras 2001, según organizaciones de derechos humanos.", u: "https://en.wikipedia.org/wiki/General_Intelligence_Directorate_(Jordan)", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },

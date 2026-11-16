@@ -208,7 +208,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   }
 
   // ================= FICHA DE PAÍS =================
-  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Fallas y falsas banderas"], ["practicas", "Qué hacen y a quién espían"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["dinero", "Dinero y coberturas"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
+  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Fallas, omisiones y falsas banderas"], ["practicas", "Qué hacen y a quién espían"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["dinero", "Dinero y coberturas"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
 
   function renderCountry(p) {
     const f = FICHAS[p.id];
@@ -277,7 +277,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       </section>
 
       <section class="block" id="sec-fallas">
-        <h2>Fallas y falsas banderas <small>Fallas de inteligencia y operaciones de falsa bandera, confirmadas o en duda, y cuánta evidencia hay</small></h2>
+        <h2>Fallas, omisiones y falsas banderas <small>Fallas de inteligencia; omisiones, cuando el servicio tenía avisos o debía saber y no actuó, o encubrió; y operaciones de falsa bandera. Confirmadas o en duda, con cuánta evidencia hay</small></h2>
         <div class="chips" id="flChips"></div>
         <div class="fl-list" id="flList"></div>
       </section>
@@ -418,7 +418,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     draw();
   }
 
-  const FL_KIND = { falla: { n: "Falla de inteligencia", c: "var(--cyan)" }, falsa: { n: "Falsa bandera", c: "var(--violet)" } };
+  const FL_KIND = { falla: { n: "Falla de inteligencia", c: "var(--cyan)" }, omision: { n: "Omisión o encubrimiento", c: "var(--amber)" }, falsa: { n: "Falsa bandera", c: "var(--violet)" } };
   const FL_WEIGHT = { 3: "Abundante", 2: "Parcial", 1: "Escasa" };
   function drawFailures(f) {
     const chips = document.getElementById("flChips"), list = document.getElementById("flList"), F = f.failures || [];

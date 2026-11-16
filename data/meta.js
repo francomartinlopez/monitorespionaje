@@ -55,6 +55,7 @@ window.PRACTICAS = [
   { g: "Qué métodos usan", k: "extorsion", n: "Extorsión y chantaje", x: "Presión con información comprometedora, amenazas a familiares, sobornos forzados." },
   { g: "Qué métodos usan", k: "asesinato", n: "Asesinatos selectivos", x: "Muertes planificadas dentro o fuera del país." },
   { g: "Qué métodos usan", k: "sabotaje", n: "Sabotajes", x: "Daños a infraestructura, industria, redes, transporte o equipos militares, físicos o informáticos." },
+  { g: "Qué métodos usan", k: "infraestructura", n: "Infraestructura civil como plataforma", x: "Puertos, antenas, cables, bases, empresas de tecnología o cadenas de suministro propias usadas para recolectar información u operar desde otro país." },
   { g: "Qué métodos usan", k: "tortura", n: "Tortura y malos tratos", x: "Propia o por complicidad con otros servicios." },
   { g: "Qué métodos usan", k: "secuestro", n: "Secuestros y detenciones secretas", x: "Capturas sin proceso, traslados clandestinos y cárceles secretas." },
   { g: "Cómo influyen en otras sociedades", k: "propaganda", n: "Propaganda y desinformación", x: "Mensajes, medios, cuentas falsas o noticias inventadas dirigidas a la población de otro país." },

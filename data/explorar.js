@@ -351,3 +351,113 @@ window.BLOQUES = {
     ["Niger", "abi", "c", "Junta militar desde 2023, acercada a Rusia."]
   ]
 };
+
+// ---------- Quién manda: jerarquía de poder entre servicios ----------
+// Clasificación editorial del Monitor, revisada el 2026-11-16.
+// Nivel = autonomía real: si el servicio decide solo o si, en lo estratégico, sigue a otro.
+// dep = de qué servicios depende (inteligencia, tecnología, protección o dinero). El tamaño del punto sale del puntaje de capacidad de cada ficha.
+window.PODER = {
+  niveles: [
+    { n: 1, h: "Polos", x: "Deciden solos a escala mundial y otros servicios dependen de ellos." },
+    { n: 2, h: "Autónomos", x: "Deciden solos y actúan lejos de sus fronteras. Cooperan con un polo, pero no le responden." },
+    { n: 3, h: "Socios integrados", x: "Tienen margen en lo propio, pero en lo estratégico siguen a un polo y dependen de su inteligencia." },
+    { n: 4, h: "Regionales y neutrales", x: "Su poder se concentra dentro del país o en su región; no forman parte estable de ninguna cadena." }
+  ],
+  paises: {
+    us: { n: 1, x: "Mayor presupuesto y red de señales del mundo; los Cinco Ojos y la OTAN dependen de su inteligencia." },
+    cn: { n: 1, x: "Aparato de inteligencia propio a escala mundial, sin depender de nadie; sostiene a Corea del Norte y a Pakistán." },
+    ru: { n: 1, x: "Servicios con alcance mundial y capacidad de sabotaje; Bielorrusia y Cuba trabajan bajo su órbita." },
+    il: { n: 2, x: "Coopera estrechamente con EE.UU., pero ejecuta sus propias operaciones aunque Washington no las apruebe." },
+    ir: { n: 2, x: "Socio de Rusia y China sin subordinarse; opera en todo Medio Oriente a través de la Fuerza Quds y sus aliados." },
+    tr: { n: 2, x: "Miembro de la OTAN con agenda propia en Siria, Libia y el Cáucaso." },
+    in: { n: 2, x: "Coopera con EE.UU. y con Rusia sin alinearse; opera contra Pakistán y en el exterior." },
+    pk: { n: 2, x: "El ISI actúa con autonomía en Afganistán y Cachemira; depende de China en tecnología y dinero.", dep: ["cn"] },
+    sa: { n: 2, x: "Socio de la CIA que actúa por su cuenta, como en el asesinato de Khashoggi.", dep: ["us"] },
+    ae: { n: 2, x: "Servicios chicos con alcance en Yemen, Sudán, Libia y el Cuerno de África.", dep: ["us"] },
+    kp: { n: 2, x: "Opera solo en ciberrobos y espionaje; China lo sostiene pero no lo controla.", dep: ["cn"] },
+    uk: { n: 3, x: "Segundo de los Cinco Ojos: decide en inteligencia humana, pero su red de señales está fundida con la de la NSA.", dep: ["us"] },
+    fr: { n: 3, x: "El más autónomo de Europa, con operaciones propias en África; depende de EE.UU. en señales y satélites.", dep: ["us"] },
+    de: { n: 3, x: "Depende de la NSA para alertas de terrorismo y para buena parte de la inteligencia técnica.", dep: ["us"] },
+    it: { n: 3, x: "Socio de la OTAN con operaciones propias en Libia y el Mediterráneo.", dep: ["us"] },
+    es: { n: 3, dep: ["us"], x: "Socio de la OTAN con foco en el Magreb y el Sahel." },
+    pl: { n: 3, dep: ["us"], x: "Frontera de la OTAN con Rusia y Bielorrusia; trabaja integrado con EE.UU." },
+    nl: { n: 3, dep: ["us"], x: "Servicios técnicos fuertes que comparten con la NSA y el GCHQ." },
+    be: { n: 3, dep: ["us"], x: "Sede de la OTAN y de la UE, blanco de todos los servicios." },
+    dk: { n: 3, dep: ["us"], x: "Dejó a la NSA usar sus cables para espiar a aliados." },
+    se: { n: 3, dep: ["us"], x: "Socio técnico de la NSA desde la Guerra Fría; en la OTAN desde 2024." },
+    ro: { n: 3, dep: ["us"], x: "Alojó cárceles secretas de la CIA." },
+    gr: { n: 3, dep: ["us"], x: "Socio de la OTAN con foco en Turquía." },
+    cy: { n: 3, dep: ["us"], x: "Aloja bases británicas de escucha y coopera con Israel." },
+    hu: { n: 3, dep: ["us"], x: "Socio de la OTAN que con Orbán mantuvo canales con Moscú." },
+    jp: { n: 3, dep: ["us"], x: "Depende de EE.UU. en casi toda la inteligencia exterior; creó un consejo nacional en 2026." },
+    kr: { n: 3, dep: ["us"], x: "Alianza militar con intercambio permanente sobre Corea del Norte." },
+    au: { n: 3, dep: ["us"], x: "Miembro de los Cinco Ojos; aloja la base de Pine Gap." },
+    ca: { n: 3, dep: ["us"], x: "Miembro de los Cinco Ojos con poca capacidad exterior propia." },
+    tw: { n: 3, dep: ["us"], x: "Depende de EE.UU. frente a China." },
+    ua: { n: 3, dep: ["us", "uk"], x: "Ejecuta operaciones audaces propias, pero depende de la inteligencia de EE.UU. y el Reino Unido." },
+    jo: { n: 3, dep: ["us"], x: "Uno de los socios más estrechos de la CIA en la región." },
+    eg: { n: 3, dep: ["us", "sa"], x: "Depende de la ayuda militar de EE.UU. y del dinero del Golfo." },
+    co: { n: 3, dep: ["us"], x: "Décadas de cooperación con la CIA y la DEA." },
+    md: { n: 3, dep: ["us"], x: "Se apoya en la UE y EE.UU. frente a Rusia." },
+    by: { n: 3, dep: ["ru"], x: "La KGB bielorrusa trabaja integrada con los servicios rusos." },
+    cu: { n: 3, dep: ["ru"], x: "Comparte inteligencia con Rusia desde la era soviética; con fuerte capacidad propia frente a EE.UU." },
+    qa: { n: 4, x: "Mediador con todos: Hamás, los talibanes, EE.UU. e Irán." },
+    ch: { n: 4, x: "Neutral; servicio pequeño concentrado en contraespionaje." },
+    at: { n: 4, x: "Neutral y plaza de espionaje ruso en Viena." },
+    br: { n: 4, x: "Servicio con foco interno y regional." },
+    mx: { n: 4, x: "Foco en el crimen organizado; depende de EE.UU. en esa materia." },
+    za: { n: 4, x: "Servicio en reforma, con peso regional." },
+    ar: { n: 4, x: "Foco interno; se acercó a EE.UU. e Israel desde 2023." },
+    kz: { n: 4, x: "Política multivectorial entre Rusia, China y Occidente." },
+    vn: { n: 4, x: "Foco en el control interno y en la diáspora." },
+    sg: { n: 4, x: "Alta capacidad técnica, en equilibrio entre EE.UU. y China." },
+    rs: { n: 4, x: "Equilibra entre Rusia y la UE." },
+    ge: { n: 4, x: "Se alejó de Occidente desde 2023." },
+    az: { n: 4, x: "Cerca de Turquía e Israel, en equilibrio con Rusia." },
+    dz: { n: 4, x: "Foco en el Sahel y en Marruecos." },
+    rw: { n: 4, x: "Servicio chico que opera en el exterior y en el este del Congo." },
+    bd: { n: 4, x: "Foco interno; en reforma tras 2024." },
+    ve: { n: 4, x: "En transición tras la captura de Maduro." },
+    sy: { n: 4, x: "Aparato en reconstrucción tras la caída de Assad." },
+    af: { n: 4, x: "Los talibanes controlan el país con servicios débiles." },
+    va: { n: 4, x: "Sin servicio formal; red diplomática mundial." }
+  },
+  // quién manda dentro de cada potencia (de arriba hacia abajo)
+  internos: {
+    us: [
+      { h: "Presidente y Consejo de Seguridad Nacional", x: "Fijan prioridades y firman las órdenes de acción encubierta." },
+      { h: "CIA y NSA", x: "El poder real: la CIA es la única con acción encubierta; la NSA, la mayor red de señales, sostiene a los Cinco Ojos." },
+      { h: "Agencias del Pentágono (DIA, NRO, NGA)", x: "Manejan satélites y buena parte del presupuesto; responden al secretario de Defensa." },
+      { h: "ODNI", x: "Coordina a 18 organismos y arma el presupuesto, pero no dirige operaciones." },
+      { h: "FBI", x: "Contrainteligencia dentro del país." }
+    ],
+    cn: [
+      { h: "Xi Jinping y la Comisión Central de Seguridad Nacional", x: "Todo el aparato responde al Partido." },
+      { h: "MSS", x: "Espionaje exterior y contraespionaje; el servicio civil más poderoso." },
+      { h: "Inteligencia del EPL", x: "Inteligencia militar y ciberataques, bajo la Comisión Militar Central." },
+      { h: "MPS y Frente Unido", x: "Control interno, presión sobre la diáspora e influencia en el exterior." }
+    ],
+    ru: [
+      { h: "Vladímir Putin", x: "Los servicios responden directamente a él." },
+      { h: "FSB", x: "El más poderoso: seguridad interior, contraespionaje y operaciones en el \"extranjero cercano\"." },
+      { h: "GRU", x: "Inteligencia militar, sabotajes y asesinatos en el exterior." },
+      { h: "SVR", x: "Espionaje exterior clásico y operaciones de influencia." }
+    ],
+    il: [
+      { h: "Primer ministro", x: "El Mossad responde directamente a él." },
+      { h: "Mossad", x: "Operaciones en el exterior, incluidos asesinatos y sabotajes." },
+      { h: "Aman", x: "El más grande; incluye a la Unidad 8200 de señales." },
+      { h: "Shin Bet", x: "Seguridad interior y territorios palestinos." }
+    ],
+    uk: [
+      { h: "Primer ministro y Comité Conjunto de Inteligencia", x: "Fijan prioridades y evalúan." },
+      { h: "GCHQ", x: "La mayor de las tres, fundida con la NSA." },
+      { h: "MI6 y MI5", x: "Espionaje exterior y seguridad interior." }
+    ],
+    fr: [
+      { h: "Presidente y Consejo de Defensa", x: "Deciden las operaciones sensibles." },
+      { h: "DGSE", x: "Espionaje exterior, señales y acción clandestina." },
+      { h: "DGSI y DRM", x: "Seguridad interior e inteligencia militar." }
+    ]
+  }
+};

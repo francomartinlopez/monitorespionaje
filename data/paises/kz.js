@@ -104,6 +104,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 3, x: "La familia de Aidos Sadykov culpa al gobierno de su asesinato; no hay pruebas firmes.", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "Detenidos de 2022 denunciaron torturas; el gobierno reconoció algunos casos.", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },

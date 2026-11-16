@@ -110,6 +110,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 2, x: "Participó en la operación Stuxnet contra el programa nuclear iraní, según la prensa.", u: "https://en.wikipedia.org/wiki/Stuxnet", st: "Wikipedia (síntesis de fuentes)" },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },

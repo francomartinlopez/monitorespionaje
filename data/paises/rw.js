@@ -108,6 +108,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 2, x: "Un tribunal sudafricano vinculó al gobierno con el asesinato de Karegeya.", u: "https://en.wikipedia.org/wiki/Patrick_Karegeya", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 2, x: "Ex detenidos denunciaron torturas en centros militares, según Human Rights Watch.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Rwanda", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Llevó con engaños a Rusesabagina desde Dubái a Kigali.", u: "https://en.wikipedia.org/wiki/Paul_Rusesabagina", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },

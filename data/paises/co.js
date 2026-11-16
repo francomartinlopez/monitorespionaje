@@ -107,6 +107,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 1, x: "Funcionarios del DAS entregaron listas de sindicalistas a paramilitares, según la Justicia.", u: "https://en.wikipedia.org/wiki/Departamento_Administrativo_de_Seguridad", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },

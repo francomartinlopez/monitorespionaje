@@ -117,6 +117,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados en territorio italiano." },
     secuestro: { ev: 1, x: "Oficiales del SISMI colaboraron con la CIA en el secuestro de Abu Omar en Milán en 2003, según la fiscalía.", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas documentadas." },

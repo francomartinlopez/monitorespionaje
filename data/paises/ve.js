@@ -109,6 +109,7 @@
     extorsion: { ev: 2, x: "Detenidos denunciaron presiones a sus familias para obtener pagos o información.", u: "https://www.euaa.europa.eu/print/pdf/node/32025", st: "Agencia de Asilo de la UE" },
     asesinato: { ev: 2, x: "La fiscalía chilena atribuye al gobierno venezolano el asesinato de Ronald Ojeda.", u: "https://en.wikipedia.org/wiki/Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "La ONU documentó torturas sistemáticas en el SEBIN y la DGCIM.", u: "https://citizen.digital/article/maduro-is-out-but-his-top-allies-still-hold-power-in-venezuela-n375237", st: "Reuters, vía Citizen Digital" },
     secuestro: { ev: 1, x: "Desapariciones forzadas de opositores tras detenciones arbitrarias, según la ONU.", u: "https://www.euaa.europa.eu/print/pdf/node/32025", st: "Agencia de Asilo de la UE" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas de los servicios." },

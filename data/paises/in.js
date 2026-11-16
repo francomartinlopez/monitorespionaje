@@ -95,7 +95,7 @@
   ],
   failures: [
     { k: "falla", d: "1999", ev: 1, w: 3, h: "Kargil", x: "Tropas paquistaníes ocuparon posiciones en Cachemira sin que los servicios lo detectaran a tiempo.", why: "No está en duda: un comité oficial lo documentó y llevó a reformas.", wx: "Informe del comité Kargil.", who: "Comité de revisión de Kargil", u: "https://en.wikipedia.org/wiki/Kargil_War", st: "Wikipedia (síntesis de fuentes)" },
-    { k: "falla", d: "2008-11", ev: 1, w: 3, h: "Bombay", x: "Hubo avisos previos de un ataque por mar que no se tradujeron en medidas a tiempo.", why: "No está en duda que hubo avisos; se discute su precisión.", wx: "Investigaciones oficiales y de prensa.", who: "Gobierno de India", u: "https://en.wikipedia.org/wiki/2008_Mumbai_attacks", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "omision", d: "2008-11", ev: 1, w: 3, h: "Bombay", x: "Hubo avisos previos de un ataque por mar que no se tradujeron en medidas a tiempo.", why: "No está en duda que hubo avisos; se discute su precisión.", wx: "Investigaciones oficiales y de prensa.", who: "Gobierno de India", u: "https://en.wikipedia.org/wiki/2008_Mumbai_attacks", st: "Wikipedia (síntesis de fuentes)" },
     { k: "falla", d: "2025-04", ev: 2, w: 2, h: "Pahalgam", x: "El ataque que mató a 26 turistas en Cachemira se produjo sin aviso previo efectivo.", why: "Se discute si hubo una falla de inteligencia; el gobierno lo reconoció de forma parcial.", wx: "Declaraciones oficiales y de la oposición.", who: "Oposición y prensa india", u: "https://en.wikipedia.org/wiki/2025_Pahalgam_attack", st: "Wikipedia (síntesis de fuentes)" }
   ],
   modus: {
@@ -126,6 +126,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados de extorsión por los servicios indios." },
     asesinato: { ev: 2, x: "La fiscalía de EE.UU. sostiene que un empleado del gobierno indio dirigió el plan contra Pannun; The Guardian atribuye a la R&AW unos 20 asesinatos en Pakistán.", u: "https://thewire.in/world/nikhil-gupta-pleads-guilty-in-us-to-plot-to-kill-gurpatwant-singh-pannun", st: "The Wire" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes a infraestructura atribuidos a India con sustento sólido." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 0, x: "Esta ficha no encontró casos atribuidos a los servicios de inteligencia; las denuncias de tortura en Cachemira apuntan a fuerzas de seguridad y policías." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados de secuestros por los servicios indios en el exterior." },
     propaganda: { ev: 3, x: "EU DisinfoLab describió en 2020 una red de medios falsos que promovía intereses indios; no probó un vínculo con el Estado.", u: "https://en.wikipedia.org/wiki/Indian_Chronicles", st: "Wikipedia (síntesis de fuentes)" },

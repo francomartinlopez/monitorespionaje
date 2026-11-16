@@ -125,6 +125,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados en democracia." },
     asesinato: { ev: 2, x: "El ex director de la KCIA Kim Hyong-uk desapareció en París en 1979; investigaciones posteriores lo atribuyeron al servicio.", u: "https://en.wikipedia.org/wiki/Kim_Hyong-uk", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "La KCIA y su sucesora torturaron a opositores durante las dictaduras, según comisiones de la verdad.", u: "https://en.wikipedia.org/wiki/Korean_Central_Intelligence_Agency", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Secuestró a Kim Dae-jung en Tokio en 1973 y a coreanos residentes en Europa en el caso de Berlín Oriental de 1967.", u: "https://en.wikipedia.org/wiki/Kim_Dae-jung", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 1, x: "Los drones de 2024 tiraron volantes sobre Pyongyang, según el fallo de 2026.", u: "https://www.koreatimes.co.kr/southkorea/law-crime/20260612/ex-president-yoon-sentenced-to-30-yrs-in-prison-in-drone-infiltration-case", st: "Yonhap, vía The Korea Times" },

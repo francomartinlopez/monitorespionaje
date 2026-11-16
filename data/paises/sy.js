@@ -109,6 +109,7 @@
     extorsion: { ev: 1, x: "Funcionarios cobraban a familias por información sobre presos, según organizaciones sirias.", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime", st: "Wikipedia (síntesis de fuentes)" },
     asesinato: { ev: 1, x: "Ejecuciones masivas en Sednaya, según Amnistía.", u: "https://en.wikipedia.org/wiki/Saydnaya_Prison", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "Tortura sistemática en centros de inteligencia, probada en juicios en Alemania.", u: "https://en.wikipedia.org/wiki/Anwar_Raslan", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Más de 100.000 desaparecidos durante la guerra.", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },

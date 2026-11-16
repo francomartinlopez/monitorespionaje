@@ -89,7 +89,7 @@
     { ev: 3, ilegal: true, d: "2021", h: "Quién espió a Pedro Sánchez", x: "Varios medios atribuyeron la infección del teléfono del presidente y de tres ministros a Marruecos, cliente de Pegasus, por el contexto de la crisis de Ceuta. Marruecos lo niega y la justicia no pudo determinarlo.", who: "Medios españoles", missing: "Datos de NSO o de Israel, que no cooperó.", u: "https://www.escudodigital.com/ciberseguridad/espana-archiva-de-nuevo-la-investigacion-sobre-pegasus-por-la-falta-de-cooperacion-de-israel.html", st: "Escudo Digital" }
   ],
   failures: [
-    { k: "falla", d: "2017-08", ev: 2, w: 2, h: "El imán de Ripoll", x: "El organizador de los atentados de Barcelona había sido informante del CNI.", why: "El contacto está reconocido; se discute qué sabía el CNI y si pudo prevenirlo.", wx: "Información oficial parcial y comisiones parlamentarias.", who: "Prensa y Parlamento", u: "https://en.wikipedia.org/wiki/2017_Barcelona_attacks", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "omision", d: "2017-08", ev: 2, w: 2, h: "El imán de Ripoll", x: "El organizador de los atentados de Barcelona había sido informante del CNI.", why: "El contacto está reconocido; se discute qué sabía el CNI y si pudo prevenirlo.", wx: "Información oficial parcial y comisiones parlamentarias.", who: "Prensa y Parlamento", u: "https://en.wikipedia.org/wiki/2017_Barcelona_attacks", st: "Wikipedia (síntesis de fuentes)" },
     { k: "falla", d: "2004-03", ev: 1, w: 3, h: "Los atentados del 11-M", x: "Una célula yihadista con confidentes policiales en su entorno mató a 193 personas en trenes de Madrid; el gobierno culpó al principio a ETA.", why: "No está en duda la autoría yihadista; la atribución inicial a ETA fue errónea.", wx: "Sentencia de la Audiencia Nacional de 2007.", who: "Audiencia Nacional", u: "https://en.wikipedia.org/wiki/2004_Madrid_train_bombings", st: "Wikipedia (síntesis de fuentes)" }
   ],
   modus: {
@@ -118,6 +118,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 1, x: "Los GAL mataron a 27 personas en la década de 1980 con fondos del Estado.", u: "https://en.wikipedia.org/wiki/Grupos_Antiterroristas_de_Liberaci%C3%B3n", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "Los GAL torturaron a detenidos, como en el caso de Lasa y Zabala.", u: "https://en.wikipedia.org/wiki/Grupos_Antiterroristas_de_Liberaci%C3%B3n", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Los GAL secuestraron a Segundo Marey en Francia en 1983 por error.", u: "https://en.wikipedia.org/wiki/Grupos_Antiterroristas_de_Liberaci%C3%B3n", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },

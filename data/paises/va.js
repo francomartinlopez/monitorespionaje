@@ -127,6 +127,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados de extorsión por parte del Vaticano." },
     asesinato: { ev: 0, x: "No hay casos documentados. Las versiones sobre una \"Entidad\" que mata en nombre del papa no tienen pruebas." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados de sabotajes." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 0, x: "Esta ficha no encontró casos atribuidos a organismos vaticanos. Hubo capellanes militares condenados en otros países, como en Argentina." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados de secuestros atribuidos al Vaticano." },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas; la comunicación vaticana es pública." },

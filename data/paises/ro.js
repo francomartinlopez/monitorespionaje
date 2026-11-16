@@ -108,6 +108,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 1, x: "La Securitate atentó contra la emisora Radio Free Europe en Múnich en 1981, según investigaciones posteriores.", u: "https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "La Securitate torturó a presos políticos; Rumania permitió maltratos de la CIA según el Tribunal Europeo.", u: "https://en.wikipedia.org/wiki/Black_site", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Colaboró con los traslados secretos de detenidos de la CIA.", u: "https://en.wikipedia.org/wiki/Black_site", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },

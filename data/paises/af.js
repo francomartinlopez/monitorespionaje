@@ -105,6 +105,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 1, x: "Ejecuciones extrajudiciales de ex miembros de las fuerzas de seguridad, según la ONU.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "La ONU documentó torturas en centros de detención de la GDI.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Desapariciones forzadas de opositores y activistas.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },

@@ -119,6 +119,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 2, x: "Un programa de asesinatos en Yemen con mercenarios estadounidenses, según su propio jefe y una demanda de 2026.", u: "https://www.npr.org/2026/03/30/nx-s1-5707305/yemen-politician-assassination-us-soldiers-lawsuit", st: "NPR" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 2, x: "Organizaciones de derechos humanos y la agencia AP documentaron cárceles secretas con torturas en el sur de Yemen, controladas por fuerzas apoyadas por los Emiratos.", u: "https://en.wikipedia.org/wiki/Security_Belt", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "Detenciones sin juicio en cárceles secretas de Yemen, según investigaciones periodísticas.", u: "https://en.wikipedia.org/wiki/Security_Belt", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 2, x: "Pagó a una firma suiza para desacreditar a personas y organizaciones europeas como islamistas.", u: "https://eic.network/projects/abu-dhabi-secrets.html", st: "European Investigative Collaborations" },

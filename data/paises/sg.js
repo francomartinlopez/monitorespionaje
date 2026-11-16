@@ -109,6 +109,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 2, x: "Detenidos de 1987 denunciaron malos tratos durante los interrogatorios; el gobierno lo negó.", u: "https://en.wikipedia.org/wiki/Operation_Spectrum", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },

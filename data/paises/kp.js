@@ -138,6 +138,7 @@
     extorsion: { ev: 1, x: "Los informáticos falsos descubiertos amenazan con publicar datos robados si no se les paga, según el FBI.", u: "https://www.securityweek.com/us-charges-five-people-over-north-korean-it-worker-scheme/amp/", st: "SecurityWeek" },
     asesinato: { ev: 1, x: "La bomba de Rangún mató a cuatro ministros surcoreanos en 1983; Malasia atribuyó a agentes norcoreanos el asesinato de Kim Jong Nam en 2017.", u: "https://en.wikipedia.org/wiki/Rangoon_bombing", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 1, x: "El virus WannaCry paralizó hospitales y empresas en 2017, y el hackeo a Sony borró datos de la empresa en 2014.", u: "https://en.wikipedia.org/wiki/WannaCry_ransomware_attack", st: "Wikipedia (síntesis de fuentes)" },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "La comisión de la ONU de 2014 documentó torturas sistemáticas en cárceles y campos políticos.", u: "https://en.wikipedia.org/wiki/Human_rights_in_North_Korea", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Secuestró a japoneses y a miles de surcoreanos; Japón reconoce 17 víctimas.", u: "https://www.mofa.go.jp/region/asia-paci/n_korea/abduction/index.html", st: "Cancillería de Japón" },
     propaganda: { ev: 1, x: "Mantiene sitios y cuentas dirigidos al público surcoreano, como Uriminzokkiri, bloqueados en el Sur.", u: "https://en.wikipedia.org/wiki/Uriminzokkiri", st: "Wikipedia (síntesis de fuentes)" },

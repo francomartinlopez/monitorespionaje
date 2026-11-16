@@ -111,6 +111,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    infraestructura: { ev: 1, x: "Crypto AG operó desde Suiza; una investigación parlamentaria de 2020 concluyó que el servicio de inteligencia suizo conocía la operación de la CIA y el BND.", u: "https://en.wikipedia.org/wiki/Crypto_AG", st: "Wikipedia: Crypto AG" },
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },

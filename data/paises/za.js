@@ -111,6 +111,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 1, x: "La Oficina de Cooperación Civil mató a opositores en el apartheid.", u: "https://en.wikipedia.org/wiki/Civil_Cooperation_Bureau", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 1, x: "Los servicios del apartheid pusieron bombas en oficinas del ANC en el exterior, según la Comisión de la Verdad.", u: "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "La policía de seguridad torturó a detenidos políticos en el apartheid.", u: "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Opositores fueron secuestrados en países vecinos en el apartheid.", u: "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 1, x: "El gobierno del apartheid financió en secreto medios de propaganda en el escándalo de la Información de 1978.", u: "https://en.wikipedia.org/wiki/Information_Scandal", st: "Wikipedia (síntesis de fuentes)" },

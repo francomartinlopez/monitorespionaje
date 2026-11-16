@@ -121,6 +121,7 @@
     extorsion: { ev: 2, x: "Los retenidos en el Ritz-Carlton entregaron bienes bajo presión; Saad al-Jabri dice que detuvieron a sus hijos para forzarlo a volver.", u: "https://en.wikipedia.org/wiki/2017%E2%80%932019_Saudi_Arabian_purge", st: "Wikipedia (síntesis de fuentes)" },
     asesinato: { ev: 1, x: "El asesinato de Khashoggi en Estambul, aprobado por Mohammed bin Salman según la inteligencia de EE.UU.", u: "https://en.wikipedia.org/wiki/Assassination_of_Jamal_Khashoggi", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes a infraestructura atribuidos a los servicios sauditas." },
+    infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 2, x: "Relatores de la ONU y organizaciones de derechos humanos denunciaron torturas a activistas detenidas en 2018, que Riad niega.", u: "https://en.wikipedia.org/wiki/Loujain_al-Hathloul", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "Príncipes críticos fueron llevados por la fuerza desde Europa al reino entre 2015 y 2017, según investigaciones periodísticas.", u: "https://en.wikipedia.org/wiki/General_Intelligence_Presidency", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 1, x: "Twitter atribuyó en 2019 a una operación estatal saudita decenas de miles de cuentas manejadas por la empresa Smaat.", u: "https://tribune.com.pk/story/2122351/twitter-suspends-accounts-linked-saudi-spying-case", st: "Reuters, vía The Express Tribune" },
