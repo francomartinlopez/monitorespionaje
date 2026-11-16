@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Países Bajos: AIVD, MIVD, NCTV y CTIVD; el hackeo ruso frustrado a la OPAQ, el falso brasileño en la CPI, Laundry Bear, Stuxnet según de Volkskrant y la ley de interceptación masiva.
+
 - 2026-11-15 · Ficha real de Hungría: IH, AH, NBSZ, KNBSZ y TIBEK; Pegasus contra periodistas, la red de espías en Bruselas, la red en Transcarpatia, el hackeo ruso a la Cancillería y la disolución de la Oficina de Protección de la Soberanía tras la victoria de Tisza.
 
 - 2026-11-15 · Ficha real de Singapur: SID, MIO e ISD; UNC3886 y la operación Cyber Guardian, las operaciones Coldstore y Spectrum, la expulsión de Huang Jing y el caso Dickson Yeo.
