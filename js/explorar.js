@@ -243,7 +243,7 @@
     const hitos = [[1947, "Se crea la CIA"], [1962, "Crisis de los misiles"], [1989, "Cae el Muro de Berlín"], [2001, "11-S"], [2013, "Snowden"], [2022, "Invasión rusa a Ucrania"]];
     const VH = top + PAISES.length * lane + 30;
     const evs = PAISES.flatMap((p, i) => (FICHAS[p.id]?.events || []).map(e => ({ ...e, p, i })));
-    app.innerHTML = head("Cronología global", "Un carril por país sobre la misma línea de tiempo, para ver qué hacía cada servicio en el mismo momento. Los hitos de arriba son reales; los puntos de cada país todavía son de prueba.", true) + `
+    app.innerHTML = head("Cronología global", "Un carril por país sobre la misma línea de tiempo, para ver qué hacía cada servicio en el mismo momento. Cada punto es un hecho de la ficha del país; tocalo para abrirla.", PAISES.some(p => FICHAS[p.id]?.sample)) + `
       <div class="chips" id="crChips">${Object.entries(EV).map(([k, t]) => `<button type="button" class="chip on" data-t="${k}" aria-pressed="true" style="--c:${t.c}"><i></i>${t.n}</button>`).join("")}</div>
       <div class="mapbox lanes-box"><svg viewBox="0 0 ${VW} ${VH}" role="img" aria-label="Cronología por país" style="min-width:900px">
         ${eras.map(([a, b, n], k) => `<rect x="${x(a)}" y="0" width="${x(b) - x(a)}" height="${VH}" fill="${k % 2 ? "rgba(106,245,154,.025)" : "rgba(106,245,154,.055)"}"/><text class="era-l" x="${x(a) + 6}" y="16">${esc(n.toUpperCase())}</text>`).join("")}

@@ -125,7 +125,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       ${[1, 2, 3].map(t => `<div class="tier-head"><h3>${esc(window.TIERS[t].n)}</h3><span>${esc(window.TIERS[t].x)}</span></div>
         <div class="cards">${PAISES.filter(p => p.tier === t).map(card).join("")}</div>`).join("")}
 
-      <div class="section-title"><h2>Poder por rubro</h2><span>Comparación de capacidades, de 1 a 5 · tocá una columna para ordenar${sampleTag(true)}</span></div>
+      <div class="section-title"><h2>Poder por rubro</h2><span>Comparación de capacidades, de 1 a 5 · tocá una columna para ordenar${sampleTag(PAISES.some(p => FICHAS[p.id]?.sample))}</span></div>
       <div class="cmp-wrap"><table class="cmp" id="cmp"></table></div>`;
     drawHomeMap();
     drawCmp("tot");

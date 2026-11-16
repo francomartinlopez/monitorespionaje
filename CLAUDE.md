@@ -4,7 +4,7 @@ Sitio estático publicado con GitHub Pages desde `main` (raíz). Todo en españo
 Responsable editorial: Franco Martín López. Proyecto hermano de Monitor de Conflictos (`conflictoglobal`), con la misma base técnica.
 
 ## Estado
-Las 57 fichas son reales desde el 2026-11-16. Explorar todavía tiene datos de prueba (flujos de software espía, expulsiones, documentos del archivo). `MONITOR_META.skeleton = true` muestra la banda amarilla de aviso; se apaga cuando haya contenido real.
+Las 57 fichas son reales desde el 2026-11-16. Explorar todavía tiene datos de prueba (flujos de software espía, expulsiones, documentos del archivo). `MONITOR_META.skeleton` está en false desde el 2026-11-16; las secciones con datos de prueba llevan la etiqueta "de prueba".
 Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un país, reemplazá su archivo entero y quitá `sample`.
 
 ## Países (57)

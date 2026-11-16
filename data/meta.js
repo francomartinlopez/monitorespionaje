@@ -5,7 +5,7 @@ window.MONITOR_META = {
   updatedLabel: "15 nov 2026 · 06:00 ART",
   next: "semanal, lunes 06:00 ART",
   edition: "Edición 0 · esqueleto",
-  skeleton: true
+  skeleton: false
 };
 
 // Rubros operativos para medir el poder de cada país (1 a 5).

@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-16 · Se apaga la banda de esqueleto: las 57 fichas son reales. Siguen marcadas "de prueba" las secciones con datos ficticios (software espía, expulsiones, archivo, parte de la infraestructura y de las relaciones).
+
 - 2026-11-16 · Nuevo mapa general de bloques de inteligencia en Explorar (#bloques): cinco bloques, grado de pertenencia y notas sobre casos discutibles.
 
 - 2026-11-15 · Bangladés: ficha real (DGFI, Aynaghar, represión de 2024, NTMC). Las 57 fichas son reales.
