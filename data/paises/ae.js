@@ -547,6 +547,10 @@
    "ev": 2,
    "x": "Texto de prueba."
   },
+  "sabotaje": {
+   "ev": 0,
+   "x": "Texto de prueba."
+  },
   "tortura": {
    "ev": 0,
    "x": "Texto de prueba."
@@ -560,11 +564,11 @@
    "x": "Texto de prueba."
   },
   "inteligencia": {
-   "ev": 0,
+   "ev": 2,
    "x": "Texto de prueba."
   },
   "tecnologia": {
-   "ev": 2,
+   "ev": 0,
    "x": "Texto de prueba."
   },
   "entrenamiento": {

@@ -577,16 +577,20 @@
    "ev": 1,
    "x": "Texto de prueba."
   },
+  "sabotaje": {
+   "ev": 0,
+   "x": "Texto de prueba."
+  },
   "tortura": {
    "ev": 0,
    "x": "Texto de prueba."
   },
   "secuestro": {
-   "ev": 0,
+   "ev": 1,
    "x": "Texto de prueba."
   },
   "armas": {
-   "ev": 1,
+   "ev": 3,
    "x": "Texto de prueba."
   },
   "inteligencia": {
