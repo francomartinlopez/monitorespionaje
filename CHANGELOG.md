@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Singapur: SID, MIO e ISD; UNC3886 y la operación Cyber Guardian, las operaciones Coldstore y Spectrum, la expulsión de Huang Jing y el caso Dickson Yeo.
+
 - 2026-11-15 · Ficha real de Sudáfrica: la disolución de la SSA en dos servicios (2025), la comisión Zondo y la red paralela de agentes, Phala Phala, el fallo de 2021 contra la interceptación masiva y los crímenes de la Oficina de Cooperación Civil.
 
 - 2026-11-15 · Ficha real de Suiza: SRC, MND, fedpol y órganos de control; Rusia como principal amenaza (2026), la sospecha de fuga hacia Rusia, Crypto AG, el escándalo de las fichas y el caso Jeanmaire.
