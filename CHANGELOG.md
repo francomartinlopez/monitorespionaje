@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Jordania: GID, inteligencia militar y PSD; el doble agente de Khost, el caso de sedición del príncipe Hamzah, Pegasus contra activistas, el envenenamiento de Meshal y la prohibición de los Hermanos Musulmanes.
+
 - 2026-11-15 · Ficha real de Siria: el aparato de inteligencia de Assad y el nuevo GID del gobierno de transición; el informe César, el juicio de Koblenz, la caída de Assad, las matanzas de alauitas de 2025 y el captagón.
 
 - 2026-11-15 · Ficha real de Kazajistán: KNB, Syrbar e inteligencia militar; los disturbios de enero de 2022 y la condena de Masimov, el certificado de interceptación de 2019 y el asesinato de Aidos Sadykov en Kiev.
