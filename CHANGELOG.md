@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Completadas "Qué hacen y a quién espían" y "Dinero y coberturas" en las ocho fichas reales (EE.UU., Argentina, Rusia, China, Reino Unido, Israel, Francia y Alemania). Nuevo rubro "Sabotajes" entre los métodos. La tabla de Explorar ya compara los ocho países cargados.
+
 - 2026-11-15 · Nueva sección "Qué hacen y a quién espían" en cada ficha: espionaje a funcionarios propios, políticos, periodistas, activistas y ONG, aliados y rivales; extorsión, asesinatos, tortura y secuestros; armas, inteligencia, tecnología y entrenamiento dados a otros, cada uno con nivel de evidencia y fuente. Nueva tabla en Explorar (#practicas) que compara los 20 países; las fichas de prueba aparecen sin pintar. Cargada para Alemania.
 
 - 2026-11-15 · Nueva sección "Dinero y coberturas" en cada ficha: presupuesto y cuánto se sabe, en qué se gasta, otros ingresos, empresas de fachada, bancos, crimen organizado y ONG de cobertura, más una lista de casos documentados con filtros. Cargada para Alemania; el validador avisa en las otras siete fichas reales hasta completarlas.
