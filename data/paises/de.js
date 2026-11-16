@@ -161,7 +161,14 @@
     armas: { ev: 1, x: "En octubre de 1991 la policía de Hamburgo frenó un envío del BND al Mossad: tanques y antiaéreos soviéticos del ex ejército de Alemania Oriental, declarados como maquinaria agrícola. El caso mostró envíos a Israel desde 1967 sin control político.", u: "https://www.jta.org/archive/supply-of-materiel-to-israel-raising-hackles-in-germany", st: "JTA (1991)" },
     inteligencia: { ev: 1, x: "Compartió durante años con la NSA datos de sus estaciones de escucha, como Bad Aibling. Hoy intercambia información con la OTAN, la Unión Europea y Ucrania.", u: "https://dserver.bundestag.de/btd/18/128/1812850.pdf", st: "Bundestag, informe NSA (2017)" },
     tecnologia: { ev: 1, x: "A través de Crypto AG vendió, junto con la CIA, máquinas de cifrado con fallas ocultas a más de cien gobiernos. Empresas alemanas como FinFisher exportaron software espía.", u: "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/", st: "The Washington Post (2020)" },
-    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados de entrenamiento del BND a servicios extranjeros." }
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados de entrenamiento del BND a servicios extranjeros." },
+    propaganda: {"ev": 0, "x": "Esta ficha no encontró campañas de propaganda encubierta del BND en otros países."},
+    conflictos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de servicios alemanes que fomentaran conflictos en otras sociedades."},
+    cultural: {"ev": 0, "x": "Esta ficha no encontró casos documentados de influencia cultural o religiosa encubierta de los servicios alemanes."},
+    diaspora: {"ev": 0, "x": "Esta ficha no encontró casos documentados de emigrantes alemanes usados como agentes."},
+    empresarios: {"ev": 1, "x": "Ejecutivos de Crypto AG trabajaron durante décadas para el BND y la CIA sin que los clientes lo supieran.", "u": "https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/", "st": "The Washington Post (2020)"},
+    religiosos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de religiosos usados como agentes por servicios alemanes."},
+    partidos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de financiamiento de partidos extranjeros por los servicios alemanes."}
   },
   dinero: {
     presupuesto: "El presupuesto federal muestra solo el total de cada servicio: el BND recibe 1.510 millones de euros en 2026 dentro del capítulo de la Cancillería. El detalle va en planes económicos secretos que aprueba el Vertrauensgremium, un grupo de la comisión de presupuesto que sesiona a puertas cerradas. El Tribunal de Cuentas los revisa con reglas especiales.",

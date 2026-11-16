@@ -151,7 +151,14 @@
     armas: { ev: 0, x: "Esta ficha no encontró envíos de armas hechos por los servicios. Las ventas ilegales a Ecuador y Croacia de los años noventa fueron del gobierno y de Fabricaciones Militares." },
     inteligencia: { ev: 1, x: "Intercambió información sobre opositores con las dictaduras vecinas en el Plan Cóndor. Hoy coopera con EE.UU. e Israel en la causa AMIA y en terrorismo.", u: "https://es.wikipedia.org/wiki/Operaci%C3%B3n_C%C3%B3ndor", st: "Wikipedia (síntesis de fuentes)" },
     tecnologia: { ev: 0, x: "Esta ficha no encontró casos de transferencia argentina de tecnología de vigilancia a otros países." },
-    entrenamiento: { ev: 1, x: "A fines de los años setenta y principios de los ochenta, el Batallón 601 entrenó a fuerzas en Centroamérica, entre ellas a la contra nicaragüense.", u: "https://es.wikipedia.org/wiki/Batall%C3%B3n_de_Inteligencia_601", st: "Wikipedia (síntesis de fuentes)" }
+    entrenamiento: { ev: 1, x: "A fines de los años setenta y principios de los ochenta, el Batallón 601 entrenó a fuerzas en Centroamérica, entre ellas a la contra nicaragüense.", u: "https://es.wikipedia.org/wiki/Batall%C3%B3n_de_Inteligencia_601", st: "Wikipedia (síntesis de fuentes)" },
+    propaganda: {"ev": 1, "x": "En 1977 la dictadura abrió en la embajada de París el Centro Piloto, que hacía propaganda contra lo que llamaba la \"campaña antiargentina\" y vigilaba a exiliados.", "u": "https://es.wikipedia.org/wiki/Centro_Piloto_de_Par%C3%ADs", "st": "Wikipedia (síntesis de fuentes)"},
+    conflictos: {"ev": 2, "x": "Oficiales argentinos de inteligencia apoyaron el golpe de Luis García Meza en Bolivia en 1980 y entrenaron fuerzas en Centroamérica.", "u": "https://es.wikipedia.org/wiki/Batall%C3%B3n_de_Inteligencia_601", "st": "Wikipedia (síntesis de fuentes)"},
+    cultural: {"ev": 0, "x": "Esta ficha no encontró casos documentados de influencia cultural o religiosa encubierta de los servicios argentinos en el exterior."},
+    diaspora: {"ev": 0, "x": "Esta ficha no encontró casos documentados de emigrantes argentinos usados como agentes. La dictadura sí vigiló y persiguió a exiliados en el exterior."},
+    empresarios: {"ev": 0, "x": "Esta ficha no encontró casos documentados de empresarios usados como agentes de los servicios argentinos."},
+    religiosos: {"ev": 1, "x": "El sacerdote Christian von Wernich, capellán de la policía bonaerense, fue condenado en 2007 por participar en secuestros y torturas en centros clandestinos.", "u": "https://es.wikipedia.org/wiki/Christian_von_Wernich", "st": "Wikipedia (síntesis de fuentes)"},
+    partidos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de financiamiento de partidos extranjeros por los servicios argentinos."}
   },
   dinero: {
     presupuesto: "La SIDE empezó 2026 con unos 97.000 millones de pesos y, tras varios decretos, llegó a unos 176.000 millones, según Chequeado. Cerca del 11 % son gastos reservados, cuyo uso no se publica. Los controla una comisión bicameral del Congreso.",

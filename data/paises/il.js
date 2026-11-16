@@ -164,7 +164,14 @@
     armas: {"ev": 1, "x": "En el escándalo Irán-Contras, Israel envió armas estadounidenses a Irán.", "u": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair", "st": "Wikipedia (síntesis de fuentes)"},
     inteligencia: {"ev": 1, "x": "Coopera de cerca con EE.UU.; según The New York Times, ambos desarrollaron Stuxnet.", "u": "https://www.nytimes.com/2012/06/01/world/middleeast/obama-ordered-wave-of-cyberattacks-against-iran.html", "st": "The New York Times (2012)"},
     tecnologia: {"ev": 1, "x": "Empresas como NSO Group venden software espía con licencia del Ministerio de Defensa; EE.UU. puso a NSO en su lista negra en 2021.", "u": "https://www.commerce.gov/news/press-releases/2021/11/commerce-adds-nso-group-and-other-foreign-companies-entity-list", "st": "Departamento de Comercio de EE.UU."},
-    entrenamiento: {"ev": 1, "x": "El Mossad ayudó a formar a la policía secreta del sha de Irán, la SAVAK, desde fines de los años cincuenta.", "u": "https://en.wikipedia.org/wiki/SAVAK", "st": "Wikipedia (síntesis de fuentes)"}
+    entrenamiento: {"ev": 1, "x": "El Mossad ayudó a formar a la policía secreta del sha de Irán, la SAVAK, desde fines de los años cincuenta.", "u": "https://en.wikipedia.org/wiki/SAVAK", "st": "Wikipedia (síntesis de fuentes)"},
+    propaganda: {"ev": 2, "x": "Meta informó en 2024 que eliminó una red de cuentas falsas de una empresa israelí dirigida a público de EE.UU. y Canadá; The New York Times la vinculó con un ministerio israelí.", "u": "https://about.fb.com/news/2024/05/metas-adversarial-threat-report-first-quarter-2024/", "st": "Meta (2024)"},
+    conflictos: {"ev": 1, "x": "En el caso Lavon de 1954, agentes israelíes pusieron bombas en blancos occidentales en Egipto para culpar a los egipcios.", "u": "https://en.wikipedia.org/wiki/Lavon_affair", "st": "Wikipedia (síntesis de fuentes)"},
+    cultural: {"ev": 0, "x": "Esta ficha no encontró casos documentados de influencia cultural o religiosa encubierta de los servicios israelíes."},
+    diaspora: {"ev": 1, "x": "Jonathan Pollard, judío estadounidense, espió para Israel desde la Marina de EE.UU.", "u": "https://en.wikipedia.org/wiki/Jonathan_Pollard", "st": "Wikipedia (síntesis de fuentes)"},
+    empresarios: {"ev": 1, "x": "El productor de Hollywood Arnon Milchan reconoció en 2013 que trabajó para la red de compras secretas de Israel.", "u": "https://en.wikipedia.org/wiki/Arnon_Milchan", "st": "Wikipedia (síntesis de fuentes)"},
+    religiosos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de religiosos usados como agentes por los servicios israelíes."},
+    partidos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de financiamiento de partidos extranjeros por los servicios israelíes."}
   },
   dinero: {
     presupuesto: "Los presupuestos del Mossad y del Shin Bet son secretos y van dentro de la Oficina del Primer Ministro; una subcomisión de la Knéset los revisa a puertas cerradas. La inteligencia militar va dentro de Defensa.",

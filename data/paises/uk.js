@@ -162,7 +162,14 @@
     armas: {"ev": 1, "x": "En el caso Matrix Churchill, el MI6 usaba como fuente a un empresario que exportaba equipos de uso militar a Irak; el juicio se cayó en 1992 y llevó al informe Scott.", "u": "https://en.wikipedia.org/wiki/Matrix_Churchill", "st": "Wikipedia (síntesis de fuentes)"},
     inteligencia: {"ev": 1, "x": "Es socio central de la alianza Cinco Ojos con EE.UU., Canadá, Australia y Nueva Zelanda.", "u": "https://en.wikipedia.org/wiki/Five_Eyes", "st": "Wikipedia (síntesis de fuentes)"},
     tecnologia: {"ev": 2, "x": "La empresa anglo-alemana Gamma Group vendió el software espía FinFisher a gobiernos con malos antecedentes de derechos humanos, según Citizen Lab.", "u": "https://en.wikipedia.org/wiki/FinFisher", "st": "Wikipedia (síntesis de fuentes)"},
-    entrenamiento: {"ev": 0, "x": "Esta ficha no encontró casos documentados de entrenamiento de servicios extranjeros por parte del MI6 o el MI5."}
+    entrenamiento: {"ev": 0, "x": "Esta ficha no encontró casos documentados de entrenamiento de servicios extranjeros por parte del MI6 o el MI5."},
+    propaganda: {"ev": 1, "x": "El Departamento de Investigación de Información difundió en secreto propaganda anticomunista entre 1948 y 1977.", "u": "https://en.wikipedia.org/wiki/Information_Research_Department", "st": "Wikipedia (síntesis de fuentes)"},
+    conflictos: {"ev": 1, "x": "El MI6 organizó con la CIA el golpe contra Mohammad Mosaddeq en Irán en 1953.", "u": "https://nsarchive.gwu.edu/briefing-book/iran/2017-06-15/iran-1953-state-department-finally-releases-updated-official-history", "st": "National Security Archive"},
+    cultural: {"ev": 1, "x": "El mismo departamento financió libros, editoriales y servicios de noticias sin revelar su origen oficial.", "u": "https://en.wikipedia.org/wiki/Information_Research_Department", "st": "Wikipedia (síntesis de fuentes)"},
+    diaspora: {"ev": 0, "x": "Esta ficha no encontró casos documentados de emigrantes británicos usados como agentes."},
+    empresarios: {"ev": 1, "x": "Paul Henderson, director de Matrix Churchill, era fuente del MI6 mientras su empresa exportaba a Irak.", "u": "https://en.wikipedia.org/wiki/Matrix_Churchill", "st": "Wikipedia (síntesis de fuentes)"},
+    religiosos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de religiosos usados como agentes por los servicios británicos."},
+    partidos: {"ev": 0, "x": "Esta ficha no encontró casos documentados recientes de financiamiento de partidos extranjeros por los servicios británicos."}
   },
   dinero: {
     presupuesto: "Los tres servicios se financian con la Cuenta Única de Inteligencia, de unos 4.500 millones de libras en 2025-2026, con estado financiero público. El Comité de Inteligencia y Seguridad del Parlamento revisa el gasto.",

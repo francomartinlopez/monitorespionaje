@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · "Qué hacen y a quién espían" suma dos grupos: "Cómo influyen en otras sociedades" (propaganda y desinformación, fomento de divisiones y conflictos, influencia cultural, religiosa e ideológica, financiamiento de partidos y candidatos) y "A quién usan como agentes" (emigrantes y diáspora, empresarios, religiosos). Cargados en las ocho fichas reales.
+
 - 2026-11-15 · Completadas "Qué hacen y a quién espían" y "Dinero y coberturas" en las ocho fichas reales (EE.UU., Argentina, Rusia, China, Reino Unido, Israel, Francia y Alemania). Nuevo rubro "Sabotajes" entre los métodos. La tabla de Explorar ya compara los ocho países cargados.
 
 - 2026-11-15 · Nueva sección "Qué hacen y a quién espían" en cada ficha: espionaje a funcionarios propios, políticos, periodistas, activistas y ONG, aliados y rivales; extorsión, asesinatos, tortura y secuestros; armas, inteligencia, tecnología y entrenamiento dados a otros, cada uno con nivel de evidencia y fuente. Nueva tabla en Explorar (#practicas) que compara los 20 países; las fichas de prueba aparecen sin pintar. Cargada para Alemania.

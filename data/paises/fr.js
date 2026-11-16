@@ -152,7 +152,14 @@
     armas: {"ev": 2, "x": "En el caso Angolagate, intermediarios ligados a la política francesa vendieron armas a Angola en los años noventa; algunos fueron condenados y otros absueltos en apelación.", "u": "https://en.wikipedia.org/wiki/Angolagate", "st": "Wikipedia (síntesis de fuentes)"},
     inteligencia: {"ev": 1, "x": "Coopera con EE.UU., el Reino Unido, Alemania y Marruecos contra el terrorismo, según el director de la DGSE.", "u": "https://fr.hespress.com/449718-449718.html", "st": "Hespress"},
     tecnologia: {"ev": 1, "x": "La empresa francesa Amesys vendió a la Libia de Gadafi un sistema de vigilancia de internet; sus directivos fueron imputados en 2021.", "u": "https://en.wikipedia.org/wiki/Amesys", "st": "Wikipedia (síntesis de fuentes)"},
-    entrenamiento: {"ev": 1, "x": "Durante décadas formó y asesoró a servicios y guardias presidenciales en África, en el marco de la llamada Françafrique.", "u": "https://en.wikipedia.org/wiki/Fran%C3%A7afrique", "st": "Wikipedia (síntesis de fuentes)"}
+    entrenamiento: {"ev": 1, "x": "Durante décadas formó y asesoró a servicios y guardias presidenciales en África, en el marco de la llamada Françafrique.", "u": "https://en.wikipedia.org/wiki/Fran%C3%A7afrique", "st": "Wikipedia (síntesis de fuentes)"},
+    propaganda: {"ev": 1, "x": "Meta eliminó en 2020 una red de cuentas falsas vinculada a militares franceses que hacía propaganda en Malí y la República Centroafricana.", "u": "https://about.fb.com/news/2020/12/removing-coordinated-inauthentic-behavior-france-russia/", "st": "Meta (2020)"},
+    conflictos: {"ev": 2, "x": "Durante la Françafrique, Francia apoyó golpes y gobiernos en sus ex colonias; el mercenario Bob Denard actuó en varios con tolerancia de los servicios.", "u": "https://en.wikipedia.org/wiki/Bob_Denard", "st": "Wikipedia (síntesis de fuentes)"},
+    cultural: {"ev": 0, "x": "Esta ficha no encontró casos documentados de influencia cultural o religiosa encubierta de los servicios franceses."},
+    diaspora: {"ev": 0, "x": "Esta ficha no encontró casos documentados de emigrantes franceses usados como agentes."},
+    empresarios: {"ev": 2, "x": "Ex directivos de Elf dijeron que la petrolera funcionaba como herramienta de la política y de los servicios franceses en África.", "u": "https://en.wikipedia.org/wiki/Elf_Aquitaine", "st": "Wikipedia (síntesis de fuentes)"},
+    religiosos: {"ev": 0, "x": "Esta ficha no encontró casos documentados de religiosos usados como agentes por los servicios franceses."},
+    partidos: {"ev": 1, "x": "La causa Elf mostró pagos de la petrolera estatal a dirigentes africanos y a partidos franceses en los años noventa.", "u": "https://en.wikipedia.org/wiki/Elf_Aquitaine", "st": "Wikipedia (síntesis de fuentes)"}
   },
   dinero: {
     presupuesto: "La ley de programación militar prevé 4.600 millones de euros para la DGSE entre 2024 y 2030. Además existen fondos especiales, controlados por una comisión de verificación de magistrados y parlamentarios.",

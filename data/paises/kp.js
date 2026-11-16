@@ -578,6 +578,34 @@
    "ev": 0,
    "x": "Texto de prueba."
   },
+  "propaganda": {
+   "ev": 3,
+   "x": "Texto de prueba."
+  },
+  "conflictos": {
+   "ev": 0,
+   "x": "Texto de prueba."
+  },
+  "cultural": {
+   "ev": 3,
+   "x": "Texto de prueba."
+  },
+  "partidos": {
+   "ev": 2,
+   "x": "Texto de prueba."
+  },
+  "diaspora": {
+   "ev": 0,
+   "x": "Texto de prueba."
+  },
+  "empresarios": {
+   "ev": 2,
+   "x": "Texto de prueba."
+  },
+  "religiosos": {
+   "ev": 0,
+   "x": "Texto de prueba."
+  },
   "armas": {
    "ev": 3,
    "x": "Texto de prueba."
@@ -591,7 +619,7 @@
    "x": "Texto de prueba."
   },
   "entrenamiento": {
-   "ev": 2,
+   "ev": 3,
    "x": "Texto de prueba."
   }
  },

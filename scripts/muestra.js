@@ -94,7 +94,7 @@ for (const p of ctx.PAISES) {
       { k: "falsa", ev: 4, w: 1, d: "20XX", h: "Teoría de prueba", x: P, why: P + " Qué la desmiente.", wx: "", who: "Redes sociales" }
     ],
     modus: { embajadas: P, campo: P, oficina: P, reclutamiento: P, tecnica: P, enlaces: P },
-    practicas: Object.fromEntries(["propios", "politicos", "periodistas", "activistas", "aliados", "rivales", "extorsion", "asesinato", "sabotaje", "tortura", "secuestro", "armas", "inteligencia", "tecnologia", "entrenamiento"].map(k => [k, { ev: pick([0, 0, 1, 2, 3]), x: P }])),
+    practicas: Object.fromEntries(["propios", "politicos", "periodistas", "activistas", "aliados", "rivales", "extorsion", "asesinato", "sabotaje", "tortura", "secuestro", "propaganda", "conflictos", "cultural", "partidos", "diaspora", "empresarios", "religiosos", "armas", "inteligencia", "tecnologia", "entrenamiento"].map(k => [k, { ev: pick([0, 0, 1, 2, 3]), x: P }])),
     dinero: { presupuesto: P, uso: P, ingresos: P, empresas: P, bancos: P, crimen: P, cobertura: P },
     fondos: [
       { k: "presupuesto", rol: "autor", ev: 1, d: "20XX", h: "Presupuesto de prueba", x: P, monto: "Monto de prueba", who: "Ley de presupuesto" },
