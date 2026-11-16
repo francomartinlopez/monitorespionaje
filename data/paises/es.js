@@ -74,13 +74,13 @@
     "Morocco": 3, "Algeria": 3, "Mali": 2, "Mauritania": 2, "Russia": 2, "W. Sahara": 2, "Venezuela": 1, "Libya": 1, "France": 1, "Niger": 1
   },
   timeline: [
-    { era: "Franquismo", d: "1972", h: "SECED", x: "El servicio de Carrero Blanco vigila a la oposición." },
-    { era: "Transición", d: "1977", h: "Nace el CESID", x: "Servicio militar que hereda la inteligencia del franquismo." },
-    { era: "", d: "1983–1987", h: "GAL", x: "Guerra sucia contra ETA con fondos reservados." },
-    { era: "", d: "1995", h: "Escuchas del CESID", x: "Se revela que el servicio grabó conversaciones de políticos, empresarios y el rey." },
-    { era: "Democracia", d: "2002", h: "Nace el CNI", x: "Servicio civil con control judicial previo." },
-    { era: "", d: "2022", h: "Catalangate", x: "Citizen Lab revela el espionaje a independentistas; cae la directora." },
-    { era: "Actual", d: "2026", h: "Juicio Kitchen y Pegasus", x: "Juicio a la ex cúpula de Interior y archivo de la causa por el teléfono del presidente.", now: true }
+    { era: "Franquismo", d: "1972", h: "SECED", x: "El servicio de Carrero Blanco vigila a la oposición.", ctx: "Últimos años del franquismo." },
+    { era: "Transición", d: "1977", h: "Nace el CESID", x: "Servicio militar que hereda la inteligencia del franquismo.", ctx: "Transición a la democracia." },
+    { era: "", d: "1983–1987", h: "GAL", x: "Guerra sucia contra ETA con fondos reservados.", ctx: "Gobierno de Felipe González y terrorismo de ETA." },
+    { era: "", d: "1995", h: "Escuchas del CESID", x: "Se revela que el servicio grabó conversaciones de políticos, empresarios y el rey.", ctx: "Crisis del final del gobierno socialista." },
+    { era: "Democracia", d: "2002", h: "Nace el CNI", x: "Servicio civil con control judicial previo.", ctx: "Gobierno de Aznar." },
+    { era: "", d: "2022", h: "Catalangate", x: "Citizen Lab revela el espionaje a independentistas; cae la directora.", ctx: "Después del proceso independentista catalán." },
+    { era: "Actual", d: "2026", h: "Juicio Kitchen y Pegasus", x: "Juicio a la ex cúpula de Interior y archivo de la causa por el teléfono del presidente.", now: true, ctx: "Año electoral." }
   ],
   cases: [
     { ev: 1, ilegal: false, d: "2017–2020", h: "El espionaje a independentistas", x: "La directora del CNI reconoció ante jueces que el centro espió con Pegasus, con autorización del Tribunal Supremo, a dirigentes como Pere Aragonès, Jordi Sànchez y ex diputados de la CUP. Citizen Lab identificó más infecciones, que el CNI no reconoce. Jueces de Barcelona investigan a la ex directora Paz Esteban.", who: "CNI ante tribunales y Citizen Lab", missing: "", u: "https://en.ara.cat/politics/the-cni-admits-that-it-spied-carles-riera-and-david-fernandez-with-pegasus_1_5797167.html", st: "Ara" },

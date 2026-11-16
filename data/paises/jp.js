@@ -76,13 +76,13 @@
     "China": 3, "North Korea": 3, "Russia": 3, "Taiwan": 2, "South Korea": 1, "United States of America": 1, "Philippines": 1
   },
   timeline: [
-    { era: "Imperio", d: "1904–1905", h: "Akashi y la revolución rusa", x: "El coronel Motojiro Akashi financia a opositores del zar durante la guerra con Rusia." },
-    { era: "", d: "1931", h: "Mukden", x: "Falsa bandera que abre la invasión de Manchuria." },
-    { era: "", d: "1938", h: "Escuela de Nakano", x: "El Ejército crea su escuela de espías y sabotaje." },
-    { era: "Posguerra", d: "1952", h: "Nacen la CIRO y la PSIA", x: "Se arman servicios civiles chicos bajo el paraguas de EE.UU." },
-    { era: "", d: "1997", h: "Nace el DIH", x: "Defensa unifica su inteligencia de señales e imágenes." },
-    { era: "", d: "2013", h: "Ley de secretos", x: "Primer marco moderno para proteger información clasificada." },
-    { era: "Actual", d: "2026", h: "Reforma de Takaichi", x: "Consejo Nacional de Inteligencia, NIB y proyecto de ley contra el espionaje.", now: true }
+    { era: "Imperio", d: "1904–1905", h: "Akashi y la revolución rusa", x: "El coronel Motojiro Akashi financia a opositores del zar durante la guerra con Rusia.", ctx: "Guerra ruso-japonesa." },
+    { era: "", d: "1931", h: "Mukden", x: "Falsa bandera que abre la invasión de Manchuria.", ctx: "Expansión del Ejército en Manchuria." },
+    { era: "", d: "1938", h: "Escuela de Nakano", x: "El Ejército crea su escuela de espías y sabotaje.", ctx: "Guerra con China." },
+    { era: "Posguerra", d: "1952", h: "Nacen la CIRO y la PSIA", x: "Se arman servicios civiles chicos bajo el paraguas de EE.UU.", ctx: "Fin de la ocupación estadounidense." },
+    { era: "", d: "1997", h: "Nace el DIH", x: "Defensa unifica su inteligencia de señales e imágenes.", ctx: "Posguerra Fría y amenaza norcoreana." },
+    { era: "", d: "2013", h: "Ley de secretos", x: "Primer marco moderno para proteger información clasificada.", ctx: "Segundo gobierno de Abe." },
+    { era: "Actual", d: "2026", h: "Reforma de Takaichi", x: "Consejo Nacional de Inteligencia, NIB y proyecto de ley contra el espionaje.", now: true, ctx: "Primer gobierno de Sanae Takaichi." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "1931", h: "El incidente de Mukden", x: "Oficiales del Ejército de Kwantung volaron una vía del ferrocarril de Manchuria y culparon a soldados chinos. El ataque sirvió de pretexto para ocupar Manchuria y crear el Estado títere de Manchukuo. La autoría quedó demostrada en la posguerra.", who: "Tribunal de Tokio y testimonios de los participantes", missing: "", u: "https://en.wikipedia.org/wiki/Mukden_incident", st: "Wikipedia (síntesis de fuentes)" },

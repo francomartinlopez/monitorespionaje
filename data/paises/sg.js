@@ -70,12 +70,12 @@
     "Malaysia": 3, "Indonesia": 3, "China": 3, "Philippines": 1, "Thailand": 1, "Myanmar": 1, "Australia": 1, "United States of America": 1
   },
   timeline: [
-    { era: "Colonia y Malasia", d: "1963", h: "Operación Coldstore", x: "Detención masiva de la izquierda antes de la fusión con Malasia." },
-    { era: "Independencia", d: "1966", h: "Nacen los servicios", x: "Se crean la SID y el ISD tras la independencia." },
-    { era: "", d: "1987", h: "Operación Spectrum", x: "Detenciones de activistas acusados de una conspiración marxista." },
-    { era: "Siglo XXI", d: "2001", h: "Yemaah Islamiya", x: "El ISD desarma una célula que planeaba atentados contra embajadas." },
-    { era: "", d: "2021", h: "Ley de Injerencia Extranjera", x: "Nueva herramienta contra la influencia encubierta." },
-    { era: "Actual", d: "2025–2026", h: "Cyber Guardian", x: "Operación contra UNC3886 en telecomunicaciones.", now: true }
+    { era: "Colonia y Malasia", d: "1963", h: "Operación Coldstore", x: "Detención masiva de la izquierda antes de la fusión con Malasia.", ctx: "Fusión con Malasia y temor al comunismo." },
+    { era: "Independencia", d: "1966", h: "Nacen los servicios", x: "Se crean la SID y el ISD tras la independencia.", ctx: "Independencia de Singapur." },
+    { era: "", d: "1987", h: "Operación Spectrum", x: "Detenciones de activistas acusados de una conspiración marxista.", ctx: "Gobierno de Lee Kuan Yew." },
+    { era: "Siglo XXI", d: "2001", h: "Yemaah Islamiya", x: "El ISD desarma una célula que planeaba atentados contra embajadas.", ctx: "Después del 11-S." },
+    { era: "", d: "2021", h: "Ley de Injerencia Extranjera", x: "Nueva herramienta contra la influencia encubierta.", ctx: "Rivalidad entre EE.UU. y China." },
+    { era: "Actual", d: "2025–2026", h: "Cyber Guardian", x: "Operación contra UNC3886 en telecomunicaciones.", now: true, ctx: "Ciberataques a infraestructura crítica." }
   ],
   cases: [
     { ev: 3, ilegal: false, d: "1987", h: "La conspiración marxista", x: "El gobierno acusó a 22 activistas católicos y sociales de conspirar para derrocarlo y los detuvo sin juicio. Los detenidos lo negaron; varios dijeron que confesaron bajo presión y ex ministros pusieron en duda la conspiración.", who: "Gobierno de Singapur", missing: "Pruebas públicas o un juicio.", u: "https://en.wikipedia.org/wiki/Operation_Spectrum", st: "Wikipedia (síntesis de fuentes)" },
@@ -153,6 +153,7 @@
   proxies: [
   ],
   cuentas: {"n": 1, "x": "Sin revisión independiente de las detenciones sin juicio."},
+  doctrina: [{"h": "Prevención", "x": "La ley de seguridad interior permite detener sin juicio para anticiparse a las amenazas."}],
   sources: [
     { t: "Agencia de Ciberseguridad: operación Cyber Guardian (2026)", u: "https://csa.gov.sg/news-events/press-releases/largest-multi-agency-cyber-operation-mounted-to-counter-threat-posed-by-advanced-persistent-threat--apt--actor-unc3886-to-singapore-s-telecommunications-sector" },
     { t: "AFP: Singapur enfrenta un ciberataque grave (2025)", u: "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/07/19/singapore-is-facing-039serious039-cyberattack-says-national-security-minister-k-shanmugam" },

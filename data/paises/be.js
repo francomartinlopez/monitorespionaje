@@ -69,11 +69,11 @@
     "Russia": 3, "China": 3, "Qatar": 2, "Morocco": 2, "Iran": 1, "Syria": 1, "Dem. Rep. Congo": 1, "Netherlands": 1
   },
   timeline: [
-    { era: "Fundación", d: "1830", h: "Nace la Seguridad del Estado", x: "Creada con la independencia belga." },
-    { era: "Siglo XX", d: "1915", h: "Inteligencia militar", x: "Nace el servicio militar durante la Primera Guerra Mundial." },
-    { era: "", d: "1998", h: "Ley orgánica", x: "Marco legal moderno y control parlamentario." },
-    { era: "Siglo XXI", d: "2016", h: "Atentados de Bruselas", x: "Reformas de coordinación." },
-    { era: "Actual", d: "2022–2026", h: "Injerencia en la UE", x: "Qatargate, Voice of Europe y espionaje chino.", now: true }
+    { era: "Fundación", d: "1830", h: "Nace la Seguridad del Estado", x: "Creada con la independencia belga.", ctx: "Independencia de Bélgica." },
+    { era: "Siglo XX", d: "1915", h: "Inteligencia militar", x: "Nace el servicio militar durante la Primera Guerra Mundial.", ctx: "Ocupación alemana en la Primera Guerra Mundial." },
+    { era: "", d: "1998", h: "Ley orgánica", x: "Marco legal moderno y control parlamentario.", ctx: "Escándalos de los años noventa." },
+    { era: "Siglo XXI", d: "2016", h: "Atentados de Bruselas", x: "Reformas de coordinación.", ctx: "Ola de atentados del Estado Islámico." },
+    { era: "Actual", d: "2022–2026", h: "Injerencia en la UE", x: "Qatargate, Voice of Europe y espionaje chino.", now: true, ctx: "Guerra en Ucrania y escándalos en la UE." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2010–2013", h: "La operación Socialist", x: "Documentos de Snowden mostraron que la GCHQ infectó computadoras de empleados de Belgacom para acceder a su red. La fiscalía belga concluyó en 2018 que fue obra del Reino Unido, que nunca lo confirmó.", who: "Fiscalía federal de Bélgica", missing: "", u: "https://en.wikipedia.org/wiki/Operation_Socialist", st: "Wikipedia (síntesis de fuentes)" },
@@ -153,6 +153,7 @@
   proxies: [
   ],
   cuentas: {"n": 2, "x": "Un comité permanente controla a los servicios, con pocos efectos penales."},
+  doctrina: [{"h": "Capital ajena", "x": "Vigila el espionaje contra la OTAN y la UE con pocos recursos."}],
   sources: [
     { t: "Wikipedia: State Security Service (Belgium)", u: "https://en.wikipedia.org/wiki/State_Security_Service_(Belgium)" },
     { t: "Wikipedia: Operation Socialist", u: "https://en.wikipedia.org/wiki/Operation_Socialist" },

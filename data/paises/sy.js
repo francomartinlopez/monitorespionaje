@@ -69,11 +69,11 @@
     "Israel": 3, "Turkey": 2, "Lebanon": 2, "Iraq": 2, "Jordan": 1, "Russia": 1, "Iran": 2
   },
   timeline: [
-    { era: "Assad", d: "1970", h: "Hafez al-Assad", x: "Construye un Estado de seguridad con servicios rivales." },
-    { era: "", d: "1982", h: "Hama", x: "El Ejército y los servicios aplastan una rebelión islamista; miles de muertos." },
-    { era: "", d: "2011–2024", h: "Guerra civil", x: "Detenciones masivas y torturas en centros de inteligencia." },
-    { era: "Transición", d: "2024", h: "Caída de Assad", x: "Se disuelven los servicios del régimen." },
-    { era: "Actual", d: "2025–2026", h: "Nuevo aparato", x: "Nuevo servicio de inteligencia y violencia sectaria.", now: true }
+    { era: "Assad", d: "1970", h: "Hafez al-Assad", x: "Construye un Estado de seguridad con servicios rivales.", ctx: "Golpe del partido Baaz." },
+    { era: "", d: "1982", h: "Hama", x: "El Ejército y los servicios aplastan una rebelión islamista; miles de muertos.", ctx: "Insurrección de los Hermanos Musulmanes." },
+    { era: "", d: "2011–2024", h: "Guerra civil", x: "Detenciones masivas y torturas en centros de inteligencia.", ctx: "Primavera Árabe." },
+    { era: "Transición", d: "2024", h: "Caída de Assad", x: "Se disuelven los servicios del régimen.", ctx: "Ofensiva rebelde de noviembre." },
+    { era: "Actual", d: "2025–2026", h: "Nuevo aparato", x: "Nuevo servicio de inteligencia y violencia sectaria.", now: true, ctx: "Gobierno de transición." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2011–2024", h: "Las cárceles de la inteligencia", x: "La comisión de investigación de la ONU y organizaciones sirias documentaron torturas, desapariciones y ejecuciones masivas en centros de los servicios de Assad, como la sección 215 de la inteligencia militar y la prisión de Sednaya.", who: "Comisión de Investigación de la ONU sobre Siria", missing: "", u: "https://en.wikipedia.org/wiki/Caesar_Report", st: "Wikipedia (síntesis de fuentes)" },
@@ -155,6 +155,7 @@
     {"id": "pkk", "s": "PKK", "n": "Partido de los Trabajadores del Kurdistán (PKK)", "k": "armado", "d": "1980–1998", "rol": "patrocina", "hoy": false, "ev": 1, "x": "Damasco alojó a Abdullah Öcalan y al PKK hasta que Turquía amenazó con la guerra en 1998.", "who": "Gobiernos de Turquía y Siria (acuerdo de Adana)", "u": "https://en.wikipedia.org/wiki/Kurdistan_Workers%27_Party", "st": "Wikipedia: Kurdistan Workers' Party"}
   ],
   cuentas: {"n": 2, "x": "Tribunales alemanes condenaron a ex oficiales; la transición recién empieza."},
+  doctrina: [{"h": "Reconstruir desde cero", "x": "El nuevo gobierno disolvió los viejos servicios y arma los propios."}],
   sources: [
     { t: "Wikipedia: Fall of the Assad regime", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime" },
     { t: "Wikipedia: Caesar Report", u: "https://en.wikipedia.org/wiki/Caesar_Report" },

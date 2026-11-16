@@ -59,6 +59,8 @@
     { d: "2022-01", dir: "amplia", area: "Debido proceso", h: "Estado de emergencia", x: "Orden de disparar sin aviso y detenciones masivas tras los disturbios." }
   ],
   events: [
+    {"d": "2011-12-16", "lat": 43.34, "lon": 52.86, "c": "Kazakhstan", "t": "contra", "ev": 1, "h": "Masacre de Zhanaozén", "x": "La policía dispara contra petroleros en huelga; mueren al menos 14 personas.", "u": "https://en.wikipedia.org/wiki/Zhanaozen_massacre", "st": "Wikipedia: masacre de Zhanaozén"},
+    {"d": "2015-02-24", "lat": 48.21, "lon": 16.37, "c": "Austria", "t": "encubierta", "ev": 3, "h": "Muerte de Rakhat Aliyev", "x": "El ex yerno de Nazarbáyev y ex subjefe del KNB aparece ahorcado en una cárcel de Viena antes de su juicio. La justicia austríaca concluyó que fue un suicidio; su familia lo niega.", "u": "https://en.wikipedia.org/wiki/Rakhat_Aliyev", "st": "Wikipedia: Rakhat Aliyev"},
     { d: "2022-01-05", lat: 43.25, lon: 76.92, c: "Kazakhstan", t: "contra", ev: 1, h: "Disturbios de Almatý", x: "Las protestas se vuelven violentas; el KNB pierde el control y Tokáyev pide tropas a la alianza liderada por Rusia.", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2024-06-18", lat: 50.45, lon: 30.52, c: "Ukraine", t: "encubierta", ev: 2, h: "Atentado contra Aidos Sadykov", x: "El periodista opositor kazajo es baleado en Kiev y muere días después; Ucrania acusó a dos kazajos.", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov", st: "Wikipedia (síntesis de fuentes)" }
   ],
@@ -66,16 +68,17 @@
     "Russia": 3, "China": 3, "Kyrgyzstan": 2, "Uzbekistan": 2, "Afghanistan": 1, "Ukraine": 1, "Turkey": 1
   },
   timeline: [
-    { era: "Nazarbáyev", d: "1992", h: "Nace el KNB", x: "Hereda el KGB soviético." },
-    { era: "", d: "2011", h: "Masacre de Zhanaozén", x: "La policía mata a trabajadores petroleros en huelga." },
-    { era: "Tokáyev", d: "2019", h: "Transición", x: "Nazarbáyev deja la presidencia pero conserva poder." },
-    { era: "", d: "2022", h: "Enero sangriento", x: "Disturbios, intervención rusa y caída de Masimov." },
-    { era: "Actual", d: "2023–2026", h: "Consolidación", x: "Tokáyev controla los servicios y equilibra a Rusia y China.", now: true }
+    { era: "Nazarbáyev", d: "1992", h: "Nace el KNB", x: "Hereda el KGB soviético.", ctx: "Independencia tras la URSS." },
+    { era: "", d: "2011", h: "Masacre de Zhanaozén", x: "La policía mata a trabajadores petroleros en huelga.", ctx: "Gobierno de Nazarbáyev." },
+    { era: "Tokáyev", d: "2019", h: "Transición", x: "Nazarbáyev deja la presidencia pero conserva poder.", ctx: "Renuncia de Nazarbáyev." },
+    { era: "", d: "2022", h: "Enero sangriento", x: "Disturbios, intervención rusa y caída de Masimov.", ctx: "Protestas por el precio del gas." },
+    { era: "Actual", d: "2023–2026", h: "Consolidación", x: "Tokáyev controla los servicios y equilibra a Rusia y China.", now: true, ctx: "Gobierno de Tokáyev." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2022", h: "Karim Masimov", x: "El jefe del KNB fue detenido días después de los disturbios y condenado en 2023 a 18 años por traición, intento de toma del poder y abuso de funciones. El juicio fue a puertas cerradas.", who: "Tribunal militar de Kazajistán", missing: "", u: "https://en.wikipedia.org/wiki/Karim_Massimov", st: "Wikipedia (síntesis de fuentes)" },
     { ev: 3, ilegal: true, d: "2022", h: "El intento de golpe", x: "Tokáyev atribuyó los disturbios a terroristas entrenados en el exterior y a un intento de golpe interno. Investigaciones independientes no encontraron pruebas públicas de terroristas extranjeros.", who: "Gobierno de Kazajistán", missing: "Pruebas públicas y juicios abiertos.", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" },
-    { ev: 2, ilegal: true, d: "2024", h: "El asesinato de Aidos Sadykov", x: "El periodista opositor fue baleado en Kiev. La fiscalía ucraniana acusó a dos ciudadanos kazajos y su familia culpó al gobierno de Kazajistán, que lo niega.", who: "Fiscalía de Ucrania y familia de la víctima", missing: "Prueba de la orden estatal.", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov", st: "Wikipedia (síntesis de fuentes)" }
+    { ev: 2, ilegal: true, d: "2024", h: "El asesinato de Aidos Sadykov", x: "El periodista opositor fue baleado en Kiev. La fiscalía ucraniana acusó a dos ciudadanos kazajos y su familia culpó al gobierno de Kazajistán, que lo niega.", who: "Fiscalía de Ucrania y familia de la víctima", missing: "Prueba de la orden estatal.", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov", st: "Wikipedia (síntesis de fuentes)" },
+    {"ev": 2, "ilegal": true, "d": "2007–2015", "h": "La persecución de Rakhat Aliyev", "x": "Tras romper con Nazarbáyev, Aliyev huyó a Austria. Kazajistán contrató abogados y ex políticos austríacos para lograr su entrega, según investigaciones parlamentarias y de prensa en Viena.", "who": "Prensa y Parlamento de Austria", "missing": "Fallos judiciales sobre el espionaje kazajo en Austria.", "u": "https://en.wikipedia.org/wiki/Rakhat_Aliyev", "st": "Wikipedia: Rakhat Aliyev"}
   ],
   failures: [
     { k: "falla", d: "2022-01", ev: 1, w: 3, h: "Los disturbios de enero", x: "El KNB no anticipó ni contuvo la violencia; su jefe terminó condenado.", why: "No está en duda; el propio presidente lo admitió.", wx: "Declaraciones oficiales y condena de Masimov.", who: "Gobierno de Kazajistán", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" }
@@ -89,7 +92,8 @@
     enlaces: "Cooperación con Rusia en la alianza militar y con China en la Organización de Cooperación de Shanghái."
   },
   insiders: [
-    { k: "topo", dir: "sale", ev: 1, d: "2022", n: "Karim Masimov", h: "El jefe del KNB condenado por traición", x: "Ex primer ministro y jefe del KNB acusado de intentar tomar el poder.", cargo: "Jefe del Comité de Seguridad Nacional", hacia: "Facción de Nazarbáyev, según la acusación", fin: "Condenado a 18 años en 2023.", who: "Tribunal militar de Kazajistán", u: "https://en.wikipedia.org/wiki/Karim_Massimov", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "topo", dir: "sale", ev: 1, d: "2022", n: "Karim Masimov", h: "El jefe del KNB condenado por traición", x: "Ex primer ministro y jefe del KNB acusado de intentar tomar el poder.", cargo: "Jefe del Comité de Seguridad Nacional", hacia: "Facción de Nazarbáyev, según la acusación", fin: "Condenado a 18 años en 2023.", who: "Tribunal militar de Kazajistán", u: "https://en.wikipedia.org/wiki/Karim_Massimov", st: "Wikipedia (síntesis de fuentes)" },
+    {"k": "desertor", "dir": "sale", "ev": 2, "d": "2007", "n": "Rakhat Aliyev", "h": "El yerno que rompió con el presidente", "x": "Ex subjefe del KNB y embajador; publicó acusaciones contra Nazarbáyev desde el exilio.", "cargo": "Subjefe del KNB y embajador en Austria", "hacia": "Se exilió en Austria y Malta", "fin": "Murió en una cárcel de Viena en 2015.", "who": "Prensa internacional", "u": "https://en.wikipedia.org/wiki/Rakhat_Aliyev", "st": "Wikipedia: Rakhat Aliyev"}
   ],
   leaks: [
     { k: "ocultamiento", rol: "autor", ev: 2, d: "2022", h: "Los muertos de enero", x: "El gobierno tardó en publicar cifras y nombres de los muertos; organizaciones denunciaron torturas a detenidos.", obj: "Controlar el relato oficial.", aquien: "Las familias y la sociedad", como: "Investigaciones de periodistas y organizaciones de derechos humanos.", who: "Organizaciones de derechos humanos", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" }
@@ -148,6 +152,7 @@
   proxies: [
   ],
   cuentas: {"n": 1, "x": "El ex jefe del KNB fue condenado tras 2022, en una pelea interna del poder."},
+  doctrina: [{"h": "Equilibrio", "x": "El KNB protege al gobierno y evita chocar con Rusia y con China."}],
   sources: [
     { t: "Wikipedia: 2022 Kazakh unrest", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest" },
     { t: "Wikipedia: Karim Massimov", u: "https://en.wikipedia.org/wiki/Karim_Massimov" },

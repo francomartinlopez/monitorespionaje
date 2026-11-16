@@ -61,24 +61,28 @@
   ],
   events: [
     { d: "2014", lat: 55.65, lon: 12.1, c: "Denmark", t: "senales", ev: 1, h: "Operación Dunhammer", x: "El FE ayuda a la NSA a interceptar a dirigentes europeos a través de cables daneses, según DR.", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
+    {"d": "2015-02-14", "lat": 55.67, "lon": 12.4, "c": "Denmark", "t": "contra", "ev": 1, "h": "Atentados de Copenhague", "x": "Un atacante mata a dos personas en un centro cultural y una sinagoga.", "u": "https://en.wikipedia.org/wiki/2015_Copenhagen_shootings", "st": "Wikipedia: atentados de Copenhague de 2015"},
+    {"d": "2022-09-26", "lat": 55.13, "lon": 14.92, "c": "Denmark", "t": "sabotaje", "ev": 3, "h": "Sabotaje del Nord Stream", "x": "Explosiones destruyen los gasoductos cerca de Bornholm. Dinamarca cerró su investigación en 2024 sin señalar culpables; la fiscalía alemana acusa a un grupo de ucranianos.", "u": "https://en.wikipedia.org/wiki/Nord_Stream_pipelines_sabotage", "st": "Wikipedia: sabotaje del Nord Stream"},
     { d: "2025-08-27", lat: 66.0, lon: -45.0, c: "Greenland", t: "humana", ev: 2, h: "Influencia en Groenlandia", x: "Dinamarca convoca al diplomático estadounidense por operaciones de influencia de personas ligadas a Trump.", u: "https://www.aljazeera.com/news/2025/8/27/denmark-summons-us-diplomat-over-greenland-interference-attempts", st: "Al Jazeera" }
   ],
   interest: {
     "Russia": 3, "Greenland": 3, "United States of America": 2, "China": 2, "Iran": 1, "Sweden": 1, "Germany": 1
   },
   timeline: [
-    { era: "Guerra Fría", d: "1951", h: "Nace el PET", x: "Servicio de seguridad ligado a la OTAN." },
-    { era: "", d: "1967", h: "Nace el FE", x: "Inteligencia de defensa y señales." },
-    { era: "Siglo XXI", d: "2020", h: "Escándalo del FE", x: "La autoridad de control denuncia al servicio." },
-    { era: "", d: "2021", h: "Dunhammer", x: "Se revela el espionaje a líderes europeos con la NSA." },
-    { era: "Actual", d: "2025–2026", h: "Groenlandia", x: "Tensión con EE.UU. por la isla.", now: true }
+    { era: "Guerra Fría", d: "1951", h: "Nace el PET", x: "Servicio de seguridad ligado a la OTAN.", ctx: "Guerra Fría y entrada en la OTAN." },
+    { era: "", d: "1967", h: "Nace el FE", x: "Inteligencia de defensa y señales.", ctx: "Guerra Fría." },
+    { era: "Siglo XXI", d: "2020", h: "Escándalo del FE", x: "La autoridad de control denuncia al servicio.", ctx: "Debate sobre la vigilancia tras Snowden." },
+    { era: "", d: "2021", h: "Dunhammer", x: "Se revela el espionaje a líderes europeos con la NSA.", ctx: "Revelaciones de la prensa escandinava." },
+    { era: "Actual", d: "2025–2026", h: "Groenlandia", x: "Tensión con EE.UU. por la isla.", now: true, ctx: "Presión de EE.UU. sobre Groenlandia." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2012–2014", h: "Dunhammer", x: "Un informe interno del FE citado por DR concluyó que la NSA usó cables daneses para espiar a dirigentes de Alemania, Francia, Suecia y Noruega con ayuda danesa. El gobierno no lo desmintió.", who: "DR, sobre un informe interno del FE", missing: "", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
-    { ev: 2, ilegal: true, d: "2025", h: "La influencia en Groenlandia", x: "Informes de inteligencia citados por DR señalaron que al menos tres estadounidenses ligados a la administración Trump hicieron operaciones de influencia para promover la separación de Groenlandia. Dinamarca convocó al diplomático de EE.UU.; Washington no comentó el fondo.", who: "Gobierno de Dinamarca y DR", missing: "Identificación pública y pruebas.", u: "https://www.thestar.com.my/news/world/2025/08/27/danish-foreign-minister-summons-us-diplomat-over-greenland-broadcaster-reports", st: "Reuters, vía The Star" }
+    { ev: 2, ilegal: true, d: "2025", h: "La influencia en Groenlandia", x: "Informes de inteligencia citados por DR señalaron que al menos tres estadounidenses ligados a la administración Trump hicieron operaciones de influencia para promover la separación de Groenlandia. Dinamarca convocó al diplomático de EE.UU.; Washington no comentó el fondo.", who: "Gobierno de Dinamarca y DR", missing: "Identificación pública y pruebas.", u: "https://www.thestar.com.my/news/world/2025/08/27/danish-foreign-minister-summons-us-diplomat-over-greenland-broadcaster-reports", st: "Reuters, vía The Star" },
+    {"ev": 2, "ilegal": false, "d": "2006–2012", "h": "Morten Storm", "x": "Un danés converso infiltró Al Qaeda en Yemen para el PET. Dijo haber ayudado a la CIA a ubicar al clérigo Anwar al-Awlaki; el PET no lo confirmó.", "who": "El propio Storm; prensa danesa", "missing": "Confirmación oficial.", "u": "https://en.wikipedia.org/wiki/Morten_Storm", "st": "Wikipedia: Morten Storm"}
   ],
   failures: [
-    { k: "falla", d: "2020", ev: 1, w: 3, h: "El FE fuera de control", x: "La autoridad de control concluyó que el FE reunió datos de daneses y ocultó información al organismo.", why: "Lo dijo la autoridad de control; un estudio posterior relativizó parte de las acusaciones.", wx: "Informe del TET y comisión posterior.", who: "Autoridad de Control (TET)", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "falla", d: "2020", ev: 1, w: 3, h: "El FE fuera de control", x: "La autoridad de control concluyó que el FE reunió datos de daneses y ocultó información al organismo.", why: "Lo dijo la autoridad de control; un estudio posterior relativizó parte de las acusaciones.", wx: "Informe del TET y comisión posterior.", who: "Autoridad de Control (TET)", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
+    {"k": "omision", "d": "2015-02-14", "ev": 1, "w": 2, "h": "El aviso de la cárcel", "x": "El servicio penitenciario avisó al PET que el atacante de Copenhague se había radicalizado en prisión; el PET no lo consideró una amenaza.", "why": "No está en duda; lo reconoció el propio PET.", "wx": "", "who": "PET; gobierno danés", "u": "https://en.wikipedia.org/wiki/2015_Copenhagen_shootings", "st": "Wikipedia: atentados de Copenhague de 2015"}
   ],
   modus: {
     embajadas: "Oficiales y agregados en embajadas; el PET actúa en Groenlandia.",
@@ -149,6 +153,7 @@
   proxies: [
   ],
   cuentas: {"n": 2, "x": "Una comisión investigó al servicio militar; las causas contra sus ex jefes se cerraron."},
+  doctrina: [{"h": "Socio de la NSA", "x": "Aporta acceso a cables a cambio de inteligencia."}],
   sources: [
     { t: "Al Jazeera: Dinamarca convoca al diplomático de EE.UU. (2025)", u: "https://www.aljazeera.com/news/2025/8/27/denmark-summons-us-diplomat-over-greenland-interference-attempts" },
     { t: "Reuters: influencia encubierta en Groenlandia", u: "https://www.thestar.com.my/news/world/2025/08/27/danish-foreign-minister-summons-us-diplomat-over-greenland-broadcaster-reports" },

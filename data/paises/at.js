@@ -60,6 +60,7 @@
     { d: "2021-12", dir: "recorta", area: "Debido proceso", h: "Reforma de la DSN", x: "Separa la inteligencia de la policía y crea nuevos controles." }
   ],
   events: [
+    {"d": "1989-07-13", "lat": 48.2, "lon": 16.38, "c": "Austria", "t": "encubierta", "ev": 2, "h": "Asesinato de Ghassemlou", "x": "Emisarios iraníes matan en Viena al líder kurdo Abdul Rahman Ghassemlou durante una negociación.", "u": "https://en.wikipedia.org/wiki/Abdul_Rahman_Ghassemlou", "st": "Wikipedia: Abdul Rahman Ghassemlou"},
     { d: "2018-02-28", lat: 48.2, lon: 16.4, c: "Austria", t: "contra", ev: 1, h: "Allanamiento de la BVT", x: "Policías bajo el Ministerio del Interior allanan la oficina de contrainteligencia y se llevan datos sensibles; un tribunal lo declaró ilegal.", u: "https://en.wikipedia.org/wiki/Federal_Office_for_the_Protection_of_the_Constitution_and_Counterterrorism", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2020-11-02", lat: 48.21, lon: 16.37, c: "Austria", t: "contra", ev: 1, h: "Atentado de Viena", x: "Un yihadista mata a cuatro personas; Eslovaquia había avisado que intentó comprar munición.", u: "https://en.wikipedia.org/wiki/2020_Vienna_attack", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2026-05-20", lat: 48.2, lon: 16.35, c: "Austria", t: "contra", ev: 1, h: "Condena de Egisto Ott", x: "Un jurado condena al ex oficial de la BVT por espiar para Rusia.", u: "https://www.thestar.com.my/news/world/2026/05/21/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds", st: "Reuters, vía The Star" }
@@ -68,18 +69,20 @@
     "Russia": 3, "Iran": 1, "Serbia": 1, "Bosnia and Herz.": 1, "Turkey": 1, "Hungary": 1
   },
   timeline: [
-    { era: "Guerra Fría", d: "1955", h: "Neutralidad", x: "Viena se vuelve punto de encuentro de espías del Este y del Oeste." },
-    { era: "", d: "2018", h: "Allanamiento de la BVT", x: "Aliados reducen el intercambio de información." },
-    { era: "", d: "2020", h: "Atentado de Viena", x: "Falla al procesar una advertencia eslovaca." },
-    { era: "Reforma", d: "2021", h: "Nace la DSN", x: "Reemplaza a la BVT." },
-    { era: "Actual", d: "2026", h: "Condena de Ott", x: "El mayor juicio de espionaje en décadas.", now: true }
+    { era: "Guerra Fría", d: "1955", h: "Neutralidad", x: "Viena se vuelve punto de encuentro de espías del Este y del Oeste.", ctx: "Fin de la ocupación aliada." },
+    { era: "", d: "2018", h: "Allanamiento de la BVT", x: "Aliados reducen el intercambio de información.", ctx: "Coalición con la ultraderecha." },
+    { era: "", d: "2020", h: "Atentado de Viena", x: "Falla al procesar una advertencia eslovaca.", ctx: "Auge del Estado Islámico." },
+    { era: "Reforma", d: "2021", h: "Nace la DSN", x: "Reemplaza a la BVT.", ctx: "Reforma tras el atentado." },
+    { era: "Actual", d: "2026", h: "Condena de Ott", x: "El mayor juicio de espionaje en décadas.", now: true, ctx: "Guerra en Ucrania." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2015–2020", h: "Egisto Ott y Jan Marsalek", x: "El ex oficial de la BVT pasó datos de bases policiales, teléfonos y computadoras del Estado a Rusia por encargo de Jan Marsalek. Ayudó a ubicar al periodista Christo Grozev, cuya casa fue allanada. Fue condenado en mayo de 2026 y apeló.", who: "Tribunal Regional de Viena", missing: "", u: "https://www.thestar.com.my/news/world/2026/05/21/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds", st: "Reuters, vía The Star" },
-    { ev: 1, ilegal: true, d: "2018", h: "El allanamiento de la BVT", x: "Policías de una unidad dirigida por un dirigente del partido FPÖ allanaron la oficina de contrainteligencia y se llevaron archivos sobre la extrema derecha. Un tribunal declaró ilegal el operativo y servicios aliados limitaron la cooperación.", who: "Tribunal Regional Superior de Viena y comisión parlamentaria", missing: "", u: "https://en.wikipedia.org/wiki/Federal_Office_for_the_Protection_of_the_Constitution_and_Counterterrorism", st: "Wikipedia (síntesis de fuentes)" }
+    { ev: 1, ilegal: true, d: "2018", h: "El allanamiento de la BVT", x: "Policías de una unidad dirigida por un dirigente del partido FPÖ allanaron la oficina de contrainteligencia y se llevaron archivos sobre la extrema derecha. Un tribunal declaró ilegal el operativo y servicios aliados limitaron la cooperación.", who: "Tribunal Regional Superior de Viena y comisión parlamentaria", missing: "", u: "https://en.wikipedia.org/wiki/Federal_Office_for_the_Protection_of_the_Constitution_and_Counterterrorism", st: "Wikipedia (síntesis de fuentes)" },
+    {"ev": 2, "ilegal": true, "d": "1989", "h": "Los asesinos que Austria dejó ir", "x": "Tras el asesinato de Ghassemlou, los sospechosos iraníes se refugiaron en su embajada y salieron del país. Austria emitió órdenes de captura meses después.", "who": "Justicia y prensa de Austria", "missing": "Un juicio.", "u": "https://en.wikipedia.org/wiki/Abdul_Rahman_Ghassemlou", "st": "Wikipedia: Abdul Rahman Ghassemlou"}
   ],
   failures: [
-    { k: "falla", d: "2020-07", ev: 1, w: 3, h: "La advertencia eslovaca", x: "La BVT no actuó a tiempo ante el aviso de que el futuro atacante intentó comprar munición en Eslovaquia.", why: "No está en duda; lo concluyó una comisión oficial.", wx: "Informe de la comisión de 2021.", who: "Comisión de investigación del gobierno", u: "https://en.wikipedia.org/wiki/2020_Vienna_attack", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "falla", d: "2020-07", ev: 1, w: 3, h: "La advertencia eslovaca", x: "La BVT no actuó a tiempo ante el aviso de que el futuro atacante intentó comprar munición en Eslovaquia.", why: "No está en duda; lo concluyó una comisión oficial.", wx: "Informe de la comisión de 2021.", who: "Comisión de investigación del gobierno", u: "https://en.wikipedia.org/wiki/2020_Vienna_attack", st: "Wikipedia (síntesis de fuentes)" },
+    {"k": "omision", "d": "1989-07", "ev": 2, "w": 2, "h": "La salida de los sospechosos iraníes", "x": "La policía dejó volver a Teherán a los enviados iraníes sospechados del triple asesinato.", "why": "La salida no está en duda; se discute si hubo presión política para evitar un conflicto con Irán.", "wx": "", "who": "Prensa austríaca; ex funcionarios", "u": "https://en.wikipedia.org/wiki/Abdul_Rahman_Ghassemlou", "st": "Wikipedia: Abdul Rahman Ghassemlou"}
   ],
   modus: {
     embajadas: "Austria tiene poca inteligencia en el exterior; servicios extranjeros operan desde sus misiones en Viena.",
@@ -150,6 +153,7 @@
   proxies: [
   ],
   cuentas: {"n": 2, "x": "Comisión parlamentaria sobre la BVT y condena a Egisto Ott en 2026."},
+  doctrina: [{"h": "Neutralidad vigilada", "x": "Durante décadas, espiar a terceros países desde Austria no fue delito."}],
   sources: [
     { t: "Reuters: condena de Egisto Ott (2026)", u: "https://www.thestar.com.my/news/world/2026/05/21/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds" },
     { t: "Brussels Signal: el mayor caso de espionaje", u: "https://brusselssignal.eu/2026/05/former-austrian-intelligence-officer-convicted-of-spying-for-russia/" },

@@ -59,6 +59,7 @@
   ],
   events: [
     { d: "1988-03-16", lat: 35.18, lon: 45.98, c: "Iraq", t: "encubierta", ev: 1, h: "Halabja", x: "El régimen de Saddam Hussein bombardea con armas químicas a la ciudad kurda y mata a miles de civiles.", u: "https://en.wikipedia.org/wiki/Halabja_massacre", st: "Wikipedia: masacre de Halabja" },
+    {"d": "2003-02-05", "lat": 33.32, "lon": 44.42, "c": "Iraq", "t": "humana", "ev": 1, "h": "Curveball", "x": "Colin Powell cita en la ONU a un desertor iraquí cuyos datos sobre laboratorios móviles eran falsos.", "u": "https://en.wikipedia.org/wiki/Curveball_(informant)", "st": "Wikipedia: Curveball"},
     { d: "2014-06-10", lat: 36.34, lon: 43.13, c: "Iraq", t: "contra", ev: 1, h: "Caída de Mosul", x: "El Estado Islámico toma la segunda ciudad del país ante un ejército que se desbanda.", u: "https://en.wikipedia.org/wiki/Fall_of_Mosul", st: "Wikipedia: caída de Mosul" },
     { d: "2020-01-03", lat: 33.26, lon: 44.23, c: "Iraq", t: "encubierta", ev: 1, h: "Muerte de Soleimani", x: "Un dron de EE.UU. mata al jefe de la Fuerza Quds y a un jefe de las FMP en el aeropuerto de Bagdad.", u: "https://en.wikipedia.org/wiki/Assassination_of_Qasem_Soleimani", st: "Wikipedia: asesinato de Qasem Soleimani" },
     { d: "2026-10-29", lat: 33.31, lon: 44.37, c: "Iraq", t: "contra", ev: 1, h: "El primer ministro toma el INIS", x: "Ali al-Zaidi destituye al jefe de inteligencia y asume la conducción del servicio.", u: "https://www.thenationalnews.com/news/mena/2026/10/30/iraqi-prime-minister-takes-direct-control-of-intelligence-service/", st: "The National" }
@@ -67,15 +68,17 @@
     "Syria": 3, "Iran": 3, "Turkey": 2, "Saudi Arabia": 2, "Jordan": 1, "Kuwait": 1
   },
   timeline: [
-    { era: "Saddam Hussein", d: "1979–2003", h: "El Mujabarat", x: "Un aparato de vigilancia y represión con varias agencias que se espiaban entre sí." },
-    { era: "Ocupación", d: "2003", h: "Disolución", x: "EE.UU. disuelve los servicios de Saddam." },
-    { era: "", d: "2004", h: "Nace el INIS", x: "La CIA organiza el nuevo servicio." },
-    { era: "", d: "2014", h: "Mosul y las FMP", x: "Cae Mosul y nacen las milicias de Movilización Popular." },
-    { era: "Actual", d: "2020–2026", h: "Entre Irán y EE.UU.", x: "Ataques cruzados en suelo iraquí y control directo del INIS por el primer ministro.", now: true }
+    { era: "Saddam Hussein", d: "1979–2003", h: "El Mujabarat", x: "Un aparato de vigilancia y represión con varias agencias que se espiaban entre sí.", ctx: "Dictadura de Saddam Hussein." },
+    { era: "Ocupación", d: "2003", h: "Disolución", x: "EE.UU. disuelve los servicios de Saddam.", ctx: "Invasión de EE.UU." },
+    { era: "", d: "2004", h: "Nace el INIS", x: "La CIA organiza el nuevo servicio.", ctx: "Ocupación e insurgencia." },
+    { era: "", d: "2014", h: "Mosul y las FMP", x: "Cae Mosul y nacen las milicias de Movilización Popular.", ctx: "Auge del Estado Islámico." },
+    { era: "Actual", d: "2020–2026", h: "Entre Irán y EE.UU.", x: "Ataques cruzados en suelo iraquí y control directo del INIS por el primer ministro.", now: true, ctx: "Retirada gradual de EE.UU." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "1986–1989", h: "La campaña de Anfal", x: "El régimen de Saddam Hussein mató a decenas de miles de kurdos, incluido el ataque químico de Halabja. Un tribunal iraquí condenó a los responsables por genocidio en 2007.", who: "Alto Tribunal Penal Iraquí", missing: "", u: "https://en.wikipedia.org/wiki/Halabja_massacre", st: "Wikipedia: masacre de Halabja" },
-    { ev: 1, ilegal: true, d: "2003–2004", h: "Abu Ghraib", x: "Soldados y contratistas de EE.UU. torturaron a presos iraquíes en la cárcel de Abu Ghraib. Varios militares fueron condenados.", who: "Tribunales militares de EE.UU.", missing: "", u: "https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse", st: "Wikipedia: Abu Ghraib" }
+    { ev: 1, ilegal: true, d: "2003–2004", h: "Abu Ghraib", x: "Soldados y contratistas de EE.UU. torturaron a presos iraquíes en la cárcel de Abu Ghraib. Varios militares fueron condenados.", who: "Tribunales militares de EE.UU.", missing: "", u: "https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse", st: "Wikipedia: Abu Ghraib" },
+    {"ev": 1, "ilegal": false, "d": "1999–2003", "h": "Curveball", "x": "Rafid Ahmed Alwan, un desertor iraquí en Alemania, inventó que Irak tenía laboratorios móviles de armas biológicas. La CIA usó su testimonio para justificar la invasión; él admitió la mentira en 2011.", "who": "El propio Alwan; comisiones del Senado de EE.UU.", "missing": "", "u": "https://en.wikipedia.org/wiki/Curveball_(informant)", "st": "Wikipedia: Curveball"},
+    {"ev": 2, "ilegal": true, "d": "2014–2019", "h": "Los cables iraníes", "x": "Documentos filtrados del Ministerio de Inteligencia iraní mostraron cómo Irán reclutó a funcionarios iraquíes, incluidos ex informantes de la CIA.", "who": "The Intercept; The New York Times", "missing": "Verificación oficial iraquí.", "u": "https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_relations", "st": "Wikipedia: relaciones Irán–Irak"}
   ],
   failures: [
     { k: "falla", d: "2014-06-10", ev: 1, w: 3, h: "La caída de Mosul", x: "Unos pocos miles de combatientes del Estado Islámico tomaron la ciudad ante tropas mucho más numerosas.", why: "No está en duda; una comisión parlamentaria responsabilizó al ex primer ministro Nuri al-Maliki y a altos mandos.", wx: "Informe de la comisión parlamentaria de 2015.", who: "Parlamento de Irak", u: "https://en.wikipedia.org/wiki/Fall_of_Mosul", st: "Wikipedia: caída de Mosul" }
@@ -89,7 +92,8 @@
     enlaces: "Coopera con EE.UU., el Reino Unido y Arabia Saudita, y a la vez con Irán."
   },
   insiders: [
-    { k: "desertor", dir: "sale", ev: 1, d: "1995", n: "Hussein Kamel", h: "El yerno de Saddam", x: "El jefe de los programas de armas desertó a Jordania y reveló a la ONU y a la CIA el programa de armas biológicas. Volvió a Irak en 1996 y fue asesinado.", cargo: "Ministro de Industria y jefe de los programas de armamento", hacia: "Jordania, EE.UU. y los inspectores de la ONU", fin: "Asesinado en Bagdad en 1996.", who: "Inspectores de la ONU; gobierno de Jordania", u: "https://en.wikipedia.org/wiki/Hussein_Kamel_al-Majid", st: "Wikipedia: Hussein Kamel" }
+    { k: "desertor", dir: "sale", ev: 1, d: "1995", n: "Hussein Kamel", h: "El yerno de Saddam", x: "El jefe de los programas de armas desertó a Jordania y reveló a la ONU y a la CIA el programa de armas biológicas. Volvió a Irak en 1996 y fue asesinado.", cargo: "Ministro de Industria y jefe de los programas de armamento", hacia: "Jordania, EE.UU. y los inspectores de la ONU", fin: "Asesinado en Bagdad en 1996.", who: "Inspectores de la ONU; gobierno de Jordania", u: "https://en.wikipedia.org/wiki/Hussein_Kamel_al-Majid", st: "Wikipedia: Hussein Kamel" },
+    {"k": "desertor", "dir": "sale", "ev": 1, "d": "1999", "n": "Rafid Ahmed Alwan (Curveball)", "h": "La fuente falsa de la guerra", "x": "Ingeniero químico que pidió asilo en Alemania y dio al BND datos inventados.", "cargo": "Ingeniero químico", "hacia": "Alemania (BND) y, a través de ella, EE.UU.", "fin": "Admitió haber mentido en 2011.", "who": "El propio Alwan", "u": "https://en.wikipedia.org/wiki/Curveball_(informant)", "st": "Wikipedia: Curveball"}
   ],
   leaks: [
     { k: "filtracion", rol: "blanco", ev: 2, d: "2019-11", h: "Los cables iraníes", x: "Documentos filtrados del Ministerio de Inteligencia iraní mostraron cómo Irán reclutó a funcionarios iraquíes y a ex informantes de la CIA.", obj: "Exponer la influencia iraní en Irak.", who: "The Intercept y The New York Times", u: "https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_relations", st: "Wikipedia: relaciones Irán–Irak" }
@@ -145,6 +149,7 @@
     { a: "Primer ministro", b: "Facciones de las FMP alineadas con Irán", k: "Con otros poderes", stake: "El control de las armas y de la inteligencia", state: "Abierta", x: "Al-Zaidi asumió el INIS y empujó un plan de desarme; las FMP quedaron afuera del desarme." }
   ],
   cuentas: {"n": 2, "x": "Juicios al régimen de Saddam; las milicias no rinden cuentas."},
+  doctrina: [{"h": "Servicio disputado", "x": "El primer ministro, los partidos y las milicias pelean por controlarlo."}],
   sources: [
     { t: "The National: el primer ministro asume el control del INIS (2026)", u: "https://www.thenationalnews.com/news/mena/2026/10/30/iraqi-prime-minister-takes-direct-control-of-intelligence-service/" },
     { t: "Wikipedia: INIS", u: "https://en.wikipedia.org/wiki/Iraqi_National_Intelligence_Service" },

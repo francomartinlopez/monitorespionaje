@@ -71,12 +71,12 @@
     "Turkey": 3, "Cyprus": 3, "Albania": 1, "Macedonia": 1, "Russia": 2, "Libya": 1, "Egypt": 1, "Israel": 1, "Bulgaria": 1
   },
   timeline: [
-    { era: "Guerra Fría", d: "1953", h: "Nace el KYP", x: "Servicio creado con apoyo de la CIA." },
-    { era: "", d: "1967–1974", h: "Dictadura", x: "Oficiales ligados al KYP encabezan el régimen de los coroneles." },
-    { era: "Democracia", d: "1986", h: "Nace el EYP", x: "Reemplaza al KYP." },
-    { era: "", d: "2004–2005", h: "Escuchas a Vodafone", x: "Intercepción del teléfono del primer ministro." },
-    { era: "", d: "2022", h: "Watergate griego", x: "Predator y escuchas del EYP a un líder opositor." },
-    { era: "Actual", d: "2026", h: "Condenas y Corte Suprema", x: "Condenas a Intellexa y nueva investigación sobre quién ordenó el espionaje.", now: true }
+    { era: "Guerra Fría", d: "1953", h: "Nace el KYP", x: "Servicio creado con apoyo de la CIA.", ctx: "Posguerra civil y alianza con EE.UU." },
+    { era: "", d: "1967–1974", h: "Dictadura", x: "Oficiales ligados al KYP encabezan el régimen de los coroneles.", ctx: "Junta de los coroneles." },
+    { era: "Democracia", d: "1986", h: "Nace el EYP", x: "Reemplaza al KYP.", ctx: "Gobierno de Andreas Papandréu." },
+    { era: "", d: "2004–2005", h: "Escuchas a Vodafone", x: "Intercepción del teléfono del primer ministro.", ctx: "Juegos Olímpicos de Atenas." },
+    { era: "", d: "2022", h: "Watergate griego", x: "Predator y escuchas del EYP a un líder opositor.", ctx: "Gobierno de Mitsotakis." },
+    { era: "Actual", d: "2026", h: "Condenas y Corte Suprema", x: "Condenas a Intellexa y nueva investigación sobre quién ordenó el espionaje.", now: true, ctx: "Fallos judiciales por el caso Predator." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2020–2022", h: "El Watergate griego", x: "Un tribunal de Atenas condenó en 2026 a Tal Dilian, fundador de Intellexa, y a otras tres personas por el acceso ilegal a comunicaciones de 87 personas. El gobierno niega haber usado Predator. Un tercio de los vigilados también estaba bajo escucha legal del EYP y la causa sobre quién lo ordenó pasó a la Corte Suprema.", who: "Tribunal de Atenas", missing: "", u: "https://neoskosmos.com/en/2026/02/27/news/greece/athens-court-convicts-four-over-greece-spyware-saga/", st: "AFP, vía Neos Kosmos" },
@@ -155,6 +155,7 @@
   proxies: [
   ],
   cuentas: {"n": 1, "x": "El caso Predator no tuvo responsables políticos."},
+  doctrina: [{"h": "Turquía primero", "x": "El servicio depende del primer ministro desde 2019 y se concentra en el vecino."}],
   sources: [
     { t: "Amnistía: condenas en el caso Predator (2026)", u: "https://www.amnesty.org/en/latest/news/2026/02/greece-spyware-scandal/" },
     { t: "AFP: cuatro condenados por el escándalo de espionaje", u: "https://neoskosmos.com/en/2026/02/27/news/greece/athens-court-convicts-four-over-greece-spyware-saga/" },

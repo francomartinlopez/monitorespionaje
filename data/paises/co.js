@@ -69,11 +69,11 @@
     "Venezuela": 3, "Ecuador": 2, "United States of America": 2, "Panama": 1, "Mexico": 1, "Peru": 1, "Brazil": 1
   },
   timeline: [
-    { era: "Conflicto", d: "1953", h: "Nace el SIC", x: "Antecesor del DAS." },
-    { era: "", d: "1960", h: "Nace el DAS", x: "Servicio de inteligencia y policía de migración." },
-    { era: "", d: "2002–2009", h: "Chuzadas", x: "El DAS espía a la Corte Suprema y a opositores." },
-    { era: "", d: "2011", h: "Nace la DNI", x: "Se disuelve el DAS." },
-    { era: "Actual", d: "2024–2026", h: "Pegasus y EE.UU.", x: "Denuncia de Petro y tensión con Washington.", now: true }
+    { era: "Conflicto", d: "1953", h: "Nace el SIC", x: "Antecesor del DAS.", ctx: "Dictadura de Rojas Pinilla." },
+    { era: "", d: "1960", h: "Nace el DAS", x: "Servicio de inteligencia y policía de migración.", ctx: "Frente Nacional." },
+    { era: "", d: "2002–2009", h: "Chuzadas", x: "El DAS espía a la Corte Suprema y a opositores.", ctx: "Gobierno de Álvaro Uribe." },
+    { era: "", d: "2011", h: "Nace la DNI", x: "Se disuelve el DAS.", ctx: "Gobierno de Juan Manuel Santos." },
+    { era: "Actual", d: "2024–2026", h: "Pegasus y EE.UU.", x: "Denuncia de Petro y tensión con Washington.", now: true, ctx: "Gobierno de Gustavo Petro." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2002–2009", h: "Las chuzadas del DAS", x: "El DAS interceptó y siguió a magistrados de la Corte Suprema, periodistas y opositores del gobierno de Álvaro Uribe. La ex directora María del Pilar Hurtado y otros funcionarios fueron condenados.", who: "Corte Suprema de Justicia de Colombia", missing: "", u: "https://en.wikipedia.org/wiki/Departamento_Administrativo_de_Seguridad", st: "Wikipedia (síntesis de fuentes)" },
@@ -152,6 +152,7 @@
     {"id": "auc", "s": "AUC", "n": "Autodefensas Unidas de Colombia", "k": "armado", "d": "1997–2006", "rol": "doble", "hoy": false, "ev": 1, "x": "El jefe del DAS Jorge Noguera fue condenado por entregar a los paramilitares listas de sindicalistas y opositores.", "who": "Corte Suprema de Colombia (2011)", "u": "https://en.wikipedia.org/wiki/Administrative_Department_of_Security", "st": "Wikipedia: Administrative Department of Security", "graf": true}
   ],
   cuentas: {"n": 3, "x": "El DAS fue disuelto y varios de sus ex jefes, condenados."},
+  doctrina: [{"h": "Del DAS a la DNI", "x": "La DNI nació en 2011 sin poderes policiales, tras los abusos del DAS."}],
   sources: [
     { t: "Reuters: Petro suspende el intercambio de inteligencia (2025)", u: "https://www.thestar.com.my/news/world/2025/11/12/colombia-president-orders-suspension-of-intelligence-sharing-with-us" },
     { t: "El Tiempo: el caso Pegasus y el Grupo Egmont", u: "https://www.eltiempo.com/justicia/investigacion/en-que-quedo-el-escandalo-por-la-compra-de-pegasus-colombia-entraria-en-fase-de-prueba-con-el-grupo-egmont-tras-su-suspension-3474697" },

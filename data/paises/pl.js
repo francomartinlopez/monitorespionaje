@@ -76,12 +76,12 @@
     "Russia": 3, "Belarus": 3, "Ukraine": 3, "Lithuania": 2, "Germany": 1, "United States of America": 1, "China": 1
   },
   timeline: [
-    { era: "Comunismo", d: "1944–1990", h: "La policía política", x: "El Ministerio de Seguridad Pública y luego el Servicio de Seguridad persiguen a la oposición." },
-    { era: "Democracia", d: "1990", h: "Operación Samum", x: "La nueva inteligencia polaca rescata a agentes de la CIA en Irak." },
-    { era: "", d: "2002–2003", h: "Centro secreto de la CIA", x: "Detenidos de Al Qaeda son interrogados en suelo polaco." },
-    { era: "", d: "2006", h: "Disolución de los servicios militares", x: "Se crean el SWW y la SKW tras un informe sobre los viejos servicios." },
-    { era: "", d: "2017–2022", h: "Pegasus", x: "La CBA usa el programa espía contra opositores, según la fiscalía actual." },
-    { era: "Actual", d: "2022–2026", h: "Guerra híbrida rusa", x: "Sabotajes, incendios, redes de reclutamiento y acusaciones por Pegasus.", now: true }
+    { era: "Comunismo", d: "1944–1990", h: "La policía política", x: "El Ministerio de Seguridad Pública y luego el Servicio de Seguridad persiguen a la oposición.", ctx: "Régimen comunista bajo órbita soviética." },
+    { era: "Democracia", d: "1990", h: "Operación Samum", x: "La nueva inteligencia polaca rescata a agentes de la CIA en Irak.", ctx: "Caída del comunismo y primera guerra del Golfo." },
+    { era: "", d: "2002–2003", h: "Centro secreto de la CIA", x: "Detenidos de Al Qaeda son interrogados en suelo polaco.", ctx: "Guerra contra el terrorismo de EE.UU." },
+    { era: "", d: "2006", h: "Disolución de los servicios militares", x: "Se crean el SWW y la SKW tras un informe sobre los viejos servicios.", ctx: "Gobierno de Ley y Justicia." },
+    { era: "", d: "2017–2022", h: "Pegasus", x: "La CBA usa el programa espía contra opositores, según la fiscalía actual.", ctx: "Segundo gobierno de Ley y Justicia." },
+    { era: "Actual", d: "2022–2026", h: "Guerra híbrida rusa", x: "Sabotajes, incendios, redes de reclutamiento y acusaciones por Pegasus.", now: true, ctx: "Invasión rusa de Ucrania." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2017–2022", h: "Pegasus contra la oposición", x: "Citizen Lab confirmó infecciones de Pegasus en teléfonos del senador Krzysztof Brejza, el abogado Roman Giertych y la fiscal Ewa Wrzosek. El fiscal general informó 578 personas vigiladas. En 2026 fueron acusados los ex jefes de la ABW, la SKW y la CBA por abuso de funciones.", who: "Fiscalía Nacional de Polonia y Citizen Lab", missing: "", u: "https://www.aljazeera.com/news/2026/2/25/poland-charges-ex-intel-chiefs-for-using-israels-pegasus-spyware", st: "Al Jazeera" },

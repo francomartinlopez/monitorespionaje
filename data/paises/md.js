@@ -60,6 +60,9 @@
     { d: "2024-05", dir: "amplia", area: "Expresión", h: "Corrupción electoral", x: "Penas más duras por compra de votos y financiamiento ilícito." }
   ],
   events: [
+    {"d": "2022-04-25", "lat": 46.84, "lon": 29.63, "c": "Moldova", "t": "sabotaje", "ev": 3, "h": "Explosiones en Transnistria", "x": "Estallidos dañan el ministerio de seguridad separatista y antenas de radio. Moldavia y Ucrania hablaron de una provocación; Rusia culpó a Ucrania.", "u": "https://en.wikipedia.org/wiki/2022_Transnistria_attacks", "st": "Wikipedia: ataques en Transnistria de 2022"},
+    {"d": "2023-02-13", "lat": 47.01, "lon": 28.86, "c": "Moldova", "t": "encubierta", "ev": 2, "h": "Denuncia de un plan de golpe", "x": "La presidenta Maia Sandu denuncia un plan ruso para derrocar al gobierno con saboteadores entrenados.", "u": "https://kyivindependent.com/media-moldova-coup-accusation/", "st": "The Kyiv Independent"},
+    {"d": "2023-07-26", "lat": 47.02, "lon": 28.83, "c": "Moldova", "t": "contra", "ev": 1, "h": "Expulsión de 45 diplomáticos rusos", "x": "Moldavia reduce la embajada rusa tras revelarse 28 antenas en su techo.", "u": "https://kyivindependent.com/moldova-expels-45-russian-diplomats-embassy-staff", "st": "The Kyiv Independent"},
     { d: "2024-10-20", lat: 47.0, lon: 28.86, c: "Moldova", t: "humana", ev: 2, h: "Referéndum y elección presidencial", x: "La red de Shor compra votos y difunde propaganda; el sí a la UE gana con el 50,4%.", u: "https://sis.md/en/node/1613", st: "Servicio de Información y Seguridad de Moldavia" },
     { d: "2025-09-22", lat: 47.03, lon: 28.83, c: "Moldova", t: "contra", ev: 2, h: "Detienen a 74 personas", x: "La policía y el SIS desarman una red entrenada para provocar disturbios en la elección parlamentaria.", u: "https://www.intellinews.com/moldova-dismantles-russia-trained-network-ahead-of-general-election-402568", st: "bne IntelliNews" }
   ],
@@ -67,18 +70,19 @@
     "Russia": 3, "Ukraine": 2, "Romania": 2, "Serbia": 1, "Belarus": 1
   },
   timeline: [
-    { era: "Independencia", d: "1991", h: "Nace Moldavia", x: "Guerra de Transnistria y tropas rusas en 1992." },
-    { era: "", d: "1999", h: "Nace el SIS", x: "Reemplaza al antiguo ministerio de seguridad." },
-    { era: "", d: "2014", h: "Robo del siglo", x: "Desaparecen mil millones de dólares de tres bancos; Ilan Shor es condenado." },
-    { era: "Sandu", d: "2024", h: "Referéndum europeo", x: "Gana el sí pese a la compra de votos." },
-    { era: "Actual", d: "2025–2026", h: "Elecciones parlamentarias", x: "Detenciones y miles de causas por compra de votos.", now: true }
+    { era: "Independencia", d: "1991", h: "Nace Moldavia", x: "Guerra de Transnistria y tropas rusas en 1992.", ctx: "Disolución de la URSS y guerra de Transnistria." },
+    { era: "", d: "1999", h: "Nace el SIS", x: "Reemplaza al antiguo ministerio de seguridad.", ctx: "Crisis económica de los noventa." },
+    { era: "", d: "2014", h: "Robo del siglo", x: "Desaparecen mil millones de dólares de tres bancos; Ilan Shor es condenado.", ctx: "Acuerdo de asociación con la UE." },
+    { era: "Sandu", d: "2024", h: "Referéndum europeo", x: "Gana el sí pese a la compra de votos.", ctx: "Guerra en Ucrania." },
+    { era: "Actual", d: "2025–2026", h: "Elecciones parlamentarias", x: "Detenciones y miles de causas por compra de votos.", now: true, ctx: "Candidatura a la UE." }
   ],
   cases: [
     { ev: 2, ilegal: true, d: "2024", h: "La red de Shor", x: "Según el SIS, Rusia montó un centro de operaciones en Moscú y puso a Ilan Shor al frente de una red con recursos financieros, mediáticos y técnicos. La red pagó a votantes, entrenó a observadores falsos y difundió propaganda en Telegram y TikTok. Shor y Moscú lo niegan.", who: "Servicio de Información y Seguridad de Moldavia", missing: "Condenas firmes que prueben la orden estatal rusa.", u: "https://sis.md/en/node/1613", st: "Servicio de Información y Seguridad de Moldavia" },
     { ev: 2, ilegal: true, d: "2025", h: "El plan de disturbios", x: "La policía acusó a 74 personas de recibir entrenamiento en Serbia para enfrentar a la policía durante las elecciones; se incautaron armas y dinero. El gobierno dijo que había pruebas de vínculos con los servicios rusos.", who: "Policía y fiscalía de Moldavia", missing: "Juicios.", u: "https://gov.md/en/print/pdf/node/5371", st: "Gobierno de Moldavia" }
   ],
   failures: [
-    { k: "falla", d: "2014", ev: 1, w: 3, h: "El robo del siglo", x: "Mil millones de dólares salieron de tres bancos moldavos sin que los organismos de control lo detectaran a tiempo.", why: "No está en duda; hubo condenas, entre ellas la de Shor.", wx: "Auditoría Kroll y sentencias.", who: "Justicia de Moldavia", u: "https://en.wikipedia.org/wiki/2014_Moldovan_bank_fraud_scandal", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "falla", d: "2014", ev: 1, w: 3, h: "El robo del siglo", x: "Mil millones de dólares salieron de tres bancos moldavos sin que los organismos de control lo detectaran a tiempo.", why: "No está en duda; hubo condenas, entre ellas la de Shor.", wx: "Auditoría Kroll y sentencias.", who: "Justicia de Moldavia", u: "https://en.wikipedia.org/wiki/2014_Moldovan_bank_fraud_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    {"k": "acierto", "d": "2025-09-22", "ev": 2, "w": 2, "h": "La red desarmada antes de votar", "x": "Días antes de las elecciones, la policía y el SIS detuvieron a decenas de personas entrenadas en el exterior para provocar disturbios.", "why": "Las detenciones no están en duda; Rusia niega estar detrás.", "wx": "", "who": "Gobierno de Moldavia", "u": "https://www.intellinews.com/moldova-dismantles-russia-trained-network-ahead-of-general-election-402568", "st": "bne IntelliNews"}
   ],
   modus: {
     embajadas: "El SIS tiene poca presencia exterior; coopera con socios.",
@@ -149,6 +153,7 @@
   proxies: [
   ],
   cuentas: {"n": 2, "x": "Causas por corrupción e injerencia, con pocas condenas firmes."},
+  doctrina: [{"h": "Resistir la injerencia", "x": "La prioridad es frenar la compra de votos y la desinformación rusas."}],
   sources: [
     { t: "SIS: informe sobre la injerencia electoral", u: "https://sis.md/en/node/1613" },
     { t: "Gobierno de Moldavia: discurso del primer ministro (2025)", u: "https://gov.md/en/print/pdf/node/5371" },

@@ -60,18 +60,21 @@
   ],
   events: [
     { d: "1997-09-25", lat: 31.95, lon: 35.93, c: "Jordan", t: "encubierta", ev: 1, h: "Envenenamiento de Jaled Meshal", x: "Agentes del Mossad envenenan en Amán al dirigente de Hamas; Jordania detiene a dos y obliga a Israel a entregar el antídoto.", u: "https://en.wikipedia.org/wiki/Khaled_Mashal", st: "Wikipedia (síntesis de fuentes)" },
+    {"d": "2005-11-09", "lat": 31.95, "lon": 35.91, "c": "Jordan", "t": "contra", "ev": 1, "h": "Atentados de Amán", "x": "Suicidas de Al Qaeda en Irak atacan tres hoteles y matan a 60 personas.", "u": "https://en.wikipedia.org/wiki/2005_Amman_bombings", "st": "Wikipedia: atentados de Amán de 2005"},
+    {"d": "2006-06-07", "lat": 33.78, "lon": 44.5, "c": "Iraq", "t": "humana", "ev": 2, "h": "La pista de Zarqawi", "x": "La inteligencia jordana ayuda a EE.UU. a ubicar al jefe de Al Qaeda en Irak, muerto en un bombardeo.", "u": "https://en.wikipedia.org/wiki/Abu_Musab_al-Zarqawi", "st": "Wikipedia: Abu Musab al-Zarqawi"},
     { d: "2009-12-30", lat: 33.34, lon: 69.95, c: "Afghanistan", t: "contra", ev: 1, h: "Ataque en Khost", x: "Un doble agente presentado por la GID detona una bomba en una base de la CIA y mata a siete estadounidenses y a un oficial jordano.", u: "https://en.wikipedia.org/wiki/Camp_Chapman_attack", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "2021-04-03", lat: 31.97, lon: 35.86, c: "Jordan", t: "contra", ev: 1, h: "Caso de sedición", x: "Detienen a Bassem Awadallah y ponen bajo arresto domiciliario al príncipe Hamzah.", u: "https://en.wikipedia.org/wiki/Hamzah_bin_Hussein", st: "Wikipedia (síntesis de fuentes)" }
+    { d: "2021-04-03", lat: 31.97, lon: 35.86, c: "Jordan", t: "contra", ev: 1, h: "Caso de sedición", x: "Detienen a Bassem Awadallah y ponen bajo arresto domiciliario al príncipe Hamzah.", u: "https://en.wikipedia.org/wiki/Hamzah_bin_Hussein", st: "Wikipedia (síntesis de fuentes)" },
+    {"d": "2024-04-13", "lat": 31.96, "lon": 35.93, "c": "Jordan", "t": "contra", "ev": 1, "h": "Derribo de drones iraníes", "x": "Jordania derriba drones y misiles iraníes que cruzaban su espacio aéreo hacia Israel.", "u": "https://en.wikipedia.org/wiki/April_2024_Iranian_strikes_against_Israel", "st": "Wikipedia: ataques iraníes contra Israel de abril de 2024"}
   ],
   interest: {
     "Syria": 3, "Iraq": 2, "Palestine": 3, "Israel": 2, "Iran": 2, "Saudi Arabia": 1, "United States of America": 1
   },
   timeline: [
-    { era: "Hussein", d: "1964", h: "Nace la GID", x: "El rey Hussein crea la Mujabarat." },
-    { era: "", d: "1970", h: "Septiembre Negro", x: "Guerra contra las organizaciones palestinas." },
-    { era: "Abdalá II", d: "2005", h: "Atentados de Amán", x: "Al Qaeda ataca hoteles; la GID refuerza el contraterrorismo." },
-    { era: "", d: "2009", h: "Khost", x: "Un doble agente golpea a la CIA y a la GID." },
-    { era: "Actual", d: "2021–2026", h: "Sedición y Hermanos Musulmanes", x: "Juicio a Awadallah y prohibición de la Hermandad.", now: true }
+    { era: "Hussein", d: "1964", h: "Nace la GID", x: "El rey Hussein crea la Mujabarat.", ctx: "Reinado de Hussein." },
+    { era: "", d: "1970", h: "Septiembre Negro", x: "Guerra contra las organizaciones palestinas.", ctx: "Choque con las guerrillas palestinas." },
+    { era: "Abdalá II", d: "2005", h: "Atentados de Amán", x: "Al Qaeda ataca hoteles; la GID refuerza el contraterrorismo.", ctx: "Guerra de Irak." },
+    { era: "", d: "2009", h: "Khost", x: "Un doble agente golpea a la CIA y a la GID.", ctx: "Guerra de Afganistán." },
+    { era: "Actual", d: "2021–2026", h: "Sedición y Hermanos Musulmanes", x: "Juicio a Awadallah y prohibición de la Hermandad.", now: true, ctx: "Reinado de Abdalá II." }
   ],
   cases: [
     { ev: 1, ilegal: false, d: "2009", h: "El doble agente de Khost", x: "Humam al-Balawi, un médico jordano detenido y reclutado por la GID, fue llevado a una base de la CIA en Afganistán como fuente sobre Al Qaeda. Era leal a los yihadistas y se inmoló, matando a siete agentes de la CIA y al oficial jordano Sharif Ali bin Zeid.", who: "CIA y gobierno de Jordania", missing: "", u: "https://en.wikipedia.org/wiki/Camp_Chapman_attack", st: "Wikipedia (síntesis de fuentes)" },
@@ -79,7 +82,9 @@
     { ev: 2, ilegal: true, d: "2019–2023", h: "Pegasus contra activistas", x: "Access Now y Citizen Lab identificaron infecciones de Pegasus en teléfonos de unos 35 periodistas, abogados y activistas jordanos. Atribuyeron la mayoría al gobierno, que lo niega.", who: "Access Now y Citizen Lab", missing: "Reconocimiento oficial.", u: "https://en.wikipedia.org/wiki/Pegasus_(spyware)", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
-    { k: "falla", d: "2009-12", ev: 1, w: 3, h: "Khost", x: "La GID confió en una fuente que resultó ser un agente de Al Qaeda.", why: "No está en duda; lo reconocieron la CIA y Jordania.", wx: "Investigación interna de la CIA.", who: "CIA", u: "https://en.wikipedia.org/wiki/Camp_Chapman_attack", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "falla", d: "2009-12", ev: 1, w: 3, h: "Khost", x: "La GID confió en una fuente que resultó ser un agente de Al Qaeda.", why: "No está en duda; lo reconocieron la CIA y Jordania.", wx: "Investigación interna de la CIA.", who: "CIA", u: "https://en.wikipedia.org/wiki/Camp_Chapman_attack", st: "Wikipedia (síntesis de fuentes)" },
+    {"k": "falla", "d": "2005-11-09", "ev": 1, "w": 2, "h": "Los hoteles de Amán", "x": "La GID no detectó la célula enviada desde Irak por el jordano Abu Musab al-Zarqawi.", "why": "No está en duda.", "wx": "", "who": "Gobierno de Jordania", "u": "https://en.wikipedia.org/wiki/2005_Amman_bombings", "st": "Wikipedia: atentados de Amán de 2005"},
+    {"k": "acierto", "d": "2006-06-07", "ev": 2, "w": 2, "h": "La muerte de Zarqawi", "x": "Meses después de los atentados, la GID aportó datos para ubicar a Zarqawi en Irak.", "why": "La muerte no está en duda; el peso del aporte jordano se conoce por funcionarios de ambos países.", "wx": "", "who": "Funcionarios de Jordania y EE.UU.", "u": "https://en.wikipedia.org/wiki/Abu_Musab_al-Zarqawi", "st": "Wikipedia: Abu Musab al-Zarqawi"}
   ],
   modus: {
     embajadas: "Oficiales de la GID en embajadas de la región y enlaces con servicios occidentales.",
@@ -149,6 +154,7 @@
   proxies: [
   ],
   cuentas: {"n": 1, "x": "Los servicios sólo responden al rey."},
+  doctrina: [{"h": "Socio imprescindible", "x": "La GID compensa el tamaño del país con inteligencia humana para sus aliados."}],
   sources: [
     { t: "Wikipedia: General Intelligence Directorate (Jordan)", u: "https://en.wikipedia.org/wiki/General_Intelligence_Directorate_(Jordan)" },
     { t: "Wikipedia: Camp Chapman attack", u: "https://en.wikipedia.org/wiki/Camp_Chapman_attack" },

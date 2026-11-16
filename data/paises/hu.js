@@ -71,11 +71,11 @@
     "Ukraine": 3, "Romania": 2, "Serbia": 2, "Slovakia": 2, "Russia": 2, "Belgium": 2, "China": 1, "Austria": 1
   },
   timeline: [
-    { era: "Comunismo", d: "1945–1990", h: "La policía política", x: "La ÁVH y luego el III/III vigilan y reprimen a la población." },
-    { era: "Democracia", d: "1990", h: "Nuevos servicios", x: "Se crean la IH y el servicio de protección constitucional." },
-    { era: "Orbán", d: "2010–2026", h: "Control político", x: "Los servicios pasan a manos de ministros de confianza." },
-    { era: "", d: "2021", h: "Pegasus", x: "Se revela la vigilancia de periodistas y empresarios." },
-    { era: "Actual", d: "2026", h: "Cambio de gobierno", x: "Gana Tisza y se disuelve la Oficina de Protección de la Soberanía.", now: true }
+    { era: "Comunismo", d: "1945–1990", h: "La policía política", x: "La ÁVH y luego el III/III vigilan y reprimen a la población.", ctx: "Régimen comunista y revolución de 1956." },
+    { era: "Democracia", d: "1990", h: "Nuevos servicios", x: "Se crean la IH y el servicio de protección constitucional.", ctx: "Transición a la democracia." },
+    { era: "Orbán", d: "2010–2026", h: "Control político", x: "Los servicios pasan a manos de ministros de confianza.", ctx: "Gobiernos de Viktor Orbán." },
+    { era: "", d: "2021", h: "Pegasus", x: "Se revela la vigilancia de periodistas y empresarios.", ctx: "Elecciones de 2022." },
+    { era: "Actual", d: "2026", h: "Cambio de gobierno", x: "Gana Tisza y se disuelve la Oficina de Protección de la Soberanía.", now: true, ctx: "Victoria de Péter Magyar." }
   ],
   cases: [
     { ev: 2, ilegal: true, d: "2018–2021", h: "Pegasus en Hungría", x: "El Proyecto Pegasus identificó unos 300 números húngaros como posibles blancos, entre ellos periodistas y abogados. Un funcionario de gobierno admitió en 2021 que el Ministerio del Interior había comprado el programa. La autoridad de datos concluyó que el uso fue legal, lo que los afectados rechazan.", who: "Proyecto Pegasus, Amnistía y gobierno húngaro", missing: "Una investigación independiente sobre cada blanco.", u: "https://en.wikipedia.org/wiki/Pegasus_(spyware)", st: "Wikipedia (síntesis de fuentes)" },
@@ -152,6 +152,7 @@
   proxies: [
   ],
   cuentas: {"n": 1, "x": "El caso Pegasus no tuvo responsables."},
+  doctrina: [{"h": "Seguridad al servicio del gobierno", "x": "Con Orbán los servicios quedaron bajo control directo del gabinete del primer ministro."}],
   sources: [
     { t: "Telex: el Parlamento disuelve la Oficina de Protección de la Soberanía (2026)", u: "https://telex.hu/english/2026/06/30/hungarian-parliament-votes-to-abolish-sovereignty-protection-office" },
     { t: "Euronews: cómo Magyar desmontó el régimen de Orbán", u: "https://www.euronews.com/my-europe/2026/08/03/built-to-last-gone-in-months-how-peter-magyar-dismantled-viktor-orbans-regime" },

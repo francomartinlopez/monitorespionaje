@@ -71,11 +71,11 @@
     "Russia": 3, "Iran": 3, "China": 2, "Finland": 1, "Estonia": 1, "Latvia": 1, "Lithuania": 1, "Belarus": 1
   },
   timeline: [
-    { era: "Guerra Fría", d: "1973", h: "Escándalo de la IB", x: "Periodistas revelan un servicio secreto de fichaje político." },
-    { era: "", d: "1979", h: "Stig Bergling", x: "Detienen a un policía de seguridad que trabajaba para la URSS." },
-    { era: "Posguerra Fría", d: "2008", h: "Ley de la FRA", x: "Interceptación de cables." },
-    { era: "", d: "2021–2023", h: "Los hermanos Kia", x: "Espías rusos dentro de la Säpo y el MUST." },
-    { era: "Actual", d: "2024–2026", h: "OTAN e Irán", x: "Ingreso a la OTAN y ataques iraníes con bandas criminales.", now: true }
+    { era: "Guerra Fría", d: "1973", h: "Escándalo de la IB", x: "Periodistas revelan un servicio secreto de fichaje político.", ctx: "Guerra Fría y neutralidad sueca." },
+    { era: "", d: "1979", h: "Stig Bergling", x: "Detienen a un policía de seguridad que trabajaba para la URSS.", ctx: "Guerra Fría." },
+    { era: "Posguerra Fría", d: "2008", h: "Ley de la FRA", x: "Interceptación de cables.", ctx: "Después del 11-S." },
+    { era: "", d: "2021–2023", h: "Los hermanos Kia", x: "Espías rusos dentro de la Säpo y el MUST.", ctx: "Deterioro de la seguridad en el Báltico." },
+    { era: "Actual", d: "2024–2026", h: "OTAN e Irán", x: "Ingreso a la OTAN y ataques iraníes con bandas criminales.", now: true, ctx: "Ingreso a la OTAN." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2011–2021", h: "Los hermanos Kia", x: "Peyman Kia, que trabajó en la Säpo y en el MUST, y su hermano Payam pasaron información a la inteligencia militar rusa durante una década. Peyman fue condenado a perpetua y Payam a nueve años en 2023.", who: "Justicia de Suecia", missing: "", u: "https://en.wikipedia.org/wiki/Swedish_Security_Service", st: "Wikipedia (síntesis de fuentes)" },
@@ -155,6 +155,7 @@
   proxies: [
   ],
   cuentas: {"n": 2, "x": "Comisiones oficiales y condenas a espías dentro de los servicios."},
+  doctrina: [{"h": "Señales sobre el Báltico", "x": "La FRA intercepta los cables que cruzan Suecia, con una ley de 2008."}],
   sources: [
     { t: "Reuters: Rusia, China e Irán, principales amenazas (2026)", u: "https://theprint.in/world/russia-china-and-iran-are-main-threats-to-sweden-security-service-says/2882406" },
     { t: "Säpo: informe 2025-2026", u: "https://sakerhetspolisen.se/download/18.6d8b207419df2497fd955/1778075300407/SP_La%CC%88gesbild%20ENG_Anpassad.pdf" },

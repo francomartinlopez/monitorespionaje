@@ -71,11 +71,11 @@
     "Russia": 3, "China": 3, "Iran": 2, "Belarus": 1, "Syria": 1, "Afghanistan": 1, "Belgium": 1, "Germany": 1
   },
   timeline: [
-    { era: "Posguerra", d: "1945", h: "Nace el BVD", x: "Servicio de seguridad que vigila al comunismo durante la Guerra Fría." },
-    { era: "", d: "2002", h: "AIVD y MIVD", x: "Nueva ley de servicios y nombres actuales." },
-    { era: "", d: "2014", h: "MH17", x: "El derribo del avión sobre Ucrania mata a 196 neerlandeses." },
-    { era: "", d: "2018", h: "OPAQ y referéndum", x: "Golpe a la inteligencia rusa y rechazo popular a la ley de arrastre." },
-    { era: "Actual", d: "2025–2026", h: "Laundry Bear", x: "Amenaza rusa en su punto más alto, según el AIVD.", now: true }
+    { era: "Posguerra", d: "1945", h: "Nace el BVD", x: "Servicio de seguridad que vigila al comunismo durante la Guerra Fría.", ctx: "Posguerra y comienzo de la Guerra Fría." },
+    { era: "", d: "2002", h: "AIVD y MIVD", x: "Nueva ley de servicios y nombres actuales.", ctx: "Después del 11-S y asesinato de Pim Fortuyn." },
+    { era: "", d: "2014", h: "MH17", x: "El derribo del avión sobre Ucrania mata a 196 neerlandeses.", ctx: "Guerra en el Donbás." },
+    { era: "", d: "2018", h: "OPAQ y referéndum", x: "Golpe a la inteligencia rusa y rechazo popular a la ley de arrastre.", ctx: "Deterioro de la relación con Rusia." },
+    { era: "Actual", d: "2025–2026", h: "Laundry Bear", x: "Amenaza rusa en su punto más alto, según el AIVD.", now: true, ctx: "Guerra en Ucrania." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2018", h: "La operación rusa contra la OPAQ", x: "Cuatro oficiales de la unidad 26165 de la inteligencia militar rusa estacionaron un auto con equipos de hackeo junto a la sede de la OPAQ, que investigaba el envenenamiento de Serguéi Skripal. El MIVD los detuvo y expulsó, y el gobierno publicó los detalles en octubre de 2018.", who: "Gobierno de los Países Bajos", missing: "", u: "https://en.wikipedia.org/wiki/Organisation_for_the_Prohibition_of_Chemical_Weapons", st: "Wikipedia (síntesis de fuentes)" },
@@ -154,6 +154,7 @@
   proxies: [
   ],
   cuentas: {"n": 3, "x": "Una comisión independiente controla a los servicios con decisiones obligatorias."},
+  doctrina: [{"h": "Nicho técnico", "x": "Apuesta a la ciberinteligencia y hace públicas sus atribuciones."}],
   sources: [
     { t: "Ministerio de Defensa: Laundry Bear (2025)", u: "https://www.defensie.nl/nieuws/20250527-onbekende-russische-groep-achter-hacks-nederlandse-doelen" },
     { t: "NOS: el informe anual del AIVD (2026)", u: "https://nos.nl/l/2611683" },

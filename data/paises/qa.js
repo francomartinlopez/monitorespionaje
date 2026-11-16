@@ -59,24 +59,28 @@
   ],
   events: [
     { d: "2017-05", lat: 25.2, lon: 51.2, c: "Qatar", t: "ciber", ev: 1, h: "Hackeo de la agencia de noticias catarí", x: "Publican declaraciones falsas del emir en la agencia oficial; EE.UU. atribuyó el hackeo a Emiratos y siguió el bloqueo regional.", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" },
+    {"d": "2020-02-29", "lat": 25.29, "lon": 51.53, "c": "Qatar", "t": "humana", "ev": 1, "h": "Acuerdo de Doha", "x": "EE.UU. y los talibanes firman en Doha el acuerdo de retirada, tras años de mediación catarí.", "u": "https://en.wikipedia.org/wiki/United_States%E2%80%93Taliban_deal", "st": "Wikipedia: acuerdo EE.UU.–talibanes"},
+    {"d": "2022-08-30", "lat": 25.28, "lon": 51.52, "c": "Qatar", "t": "contra", "ev": 2, "h": "Detención de ocho ex marinos indios", "x": "La seguridad catarí detiene a ocho ex oficiales de la Marina india que trabajaban para una empresa de defensa.", "u": "https://en.wikipedia.org/wiki/2023_Qatar_espionage_case", "st": "Wikipedia: caso de espionaje de 2023 en Catar"},
     { d: "2025-09-09", lat: 25.25, lon: 51.4, c: "Qatar", t: "encubierta", ev: 1, h: "Ataque israelí en Doha", x: "Israel bombardea una reunión de dirigentes de Hamas en la capital catarí.", u: "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha", st: "Wikipedia (síntesis de fuentes)" }
   ],
   interest: {
     "Saudi Arabia": 2, "United Arab Emirates": 2, "Iran": 2, "Palestine": 3, "Israel": 2, "Afghanistan": 2, "Egypt": 1, "Libya": 1, "Syria": 2, "Belgium": 1
   },
   timeline: [
-    { era: "Independencia", d: "1971", h: "Independencia", x: "Fin del protectorado británico." },
-    { era: "Hamad", d: "1996", h: "Al Jazeera", x: "Nace la cadena que da a Catar influencia regional." },
-    { era: "", d: "2011", h: "Primavera Árabe", x: "Catar apoya a movimientos islamistas en Libia, Egipto y Siria." },
-    { era: "Tamim", d: "2017–2021", h: "Bloqueo", x: "Arabia Saudita, Emiratos, Baréin y Egipto rompen con Catar." },
-    { era: "Actual", d: "2023–2026", h: "Mediación en Gaza", x: "Negociaciones y ataque israelí en Doha.", now: true }
+    { era: "Independencia", d: "1971", h: "Independencia", x: "Fin del protectorado británico.", ctx: "Fin del protectorado británico." },
+    { era: "Hamad", d: "1996", h: "Al Jazeera", x: "Nace la cadena que da a Catar influencia regional.", ctx: "Nuevo emir tras un golpe palaciego." },
+    { era: "", d: "2011", h: "Primavera Árabe", x: "Catar apoya a movimientos islamistas en Libia, Egipto y Siria.", ctx: "Catar apoya a movimientos islamistas." },
+    { era: "Tamim", d: "2017–2021", h: "Bloqueo", x: "Arabia Saudita, Emiratos, Baréin y Egipto rompen con Catar.", ctx: "Ruptura con Arabia Saudita y Emiratos." },
+    { era: "Actual", d: "2023–2026", h: "Mediación en Gaza", x: "Negociaciones y ataque israelí en Doha.", now: true, ctx: "Guerra en Gaza." }
   ],
   cases: [
     { ev: 2, ilegal: true, d: "2018–2022", h: "Qatargate", x: "La fiscalía belga acusa a eurodiputados y asistentes de recibir sobornos de Catar y de Marruecos para influir en el Parlamento Europeo. Catar niega haber pagado; el juicio no se hizo.", who: "Fiscalía federal de Bélgica", missing: "Un juicio.", u: "https://en.wikipedia.org/wiki/Qatar_corruption_scandal_at_the_European_Parliament", st: "Wikipedia (síntesis de fuentes)" },
-    { ev: 2, ilegal: false, d: "2012–2019", h: "El espionaje al fútbol", x: "Una investigación de AP informó en 2022 que Catar contrató a un ex oficial de la CIA para vigilar a funcionarios del fútbol y a críticos del Mundial. El ex oficial niega haber hecho algo ilegal.", who: "Associated Press", missing: "Documentos oficiales o un juicio.", u: "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies", st: "Wikipedia (síntesis de fuentes)" }
+    { ev: 2, ilegal: false, d: "2012–2019", h: "El espionaje al fútbol", x: "Una investigación de AP informó en 2022 que Catar contrató a un ex oficial de la CIA para vigilar a funcionarios del fútbol y a críticos del Mundial. El ex oficial niega haber hecho algo ilegal.", who: "Associated Press", missing: "Documentos oficiales o un juicio.", u: "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies", st: "Wikipedia (síntesis de fuentes)" },
+    {"ev": 2, "ilegal": false, "d": "2022–2024", "h": "Los ex marinos indios", "x": "Un tribunal catarí condenó a muerte a ocho ex oficiales indios por espionaje; la prensa dijo que era a favor de Israel. Las penas se redujeron y Catar los liberó en 2024.", "who": "Tribunales de Catar; prensa india", "missing": "Los cargos nunca se hicieron públicos.", "u": "https://en.wikipedia.org/wiki/2023_Qatar_espionage_case", "st": "Wikipedia: caso de espionaje de 2023 en Catar"}
   ],
   failures: [
-    { k: "falsa", d: "2017-05", ev: 1, w: 3, h: "Las falsas declaraciones del emir", x: "Hackers publicaron en la agencia oficial frases inventadas del emir que sirvieron de pretexto al bloqueo.", why: "Catar y EE.UU. lo atribuyeron a Emiratos, que lo niega.", wx: "Investigación del FBI citada por la prensa.", who: "Gobierno de Catar y funcionarios de EE.UU.", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "falsa", d: "2017-05", ev: 1, w: 3, h: "Las falsas declaraciones del emir", x: "Hackers publicaron en la agencia oficial frases inventadas del emir que sirvieron de pretexto al bloqueo.", why: "Catar y EE.UU. lo atribuyeron a Emiratos, que lo niega.", wx: "Investigación del FBI citada por la prensa.", who: "Gobierno de Catar y funcionarios de EE.UU.", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" },
+    {"k": "falla", "d": "2025-09-09", "ev": 1, "w": 2, "h": "El ataque israelí en Doha", "x": "Israel bombardeó a dirigentes de Hamás en la capital, pese a la base de EE.UU. y al papel mediador de Catar.", "why": "El ataque no está en duda; se discute qué sabía EE.UU. de antemano.", "wx": "", "who": "Gobiernos de Catar e Israel", "u": "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha", "st": "Wikipedia: ataque israelí en Doha de 2025"}
   ],
   modus: {
     embajadas: "Diplomáticos y enviados especiales hacen el trabajo de mediación y contacto con grupos armados.",
@@ -148,6 +152,7 @@
     {"id": "aljazeera", "s": "Al Jazeera", "n": "Al Jazeera", "k": "institucion", "d": "1996–", "rol": "usa", "hoy": true, "ev": 2, "x": "Cadena financiada por el Estado catarí; sus críticos la acusan de servir a la política exterior de Doha y a los Hermanos Musulmanes.", "who": "Arabia Saudita, Emiratos y Egipto (2017)", "u": "https://en.wikipedia.org/wiki/Al_Jazeera", "st": "Wikipedia: Al Jazeera"}
   ],
   cuentas: {"n": 1, "x": "Sin control independiente."},
+  doctrina: [{"h": "Mediador indispensable", "x": "Hablar con todos, de Hamás a los talibanes, es su seguro de vida."}],
   sources: [
     { t: "Wikipedia: 2017–2021 Qatar diplomatic crisis", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis" },
     { t: "Wikipedia: 2025 Israeli strike on Doha", u: "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha" },

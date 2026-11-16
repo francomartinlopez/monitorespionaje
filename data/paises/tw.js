@@ -77,14 +77,14 @@
     "China": 3, "United States of America": 2, "Japan": 2, "Philippines": 1, "South Korea": 1, "Russia": 1, "North Korea": 1, "Vietnam": 1
   },
   timeline: [
-    { era: "Guerra Fría", d: "1949", h: "Retirada a Taiwán", x: "El Kuomintang se instala en la isla con sus servicios y declara la ley marcial." },
-    { era: "", d: "1955", h: "Nace la NSB", x: "Se crea para coordinar a los servicios, con fuerte apoyo de la CIA." },
-    { era: "", d: "1961–1974", h: "Vuelos espía sobre China", x: "Pilotos taiwaneses vuelan U-2 de la CIA sobre instalaciones nucleares chinas." },
-    { era: "", d: "1984", h: "Asesinato de Henry Liu", x: "El escándalo en EE.UU. acelera el fin del régimen autoritario." },
-    { era: "Democracia", d: "1987", h: "Fin de la ley marcial", x: "Se disuelven los órganos de represión y nace el control parlamentario." },
-    { era: "", d: "1999", h: "Cae el general Liu Liankun", x: "China ejecuta a su general reclutado por la MIB." },
-    { era: "", d: "2000", h: "Escándalo de los fondos secretos", x: "Un coronel de la NSB huye con dinero y expone cuentas reservadas de la Presidencia." },
-    { era: "Actual", d: "2020–2026", h: "Ola de casos de espionaje chino", x: "Ley Anti-Infiltración, decenas de acusados por año y condenas a colaboradores del gobierno.", now: true }
+    { era: "Guerra Fría", d: "1949", h: "Retirada a Taiwán", x: "El Kuomintang se instala en la isla con sus servicios y declara la ley marcial.", ctx: "Derrota del Kuomintang en la guerra civil china." },
+    { era: "", d: "1955", h: "Nace la NSB", x: "Se crea para coordinar a los servicios, con fuerte apoyo de la CIA.", ctx: "Ley marcial y alianza con EE.UU." },
+    { era: "", d: "1961–1974", h: "Vuelos espía sobre China", x: "Pilotos taiwaneses vuelan U-2 de la CIA sobre instalaciones nucleares chinas.", ctx: "Cooperación con la CIA en la Guerra Fría." },
+    { era: "", d: "1984", h: "Asesinato de Henry Liu", x: "El escándalo en EE.UU. acelera el fin del régimen autoritario.", ctx: "Últimos años de la dictadura." },
+    { era: "Democracia", d: "1987", h: "Fin de la ley marcial", x: "Se disuelven los órganos de represión y nace el control parlamentario.", ctx: "Comienza la democratización." },
+    { era: "", d: "1999", h: "Cae el general Liu Liankun", x: "China ejecuta a su general reclutado por la MIB.", ctx: "Crisis del estrecho de 1996." },
+    { era: "", d: "2000", h: "Escándalo de los fondos secretos", x: "Un coronel de la NSB huye con dinero y expone cuentas reservadas de la Presidencia.", ctx: "Primer gobierno de la oposición." },
+    { era: "Actual", d: "2020–2026", h: "Ola de casos de espionaje chino", x: "Ley Anti-Infiltración, decenas de acusados por año y condenas a colaboradores del gobierno.", now: true, ctx: "Presión militar china creciente." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "1984", h: "El asesinato de Henry Liu", x: "El periodista Henry Liu, autor de una biografía crítica de Chiang Ching-kuo, fue asesinado en California. La justicia taiwanesa condenó al jefe de la MIB, Wang Hsi-ling, y a jefes de la banda Bambú Unido que hicieron el trabajo.", who: "Justicia de Taiwán y de EE.UU.", missing: "", u: "https://en.wikipedia.org/wiki/Henry_Liu", st: "Wikipedia (síntesis de fuentes)" },

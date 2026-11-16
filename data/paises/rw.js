@@ -69,11 +69,11 @@
     "Dem. Rep. Congo": 3, "Burundi": 3, "Uganda": 2, "South Africa": 2, "Belgium": 2, "France": 1, "United Kingdom": 1, "Kenya": 1, "Tanzania": 1
   },
   timeline: [
-    { era: "Posgenocidio", d: "1994", h: "El FPR toma el poder", x: "Tras el genocidio, el Frente Patriótico Ruandés arma sus servicios." },
-    { era: "", d: "1996–2003", h: "Guerras del Congo", x: "La inteligencia militar dirige operaciones en el país vecino." },
-    { era: "Kagame", d: "2010–2014", h: "Ataques a disidentes", x: "Atentado contra Kayumba Nyamwasa y asesinato de Karegeya en Sudáfrica." },
-    { era: "", d: "2020", h: "Rusesabagina", x: "Operación para llevar a un disidente a Kigali." },
-    { era: "Actual", d: "2022–2026", h: "El M23", x: "Apoyo a la guerrilla en el Congo y acuerdo de paz en Washington.", now: true }
+    { era: "Posgenocidio", d: "1994", h: "El FPR toma el poder", x: "Tras el genocidio, el Frente Patriótico Ruandés arma sus servicios.", ctx: "Genocidio contra los tutsis." },
+    { era: "", d: "1996–2003", h: "Guerras del Congo", x: "La inteligencia militar dirige operaciones en el país vecino.", ctx: "Persecución de los genocidas en el Congo." },
+    { era: "Kagame", d: "2010–2014", h: "Ataques a disidentes", x: "Atentado contra Kayumba Nyamwasa y asesinato de Karegeya en Sudáfrica.", ctx: "Kagame consolida el poder." },
+    { era: "", d: "2020", h: "Rusesabagina", x: "Operación para llevar a un disidente a Kigali.", ctx: "Presión occidental por derechos humanos." },
+    { era: "Actual", d: "2022–2026", h: "El M23", x: "Apoyo a la guerrilla en el Congo y acuerdo de paz en Washington.", now: true, ctx: "Guerra en el este del Congo." }
   ],
   cases: [
     { ev: 2, ilegal: true, d: "2013–2014", h: "El asesinato de Patrick Karegeya", x: "El ex jefe de inteligencia exterior, que se había exiliado, fue estrangulado en un hotel de Johannesburgo. En 2019 una investigación judicial sudafricana concluyó que los sospechosos tenían vínculos directos con el gobierno ruandés. Kigali lo niega.", who: "Tribunal de investigación de Sudáfrica", missing: "Un juicio a los autores, que salieron del país.", u: "https://en.wikipedia.org/wiki/Patrick_Karegeya", st: "Wikipedia (síntesis de fuentes)" },
@@ -154,6 +154,7 @@
     {"id": "m23", "s": "M23", "n": "Movimiento 23 de Marzo (M23)", "k": "armado", "d": "2012–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Grupos de expertos de la ONU documentaron que Ruanda arma y comanda al M23 en el este del Congo; Ruanda lo niega.", "who": "Grupo de expertos de la ONU sobre el Congo", "u": "https://en.wikipedia.org/wiki/March_23_Movement", "st": "Wikipedia: March 23 Movement", "graf": true}
   ],
   cuentas: {"n": 1, "x": "Sin control independiente."},
+  doctrina: [{"h": "Persecución sin fronteras", "x": "Los opositores en el exilio son blanco prioritario."}],
   sources: [
     { t: "Wikipedia: March 23 Movement", u: "https://en.wikipedia.org/wiki/March_23_Movement" },
     { t: "Wikipedia: Patrick Karegeya", u: "https://en.wikipedia.org/wiki/Patrick_Karegeya" },

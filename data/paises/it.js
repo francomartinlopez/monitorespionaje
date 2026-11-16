@@ -74,12 +74,12 @@
     "Libya": 3, "Russia": 3, "Tunisia": 2, "Egypt": 2, "Iran": 2, "Israel": 2, "Turkey": 2, "Algeria": 1, "Niger": 1, "China": 1, "Albania": 1
   },
   timeline: [
-    { era: "Guerra Fría", d: "1949", h: "SIFAR", x: "Nace el servicio militar, que en 1964 elabora un plan golpista." },
-    { era: "", d: "1969–1984", h: "Años de plomo", x: "Desvíos del servicio militar en las investigaciones de atentados." },
-    { era: "", d: "1981", h: "Logia P2", x: "Se descubre que los jefes de los servicios integraban la logia de Licio Gelli." },
-    { era: "", d: "1990", h: "Gladio", x: "El gobierno reconoce la red secreta de resistencia de la OTAN." },
-    { era: "Reforma", d: "2007", h: "AISE, AISI y DIS", x: "La ley 124 reorganiza el sistema." },
-    { era: "Actual", d: "2025–2026", h: "Paragon", x: "Escándalo por Graphite, investigación judicial y relevo en el DIS.", now: true }
+    { era: "Guerra Fría", d: "1949", h: "SIFAR", x: "Nace el servicio militar, que en 1964 elabora un plan golpista.", ctx: "Posguerra y entrada en la OTAN." },
+    { era: "", d: "1969–1984", h: "Años de plomo", x: "Desvíos del servicio militar en las investigaciones de atentados.", ctx: "Terrorismo de izquierda y de derecha." },
+    { era: "", d: "1981", h: "Logia P2", x: "Se descubre que los jefes de los servicios integraban la logia de Licio Gelli.", ctx: "Crisis del sistema de partidos." },
+    { era: "", d: "1990", h: "Gladio", x: "El gobierno reconoce la red secreta de resistencia de la OTAN.", ctx: "Fin de la Guerra Fría." },
+    { era: "Reforma", d: "2007", h: "AISE, AISI y DIS", x: "La ley 124 reorganiza el sistema.", ctx: "Reforma tras el caso Abu Omar." },
+    { era: "Actual", d: "2025–2026", h: "Paragon", x: "Escándalo por Graphite, investigación judicial y relevo en el DIS.", now: true, ctx: "Gobierno de Giorgia Meloni." }
   ],
   cases: [
     { ev: 1, ilegal: false, d: "2023–2025", h: "Graphite contra activistas", x: "El comité parlamentario confirmó que la AISE y la AISI usaron el programa espía de Paragon contra Luca Casarini y Giuseppe Caccia, de la ONG Mediterranea. Sostuvo que lo hicieron dentro de la ley. Las agencias rescindieron el contrato en 2025.", who: "Comité Parlamentario para la Seguridad de la República (COPASIR)", missing: "", u: "https://en.ilsole24ore.com/art/paragon-contract-l-italy-cancelled-case-AHuXlzAB", st: "Il Sole 24 Ore" },

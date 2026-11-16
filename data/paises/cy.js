@@ -68,11 +68,11 @@
     "Turkey": 3, "N. Cyprus": 3, "Israel": 2, "Lebanon": 2, "Syria": 2, "Greece": 2, "Iran": 1, "Russia": 1, "Egypt": 1
   },
   timeline: [
-    { era: "Independencia", d: "1970", h: "Nace el KYP", x: "Se crea el servicio bajo la presidencia de Makarios." },
-    { era: "", d: "1974", h: "Golpe e invasión", x: "Golpe impulsado por la junta griega e invasión turca del norte." },
-    { era: "Siglo XXI", d: "2016", h: "Ley del KYP", x: "Primer marco legal del servicio." },
-    { era: "", d: "2019", h: "Camioneta espía", x: "Expone a la industria privada de vigilancia en la isla." },
-    { era: "Actual", d: "2026", h: "Videogate", x: "Un video producido por Black Cube sacude al gobierno.", now: true }
+    { era: "Independencia", d: "1970", h: "Nace el KYP", x: "Se crea el servicio bajo la presidencia de Makarios.", ctx: "Tensión entre las comunidades griega y turca." },
+    { era: "", d: "1974", h: "Golpe e invasión", x: "Golpe impulsado por la junta griega e invasión turca del norte.", ctx: "Golpe de la junta griega e invasión turca." },
+    { era: "Siglo XXI", d: "2016", h: "Ley del KYP", x: "Primer marco legal del servicio.", ctx: "Crisis financiera y salida del rescate." },
+    { era: "", d: "2019", h: "Camioneta espía", x: "Expone a la industria privada de vigilancia en la isla.", ctx: "Auge de la industria de la vigilancia en la isla." },
+    { era: "Actual", d: "2026", h: "Videogate", x: "Un video producido por Black Cube sacude al gobierno.", now: true, ctx: "Año de elecciones parlamentarias." }
   ],
   cases: [
     { ev: 1, ilegal: false, d: "2025–2026", h: "El video de Black Cube", x: "Un video con grabaciones ocultas acusó a allegados del presidente de manejar fondos de campaña irregulares, y su jefe de gabinete renunció. Black Cube admitió en abril de 2026 haberlo producido. En julio el investigador designado dijo que no encontró indicios de delito en los implicados y sugirió que pudo ser un ataque híbrido.", who: "Investigador designado por el fiscal general y Black Cube", missing: "", u: "https://cyprus-mail.com/2026/07/20/no-criminal-wrongdoing-indicated-in-videogate-investigator-says", st: "Cyprus Mail" },
@@ -152,6 +152,7 @@
   proxies: [
   ],
   cuentas: {"n": 1, "x": "Las causas por programas espía no alcanzaron a funcionarios."},
+  doctrina: [{"h": "Isla dividida", "x": "El servicio se concentra en la ocupación turca del norte."}],
   sources: [
     { t: "Cyprus Mail: Black Cube detrás del video (2026)", u: "https://cyprus-mail.com/2026/04/10/israeli-private-intelligence-agency-allegedly-behind-christodoulides-corruption-video" },
     { t: "Cyprus Mail: el investigador no encuentra delitos", u: "https://cyprus-mail.com/2026/07/20/no-criminal-wrongdoing-indicated-in-videogate-investigator-says" },

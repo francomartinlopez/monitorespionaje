@@ -68,11 +68,11 @@
     "Armenia": 3, "Iran": 3, "Russia": 2, "Georgia": 2, "Turkey": 1, "Israel": 1, "France": 1
   },
   timeline: [
-    { era: "Independencia", d: "1991", h: "Ministerio de Seguridad Nacional", x: "Hereda el KGB azerbaiyano." },
-    { era: "Aliyev", d: "2015", h: "División de los servicios", x: "Se crean el DTX y el XKX tras la caída del ministro Eldar Mahmudov." },
-    { era: "", d: "2020", h: "Segunda guerra de Karabaj", x: "Victoria con drones turcos e israelíes." },
-    { era: "", d: "2023", h: "Recuperación de Karabaj", x: "Éxodo de la población armenia." },
-    { era: "Actual", d: "2024–2026", h: "Prensa y Rusia", x: "Represión de periodistas y crisis con Moscú.", now: true }
+    { era: "Independencia", d: "1991", h: "Ministerio de Seguridad Nacional", x: "Hereda el KGB azerbaiyano.", ctx: "Independencia y primera guerra de Karabaj." },
+    { era: "Aliyev", d: "2015", h: "División de los servicios", x: "Se crean el DTX y el XKX tras la caída del ministro Eldar Mahmudov.", ctx: "Gobierno de Ilham Aliyev." },
+    { era: "", d: "2020", h: "Segunda guerra de Karabaj", x: "Victoria con drones turcos e israelíes.", ctx: "Apoyo militar de Turquía." },
+    { era: "", d: "2023", h: "Recuperación de Karabaj", x: "Éxodo de la población armenia.", ctx: "Retirada de las fuerzas rusas de paz." },
+    { era: "Actual", d: "2024–2026", h: "Prensa y Rusia", x: "Represión de periodistas y crisis con Moscú.", now: true, ctx: "Acuerdo de paz con Armenia." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2019–2021", h: "Pegasus contra Khadija Ismayilova", x: "El laboratorio de Amnistía confirmó que el teléfono de la periodista de investigación fue infectado con Pegasus desde 2019. Azerbaiyán figura entre los clientes identificados por el Proyecto Pegasus.", who: "Amnistía Internacional", missing: "", u: "https://en.wikipedia.org/wiki/Khadija_Ismayilova", st: "Wikipedia (síntesis de fuentes)" },
@@ -150,6 +150,7 @@
   proxies: [
   ],
   cuentas: {"n": 1, "x": "Sin control independiente."},
+  doctrina: [{"h": "Estado de seguridad", "x": "El servicio vigila a opositores y a la prensa, y coopera con Turquía e Israel."}],
   sources: [
     { t: "Wikipedia: Khadija Ismayilova", u: "https://en.wikipedia.org/wiki/Khadija_Ismayilova" },
     { t: "Wikipedia: Azerbaijani laundromat", u: "https://en.wikipedia.org/wiki/Azerbaijani_laundromat" },

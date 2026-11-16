@@ -78,13 +78,13 @@
     "United Kingdom": 2, "United States of America": 2, "Australia": 1, "United Arab Emirates": 1, "Iran": 1, "Bhutan": 1, "Russia": 1, "Israel": 1
   },
   timeline: [
-    { era: "Orígenes", d: "1887–1947", h: "La IB colonial", x: "Los británicos crean el servicio que India hereda en la independencia." },
-    { era: "", d: "1968", h: "Nace la R&AW", x: "Tras la guerra con China de 1962 y la de Pakistán de 1965, se separa la inteligencia exterior." },
-    { era: "", d: "1971", h: "Bangladesh", x: "La R&AW apoya a la guerrilla bengalí y la guerra termina con la independencia." },
-    { era: "", d: "1983–1990", h: "Sri Lanka", x: "La R&AW entrena a grupos tamiles; después India envía tropas de paz." },
-    { era: "Siglo XXI", d: "2004", h: "El topo que huyó", x: "Un oficial de la R&AW que trabajaba para la CIA escapa a EE.UU." },
-    { era: "", d: "2014", h: "La era Doval", x: "El asesor de seguridad nacional concentra la conducción de los servicios." },
-    { era: "Actual", d: "2023–2026", h: "Acusaciones en el exterior", x: "Nijjar, Pannun y asesinatos en Pakistán; Jain en la R&AW y Dixit en la IB.", now: true }
+    { era: "Orígenes", d: "1887–1947", h: "La IB colonial", x: "Los británicos crean el servicio que India hereda en la independencia.", ctx: "Dominio colonial británico." },
+    { era: "", d: "1968", h: "Nace la R&AW", x: "Tras la guerra con China de 1962 y la de Pakistán de 1965, se separa la inteligencia exterior.", ctx: "Derrotas ante China en 1962 y guerra con Pakistán en 1965." },
+    { era: "", d: "1971", h: "Bangladesh", x: "La R&AW apoya a la guerrilla bengalí y la guerra termina con la independencia.", ctx: "Guerra con Pakistán e independencia de Bangladés." },
+    { era: "", d: "1983–1990", h: "Sri Lanka", x: "La R&AW entrena a grupos tamiles; después India envía tropas de paz.", ctx: "Guerra civil en Sri Lanka." },
+    { era: "Siglo XXI", d: "2004", h: "El topo que huyó", x: "Un oficial de la R&AW que trabajaba para la CIA escapa a EE.UU.", ctx: "Gobierno de coalición y acercamiento a EE.UU." },
+    { era: "", d: "2014", h: "La era Doval", x: "El asesor de seguridad nacional concentra la conducción de los servicios.", ctx: "Gobierno de Narendra Modi." },
+    { era: "Actual", d: "2023–2026", h: "Acusaciones en el exterior", x: "Nijjar, Pannun y asesinatos en Pakistán; Jain en la R&AW y Dixit en la IB.", now: true, ctx: "Tensión con Canadá y EE.UU. y choque con Pakistán." }
   ],
   cases: [
     { ev: 2, ilegal: true, d: "2023", h: "El plan para matar a Pannun", x: "Nikhil Gupta se declaró culpable en Nueva York en febrero de 2026. La fiscalía sostiene que lo reclutó Vikash Yadav, empleado de la Secretaría del Gabinete, de la que depende la R&AW. Yadav sigue prófugo en India y el gobierno indio niega haber ordenado el plan.", who: "Departamento de Justicia de EE.UU.", missing: "Un juicio a Yadav y pruebas de quién dio la orden.", u: "https://thewire.in/world/nikhil-gupta-pleads-guilty-in-us-to-plot-to-kill-gurpatwant-singh-pannun", st: "The Wire" },

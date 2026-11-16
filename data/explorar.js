@@ -191,7 +191,8 @@ window.EXPULSIONES = [
   { y: 2025, a: "us", b: "ru", n: 2, k: "canje", d: "2025-04", x: "Ksenia Karelina por Arthur Petrov, acusado de contrabando tecnológico.", u: "https://en.wikipedia.org/wiki/Ksenia_Karelina", st: "Wikipedia: Ksenia Karelina" },
   { y: 2026, a: "ru", b: "uk", n: 2, k: "expulsion", d: "2026-03", x: "Dos diplomáticos británicos expulsados por espionaje, en enero y en marzo.", u: "https://www.newsonair.gov.in/russia-expels-british-diplomat-on-allegations-of-espionage-ordering-him-to-leave-country-within-two-weeks", st: "All India Radio" },
   { y: 2026, a: "ro", b: "ru", n: 40, k: "expulsion", d: "2026-03", x: "Rumania redujo la embajada rusa en 40 diplomáticos y empleados.", u: "https://www.themoscowtimes.com/2026/03/12/40-russian-diplomats-and-embassy-staff-to-leave-romania", st: "The Moscow Times" },
-  { y: 2026, a: "at", b: "ru", n: 4, k: "expulsion", d: "2026-10", x: "Tres diplomáticos de la embajada y uno de la misión ante la OSCE, sospechados de espionaje.", u: "https://meduza.io/en/news/2026/10/23/austria-orders-expulsion-of-four-russian-diplomats-suspected-of-spying", st: "Meduza" }
+  { y: 2026, a: "at", b: "ru", n: 4, k: "expulsion", d: "2026-10", x: "Tres diplomáticos de la embajada y uno de la misión ante la OSCE, sospechados de espionaje.", u: "https://meduza.io/en/news/2026/10/23/austria-orders-expulsion-of-four-russian-diplomats-suspected-of-spying", st: "Meduza" },
+  { y: 2026, a: "ar", b: "ir", n: 1, k: "expulsion", d: "2026-04", x: "Tras declarar terrorista a la Guardia Revolucionaria, Argentina expulsó a un diplomático iraní.", u: "https://www.al-monitor.com/es/originals/2026/04/argentina-expulsa-un-diplomatico-irani-tras-incluir-la-guardia-revolucionaria-en", st: "Al-Monitor" }
 ];
 
 // ---------- personas ----------

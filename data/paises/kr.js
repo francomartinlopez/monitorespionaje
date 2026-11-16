@@ -77,13 +77,13 @@
     "North Korea": 3, "China": 3, "Russia": 2, "Japan": 2, "United States of America": 2, "Ukraine": 1, "Taiwan": 1, "Vietnam": 1, "Mongolia": 1
   },
   timeline: [
-    { era: "Dictadura", d: "1961", h: "Nace la KCIA", x: "Creada por Kim Jong-pil tras el golpe de Park Chung-hee." },
-    { era: "", d: "1973", h: "Secuestro de Kim Dae-jung", x: "Operación de la KCIA en Tokio contra el principal opositor." },
-    { era: "", d: "1976–1978", h: "Koreagate", x: "La KCIA soborna a legisladores de EE.UU. a través de un empresario." },
-    { era: "", d: "1979", h: "Asesinato de Park", x: "El jefe de la KCIA mata al presidente." },
-    { era: "Democracia", d: "1999", h: "Nace el NIS", x: "Kim Dae-jung, víctima de la KCIA, da al servicio su nombre actual." },
-    { era: "", d: "2012–2017", h: "Escándalos de los directores", x: "Comentarios electorales, fondos para la Presidencia y escuchas." },
-    { era: "Actual", d: "2024–2026", h: "Ley marcial y reforma", x: "Condenas por los drones, disolución del comando militar y tensiones con EE.UU.", now: true }
+    { era: "Dictadura", d: "1961", h: "Nace la KCIA", x: "Creada por Kim Jong-pil tras el golpe de Park Chung-hee.", ctx: "Golpe de Park Chung-hee." },
+    { era: "", d: "1973", h: "Secuestro de Kim Dae-jung", x: "Operación de la KCIA en Tokio contra el principal opositor.", ctx: "Dictadura de Park y oposición en el exilio." },
+    { era: "", d: "1976–1978", h: "Koreagate", x: "La KCIA soborna a legisladores de EE.UU. a través de un empresario.", ctx: "Lobby coreano en Washington." },
+    { era: "", d: "1979", h: "Asesinato de Park", x: "El jefe de la KCIA mata al presidente.", ctx: "Fin del régimen de Park." },
+    { era: "Democracia", d: "1999", h: "Nace el NIS", x: "Kim Dae-jung, víctima de la KCIA, da al servicio su nombre actual.", ctx: "Democratización y política de acercamiento al Norte." },
+    { era: "", d: "2012–2017", h: "Escándalos de los directores", x: "Comentarios electorales, fondos para la Presidencia y escuchas.", ctx: "Gobiernos conservadores y destitución de Park Geun-hye." },
+    { era: "Actual", d: "2024–2026", h: "Ley marcial y reforma", x: "Condenas por los drones, disolución del comando militar y tensiones con EE.UU.", now: true, ctx: "Ley marcial fallida de Yoon y cambio de gobierno." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2012", h: "Los comentarios del NIS en la elección", x: "Un equipo del NIS publicó miles de mensajes en internet a favor de Park Geun-hye y contra la oposición antes de la elección presidencial. El director Won Sei-hoon fue condenado por violar la ley electoral y la ley del NIS.", who: "Justicia de Corea del Sur", missing: "", u: "https://en.wikipedia.org/wiki/National_Intelligence_Service_(South_Korea)", st: "Wikipedia (síntesis de fuentes)" },
@@ -173,6 +173,7 @@
   proxies: [
   ],
   cuentas: {"n": 3, "x": "Ex jefes del servicio fueron condenados por interferir en la elección de 2012."},
+  doctrina: [{"h": "El Norte primero", "x": "Todo se ordena a la amenaza norcoreana; una reforma de 2020 le quitó al NIS las investigaciones internas."}],
   sources: [
     { t: "The Korea Herald: el NIS y la alianza con EE.UU. (2026)", u: "https://mbiz.heraldcorp.com/article/10900786" },
     { t: "The Korea Times: condena por los drones", u: "https://www.koreatimes.co.kr/southkorea/law-crime/20260612/ex-president-yoon-sentenced-to-30-yrs-in-prison-in-drone-infiltration-case" },

@@ -60,6 +60,8 @@
     { d: "2024", dir: "recorta", area: "Debido proceso", h: "Comisión de desapariciones", x: "Investiga a la DGFI y a la policía." }
   ],
   events: [
+    {"d": "1975-08-15", "lat": 23.75, "lon": 90.37, "c": "Bangladesh", "t": "encubierta", "ev": 1, "h": "Asesinato de Sheikh Mujib", "x": "Oficiales del Ejército matan al fundador del país y a casi toda su familia.", "u": "https://en.wikipedia.org/wiki/Assassination_of_Sheikh_Mujibur_Rahman", "st": "Wikipedia: asesinato de Sheikh Mujibur Rahman"},
+    {"d": "2009-02-25", "lat": 23.73, "lon": 90.38, "c": "Bangladesh", "t": "contra", "ev": 1, "h": "Motín de los Rifles de Bangladés", "x": "Guardias de frontera se amotinan en Daca y matan a 57 oficiales del Ejército.", "u": "https://en.wikipedia.org/wiki/Bangladesh_Rifles_revolt", "st": "Wikipedia: motín de los Rifles de Bangladés"},
     { d: "2016-07-01", lat: 23.79, lon: 90.42, c: "Bangladesh", t: "contra", ev: 1, h: "Ataque de Holey Artisan", x: "Un comando islamista mata a 22 rehenes en un café de Daca.", u: "https://en.wikipedia.org/wiki/July_2016_Dhaka_attack", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2024-08-05", lat: 23.76, lon: 90.39, c: "Bangladesh", t: "contra", ev: 1, h: "Cae Hasina", x: "La primera ministra huye a India tras semanas de protestas.", u: "https://en.wikipedia.org/wiki/July_Revolution_(Bangladesh)", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2024-12", lat: 23.82, lon: 90.4, c: "Bangladesh", t: "encubierta", ev: 2, h: "Aynaghar", x: "La comisión visita celdas secretas de la DGFI en Daca, según su informe.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" }
@@ -68,17 +70,19 @@
     "India": 3, "Myanmar": 3, "Pakistan": 1, "China": 1
   },
   timeline: [
-    { era: "Independencia", d: "1971", h: "Nace Bangladés", x: "Guerra de independencia de Pakistán." },
-    { era: "Militares", d: "1977", h: "Nace la DGFI", x: "Bajo el gobierno militar de Ziaur Rahman." },
-    { era: "Hasina", d: "2009–2024", h: "Desapariciones", x: "Cientos de opositores desaparecidos, según organizaciones de derechos humanos." },
-    { era: "Transición", d: "2024–2026", h: "Gobierno interino", x: "Investigaciones a la DGFI y juicio a Hasina.", now: true }
+    { era: "Independencia", d: "1971", h: "Nace Bangladés", x: "Guerra de independencia de Pakistán.", ctx: "Guerra de independencia de Pakistán." },
+    { era: "Militares", d: "1977", h: "Nace la DGFI", x: "Bajo el gobierno militar de Ziaur Rahman.", ctx: "Gobierno militar." },
+    { era: "Hasina", d: "2009–2024", h: "Desapariciones", x: "Cientos de opositores desaparecidos, según organizaciones de derechos humanos.", ctx: "Gobierno de Sheikh Hasina." },
+    { era: "Transición", d: "2024–2026", h: "Gobierno interino", x: "Investigaciones a la DGFI y juicio a Hasina.", now: true, ctx: "Caída de Hasina." }
   ],
   cases: [
     { ev: 2, ilegal: true, d: "2009–2024", h: "Aynaghar", x: "La comisión investigadora y ex detenidos describieron una cárcel secreta de la DGFI donde opositores pasaron meses o años sin proceso. En 2025 un tribunal acusó a oficiales por desapariciones forzadas.", who: "Comisión de investigación de desapariciones forzadas; Human Rights Watch", missing: "Sentencias firmes.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" },
-    { ev: 1, ilegal: true, d: "2024-07", h: "La represión de julio", x: "La ONU concluyó que el gobierno de Hasina y sus servicios coordinaron una represión que pudo dejar hasta 1.400 muertos. Hasina fue condenada en ausencia en 2025.", who: "Oficina de la ONU para los Derechos Humanos; Tribunal Internacional de Crímenes", missing: "", u: "https://www.ohchr.org/en/press-releases/2025/02/bangladesh-un-report-finds-brutal-systematic-repression-protests-calls-justice", st: "ACNUDH" }
+    { ev: 1, ilegal: true, d: "2024-07", h: "La represión de julio", x: "La ONU concluyó que el gobierno de Hasina y sus servicios coordinaron una represión que pudo dejar hasta 1.400 muertos. Hasina fue condenada en ausencia en 2025.", who: "Oficina de la ONU para los Derechos Humanos; Tribunal Internacional de Crímenes", missing: "", u: "https://www.ohchr.org/en/press-releases/2025/02/bangladesh-un-report-finds-brutal-systematic-repression-protests-calls-justice", st: "ACNUDH" },
+    {"ev": 2, "ilegal": true, "d": "2013–2024", "h": "La vigilancia del NTMC", "x": "El centro de monitoreo compró equipos extranjeros de interceptación y los usó contra opositores, según investigaciones de prensa. Su ex jefe fue detenido en 2024.", "who": "Prensa de investigación; gobierno interino", "missing": "Una sentencia judicial.", "u": "https://en.wikipedia.org/wiki/National_Telecommunication_Monitoring_Centre", "st": "Wikipedia: NTMC"}
   ],
   failures: [
-    { k: "falla", d: "2016-07", ev: 1, w: 2, h: "Holey Artisan", x: "Los servicios no detectaron la célula que atacó el café pese a amenazas previas.", why: "El ataque está probado; el alcance de los avisos se discute.", wx: "Hubo informes de prensa sobre alertas ignoradas.", who: "Prensa bangladesí", u: "https://en.wikipedia.org/wiki/July_2016_Dhaka_attack", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "falla", d: "2016-07", ev: 1, w: 2, h: "Holey Artisan", x: "Los servicios no detectaron la célula que atacó el café pese a amenazas previas.", why: "El ataque está probado; el alcance de los avisos se discute.", wx: "Hubo informes de prensa sobre alertas ignoradas.", who: "Prensa bangladesí", u: "https://en.wikipedia.org/wiki/July_2016_Dhaka_attack", st: "Wikipedia (síntesis de fuentes)" },
+    {"k": "falla", "d": "2009-02-25", "ev": 1, "w": 2, "h": "El motín que nadie vio venir", "x": "Los servicios no detectaron la conspiración dentro de los guardias de frontera, que mató a 74 personas.", "why": "El motín no está en duda; una comisión creada en 2024 revisa si hubo complicidad política.", "wx": "", "who": "Gobierno de Bangladés", "u": "https://en.wikipedia.org/wiki/Bangladesh_Rifles_revolt", "st": "Wikipedia: motín de los Rifles de Bangladés"}
   ],
   modus: {
     embajadas: "Presencia limitada en embajadas regionales.",
@@ -148,6 +152,7 @@
   proxies: [
   ],
   cuentas: {"n": 2, "x": "Comisión de desapariciones y acusaciones a oficiales desde 2024."},
+  doctrina: [{"h": "Reforma pendiente", "x": "El gobierno interino investiga a la DGFI por desapariciones."}],
   sources: [
     { t: "ACNUDH: informe sobre la represión de 2024", u: "https://www.ohchr.org/en/press-releases/2025/02/bangladesh-un-report-finds-brutal-systematic-repression-protests-calls-justice" },
     { t: "Wikipedia: Aynaghar", u: "https://en.wikipedia.org/wiki/Aynaghar" },

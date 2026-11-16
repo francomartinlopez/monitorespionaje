@@ -75,13 +75,13 @@
     "China": 3, "Russia": 3, "India": 2, "Iran": 2, "United States of America": 2, "Greenland": 1, "Ukraine": 1, "Pakistan": 1
   },
   timeline: [
-    { era: "Guerra Fría", d: "1945", h: "Caso Gouzenko", x: "La deserción abre la Guerra Fría en la inteligencia occidental." },
-    { era: "", d: "1946", h: "Nace el CSE", x: "Canadá se suma al acuerdo de señales con EE.UU. y el Reino Unido." },
-    { era: "", d: "1984", h: "Nace el CSIS", x: "La inteligencia de seguridad se separa de la policía." },
-    { era: "", d: "1985", h: "Air India", x: "El peor atentado de la historia del país expone fallas del CSIS y la RCMP." },
-    { era: "Siglo XXI", d: "2002", h: "Caso Arar", x: "Información falsa canadiense lleva a la tortura de un ciudadano en Siria." },
-    { era: "", d: "2023–2025", h: "Injerencia extranjera", x: "Filtraciones, la comisión Hogue y el caso Nijjar." },
-    { era: "Actual", d: "2026", h: "Registro de influencia", x: "Entra en vigor el registro y la RCMP dice no tener pruebas contra India en el caso Nijjar.", now: true }
+    { era: "Guerra Fría", d: "1945", h: "Caso Gouzenko", x: "La deserción abre la Guerra Fría en la inteligencia occidental.", ctx: "Fin de la Segunda Guerra Mundial." },
+    { era: "", d: "1946", h: "Nace el CSE", x: "Canadá se suma al acuerdo de señales con EE.UU. y el Reino Unido.", ctx: "Comienzo de la Guerra Fría." },
+    { era: "", d: "1984", h: "Nace el CSIS", x: "La inteligencia de seguridad se separa de la policía.", ctx: "Escándalos de la policía montada en Quebec." },
+    { era: "", d: "1985", h: "Air India", x: "El peor atentado de la historia del país expone fallas del CSIS y la RCMP.", ctx: "Extremismo sij." },
+    { era: "Siglo XXI", d: "2002", h: "Caso Arar", x: "Información falsa canadiense lleva a la tortura de un ciudadano en Siria.", ctx: "Después del 11-S." },
+    { era: "", d: "2023–2025", h: "Injerencia extranjera", x: "Filtraciones, la comisión Hogue y el caso Nijjar.", ctx: "Tensión con China e India." },
+    { era: "Actual", d: "2026", h: "Registro de influencia", x: "Entra en vigor el registro y la RCMP dice no tener pruebas contra India en el caso Nijjar.", now: true, ctx: "Presión de EE.UU. bajo Trump." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2002", h: "Maher Arar", x: "La RCMP pasó a EE.UU. información falsa que describía como extremista a un ingeniero canadiense. EE.UU. lo envió a Siria, donde estuvo preso y fue torturado casi un año. Una comisión lo exoneró en 2006 y el gobierno pagó 10,5 millones de dólares canadienses.", who: "Comisión O'Connor", missing: "", u: "https://en.wikipedia.org/wiki/Maher_Arar", st: "Wikipedia (síntesis de fuentes)" },

@@ -75,13 +75,13 @@
     "Russia": 2, "China": 1, "Canada": 1, "Brazil": 1, "Argentina": 1, "Angola": 1, "Iran": 1
   },
   timeline: [
-    { era: "Revolución", d: "1959–1961", h: "Nacen los servicios", x: "Con asesoría soviética, se crean la Seguridad del Estado y la inteligencia exterior." },
-    { era: "Guerra Fría", d: "1960–1989", h: "Exportar la revolución", x: "Apoyo a guerrillas en América Latina y África, con la DGI como brazo." },
-    { era: "", d: "1987", h: "La deserción de Aspillaga", x: "Un oficial revela que los agentes de la CIA en Cuba eran dobles." },
-    { era: "", d: "1989", h: "Caso Ochoa", x: "Fusilan a militares y oficiales del MININT por narcotráfico; se purga el ministerio." },
-    { era: "Posguerra Fría", d: "1998–2009", h: "Caen las redes en EE.UU.", x: "Red Avispa, Montes y Myers." },
-    { era: "", d: "2000–2025", h: "Venezuela", x: "Asesores cubanos en la seguridad y la inteligencia de Chávez y Maduro." },
-    { era: "Actual", d: "2026", h: "Golpe en Caracas y presión de EE.UU.", x: "Muertos en Venezuela, visita de la CIA, acusación a Raúl Castro e informe del Departamento de Estado.", now: true }
+    { era: "Revolución", d: "1959–1961", h: "Nacen los servicios", x: "Con asesoría soviética, se crean la Seguridad del Estado y la inteligencia exterior.", ctx: "Triunfo de la revolución y ruptura con EE.UU." },
+    { era: "Guerra Fría", d: "1960–1989", h: "Exportar la revolución", x: "Apoyo a guerrillas en América Latina y África, con la DGI como brazo.", ctx: "Guerra Fría en América Latina y África." },
+    { era: "", d: "1987", h: "La deserción de Aspillaga", x: "Un oficial revela que los agentes de la CIA en Cuba eran dobles.", ctx: "Últimos años del apoyo soviético." },
+    { era: "", d: "1989", h: "Caso Ochoa", x: "Fusilan a militares y oficiales del MININT por narcotráfico; se purga el ministerio.", ctx: "Caída del bloque soviético." },
+    { era: "Posguerra Fría", d: "1998–2009", h: "Caen las redes en EE.UU.", x: "Red Avispa, Montes y Myers.", ctx: "Período especial y presión del exilio." },
+    { era: "", d: "2000–2025", h: "Venezuela", x: "Asesores cubanos en la seguridad y la inteligencia de Chávez y Maduro.", ctx: "Alianza con Chávez y Maduro." },
+    { era: "Actual", d: "2026", h: "Golpe en Caracas y presión de EE.UU.", x: "Muertos en Venezuela, visita de la CIA, acusación a Raúl Castro e informe del Departamento de Estado.", now: true, ctx: "Captura de Maduro y bloqueo petrolero." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "1981–2023", h: "Víctor Manuel Rocha", x: "El diplomático de EE.UU., que llegó a embajador en Bolivia y trabajó en el Consejo de Seguridad Nacional, actuó en secreto para la inteligencia cubana durante cuatro décadas. Lo descubrió un agente del FBI que se hizo pasar por oficial cubano. Se declaró culpable y fue condenado a 15 años.", who: "Departamento de Justicia de EE.UU.", missing: "", u: "https://www.justice.gov/usao-sdfl/pr/former-us-ambassador-and-national-security-council-official-admits-secretly-acting", st: "Departamento de Justicia de EE.UU." },

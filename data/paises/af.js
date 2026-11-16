@@ -59,6 +59,8 @@
     { d: "2024-08", dir: "amplia", area: "Expresión", h: "Ley de virtud y vicio", x: "Restringe la voz y la presencia de las mujeres en público." }
   ],
   events: [
+    {"d": "2001-09-09", "lat": 37.33, "lon": 69.47, "c": "Afghanistan", "t": "encubierta", "ev": 1, "h": "Asesinato de Massoud", "x": "Dos agentes de Al Qaeda que se hacían pasar por periodistas matan al jefe de la Alianza del Norte, dos días antes del 11-S.", "u": "https://en.wikipedia.org/wiki/Ahmad_Shah_Massoud", "st": "Wikipedia: Ahmad Shah Massoud"},
+    {"d": "2009-12-30", "lat": 33.34, "lon": 69.95, "c": "Afghanistan", "t": "humana", "ev": 1, "h": "Ataque en Khost", "x": "Un doble agente jordano se inmola en una base de la CIA y mata a siete estadounidenses.", "u": "https://en.wikipedia.org/wiki/Camp_Chapman_attack", "st": "Wikipedia: ataque de Camp Chapman"},
     { d: "2021-08-26", lat: 34.56, lon: 69.21, c: "Afghanistan", t: "contra", ev: 1, h: "Atentado en el aeropuerto de Kabul", x: "El ISKP mata a unos 170 afganos y 13 soldados de EE.UU. durante la evacuación.", u: "https://en.wikipedia.org/wiki/2021_Kabul_airport_attack", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2022-07-31", lat: 34.53, lon: 69.17, c: "Afghanistan", t: "encubierta", ev: 1, h: "Muerte de Zawahiri", x: "Un dron de la CIA mata al jefe de Al Qaeda en una casa de Kabul vinculada a la red Haqqani.", u: "https://en.wikipedia.org/wiki/Killing_of_Ayman_al-Zawahiri", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2025-10-09", lat: 34.52, lon: 69.18, c: "Afghanistan", t: "encubierta", ev: 2, h: "Bombardeo pakistaní en Kabul", x: "Pakistán ataca en Kabul a dirigentes del TTP, según Islamabad; siguen combates fronterizos.", u: "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93Pakistan_relations", st: "Wikipedia (síntesis de fuentes)" }
@@ -67,11 +69,11 @@
     "Pakistan": 3, "Iran": 2, "Tajikistan": 2, "Uzbekistan": 1, "Turkmenistan": 1, "China": 1, "Russia": 1, "India": 1
   },
   timeline: [
-    { era: "República", d: "2002", h: "Nace la NDS", x: "Servicio creado y financiado por la CIA." },
-    { era: "", d: "2018–2021", h: "Unidades Cero", x: "Fuerzas especiales de la NDS acusadas de matar civiles en redadas." },
-    { era: "Emirato", d: "2021", h: "Toma de Kabul", x: "La GDI reemplaza a la NDS." },
-    { era: "", d: "2022", h: "Zawahiri", x: "El jefe de Al Qaeda muere en Kabul." },
-    { era: "Actual", d: "2025–2026", h: "Reconocimiento ruso y choque con Pakistán", x: "Rusia reconoce al Emirato y Pakistán bombardea Kabul.", now: true }
+    { era: "República", d: "2002", h: "Nace la NDS", x: "Servicio creado y financiado por la CIA.", ctx: "Ocupación de EE.UU. tras el 11-S." },
+    { era: "", d: "2018–2021", h: "Unidades Cero", x: "Fuerzas especiales de la NDS acusadas de matar civiles en redadas.", ctx: "Negociación de EE.UU. con los talibanes." },
+    { era: "Emirato", d: "2021", h: "Toma de Kabul", x: "La GDI reemplaza a la NDS.", ctx: "Retirada de EE.UU." },
+    { era: "", d: "2022", h: "Zawahiri", x: "El jefe de Al Qaeda muere en Kabul.", ctx: "Emirato talibán." },
+    { era: "Actual", d: "2025–2026", h: "Reconocimiento ruso y choque con Pakistán", x: "Rusia reconoce al Emirato y Pakistán bombardea Kabul.", now: true, ctx: "Aislamiento internacional parcial." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2021–2025", h: "Represalias contra ex funcionarios", x: "La misión de la ONU documentó cientos de detenciones arbitrarias, torturas y ejecuciones de ex miembros de las fuerzas de seguridad, pese a la amnistía anunciada por los talibanes.", who: "Misión de Asistencia de la ONU en Afganistán (UNAMA)", missing: "", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
@@ -79,7 +81,8 @@
     { ev: 2, ilegal: true, d: "2018–2021", h: "Las Unidades Cero de la NDS", x: "Human Rights Watch documentó que unidades especiales entrenadas por la CIA mataron civiles en redadas nocturnas. Fue el servicio anterior a los talibanes.", who: "Human Rights Watch", missing: "Investigaciones judiciales.", u: "https://en.wikipedia.org/wiki/National_Directorate_of_Security", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
-    { k: "falla", d: "2021-08", ev: 1, w: 3, h: "El colapso de la república", x: "La NDS y los servicios occidentales no anticiparon la caída de Kabul en días.", why: "No está en duda; lo admitieron EE.UU. y ex funcionarios afganos.", wx: "Informes oficiales de EE.UU.", who: "Gobierno de EE.UU.", u: "https://en.wikipedia.org/wiki/Fall_of_Kabul_(2021)", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "falla", d: "2021-08", ev: 1, w: 3, h: "El colapso de la república", x: "La NDS y los servicios occidentales no anticiparon la caída de Kabul en días.", why: "No está en duda; lo admitieron EE.UU. y ex funcionarios afganos.", wx: "Informes oficiales de EE.UU.", who: "Gobierno de EE.UU.", u: "https://en.wikipedia.org/wiki/Fall_of_Kabul_(2021)", st: "Wikipedia (síntesis de fuentes)" },
+    {"k": "falla", "d": "2001-09-09", "ev": 1, "w": 3, "h": "El asesinato de Massoud", "x": "La seguridad de la Alianza del Norte dejó pasar a dos falsos periodistas con una cámara cargada de explosivos.", "why": "No está en duda.", "wx": "", "who": "Alianza del Norte; investigaciones posteriores", "u": "https://en.wikipedia.org/wiki/Ahmad_Shah_Massoud", "st": "Wikipedia: Ahmad Shah Massoud"}
   ],
   modus: {
     embajadas: "El Emirato tiene pocas embajadas reconocidas; usa enviados en Doha, Moscú, Pekín e Islamabad.",
@@ -151,6 +154,7 @@
     {"id": "alqaeda", "s": "Al Qaeda", "n": "Al Qaeda", "k": "terrorista", "d": "1996–", "rol": "doble", "hoy": true, "ev": 1, "x": "El jefe de Al Qaeda, Ayman al Zawahiri, vivía en Kabul cuando EE.UU. lo mató en 2022, pese al compromiso talibán de Doha.", "who": "Gobierno de EE.UU.; equipo de monitoreo de la ONU", "u": "https://en.wikipedia.org/wiki/Ayman_al-Zawahiri", "st": "Wikipedia: Ayman al-Zawahiri", "graf": true}
   ],
   cuentas: {"n": 1, "x": "Sin control de ningún tipo."},
+  doctrina: [{"h": "Seguridad del emirato", "x": "La inteligencia talibán persigue al Estado Islámico y a ex funcionarios."}],
   sources: [
     { t: "Wikipedia: Killing of Ayman al-Zawahiri", u: "https://en.wikipedia.org/wiki/Killing_of_Ayman_al-Zawahiri" },
     { t: "Wikipedia: Human rights in Afghanistan", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan" },

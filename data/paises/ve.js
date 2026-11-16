@@ -70,11 +70,11 @@
     "United States of America": 3, "Colombia": 3, "Guyana": 2, "Chile": 1, "Spain": 1, "Peru": 1, "Brazil": 1, "Cuba": 2
   },
   timeline: [
-    { era: "Democracia", d: "1969", h: "Nace la DISIP", x: "Policía política de los gobiernos de Acción Democrática y COPEI." },
-    { era: "Chavismo", d: "2010", h: "Nace el SEBIN", x: "Hugo Chávez transforma la DISIP." },
-    { era: "", d: "2014–2019", h: "Represión de protestas", x: "El SEBIN y la DGCIM detienen y torturan a opositores y militares." },
-    { era: "", d: "2024", h: "Elecciones disputadas", x: "Nueva ola de detenciones tras la elección de julio." },
-    { era: "Actual", d: "2026", h: "Captura de Maduro", x: "Transición encabezada por Delcy Rodríguez y liberación de presos.", now: true }
+    { era: "Democracia", d: "1969", h: "Nace la DISIP", x: "Policía política de los gobiernos de Acción Democrática y COPEI.", ctx: "Democracia de Punto Fijo y guerrillas." },
+    { era: "Chavismo", d: "2010", h: "Nace el SEBIN", x: "Hugo Chávez transforma la DISIP.", ctx: "Gobierno de Hugo Chávez." },
+    { era: "", d: "2014–2019", h: "Represión de protestas", x: "El SEBIN y la DGCIM detienen y torturan a opositores y militares.", ctx: "Crisis económica y gobierno de Maduro." },
+    { era: "", d: "2024", h: "Elecciones disputadas", x: "Nueva ola de detenciones tras la elección de julio.", ctx: "Elección presidencial disputada." },
+    { era: "Actual", d: "2026", h: "Captura de Maduro", x: "Transición encabezada por Delcy Rodríguez y liberación de presos.", now: true, ctx: "Intervención de EE.UU." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2014–2024", h: "Los crímenes del SEBIN y la DGCIM", x: "La Misión de Determinación de los Hechos de la ONU documentó torturas, desapariciones forzadas y violencia sexual en centros del SEBIN y la DGCIM. Concluyó que fueron crímenes de lesa humanidad cometidos como parte de una política del Estado. La Corte Penal Internacional investiga.", who: "Misión de Determinación de los Hechos de la ONU", missing: "", u: "https://citizen.digital/article/maduro-is-out-but-his-top-allies-still-hold-power-in-venezuela-n375237", st: "Reuters, vía Citizen Digital" },
@@ -157,6 +157,7 @@
     {"id": "tren", "s": "Tren de Aragua", "n": "Tren de Aragua", "k": "crimen", "d": "2014–", "rol": "usa", "hoy": true, "ev": 3, "x": "El gobierno de Trump lo presentó como herramienta del régimen; una evaluación de la inteligencia de EE.UU. de 2025 no halló coordinación con el gobierno.", "who": "Gobierno de EE.UU.; Consejo Nacional de Inteligencia", "u": "https://en.wikipedia.org/wiki/Tren_de_Aragua", "st": "Wikipedia: Tren de Aragua"}
   ],
   cuentas: {"n": 1, "x": "La Corte Penal Internacional investiga; no hubo juicios internos."},
+  doctrina: [{"h": "Contrainteligencia ante todo", "x": "Con asesoría cubana, la prioridad fue vigilar a los propios militares."}],
   sources: [
     { t: "Reuters: los aliados de Maduro siguen en el poder (2026)", u: "https://www.thestar.com.my/news/world/2026/01/04/maduro-is-out-but-it039s-unclear-who-is-running-venezuela" },
     { t: "Al Jazeera: por qué los venezolanos siguen temiendo al gobierno", u: "https://www.aljazeera.com/features/2026/1/8/maduros-gone-why-are-venezuelans-still-afraid-of-the-government" },

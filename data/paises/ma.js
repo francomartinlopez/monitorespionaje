@@ -69,12 +69,12 @@
     "Algeria": 3, "W. Sahara": 3, "Spain": 3, "France": 3, "Belgium": 2, "Netherlands": 2, "Mauritania": 2, "Mali": 2, "Israel": 2, "United States of America": 2
   },
   timeline: [
-    { era: "Hassan II", d: "1965", h: "Caso Ben Barka", x: "Desaparición del principal opositor en París." },
-    { era: "Años de plomo", d: "1970–1990", h: "Represión", x: "Cárceles secretas como Tazmamart contra opositores y militares." },
-    { era: "Mohamed VI", d: "2003", h: "Atentados de Casablanca", x: "Giro hacia el contraterrorismo y alianza con la CIA." },
-    { era: "", d: "2015", h: "Hammouchi suma la policía", x: "La DGST y la DGSN quedan bajo un mismo jefe." },
-    { era: "", d: "2020", h: "Relaciones con Israel", x: "Acuerdo con Israel y reconocimiento de EE.UU. sobre el Sáhara." },
-    { era: "Actual", d: "2021–2026", h: "Pegasus y Parlamento Europeo", x: "Escándalos de espionaje e influencia en Europa.", now: true }
+    { era: "Hassan II", d: "1965", h: "Caso Ben Barka", x: "Desaparición del principal opositor en París.", ctx: "Reinado de Hassan II." },
+    { era: "Años de plomo", d: "1970–1990", h: "Represión", x: "Cárceles secretas como Tazmamart contra opositores y militares.", ctx: "Golpes fallidos y guerra del Sáhara." },
+    { era: "Mohamed VI", d: "2003", h: "Atentados de Casablanca", x: "Giro hacia el contraterrorismo y alianza con la CIA.", ctx: "Después del 11-S." },
+    { era: "", d: "2015", h: "Hammouchi suma la policía", x: "La DGST y la DGSN quedan bajo un mismo jefe.", ctx: "Amenaza del Estado Islámico." },
+    { era: "", d: "2020", h: "Relaciones con Israel", x: "Acuerdo con Israel y reconocimiento de EE.UU. sobre el Sáhara.", ctx: "Acuerdos de Abraham." },
+    { era: "Actual", d: "2021–2026", h: "Pegasus y Parlamento Europeo", x: "Escándalos de espionaje e influencia en Europa.", now: true, ctx: "Disputa por el Sáhara Occidental." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "1965", h: "La desaparición de Mehdi Ben Barka", x: "El líder opositor fue secuestrado en París por policías franceses en contacto con los servicios marroquíes. Un tribunal francés condenó en ausencia al ministro del Interior marroquí. Su cuerpo nunca apareció.", who: "Justicia francesa", missing: "", u: "https://en.wikipedia.org/wiki/Mehdi_Ben_Barka", st: "Wikipedia: Mehdi Ben Barka" },

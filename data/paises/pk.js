@@ -79,13 +79,13 @@
     "United Kingdom": 1, "Bangladesh": 2, "Qatar": 1, "Turkey": 1, "Russia": 1, "Tajikistan": 1, "Kenya": 1
   },
   timeline: [
-    { era: "Orígenes", d: "1948", h: "Nace la ISI", x: "Se crea tras la primera guerra con India por Cachemira." },
-    { era: "Guerra afgana", d: "1979–1989", h: "Canal de la CIA", x: "La ISI reparte armas y dinero a los muyahidines contra la Unión Soviética." },
-    { era: "", d: "1994–2001", h: "Apoyo a los talibanes", x: "La ISI sostiene el ascenso talibán en Afganistán." },
-    { era: "Guerra contra el terror", d: "2001–2011", h: "Doble juego", x: "Coopera con EE.UU. contra Al Qaeda mientras los talibanes se refugian en Pakistán." },
-    { era: "", d: "2011", h: "Abbottabad", x: "EE.UU. mata a Bin Laden en Pakistán sin avisar a la ISI." },
-    { era: "Política", d: "2018–2023", h: "Ascenso y caída de Imran Khan", x: "La ISI de Faiz Hameed acompaña a Khan; después de su caída, Khan queda preso." },
-    { era: "Actual", d: "2024–2026", h: "Malik, Munir y la frontera afgana", x: "Hameed condenado, guerra corta con India en 2025 y ataques en Afganistán.", now: true }
+    { era: "Orígenes", d: "1948", h: "Nace la ISI", x: "Se crea tras la primera guerra con India por Cachemira.", ctx: "Partición de la India y primera guerra por Cachemira." },
+    { era: "Guerra afgana", d: "1979–1989", h: "Canal de la CIA", x: "La ISI reparte armas y dinero a los muyahidines contra la Unión Soviética.", ctx: "Invasión soviética de Afganistán." },
+    { era: "", d: "1994–2001", h: "Apoyo a los talibanes", x: "La ISI sostiene el ascenso talibán en Afganistán.", ctx: "Guerra civil afgana tras la retirada soviética." },
+    { era: "Guerra contra el terror", d: "2001–2011", h: "Doble juego", x: "Coopera con EE.UU. contra Al Qaeda mientras los talibanes se refugian en Pakistán.", ctx: "Guerra de EE.UU. en Afganistán tras el 11-S." },
+    { era: "", d: "2011", h: "Abbottabad", x: "EE.UU. mata a Bin Laden en Pakistán sin avisar a la ISI.", ctx: "Deterioro de la relación con EE.UU." },
+    { era: "Política", d: "2018–2023", h: "Ascenso y caída de Imran Khan", x: "La ISI de Faiz Hameed acompaña a Khan; después de su caída, Khan queda preso.", ctx: "Crisis económica y choque entre el Ejército y Imran Khan." },
+    { era: "Actual", d: "2024–2026", h: "Malik, Munir y la frontera afgana", x: "Hameed condenado, guerra corta con India en 2025 y ataques en Afganistán.", now: true, ctx: "Talibanes en Kabul y conflicto con India en 2025." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "1990", h: "El dinero para las elecciones de 1990", x: "La Corte Suprema concluyó en 2012 que el jefe de la ISI repartió fondos a políticos para frenar a Benazir Bhutto en las elecciones de 1990. Ordenó investigar, sin condenas posteriores.", who: "Corte Suprema de Pakistán", missing: "", u: "https://en.wikipedia.org/wiki/Mehran_Bank_scandal", st: "Wikipedia (síntesis de fuentes)" },

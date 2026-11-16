@@ -75,13 +75,13 @@
     "Canada": 2, "Egypt": 2, "Sudan": 2, "Bahrain": 2, "Afghanistan": 1, "Pakistan": 1, "Israel": 1, "Germany": 1
   },
   timeline: [
-    { era: "Orígenes", d: "1955", h: "Nace la inteligencia general", x: "El rey Saud crea el primer servicio de inteligencia." },
-    { era: "Guerra Fría", d: "1979–1989", h: "Afganistán", x: "Bajo Turki al Faisal, la GIP financia a los muyahidines junto con la CIA y la ISI." },
-    { era: "", d: "2001", h: "11 de septiembre", x: "15 de los 19 secuestradores eran sauditas; EE.UU. investigó posibles apoyos." },
-    { era: "", d: "2012–2017", h: "Siria", x: "Con Bandar bin Sultan, la GIP financia y arma a rebeldes sirios junto con la CIA." },
-    { era: "Era Mohammed bin Salman", d: "2017", h: "Concentración del poder", x: "Nace la Seguridad del Estado y llega la purga del Ritz-Carlton." },
-    { era: "", d: "2018", h: "Khashoggi", x: "El asesinato en Estambul provoca una crisis internacional y la reestructuración de la GIP." },
-    { era: "Actual", d: "2022–2026", h: "Fallos en el exterior", x: "Condena en EE.UU. por el espionaje en Twitter y fallo británico por Pegasus.", now: true }
+    { era: "Orígenes", d: "1955", h: "Nace la inteligencia general", x: "El rey Saud crea el primer servicio de inteligencia.", ctx: "Monarquía petrolera aliada de EE.UU." },
+    { era: "Guerra Fría", d: "1979–1989", h: "Afganistán", x: "Bajo Turki al Faisal, la GIP financia a los muyahidines junto con la CIA y la ISI.", ctx: "Revolución iraní e invasión soviética de Afganistán." },
+    { era: "", d: "2001", h: "11 de septiembre", x: "15 de los 19 secuestradores eran sauditas; EE.UU. investigó posibles apoyos.", ctx: "15 de los 19 atacantes eran saudíes." },
+    { era: "", d: "2012–2017", h: "Siria", x: "Con Bandar bin Sultan, la GIP financia y arma a rebeldes sirios junto con la CIA.", ctx: "Guerra civil siria." },
+    { era: "Era Mohammed bin Salman", d: "2017", h: "Concentración del poder", x: "Nace la Seguridad del Estado y llega la purga del Ritz-Carlton.", ctx: "Ascenso del príncipe Mohamed bin Salmán." },
+    { era: "", d: "2018", h: "Khashoggi", x: "El asesinato en Estambul provoca una crisis internacional y la reestructuración de la GIP.", ctx: "Guerra en Yemen y apertura económica." },
+    { era: "Actual", d: "2022–2026", h: "Fallos en el exterior", x: "Condena en EE.UU. por el espionaje en Twitter y fallo británico por Pegasus.", now: true, ctx: "Acercamiento a Irán y pacto con Pakistán." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2018", h: "El asesinato de Khashoggi", x: "Un equipo de 15 sauditas, varios de ellos de la inteligencia y de la guardia del príncipe heredero, mató al periodista en el consulado de Estambul. Un tribunal saudita condenó a ocho personas en 2019. La Oficina del Director de Inteligencia Nacional de EE.UU. concluyó en 2021 que Mohammed bin Salman aprobó la operación; Riad lo niega.", who: "Turquía, la ONU y la inteligencia de EE.UU.", missing: "", u: "https://en.wikipedia.org/wiki/Assassination_of_Jamal_Khashoggi", st: "Wikipedia (síntesis de fuentes)" },

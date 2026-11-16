@@ -60,6 +60,9 @@
     { d: "2024-12", dir: "amplia", area: "Privacidad", h: "NoviSpy", x: "Amnistía revela la infección de teléfonos de activistas durante interrogatorios." }
   ],
   events: [
+    {"d": "1999-04-11", "lat": 44.81, "lon": 20.46, "c": "Serbia", "t": "encubierta", "ev": 2, "h": "Asesinato de Slavko Ćuruvija", "x": "Matan a tiros al periodista crítico de Milošević frente a su casa en Belgrado.", "u": "https://en.wikipedia.org/wiki/Slavko_%C4%86uruvija", "st": "Wikipedia: Slavko Ćuruvija"},
+    {"d": "2003-03-12", "lat": 44.81, "lon": 20.47, "c": "Serbia", "t": "encubierta", "ev": 1, "h": "Asesinato de Zoran Đinđić", "x": "Un francotirador mata al primer ministro frente a la sede del gobierno.", "u": "https://en.wikipedia.org/wiki/Assassination_of_Zoran_%C4%90in%C4%91i%C4%87", "st": "Wikipedia: asesinato de Zoran Đinđić"},
+    {"d": "2023-09-24", "lat": 42.97, "lon": 20.78, "c": "Kosovo", "t": "encubierta", "ev": 2, "h": "Ataque de Banjska", "x": "Un grupo armado serbio mata a un policía kosovar; Kosovo acusa a Belgrado de apoyarlo.", "u": "https://en.wikipedia.org/wiki/Banjska_attack", "st": "Wikipedia: ataque de Banjska"},
     { d: "2024-02", lat: 44.8, lon: 20.46, c: "Serbia", t: "ciber", ev: 2, h: "Infección de teléfonos de periodistas", x: "Policías y agentes de la BIA desbloquean teléfonos con Cellebrite e instalan NoviSpy, según Amnistía.", u: "https://www.amnesty.org/en/latest/news/2024/12/serbia-authorities-using-spyware-and-cellebrite-forensic-extraction-tools-to-hack-journalists-and-activists/", st: "Amnistía Internacional" },
     { d: "2024-11-01", lat: 45.26, lon: 19.83, c: "Serbia", t: "contra", ev: 1, h: "Derrumbe en Novi Sad", x: "El techo de la estación renovada mata a 16 personas y desata protestas masivas.", u: "https://en.wikipedia.org/wiki/Novi_Sad_railway_station_canopy_collapse", st: "Wikipedia (síntesis de fuentes)" }
   ],
@@ -67,16 +70,18 @@
     "Kosovo": 3, "Bosnia and Herz.": 2, "Montenegro": 2, "Croatia": 2, "Russia": 1, "Hungary": 1, "Albania": 1
   },
   timeline: [
-    { era: "Yugoslavia", d: "1946", h: "UDBA", x: "Policía política yugoslava, con asesinatos de emigrados." },
-    { era: "Milošević", d: "1991–1999", h: "Guerras yugoslavas", x: "Servicios ligados a paramilitares y crímenes de guerra." },
-    { era: "Democracia", d: "2002", h: "Nace la BIA", x: "Reforma de los servicios." },
-    { era: "Vučić", d: "2022–2023", h: "Vulin al frente de la BIA", x: "Acercamiento a Rusia y sanciones de EE.UU." },
-    { era: "Actual", d: "2024–2026", h: "Protestas y espionaje", x: "NoviSpy y represión de protestas.", now: true }
+    { era: "Yugoslavia", d: "1946", h: "UDBA", x: "Policía política yugoslava, con asesinatos de emigrados.", ctx: "Yugoslavia de Tito." },
+    { era: "Milošević", d: "1991–1999", h: "Guerras yugoslavas", x: "Servicios ligados a paramilitares y crímenes de guerra.", ctx: "Disolución de Yugoslavia." },
+    { era: "Democracia", d: "2002", h: "Nace la BIA", x: "Reforma de los servicios.", ctx: "Caída de Milošević." },
+    { era: "Vučić", d: "2022–2023", h: "Vulin al frente de la BIA", x: "Acercamiento a Rusia y sanciones de EE.UU.", ctx: "Guerra en Ucrania." },
+    { era: "Actual", d: "2024–2026", h: "Protestas y espionaje", x: "NoviSpy y represión de protestas.", now: true, ctx: "Protestas contra Vučić." }
   ],
   cases: [
     { ev: 2, ilegal: true, d: "2023–2024", h: "NoviSpy", x: "Amnistía documentó que policías y agentes de la BIA desbloquearon teléfonos de periodistas y activistas detenidos con herramientas de Cellebrite e instalaron un programa espía de desarrollo local. La BIA lo negó; Cellebrite suspendió a algunos clientes serbios.", who: "Amnistía Internacional", missing: "Reconocimiento oficial o investigación judicial.", u: "https://www.amnesty.org/en/latest/news/2024/12/serbia-authorities-using-spyware-and-cellebrite-forensic-extraction-tools-to-hack-journalists-and-activists/", st: "Amnistía Internacional" },
     { ev: 2, ilegal: true, d: "2022–2023", h: "Aleksandar Vulin", x: "El Tesoro de EE.UU. sancionó en 2023 al jefe de la BIA por facilitar actividades rusas en Serbia y por vínculos con una red de narcotráfico. Vulin lo negó y Serbia no lo investigó.", who: "Departamento del Tesoro de EE.UU.", missing: "Un proceso judicial.", u: "https://en.wikipedia.org/wiki/Aleksandar_Vulin", st: "Wikipedia (síntesis de fuentes)" },
-    { ev: 1, ilegal: true, d: "1946–1990", h: "Los asesinatos de la UDBA", x: "Tribunales alemanes condenaron a ex agentes de la policía secreta yugoslava por el asesinato de emigrados croatas en Alemania.", who: "Tribunal Regional Superior de Múnich", missing: "", u: "https://en.wikipedia.org/wiki/UDBA", st: "Wikipedia (síntesis de fuentes)" }
+    { ev: 1, ilegal: true, d: "1946–1990", h: "Los asesinatos de la UDBA", x: "Tribunales alemanes condenaron a ex agentes de la policía secreta yugoslava por el asesinato de emigrados croatas en Alemania.", who: "Tribunal Regional Superior de Múnich", missing: "", u: "https://en.wikipedia.org/wiki/UDBA", st: "Wikipedia (síntesis de fuentes)" },
+    {"ev": 1, "ilegal": true, "d": "2003", "h": "El asesinato de Đinđić", "x": "La justicia condenó a ex miembros de la Unidad de Operaciones Especiales de la Seguridad del Estado y del clan mafioso de Zemun. Nunca se aclaró quién dio la orden política.", "who": "Tribunal Especial de Belgrado", "missing": "", "u": "https://en.wikipedia.org/wiki/Assassination_of_Zoran_%C4%90in%C4%91i%C4%87", "st": "Wikipedia: asesinato de Zoran Đinđić"},
+    {"ev": 2, "ilegal": true, "d": "1999–2024", "h": "El asesinato de Ćuruvija", "x": "Cuatro ex agentes de la Seguridad del Estado fueron condenados en dos juicios; un tribunal de apelación los absolvió en 2024.", "who": "Fiscalía serbia", "missing": "Una condena firme.", "u": "https://en.wikipedia.org/wiki/Slavko_%C4%86uruvija", "st": "Wikipedia: Slavko Ćuruvija"}
   ],
   failures: [
     { k: "falla", d: "2024-11", ev: 1, w: 3, h: "Novi Sad", x: "El derrumbe expuso corrupción en obras públicas y desató la mayor crisis del gobierno de Vučić.", why: "El derrumbe está probado; la responsabilidad penal se investiga.", wx: "Proceso judicial en curso.", who: "Fiscalía de Novi Sad", u: "https://en.wikipedia.org/wiki/Novi_Sad_railway_station_canopy_collapse", st: "Wikipedia (síntesis de fuentes)" }
@@ -150,6 +155,7 @@
     {"id": "arkan", "s": "Tigres de Arkan", "n": "Guardia Voluntaria Serbia (Tigres de Arkan)", "k": "armado", "d": "1990–1996", "rol": "patrocina", "hoy": false, "ev": 1, "x": "Paramilitares dirigidos y equipados por la Seguridad del Estado serbia durante las guerras yugoslavas, según el Tribunal de La Haya.", "who": "Tribunal Penal Internacional para la ex Yugoslavia", "u": "https://en.wikipedia.org/wiki/Serb_Volunteer_Guard", "st": "Wikipedia: Serb Volunteer Guard"}
   ],
   cuentas: {"n": 1, "x": "El caso NoviSpy no se investigó."},
+  doctrina: [{"h": "Entre dos sillas", "x": "Coopera con Rusia y China mientras negocia con la UE."}],
   sources: [
     { t: "Amnistía: NoviSpy y Cellebrite en Serbia (2024)", u: "https://www.amnesty.org/en/latest/news/2024/12/serbia-authorities-using-spyware-and-cellebrite-forensic-extraction-tools-to-hack-journalists-and-activists/" },
     { t: "Wikipedia: Aleksandar Vulin", u: "https://en.wikipedia.org/wiki/Aleksandar_Vulin" },

@@ -69,11 +69,11 @@
     "Russia": 3, "Moldova": 3, "Ukraine": 3, "Hungary": 1, "Bulgaria": 1, "Turkey": 1, "Serbia": 1
   },
   timeline: [
-    { era: "Comunismo", d: "1948", h: "Nace la Securitate", x: "Policía política del régimen comunista." },
-    { era: "", d: "1989", h: "Revolución", x: "Cae Ceaușescu y se disuelve la Securitate." },
-    { era: "Democracia", d: "1990", h: "Nacen el SRI y el SIE", x: "Nuevos servicios con parte del antiguo personal." },
-    { era: "", d: "2009–2016", h: "Protocolos secretos", x: "El SRI colabora con fiscales anticorrupción por acuerdos no públicos." },
-    { era: "Actual", d: "2024–2025", h: "Elección anulada", x: "Informes de inteligencia llevan a repetir la elección.", now: true }
+    { era: "Comunismo", d: "1948", h: "Nace la Securitate", x: "Policía política del régimen comunista.", ctx: "Régimen comunista." },
+    { era: "", d: "1989", h: "Revolución", x: "Cae Ceaușescu y se disuelve la Securitate.", ctx: "Caída de Ceaușescu." },
+    { era: "Democracia", d: "1990", h: "Nacen el SRI y el SIE", x: "Nuevos servicios con parte del antiguo personal.", ctx: "Transición a la democracia." },
+    { era: "", d: "2009–2016", h: "Protocolos secretos", x: "El SRI colabora con fiscales anticorrupción por acuerdos no públicos.", ctx: "Campaña anticorrupción." },
+    { era: "Actual", d: "2024–2025", h: "Elección anulada", x: "Informes de inteligencia llevan a repetir la elección.", now: true, ctx: "Guerra en Ucrania." }
   ],
   cases: [
     { ev: 2, ilegal: true, d: "2024", h: "La injerencia en la elección de 2024", x: "Informes desclasificados del SRI y otros servicios describieron una red de cuentas de TikTok coordinadas e influencers pagos a favor de Georgescu, con rasgos de una operación estatal. La Corte Constitucional anuló la elección. Rusia negó su participación y Georgescu fue luego acusado penalmente.", who: "Servicios rumanos y Corte Constitucional", missing: "Una atribución pública detallada a un Estado.", u: "https://en.wikipedia.org/wiki/2024_Romanian_presidential_election", st: "Wikipedia (síntesis de fuentes)" },
@@ -153,6 +153,7 @@
   proxies: [
   ],
   cuentas: {"n": 2, "x": "Archivos de la Securitate abiertos; las cárceles de la CIA no tuvieron responsables."},
+  doctrina: [{"h": "Frontera oriental", "x": "Contraespionaje frente a Rusia y apoyo a Moldavia."}],
   sources: [
     { t: "Wikipedia: 2024 Romanian presidential election", u: "https://en.wikipedia.org/wiki/2024_Romanian_presidential_election" },
     { t: "Wikipedia: Romanian Intelligence Service", u: "https://en.wikipedia.org/wiki/Romanian_Intelligence_Service" },

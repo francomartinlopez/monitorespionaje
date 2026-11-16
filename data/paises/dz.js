@@ -60,23 +60,27 @@
     { d: "2021-06", dir: "amplia", area: "Expresión", h: "Terrorismo ampliado", x: "Movimientos opositores pueden ser declarados terroristas." }
   ],
   events: [
+    {"d": "1992-06-29", "lat": 36.9, "lon": 7.76, "c": "Algeria", "t": "encubierta", "ev": 3, "h": "Asesinato de Mohamed Boudiaf", "x": "Un miembro de su guardia mata al presidente durante un acto en Annaba.", "u": "https://en.wikipedia.org/wiki/Mohamed_Boudiaf", "st": "Wikipedia: Mohamed Boudiaf"},
     { d: "1996-03-27", lat: 36.27, lon: 2.75, c: "Algeria", t: "encubierta", ev: 3, h: "Secuestro de los monjes de Tibhirine", x: "Siete monjes franceses son secuestrados y asesinados; el GIA lo reivindicó, pero desertores acusaron al DRS de manipulación.", u: "https://en.wikipedia.org/wiki/Assassination_of_the_monks_of_Tibhirine", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "2024-04-29", lat: 48.8, lon: 2.35, c: "France", t: "encubierta", ev: 2, h: "Secuestro de Amir DZ", x: "Un influencer opositor argelino es secuestrado cerca de París; la justicia francesa acusó en 2025 a un agente consular argelino.", u: "https://en.wikipedia.org/wiki/Algeria%E2%80%93France_relations", st: "Wikipedia (síntesis de fuentes)" }
+    {"d": "2013-01-16", "lat": 28.05, "lon": 9.56, "c": "Algeria", "t": "contra", "ev": 1, "h": "Toma de In Amenas", "x": "Un comando yihadista toma una planta de gas; el asalto del Ejército deja decenas de rehenes muertos.", "u": "https://en.wikipedia.org/wiki/In_Amenas_hostage_crisis", "st": "Wikipedia: crisis de In Amenas"},
+    { d: "2024-04-29", lat: 48.8, lon: 2.35, c: "France", t: "encubierta", ev: 2, h: "Secuestro de Amir DZ", x: "Un influencer opositor argelino es secuestrado cerca de París; la justicia francesa acusó en 2025 a un agente consular argelino.", u: "https://en.wikipedia.org/wiki/Algeria%E2%80%93France_relations", st: "Wikipedia (síntesis de fuentes)" },
+    {"d": "2025-04-14", "lat": 36.75, "lon": 3.06, "c": "Algeria", "t": "contra", "ev": 1, "h": "Expulsión de funcionarios franceses", "x": "Argelia expulsa a doce funcionarios franceses tras la detención en Francia de un agente consular por el secuestro de un opositor.", "u": "https://en.wikipedia.org/wiki/Algeria%E2%80%93France_relations", "st": "Wikipedia: relaciones Argelia–Francia"}
   ],
   interest: {
     "Morocco": 3, "W. Sahara": 3, "Mali": 2, "Niger": 2, "Libya": 2, "France": 2, "Tunisia": 1, "Spain": 1
   },
   timeline: [
-    { era: "Independencia", d: "1962", h: "Seguridad Militar", x: "Los servicios heredan el aparato del FLN." },
-    { era: "", d: "1990", h: "Nace el DRS", x: "Toufik asume el mando, que mantiene 25 años." },
-    { era: "Guerra civil", d: "1992–2002", h: "Década negra", x: "Unos 150.000 muertos; acusaciones de manipulación del DRS." },
-    { era: "Buteflika", d: "2016", h: "Disolución del DRS", x: "El presidente desarma el poder del servicio." },
-    { era: "Actual", d: "2024–2026", h: "Crisis con Francia", x: "Secuestro de un opositor y expulsiones de diplomáticos.", now: true }
+    { era: "Independencia", d: "1962", h: "Seguridad Militar", x: "Los servicios heredan el aparato del FLN.", ctx: "Independencia de Francia." },
+    { era: "", d: "1990", h: "Nace el DRS", x: "Toufik asume el mando, que mantiene 25 años.", ctx: "Apertura política tras las protestas de 1988." },
+    { era: "Guerra civil", d: "1992–2002", h: "Década negra", x: "Unos 150.000 muertos; acusaciones de manipulación del DRS.", ctx: "Guerra civil tras la anulación de las elecciones." },
+    { era: "Buteflika", d: "2016", h: "Disolución del DRS", x: "El presidente desarma el poder del servicio.", ctx: "Últimos años de Buteflika." },
+    { era: "Actual", d: "2024–2026", h: "Crisis con Francia", x: "Secuestro de un opositor y expulsiones de diplomáticos.", now: true, ctx: "Gobierno de Tebún." }
   ],
   cases: [
     { ev: 3, ilegal: true, d: "1994–1997", h: "El DRS y los grupos islamistas", x: "Ex oficiales del Ejército y del DRS, como Habib Souaïdia y Mohamed Samraoui, sostuvieron que los servicios infiltraron y manipularon al Grupo Islámico Armado. El Estado lo niega y la amnistía impidió investigar.", who: "Ex oficiales argelinos en el exilio", missing: "Documentos oficiales y un juicio.", u: "https://en.wikipedia.org/wiki/Armed_Islamic_Group_of_Algeria", st: "Wikipedia (síntesis de fuentes)" },
     { ev: 2, ilegal: true, d: "2024", h: "El secuestro de Amir DZ", x: "La justicia francesa acusó a un empleado del consulado argelino en Créteil y a otros dos hombres por el secuestro del influencer opositor Amir Boukhors. Argelia denunció una maniobra y expulsó a funcionarios franceses.", who: "Fiscalía antiterrorista de Francia", missing: "Un juicio.", u: "https://en.wikipedia.org/wiki/Algeria%E2%80%93France_relations", st: "Wikipedia (síntesis de fuentes)" },
-    { ev: 1, ilegal: true, d: "2019", h: "El juicio del general Toufik", x: "El ex jefe del DRS fue condenado en 2019 a 15 años por conspirar contra el Ejército durante la crisis del Hirak, junto con Saïd Buteflika. La condena se anuló en 2021.", who: "Tribunal militar de Blida", missing: "", u: "https://en.wikipedia.org/wiki/Mohamed_Medi%C3%A8ne", st: "Wikipedia (síntesis de fuentes)" }
+    { ev: 1, ilegal: true, d: "2019", h: "El juicio del general Toufik", x: "El ex jefe del DRS fue condenado en 2019 a 15 años por conspirar contra el Ejército durante la crisis del Hirak, junto con Saïd Buteflika. La condena se anuló en 2021.", who: "Tribunal militar de Blida", missing: "", u: "https://en.wikipedia.org/wiki/Mohamed_Medi%C3%A8ne", st: "Wikipedia (síntesis de fuentes)" },
+    {"ev": 3, "ilegal": true, "d": "1992", "h": "El asesinato de Boudiaf", "x": "La versión oficial habló de un acto aislado de un oficial de la guardia presidencial. La familia y parte de la prensa sospechan de sectores del poder militar.", "who": "Familia de Boudiaf; prensa argelina", "missing": "Una investigación independiente.", "u": "https://en.wikipedia.org/wiki/Mohamed_Boudiaf", "st": "Wikipedia: Mohamed Boudiaf"}
   ],
   failures: [
     { k: "falla", d: "2013-01", ev: 1, w: 3, h: "In Amenas", x: "Yihadistas tomaron una planta de gas con cientos de rehenes; murieron al menos 37 extranjeros en el asalto.", why: "No está en duda; se discute la decisión de asaltar sin negociar.", wx: "Investigaciones británicas y noruegas.", who: "Gobiernos del Reino Unido y Noruega", u: "https://en.wikipedia.org/wiki/In_Amenas_hostage_crisis", st: "Wikipedia (síntesis de fuentes)" }
@@ -150,6 +154,7 @@
     {"id": "polisario", "s": "Frente Polisario", "n": "Frente Polisario", "k": "armado", "d": "1975–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Argelia aloja y sostiene al Frente Polisario en Tinduf.", "who": "Gobierno de Argelia; ONU", "u": "https://en.wikipedia.org/wiki/Polisario_Front", "st": "Wikipedia: Polisario Front"}
   ],
   cuentas: {"n": 1, "x": "Sin control civil efectivo."},
+  doctrina: [{"h": "El Ejército manda", "x": "Los servicios son parte del poder militar que gobierna de hecho."}],
   sources: [
     { t: "Wikipedia: Mohamed Mediène", u: "https://en.wikipedia.org/wiki/Mohamed_Medi%C3%A8ne" },
     { t: "Wikipedia: Algeria–France relations", u: "https://en.wikipedia.org/wiki/Algeria%E2%80%93France_relations" },

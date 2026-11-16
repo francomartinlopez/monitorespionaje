@@ -74,13 +74,13 @@
     "Russia": 2, "United States of America": 2, "China": 1
   },
   timeline: [
-    { era: "Dictadura", d: "1964", h: "Nace el SNI", x: "El Servicio Nacional de Informaciones vigila y reprime a opositores." },
-    { era: "", d: "1975–1980", h: "Plan Cóndor", x: "Los servicios brasileños cooperan con los de Argentina, Chile y Uruguay en la persecución de exiliados." },
-    { era: "Democracia", d: "1990", h: "Se disuelve el SNI", x: "Fernando Collor cierra el servicio de la dictadura." },
-    { era: "", d: "1999", h: "Nace la ABIN", x: "Nueva agencia con control del Congreso." },
-    { era: "", d: "2013", h: "Snowden", x: "Brasil descubre que la NSA espiaba a su presidenta." },
-    { era: "Bolsonaro", d: "2019–2022", h: "La Abin paralela", x: "Espionaje ilegal de adversarios y campañas contra las urnas." },
-    { era: "Actual", d: "2023–2026", h: "Juicios y reforma", x: "Condena de Ramagem, caso Paraguay, red rusa y elecciones de 2026.", now: true }
+    { era: "Dictadura", d: "1964", h: "Nace el SNI", x: "El Servicio Nacional de Informaciones vigila y reprime a opositores.", ctx: "Golpe militar de 1964." },
+    { era: "", d: "1975–1980", h: "Plan Cóndor", x: "Los servicios brasileños cooperan con los de Argentina, Chile y Uruguay en la persecución de exiliados.", ctx: "Dictaduras coordinadas en el Cono Sur." },
+    { era: "Democracia", d: "1990", h: "Se disuelve el SNI", x: "Fernando Collor cierra el servicio de la dictadura.", ctx: "Regreso de la democracia y gobierno de Collor." },
+    { era: "", d: "1999", h: "Nace la ABIN", x: "Nueva agencia con control del Congreso.", ctx: "Presidencia de Fernando Henrique Cardoso." },
+    { era: "", d: "2013", h: "Snowden", x: "Brasil descubre que la NSA espiaba a su presidenta.", ctx: "Gobierno de Dilma Rousseff." },
+    { era: "Bolsonaro", d: "2019–2022", h: "La Abin paralela", x: "Espionaje ilegal de adversarios y campañas contra las urnas.", ctx: "Gobierno de Jair Bolsonaro." },
+    { era: "Actual", d: "2023–2026", h: "Juicios y reforma", x: "Condena de Ramagem, caso Paraguay, red rusa y elecciones de 2026.", now: true, ctx: "Tercer gobierno de Lula y juicio a Bolsonaro." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2019–2022", h: "La Abin paralela", x: "La Policía Federal concluyó que un grupo dentro de la ABIN espió sin orden judicial a ministros del Supremo, legisladores y periodistas y produjo noticias falsas. Alexandre Ramagem fue condenado en 2025 junto con Bolsonaro por la trama golpista, en la que el espionaje fue parte central. Otros 28 indiciados esperan en la justicia federal.", who: "Policía Federal y Supremo Tribunal Federal", missing: "", u: "https://www.brasildefato.com.br/2025/09/18/futuro-alexandre-ramagem/", st: "Brasil de Fato" },
@@ -165,6 +165,7 @@
   proxies: [
   ],
   cuentas: {"n": 2, "x": "Causa por la \"Abin paralela\"; la Comisión de la Verdad no pudo llevar a juicio los crímenes de la dictadura."},
+  doctrina: [{"h": "Inteligencia sin poder de policía", "x": "La ABIN no puede detener ni interceptar; depende de la Policía Federal."}],
   sources: [
     { t: "ABIN: Desafíos de Inteligencia, edición 2026", u: "https://www.gov.br/abin/pt-br/centrais-de-conteudo/publicacoes/defeso/sem-logo-de-gov_abin_desafios_2026.pdf" },
     { t: "Brasil de Fato: Ramagem y la Abin paralela", u: "https://www.brasildefato.com.br/2025/09/18/futuro-alexandre-ramagem/" },

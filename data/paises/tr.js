@@ -84,13 +84,13 @@
     "Somalia": 1, "Sudan": 1, "Kenya": 1, "Kosovo": 1, "Kyrgyzstan": 1, "Egypt": 1, "Qatar": 1, "Saudi Arabia": 1
   },
   timeline: [
-    { era: "Orígenes", d: "1926", h: "Primer servicio secreto", x: "Mustafa Kemal Atatürk crea el servicio que antecede al MİT." },
-    { era: "Guerra Fría", d: "1965", h: "Nace el MİT", x: "Organización civil con fuerte presencia militar, aliada de la CIA en la OTAN." },
-    { era: "", d: "1984–1999", h: "Guerra con el PKK", x: "El MİT participa en la captura de Abdullah Öcalan en Kenia en 1999." },
-    { era: "Era Fidan", d: "2010–2023", h: "El MİT de Erdoğan", x: "Negociaciones con el PKK, apoyo a rebeldes sirios, escándalo de los camiones y golpe de 2016." },
-    { era: "", d: "2016–2018", h: "Purga y traslados", x: "Persecución del movimiento Gülen dentro y fuera del país." },
-    { era: "Era Kalın", d: "2023–", h: "Prevención y diplomacia", x: "Operaciones con drones, desarme del PKK y nuevo papel en Siria." },
-    { era: "Actual", d: "2026", h: "Desarme del PKK y causa İmamoğlu", x: "El MİT verifica el desarme y aporta pruebas al juicio por espionaje contra el líder opositor.", now: true }
+    { era: "Orígenes", d: "1926", h: "Primer servicio secreto", x: "Mustafa Kemal Atatürk crea el servicio que antecede al MİT.", ctx: "República de Atatürk recién fundada." },
+    { era: "Guerra Fría", d: "1965", h: "Nace el MİT", x: "Organización civil con fuerte presencia militar, aliada de la CIA en la OTAN.", ctx: "Tras el golpe militar de 1960; Turquía en la OTAN." },
+    { era: "", d: "1984–1999", h: "Guerra con el PKK", x: "El MİT participa en la captura de Abdullah Öcalan en Kenia en 1999.", ctx: "Insurgencia kurda en el sudeste." },
+    { era: "Era Fidan", d: "2010–2023", h: "El MİT de Erdoğan", x: "Negociaciones con el PKK, apoyo a rebeldes sirios, escándalo de los camiones y golpe de 2016.", ctx: "Gobierno de Erdoğan y ruptura con el movimiento de Gülen." },
+    { era: "", d: "2016–2018", h: "Purga y traslados", x: "Persecución del movimiento Gülen dentro y fuera del país.", ctx: "Intento de golpe de julio de 2016." },
+    { era: "Era Kalın", d: "2023–", h: "Prevención y diplomacia", x: "Operaciones con drones, desarme del PKK y nuevo papel en Siria.", ctx: "Guerra en Ucrania y mediación turca." },
+    { era: "Actual", d: "2026", h: "Desarme del PKK y causa İmamoğlu", x: "El MİT verifica el desarme y aporta pruebas al juicio por espionaje contra el líder opositor.", now: true, ctx: "Proceso de paz con el PKK y pelea con la oposición." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2014", h: "Los camiones a Siria", x: "Fiscales y gendarmes detuvieron camiones del MİT cargados con armas para rebeldes sirios. El diario Cumhuriyet publicó el video en 2015; su director, Can Dündar, fue condenado por espionaje y vive exiliado. Los fiscales y militares que detuvieron los camiones también fueron procesados.", who: "Cumhuriyet, fiscales y gendarmes", missing: "", u: "https://en.wikipedia.org/wiki/2014_National_Intelligence_Organisation_scandal_in_Turkey", st: "Wikipedia (síntesis de fuentes)" },

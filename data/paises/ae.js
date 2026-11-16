@@ -73,13 +73,13 @@
     "France": 2, "Switzerland": 1, "Belgium": 1, "United Kingdom": 1, "United States of America": 2, "Israel": 1, "Chad": 1, "Saudi Arabia": 1
   },
   timeline: [
-    { era: "Orígenes", d: "1971–1976", h: "Nace el Estado", x: "La federación crea su seguridad interior y sus fuerzas armadas." },
-    { era: "", d: "2011–2013", h: "Contra la Primavera Árabe", x: "Persecución de opositores y apoyo a los gobiernos que enfrentan a la Hermandad Musulmana." },
-    { era: "", d: "2015", h: "Yemen", x: "Los Emiratos entran a la guerra y contratan mercenarios." },
-    { era: "", d: "2016–2019", h: "Proyecto Raven", x: "Ex agentes de la NSA hackean a opositores y gobernantes extranjeros para Abu Dabi." },
-    { era: "", d: "2017–2021", h: "Bloqueo de Catar", x: "Crisis con Catar, con hackeos y campañas de desinformación." },
-    { era: "", d: "2020", h: "Acuerdos de Abraham", x: "Relaciones con Israel y cooperación de seguridad." },
-    { era: "Actual", d: "2023–2026", h: "Sudán y Europa", x: "Acusaciones por armar a la milicia sudanesa y por la campaña de la firma suiza.", now: true }
+    { era: "Orígenes", d: "1971–1976", h: "Nace el Estado", x: "La federación crea su seguridad interior y sus fuerzas armadas.", ctx: "Independencia del Reino Unido." },
+    { era: "", d: "2011–2013", h: "Contra la Primavera Árabe", x: "Persecución de opositores y apoyo a los gobiernos que enfrentan a la Hermandad Musulmana.", ctx: "Primavera Árabe y ascenso de los Hermanos Musulmanes." },
+    { era: "", d: "2015", h: "Yemen", x: "Los Emiratos entran a la guerra y contratan mercenarios.", ctx: "Intervención de la coalición saudí." },
+    { era: "", d: "2016–2019", h: "Proyecto Raven", x: "Ex agentes de la NSA hackean a opositores y gobernantes extranjeros para Abu Dabi.", ctx: "Carrera por la vigilancia digital en el Golfo." },
+    { era: "", d: "2017–2021", h: "Bloqueo de Catar", x: "Crisis con Catar, con hackeos y campañas de desinformación.", ctx: "Ruptura entre las monarquías del Golfo." },
+    { era: "", d: "2020", h: "Acuerdos de Abraham", x: "Relaciones con Israel y cooperación de seguridad.", ctx: "Normalización con Israel impulsada por EE.UU." },
+    { era: "Actual", d: "2023–2026", h: "Sudán y Europa", x: "Acusaciones por armar a la milicia sudanesa y por la campaña de la firma suiza.", now: true, ctx: "Guerra civil en Sudán." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2016–2019", h: "El Proyecto Raven", x: "Ex agentes de la NSA trabajaron en Abu Dabi, primero para una contratista estadounidense y luego para la empresa emiratí DarkMatter. Hackearon teléfonos de activistas, periodistas y gobernantes, incluido el emir de Catar, según Reuters. En 2021 tres de ellos admitieron los hechos ante la justicia de EE.UU. y pagaron multas.", who: "Reuters y Departamento de Justicia de EE.UU.", missing: "", u: "https://therecord.media/us-fines-former-nsa-employees-who-provided-hacker-for-hire-services-to-uae", st: "The Record" },
@@ -174,6 +174,7 @@
     {"id": "lna", "s": "Ejército de Haftar", "n": "Ejército Nacional Libio de Jalifa Haftar", "k": "armado", "d": "2014–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Emiratos, Egipto y Rusia apoyaron a Haftar con armas, drones y mercenarios, según la ONU.", "who": "Panel de expertos de la ONU sobre Libia", "u": "https://en.wikipedia.org/wiki/Libyan_National_Army", "st": "Wikipedia: Libyan National Army", "graf": true}
   ],
   cuentas: {"n": 1, "x": "Sin control independiente."},
+  doctrina: [{"h": "Vigilancia comprada", "x": "Compensa su tamaño contratando ex agentes extranjeros y comprando tecnología."}],
   sources: [
     { t: "Reuters vía Axios: el Proyecto Raven", u: "https://www.axios.com/2019/01/30/nsa-spies-uae-hacking-operations" },
     { t: "The Record: multas a ex agentes de la NSA", u: "https://therecord.media/us-fines-former-nsa-employees-who-provided-hacker-for-hire-services-to-uae" },

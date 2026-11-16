@@ -71,13 +71,13 @@
     "Israel": 3, "Palestine": 3, "Libya": 3, "Sudan": 3, "Ethiopia": 2, "Saudi Arabia": 2, "United Arab Emirates": 2, "Qatar": 2, "Turkey": 2, "United States of America": 2, "Italy": 1, "S. Sudan": 1
   },
   timeline: [
-    { era: "Nasser", d: "1954", h: "Nace el GIS", x: "Los Oficiales Libres crean un servicio de inteligencia tras la revolución de 1952." },
-    { era: "", d: "1973", h: "Guerra de Octubre", x: "El engaño egipcio sorprende a Israel." },
-    { era: "Mubarak", d: "1993–2011", h: "Omar Suleiman", x: "El jefe del GIS coopera con la CIA en traslados de detenidos y maneja el expediente palestino." },
-    { era: "", d: "2011", h: "Revolución", x: "Se disuelve la policía política, que vuelve con otro nombre." },
-    { era: "Sisi", d: "2013", h: "Golpe militar", x: "El ex jefe de la Inteligencia Militar derroca al presidente Mohamed Morsi." },
-    { era: "", d: "2016", h: "Caso Regeni", x: "El asesinato de un investigador italiano abre una crisis con Italia." },
-    { era: "Actual", d: "2024–2026", h: "Gaza y Regeni", x: "El GIS media en Gaza; Roma condena a tres oficiales egipcios.", now: true }
+    { era: "Nasser", d: "1954", h: "Nace el GIS", x: "Los Oficiales Libres crean un servicio de inteligencia tras la revolución de 1952.", ctx: "Nasser toma el poder." },
+    { era: "", d: "1973", h: "Guerra de Octubre", x: "El engaño egipcio sorprende a Israel.", ctx: "Guerra con Israel por el Sinaí." },
+    { era: "Mubarak", d: "1993–2011", h: "Omar Suleiman", x: "El jefe del GIS coopera con la CIA en traslados de detenidos y maneja el expediente palestino.", ctx: "Gobierno de Mubarak y paz con Israel." },
+    { era: "", d: "2011", h: "Revolución", x: "Se disuelve la policía política, que vuelve con otro nombre.", ctx: "Primavera Árabe." },
+    { era: "Sisi", d: "2013", h: "Golpe militar", x: "El ex jefe de la Inteligencia Militar derroca al presidente Mohamed Morsi.", ctx: "El Ejército derroca a Mohamed Morsi." },
+    { era: "", d: "2016", h: "Caso Regeni", x: "El asesinato de un investigador italiano abre una crisis con Italia.", ctx: "Gobierno de Al Sisi." },
+    { era: "Actual", d: "2024–2026", h: "Gaza y Regeni", x: "El GIS media en Gaza; Roma condena a tres oficiales egipcios.", now: true, ctx: "Guerra en Gaza." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2016", h: "El secuestro de Giulio Regeni", x: "El investigador de la Universidad de Cambridge estudiaba sindicatos independientes en El Cairo. Un tribunal de Roma condenó en ausencia a tres oficiales de seguridad egipcios a 10 años por secuestro agravado, absolvió a un cuarto y no los condenó por el asesinato. Egipto niega toda participación y no cooperó con el juicio.", who: "Primer Tribunal de Assise de Roma", missing: "", u: "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni", st: "Al Jazeera" },

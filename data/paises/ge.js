@@ -69,11 +69,11 @@
     "Russia": 3, "Turkey": 1, "Azerbaijan": 2, "Armenia": 1, "Ukraine": 1, "Iran": 1
   },
   timeline: [
-    { era: "Independencia", d: "1991", h: "Nuevos servicios", x: "Georgia hereda estructuras del KGB." },
-    { era: "", d: "2008", h: "Guerra con Rusia", x: "Pérdida de control sobre Abjasia y Osetia del Sur." },
-    { era: "Sueño Georgiano", d: "2015", h: "Nace el SSG", x: "Separado del Ministerio del Interior." },
-    { era: "", d: "2021", h: "Filtración de archivos", x: "Revela la vigilancia masiva." },
-    { era: "Actual", d: "2024–2026", h: "Giro autoritario", x: "Ley de agentes extranjeros y represión de protestas.", now: true }
+    { era: "Independencia", d: "1991", h: "Nuevos servicios", x: "Georgia hereda estructuras del KGB.", ctx: "Independencia y guerras separatistas." },
+    { era: "", d: "2008", h: "Guerra con Rusia", x: "Pérdida de control sobre Abjasia y Osetia del Sur.", ctx: "Gobierno de Saakashvili." },
+    { era: "Sueño Georgiano", d: "2015", h: "Nace el SSG", x: "Separado del Ministerio del Interior.", ctx: "Gobierno de Sueño Georgiano." },
+    { era: "", d: "2021", h: "Filtración de archivos", x: "Revela la vigilancia masiva.", ctx: "Polarización política." },
+    { era: "Actual", d: "2024–2026", h: "Giro autoritario", x: "Ley de agentes extranjeros y represión de protestas.", now: true, ctx: "Ley de agentes extranjeros y protestas." }
   ],
   cases: [
     { ev: 2, ilegal: true, d: "2013–2021", h: "Los archivos del SSG", x: "Los archivos filtrados mostraron escuchas sistemáticas a la jerarquía de la Iglesia ortodoxa, políticos de todos los partidos, periodistas y diplomáticos. Varios espiados confirmaron sus conversaciones; el gobierno negó la autenticidad. La fiscalía abrió una investigación sin resultados públicos.", who: "Defensoría del Pueblo, prensa y personas espiadas", missing: "Una investigación judicial independiente.", u: "https://www.occrp.org/en/daily/15182-files-show-georgian-security-service-spied-on-diplomats-journalists-clerics", st: "OCCRP" },
@@ -151,6 +151,7 @@
   proxies: [
   ],
   cuentas: {"n": 1, "x": "Las filtraciones de vigilancia masiva no tuvieron responsables."},
+  doctrina: [{"h": "Control interno", "x": "Bajo Sueño Georgiano, el servicio vigila a opositores, iglesias y diplomáticos, según archivos filtrados."}],
   sources: [
     { t: "OCCRP: los archivos del SSG", u: "https://www.occrp.org/en/daily/15182-files-show-georgian-security-service-spied-on-diplomats-journalists-clerics" },
     { t: "Georgia Today: la filtración que sacudió al país", u: "https://georgiatoday.ge/the-clergy-diplomat-surveillance-leak-that-shook-the-country/" },

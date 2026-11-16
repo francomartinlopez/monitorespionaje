@@ -67,11 +67,11 @@
     "China": 3, "Cambodia": 2, "Laos": 2, "Thailand": 2, "United States of America": 2, "Germany": 1, "Czechia": 1, "Philippines": 1, "Taiwan": 1
   },
   timeline: [
-    { era: "Guerras", d: "1945", h: "Nacen los servicios", x: "El Viet Minh crea su seguridad y su inteligencia militar." },
-    { era: "", d: "1954–1975", h: "Guerra de Vietnam", x: "Redes de espías en Saigón, como el periodista Pham Xuan An." },
-    { era: "Doi Moi", d: "1986", h: "Apertura económica", x: "Los servicios siguen bajo control del partido." },
-    { era: "", d: "2017", h: "Secuestro en Berlín", x: "Crisis diplomática con Alemania." },
-    { era: "Actual", d: "2024–2026", h: "To Lam al frente del partido", x: "El ex jefe de la seguridad lidera el país.", now: true }
+    { era: "Guerras", d: "1945", h: "Nacen los servicios", x: "El Viet Minh crea su seguridad y su inteligencia militar.", ctx: "Independencia y guerra contra Francia." },
+    { era: "", d: "1954–1975", h: "Guerra de Vietnam", x: "Redes de espías en Saigón, como el periodista Pham Xuan An.", ctx: "Guerra con EE.UU. y Vietnam del Sur." },
+    { era: "Doi Moi", d: "1986", h: "Apertura económica", x: "Los servicios siguen bajo control del partido.", ctx: "Reformas del Doi Moi." },
+    { era: "", d: "2017", h: "Secuestro en Berlín", x: "Crisis diplomática con Alemania.", ctx: "Campaña anticorrupción del Partido." },
+    { era: "Actual", d: "2024–2026", h: "To Lam al frente del partido", x: "El ex jefe de la seguridad lidera el país.", now: true, ctx: "Ascenso del ex ministro de Seguridad." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2017", h: "El secuestro de Berlín", x: "Agentes vietnamitas secuestraron a Trinh Xuan Thanh y a su acompañante en un parque de Berlín. Un tribunal alemán condenó en 2018 a un cómplice que admitió trabajar para la inteligencia vietnamita, y en 2023 a otro. La fiscalía mostró que un general de la policía vietnamita dirigió la operación.", who: "Tribunal Superior de Berlín", missing: "", u: "https://www.rfa.org/english/news/vietnam/vietnam-kidnapping-trial-01312023223033.html", st: "Radio Free Asia" },
@@ -150,6 +150,7 @@
   proxies: [
   ],
   cuentas: {"n": 1, "x": "Sin control independiente."},
+  doctrina: [{"h": "Seguridad del Partido", "x": "El Ministerio de Seguridad Pública protege al Partido Comunista dentro y fuera del país."}],
   sources: [
     { t: "Radio Free Asia: segunda condena por el secuestro de Berlín", u: "https://www.rfa.org/english/news/vietnam/vietnam-kidnapping-trial-01312023223033.html" },
     { t: "Human Rights Watch: el caso Duong Van Thai", u: "https://www.hrw.org/news/2024/10/30/vietnam-quash-verdict-against-democracy-campaigner" },

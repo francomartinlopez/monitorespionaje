@@ -72,12 +72,12 @@
     "Mozambique": 2, "Zimbabwe": 2, "Lesotho": 2, "Dem. Rep. Congo": 1, "eSwatini": 1, "Russia": 1, "China": 1, "United States of America": 1
   },
   timeline: [
-    { era: "Apartheid", d: "1969", h: "Nace la BOSS", x: "La Oficina de Seguridad del Estado persigue a la oposición." },
-    { era: "", d: "1986–1990", h: "Oficina de Cooperación Civil", x: "Unidad secreta del Ejército que asesina a opositores." },
-    { era: "Democracia", d: "1994", h: "Nuevos servicios", x: "Se crean servicios con control parlamentario." },
-    { era: "", d: "2009", h: "Nace la SSA", x: "Zuma unifica la inteligencia civil." },
-    { era: "", d: "2018–2022", h: "Panel y comisión Zondo", x: "Revelan la captura del servicio." },
-    { era: "Actual", d: "2025–2026", h: "Disolución de la SSA", x: "Comienza la división en dos servicios.", now: true }
+    { era: "Apartheid", d: "1969", h: "Nace la BOSS", x: "La Oficina de Seguridad del Estado persigue a la oposición.", ctx: "Apartheid." },
+    { era: "", d: "1986–1990", h: "Oficina de Cooperación Civil", x: "Unidad secreta del Ejército que asesina a opositores.", ctx: "Estado de emergencia y guerra en Angola." },
+    { era: "Democracia", d: "1994", h: "Nuevos servicios", x: "Se crean servicios con control parlamentario.", ctx: "Fin del apartheid y gobierno de Mandela." },
+    { era: "", d: "2009", h: "Nace la SSA", x: "Zuma unifica la inteligencia civil.", ctx: "Gobierno de Jacob Zuma." },
+    { era: "", d: "2018–2022", h: "Panel y comisión Zondo", x: "Revelan la captura del servicio.", ctx: "Investigación de la captura del Estado." },
+    { era: "Actual", d: "2025–2026", h: "Disolución de la SSA", x: "Comienza la división en dos servicios.", now: true, ctx: "Gobierno de unidad nacional." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2009–2018", h: "La captura de la SSA", x: "La comisión Zondo concluyó que la SSA se usó para proteger al presidente Zuma y atacar a sus rivales. Detectó grandes retiros de efectivo sin justificar y una red paralela de agentes llamada Principal Agent Network.", who: "Comisión judicial sobre la captura del Estado", missing: "", u: "https://en.wikipedia.org/wiki/Zondo_Commission", st: "Wikipedia (síntesis de fuentes)" },
@@ -157,6 +157,7 @@
     {"id": "renamo", "s": "RENAMO y UNITA", "n": "RENAMO y UNITA", "k": "armado", "d": "1975–1990", "rol": "patrocina", "hoy": false, "ev": 1, "x": "El régimen del apartheid armó a la RENAMO en Mozambique y a la UNITA en Angola.", "who": "Comisión de la Verdad y Reconciliación", "u": "https://en.wikipedia.org/wiki/RENAMO", "st": "Wikipedia: RENAMO"}
   ],
   cuentas: {"n": 2, "x": "La comisión Zondo expuso los abusos y llevó a la reforma de 2025, con pocas condenas."},
+  doctrina: [{"h": "Servicio en reconstrucción", "x": "Tras la captura del Estado, la ley de 2025 separa la inteligencia exterior de la interior."}],
   sources: [
     { t: "EWN: se firma la ley que divide la SSA (2025)", u: "https://ewn.co.za/2025/03/28/ramaphosa-signs-general-intelligence-laws-amendment-bill-into-law-splits-ssa-into-2-bodies" },
     { t: "SAnews: los dos nuevos servicios", u: "https://www.sanews.gov.za/node/74134" },

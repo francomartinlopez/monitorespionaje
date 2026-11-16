@@ -77,13 +77,13 @@
     "China": 3, "Indonesia": 3, "Papua New Guinea": 2, "Solomon Is.": 2, "Timor-Leste": 2, "Iran": 2, "North Korea": 1, "Russia": 1, "Fiji": 1, "Vietnam": 1, "Philippines": 1
   },
   timeline: [
-    { era: "Guerra Fría", d: "1949", h: "Nace la ASIO", x: "Se crea con apoyo británico tras detectarse filtraciones soviéticas." },
-    { era: "", d: "1954", h: "Caso Petrov", x: "Deserción de un oficial soviético y comisión real sobre espionaje." },
-    { era: "", d: "1970", h: "Pine Gap", x: "Empieza a operar la base conjunta con EE.UU. en el desierto." },
-    { era: "", d: "1983", h: "Incidente del Sheraton", x: "Un ejercicio mal hecho del ASIS en un hotel de Melbourne lleva a una comisión real." },
-    { era: "Siglo XXI", d: "2004", h: "Timor Oriental", x: "Escuchas a un gobierno vecino durante una negociación comercial." },
-    { era: "", d: "2018", h: "Leyes de injerencia", x: "Australia endurece su legislación contra la injerencia china." },
-    { era: "Actual", d: "2025–2026", h: "Irán y Bondi", x: "Expulsión del embajador iraní, ataque de Bondi y comisión real.", now: true }
+    { era: "Guerra Fría", d: "1949", h: "Nace la ASIO", x: "Se crea con apoyo británico tras detectarse filtraciones soviéticas.", ctx: "Comienzo de la Guerra Fría." },
+    { era: "", d: "1954", h: "Caso Petrov", x: "Deserción de un oficial soviético y comisión real sobre espionaje.", ctx: "Guerra Fría." },
+    { era: "", d: "1970", h: "Pine Gap", x: "Empieza a operar la base conjunta con EE.UU. en el desierto.", ctx: "Alianza con EE.UU. en Vietnam." },
+    { era: "", d: "1983", h: "Incidente del Sheraton", x: "Un ejercicio mal hecho del ASIS en un hotel de Melbourne lleva a una comisión real.", ctx: "Gobierno de Bob Hawke." },
+    { era: "Siglo XXI", d: "2004", h: "Timor Oriental", x: "Escuchas a un gobierno vecino durante una negociación comercial.", ctx: "Negociación por el petróleo y el gas del mar de Timor." },
+    { era: "", d: "2018", h: "Leyes de injerencia", x: "Australia endurece su legislación contra la injerencia china.", ctx: "Tensión con China." },
+    { era: "Actual", d: "2025–2026", h: "Irán y Bondi", x: "Expulsión del embajador iraní, ataque de Bondi y comisión real.", now: true, ctx: "Ola de ataques antisemitas." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2004", h: "Las escuchas en Timor Oriental", x: "Agentes del ASIS instalaron micrófonos en oficinas del gobierno timorense para obtener ventaja en la negociación del petróleo. El ex agente conocido como Testigo K se declaró culpable en 2021 de revelar el caso; la acusación contra su abogado se retiró en 2022.", who: "Justicia de Australia y gobierno de Timor Oriental", missing: "", u: "https://en.wikipedia.org/wiki/Australia%E2%80%93East_Timor_spying_scandal", st: "Wikipedia (síntesis de fuentes)" },

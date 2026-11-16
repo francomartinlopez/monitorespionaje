@@ -72,11 +72,11 @@
     "Russia": 3, "China": 2, "Iran": 2, "Germany": 1, "France": 1, "Italy": 1, "United States of America": 1, "Ukraine": 1
   },
   timeline: [
-    { era: "Guerra Fría", d: "1950–1989", h: "Fichas de la policía federal", x: "Vigilancia masiva de supuestos subversivos." },
-    { era: "", d: "1970–2018", h: "Crypto AG", x: "La CIA y el BND controlan en secreto una empresa suiza de cifrado." },
-    { era: "Siglo XXI", d: "2010", h: "Nace el SRC", x: "Se fusionan la inteligencia exterior e interior." },
-    { era: "", d: "2016", h: "Referéndum", x: "Los votantes aprueban la ley de inteligencia." },
-    { era: "Actual", d: "2025–2026", h: "Crisis y Rusia", x: "Nuevo director, reestructuración y sospecha de fuga de datos.", now: true }
+    { era: "Guerra Fría", d: "1950–1989", h: "Fichas de la policía federal", x: "Vigilancia masiva de supuestos subversivos.", ctx: "Guerra Fría y anticomunismo." },
+    { era: "", d: "1970–2018", h: "Crypto AG", x: "La CIA y el BND controlan en secreto una empresa suiza de cifrado.", ctx: "Neutralidad suiza como cobertura comercial." },
+    { era: "Siglo XXI", d: "2010", h: "Nace el SRC", x: "Se fusionan la inteligencia exterior e interior.", ctx: "Fusión de los servicios interior y exterior." },
+    { era: "", d: "2016", h: "Referéndum", x: "Los votantes aprueban la ley de inteligencia.", ctx: "Ola de atentados en Europa." },
+    { era: "Actual", d: "2025–2026", h: "Crisis y Rusia", x: "Nuevo director, reestructuración y sospecha de fuga de datos.", now: true, ctx: "Guerra en Ucrania y debate sobre la neutralidad." }
   ],
   cases: [
     { ev: 1, ilegal: false, d: "1970–2018", h: "Crypto AG", x: "Investigaciones de prensa de 2020 mostraron que la CIA y el BND compraron en secreto la empresa suiza y manipularon sus máquinas para leer las comunicaciones de más de 100 gobiernos. Una investigación parlamentaria suiza concluyó que el servicio suizo sabía de la operación desde 1993 y la aprovechó.", who: "Delegación de las Comisiones de Gestión del Parlamento suizo", missing: "", u: "https://en.wikipedia.org/wiki/Crypto_AG", st: "Wikipedia (síntesis de fuentes)" },
@@ -155,6 +155,7 @@
   proxies: [
   ],
   cuentas: {"n": 2, "x": "Comisiones parlamentarias por el escándalo de las fichas y por Crypto AG."},
+  doctrina: [{"h": "Neutralidad armada", "x": "Servicio pequeño concentrado en el contraespionaje dentro del país."}],
   sources: [
     { t: "Swissinfo: la situación de seguridad empeora (2026)", u: "https://swissinfo.ch/eng/foreign-affairs/switzerlands-security-situation-has-deteriorated-further-according-to-the-src/91650054" },
     { t: "SRF: el informe sobre la sospecha de espionaje en el SRC", u: "https://www.srf.ch/news/schweiz/spionageverdacht-im-ndb-bericht-zur-russlandaffaere-entscheidende-fragen-bleiben-offen" },

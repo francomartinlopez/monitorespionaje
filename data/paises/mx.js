@@ -75,13 +75,13 @@
     "United States of America": 3, "Guatemala": 2, "Colombia": 2, "China": 1, "Honduras": 1, "Venezuela": 1, "Cuba": 1, "Canada": 1
   },
   timeline: [
-    { era: "Partido hegemónico", d: "1947", h: "Nace la DFS", x: "Policía política creada por Miguel Alemán con ayuda de EE.UU." },
-    { era: "", d: "1968–1982", h: "Guerra Sucia", x: "La DFS persigue, tortura y desaparece a guerrilleros y opositores." },
-    { era: "", d: "1985", h: "Disolución de la DFS", x: "El caso Camarena expone sus lazos con el narcotráfico." },
-    { era: "", d: "1989", h: "Nace el CISEN", x: "Servicio civil profesional bajo Gobernación." },
-    { era: "Alternancia", d: "2011", h: "Pegasus", x: "México se convierte en el primer cliente del programa espía." },
-    { era: "", d: "2018", h: "CNI", x: "Andrés Manuel López Obrador disuelve el CISEN y crea el CNI." },
-    { era: "Actual", d: "2025–2026", h: "Plataforma Central de Inteligencia", x: "Ley de inteligencia, presión de EE.UU. y convenio de datos con Defensa.", now: true }
+    { era: "Partido hegemónico", d: "1947", h: "Nace la DFS", x: "Policía política creada por Miguel Alemán con ayuda de EE.UU.", ctx: "Hegemonía del PRI y Guerra Fría." },
+    { era: "", d: "1968–1982", h: "Guerra Sucia", x: "La DFS persigue, tortura y desaparece a guerrilleros y opositores.", ctx: "Represión de estudiantes y guerrillas." },
+    { era: "", d: "1985", h: "Disolución de la DFS", x: "El caso Camarena expone sus lazos con el narcotráfico.", ctx: "Asesinato del agente Camarena y presión de EE.UU." },
+    { era: "", d: "1989", h: "Nace el CISEN", x: "Servicio civil profesional bajo Gobernación.", ctx: "Gobierno de Salinas." },
+    { era: "Alternancia", d: "2011", h: "Pegasus", x: "México se convierte en el primer cliente del programa espía.", ctx: "Guerra contra el narcotráfico de Calderón." },
+    { era: "", d: "2018", h: "CNI", x: "Andrés Manuel López Obrador disuelve el CISEN y crea el CNI.", ctx: "Gobierno de López Obrador." },
+    { era: "Actual", d: "2025–2026", h: "Plataforma Central de Inteligencia", x: "Ley de inteligencia, presión de EE.UU. y convenio de datos con Defensa.", now: true, ctx: "Gobierno de Sheinbaum y presión de Trump." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2020", h: "El Ejército espía a Raymundo Ramos", x: "Documentos internos de Defensa filtrados por Guacamaya muestran que el Centro Militar de Inteligencia usó Pegasus contra el defensor de derechos humanos de Nuevo Laredo. Lo hizo mientras él documentaba ejecuciones de civiles por soldados, y la información llegó al alto mando. Citizen Lab confirmó la infección.", who: "Artículo 19, R3D, Citizen Lab y medios mexicanos", missing: "", u: "https://www.article19.org/resources/mexico-army-used-pegasus-to-spy-on-human-rights-defender-raymundo-ramos/1", st: "Artículo 19" },

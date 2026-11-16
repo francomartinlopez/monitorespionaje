@@ -69,11 +69,11 @@
     "Poland": 3, "Lithuania": 3, "Ukraine": 3, "Latvia": 2, "Russia": 2, "Germany": 1, "United States of America": 1
   },
   timeline: [
-    { era: "Independencia", d: "1991", h: "Nace el KGB bielorruso", x: "Hereda el aparato soviético sin cambiarle el nombre." },
-    { era: "Lukashenko", d: "1999–2000", h: "Desapariciones", x: "Desaparecen cuatro opositores y un periodista." },
-    { era: "", d: "2020", h: "Fraude y protestas", x: "Represión masiva; Tertel asume el KGB." },
-    { era: "", d: "2021", h: "Ryanair", x: "Desvío de un avión para detener a un periodista." },
-    { era: "Actual", d: "2024–2026", h: "Presos como moneda", x: "Liberaciones negociadas con EE.UU. y presión híbrida sobre Lituania.", now: true }
+    { era: "Independencia", d: "1991", h: "Nace el KGB bielorruso", x: "Hereda el aparato soviético sin cambiarle el nombre.", ctx: "Disolución de la URSS." },
+    { era: "Lukashenko", d: "1999–2000", h: "Desapariciones", x: "Desaparecen cuatro opositores y un periodista.", ctx: "Lukashenko concentra el poder." },
+    { era: "", d: "2020", h: "Fraude y protestas", x: "Represión masiva; Tertel asume el KGB.", ctx: "Elección presidencial disputada." },
+    { era: "", d: "2021", h: "Ryanair", x: "Desvío de un avión para detener a un periodista.", ctx: "Sanciones de la UE." },
+    { era: "Actual", d: "2024–2026", h: "Presos como moneda", x: "Liberaciones negociadas con EE.UU. y presión híbrida sobre Lituania.", now: true, ctx: "Guerra en Ucrania y negociación con EE.UU." }
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2021", h: "El desvío del vuelo de Ryanair", x: "La Organización de Aviación Civil Internacional concluyó en 2022 que la amenaza de bomba fue falsa y que la comunicaron deliberadamente funcionarios bielorrusos. El objetivo fue detener al periodista opositor Román Protasévich, que luego apareció en confesiones televisadas.", who: "Organización de Aviación Civil Internacional (OACI)", missing: "", u: "https://en.wikipedia.org/wiki/Ryanair_Flight_4978", st: "Wikipedia (síntesis de fuentes)" },
@@ -153,6 +153,7 @@
     {"id": "traficantes", "s": "Traficantes de migrantes", "n": "Redes de tráfico de migrantes", "k": "crimen", "d": "2021–", "rol": "usa", "hoy": true, "ev": 2, "x": "La UE acusa al régimen de traer migrantes de Medio Oriente y empujarlos a la frontera con Polonia y Lituania.", "who": "Unión Europea; gobiernos de Polonia y Lituania", "u": "https://en.wikipedia.org/wiki/2021%E2%80%932022_Belarus%E2%80%93European_Union_border_crisis", "st": "Wikipedia: 2021–2022 Belarus–European Union border crisis"}
   ],
   cuentas: {"n": 1, "x": "Sin control independiente."},
+  doctrina: [{"h": "Herencia soviética", "x": "La KGB conserva nombre y métodos, integrada con Rusia."}],
   sources: [
     { t: "Defence24: el papel del KGB en Bielorrusia", u: "https://defence24.com/geopolitics/the-role-of-the-kgb-in-the-belarusian-power-architecture" },
     { t: "Anuario 2026: el KGB y los presos políticos", u: "https://nmn.media/yearbook/2026/en/page4.html" },
