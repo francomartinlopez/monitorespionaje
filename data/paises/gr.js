@@ -111,6 +111,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "Durante la dictadura de 1967-1974 la policía militar torturó a opositores.", u: "https://en.wikipedia.org/wiki/Greek_junta", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "Paquistaníes denunciaron haber sido secuestrados e interrogados por agentes griegos y británicos en 2005.", u: "https://en.wikipedia.org/wiki/National_Intelligence_Service_(Greece)", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -148,6 +154,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 1, "x": "El caso Predator no tuvo responsables políticos."},
   sources: [
     { t: "Amnistía: condenas en el caso Predator (2026)", u: "https://www.amnesty.org/en/latest/news/2026/02/greece-spyware-scandal/" },
     { t: "AFP: cuatro condenados por el escándalo de espionaje", u: "https://neoskosmos.com/en/2026/02/27/news/greece/athens-court-convicts-four-over-greece-spyware-saga/" },

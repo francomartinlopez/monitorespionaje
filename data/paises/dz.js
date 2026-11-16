@@ -106,6 +106,12 @@
     asesinato: { ev: 3, x: "Acusaciones de desertores sobre asesinatos en la guerra civil, sin investigación judicial.", u: "https://en.wikipedia.org/wiki/Armed_Islamic_Group_of_Algeria", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "La tortura en la guerra civil está documentada por organizaciones de derechos humanos.", u: "https://en.wikipedia.org/wiki/Algerian_Civil_War", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "Secuestro de un opositor en Francia en 2024, según la justicia francesa.", u: "https://en.wikipedia.org/wiki/Algeria%E2%80%93France_relations", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -143,6 +149,7 @@
   proxies: [
     {"id": "polisario", "s": "Frente Polisario", "n": "Frente Polisario", "k": "armado", "d": "1975–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Argelia aloja y sostiene al Frente Polisario en Tinduf.", "who": "Gobierno de Argelia; ONU", "u": "https://en.wikipedia.org/wiki/Polisario_Front", "st": "Wikipedia: Polisario Front"}
   ],
+  cuentas: {"n": 1, "x": "Sin control civil efectivo."},
   sources: [
     { t: "Wikipedia: Mohamed Mediène", u: "https://en.wikipedia.org/wiki/Mohamed_Medi%C3%A8ne" },
     { t: "Wikipedia: Algeria–France relations", u: "https://en.wikipedia.org/wiki/Algeria%E2%80%93France_relations" },

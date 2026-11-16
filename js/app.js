@@ -227,7 +227,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   }
 
   // ================= FICHA DE PAÍS =================
-  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Fallas, omisiones y falsas banderas"], ["practicas", "Qué hacen y a quién espían"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["dinero", "Dinero y coberturas"], ["proxies", "Organizaciones proxy"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
+  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["doctrina", "Doctrina y poder"], ["fallas", "Aciertos, fallas y falsas banderas"], ["practicas", "Qué hacen y a quién espían"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["dinero", "Dinero y coberturas"], ["proxies", "Organizaciones proxy"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
 
   function renderCountry(p) {
     const f = FICHAS[p.id];
@@ -259,6 +259,12 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
         <div class="tags">${f.focos.map(x => `<span class="tag">${esc(x)}</span>`).join("")}</div>
       </section>
 
+      <section class="block" id="sec-doctrina">
+        <h2>Doctrina y poder <small>Con qué lógica opera el servicio, cómo se relaciona con quien gobierna y si rinde cuentas</small></h2>
+        <div class="prio modus">${(f.doctrina || []).map(d => `<div><span>${esc(d.h)}</span><p>${esc(d.x)}</p></div>`).join("")}
+          ${f.politica ? `<div><span>Análisis y decisión</span><p>${esc(f.politica.analisis)}</p></div><div><span>De la inteligencia al poder</span><p>${esc(f.politica.jefes)}</p></div>` : ""}
+          ${f.cuentas ? `<div><span>Rendición de cuentas</span><p><span class="evtag" style="--c:${window.CUENTAS[f.cuentas.n].c}">${window.CUENTAS[f.cuentas.n].n}</span> ${esc(f.cuentas.x)}</p></div>` : ""}</div>
+      </section>
       <section class="block" id="sec-organigrama">
         <h2>Organigrama <small>Los organismos que forman la comunidad de inteligencia y su relación con lo militar, lo policial, la justicia y el gobierno · tocá uno para abrir su ficha</small></h2>
         ${orgChart(p)}
@@ -296,7 +302,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       </section>
 
       <section class="block" id="sec-fallas">
-        <h2>Fallas, omisiones y falsas banderas <small>Fallas de inteligencia; omisiones, cuando el servicio tenía avisos o debía saber y no actuó, o encubrió; y operaciones de falsa bandera. Confirmadas o en duda, con cuánta evidencia hay</small></h2>
+        <h2>Aciertos, fallas, omisiones y falsas banderas <small>Aciertos documentados; fallas de inteligencia; omisiones, cuando el servicio tenía avisos o debía saber y no actuó, o encubrió; y operaciones de falsa bandera. Confirmadas o en duda, con cuánta evidencia hay</small></h2>
         <div class="chips" id="flChips"></div>
         <div class="fl-list" id="flList"></div>
       </section>
@@ -451,7 +457,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
         <h4>${esc(x.n)}</h4><p>${esc(x.x)}</p>
         <dl><dt>Lo afirma</dt><dd>${esc(x.who)}</dd><dt>Fuente</dt><dd><a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.st)}</a></dd></dl></div></article>`; }).join("")}</div>`;
   }
-  const FL_KIND = { falla: { n: "Falla de inteligencia", c: "var(--cyan)" }, omision: { n: "Omisión o encubrimiento", c: "var(--amber)" }, falsa: { n: "Falsa bandera", c: "var(--violet)" } };
+  const FL_KIND = { falla: { n: "Falla de inteligencia", c: "var(--cyan)" }, acierto: { n: "Acierto de inteligencia", c: "var(--ph)" }, omision: { n: "Omisión o encubrimiento", c: "var(--amber)" }, falsa: { n: "Falsa bandera", c: "var(--violet)" } };
   const FL_WEIGHT = { 3: "Abundante", 2: "Parcial", 1: "Escasa" };
   function drawFailures(f) {
     const chips = document.getElementById("flChips"), list = document.getElementById("flList"), F = f.failures || [];

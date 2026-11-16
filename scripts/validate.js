@@ -94,6 +94,8 @@ Object.entries(FICHAS).forEach(([id, f]) => {
     if (x.k === "ocultamiento" && !x.aquien) err(w, `leaks[${i}] ocultamiento sin "aquien"`);
     if (!f.sample && !isUrl(x.u)) err(w, `leaks[${i}] sin fuente (u)`);
   });
+  if (!f.sample && (!f.cuentas || ![1, 2, 3].includes(f.cuentas.n) || !f.cuentas.x)) err(w, "falta \"cuentas\" {n: 1 a 3, x}");
+  (f.doctrina || []).forEach((d, i) => { if (!d.h || !d.x) err(w, `doctrina[${i}] incompleta`); });
   if (!f.sample && !Array.isArray(f.proxies)) warn(w, "ficha real sin \"proxies\" (puede ser una lista vacía)");
   (f.proxies || []).forEach((x, i) => {
     ["id", "s", "n", "d", "x", "who", "st"].forEach(k => { if (!x[k]) err(w, `proxies[${i}] sin ${k}`); });
@@ -104,7 +106,7 @@ Object.entries(FICHAS).forEach(([id, f]) => {
     if (!isUrl(x.u)) err(w, `proxies[${i}] sin fuente (u)`);
   });
   (f.failures || []).forEach((x, i) => {
-    if (!["falla", "omision", "falsa"].includes(x.k)) err(w, `failures[${i}].k inválido`);
+    if (!["acierto", "falla", "omision", "falsa"].includes(x.k)) err(w, `failures[${i}].k inválido`);
     if (![1, 2, 3, 4].includes(x.ev)) err(w, `failures[${i}].ev inválido`);
     if (![1, 2, 3].includes(x.w)) err(w, `failures[${i}].w inválido (1–3)`);
     if (!x.why) err(w, `failures[${i}] sin "why" (por qué está o no en duda)`);

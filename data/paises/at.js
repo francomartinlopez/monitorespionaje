@@ -107,6 +107,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -143,6 +149,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 2, "x": "Comisión parlamentaria sobre la BVT y condena a Egisto Ott en 2026."},
   sources: [
     { t: "Reuters: condena de Egisto Ott (2026)", u: "https://www.thestar.com.my/news/world/2026/05/21/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds" },
     { t: "Brussels Signal: el mayor caso de espionaje", u: "https://brusselssignal.eu/2026/05/former-austrian-intelligence-officer-convicted-of-spying-for-russia/" },

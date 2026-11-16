@@ -96,6 +96,7 @@
     { ev: 4, ilegal: false, d: "1990–", h: "La Entidad, el espionaje secreto del papa", x: "Circula la versión de un servicio secreto vaticano centenario llamado \"la Entidad\", que hasta habría hecho asesinatos.", who: "Libros de divulgación y sitios conspirativos", missing: "Cualquier documento o testimonio verificable.", debunk: "Nace de libros sin fuentes comprobables. El Vaticano no tiene un servicio formal y la información circula por la Secretaría de Estado y las nunciaturas.", u: "https://en.wikipedia.org/wiki/Holy_See", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
+    {"k": "acierto", "d": "1978–1984", "ev": 1, "w": 3, "h": "La mediación por el Beagle", "x": "La diplomacia vaticana frenó una guerra inminente entre Argentina y Chile y logró el tratado de 1984.", "why": "No está en duda.", "wx": "", "who": "Gobiernos de Argentina y Chile", "u": "https://en.wikipedia.org/wiki/Papal_mediation_in_the_Beagle_conflict", "st": "Wikipedia: Papal mediation in the Beagle conflict"},
     { k: "falla", d: "1960–1989", ev: 1, w: 3, h: "Infiltrados del bloque soviético", x: "Servicios de Polonia y Checoslovaquia reclutaron clérigos que informaban desde Roma; en 2007 el arzobispo de Varsovia renunció al revelarse su colaboración.", why: "No está en duda: lo muestran los archivos de los servicios comunistas.", wx: "Archivos abiertos en Polonia y República Checa.", who: "Instituto de la Memoria Nacional de Polonia", u: "https://en.wikipedia.org/wiki/Stanis%C5%82aw_Wielgus", st: "Wikipedia (síntesis de fuentes)" },
     { k: "falla", d: "2012", ev: 1, w: 3, h: "El mayordomo filtrador", x: "El ayudante personal del papa fotocopió durante años documentos reservados y los dio a un periodista.", why: "No está en duda: Gabriele confesó y fue condenado.", wx: "Sentencia del tribunal vaticano.", who: "Tribunal vaticano", u: "https://en.wikipedia.org/wiki/Vatican_leaks_scandal", st: "Wikipedia (síntesis de fuentes)" },
     { k: "falsa", d: "1981-05-13", ev: 3, w: 2, h: "La pista búlgara", x: "El atentado de Mehmet Ali Ağca contra Juan Pablo II fue atribuido por algunos a los servicios búlgaros y soviéticos.", why: "Un tribunal italiano absolvió en 1986 a los búlgaros acusados porque no se probó su participación; una comisión italiana de 2006 sostuvo la pista soviética sin pruebas concluyentes.", wx: "Hay indicios y testimonios contradictorios del propio Ağca.", who: "Comisión Mitrokhin del Parlamento italiano (2006)", u: "https://en.wikipedia.org/wiki/Attempted_assassination_of_Pope_John_Paul_II", st: "Wikipedia (síntesis de fuentes)" }
@@ -131,6 +132,12 @@
     asesinato: { ev: 0, x: "No hay casos documentados. Las versiones sobre una \"Entidad\" que mata en nombre del papa no tienen pruebas." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados de sabotajes." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 1, "x": "La mediación papal evitó la guerra entre Argentina y Chile por el Beagle.", "u": "https://en.wikipedia.org/wiki/Papal_mediation_in_the_Beagle_conflict", "st": "Wikipedia: Papal mediation in the Beagle conflict"},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos atribuidos a organismos vaticanos. Hubo capellanes militares condenados en otros países, como en Argentina." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados de secuestros atribuidos al Vaticano." },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas; la comunicación vaticana es pública." },
@@ -176,6 +183,9 @@
   proxies: [
     {"id": "ambrosiano", "s": "Banco Ambrosiano", "n": "Banco Ambrosiano e IOR", "k": "empresa", "d": "1970–1982", "rol": "doble", "hoy": false, "ev": 2, "x": "El banco del Vaticano estaba ligado al Ambrosiano, cuya quiebra destapó lazos con la P2 y la mafia; se lo acusó de financiar a Solidaridad en Polonia.", "who": "Justicia italiana; prensa", "u": "https://en.wikipedia.org/wiki/Banco_Ambrosiano", "st": "Wikipedia: Banco Ambrosiano"}
   ],
+  doctrina: [{"h": "Diplomacia como inteligencia", "x": "La red de nuncios, obispos y órdenes religiosas informa a Roma sin un servicio formal."}, {"h": "Neutralidad y mediación", "x": "La Santa Sede ofrece canales discretos entre enemigos."}],
+  politica: {"analisis": "La Secretaría de Estado concentra los informes de las nunciaturas.", "jefes": "Varios papas fueron antes diplomáticos, como Pío XII y Pablo VI."},
+  cuentas: {"n": 2, "x": "Juicio del caso Becciu; el caso Ambrosiano no tuvo responsables internos."},
   sources: [
     { t: "Santa Sede: discurso de León XIV a los servicios italianos (diciembre de 2025)", u: "https://www.vatican.va/content/leo-xiv/en/speeches/2025/december/documents/20251212-intelligence-italiana.html" },
     { t: "Catholic World Report: el papa advierte sobre los servicios", u: "https://www.catholicworldreport.com/?p=399183" },

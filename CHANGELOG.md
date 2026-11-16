@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-16 · Nuevas variables de análisis: aciertos de inteligencia (25 casos), sección "Doctrina y poder" (doctrina en 28 países, análisis y relación con el poder en el núcleo, rendición de cuentas en los 60) y seis prácticas nuevas comparables entre países: espionaje económico y científico, engaño y agentes dobles, ilegales, inteligencia financiera, diplomacia secreta y contratistas privados.
+
 - 2026-11-16 · Revisión del núcleo: espías atómicos y los Rosenberg, red Walker y "año de los espías" (EE.UU.); Theodore Hall, George Koval y la operación Osoaviakhim (Rusia); Klaus Fuchs (Reino Unido); Operación Paperclip; Dimona con ayuda francesa, el uranio de NUMEC, Eli Cohen y la Cólera de Dios (Israel y Francia); Markus Wolf y los científicos alemanes (Alemania); científicos alemanes, criminales nazis y el Proyecto Huemul (Argentina); Qian Xuesen (China); la red de A. Q. Khan (Irán y Corea del Norte).
 - 2026-11-16 · "Cómo funciona el espionaje" se desarrolla al final de la portada; el botón del menú lleva ahí.
 

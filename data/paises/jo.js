@@ -106,6 +106,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "Human Rights Watch documentó torturas en centros de la GID.", u: "https://en.wikipedia.org/wiki/General_Intelligence_Directorate_(Jordan)", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "Recibió detenidos de la CIA para interrogarlos tras 2001, según organizaciones de derechos humanos.", u: "https://en.wikipedia.org/wiki/General_Intelligence_Directorate_(Jordan)", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -142,6 +148,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 1, "x": "Los servicios sólo responden al rey."},
   sources: [
     { t: "Wikipedia: General Intelligence Directorate (Jordan)", u: "https://en.wikipedia.org/wiki/General_Intelligence_Directorate_(Jordan)" },
     { t: "Wikipedia: Camp Chapman attack", u: "https://en.wikipedia.org/wiki/Camp_Chapman_attack" },

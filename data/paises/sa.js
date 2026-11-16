@@ -122,6 +122,12 @@
     asesinato: { ev: 1, x: "El asesinato de Khashoggi en Estambul, aprobado por Mohammed bin Salman según la inteligencia de EE.UU.", u: "https://en.wikipedia.org/wiki/Assassination_of_Jamal_Khashoggi", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes a infraestructura atribuidos a los servicios sauditas." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "Relatores de la ONU y organizaciones de derechos humanos denunciaron torturas a activistas detenidas en 2018, que Riad niega.", u: "https://en.wikipedia.org/wiki/Loujain_al-Hathloul", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "Príncipes críticos fueron llevados por la fuerza desde Europa al reino entre 2015 y 2017, según investigaciones periodísticas.", u: "https://en.wikipedia.org/wiki/General_Intelligence_Presidency", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 1, x: "Twitter atribuyó en 2019 a una operación estatal saudita decenas de miles de cuentas manejadas por la empresa Smaat.", u: "https://tribune.com.pk/story/2122351/twitter-suspends-accounts-linked-saudi-spying-case", st: "Reuters, vía The Express Tribune" },
@@ -166,6 +172,8 @@
     {"id": "muyahidines", "s": "Muyahidines", "n": "Muyahidines afganos", "k": "armado", "d": "1979–1989", "rol": "patrocina", "hoy": false, "ev": 1, "x": "Riad igualó el dinero de la CIA para la resistencia afgana.", "who": "Comisión del 11-S", "u": "https://en.wikipedia.org/wiki/Operation_Cyclone", "st": "Wikipedia: Operation Cyclone", "graf": true},
     {"id": "jaysh", "s": "Jaysh al-Islam", "n": "Jaysh al-Islam", "k": "armado", "d": "2013–2018", "rol": "patrocina", "hoy": false, "ev": 2, "x": "Grupo rebelde sirio salafista financiado por Arabia Saudita, según la prensa y analistas.", "who": "Prensa internacional", "u": "https://en.wikipedia.org/wiki/Jaysh_al-Islam", "st": "Wikipedia: Jaysh al-Islam"}
   ],
+  doctrina: [{"h": "Seguridad del régimen", "x": "La prioridad es proteger a la monarquía y vigilar a disidentes dentro y fuera del país."}],
+  cuentas: {"n": 1, "x": "Condenas a ejecutores de Khashoggi en un juicio cerrado; sin responsables superiores."},
   sources: [
     { t: "Wikipedia: Khalid Al Humaidan", u: "https://en.wikipedia.org/wiki/Khalid_bin_Ali_Al_Humaidan" },
     { t: "Citizen Lab: fallo británico por Pegasus (2026)", u: "https://citizenlab.ca/saudi-arabia-ordered-to-pay-3m-to-london-dissident-over-pegasus-spying/" },

@@ -107,6 +107,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 2, "x": "El grupo OceanLotus, que empresas de seguridad atribuyen a Vietnam, atacó a fabricantes de autos extranjeros.", "u": "https://en.wikipedia.org/wiki/OceanLotus", "st": "Wikipedia: OceanLotus"},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "Organizaciones de derechos humanos denuncian malos tratos a presos políticos.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Vietnam", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Secuestró a Trinh Xuan Thanh en Berlín en 2017.", u: "https://www.rfa.org/english/news/vietnam/vietnam-kidnapping-trial-01312023223033.html", st: "Radio Free Asia" },
     propaganda: { ev: 1, x: "La Fuerza 47 hace propaganda en redes sociales.", u: "https://en.wikipedia.org/wiki/Force_47", st: "Wikipedia (síntesis de fuentes)" },
@@ -143,6 +149,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 1, "x": "Sin control independiente."},
   sources: [
     { t: "Radio Free Asia: segunda condena por el secuestro de Berlín", u: "https://www.rfa.org/english/news/vietnam/vietnam-kidnapping-trial-01312023223033.html" },
     { t: "Human Rights Watch: el caso Duong Van Thai", u: "https://www.hrw.org/news/2024/10/30/vietnam-quash-verdict-against-democracy-campaigner" },

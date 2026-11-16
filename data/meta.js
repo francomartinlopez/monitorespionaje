@@ -53,21 +53,27 @@ window.PRACTICAS = [
   { g: "A quién espían", k: "activistas", n: "Activistas y ONG", x: "Movimientos sociales, defensores de derechos, sindicatos y ONG." },
   { g: "A quién espían", k: "aliados", n: "Gobiernos aliados", x: "Funcionarios, embajadas y organismos de países amigos." },
   { g: "A quién espían", k: "rivales", n: "Rivales y enemigos", x: "Gobiernos, fuerzas armadas y servicios adversarios." },
+  { g: "A quién espían", k: "economico", n: "Empresas, tecnología y ciencia", x: "Espionaje económico, industrial y científico: secretos comerciales, patentes, programas de armas." },
   { g: "Qué métodos usan", k: "extorsion", n: "Extorsión y chantaje", x: "Presión con información comprometedora, amenazas a familiares, sobornos forzados." },
   { g: "Qué métodos usan", k: "asesinato", n: "Asesinatos selectivos", x: "Muertes planificadas dentro o fuera del país." },
   { g: "Qué métodos usan", k: "sabotaje", n: "Sabotajes", x: "Daños a infraestructura, industria, redes, transporte o equipos militares, físicos o informáticos." },
   { g: "Qué métodos usan", k: "infraestructura", n: "Infraestructura civil como plataforma", x: "Puertos, antenas, cables, bases, empresas de tecnología o cadenas de suministro propias usadas para recolectar información u operar desde otro país." },
   { g: "Qué métodos usan", k: "tortura", n: "Tortura y malos tratos", x: "Propia o por complicidad con otros servicios." },
   { g: "Qué métodos usan", k: "secuestro", n: "Secuestros y detenciones secretas", x: "Capturas sin proceso, traslados clandestinos y cárceles secretas." },
+  { g: "Qué métodos usan", k: "engano", n: "Engaño y agentes dobles", x: "Operaciones para hacerle creer algo falso a otro servicio: agentes dobles, organizaciones falsas, material alterado." },
+  { g: "Qué métodos usan", k: "ilegales", n: "Ilegales y cobertura no oficial", x: "Agentes con identidad falsa, sin protección diplomática." },
+  { g: "Qué métodos usan", k: "financiera", n: "Inteligencia financiera", x: "Rastreo de bancos y transferencias, y uso de sanciones como herramienta." },
   { g: "Cómo influyen en otras sociedades", k: "propaganda", n: "Propaganda y desinformación", x: "Mensajes, medios, cuentas falsas o noticias inventadas dirigidas a la población de otro país." },
   { g: "Cómo influyen en otras sociedades", k: "conflictos", n: "Fomentar divisiones y conflictos", x: "Avivar tensiones políticas, étnicas o religiosas, desestabilizar gobiernos o provocar choques." },
   { g: "Cómo influyen en otras sociedades", k: "cultural", n: "Influencia cultural, religiosa e ideológica", x: "Institutos, becas, revistas, fundaciones, centros de estudio, iglesias o movimientos culturales, religiosos, ideológicos y filosóficos financiados en secreto o usados para influir." },
   { g: "Cómo influyen en otras sociedades", k: "golpes", n: "Derrocar gobiernos", x: "Golpes de Estado, intentos de derrocamiento o desestabilización de un gobierno extranjero." },
   { g: "Cómo influyen en otras sociedades", k: "elecciones", n: "Intervención en elecciones", x: "Hackeos, filtraciones, desinformación, dinero o presión para torcer una elección, propia o ajena." },
   { g: "Cómo influyen en otras sociedades", k: "partidos", n: "Financiamiento de partidos y candidatos", x: "Dinero, apoyo o campañas a favor de partidos, candidatos o movimientos políticos de otro país." },
+  { g: "Cómo influyen en otras sociedades", k: "mediacion", n: "Diplomacia secreta y mediación", x: "El servicio como canal paralelo: negociar con enemigos, mediar entre terceros, organizar canjes." },
   { g: "A quién usan como agentes", k: "diaspora", n: "Emigrantes y diáspora", x: "Ciudadanos propios o sus descendientes que viven en otro país, usados como fuentes, agentes o para vigilar a otros emigrantes." },
   { g: "A quién usan como agentes", k: "empresarios", n: "Empresarios y empresas", x: "Hombres de negocios, ejecutivos o compañías usados como fuentes, agentes o cobertura." },
   { g: "A quién usan como agentes", k: "religiosos", n: "Religiosos e instituciones religiosas", x: "Sacerdotes, misioneros, imanes o iglesias usados como fuentes, agentes, cobertura o canal de influencia." },
+  { g: "A quién usan como agentes", k: "privados", n: "Contratistas y empresas privadas", x: "Empresas militares o de inteligencia privadas, contratistas y compra de datos comerciales." },
   { g: "Qué dan a otros", k: "armas", n: "Entrega o venta de armas", x: "Envíos encubiertos de armas o equipos militares." },
   { g: "Qué dan a otros", k: "inteligencia", n: "Asistencia de inteligencia", x: "Información compartida con otros países o fuerzas." },
   { g: "Qué dan a otros", k: "tecnologia", n: "Tecnología de vigilancia", x: "Equipos, software espía o cifrado entregados a otros." },
@@ -138,3 +144,6 @@ window.PROXY_ROLES = {
   usa: { n: "Lo usa o lo creó", c: "#4fa3ff" },
   doble: { n: "Doble juego o cambio de bando", c: "#c084fc" }
 };
+
+// Rendición de cuentas (campo cuentas de cada ficha)
+window.CUENTAS = { 1: { n: "Sin consecuencias", c: "#ff5a5f" }, 2: { n: "Parcial", c: "#f5b83d" }, 3: { n: "Con condenas o reformas", c: "#6af59a" } };

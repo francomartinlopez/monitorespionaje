@@ -107,6 +107,12 @@
     asesinato: { ev: 3, x: "Exiliados azerbaiyanos fueron atacados en Francia; sus allegados acusan a Bakú, que lo niega.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Azerbaijan", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "Detenidos denunciaron torturas, según organizaciones de derechos humanos.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Azerbaijan", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "Afgán Mukhtarli fue secuestrado en Georgia y llevado a Azerbaiyán.", u: "https://oc-media.org/tag/ssg-files", st: "OC Media" },
     propaganda: { ev: 1, x: "El llamado lavadero azerbaiyano pagó a políticos europeos para defender al gobierno.", u: "https://en.wikipedia.org/wiki/Azerbaijani_laundromat", st: "Wikipedia (síntesis de fuentes)" },
@@ -143,6 +149,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 1, "x": "Sin control independiente."},
   sources: [
     { t: "Wikipedia: Khadija Ismayilova", u: "https://en.wikipedia.org/wiki/Khadija_Ismayilova" },
     { t: "Wikipedia: Azerbaijani laundromat", u: "https://en.wikipedia.org/wiki/Azerbaijani_laundromat" },

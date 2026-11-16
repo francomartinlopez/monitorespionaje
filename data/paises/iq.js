@@ -105,6 +105,12 @@
     asesinato: { ev: 1, x: "El régimen de Saddam Hussein asesinó a opositores dentro y fuera del país.", u: "https://en.wikipedia.org/wiki/Iraqi_Intelligence_Service", st: "Wikipedia: Mujabarat iraquí" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "Torturas en cárceles de Saddam y, tras 2003, en centros de detención iraquíes, según la ONU.", u: "https://en.wikipedia.org/wiki/Iraqi_Intelligence_Service", st: "Wikipedia: Mujabarat iraquí" },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -138,6 +144,7 @@
   struggles: [
     { a: "Primer ministro", b: "Facciones de las FMP alineadas con Irán", k: "Con otros poderes", stake: "El control de las armas y de la inteligencia", state: "Abierta", x: "Al-Zaidi asumió el INIS y empujó un plan de desarme; las FMP quedaron afuera del desarme." }
   ],
+  cuentas: {"n": 2, "x": "Juicios al régimen de Saddam; las milicias no rinden cuentas."},
   sources: [
     { t: "The National: el primer ministro asume el control del INIS (2026)", u: "https://www.thenationalnews.com/news/mena/2026/10/30/iraqi-prime-minister-takes-direct-control-of-intelligence-service/" },
     { t: "Wikipedia: INIS", u: "https://en.wikipedia.org/wiki/Iraqi_National_Intelligence_Service" },

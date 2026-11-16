@@ -110,6 +110,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "Detenidos de 1987 denunciaron malos tratos durante los interrogatorios; el gobierno lo negó.", u: "https://en.wikipedia.org/wiki/Operation_Spectrum", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },
@@ -146,6 +152,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 1, "x": "Sin revisión independiente de las detenciones sin juicio."},
   sources: [
     { t: "Agencia de Ciberseguridad: operación Cyber Guardian (2026)", u: "https://csa.gov.sg/news-events/press-releases/largest-multi-agency-cyber-operation-mounted-to-counter-threat-posed-by-advanced-persistent-threat--apt--actor-unc3886-to-singapore-s-telecommunications-sector" },
     { t: "AFP: Singapur enfrenta un ciberataque grave (2025)", u: "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/07/19/singapore-is-facing-039serious039-cyberattack-says-national-security-minister-k-shanmugam" },

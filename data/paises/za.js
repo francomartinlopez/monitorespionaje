@@ -112,6 +112,12 @@
     asesinato: { ev: 1, x: "La Oficina de Cooperación Civil mató a opositores en el apartheid.", u: "https://en.wikipedia.org/wiki/Civil_Cooperation_Bureau", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 1, x: "Los servicios del apartheid pusieron bombas en oficinas del ANC en el exterior, según la Comisión de la Verdad.", u: "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "La policía de seguridad torturó a detenidos políticos en el apartheid.", u: "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Opositores fueron secuestrados en países vecinos en el apartheid.", u: "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 1, x: "El gobierno del apartheid financió en secreto medios de propaganda en el escándalo de la Información de 1978.", u: "https://en.wikipedia.org/wiki/Information_Scandal", st: "Wikipedia (síntesis de fuentes)" },
@@ -150,6 +156,7 @@
   proxies: [
     {"id": "renamo", "s": "RENAMO y UNITA", "n": "RENAMO y UNITA", "k": "armado", "d": "1975–1990", "rol": "patrocina", "hoy": false, "ev": 1, "x": "El régimen del apartheid armó a la RENAMO en Mozambique y a la UNITA en Angola.", "who": "Comisión de la Verdad y Reconciliación", "u": "https://en.wikipedia.org/wiki/RENAMO", "st": "Wikipedia: RENAMO"}
   ],
+  cuentas: {"n": 2, "x": "La comisión Zondo expuso los abusos y llevó a la reforma de 2025, con pocas condenas."},
   sources: [
     { t: "EWN: se firma la ley que divide la SSA (2025)", u: "https://ewn.co.za/2025/03/28/ramaphosa-signs-general-intelligence-laws-amendment-bill-into-law-splits-ssa-into-2-bodies" },
     { t: "SAnews: los dos nuevos servicios", u: "https://www.sanews.gov.za/node/74134" },

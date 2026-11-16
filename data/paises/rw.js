@@ -109,6 +109,12 @@
     asesinato: { ev: 2, x: "Un tribunal sudafricano vinculó al gobierno con el asesinato de Karegeya.", u: "https://en.wikipedia.org/wiki/Patrick_Karegeya", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "Ex detenidos denunciaron torturas en centros militares, según Human Rights Watch.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Rwanda", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Llevó con engaños a Rusesabagina desde Dubái a Kigali.", u: "https://en.wikipedia.org/wiki/Paul_Rusesabagina", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },
@@ -147,6 +153,7 @@
   proxies: [
     {"id": "m23", "s": "M23", "n": "Movimiento 23 de Marzo (M23)", "k": "armado", "d": "2012–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Grupos de expertos de la ONU documentaron que Ruanda arma y comanda al M23 en el este del Congo; Ruanda lo niega.", "who": "Grupo de expertos de la ONU sobre el Congo", "u": "https://en.wikipedia.org/wiki/March_23_Movement", "st": "Wikipedia: March 23 Movement", "graf": true}
   ],
+  cuentas: {"n": 1, "x": "Sin control independiente."},
   sources: [
     { t: "Wikipedia: March 23 Movement", u: "https://en.wikipedia.org/wiki/March_23_Movement" },
     { t: "Wikipedia: Patrick Karegeya", u: "https://en.wikipedia.org/wiki/Patrick_Karegeya" },

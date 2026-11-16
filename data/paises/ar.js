@@ -155,6 +155,12 @@
     asesinato: { ev: 1, x: "En el marco del Plan Cóndor, la SIDE y el Batallón de Inteligencia 601 participaron en secuestros y asesinatos de opositores argentinos y extranjeros; hay condenas firmes.", u: "https://es.wikipedia.org/wiki/Automotores_Orletti", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 1, x: "La Operación Algeciras de 1982 planeó volar un buque de guerra británico en Gibraltar; la policía española detuvo a los buzos argentinos antes del ataque.", u: "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Algeciras", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "En Automotores Orletti, centro clandestino que dependía de la SIDE, se torturó a detenidos argentinos, uruguayos y de otros países; la justicia condenó a sus responsables.", u: "https://es.wikipedia.org/wiki/Automotores_Orletti", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "La SIDE y el Batallón 601 secuestraron opositores dentro y fuera del país, incluidos los secuestros de Lima de 1980.", u: "https://es.wikipedia.org/wiki/Operaci%C3%B3n_C%C3%B3ndor", st: "Wikipedia (síntesis de fuentes)" },
     armas: { ev: 0, x: "Esta ficha no encontró envíos de armas hechos por los servicios. Las ventas ilegales a Ecuador y Croacia de los años noventa fueron del gobierno y de Fabricaciones Militares." },
@@ -200,6 +206,9 @@
     {"id": "aaa", "s": "Triple A", "n": "Alianza Anticomunista Argentina (Triple A)", "k": "armado", "d": "1973–1976", "rol": "usa", "hoy": false, "ev": 1, "x": "Grupo parapolicial organizado desde el Ministerio de Bienestar Social que asesinó a cientos de opositores; la justicia lo declaró crimen de lesa humanidad.", "who": "Justicia federal argentina", "u": "https://en.wikipedia.org/wiki/Argentine_Anticommunist_Alliance", "st": "Wikipedia: Argentine Anticommunist Alliance"},
     {"id": "contras", "graf": true, "s": "Contras", "n": "Contras y fuerzas centroamericanas", "k": "armado", "d": "1979–1984", "rol": "patrocina", "hoy": false, "ev": 1, "x": "El Batallón de Inteligencia 601 entrenó a los Contras y a fuerzas de Honduras y El Salvador, en parte con EE.UU.", "who": "Documentos desclasificados; investigaciones judiciales", "u": "https://en.wikipedia.org/wiki/Operation_Charly", "st": "Wikipedia: Operation Charly"}
   ],
+  doctrina: [{"h": "Separación entre defensa y seguridad interior", "x": "Las leyes de 1988, 1991 y 2001 prohíben a los militares hacer inteligencia interna; los decretos de 2024 y 2025 aflojan ese límite."}, {"h": "Fondos reservados", "x": "El secreto del presupuesto fue históricamente la herramienta de poder de la SIDE."}],
+  politica: {"analisis": "La SIDE sirvió más a la política interna que al análisis estratégico, según comisiones y especialistas.", "jefes": "Antonio Stiuso fue durante décadas el hombre fuerte del servicio sin ser su jefe formal."},
+  cuentas: {"n": 2, "x": "Condenas por la dictadura y por el encubrimiento de la AMIA; el atentado sigue impune."},
   sources: [
     { t: "Chequeado: de la AFI a la SIDE, qué cambió Milei en el sistema de inteligencia", u: "https://chequeado.com/el-explicador/de-la-afi-a-la-side-de-santiago-caputo-que-cambio-milei-en-el-sistema-de-inteligencia/" },
     { t: "Chequeado: el presupuesto de la SIDE en 2026", u: "https://chequeado.com/el-explicador/el-gobierno-volvio-a-aumentar-el-presupuesto-de-la-side-sumo-mas-de-30-mil-millones-y-ya-recibio-casi-80-mil-millones-extra-en-los-ultimos-50-dias/" },

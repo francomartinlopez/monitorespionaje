@@ -127,6 +127,12 @@
     asesinato: { ev: 2, x: "El caso de Saleem Shahzad y otros periodistas muertos; una comisión judicial no identificó culpables.", u: "https://en.wikipedia.org/wiki/Syed_Saleem_Shahzad", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes a infraestructura atribuidos a la ISI con sustento sólido." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 1, "x": "Abdul Qadeer Khan se llevó de la empresa URENCO, en Países Bajos, diseños de centrifugadoras para el programa nuclear pakistaní.", "u": "https://en.wikipedia.org/wiki/Abdul_Qadeer_Khan", "st": "Wikipedia: Abdul Qadeer Khan"},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "Los jueces de Islamabad y organizaciones de derechos humanos denunciaron torturas de agentes de inteligencia.", u: "https://www.aljazeera.com/news/2024/3/27/judges-vs-spies-pakistans-jurists-accuse-intel-agency-isi-of-intimidation", st: "Al Jazeera" },
     secuestro: { ev: 2, x: "La comisión oficial recibió 10.636 casos de desapariciones entre 2011 y 2025; las familias acusan a los servicios.", u: "https://www.dawn.com/news/1946385", st: "Dawn" },
     propaganda: { ev: 1, x: "Facebook eliminó en 2019 una red de cuentas falsas vinculada a empleados del servicio de prensa militar.", u: "https://www.dawn.com/news/1473284", st: "Dawn" },
@@ -172,6 +178,8 @@
     {"id": "talibanes", "s": "Talibanes afganos", "n": "Talibanes afganos", "k": "armado", "d": "1994–2021", "rol": "patrocina", "hoy": false, "ev": 1, "x": "El ISI apoyó a los talibanes en su ascenso y les dio refugio durante la guerra con EE.UU.", "who": "Gobiernos de EE.UU. y Afganistán; ex funcionarios pakistaníes", "u": "https://en.wikipedia.org/wiki/Taliban", "st": "Wikipedia: Taliban", "graf": true},
     {"id": "let", "s": "Lashkar-e-Taiba", "n": "Lashkar-e-Taiba", "k": "terrorista", "d": "1990–", "rol": "patrocina", "hoy": true, "ev": 2, "x": "Autor del ataque de Bombay en 2008; un acusado declaró en EE.UU. que tuvo apoyo de oficiales del ISI.", "who": "Tribunal federal de Chicago (caso Headley)", "u": "https://en.wikipedia.org/wiki/Lashkar-e-Taiba", "st": "Wikipedia: Lashkar-e-Taiba", "graf": true}
   ],
+  doctrina: [{"h": "Profundidad estratégica", "x": "Apoyar a grupos afines en Afganistán y Cachemira para contener a India."}],
+  cuentas: {"n": 1, "x": "El ISI no rinde cuentas ante el poder civil."},
   sources: [
     { t: "Dawn: Asim Malik, nuevo jefe de la ISI", u: "https://www.dawn.com/news/1860627/lt-gen-asim-malik-appointed-new-dg-isi-state-media" },
     { t: "Dawn: condena de Faiz Hameed", u: "https://www.dawn.com/news/1960498/ex-spymaster-faiz-hameed-sentenced-to-14-years-imprisonment-under-army-act" },

@@ -105,6 +105,12 @@
     asesinato: { ev: 2, x: "Ejecuciones extrajudiciales atribuidas a fuerzas de seguridad, según organizaciones de derechos humanos.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "Ex detenidos de Aynaghar describieron torturas.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "Desapariciones forzadas atribuidas a la DGFI.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -141,6 +147,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 2, "x": "Comisión de desapariciones y acusaciones a oficiales desde 2024."},
   sources: [
     { t: "ACNUDH: informe sobre la represión de 2024", u: "https://www.ohchr.org/en/press-releases/2025/02/bangladesh-un-report-finds-brutal-systematic-repression-protests-calls-justice" },
     { t: "Wikipedia: Aynaghar", u: "https://en.wikipedia.org/wiki/Aynaghar" },

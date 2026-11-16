@@ -109,6 +109,7 @@
     { ev: 4, ilegal: false, d: "2016–", h: "Lazarus es una invención de EE.UU.", x: "Corea del Norte y algunos sitios sostienen que las acusaciones de ciberrobos son una campaña inventada por EE.UU.", who: "Gobierno norcoreano y sitios afines", missing: "Pruebas que contradigan los rastros técnicos.", debunk: "Los rastros en la cadena de bloques, el código y las acusaciones judiciales de varios países coinciden; empresas de distintos países llegaron a las mismas conclusiones.", u: "https://www.ic3.gov/PSA/2025/PSA250226", st: "FBI (IC3)" }
   ],
   failures: [
+    {"k": "acierto", "d": "1968-01-23", "ev": 1, "w": 3, "h": "La captura del Pueblo", "x": "Corea del Norte tomó un barco espía de EE.UU. con sus equipos de cifrado, que compartió con la URSS.", "why": "No está en duda.", "wx": "", "who": "Gobierno de EE.UU.", "u": "https://en.wikipedia.org/wiki/USS_Pueblo_(AGER-2)", "st": "Wikipedia: USS Pueblo (AGER-2)"},
     { k: "falla", d: "1968-01-21", ev: 1, w: 3, h: "El comando de la Casa Azul", x: "El comando que debía matar al presidente surcoreano fue descubierto antes de llegar; uno de sus miembros se rindió y contó el plan.", why: "No está en duda: el sobreviviente declaró y vivió en Corea del Sur.", wx: "Testimonio del sobreviviente.", who: "Gobierno surcoreano", u: "https://en.wikipedia.org/wiki/Blue_House_raid", st: "Wikipedia (síntesis de fuentes)" },
     { k: "falla", d: "2016-08", ev: 1, w: 3, h: "Desertan diplomáticos", x: "El número dos de la embajada en Londres, Thae Yong Ho, desertó al Sur, y luego otros diplomáticos lo siguieron.", why: "No está en duda: Thae llegó a ser diputado en Corea del Sur.", wx: "Hechos públicos.", who: "Gobierno surcoreano", u: "https://en.wikipedia.org/wiki/Thae_Yong-ho", st: "Wikipedia (síntesis de fuentes)" },
     { k: "falsa", d: "2010-03-26", ev: 2, w: 2, h: "El Cheonan, ¿falsa bandera?", x: "Corea del Norte y algunos críticos sostienen que el hundimiento fue un accidente o una operación del Sur.", why: "La investigación internacional concluyó que fue un torpedo norcoreano; Rusia hizo su propia revisión y no la respaldó del todo.", wx: "Hay un informe internacional, pero no todos los países lo aceptaron.", who: "Gobierno norcoreano y algunos críticos", u: "https://en.wikipedia.org/wiki/ROKS_Cheonan_sinking", st: "Wikipedia (síntesis de fuentes)" }
@@ -143,6 +144,12 @@
     asesinato: { ev: 1, x: "La bomba de Rangún mató a cuatro ministros surcoreanos en 1983; Malasia atribuyó a agentes norcoreanos el asesinato de Kim Jong Nam en 2017.", u: "https://en.wikipedia.org/wiki/Rangoon_bombing", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 1, x: "El virus WannaCry paralizó hospitales y empresas en 2017, y el hackeo a Sony borró datos de la empresa en 2014.", u: "https://en.wikipedia.org/wiki/WannaCry_ransomware_attack", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 1, "x": "El grupo Lazarus roba criptomonedas y secretos de empresas para financiar al régimen, según el FBI y la ONU.", "u": "https://en.wikipedia.org/wiki/Lazarus_Group", "st": "Wikipedia: Lazarus Group"},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 1, "x": "Los autores del atentado al vuelo 858 viajaban con pasaportes japoneses falsos.", "u": "https://en.wikipedia.org/wiki/Kim_Hyon-hui", "st": "Wikipedia: Kim Hyon-hui"},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "La comisión de la ONU de 2014 documentó torturas sistemáticas en cárceles y campos políticos.", u: "https://en.wikipedia.org/wiki/Human_rights_in_North_Korea", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Secuestró a japoneses y a miles de surcoreanos; Japón reconoce 17 víctimas.", u: "https://www.mofa.go.jp/region/asia-paci/n_korea/abduction/index.html", st: "Cancillería de Japón" },
     propaganda: { ev: 1, x: "Mantiene sitios y cuentas dirigidos al público surcoreano, como Uriminzokkiri, bloqueados en el Sur.", u: "https://en.wikipedia.org/wiki/Uriminzokkiri", st: "Wikipedia (síntesis de fuentes)" },
@@ -191,6 +198,9 @@
   proxies: [
     {"id": "yodogo", "s": "Ejército Rojo Japonés (Yodogo)", "n": "Facción Yodogo del Ejército Rojo Japonés", "k": "terrorista", "d": "1970–", "rol": "usa", "hoy": false, "ev": 2, "x": "Pyongyang alojó a los secuestradores del vuelo 351 y los usó, según Japón, en secuestros de ciudadanos japoneses.", "who": "Gobierno de Japón", "u": "https://en.wikipedia.org/wiki/Japan_Airlines_Flight_351", "st": "Wikipedia: Japan Airlines Flight 351"}
   ],
+  doctrina: [{"h": "Autofinanciamiento", "x": "Los servicios deben generar divisas para el régimen: robos cibernéticos, contrabando y trabajadores en el exterior."}, {"h": "Supervivencia del régimen", "x": "Toda la inteligencia se ordena a proteger a la familia Kim."}],
+  politica: {"analisis": "Dar malas noticias al líder es peligroso; los jefes de seguridad son purgados con frecuencia.", "jefes": "Jang Song Thaek, que controlaba la seguridad, fue ejecutado en 2013."},
+  cuentas: {"n": 1, "x": "Sin control de ningún tipo."},
   sources: [
     { t: "Korea Herald: se amplía la inteligencia exterior (julio de 2026)", u: "https://www.koreaherald.com/article/10816475" },
     { t: "Daily NK: la Seguridad del Estado pasa a llamarse Oficina Estatal de Información", u: "https://www.dailynk.com/english/north-koreas-state-security-apparatus-undergoes-generational-overhaul-after-party-congress/" },

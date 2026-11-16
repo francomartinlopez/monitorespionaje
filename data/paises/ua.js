@@ -101,6 +101,7 @@
     { ev: 4, ilegal: false, d: "2022–", h: "Ucrania montó la masacre de Bucha", x: "Medios rusos sostienen que los cadáveres de Bucha fueron una puesta en escena de los servicios ucranianos.", who: "Gobierno y medios estatales rusos", missing: "Cualquier prueba que contradiga las imágenes satelitales y las investigaciones.", debunk: "Imágenes satelitales de antes de la retirada rusa, autopsias y la investigación de la ONU muestran que las víctimas murieron durante la ocupación.", u: "https://en.wikipedia.org/wiki/Bucha_massacre", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
+    {"k": "acierto", "d": "2025-06-01", "ev": 1, "w": 3, "h": "Operación Telaraña", "x": "El SBU escondió drones en camiones dentro de Rusia y atacó bases de bombarderos a miles de kilómetros del frente.", "why": "El ataque no está en duda; la cantidad de aviones destruidos sí.", "wx": "", "who": "Gobierno de Ucrania", "u": "https://en.wikipedia.org/wiki/Operation_Spider%27s_Web", "st": "Wikipedia: Operation Spider's Web"},
     { k: "falla", d: "2022-02", ev: 1, w: 3, h: "El sur abierto", x: "Las tropas rusas avanzaron desde Crimea casi sin resistencia; varios jefes del SBU en la región resultaron ser colaboradores.", why: "No está en duda: el jefe del SBU fue destituido y hubo causas por traición.", wx: "Destituciones y procesos judiciales públicos.", who: "Presidencia de Ucrania", u: "https://en.wikipedia.org/wiki/Ivan_Bakanov", st: "Wikipedia (síntesis de fuentes)" },
     { k: "falla", d: "2023", ev: 2, w: 2, h: "La contraofensiva de 2023", x: "La contraofensiva ucraniana no logró sus objetivos frente a defensas rusas mejor preparadas de lo previsto.", why: "Se discute si fue una falla de inteligencia o de recursos y planificación militar.", wx: "Evaluaciones de prensa y de centros de análisis, sin informe oficial.", who: "Prensa internacional y analistas", u: "https://en.wikipedia.org/wiki/2023_Ukrainian_counteroffensive", st: "Wikipedia (síntesis de fuentes)" },
     { k: "falsa", d: "2022-11-15", ev: 1, w: 3, h: "El misil de Przewodów", x: "Un misil cae en Polonia y mata a dos personas; Kiev culpó a Rusia, pero la investigación concluyó que era de la defensa antiaérea ucraniana.", why: "No es una falsa bandera deliberada, sino una atribución errónea: Polonia y la OTAN lo determinaron.", wx: "Investigación polaca y de la OTAN.", who: "Gobierno de Polonia y OTAN", u: "https://en.wikipedia.org/wiki/2022_missile_explosion_in_Poland", st: "Wikipedia (síntesis de fuentes)" }
@@ -134,6 +135,12 @@
     asesinato: { ev: 2, x: "Fuentes del SBU se atribuyeron ante la prensa el asesinato del general ruso Ígor Kirílov en Moscú en 2024; hubo otros ataques contra oficiales y propagandistas rusos.", u: "https://en.wikipedia.org/wiki/Igor_Kirillov", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 1, x: "El SBU reconoció la explosión del puente de Crimea y ejecutó la operación Telaraña; Alemania lo acusa además por el Nord Stream.", u: "https://en.wikipedia.org/wiki/2022_Crimean_Bridge_explosion", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 1, "x": "El SBU fingió en 2018 el asesinato del periodista Arkadi Bábchenko para atrapar a quienes lo habían encargado.", "u": "https://en.wikipedia.org/wiki/Arkady_Babchenko", "st": "Wikipedia: Arkady Babchenko"},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "La misión de derechos humanos de la ONU documentó malos tratos de las fuerzas ucranianas a detenidos y prisioneros, en una escala menor que los cometidos por Rusia.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Ukraine", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "El subcomandante Stepan Kaplunov denunció que el SBU lo secuestró y retuvo nueve días sin orden judicial en 2026; el SBU sostiene que confesó contactos con el FSB.", u: "https://kyivindependent.com/sbu-accuses-russian-volunteer-corps-deputy-commander-of-fsb-ties-as-he-alleges-threats-in-secret-detention/", st: "The Kyiv Independent" },
     propaganda: { ev: 2, x: "Las fuerzas armadas tienen unidades de operaciones psicológicas que difunden mensajes en Rusia y en los territorios ocupados.", u: "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine", st: "Wikipedia (síntesis de fuentes)" },
@@ -177,6 +184,9 @@
   proxies: [
     {"id": "rdk", "s": "Cuerpo de Voluntarios Rusos", "n": "Cuerpo de Voluntarios Rusos y Legión Libertad de Rusia", "k": "armado", "d": "2022–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Unidades de rusos opuestos al Kremlin que actúan bajo la inteligencia militar ucraniana (HUR) en incursiones a Rusia.", "who": "Gobierno de Ucrania (HUR)", "u": "https://en.wikipedia.org/wiki/Russian_Volunteer_Corps", "st": "Wikipedia: Russian Volunteer Corps"}
   ],
+  doctrina: [{"h": "Guerra asimétrica en profundidad", "x": "Drones, sabotajes y asesinatos selectivos dentro de Rusia para compensar la inferioridad militar."}, {"h": "Integración con Occidente", "x": "Trabaja con la inteligencia de EE.UU. y el Reino Unido desde 2014."}],
+  politica: {"analisis": "Los servicios responden al presidente. Zelenski relevó al jefe del SBU en 2022 por la infiltración rusa.", "jefes": "Kirilo Budánov, jefe de la GUR, se volvió una figura política de primer plano."},
+  cuentas: {"n": 2, "x": "Destituciones y causas por traición, en plena guerra."},
   sources: [
     { t: "Euronews: renuncia de Maliuk y nuevos jefes", u: "https://www.euronews.com/2026/01/05/ukraines-security-service-chief-resigns-amid-zelenskyys-kyiv-reshuffle" },
         { t: "NV: Umerov al frente del SZRU", u: "https://english.nv.ua/nation/zelenskyy-appoints-rustem-umerov-as-ukraine-s-foreign-intelligence-chief-50629464.html" },

@@ -123,6 +123,12 @@
     asesinato: { ev: 1, x: "Oficiales del Ejército de Kwantung mataron en 1928 al jefe militar Zhang Zuolin.", u: "https://en.wikipedia.org/wiki/Huanggutun_incident", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 1, x: "El incidente de Mukden de 1931 fue un sabotaje propio atribuido a China.", u: "https://en.wikipedia.org/wiki/Mukden_incident", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "La policía política Tokko torturó a opositores antes de 1945; el escritor Takiji Kobayashi murió en una comisaría en 1933.", u: "https://en.wikipedia.org/wiki/Tokubetsu_K%C5%8Dt%C5%8D_Keisatsu", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 0, x: "Esta ficha no encontró secuestros documentados en la posguerra." },
     propaganda: { ev: 1, x: "Antes de 1945 los servicios militares hicieron propaganda en China y el sudeste asiático.", u: "https://en.wikipedia.org/wiki/Nakano_School", st: "Wikipedia (síntesis de fuentes)" },
@@ -163,6 +169,8 @@
   proxies: [
     {"id": "kodama", "s": "Yoshio Kodama", "n": "Red de Yoshio Kodama", "k": "crimen", "d": "1945–1976", "rol": "doble", "hoy": false, "ev": 2, "x": "Ultranacionalista ligado a la yakuza que trabajó con la ocupación estadounidense y fue clave en el escándalo Lockheed.", "who": "Investigaciones del Congreso de EE.UU. y de Japón", "u": "https://en.wikipedia.org/wiki/Yoshio_Kodama", "st": "Wikipedia: Yoshio Kodama"}
   ],
+  doctrina: [{"h": "Inteligencia sin espías", "x": "Tras 1945 renunció al espionaje exterior clásico y dependió de EE.UU.; en 2026 creó un consejo nacional."}],
+  cuentas: {"n": 2, "x": "El Estado fue condenado por la causa armada contra Ohkawara Kakohki."},
   sources: [
     { t: "UPI: nace la Oficina Nacional de Inteligencia (2026)", u: "https://www.upi.com/Top_News/World-News/2026/07/31/japan-national-intelligence-bureau-national-security/7451785540742/" },
     { t: "Al Jazeera: la nueva inteligencia japonesa", u: "https://www.aljazeera.com/amp/news/2026/7/13/what-is-japans-new-intelligence-agency-and-why-is-tokyo-building-it" },

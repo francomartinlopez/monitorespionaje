@@ -119,6 +119,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes polacos documentados; Polonia es blanco de sabotajes rusos." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "Permitió que la CIA torturara a detenidos en su territorio, según el Tribunal Europeo.", u: "https://en.wikipedia.org/wiki/Stare_Kiejkuty", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Colaboró con los traslados secretos de detenidos de la CIA.", u: "https://en.wikipedia.org/wiki/Stare_Kiejkuty", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },
@@ -157,6 +163,8 @@
   ],
   proxies: [
   ],
+  doctrina: [{"h": "Frente oriental", "x": "Contraespionaje y defensa contra sabotajes de Rusia y Bielorrusia."}],
+  cuentas: {"n": 2, "x": "Comisión parlamentaria sobre Pegasus y causas en curso."},
   sources: [
     { t: "Al Jazeera: acusan a ex jefes de inteligencia por Pegasus (2026)", u: "https://www.aljazeera.com/news/2026/2/25/poland-charges-ex-intel-chiefs-for-using-israels-pegasus-spyware" },
     { t: "Reuters: el sabotaje ferroviario", u: "https://www.thestar.com.my/news/world/2025/11/18/polish-pm-says-two-responsible-for-railway-blast-worked-for-russian-intelligence" },

@@ -108,6 +108,12 @@
     asesinato: { ev: 1, x: "Funcionarios del DAS entregaron listas de sindicalistas a paramilitares, según la Justicia.", u: "https://en.wikipedia.org/wiki/Departamento_Administrativo_de_Seguridad", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -145,6 +151,7 @@
   proxies: [
     {"id": "auc", "s": "AUC", "n": "Autodefensas Unidas de Colombia", "k": "armado", "d": "1997–2006", "rol": "doble", "hoy": false, "ev": 1, "x": "El jefe del DAS Jorge Noguera fue condenado por entregar a los paramilitares listas de sindicalistas y opositores.", "who": "Corte Suprema de Colombia (2011)", "u": "https://en.wikipedia.org/wiki/Administrative_Department_of_Security", "st": "Wikipedia: Administrative Department of Security", "graf": true}
   ],
+  cuentas: {"n": 3, "x": "El DAS fue disuelto y varios de sus ex jefes, condenados."},
   sources: [
     { t: "Reuters: Petro suspende el intercambio de inteligencia (2025)", u: "https://www.thestar.com.my/news/world/2025/11/12/colombia-president-orders-suspension-of-intelligence-sharing-with-us" },
     { t: "El Tiempo: el caso Pegasus y el Grupo Egmont", u: "https://www.eltiempo.com/justicia/investigacion/en-que-quedo-el-escandalo-por-la-compra-de-pegasus-colombia-entraria-en-fase-de-prueba-con-el-grupo-egmont-tras-su-suspension-3474697" },

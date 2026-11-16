@@ -105,6 +105,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas propias documentadas." },
@@ -142,6 +148,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 2, "x": "Causas por corrupción e injerencia, con pocas condenas firmes."},
   sources: [
     { t: "SIS: informe sobre la injerencia electoral", u: "https://sis.md/en/node/1613" },
     { t: "Gobierno de Moldavia: discurso del primer ministro (2025)", u: "https://gov.md/en/print/pdf/node/5371" },

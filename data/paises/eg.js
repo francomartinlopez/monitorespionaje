@@ -116,6 +116,12 @@
     asesinato: { ev: 3, x: "Hay sospechas sobre la muerte de Ashraf Marwan en Londres en 2007, sin conclusión oficial.", u: "https://en.wikipedia.org/wiki/Ashraf_Marwan", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 1, "x": "La Inteligencia General egipcia es el canal habitual entre Israel y los grupos palestinos de Gaza.", "u": "https://en.wikipedia.org/wiki/General_Intelligence_Service_(Egypt)", "st": "Wikipedia: General Intelligence Service (Egypt)"},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "Un tribunal de Roma concluyó que oficiales egipcios secuestraron a Regeni, torturado hasta la muerte; Abu Omar denunció torturas tras su traslado.", u: "https://www.timeshighereducation.com/news/three-convicted-kidnapping-murdered-cambridge-phd-student", st: "Times Higher Education" },
     secuestro: { ev: 1, x: "Tres oficiales condenados en Roma por el secuestro de Regeni en 2016.", u: "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni", st: "Al Jazeera" },
     propaganda: { ev: 1, x: "El conglomerado de medios del GIS produce noticieros y series de televisión con mensajes del Estado.", u: "https://cpj.org/2025/07/egypts-intelligence-controlled-media-company-retaliates-against-programs-hosts-critical-of-government/", st: "CPJ" },
@@ -157,6 +163,8 @@
   proxies: [
     {"id": "lna", "s": "Ejército de Haftar", "n": "Ejército Nacional Libio de Jalifa Haftar", "k": "armado", "d": "2014–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Egipto apoya a Haftar en el este de Libia, según la ONU.", "who": "Panel de expertos de la ONU sobre Libia", "u": "https://en.wikipedia.org/wiki/Libyan_National_Army", "st": "Wikipedia: Libyan National Army", "graf": true}
   ],
+  doctrina: [{"h": "Mediación", "x": "La Inteligencia General es el canal con Israel y con los grupos palestinos."}],
+  cuentas: {"n": 1, "x": "Sin control independiente."},
   sources: [
     { t: "Al Jazeera: condena en Roma por el caso Regeni (2026)", u: "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni" },
     { t: "Citizen Lab: Predator contra Ahmed Tantawy", u: "https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/" },

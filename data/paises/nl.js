@@ -111,6 +111,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 2, x: "Participó en la operación Stuxnet contra el programa nuclear iraní, según la prensa.", u: "https://en.wikipedia.org/wiki/Stuxnet", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -147,6 +153,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 3, "x": "Una comisión independiente controla a los servicios con decisiones obligatorias."},
   sources: [
     { t: "Ministerio de Defensa: Laundry Bear (2025)", u: "https://www.defensie.nl/nieuws/20250527-onbekende-russische-groep-achter-hacks-nederlandse-doelen" },
     { t: "NOS: el informe anual del AIVD (2026)", u: "https://nos.nl/l/2611683" },

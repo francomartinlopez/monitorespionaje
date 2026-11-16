@@ -110,6 +110,12 @@
     asesinato: { ev: 1, x: "Ben Barka desapareció en París en 1965, con participación marroquí según la justicia francesa.", u: "https://en.wikipedia.org/wiki/Mehdi_Ben_Barka", st: "Wikipedia: Mehdi Ben Barka" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "Ex detenidos denunciaron torturas en el centro de Temara.", u: "https://en.wikipedia.org/wiki/Temara_interrogation_centre", st: "Wikipedia: centro de Temara" },
     secuestro: { ev: 2, x: "La CIA habría interrogado a detenidos de Al Qaeda en Temara, según la AP.", u: "https://en.wikipedia.org/wiki/Temara_interrogation_centre", st: "Wikipedia: centro de Temara" },
     propaganda: { ev: 2, x: "Pagos a periodistas extranjeros por el Sáhara, según correos filtrados.", u: "https://en.wikipedia.org/wiki/Yassine_Mansouri", st: "Wikipedia: Yassine Mansouri" },
@@ -147,6 +153,8 @@
   struggles: [
     { a: "DGST (Hammouchi)", b: "DGED (Mansouri)", k: "Entre agencias", stake: "La influencia ante el rey", state: "Discutida", x: "Medios argelinos describen una pelea abierta; medios marroquíes y franceses lo niegan." }
   ],
+  doctrina: [{"h": "Inteligencia como diplomacia", "x": "La cooperación antiterrorista sirve de moneda de cambio con Europa."}],
+  cuentas: {"n": 1, "x": "Los servicios sólo responden al rey."},
   sources: [
     { t: "Wikipedia: Proyecto Pegasus", u: "https://en.wikipedia.org/wiki/Pegasus_Project_(investigation)" },
     { t: "Wikipedia: caso de corrupción en el Parlamento Europeo", u: "https://en.wikipedia.org/wiki/Qatar_corruption_scandal_at_the_European_Parliament" },

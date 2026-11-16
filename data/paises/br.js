@@ -120,6 +120,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados en democracia." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "Durante la dictadura, el SNI y los centros de inteligencia militares participaron en torturas, según la Comisión Nacional de la Verdad.", u: "https://en.wikipedia.org/wiki/National_Truth_Commission", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "En el Plan Cóndor, agentes brasileños y uruguayos secuestraron en Porto Alegre a los uruguayos Lilián Celiberti y Universindo Rodríguez en 1978.", u: "https://en.wikipedia.org/wiki/Operation_Condor", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas en otros países; la desinformación de la Abin paralela apuntó al público brasileño." },
@@ -158,6 +164,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 2, "x": "Causa por la \"Abin paralela\"; la Comisión de la Verdad no pudo llevar a juicio los crímenes de la dictadura."},
   sources: [
     { t: "ABIN: Desafíos de Inteligencia, edición 2026", u: "https://www.gov.br/abin/pt-br/centrais-de-conteudo/publicacoes/defeso/sem-logo-de-gov_abin_desafios_2026.pdf" },
     { t: "Brasil de Fato: Ramagem y la Abin paralela", u: "https://www.brasildefato.com.br/2025/09/18/futuro-alexandre-ramagem/" },

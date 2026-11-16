@@ -127,6 +127,12 @@
     asesinato: { ev: 1, x: "Henry Liu fue asesinado en 1984 por orden del jefe de la MIB.", u: "https://en.wikipedia.org/wiki/Henry_Liu", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 1, x: "En las décadas de 1950 y 1960 comandos taiwaneses hicieron incursiones y sabotajes en la costa china.", u: "https://en.wikipedia.org/wiki/National_Security_Bureau_(Taiwan)", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "Durante el Terror Blanco los detenidos sufrieron torturas, según la Comisión de Justicia Transicional.", u: "https://en.wikipedia.org/wiki/White_Terror_(Taiwan)", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 0, x: "Esta ficha no encontró secuestros documentados en el exterior." },
     propaganda: { ev: 1, x: "Durante la Guerra Fría lanzó volantes y transmisiones de radio hacia China continental.", u: "https://en.wikipedia.org/wiki/National_Security_Bureau_(Taiwan)", st: "Wikipedia (síntesis de fuentes)" },
@@ -168,6 +174,8 @@
   proxies: [
     {"id": "bambu", "s": "Bambú Unido", "n": "Banda Bambú Unido", "k": "crimen", "d": "1984", "rol": "usa", "hoy": false, "ev": 1, "x": "La inteligencia militar taiwanesa encargó a esta banda el asesinato del escritor Henry Liu en California.", "who": "Tribunales de Taiwán y EE.UU.", "u": "https://en.wikipedia.org/wiki/Henry_Liu", "st": "Wikipedia: Henry Liu"}
   ],
+  doctrina: [{"h": "Alerta temprana", "x": "Todo se ordena a detectar a tiempo un ataque de China."}],
+  cuentas: {"n": 3, "x": "Condenas por el caso Henry Liu y comisión de justicia transicional."},
   sources: [
     { t: "Taipei Times: informe de la NSB sobre espionaje chino (2026)", u: "https://www.taipeitimes.com/News/taiwan/archives/2026/10/21/2003866346" },
     { t: "Focus Taiwan: condena a ex miembros del PDP (2025)", u: "https://focustaiwan.tw/society/202509250011" },

@@ -91,6 +91,8 @@
     { ev: 3, ilegal: false, d: "1959–2026", h: "La red de influencia en EE.UU.", x: "Un informe del Departamento de Estado de julio de 2026 sostiene que Cuba usa al Instituto Cubano de Amistad con los Pueblos (ICAP) y a grupos de solidaridad para influir en la izquierda estadounidense. La prensa señaló que el informe trae poca información nueva; Cuba lo rechazó.", who: "Departamento de Estado de EE.UU.", missing: "Pruebas de operaciones dirigidas por la inteligencia, más allá de la militancia política abierta.", u: "https://www.local10.com/news/world/2026/07/20/trump-administration-accuses-cuba-of-promoting-left-wing-terrorism/", st: "Local 10" }
   ],
   failures: [
+    {"k": "acierto", "d": "1985–2001", "ev": 1, "w": 3, "h": "Ana Montes", "x": "Cuba mantuvo durante 16 años a una analista en la inteligencia militar de EE.UU.", "why": "No está en duda; fue condenada.", "wx": "", "who": "Justicia de EE.UU.", "u": "https://en.wikipedia.org/wiki/Ana_Montes", "st": "Wikipedia: Ana Montes"},
+    {"k": "acierto", "d": "1959–2000", "ev": 1, "w": 3, "h": "Castro sobrevive a los complots", "x": "La seguridad cubana frustró decenas de planes de la CIA y del exilio para matar a Fidel Castro.", "why": "Los complots de la CIA están documentados por el Comité Church; las cifras cubanas no se pueden verificar.", "wx": "", "who": "Comité Church; gobierno de Cuba", "u": "https://en.wikipedia.org/wiki/Assassination_attempts_on_Fidel_Castro", "st": "Wikipedia: Assassination attempts on Fidel Castro"},
     { k: "falla", d: "2026-01", ev: 1, w: 2, h: "Sorprendidos en Caracas", x: "La custodia cubana de Maduro no previó la operación de EE.UU.; expertos dicen que subestimó la cooperación de informantes dentro del entorno de Maduro.", why: "No está en duda el resultado; se discute cuánto sabía la inteligencia cubana.", wx: "Análisis de ex diplomáticos y expertos citados por AFP.", who: "Expertos citados por AFP", u: "https://www.dawn.com/news/1966185", st: "AFP, vía Dawn" },
     { k: "falla", d: "1989", ev: 1, w: 3, h: "El caso Ochoa", x: "Oficiales del MININT participaban en narcotráfico; el régimen fusiló a cuatro y purgó el ministerio.", why: "Se discute si fue una falla de control o una operación tolerada desde arriba.", wx: "Juicio público y testimonios de desertores.", who: "Gobierno de Cuba", u: "https://en.wikipedia.org/wiki/Arnaldo_Ochoa", st: "Wikipedia (síntesis de fuentes)" }
   ],
@@ -123,6 +125,12 @@
     asesinato: { ev: 2, x: "La muerte de Payá y el derribo de 1996, por el que EE.UU. acusó a Raúl Castro.", u: "https://www.aljazeera.com/news/2026/5/20/trump-administration-indicts-cubas-raul-castro-over-1996-plane-shootdown", st: "Al Jazeera" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados de los servicios cubanos." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 1, "x": "Un desertor reveló en 1987 que casi todos los agentes de la CIA en Cuba eran dobles controlados por La Habana.", "u": "https://en.wikipedia.org/wiki/Intelligence_Directorate", "st": "Wikipedia: Intelligence Directorate"},
+    ilegales: {"ev": 1, "x": "La Red Avispa infiltró a grupos del exilio en Florida; cinco agentes fueron condenados en 2001.", "u": "https://en.wikipedia.org/wiki/Cuban_Five", "st": "Wikipedia: Cuban Five"},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "Organizaciones de derechos humanos denunciaron malos tratos a detenidos del 11 de julio de 2021.", u: "https://en.wikipedia.org/wiki/2021_Cuban_protests", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados de secuestros en el exterior." },
     propaganda: { ev: 2, x: "El Departamento de Estado sostiene que el ICAP coordina más de 2.000 organizaciones de solidaridad en más de 150 países; EE.UU. lo sancionó en junio de 2026.", u: "https://www.foxnews.com/politics/us-bases-ice-facilities-targeted-cuba-linked-24-hour-activist-mobilization-plan", st: "Fox News" },
@@ -163,6 +171,8 @@
   proxies: [
     {"id": "farc", "s": "FARC", "n": "FARC y guerrillas latinoamericanas", "k": "armado", "d": "1964–2016", "rol": "patrocina", "hoy": false, "ev": 2, "x": "Cuba entrenó y apoyó a guerrillas de la región durante la Guerra Fría y luego fue sede de las negociaciones de paz con las FARC.", "who": "Gobierno de Colombia; desertores cubanos", "u": "https://en.wikipedia.org/wiki/Revolutionary_Armed_Forces_of_Colombia", "st": "Wikipedia: Revolutionary Armed Forces of Colombia", "graf": true}
   ],
+  doctrina: [{"h": "Penetración paciente", "x": "Reclutar por ideología a personas que lleguen a cargos sensibles en EE.UU. y sostenerlas por décadas."}],
+  cuentas: {"n": 1, "x": "Sin control independiente."},
   sources: [
     { t: "Bloomberg Línea: la visita de Ratcliffe a La Habana", u: "https://www.bloomberglinea.com/2026/05/15/detalles-de-la-visita-del-director-de-la-cia-john-ratcliffe-a-cuba-con-quien-se-reunio/" },
     { t: "Departamento de Justicia: condena de Rocha", u: "https://www.justice.gov/usao-sdfl/pr/former-us-ambassador-and-national-security-council-official-admits-secretly-acting" },

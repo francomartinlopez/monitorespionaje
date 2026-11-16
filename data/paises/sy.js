@@ -110,6 +110,12 @@
     asesinato: { ev: 1, x: "Ejecuciones masivas en Sednaya, según Amnistía.", u: "https://en.wikipedia.org/wiki/Saydnaya_Prison", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "Tortura sistemática en centros de inteligencia, probada en juicios en Alemania.", u: "https://en.wikipedia.org/wiki/Anwar_Raslan", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Más de 100.000 desaparecidos durante la guerra.", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -148,6 +154,7 @@
   proxies: [
     {"id": "pkk", "s": "PKK", "n": "Partido de los Trabajadores del Kurdistán (PKK)", "k": "armado", "d": "1980–1998", "rol": "patrocina", "hoy": false, "ev": 1, "x": "Damasco alojó a Abdullah Öcalan y al PKK hasta que Turquía amenazó con la guerra en 1998.", "who": "Gobiernos de Turquía y Siria (acuerdo de Adana)", "u": "https://en.wikipedia.org/wiki/Kurdistan_Workers%27_Party", "st": "Wikipedia: Kurdistan Workers' Party"}
   ],
+  cuentas: {"n": 2, "x": "Tribunales alemanes condenaron a ex oficiales; la transición recién empieza."},
   sources: [
     { t: "Wikipedia: Fall of the Assad regime", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime" },
     { t: "Wikipedia: Caesar Report", u: "https://en.wikipedia.org/wiki/Caesar_Report" },

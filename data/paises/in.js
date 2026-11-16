@@ -127,6 +127,12 @@
     asesinato: { ev: 2, x: "La fiscalía de EE.UU. sostiene que un empleado del gobierno indio dirigió el plan contra Pannun; The Guardian atribuye a la R&AW unos 20 asesinatos en Pakistán.", u: "https://thewire.in/world/nikhil-gupta-pleads-guilty-in-us-to-plot-to-kill-gurpatwant-singh-pannun", st: "The Wire" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes a infraestructura atribuidos a India con sustento sólido." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos atribuidos a los servicios de inteligencia; las denuncias de tortura en Cachemira apuntan a fuerzas de seguridad y policías." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados de secuestros por los servicios indios en el exterior." },
     propaganda: { ev: 3, x: "EU DisinfoLab describió en 2020 una red de medios falsos que promovía intereses indios; no probó un vínculo con el Estado.", u: "https://en.wikipedia.org/wiki/Indian_Chronicles", st: "Wikipedia (síntesis de fuentes)" },
@@ -170,6 +176,8 @@
     {"id": "ltte", "s": "Tigres tamiles", "n": "Tigres de Liberación del Eelam Tamil", "k": "armado", "d": "1983–1987", "rol": "doble", "hoy": false, "ev": 1, "x": "El RAW entrenó a grupos tamiles en los años ochenta; luego India los combatió y los Tigres mataron a Rajiv Gandhi en 1991.", "who": "Comisiones y gobierno indio", "u": "https://en.wikipedia.org/wiki/Liberation_Tigers_of_Tamil_Eelam", "st": "Wikipedia: Liberation Tigers of Tamil Eelam"},
     {"id": "bishnoi", "s": "Banda de Lawrence Bishnoi", "n": "Banda de Lawrence Bishnoi", "k": "crimen", "d": "2023–", "rol": "usa", "hoy": true, "ev": 3, "x": "La policía canadiense acusó en 2024 a agentes indios de usar a esta banda contra activistas sijs; India lo niega.", "who": "Real Policía Montada de Canadá (2024)", "u": "https://en.wikipedia.org/wiki/Lawrence_Bishnoi", "st": "Wikipedia: Lawrence Bishnoi", "graf": true}
   ],
+  doctrina: [{"h": "Defensa ofensiva", "x": "Idea atribuida al asesor Ajit Doval: llevar la pelea al territorio del adversario."}],
+  cuentas: {"n": 1, "x": "Los servicios no tienen ley propia ni control parlamentario."},
   sources: [
     { t: "ThePrint: Parag Jain al frente de la R&AW", u: "https://theprint.in/defence/parag-jain-seasoned-intelligence-officer-with-key-role-in-op-sindoor-is-new-raw-chief/2673616" },
     { t: "The Wire: Mahesh Dixit, nuevo director de la IB", u: "https://thewire.in/government/who-is-the-new-ib-chief-mahesh-dixit" },

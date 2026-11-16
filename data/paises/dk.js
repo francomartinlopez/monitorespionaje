@@ -106,6 +106,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -142,6 +148,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 2, "x": "Una comisión investigó al servicio militar; las causas contra sus ex jefes se cerraron."},
   sources: [
     { t: "Al Jazeera: Dinamarca convoca al diplomático de EE.UU. (2025)", u: "https://www.aljazeera.com/news/2025/8/27/denmark-summons-us-diplomat-over-greenland-interference-attempts" },
     { t: "Reuters: influencia encubierta en Groenlandia", u: "https://www.thestar.com.my/news/world/2025/08/27/danish-foreign-minister-summons-us-diplomat-over-greenland-broadcaster-reports" },

@@ -106,6 +106,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados de los servicios estatales." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -139,6 +145,8 @@
   struggles: [
     { a: "Estado libanés", b: "Hezbollah", k: "Con otros poderes", stake: "El monopolio de las armas y de la seguridad", state: "Abierta", x: "El gobierno aprobó en 2025 un plan para desarmar a Hezbollah, que se resiste." }
   ],
+  doctrina: [{"h": "Reparto confesional", "x": "Cada servicio responde a una comunidad religiosa."}],
+  cuentas: {"n": 1, "x": "La investigación del puerto fue bloqueada durante años."},
   sources: [
     { t: "Al Jazeera: Líbano desarticula una red israelí (2025)", u: "https://www.aljazeera.com/amp/news/2025/10/10/lebanon-says-it-foiled-israeli-network-plotting-bomb-attacks" },
     { t: "Wikipedia: Tribunal Especial para el Líbano", u: "https://en.wikipedia.org/wiki/Special_Tribunal_for_Lebanon" },

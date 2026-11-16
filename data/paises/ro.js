@@ -109,6 +109,12 @@
     asesinato: { ev: 1, x: "La Securitate atentó contra la emisora Radio Free Europe en Múnich en 1981, según investigaciones posteriores.", u: "https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "La Securitate torturó a presos políticos; Rumania permitió maltratos de la CIA según el Tribunal Europeo.", u: "https://en.wikipedia.org/wiki/Black_site", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Colaboró con los traslados secretos de detenidos de la CIA.", u: "https://en.wikipedia.org/wiki/Black_site", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
@@ -146,6 +152,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 2, "x": "Archivos de la Securitate abiertos; las cárceles de la CIA no tuvieron responsables."},
   sources: [
     { t: "Wikipedia: 2024 Romanian presidential election", u: "https://en.wikipedia.org/wiki/2024_Romanian_presidential_election" },
     { t: "Wikipedia: Romanian Intelligence Service", u: "https://en.wikipedia.org/wiki/Romanian_Intelligence_Service" },

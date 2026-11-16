@@ -107,6 +107,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "Organizaciones de derechos humanos denunciaron golpizas a manifestantes detenidos en 2024 y 2025.", u: "https://en.wikipedia.org/wiki/2024%E2%80%932025_Georgian_protests", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "El periodista Mukhtarli denunció su secuestro en Tiflis con participación georgiana.", u: "https://oc-media.org/tag/ssg-files", st: "OC Media" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas de los servicios." },
@@ -144,6 +150,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 1, "x": "Las filtraciones de vigilancia masiva no tuvieron responsables."},
   sources: [
     { t: "OCCRP: los archivos del SSG", u: "https://www.occrp.org/en/daily/15182-files-show-georgian-security-service-spied-on-diplomats-journalists-clerics" },
     { t: "Georgia Today: la filtración que sacudió al país", u: "https://georgiatoday.ge/the-clergy-diplomat-surveillance-leak-that-shook-the-country/" },

@@ -120,6 +120,12 @@
     asesinato: { ev: 2, x: "Un programa de asesinatos en Yemen con mercenarios estadounidenses, según su propio jefe y una demanda de 2026.", u: "https://www.npr.org/2026/03/30/nx-s1-5707305/yemen-politician-assassination-us-soldiers-lawsuit", st: "NPR" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 1, "x": "Emiratos contrató a ex agentes de la NSA en el Proyecto Raven.", "u": "https://en.wikipedia.org/wiki/Project_Raven", "st": "Wikipedia: Project Raven"},
     tortura: { ev: 2, x: "Organizaciones de derechos humanos y la agencia AP documentaron cárceles secretas con torturas en el sur de Yemen, controladas por fuerzas apoyadas por los Emiratos.", u: "https://en.wikipedia.org/wiki/Security_Belt", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 2, x: "Detenciones sin juicio en cárceles secretas de Yemen, según investigaciones periodísticas.", u: "https://en.wikipedia.org/wiki/Security_Belt", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 2, x: "Pagó a una firma suiza para desacreditar a personas y organizaciones europeas como islamistas.", u: "https://eic.network/projects/abu-dhabi-secrets.html", st: "European Investigative Collaborations" },
@@ -167,6 +173,7 @@
     {"id": "stc", "s": "Consejo de Transición del Sur", "n": "Consejo de Transición del Sur (Yemen)", "k": "armado", "d": "2017–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Movimiento separatista del sur de Yemen financiado y armado por Emiratos.", "who": "Panel de expertos de la ONU", "u": "https://en.wikipedia.org/wiki/Southern_Transitional_Council", "st": "Wikipedia: Southern Transitional Council"},
     {"id": "lna", "s": "Ejército de Haftar", "n": "Ejército Nacional Libio de Jalifa Haftar", "k": "armado", "d": "2014–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Emiratos, Egipto y Rusia apoyaron a Haftar con armas, drones y mercenarios, según la ONU.", "who": "Panel de expertos de la ONU sobre Libia", "u": "https://en.wikipedia.org/wiki/Libyan_National_Army", "st": "Wikipedia: Libyan National Army", "graf": true}
   ],
+  cuentas: {"n": 1, "x": "Sin control independiente."},
   sources: [
     { t: "Reuters vía Axios: el Proyecto Raven", u: "https://www.axios.com/2019/01/30/nsa-spies-uae-hacking-operations" },
     { t: "The Record: multas a ex agentes de la NSA", u: "https://therecord.media/us-fines-former-nsa-employees-who-provided-hacker-for-hire-services-to-uae" },

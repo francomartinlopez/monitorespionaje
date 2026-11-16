@@ -119,6 +119,12 @@
     asesinato: { ev: 1, x: "Los GAL mataron a 27 personas en la década de 1980 con fondos del Estado.", u: "https://en.wikipedia.org/wiki/Grupos_Antiterroristas_de_Liberaci%C3%B3n", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "Los GAL torturaron a detenidos, como en el caso de Lasa y Zabala.", u: "https://en.wikipedia.org/wiki/Grupos_Antiterroristas_de_Liberaci%C3%B3n", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Los GAL secuestraron a Segundo Marey en Francia en 1983 por error.", u: "https://en.wikipedia.org/wiki/Grupos_Antiterroristas_de_Liberaci%C3%B3n", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },
@@ -158,6 +164,8 @@
   proxies: [
     {"id": "gal", "s": "GAL", "n": "Grupos Antiterroristas de Liberación (GAL)", "k": "armado", "d": "1983–1987", "rol": "usa", "hoy": false, "ev": 1, "x": "Escuadrones que mataron a 27 personas en la lucha contra ETA; la justicia condenó a un ministro y a altos cargos.", "who": "Tribunal Supremo de España", "u": "https://en.wikipedia.org/wiki/Grupos_Antiterroristas_de_Liberaci%C3%B3n", "st": "Wikipedia: Grupos Antiterroristas de Liberación"}
   ],
+  doctrina: [{"h": "Control judicial previo", "x": "Un magistrado del Tribunal Supremo autoriza las intervenciones del CNI."}],
+  cuentas: {"n": 2, "x": "Condenas por los GAL; relevo de la jefa del CNI por Pegasus."},
   sources: [
     { t: "Ara: el CNI reconoce el espionaje a ex diputados de la CUP (2026)", u: "https://en.ara.cat/politics/the-cni-admits-that-it-spied-carles-riera-and-david-fernandez-with-pegasus_1_5797167.html" },
     { t: "Ara: se archiva la causa por el teléfono de Sánchez (2026)", u: "https://es.ara.cat/politica/justicia-no-investigara-espionaje-pedro-sanchez-pegasus-obstruccion-israel_1_5625719.amp.html" },

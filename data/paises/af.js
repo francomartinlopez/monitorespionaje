@@ -106,6 +106,12 @@
     asesinato: { ev: 1, x: "Ejecuciones extrajudiciales de ex miembros de las fuerzas de seguridad, según la ONU.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "La ONU documentó torturas en centros de detención de la GDI.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Desapariciones forzadas de opositores y activistas.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -144,6 +150,7 @@
   proxies: [
     {"id": "alqaeda", "s": "Al Qaeda", "n": "Al Qaeda", "k": "terrorista", "d": "1996–", "rol": "doble", "hoy": true, "ev": 1, "x": "El jefe de Al Qaeda, Ayman al Zawahiri, vivía en Kabul cuando EE.UU. lo mató en 2022, pese al compromiso talibán de Doha.", "who": "Gobierno de EE.UU.; equipo de monitoreo de la ONU", "u": "https://en.wikipedia.org/wiki/Ayman_al-Zawahiri", "st": "Wikipedia: Ayman al-Zawahiri", "graf": true}
   ],
+  cuentas: {"n": 1, "x": "Sin control de ningún tipo."},
   sources: [
     { t: "Wikipedia: Killing of Ayman al-Zawahiri", u: "https://en.wikipedia.org/wiki/Killing_of_Ayman_al-Zawahiri" },
     { t: "Wikipedia: Human rights in Afghanistan", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan" },

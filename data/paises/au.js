@@ -121,6 +121,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 1, x: "La ASD admitió operaciones cibernéticas ofensivas contra el Estado Islámico.", u: "https://en.wikipedia.org/wiki/Australian_Signals_Directorate", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },
@@ -158,6 +164,8 @@
   ],
   proxies: [
   ],
+  doctrina: [{"h": "Cinco Ojos primero", "x": "La integración con EE.UU. define su recolección."}],
+  cuentas: {"n": 2, "x": "Comisiones reales; también se procesó a quien denunció el espionaje a Timor."},
   sources: [
     { t: "SBS News: la ASIO revela quién coordinó los incendios (2026)", u: "https://www.sbs.com.au/news/article/asio-boss-reveals-australian-residents-link-to-synagogue-plot-fears-killing-on-home-soil/elq4mvtsp" },
     { t: "The Nightly: evaluación anual de amenazas (2026)", u: "https://thenightly.com.au/politics/asio-identifies-antisemitic-bombings-as-iranian-regime-arson-foreign-coercion-in-annual-threat-assessment-c-22478862" },

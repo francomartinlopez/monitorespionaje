@@ -103,6 +103,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 1, "x": "Catar medió entre Israel y Hamás y entre EE.UU. y los talibanes.", "u": "https://en.wikipedia.org/wiki/Hamas", "st": "Wikipedia: Hamas"},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 2, x: "Sus vecinos acusan a Al Jazeera de servir a la política exterior catarí.", u: "https://en.wikipedia.org/wiki/Al_Jazeera", st: "Wikipedia (síntesis de fuentes)" },
@@ -141,6 +147,7 @@
     {"id": "hamas", "s": "Hamás", "n": "Hamás", "k": "armado", "d": "2012–", "rol": "doble", "hoy": true, "ev": 1, "x": "Catar aloja a la oficina política de Hamás y le giró fondos con acuerdo de Israel y EE.UU., mientras media entre las partes.", "who": "Gobiernos de Catar, Israel y EE.UU.", "u": "https://en.wikipedia.org/wiki/Hamas", "st": "Wikipedia: Hamas", "graf": true},
     {"id": "aljazeera", "s": "Al Jazeera", "n": "Al Jazeera", "k": "institucion", "d": "1996–", "rol": "usa", "hoy": true, "ev": 2, "x": "Cadena financiada por el Estado catarí; sus críticos la acusan de servir a la política exterior de Doha y a los Hermanos Musulmanes.", "who": "Arabia Saudita, Emiratos y Egipto (2017)", "u": "https://en.wikipedia.org/wiki/Al_Jazeera", "st": "Wikipedia: Al Jazeera"}
   ],
+  cuentas: {"n": 1, "x": "Sin control independiente."},
   sources: [
     { t: "Wikipedia: 2017–2021 Qatar diplomatic crisis", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis" },
     { t: "Wikipedia: 2025 Israeli strike on Doha", u: "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha" },

@@ -106,6 +106,12 @@
     asesinato: { ev: 1, x: "La UDBA yugoslava asesinó a emigrados en el exterior.", u: "https://en.wikipedia.org/wiki/UDBA", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     propaganda: { ev: 2, x: "Medios afines difunden la tesis de una conspiración extranjera contra el gobierno.", u: "https://en.wikipedia.org/wiki/2024%E2%80%932025_Serbian_anti-corruption_protests", st: "Wikipedia (síntesis de fuentes)" },
@@ -143,6 +149,7 @@
   proxies: [
     {"id": "arkan", "s": "Tigres de Arkan", "n": "Guardia Voluntaria Serbia (Tigres de Arkan)", "k": "armado", "d": "1990–1996", "rol": "patrocina", "hoy": false, "ev": 1, "x": "Paramilitares dirigidos y equipados por la Seguridad del Estado serbia durante las guerras yugoslavas, según el Tribunal de La Haya.", "who": "Tribunal Penal Internacional para la ex Yugoslavia", "u": "https://en.wikipedia.org/wiki/Serb_Volunteer_Guard", "st": "Wikipedia: Serb Volunteer Guard"}
   ],
+  cuentas: {"n": 1, "x": "El caso NoviSpy no se investigó."},
   sources: [
     { t: "Amnistía: NoviSpy y Cellebrite en Serbia (2024)", u: "https://www.amnesty.org/en/latest/news/2024/12/serbia-authorities-using-spyware-and-cellebrite-forensic-extraction-tools-to-hack-journalists-and-activists/" },
     { t: "Wikipedia: Aleksandar Vulin", u: "https://en.wikipedia.org/wiki/Aleksandar_Vulin" },

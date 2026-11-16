@@ -109,6 +109,12 @@
     asesinato: { ev: 2, x: "Opositores desaparecidos en 1999 y 2000, según un ex integrante de una unidad especial y el Consejo de Europa.", u: "https://en.wikipedia.org/wiki/Viktar_Hanchar", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 2, x: "Globos de contrabando cerraron el aeropuerto de Vilna; Lituania lo considera un ataque híbrido.", u: "https://www.lrt.lt/en/news-in-english/19/2777094/lithuania-weighs-de-escalation-after-belarus-frees-prisoners-pressure-shifts-to-sanctions", st: "LRT" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "La ONU documentó torturas a detenidos en 2020.", u: "https://en.wikipedia.org/wiki/2020%E2%80%932021_Belarusian_protests", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Forzó el aterrizaje de un avión para capturar a un opositor.", u: "https://en.wikipedia.org/wiki/Ryanair_Flight_4978", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 1, x: "La televisión estatal difunde confesiones forzadas de detenidos.", u: "https://en.wikipedia.org/wiki/Ryanair_Flight_4978", st: "Wikipedia (síntesis de fuentes)" },
@@ -146,6 +152,7 @@
   proxies: [
     {"id": "traficantes", "s": "Traficantes de migrantes", "n": "Redes de tráfico de migrantes", "k": "crimen", "d": "2021–", "rol": "usa", "hoy": true, "ev": 2, "x": "La UE acusa al régimen de traer migrantes de Medio Oriente y empujarlos a la frontera con Polonia y Lituania.", "who": "Unión Europea; gobiernos de Polonia y Lituania", "u": "https://en.wikipedia.org/wiki/2021%E2%80%932022_Belarus%E2%80%93European_Union_border_crisis", "st": "Wikipedia: 2021–2022 Belarus–European Union border crisis"}
   ],
+  cuentas: {"n": 1, "x": "Sin control independiente."},
   sources: [
     { t: "Defence24: el papel del KGB en Bielorrusia", u: "https://defence24.com/geopolitics/the-role-of-the-kgb-in-the-belarusian-power-architecture" },
     { t: "Anuario 2026: el KGB y los presos políticos", u: "https://nmn.media/yearbook/2026/en/page4.html" },

@@ -109,6 +109,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas de los servicios." },
@@ -145,6 +151,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 1, "x": "El caso Pegasus no tuvo responsables."},
   sources: [
     { t: "Telex: el Parlamento disuelve la Oficina de Protección de la Soberanía (2026)", u: "https://telex.hu/english/2026/06/30/hungarian-parliament-votes-to-abolish-sovereignty-protection-office" },
     { t: "Euronews: cómo Magyar desmontó el régimen de Orbán", u: "https://www.euronews.com/my-europe/2026/08/03/built-to-last-gone-in-months-how-peter-magyar-dismantled-viktor-orbans-regime" },

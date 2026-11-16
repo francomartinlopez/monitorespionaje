@@ -134,6 +134,12 @@
     asesinato: { ev: 1, x: "El MİT anuncia en forma habitual la muerte de cuadros del PKK en Irak y Siria; en Francia se investigó su posible papel en las muertes de París de 2013.", u: "https://dailysabah.com/politics/war-on-terror/turkish-intelligence-eliminates-pkk-targets-in-iraq", st: "Daily Sabah" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados de sabotajes del MİT contra infraestructura extranjera." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 1, "x": "El MİT organizó en Ankara el canje de presos de 2024 entre Rusia y Occidente.", "u": "https://en.wikipedia.org/wiki/2024_Ankara_prisoner_exchange", "st": "Wikipedia: 2024 Ankara prisoner exchange"},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 2, x: "Relatores de la ONU y organizaciones de derechos humanos denunciaron torturas a personas trasladadas por la fuerza y detenidas en lugares secretos.", u: "https://mwananchi.co.tz/kenya/news/day-i-saw-terror-in-eyes-of-turkish-abductee-4799252", st: "Nation Media Group" },
     secuestro: { ev: 1, x: "Kenia admitió haber entregado a cuatro refugiados turcos a pedido de Ankara en 2024; hubo casos similares en Kosovo y Kirguistán.", u: "https://nation.africa/kenya/news/kenya-yes-we-captured-four-refugees-on-behalf-of-turkey--4799314", st: "Nation (Kenia)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas de propaganda atribuidas al MİT; las campañas oficialistas en redes se atribuyen a estructuras partidarias." },
@@ -178,6 +184,8 @@
     {"id": "sna", "s": "Ejército Nacional Sirio", "n": "Ejército Nacional Sirio", "k": "armado", "d": "2017–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Milicias sirias que Turquía arma y paga; enviaron combatientes a Libia y a Nagorno Karabaj, según la ONU y monitores.", "who": "Panel de la ONU; Observatorio Sirio de Derechos Humanos", "u": "https://en.wikipedia.org/wiki/Syrian_National_Army", "st": "Wikipedia: Syrian National Army", "graf": true},
     {"id": "sadat", "s": "SADAT", "n": "SADAT", "k": "empresa", "d": "2012–", "rol": "usa", "hoy": true, "ev": 3, "x": "Empresa militar privada fundada por un ex asesor de Erdogan, acusada de entrenar milicias; la empresa lo niega.", "who": "Opositores turcos y prensa internacional", "u": "https://en.wikipedia.org/wiki/SADAT_International_Defense_Consultancy", "st": "Wikipedia: SADAT International Defense Consultancy"}
   ],
+  doctrina: [{"h": "Autonomía operativa", "x": "El MİT captura opositores en el exterior y opera en Siria, Irak y Libia con drones propios."}],
+  cuentas: {"n": 1, "x": "Sin control parlamentario efectivo."},
   sources: [
     { t: "Anadolu: balance 2025 del jefe del MİT", u: "https://aa.com.tr/en/turkiye/turkish-intelligence-thwarted-threats-before-they-materialized-in-2025-says-intelligence-chief/3791450" },
     { t: "Middle East Forum: presupuesto del MİT", u: "https://www.meforum.org/mef-online/turkeys-intelligence-agency-expands-as-erdogan-centralizes-power" },

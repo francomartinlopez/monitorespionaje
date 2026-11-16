@@ -112,6 +112,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 1, x: "Crypto AG operó desde Suiza; una investigación parlamentaria de 2020 concluyó que el servicio de inteligencia suizo conocía la operación de la CIA y el BND.", u: "https://en.wikipedia.org/wiki/Crypto_AG", st: "Wikipedia: Crypto AG" },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -148,6 +154,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 2, "x": "Comisiones parlamentarias por el escándalo de las fichas y por Crypto AG."},
   sources: [
     { t: "Swissinfo: la situación de seguridad empeora (2026)", u: "https://swissinfo.ch/eng/foreign-affairs/switzerlands-security-situation-has-deteriorated-further-according-to-the-src/91650054" },
     { t: "SRF: el informe sobre la sospecha de espionaje en el SRC", u: "https://www.srf.ch/news/schweiz/spionageverdacht-im-ndb-bericht-zur-russlandaffaere-entscheidende-fragen-bleiben-offen" },

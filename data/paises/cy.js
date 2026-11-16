@@ -107,6 +107,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -145,6 +151,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 1, "x": "Las causas por programas espía no alcanzaron a funcionarios."},
   sources: [
     { t: "Cyprus Mail: Black Cube detrás del video (2026)", u: "https://cyprus-mail.com/2026/04/10/israeli-private-intelligence-agency-allegedly-behind-christodoulides-corruption-video" },
     { t: "Cyprus Mail: el investigador no encuentra delitos", u: "https://cyprus-mail.com/2026/07/20/no-criminal-wrongdoing-indicated-in-videogate-investigator-says" },

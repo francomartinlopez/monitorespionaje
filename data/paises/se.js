@@ -112,6 +112,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     secuestro: { ev: 1, x: "Entregó a la CIA a dos egipcios en 2001, que denunciaron torturas en Egipto; la ONU condenó a Suecia.", u: "https://en.wikipedia.org/wiki/Extraordinary_rendition", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -148,6 +154,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 2, "x": "Comisiones oficiales y condenas a espías dentro de los servicios."},
   sources: [
     { t: "Reuters: Rusia, China e Irán, principales amenazas (2026)", u: "https://theprint.in/world/russia-china-and-iran-are-main-threats-to-sweden-security-service-says/2882406" },
     { t: "Säpo: informe 2025-2026", u: "https://sakerhetspolisen.se/download/18.6d8b207419df2497fd955/1778075300407/SP_La%CC%88gesbild%20ENG_Anpassad.pdf" },

@@ -110,6 +110,12 @@
     asesinato: { ev: 2, x: "La fiscalía chilena atribuye al gobierno venezolano el asesinato de Ronald Ojeda.", u: "https://en.wikipedia.org/wiki/Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "La ONU documentó torturas sistemáticas en el SEBIN y la DGCIM.", u: "https://citizen.digital/article/maduro-is-out-but-his-top-allies-still-hold-power-in-venezuela-n375237", st: "Reuters, vía Citizen Digital" },
     secuestro: { ev: 1, x: "Desapariciones forzadas de opositores tras detenciones arbitrarias, según la ONU.", u: "https://www.euaa.europa.eu/print/pdf/node/32025", st: "Agencia de Asilo de la UE" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas de los servicios." },
@@ -150,6 +156,7 @@
     {"id": "soles", "s": "Cartel de los Soles", "n": "Cartel de los Soles", "k": "crimen", "d": "1990–", "rol": "usa", "hoy": true, "ev": 3, "x": "EE.UU. acusa a jefes militares venezolanos de narcotráfico bajo ese nombre. Sus críticos dicen que no es una organización estructurada.", "who": "Departamento de Justicia de EE.UU.", "u": "https://en.wikipedia.org/wiki/Cartel_of_the_Suns", "st": "Wikipedia: Cartel of the Suns", "graf": true},
     {"id": "tren", "s": "Tren de Aragua", "n": "Tren de Aragua", "k": "crimen", "d": "2014–", "rol": "usa", "hoy": true, "ev": 3, "x": "El gobierno de Trump lo presentó como herramienta del régimen; una evaluación de la inteligencia de EE.UU. de 2025 no halló coordinación con el gobierno.", "who": "Gobierno de EE.UU.; Consejo Nacional de Inteligencia", "u": "https://en.wikipedia.org/wiki/Tren_de_Aragua", "st": "Wikipedia: Tren de Aragua"}
   ],
+  cuentas: {"n": 1, "x": "La Corte Penal Internacional investiga; no hubo juicios internos."},
   sources: [
     { t: "Reuters: los aliados de Maduro siguen en el poder (2026)", u: "https://www.thestar.com.my/news/world/2026/01/04/maduro-is-out-but-it039s-unclear-who-is-running-venezuela" },
     { t: "Al Jazeera: por qué los venezolanos siguen temiendo al gobierno", u: "https://www.aljazeera.com/features/2026/1/8/maduros-gone-why-are-venezuelans-still-afraid-of-the-government" },

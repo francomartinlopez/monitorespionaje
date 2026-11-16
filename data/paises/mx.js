@@ -120,6 +120,12 @@
     asesinato: { ev: 1, x: "La DFS participó en ejecuciones extrajudiciales durante la Guerra Sucia.", u: "https://en.wikipedia.org/wiki/Mexican_Dirty_War", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "La DFS torturó a detenidos en la Guerra Sucia, según comisiones de la verdad.", u: "https://en.wikipedia.org/wiki/Mexican_Dirty_War", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "Cientos de opositores fueron desaparecidos por fuerzas del Estado en la Guerra Sucia.", u: "https://en.wikipedia.org/wiki/Mexican_Dirty_War", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },
@@ -161,6 +167,8 @@
     {"id": "guadalajara", "s": "Cartel de Guadalajara", "n": "Cartel de Guadalajara", "k": "crimen", "d": "1980–1989", "rol": "doble", "hoy": false, "ev": 1, "x": "Agentes de la Dirección Federal de Seguridad (DFS) protegían a narcotraficantes y les daban credenciales; la DFS se disolvió en 1985 tras el asesinato del agente de la DEA Enrique Camarena.", "who": "Tribunales de EE.UU.; gobierno de México", "u": "https://en.wikipedia.org/wiki/Direcci%C3%B3n_Federal_de_Seguridad", "st": "Wikipedia: Dirección Federal de Seguridad", "graf": true},
     {"id": "sinaloa", "s": "Cartel de Sinaloa", "n": "Cartel de Sinaloa", "k": "crimen", "d": "2001–2012", "rol": "doble", "hoy": false, "ev": 1, "x": "Un jurado de EE.UU. condenó en 2023 a Genaro García Luna, ex jefe de la Agencia Federal de Investigación (AFI) y de seguridad federal, por recibir sobornos del cartel.", "who": "Tribunal federal de Nueva York", "u": "https://en.wikipedia.org/wiki/Genaro_Garc%C3%ADa_Luna", "st": "Wikipedia: Genaro García Luna", "graf": true}
   ],
+  doctrina: [{"h": "Seguridad interior", "x": "El foco es el crimen organizado, con fuerte papel de los militares."}],
+  cuentas: {"n": 2, "x": "García Luna fue condenado en EE.UU.; Ayotzinapa sigue sin esclarecerse."},
   sources: [
     { t: "InSight Crime: la nueva ley de inteligencia", u: "https://insightcrime.org/es/noticias/como-impactara-nueva-ley-inteligencia-en-mexico-seguridad-publica/" },
     { t: "Cámara de Diputados: texto de la ley (2025)", u: "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSNIIMSP.pdf" },

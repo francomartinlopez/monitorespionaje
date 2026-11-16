@@ -118,6 +118,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 0, x: "Esta ficha no encontró casos documentados en territorio italiano." },
     secuestro: { ev: 1, x: "Oficiales del SISMI colaboraron con la CIA en el secuestro de Abu Omar en Milán en 2003, según la fiscalía.", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas documentadas." },
@@ -157,6 +163,8 @@
   proxies: [
     {"id": "p2", "s": "Logia P2", "n": "Logia Propaganda Due (P2)", "k": "institucion", "d": "1970–1981", "rol": "doble", "hoy": false, "ev": 1, "x": "Logia masónica secreta que reunía a jefes de los servicios, militares y empresarios; una comisión parlamentaria la declaró una amenaza para la democracia.", "who": "Comisión parlamentaria Anselmi", "u": "https://en.wikipedia.org/wiki/Propaganda_Due", "st": "Wikipedia: Propaganda Due", "graf": true}
   ],
+  doctrina: [{"h": "Secreto de Estado", "x": "El gobierno puede oponerlo a los jueces, como en el caso Abu Omar."}],
+  cuentas: {"n": 2, "x": "Condenas por el caso Abu Omar, con secreto de Estado para los jefes."},
   sources: [
     { t: "Il Sole 24 Ore: qué es el caso Paragon", u: "https://en.ilsole24ore.com/art/what-is-the-paragon-case-and-what-is-happening-AHhJrvBB" },
     { t: "Avvenire: la fiscalía y el teléfono de Cancellato (2026)", u: "https://www.avvenire.it/attualita/caso-paragon-la-procura-conferma-malware-su-tre-telefoni-ma-aisi-non-spio-cancellato_105412" },

@@ -105,6 +105,12 @@
     asesinato: { ev: 3, x: "La familia de Aidos Sadykov culpa al gobierno de su asesinato; no hay pruebas firmes.", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "Detenidos de 2022 denunciaron torturas; el gobierno reconoció algunos casos.", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -141,6 +147,7 @@
   ],
   proxies: [
   ],
+  cuentas: {"n": 1, "x": "El ex jefe del KNB fue condenado tras 2022, en una pelea interna del poder."},
   sources: [
     { t: "Wikipedia: 2022 Kazakh unrest", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest" },
     { t: "Wikipedia: Karim Massimov", u: "https://en.wikipedia.org/wiki/Karim_Massimov" },

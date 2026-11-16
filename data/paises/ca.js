@@ -121,6 +121,12 @@
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    economico: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    engano: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    ilegales: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    financiera: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    mediacion: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
+    privados: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     tortura: { ev: 1, x: "Información falsa de la RCMP llevó a la tortura de Maher Arar en Siria.", u: "https://en.wikipedia.org/wiki/Maher_Arar", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas encubiertas documentadas." },
@@ -158,6 +164,8 @@
   ],
   proxies: [
   ],
+  doctrina: [{"h": "Servicio defensivo", "x": "No tiene un servicio de espionaje humano en el exterior; se apoya en señales y aliados."}],
+  cuentas: {"n": 3, "x": "La comisión McDonald llevó a crear el CSIS; Cameron Ortis fue condenado."},
   sources: [
     { t: "CP24: el registro de influencia extranjera (2026)", u: "https://www.cp24.com/news/canada/2026/07/03/long-delayed-foreign-influence-registry-coming-in-august/" },
     { t: "Comité de la Cámara de los Comunes: injerencia extranjera (2026)", u: "https://openparliament.ca/committees/house-affairs/45-1/20/" },
