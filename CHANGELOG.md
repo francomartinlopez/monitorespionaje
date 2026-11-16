@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Suecia: FRA, MUST, Säpo e Inspección de Inteligencia; los hermanos Kia, Stig Bergling, Irán y las bandas criminales, la ley de la FRA y el escándalo de la IB.
+
 - 2026-11-15 · Ficha real de Ruanda: NISS, DMI y RIB; el asesinato de Karegeya, el atentado contra Nyamwasa, la captura de Rusesabagina, Pegasus y el apoyo al M23 según la ONU.
 
 - 2026-11-15 · Ficha real de Venezuela: SEBIN, DGCIM y CICPC; la captura de Maduro (enero de 2026) y la transición de Delcy Rodríguez, los crímenes de lesa humanidad según la ONU, El Helicoide, el caso Ojeda en Chile y los desertores Figuera y Carvajal.
