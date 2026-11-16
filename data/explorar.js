@@ -142,3 +142,75 @@ window.GLOSARIO = [
   ["Negación plausible", "Diseñar una operación para que el gobierno pueda negar su participación de forma creíble."],
   ["Atribución", "Determinar quién está detrás de una operación, en especial de un ciberataque. Siempre conviene preguntar quién atribuye y con qué evidencia."]
 ];
+
+// ---------- Bloques de inteligencia (mapa general) ----------
+// Clasificación editorial del Monitor, revisada el 2026-11-16. Grado: n = núcleo, c = cercano, p = pendular.
+// Los nombres de país son los de data/world.js. Los territorios sin servicio propio no se clasifican.
+window.BLOQUES = {
+  defs: [
+    { id: "occ", n: "Bloque occidental", c: "#4fa3ff", x: "EE.UU. y sus aliados: Cinco Ojos, OTAN, Unión Europea, Japón, Corea del Sur y Taiwán. Comparten inteligencia de manera estable, en tratados y en enlaces permanentes." },
+    { id: "eur", n: "Bloque euroasiático", c: "#ff5a5f", x: "Rusia, China, Irán y sus socios cercanos. Cooperan contra el bloque occidental, aunque sin una alianza formal tan profunda." },
+    { id: "aut", n: "Potencias autónomas", c: "#f5b83d", x: "Países con servicios de gran capacidad que operan en el exterior según su propia agenda. Cooperan con uno u otro bloque según el tema." },
+    { id: "neu", n: "Neutrales y pendulares", c: "#9a8cff", x: "Países con servicios de capacidad media o menor, sin alineamiento fijo. Su prioridad suele ser interna o regional." },
+    { id: "abi", n: "Zonas abiertas", c: "#8a8f98", x: "Territorios donde el Estado no controla su espacio, por guerra, colapso o decisión. Allí operan a la vez servicios de varios países." }
+  ],
+  grados: { n: "Núcleo", c: "Cercano", p: "Pendular" },
+  paises: [
+    // Bloque occidental
+    ["United States of America", "occ", "n"], ["United Kingdom", "occ", "n"], ["Canada", "occ", "n"], ["Australia", "occ", "n"], ["New Zealand", "occ", "n"],
+    ["France", "occ", "n"], ["Germany", "occ", "n"], ["Netherlands", "occ", "n"], ["Denmark", "occ", "n"], ["Norway", "occ", "n"], ["Poland", "occ", "n"],
+    ["Italy", "occ", "n"], ["Spain", "occ", "n"], ["Sweden", "occ", "n"], ["Finland", "occ", "n"], ["Japan", "occ", "n"], ["South Korea", "occ", "n"],
+    ["Belgium", "occ", "n"], ["Estonia", "occ", "n"], ["Latvia", "occ", "n"], ["Lithuania", "occ", "n"], ["Czechia", "occ", "n"], ["Romania", "occ", "n"],
+    ["Portugal", "occ", "c"], ["Luxembourg", "occ", "c"], ["Iceland", "occ", "c"], ["Greenland", "occ", "c"], ["Bulgaria", "occ", "c"], ["Croatia", "occ", "c"], ["Slovenia", "occ", "c"],
+    ["Greece", "occ", "c"], ["Cyprus", "occ", "c", "Miembro de la UE fuera de la OTAN; cerca de Israel y de EE.UU. desde 2020."], ["Albania", "occ", "c"], ["Macedonia", "occ", "c"], ["Montenegro", "occ", "c"], ["Kosovo", "occ", "c"],
+    ["Hungary", "occ", "c", "Con Orbán fue pendular hacia Moscú; el gobierno de Magyar, desde 2026, volvió a acercarse a la UE."],
+    ["Slovakia", "occ", "p", "Miembro de la OTAN con un gobierno que mantiene canales con Moscú."],
+    ["Ukraine", "occ", "c", "No es miembro de la OTAN, pero su inteligencia trabaja integrada con la occidental desde 2014."],
+    ["Moldova", "occ", "c"], ["Taiwan", "occ", "c"], ["Philippines", "occ", "c"], ["Jordan", "occ", "c", "La Dirección General de Inteligencia (GID) es uno de los socios más estrechos de la CIA en Oriente Medio."],
+    ["Kuwait", "occ", "c"], ["Bahrain", "occ", "c"], ["Kenya", "occ", "c"], ["Colombia", "occ", "c", "Décadas de cooperación con la CIA y la DEA; el gobierno de Petro tensó esa relación."],
+    ["Ecuador", "occ", "c"], ["Paraguay", "occ", "c"], ["Panama", "occ", "c"], ["Guatemala", "occ", "c"], ["Honduras", "occ", "c"], ["El Salvador", "occ", "c"], ["Costa Rica", "occ", "c"],
+    ["Dominican Rep.", "occ", "c"], ["Jamaica", "occ", "c"], ["Puerto Rico", "occ", "n"], ["Guam", "occ", "n"],
+    // Bloque euroasiático
+    ["Russia", "eur", "n"], ["China", "eur", "n"], ["Iran", "eur", "n"], ["Belarus", "eur", "n"], ["North Korea", "eur", "c"], ["Cuba", "eur", "c"],
+    ["Nicaragua", "eur", "c"], ["Tajikistan", "eur", "c"], ["Kyrgyzstan", "eur", "c"], ["Laos", "eur", "c"], ["Cambodia", "eur", "c"], ["Eritrea", "eur", "p"],
+    ["Hong Kong", "eur", "n"], ["Macao", "eur", "n"],
+    // Potencias autónomas
+    ["Israel", "aut", "n"], ["Turkey", "aut", "n", "Miembro de la OTAN, pero su servicio (MIT) actúa con agenda propia y coopera también con Rusia e Irán."],
+    ["India", "aut", "n"], ["Pakistan", "aut", "n"], ["Saudi Arabia", "aut", "n"], ["United Arab Emirates", "aut", "n"], ["Qatar", "aut", "c"], ["Egypt", "aut", "c"],
+    ["Morocco", "aut", "c", "Servicios con alcance en Europa y África; socio de EE.UU., Francia e Israel."],
+    ["Rwanda", "aut", "c", "Servicio pequeño con operaciones en el exterior y en el este del Congo."],
+    // Neutrales y pendulares
+    ["Switzerland", "neu", "n"], ["Austria", "neu", "n"], ["Ireland", "neu", "n"], ["Malta", "neu", "n"], ["Liechtenstein", "neu", "n"],
+    ["Vatican", "neu", "n", "Diplomacia con red mundial y sin un servicio de inteligencia formal."],
+    ["Brazil", "neu", "n"], ["Mexico", "neu", "n"], ["South Africa", "neu", "n"], ["Indonesia", "neu", "n"], ["Malaysia", "neu", "n"], ["Thailand", "neu", "n"],
+    ["Vietnam", "neu", "n", "Partido comunista cercano a China en lo político y abierto a EE.UU. en lo militar."], ["Singapore", "neu", "c", "Coopera con Occidente, pero mantiene equilibrio con China."],
+    ["Argentina", "neu", "p", "Tradición de neutralidad; con Milei, desde 2023, se alineó con EE.UU. e Israel."],
+    ["Kazakhstan", "neu", "p", "Miembro de la OTSC con Rusia, con una política exterior multivectorial."],
+    ["Serbia", "neu", "p", "Candidata a la UE con servicios que cooperan con Rusia."],
+    ["Georgia", "neu", "p", "El gobierno de Sueño Georgiano se alejó de Occidente desde 2023."],
+    ["Armenia", "neu", "p", "Miembro de la OTSC que congeló su participación y se acerca a Occidente."],
+    ["Azerbaijan", "neu", "p", "Cerca de Turquía e Israel y en equilibrio con Rusia."],
+    ["Venezuela", "neu", "p", "Salió del bloque euroasiático tras la captura de Maduro en enero de 2026; el aparato de inteligencia sigue en pie."],
+    ["Algeria", "neu", "c"], ["Tunisia", "neu", "c"], ["Oman", "neu", "n"], ["Uzbekistan", "neu", "c"], ["Turkmenistan", "neu", "n"], ["Mongolia", "neu", "c"],
+    ["Bosnia and Herz.", "neu", "p"], ["Bangladesh", "neu", "c"], ["Sri Lanka", "neu", "c"], ["Nepal", "neu", "c"], ["Bhutan", "neu", "c"], ["Maldives", "neu", "c"],
+    ["Brunei", "neu", "c"], ["Timor-Leste", "neu", "c"], ["Papua New Guinea", "neu", "c"], ["Fiji", "neu", "c"], ["Solomon Is.", "neu", "p"],
+    ["Chile", "neu", "c"], ["Peru", "neu", "c"], ["Bolivia", "neu", "c"], ["Uruguay", "neu", "c"], ["Guyana", "neu", "c"], ["Suriname", "neu", "c"], ["Belize", "neu", "c"],
+    ["Trinidad and Tobago", "neu", "c"], ["Bahamas", "neu", "c"], ["Barbados", "neu", "c"],
+    ["Nigeria", "neu", "c"], ["Ghana", "neu", "c"], ["Senegal", "neu", "c"], ["Côte d'Ivoire", "neu", "c"], ["Ethiopia", "neu", "c"], ["Tanzania", "neu", "c"], ["Uganda", "neu", "c"],
+    ["Angola", "neu", "c"], ["Zambia", "neu", "c"], ["Zimbabwe", "neu", "c"], ["Namibia", "neu", "c"], ["Botswana", "neu", "c"], ["Mozambique", "neu", "c"], ["Madagascar", "neu", "c"],
+    ["Malawi", "neu", "c"], ["Lesotho", "neu", "c"], ["eSwatini", "neu", "c"], ["Cameroon", "neu", "c"], ["Gabon", "neu", "c"], ["Congo", "neu", "c"], ["Eq. Guinea", "neu", "c"],
+    ["Benin", "neu", "c"], ["Togo", "neu", "c"], ["Guinea", "neu", "c"], ["Guinea-Bissau", "neu", "c"], ["Sierra Leone", "neu", "c"], ["Liberia", "neu", "c"], ["Gambia", "neu", "c"],
+    ["Mauritania", "neu", "c"], ["Djibouti", "neu", "c", "Bases de EE.UU., Francia, China, Japón e Italia en un solo país."], ["Burundi", "neu", "c"], ["Chad", "neu", "p"],
+    // Zonas abiertas
+    ["Libya", "abi", "n"], ["Sudan", "abi", "n"], ["S. Sudan", "abi", "n"], ["Somalia", "abi", "n"], ["Somaliland", "abi", "c"], ["Yemen", "abi", "n"],
+    ["Dem. Rep. Congo", "abi", "c", "El Estado controla Kinshasa y el oeste; el este es zona de grupos armados y servicios vecinos."],
+    ["Central African Rep.", "abi", "n"], ["Haiti", "abi", "n"], ["Lebanon", "abi", "c"], ["Palestine", "abi", "n"],
+    ["Syria", "abi", "c", "Tras la caída de Assad en 2024 salió del bloque euroasiático; el nuevo gobierno no controla todo el territorio."],
+    ["Iraq", "abi", "p", "Gobierno con servicios propios, pero campo de disputa entre Irán y EE.UU."],
+    ["Afghanistan", "abi", "p", "Los talibanes controlan el territorio por decisión propia, con servicios débiles; operan allí Pakistán, Irán, Rusia y China."],
+    ["Myanmar", "abi", "c", "La junta, apoyada por China y Rusia, perdió buena parte del territorio en la guerra civil."],
+    ["Mali", "abi", "c", "Junta militar apoyada por Rusia; el norte y el centro están en manos de grupos armados."],
+    ["Burkina Faso", "abi", "c", "Junta militar apoyada por Rusia; gran parte del territorio fuera de control del Estado."],
+    ["Niger", "abi", "c", "Junta militar desde 2023, acercada a Rusia."]
+  ]
+};

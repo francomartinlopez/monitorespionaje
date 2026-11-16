@@ -386,6 +386,10 @@ table.tbl { border-collapse: collapse; width: 100%; min-width: 640px; font-size:
 .x-head p { margin: 0; color: var(--soft); max-width: 820px; }
 .al-fill { fill: var(--c); fill-opacity: .32; stroke: var(--c); stroke-width: .9; }
 .al-fill:hover { fill-opacity: .55; }
+.bl-fill { fill: var(--c); fill-opacity: var(--o); stroke: var(--c); stroke-opacity: .7; stroke-width: .7; transition: fill-opacity .2s; }
+.bl-fill.bl-p { stroke-dasharray: 2 2; }
+.bl-fill:hover { fill-opacity: .8; }
+.bl-g { margin: 12px 0 6px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; opacity: .7; }
 .side-x { font-size: 14px; color: var(--soft); margin: 10px 0 12px; }
 .mlist { display: flex; flex-wrap: wrap; gap: 6px; }
 .mlist span { font: 400 12px var(--f-mono); border: 1px solid var(--line-2); padding: 4px 7px; border-radius: 2px; color: var(--text); }

@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-16 · Nuevo mapa general de bloques de inteligencia en Explorar (#bloques): cinco bloques, grado de pertenencia y notas sobre casos discutibles.
+
 - 2026-11-15 · Bangladés: ficha real (DGFI, Aynaghar, represión de 2024, NTMC). Las 57 fichas son reales.
 
 - 2026-11-15 · Serbia: ficha real (BIA, NoviSpy, sanciones a Vulin, protestas de Novi Sad).

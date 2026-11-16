@@ -9,6 +9,7 @@
   const es = n => window.esName(n);
 
   ME.EXPLORE = [
+    { id: "bloques", k: "Mapa", n: "Bloques de inteligencia", x: "El mundo dividido en cinco: occidental, euroasiático, autónomos, neutrales y zonas abiertas." },
     { id: "alianzas", k: "Mapa", n: "Alianzas de inteligencia", x: "Cinco Ojos, Catorce Ojos, Club de Berna, OTAN y Shanghái." },
     { id: "infraestructura", k: "Mapa", n: "Infraestructura de vigilancia", x: "Estaciones de escucha, satélites, bases y cables." },
     { id: "software-espia", k: "Mapa", n: "Mercado del software espía", x: "Proveedores, herramientas y a quién le venden." },
@@ -33,6 +34,33 @@
     if (click) { el.addEventListener("click", () => click(el)); el.addEventListener("keydown", e => { if (e.key === "Enter") click(el); }); }
   });
   const monitorNodes = (ids) => PAISES.filter(p => !ids || ids.includes(p.id)).map(p => { const [x, y] = pt(p.center); return `<g class="node" data-id="${p.id}" tabindex="0" role="link" aria-label="${esc(p.name)}">${rings(x, y, .8)}<rect x="${x - 3}" y="${y - 3}" width="6" height="6"/></g>`; }).join("");
+
+  // ================= BLOQUES =================
+  R.bloques = { title: "Bloques de inteligencia", render(args) {
+    const B = window.BLOQUES, D = Object.fromEntries(B.defs.map(d => [d.id, d])), op = { n: .6, c: .36, p: .16 };
+    let cur = D[args[0]] ? args[0] : null;
+    const cnt = id => B.paises.filter(p => p[1] === id).length;
+    app.innerHTML = head("Bloques de inteligencia", "Una lectura editorial del Monitor: con quién comparte inteligencia cada país y con cuánta autonomía opera. El color indica el bloque; la intensidad, el grado de pertenencia (núcleo, cercano o pendular).") + `
+      <div class="chips" id="blChips"><button type="button" class="chip" data-id="">Todos · ${B.paises.length}</button>${B.defs.map(d => `<button type="button" class="chip" data-id="${d.id}" style="--c:${d.c}"><i></i>${esc(d.n)} · ${cnt(d.id)}</button>`).join("")}</div>
+      <div class="mapbox"><div class="map-split"><div id="blMap"></div><aside class="map-side" id="blSide"></aside></div>
+      <div class="legend">${B.defs.map(d => `<span><i class="dot" style="--c:${d.c}"></i>${esc(d.n)}</span>`).join("")}<span class="hint">Más intenso = núcleo · más tenue y punteado = pendular</span></div></div>`;
+    const draw = () => {
+      app.querySelectorAll("#blChips .chip").forEach(b => b.classList.toggle("on", b.dataset.id === (cur || "")));
+      const fill = B.paises.map(([n, b, g]) => FEAT[n] ? `<path class="bl-fill${g === "p" ? " bl-p" : ""}" d="${path(FEAT[n])}" style="--c:${D[b].c};--o:${cur && cur !== b ? .05 : op[g]}" data-n="${esc(n)}"/>` : "").join("");
+      const ids = PAISES.filter(p => B.paises.some(x => x[0] === p.map && (!cur || x[1] === cur))).map(p => p.id);
+      document.getElementById("blMap").innerHTML = stage(`<g>${fill}</g>${monitorNodes(ids)}`, "Mapa de bloques de inteligencia", cur ? `<b>${esc(D[cur].n)}</b>${cnt(cur)} países` : `<b>Cinco bloques</b>${B.paises.length} países clasificados`);
+      const list = id => ["n", "c", "p"].map(g => { const L = B.paises.filter(x => x[1] === id && x[2] === g).sort((a, b) => es(a[0]).localeCompare(es(b[0])));
+        return L.length ? `<h5 class="bl-g">${B.grados[g]} · ${L.length}</h5><div class="mlist">${L.map(x => `<span${x[3] ? ` title="${esc(x[3])}"` : ""}>${esc(es(x[0]))}${x[3] ? " *" : ""}</span>`).join("")}</div>` : ""; }).join("");
+      const notes = id => B.paises.filter(x => (!id || x[1] === id) && x[3]).map(x => `<p class="side-x"><b>${esc(es(x[0]))}.</b> ${esc(x[3])}</p>`).join("");
+      document.getElementById("blSide").innerHTML = cur
+        ? `<h4>${esc(D[cur].n)} · ${cnt(cur)} países</h4><div class="ev-list"><p class="side-x">${esc(D[cur].x)}</p>${list(cur)}${notes(cur) ? `<h5 class="bl-g">Casos discutibles</h5>${notes(cur)}` : ""}</div>`
+        : `<h4>Cinco bloques</h4><div class="ev-list">${B.defs.map(d => `<p class="side-x"><b style="color:${d.c}">${esc(d.n)}.</b> ${esc(d.x)}</p>`).join("")}<p class="side-x">Elegí un bloque para ver sus países y los casos discutibles. La clasificación es del Monitor y se revisa con cada actualización.</p></div>`;
+      bindTips(app, ".bl-fill", el => { const x = B.paises.find(p => p[0] === el.dataset.n); return `<b>${esc(es(x[0]))}</b><span class="d">${esc(D[x[1]].n)} · ${B.grados[x[2]]}</span>${x[3] ? `<span class="d">${esc(x[3])}</span>` : ""}`; });
+      bindTips(app, "#blMap .node", el => `<b>${esc(byId[el.dataset.id].name)}</b><span class="go">Clic para abrir la ficha →</span>`, el => location.hash = "p-" + el.dataset.id);
+    };
+    app.querySelectorAll("#blChips .chip").forEach(b => b.addEventListener("click", () => { cur = b.dataset.id || null; draw(); }));
+    draw();
+  } };
 
   // ================= ALIANZAS =================
   R.alianzas = { title: "Alianzas de inteligencia", render(args) {

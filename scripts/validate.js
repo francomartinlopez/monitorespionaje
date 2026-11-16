@@ -114,6 +114,10 @@ Object.entries(FICHAS).forEach(([id, f]) => {
 ctx.RELACIONES.forEach((r, i) => { if (!ids.has(r.a) || !ids.has(r.b)) err("relaciones", `[${i}] id desconocido ${r.a}/${r.b}`); if (!ctx.REL_TYPES[r.t]) err("relaciones", `[${i}] tipo ${r.t}`); });
 const seen = new Set(); ctx.RELACIONES.forEach(r => { const k = [r.a, r.b].sort().join("-"); if (seen.has(k)) warn("relaciones", "par repetido " + k); seen.add(k); });
 ctx.ALIANZAS.forEach(a => a.members.forEach(n => { if (!names.has(n)) err("alianzas " + a.id, `país desconocido "${n}"`); }));
+if (ctx.BLOQUES) { const bid = new Set(ctx.BLOQUES.defs.map(b => b.id)), vis = new Set();
+  ctx.BLOQUES.paises.forEach(([n, b, g]) => { if (!names.has(n)) err("bloques", `país desconocido "${n}"`); if (!bid.has(b)) err("bloques", `bloque desconocido "${b}" (${n})`); if (!ctx.BLOQUES.grados[g]) err("bloques", `grado desconocido "${g}" (${n})`); if (vis.has(n)) warn("bloques", `país repetido "${n}"`); vis.add(n); });
+  PAISES.forEach(p => { if (!vis.has(p.map)) warn("bloques", `país del monitor sin bloque: ${p.id}`); });
+} else err("bloques", "falta window.BLOQUES");
 ctx.INFRA.forEach(x => { if (!ctx.INFRA_TYPES[x.t]) err("infra " + x.n, "tipo inválido"); });
 ctx.EXPULSIONES.forEach((e, i) => { if (!ids.has(e.a) || !ids.has(e.b)) err("expulsiones", `[${i}] id desconocido`); });
 const orgIds = new Set(ctx.ORGS_RED.map(o => o.id));

@@ -4,7 +4,7 @@ Sitio estático publicado con GitHub Pages desde `main` (raíz). Todo en españo
 Responsable editorial: Franco Martín López. Proyecto hermano de Monitor de Conflictos (`conflictoglobal`), con la misma base técnica.
 
 ## Estado
-Esqueleto: estructura completa y contenido de prueba. `MONITOR_META.skeleton = true` muestra la banda amarilla de aviso; se apaga cuando haya contenido real.
+Las 57 fichas son reales desde el 2026-11-16. Explorar todavía tiene datos de prueba (flujos de software espía, expulsiones, documentos del archivo). `MONITOR_META.skeleton = true` muestra la banda amarilla de aviso; se apaga cuando haya contenido real.
 Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un país, reemplazá su archivo entero y quitá `sample`.
 
 ## Países (57)
@@ -38,6 +38,7 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 - `sources` [{t, u}].
 
 ## Secciones de Explorar (`data/explorar.js`, interfaz en `js/explorar.js`)
+- `BLOQUES`: mapa general en cinco bloques (occidental, euroasiático, autónomos, neutrales, zonas abiertas). `paises` = [nombre de `data/world.js`, bloque, grado n|c|p, nota?]. Clasificación editorial; la nota explica los casos discutibles. Todo país del monitor debe tener bloque.
 - `ALIANZAS`: miembros por nombre de país de `data/world.js`. Reales.
 - `INFRA`: instalaciones de vigilancia con tipo, coordenadas `ll` [lon, lat], quién la opera y nivel de evidencia `ev`. `lab: "l"` y `dy` acomodan la etiqueta.
 - `SPYWARE`: proveedores reales; los `flows` hacia clientes son de prueba.
@@ -45,7 +46,7 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 - `ORGS_RED` y `PERSONAS`: red de personas; `w` = para quién trabajaba, `s` = hacia quién pasó información.
 - `ARCHIVO`: `fondos` reales; `docs` de prueba.
 - `CICLO`, `INTS`, `GLOSARIO`: página "Cómo funciona".
-- Rutas: #practicas, #alianzas, #infraestructura, #software-espia, #expulsiones, #personas, #comparar/<a>/<b>, #cronologia, #archivo, #como-funciona.
+- Rutas: #bloques[/<id>], #practicas, #alianzas, #infraestructura, #software-espia, #expulsiones, #personas, #comparar/<a>/<b>, #cronologia, #archivo, #como-funciona.
 
 ## Validador
 `node scripts/validate.js` controla el formato de todas las fichas y de los datos de Explorar; `--browser` además abre todas las rutas en Chromium. Nunca subir con el validador en rojo.
