@@ -1,851 +1,149 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Afganistán · contenido real · revisada el 2026-11-16
 (window.FICHAS = window.FICHAS || {})["af"] = {
- "sample": true,
- "id": "af",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Afganistán: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 3,
-  "senales": 1,
-  "ciber": 1,
-  "imagenes": 1,
-  "encubierta": 2,
-  "contra": 3
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "Emir": {
-   "since": 1987,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Liderazgo del Emirato Islámico: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "GDI": {
-   "since": 1917,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Dirección General de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Defensa": {
-   "since": 1987,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia del Ministerio de Defensa: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Interior": {
-   "since": 2019,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Ministerio del Interior: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "af",
+  updated: "2026-11-16",
+  summary: [
+    "Desde que los talibanes tomaron Kabul en agosto de 2021, la Dirección General de Inteligencia (GDI) reemplazó a la antigua Dirección Nacional de Seguridad (NDS), creada y financiada por la CIA. La GDI persigue a ex funcionarios, periodistas, mujeres activistas y al Estado Islámico Provincia de Jorasán (ISKP), el principal rival armado del régimen.",
+    "Afganistán es una zona de operaciones abierta: EE.UU. mató en Kabul en julio de 2022 al jefe de Al Qaeda, Ayman al-Zawahiri, en una casa vinculada a la red Haqqani, que ocupa ministerios clave. Pakistán acusa a los talibanes de proteger al Tehrik-e-Taliban Pakistan (TTP) y bombardeó Kabul en octubre de 2025.",
+    "Rusia reconoció al gobierno talibán en julio de 2025 y China, Irán y Pakistán mantienen embajadas. La misión de la ONU documentó detenciones arbitrarias, torturas y ejecuciones de ex miembros de las fuerzas de seguridad del gobierno anterior."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Toma de Kabul", v: "15 de agosto de 2021", n: "fin de la república" },
+    { l: "Zawahiri muerto en Kabul", v: "31 de julio de 2022", n: "ataque con dron de EE.UU." },
+    { l: "Reconocimiento de Rusia", v: "Julio de 2025", n: "primer país en reconocer al Emirato" },
+    { l: "Bombardeo pakistaní", v: "Octubre de 2025", n: "en Kabul, contra el TTP según Islamabad" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 3, senales: 1, ciber: 1, imagenes: 1, encubierta: 2, contra: 2 },
+  powerWhy: {
+    humana: "Redes tribales y religiosas en todo el país y en las zonas fronterizas con Pakistán.",
+    senales: "Capacidad técnica mínima tras la salida de EE.UU.",
+    ciber: "Capacidad mínima; vigilancia básica de redes sociales.",
+    imagenes: "Sin capacidades propias.",
+    encubierta: "Refugio a grupos armados extranjeros, según la ONU.",
+    contra: "Combate al ISKP con éxito parcial; potencias extranjeras operan en su territorio."
+  },
+  priorities: [
+    { h: "ISKP", x: "El Estado Islámico Provincia de Jorasán." },
+    { h: "Opositores", x: "Ex funcionarios, el Frente de Resistencia Nacional y mujeres activistas." },
+    { h: "Pakistán", x: "Frontera y conflicto por el TTP." },
+    { h: "Reconocimiento", x: "Relaciones con Rusia, China e Irán." },
+    { h: "Control social", x: "Aplicación de las normas del Emirato." }
+  ],
+  focos: ["ISKP", "Pakistán", "Resistencia", "Irán", "Asia Central"],
+  bodies: {
+    "Emir": { since: 2021, how: "Liderazgo del Emirato Islámico encabezado por Haibatullah Akhundzada, que concentra las decisiones desde Kandahar.", staff: "No aplica.", budget: "No aplica.", tech: [], where: ["Kandahar", "Kabul"] },
+    "GDI": { since: 2021, how: "Dirección General de Inteligencia: reemplazó a la NDS. Persigue al ISKP y a opositores y detiene a periodistas.", staff: "No se publica.", budget: "Secreto.", tech: [], where: ["Kabul", "Todo el país"] },
+    "Defensa": { since: 2021, how: "Inteligencia del Ministerio de Defensa del Emirato.", staff: "No se publica.", budget: "Secreto.", tech: [], where: ["Kabul"] },
+    "Interior": { since: 2021, how: "Ministerio del Interior, a cargo de Sirajuddin Haqqani, jefe de la red Haqqani buscado por EE.UU.", staff: "No se publica.", budget: "Secreto.", tech: [], where: ["Kabul"] }
+  },
+  civil: [
+    "No hay gobierno civil independiente: los servicios responden al emir.",
+    "La red Haqqani controla el Ministerio del Interior.",
+    "No hay control judicial ni parlamentario."
+  ],
+  law: {
+    domestic: [
+      "El Emirato aplica su interpretación de la ley islámica por decretos del emir.",
+      "La ley de virtud y vicio de 2024 regula la vida pública y la vestimenta.",
+      "No existen garantías de debido proceso, según la ONU."
+    ],
+    foreign: [
+      "No hay normas públicas sobre operaciones en el exterior."
+    ],
+    oversight: [
+      "No existe un órgano de control."
+    ]
+  },
+  rights: [
+    { d: "2021-08", dir: "amplia", area: "Debido proceso", h: "Toma talibán", x: "Se disuelve la república y la NDS; la GDI ocupa su lugar." },
+    { d: "2024-08", dir: "amplia", area: "Expresión", h: "Ley de virtud y vicio", x: "Restringe la voz y la presencia de las mujeres en público." }
+  ],
+  events: [
+    { d: "2021-08-26", lat: 34.56, lon: 69.21, c: "Afghanistan", t: "contra", ev: 1, h: "Atentado en el aeropuerto de Kabul", x: "El ISKP mata a unos 170 afganos y 13 soldados de EE.UU. durante la evacuación.", u: "https://en.wikipedia.org/wiki/2021_Kabul_airport_attack", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2022-07-31", lat: 34.53, lon: 69.17, c: "Afghanistan", t: "encubierta", ev: 1, h: "Muerte de Zawahiri", x: "Un dron de la CIA mata al jefe de Al Qaeda en una casa de Kabul vinculada a la red Haqqani.", u: "https://en.wikipedia.org/wiki/Killing_of_Ayman_al-Zawahiri", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2025-10-09", lat: 34.52, lon: 69.18, c: "Afghanistan", t: "encubierta", ev: 2, h: "Bombardeo pakistaní en Kabul", x: "Pakistán ataca en Kabul a dirigentes del TTP, según Islamabad; siguen combates fronterizos.", u: "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93Pakistan_relations", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  interest: {
+    "Pakistan": 3, "Iran": 2, "Tajikistan": 2, "Uzbekistan": 1, "Turkmenistan": 1, "China": 1, "Russia": 1, "India": 1
+  },
+  timeline: [
+    { era: "República", d: "2002", h: "Nace la NDS", x: "Servicio creado y financiado por la CIA." },
+    { era: "", d: "2018–2021", h: "Unidades Cero", x: "Fuerzas especiales de la NDS acusadas de matar civiles en redadas." },
+    { era: "Emirato", d: "2021", h: "Toma de Kabul", x: "La GDI reemplaza a la NDS." },
+    { era: "", d: "2022", h: "Zawahiri", x: "El jefe de Al Qaeda muere en Kabul." },
+    { era: "Actual", d: "2025–2026", h: "Reconocimiento ruso y choque con Pakistán", x: "Rusia reconoce al Emirato y Pakistán bombardea Kabul.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2021–2025", h: "Represalias contra ex funcionarios", x: "La misión de la ONU documentó cientos de detenciones arbitrarias, torturas y ejecuciones de ex miembros de las fuerzas de seguridad, pese a la amnistía anunciada por los talibanes.", who: "Misión de Asistencia de la ONU en Afganistán (UNAMA)", missing: "", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: false, d: "2022", h: "Zawahiri en Kabul", x: "El jefe de Al Qaeda vivía en una casa de Kabul vinculada a colaboradores de Sirajuddin Haqqani cuando un dron de EE.UU. lo mató. EE.UU. acusó a los talibanes de violar el acuerdo de Doha.", who: "Gobierno de EE.UU.", missing: "", u: "https://en.wikipedia.org/wiki/Killing_of_Ayman_al-Zawahiri", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "2018–2021", h: "Las Unidades Cero de la NDS", x: "Human Rights Watch documentó que unidades especiales entrenadas por la CIA mataron civiles en redadas nocturnas. Fue el servicio anterior a los talibanes.", who: "Human Rights Watch", missing: "Investigaciones judiciales.", u: "https://en.wikipedia.org/wiki/National_Directorate_of_Security", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "2021-08", ev: 1, w: 3, h: "El colapso de la república", x: "La NDS y los servicios occidentales no anticiparon la caída de Kabul en días.", why: "No está en duda; lo admitieron EE.UU. y ex funcionarios afganos.", wx: "Informes oficiales de EE.UU.", who: "Gobierno de EE.UU.", u: "https://en.wikipedia.org/wiki/Fall_of_Kabul_(2021)", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "El Emirato tiene pocas embajadas reconocidas; usa enviados en Doha, Moscú, Pekín e Islamabad.",
+    campo: "Redes de informantes en mezquitas, aldeas y mercados.",
+    oficina: "Las decisiones se concentran en el emir y su círculo de Kandahar.",
+    reclutamiento: "Combatientes talibanes y miembros de la red Haqqani.",
+    tecnica: "Capacidades mínimas heredadas de la NDS.",
+    enlaces: "Contactos con Pakistán, Catar, Rusia, China e Irán; la ONU señala vínculos con Al Qaeda."
+  },
+  insiders: [
+    { k: "desertor", dir: "sale", ev: 1, d: "2021", n: "Ex agentes de la NDS", h: "Los espías de la república", x: "Miles de ex oficiales de la NDS huyeron o se escondieron; algunos fueron evacuados por EE.UU.", cargo: "Oficiales de la NDS", hacia: "EE.UU. y otros países", fin: "Varios fueron asesinados en Afganistán, según la ONU.", who: "UNAMA y prensa", u: "https://en.wikipedia.org/wiki/National_Directorate_of_Security", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "accidental", rol: "blanco", ev: 1, d: "2022-02", h: "La lista de afganos colaboradores", x: "Un error del Ministerio de Defensa británico expuso datos de miles de afganos que trabajaron con el Reino Unido.", obj: "No intencional; expuso a personas a represalias.", who: "Gobierno del Reino Unido", u: "https://en.wikipedia.org/wiki/Afghan_data_leak", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  practicas: {
+    propios: { ev: 1, x: "La GDI detiene a miembros del propio régimen acusados de deslealtad.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 1, x: "Ex funcionarios fueron detenidos y ejecutados, según la ONU.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
+    periodistas: { ev: 1, x: "La GDI detuvo a periodistas afganos y extranjeros.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
+    activistas: { ev: 1, x: "Mujeres activistas fueron detenidas y desaparecidas.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 1, x: "El ISKP es el blanco principal de la GDI.", u: "https://en.wikipedia.org/wiki/Islamic_State_%E2%80%93_Khorasan_Province", st: "Wikipedia (síntesis de fuentes)" },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 1, x: "Ejecuciones extrajudiciales de ex miembros de las fuerzas de seguridad, según la ONU.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 1, x: "La ONU documentó torturas en centros de detención de la GDI.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
+    secuestro: { ev: 1, x: "Desapariciones forzadas de opositores y activistas.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
+    propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    conflictos: { ev: 2, x: "Pakistán acusa al Emirato de proteger al TTP, que ataca en su territorio.", u: "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93Pakistan_relations", st: "Wikipedia (síntesis de fuentes)" },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    partidos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 1, x: "La GDI persigue a chiitas y salafistas sospechados de vínculos con el ISKP.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
+    armas: { ev: 2, x: "Armas abandonadas por EE.UU. circulan entre grupos de la región, según la ONU y Pakistán.", u: "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93Pakistan_relations", st: "Wikipedia (síntesis de fuentes)" },
+    inteligencia: { ev: 2, x: "Intercambia información con Rusia y China sobre el ISKP, según la prensa.", u: "https://en.wikipedia.org/wiki/Islamic_State_%E2%80%93_Khorasan_Province", st: "Wikipedia (síntesis de fuentes)" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "El presupuesto de la GDI es secreto.",
+    uso: "Lucha contra el ISKP y control interno.",
+    ingresos: "Aduanas, impuestos y comercio; la red Haqqani tiene negocios propios, según la ONU.",
+    empresas: "Esta ficha no encontró empresas de fachada documentadas.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "El tráfico de drogas cayó tras la prohibición del opio en 2022, según la ONU.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
+  },
+  fondos: [
+    { k: "presupuesto", rol: "blanco", ev: 1, d: "2002–2021", h: "La NDS financiada por la CIA", x: "El servicio de la república dependió de fondos estadounidenses durante dos décadas.", obj: "Combatir a los talibanes y a Al Qaeda.", who: "Gobierno de EE.UU. y prensa", u: "https://en.wikipedia.org/wiki/National_Directorate_of_Security", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "Ariana Afghan Airlines", c: "nacional", rubro: "Aviación", rel: "Estatal", x: "Aerolínea estatal bajo control talibán desde 2021." }
+  ],
+  struggles: [
+    { a: "Kandahar (emir)", b: "Red Haqqani", k: "Interna", stake: "El poder dentro del Emirato", state: "Latente", x: "Diferencias entre el círculo del emir y los Haqqani, según la prensa." },
+    { a: "Emirato", b: "Pakistán", k: "Con otros Estados", stake: "El TTP y la frontera", state: "Abierta", x: "Combates fronterizos y bombardeos desde 2025." }
+  ],
+  sources: [
+    { t: "Wikipedia: Killing of Ayman al-Zawahiri", u: "https://en.wikipedia.org/wiki/Killing_of_Ayman_al-Zawahiri" },
+    { t: "Wikipedia: Human rights in Afghanistan", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan" },
+    { t: "Wikipedia: National Directorate of Security", u: "https://en.wikipedia.org/wiki/National_Directorate_of_Security" },
+    { t: "Wikipedia: Afghanistan–Pakistan relations", u: "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93Pakistan_relations" }
   ]
- },
- "rights": [
-  {
-   "d": "1951",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1962",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1971",
-   "dir": "recorta",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1975",
-   "dir": "amplia",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1984",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1993",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2004",
-   "dir": "recorta",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2009",
-   "dir": "amplia",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2019",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  }
- ],
- "events": [
-  {
-   "d": "1961-07-21",
-   "lat": 2.77,
-   "lon": -73.53,
-   "t": "ciber",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1964-06-23",
-   "lat": 27.54,
-   "lon": -124.17,
-   "t": "contra",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1972-09-18",
-   "lat": -28.57,
-   "lon": -37.03,
-   "t": "encubierta",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1973-04-13",
-   "lat": 32.82,
-   "lon": 67.46,
-   "t": "sabotaje",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1979-06-13",
-   "lat": 36.11,
-   "lon": 72.47,
-   "t": "sabotaje",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1985-05-06",
-   "lat": 36.19,
-   "lon": 67.89,
-   "t": "ciber",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1988-01-10",
-   "lat": 31.7,
-   "lon": 17.85,
-   "t": "humana",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1992-11-08",
-   "lat": 36.04,
-   "lon": 73.11,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1999-08-21",
-   "lat": 38.24,
-   "lon": 71.02,
-   "t": "ciber",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2004-10-24",
-   "lat": 33.69,
-   "lon": 64.87,
-   "t": "senales",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2006-07-23",
-   "lat": 39.87,
-   "lon": 107.79,
-   "t": "senales",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2011-06-23",
-   "lat": 31.09,
-   "lon": 65.58,
-   "t": "contra",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2017-11-04",
-   "lat": 34.22,
-   "lon": 74.11,
-   "t": "senales",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2021-08-27",
-   "lat": 15.88,
-   "lon": 124.53,
-   "t": "sabotaje",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  }
- ],
- "interest": {
-  "United States of America": 2,
-  "Iran": 1,
-  "Israel": 2,
-  "Ukraine": 1,
-  "Pakistan": 2,
-  "Mexico": 1,
-  "Argentina": 2,
-  "Japan": 3,
-  "South Korea": 3,
-  "North Korea": 2,
-  "Libya": 1,
-  "Sudan": 2,
-  "Mali": 1,
-  "Serbia": 1,
-  "Indonesia": 2,
-  "Philippines": 3,
-  "Vietnam": 1
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "2015",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1967",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2019",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "1961",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1976",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1968",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
