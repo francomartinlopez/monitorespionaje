@@ -155,6 +155,9 @@
     { a: "Gobierno de Sánchez", b: "Partidos independentistas", k: "Con la política", stake: "El Catalangate", state: "Latente", x: "Los socios catalanes del gobierno exigen la verdad sobre el espionaje." },
     { a: "PSOE", b: "Partido Popular", k: "Con la política", stake: "La operación Kitchen", state: "Abierta", x: "El juicio expuso el uso político de la policía por el gobierno anterior." }
   ],
+  proxies: [
+    {"id": "gal", "s": "GAL", "n": "Grupos Antiterroristas de Liberación (GAL)", "k": "armado", "d": "1983–1987", "rol": "usa", "hoy": false, "ev": 1, "x": "Escuadrones que mataron a 27 personas en la lucha contra ETA; la justicia condenó a un ministro y a altos cargos.", "who": "Tribunal Supremo de España", "u": "https://en.wikipedia.org/wiki/Grupos_Antiterroristas_de_Liberaci%C3%B3n", "st": "Wikipedia: Grupos Antiterroristas de Liberación"}
+  ],
   sources: [
     { t: "Ara: el CNI reconoce el espionaje a ex diputados de la CUP (2026)", u: "https://en.ara.cat/politics/the-cni-admits-that-it-spied-carles-riera-and-david-fernandez-with-pegasus_1_5797167.html" },
     { t: "Ara: se archiva la causa por el teléfono de Sánchez (2026)", u: "https://es.ara.cat/politica/justicia-no-investigara-espionaje-pedro-sanchez-pegasus-obstruccion-israel_1_5625719.amp.html" },

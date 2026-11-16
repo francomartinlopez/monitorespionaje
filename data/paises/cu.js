@@ -160,6 +160,9 @@
     { a: "Cuba", b: "EE.UU.", k: "Con otros Estados", stake: "La supervivencia del régimen", state: "Abierta", x: "En 2026 hubo corte de petróleo, sanciones, la acusación contra Raúl Castro y una visita de la CIA." },
     { a: "MININT", b: "Fuerzas Armadas", k: "Entre agencias", stake: "Poder interno", state: "Latente", x: "Tras el caso Ochoa, el Ejército de Raúl Castro tomó el control del MININT en 1989." }
   ],
+  proxies: [
+    {"id": "farc", "s": "FARC", "n": "FARC y guerrillas latinoamericanas", "k": "armado", "d": "1964–2016", "rol": "patrocina", "hoy": false, "ev": 2, "x": "Cuba entrenó y apoyó a guerrillas de la región durante la Guerra Fría y luego fue sede de las negociaciones de paz con las FARC.", "who": "Gobierno de Colombia; desertores cubanos", "u": "https://en.wikipedia.org/wiki/Revolutionary_Armed_Forces_of_Colombia", "st": "Wikipedia: Revolutionary Armed Forces of Colombia", "graf": true}
+  ],
   sources: [
     { t: "Bloomberg Línea: la visita de Ratcliffe a La Habana", u: "https://www.bloomberglinea.com/2026/05/15/detalles-de-la-visita-del-director-de-la-cia-john-ratcliffe-a-cuba-con-quien-se-reunio/" },
     { t: "Departamento de Justicia: condena de Rocha", u: "https://www.justice.gov/usao-sdfl/pr/former-us-ambassador-and-national-security-council-official-admits-secretly-acting" },

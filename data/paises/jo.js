@@ -140,6 +140,8 @@
   struggles: [
     { a: "Monarquía", b: "Hermanos Musulmanes", k: "Con la política", stake: "La oposición islamista", state: "Abierta", x: "Prohibición de la Hermandad en 2025 tras el caso de los cohetes." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Wikipedia: General Intelligence Directorate (Jordan)", u: "https://en.wikipedia.org/wiki/General_Intelligence_Directorate_(Jordan)" },
     { t: "Wikipedia: Camp Chapman attack", u: "https://en.wikipedia.org/wiki/Camp_Chapman_attack" },

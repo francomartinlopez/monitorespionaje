@@ -145,6 +145,11 @@
     { a: "Delcy Rodríguez", b: "Diosdado Cabello", k: "Interna", stake: "El control de la seguridad tras Maduro", state: "Abierta", x: "La presidenta encargada reorganizó la cúpula militar y de inteligencia." },
     { a: "Gobierno de transición", b: "EE.UU.", k: "Con otros Estados", stake: "Las condiciones de la transición", state: "Abierta", x: "Washington presiona por liberaciones y elecciones." }
   ],
+  proxies: [
+    {"id": "eln", "s": "ELN y disidencias de las FARC", "n": "ELN y disidencias de las FARC", "k": "armado", "d": "2000–", "rol": "doble", "hoy": true, "ev": 2, "x": "Colombia y EE.UU. acusan al gobierno venezolano de dar refugio al ELN y a ex FARC en su territorio.", "who": "Gobiernos de Colombia y EE.UU.", "u": "https://en.wikipedia.org/wiki/National_Liberation_Army_(Colombia)", "st": "Wikipedia: National Liberation Army (Colombia)", "graf": true},
+    {"id": "soles", "s": "Cartel de los Soles", "n": "Cartel de los Soles", "k": "crimen", "d": "1990–", "rol": "usa", "hoy": true, "ev": 3, "x": "EE.UU. acusa a jefes militares venezolanos de narcotráfico bajo ese nombre. Sus críticos dicen que no es una organización estructurada.", "who": "Departamento de Justicia de EE.UU.", "u": "https://en.wikipedia.org/wiki/Cartel_of_the_Suns", "st": "Wikipedia: Cartel of the Suns", "graf": true},
+    {"id": "tren", "s": "Tren de Aragua", "n": "Tren de Aragua", "k": "crimen", "d": "2014–", "rol": "usa", "hoy": true, "ev": 3, "x": "El gobierno de Trump lo presentó como herramienta del régimen; una evaluación de la inteligencia de EE.UU. de 2025 no halló coordinación con el gobierno.", "who": "Gobierno de EE.UU.; Consejo Nacional de Inteligencia", "u": "https://en.wikipedia.org/wiki/Tren_de_Aragua", "st": "Wikipedia: Tren de Aragua"}
+  ],
   sources: [
     { t: "Reuters: los aliados de Maduro siguen en el poder (2026)", u: "https://www.thestar.com.my/news/world/2026/01/04/maduro-is-out-but-it039s-unclear-who-is-running-venezuela" },
     { t: "Al Jazeera: por qué los venezolanos siguen temiendo al gobierno", u: "https://www.aljazeera.com/features/2026/1/8/maduros-gone-why-are-venezuelans-still-afraid-of-the-government" },

@@ -190,6 +190,10 @@
     { a: "Servicios", b: "Justicia federal", k: "Con otros poderes", stake: "Influencia sobre causas judiciales", state: "Histórica", x: "Durante décadas la SIDE mantuvo vínculos con juzgados federales; la salida de Antonio Stiuso en 2014 expuso esa relación." },
     { a: "SIDE", b: "Periodistas y organizaciones civiles", k: "Con la sociedad civil", stake: "Vigilancia interna", state: "Abierta", x: "La filtración del Plan de Inteligencia Nacional y el DNU 941/2025 generaron denuncias penales y pedidos de explicaciones en el Congreso." }
   ],
+  proxies: [
+    {"id": "aaa", "s": "Triple A", "n": "Alianza Anticomunista Argentina (Triple A)", "k": "armado", "d": "1973–1976", "rol": "usa", "hoy": false, "ev": 1, "x": "Grupo parapolicial organizado desde el Ministerio de Bienestar Social que asesinó a cientos de opositores; la justicia lo declaró crimen de lesa humanidad.", "who": "Justicia federal argentina", "u": "https://en.wikipedia.org/wiki/Argentine_Anticommunist_Alliance", "st": "Wikipedia: Argentine Anticommunist Alliance"},
+    {"id": "contras", "graf": true, "s": "Contras", "n": "Contras y fuerzas centroamericanas", "k": "armado", "d": "1979–1984", "rol": "patrocina", "hoy": false, "ev": 1, "x": "El Batallón de Inteligencia 601 entrenó a los Contras y a fuerzas de Honduras y El Salvador, en parte con EE.UU.", "who": "Documentos desclasificados; investigaciones judiciales", "u": "https://en.wikipedia.org/wiki/Operation_Charly", "st": "Wikipedia: Operation Charly"}
+  ],
   sources: [
     { t: "Chequeado: de la AFI a la SIDE, qué cambió Milei en el sistema de inteligencia", u: "https://chequeado.com/el-explicador/de-la-afi-a-la-side-de-santiago-caputo-que-cambio-milei-en-el-sistema-de-inteligencia/" },
     { t: "Chequeado: el presupuesto de la SIDE en 2026", u: "https://chequeado.com/el-explicador/el-gobierno-volvio-a-aumentar-el-presupuesto-de-la-side-sumo-mas-de-30-mil-millones-y-ya-recibio-casi-80-mil-millones-extra-en-los-ultimos-50-dias/" },

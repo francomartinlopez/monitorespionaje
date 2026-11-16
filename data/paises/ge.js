@@ -142,6 +142,8 @@
     { a: "Sueño Georgiano", b: "Oposición y sociedad civil", k: "Con la política", stake: "El rumbo europeo y las libertades", state: "Abierta", x: "Protestas masivas desde 2024 y detenciones de opositores." },
     { a: "Gobierno", b: "Ex subjefe del SSG", k: "Interna", stake: "Secretos del servicio", state: "Abierta", x: "El ex funcionario detenido amenazó con revelar abusos del gobierno." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "OCCRP: los archivos del SSG", u: "https://www.occrp.org/en/daily/15182-files-show-georgian-security-service-spied-on-diplomats-journalists-clerics" },
     { t: "Georgia Today: la filtración que sacudió al país", u: "https://georgiatoday.ge/the-clergy-diplomat-surveillance-leak-that-shook-the-country/" },

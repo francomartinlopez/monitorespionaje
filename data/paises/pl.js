@@ -155,6 +155,8 @@
     { a: "Gobierno de Tusk", b: "Ley y Justicia (PiS)", k: "Con la política", stake: "Pegasus y el control de los servicios", state: "Abierta", x: "Acusaciones a ex jefes de los servicios y a Ziobro, asilado en Hungría." },
     { a: "Gobierno", b: "CBA", k: "Entre agencias", stake: "La disolución de la oficina anticorrupción", state: "Abierta", x: "El gobierno quiere disolverla por su papel político." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Al Jazeera: acusan a ex jefes de inteligencia por Pegasus (2026)", u: "https://www.aljazeera.com/news/2026/2/25/poland-charges-ex-intel-chiefs-for-using-israels-pegasus-spyware" },
     { t: "Reuters: el sabotaje ferroviario", u: "https://www.thestar.com.my/news/world/2025/11/18/polish-pm-says-two-responsible-for-railway-blast-worked-for-russian-intelligence" },

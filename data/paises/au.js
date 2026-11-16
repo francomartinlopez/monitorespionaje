@@ -156,6 +156,8 @@
     { a: "ASIO", b: "Comunidad judía y oposición", k: "Con la política", stake: "La respuesta al antisemitismo", state: "Abierta", x: "Críticos acusan a las agencias de no anticipar el ataque de Bondi; la ASIO defiende su asignación de recursos." },
     { a: "Gobierno", b: "Periodistas y denunciantes", k: "Con otros poderes", stake: "El secreto y la libertad de prensa", state: "Latente", x: "Juicios a denunciantes y allanamientos a medios generan debate sobre las leyes de seguridad." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "SBS News: la ASIO revela quién coordinó los incendios (2026)", u: "https://www.sbs.com.au/news/article/asio-boss-reveals-australian-residents-link-to-synagogue-plot-fears-killing-on-home-soil/elq4mvtsp" },
     { t: "The Nightly: evaluación anual de amenazas (2026)", u: "https://thenightly.com.au/politics/asio-identifies-antisemitic-bombings-as-iranian-regime-arson-foreign-coercion-in-annual-threat-assessment-c-22478862" },

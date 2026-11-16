@@ -170,6 +170,9 @@
     { a: "Zelenski", b: "Budanov", k: "Con la política", stake: "Influencia y futuro electoral", state: "Latente", x: "Según el OSW, el SBU podría estar conteniendo la popularidad del ex jefe de la GUR." },
     { a: "Ucrania", b: "Alemania", k: "Con otros Estados", stake: "Juicio por el Nord Stream", state: "Abierta", x: "El juicio en Hamburgo pone a prueba la relación entre Berlín y Kiev." }
   ],
+  proxies: [
+    {"id": "rdk", "s": "Cuerpo de Voluntarios Rusos", "n": "Cuerpo de Voluntarios Rusos y Legión Libertad de Rusia", "k": "armado", "d": "2022–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Unidades de rusos opuestos al Kremlin que actúan bajo la inteligencia militar ucraniana (HUR) en incursiones a Rusia.", "who": "Gobierno de Ucrania (HUR)", "u": "https://en.wikipedia.org/wiki/Russian_Volunteer_Corps", "st": "Wikipedia: Russian Volunteer Corps"}
+  ],
   sources: [
     { t: "Euronews: renuncia de Maliuk y nuevos jefes", u: "https://www.euronews.com/2026/01/05/ukraines-security-service-chief-resigns-amid-zelenskyys-kyiv-reshuffle" },
         { t: "NV: Umerov al frente del SZRU", u: "https://english.nv.ua/nation/zelenskyy-appoints-rustem-umerov-as-ukraine-s-foreign-intelligence-chief-50629464.html" },

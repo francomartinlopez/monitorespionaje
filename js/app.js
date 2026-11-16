@@ -208,7 +208,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   }
 
   // ================= FICHA DE PAÍS =================
-  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Fallas, omisiones y falsas banderas"], ["practicas", "Qué hacen y a quién espían"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["dinero", "Dinero y coberturas"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
+  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Fallas, omisiones y falsas banderas"], ["practicas", "Qué hacen y a quién espían"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["dinero", "Dinero y coberturas"], ["proxies", "Organizaciones proxy"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
 
   function renderCountry(p) {
     const f = FICHAS[p.id];
@@ -307,6 +307,10 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
         <div class="fl-list" id="fdList"></div>
       </section>
 
+      <section class="block" id="sec-proxies">
+        <h2>Organizaciones proxy <small>Grupos armados, organizaciones terroristas, carteles y mafias, empresas, ONG, medios, instituciones y centros académicos que el servicio creó, financió o usó, hoy o en el pasado. A veces cambiaron de bando o jugaron a dos puntas</small></h2>
+        ${proxyList(f)}
+      </section>
       <section class="block" id="sec-relaciones">
         <h2>Relaciones <small>Con otros servicios y con empresas nacionales y extranjeras</small></h2>
         ${relCols(p)}
@@ -418,6 +422,16 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     draw();
   }
 
+  const PX_K = window.PROXY_TIPOS, PX_ROL = window.PROXY_ROLES;
+  function proxyList(f) {
+    const L = (f.proxies || []).slice().sort((a, b) => (b.hoy - a.hoy) || String(a.d).localeCompare(String(b.d)));
+    if (!L.length) return `<p class="muted">Esta ficha no encontró organizaciones proxy documentadas.</p>`;
+    return `<div class="fl-list">${L.map(x => { const K = PX_K[x.k], R = PX_ROL[x.rol], E = EVI[x.ev];
+      return `<article class="fl" style="--k:${K.c};--c:${E.c}"><div class="fl-d">${esc(x.d)}</div><div class="fl-b">
+        <div class="meta"><span class="kind">${esc(K.n)}</span><span class="evtag" style="--c:${R.c}">${esc(R.n)}</span><span class="evtag" style="--c:${E.c}">${E.n}</span>${x.hoy ? `<span class="evtag" style="--c:var(--red)">Activo</span>` : ""}</div>
+        <h4>${esc(x.n)}</h4><p>${esc(x.x)}</p>
+        <dl><dt>Lo afirma</dt><dd>${esc(x.who)}</dd><dt>Fuente</dt><dd><a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.st)}</a></dd></dl></div></article>`; }).join("")}</div>`;
+  }
   const FL_KIND = { falla: { n: "Falla de inteligencia", c: "var(--cyan)" }, omision: { n: "Omisión o encubrimiento", c: "var(--amber)" }, falsa: { n: "Falsa bandera", c: "var(--violet)" } };
   const FL_WEIGHT = { 3: "Abundante", 2: "Parcial", 1: "Escasa" };
   function drawFailures(f) {

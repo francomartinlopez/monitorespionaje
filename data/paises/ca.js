@@ -156,6 +156,8 @@
     { a: "CSIS", b: "RCMP", k: "Entre agencias", stake: "La versión sobre la injerencia india", state: "Abierta", x: "La prensa canadiense describió narrativas distintas de las dos agencias sobre India." },
     { a: "Gobierno", b: "Oposición conservadora", k: "Con la política", stake: "La respuesta a la injerencia china", state: "Latente", x: "La oposición acusó a los liberales de demorar el registro de agentes extranjeros." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "CP24: el registro de influencia extranjera (2026)", u: "https://www.cp24.com/news/canada/2026/07/03/long-delayed-foreign-influence-registry-coming-in-august/" },
     { t: "Comité de la Cámara de los Comunes: injerencia extranjera (2026)", u: "https://openparliament.ca/committees/house-affairs/45-1/20/" },

@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-16 · Nueva sección "Organizaciones proxy" en las 57 fichas: 79 casos en 34 países (grupos armados, terroristas, carteles y mafias, empresas, ONG, instituciones y centros académicos), con papel, vigencia, evidencia y fuente. "Quién manda" suma un nivel 5 de proxies y muestra el nombre de todos los países.
+
 - 2026-11-16 · Nuevo esquema "Quién manda" (#poder): jerarquía de autonomía entre los 57 servicios, dependencias, alianzas y quién manda dentro de EE.UU., China, Rusia, Israel, Reino Unido y Francia.
 - 2026-11-16 · Nuevo tipo "Omisión o encubrimiento" en fallas; se reclasifican once casos (11-S, 7 de octubre, AMIA, Manchester, Anis Amri, Crocus, Bombay, Ayotzinapa, Ripoll, Merah, golpe en Turquía) y se suma la voladura de Río Tercero.
 - 2026-11-16 · Nueva práctica "Infraestructura civil como plataforma" en las 57 fichas (Crypto AG, Tempora, buscapersonas de Hezbollah, Neuquén, Eagle S). Israel suma el caso AIPAC (2005) y la denuncia sobre Epstein (evidencia 3); EE.UU., la influencia de AIPAC en el Congreso; China, la presión sobre la diáspora y la comisaría no oficial de Buenos Aires.

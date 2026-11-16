@@ -139,6 +139,8 @@
   struggles: [
     { a: "Tokáyev", b: "Clan Nazarbáyev", k: "Interna", stake: "El control del Estado y los servicios", state: "Latente", x: "Tras 2022 Tokáyev desplazó a la familia y aliados del ex presidente." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Wikipedia: 2022 Kazakh unrest", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest" },
     { t: "Wikipedia: Karim Massimov", u: "https://en.wikipedia.org/wiki/Karim_Massimov" },

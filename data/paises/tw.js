@@ -165,6 +165,9 @@
     { a: "Gobierno de Lai Ching-te", b: "Kuomintang en el Parlamento", k: "Con la política", stake: "El presupuesto de seguridad y la respuesta a China", state: "Abierta", x: "La mayoría opositora recortó partidas y cuestiona el uso político de las causas de espionaje." },
     { a: "Fiscalía", b: "Tribunales de apelación", k: "Con otros poderes", stake: "Las penas por espionaje", state: "Latente", x: "Los tribunales superiores redujeron varias condenas, lo que el gobierno quiere evitar con reformas." }
   ],
+  proxies: [
+    {"id": "bambu", "s": "Bambú Unido", "n": "Banda Bambú Unido", "k": "crimen", "d": "1984", "rol": "usa", "hoy": false, "ev": 1, "x": "La inteligencia militar taiwanesa encargó a esta banda el asesinato del escritor Henry Liu en California.", "who": "Tribunales de Taiwán y EE.UU.", "u": "https://en.wikipedia.org/wiki/Henry_Liu", "st": "Wikipedia: Henry Liu"}
+  ],
   sources: [
     { t: "Taipei Times: informe de la NSB sobre espionaje chino (2026)", u: "https://www.taipeitimes.com/News/taiwan/archives/2026/10/21/2003866346" },
     { t: "Focus Taiwan: condena a ex miembros del PDP (2025)", u: "https://focustaiwan.tw/society/202509250011" },

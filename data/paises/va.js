@@ -170,6 +170,9 @@
     { a: "Santa Sede", b: "China", k: "Con otros Estados", stake: "Nombramiento de obispos", state: "Latente", x: "Un acuerdo provisional rige desde 2018, mientras el Vaticano denunció hackeos y presiones." },
     { a: "León XIV", b: "Gobierno de EE.UU.", k: "Con otros Estados", stake: "Política exterior y moral", state: "Abierta", x: "Trump criticó al papa en 2026 y se denunció un aumento del espionaje estadounidense." }
   ],
+  proxies: [
+    {"id": "ambrosiano", "s": "Banco Ambrosiano", "n": "Banco Ambrosiano e IOR", "k": "empresa", "d": "1970–1982", "rol": "doble", "hoy": false, "ev": 2, "x": "El banco del Vaticano estaba ligado al Ambrosiano, cuya quiebra destapó lazos con la P2 y la mafia; se lo acusó de financiar a Solidaridad en Polonia.", "who": "Justicia italiana; prensa", "u": "https://en.wikipedia.org/wiki/Banco_Ambrosiano", "st": "Wikipedia: Banco Ambrosiano"}
+  ],
   sources: [
     { t: "Santa Sede: discurso de León XIV a los servicios italianos (diciembre de 2025)", u: "https://www.vatican.va/content/leo-xiv/en/speeches/2025/december/documents/20251212-intelligence-italiana.html" },
     { t: "Catholic World Report: el papa advierte sobre los servicios", u: "https://www.catholicworldreport.com/?p=399183" },

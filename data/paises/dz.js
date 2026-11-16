@@ -140,6 +140,9 @@
   struggles: [
     { a: "Presidencia", b: "Ejército y servicios", k: "Interna", stake: "El reparto del poder", state: "Latente", x: "La disolución del DRS y las purgas reflejan la pugna entre clanes." }
   ],
+  proxies: [
+    {"id": "polisario", "s": "Frente Polisario", "n": "Frente Polisario", "k": "armado", "d": "1975–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Argelia aloja y sostiene al Frente Polisario en Tinduf.", "who": "Gobierno de Argelia; ONU", "u": "https://en.wikipedia.org/wiki/Polisario_Front", "st": "Wikipedia: Polisario Front"}
+  ],
   sources: [
     { t: "Wikipedia: Mohamed Mediène", u: "https://en.wikipedia.org/wiki/Mohamed_Medi%C3%A8ne" },
     { t: "Wikipedia: Algeria–France relations", u: "https://en.wikipedia.org/wiki/Algeria%E2%80%93France_relations" },

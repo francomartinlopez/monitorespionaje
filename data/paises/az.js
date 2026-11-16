@@ -141,6 +141,8 @@
   struggles: [
     { a: "Azerbaiyán", b: "Rusia", k: "Con otros Estados", stake: "El avión derribado y la influencia rusa", state: "Abierta", x: "Detenciones cruzadas y cierre de medios rusos desde 2025." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Wikipedia: Khadija Ismayilova", u: "https://en.wikipedia.org/wiki/Khadija_Ismayilova" },
     { t: "Wikipedia: Azerbaijani laundromat", u: "https://en.wikipedia.org/wiki/Azerbaijani_laundromat" },

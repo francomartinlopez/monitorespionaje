@@ -143,6 +143,8 @@
   struggles: [
     { a: "Gobierno de Christodoulides", b: "Oposición (AKEL)", k: "Con la política", stake: "El videogate", state: "Abierta", x: "La oposición pide transparencia y habla de posible encubrimiento." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Cyprus Mail: Black Cube detrás del video (2026)", u: "https://cyprus-mail.com/2026/04/10/israeli-private-intelligence-agency-allegedly-behind-christodoulides-corruption-video" },
     { t: "Cyprus Mail: el investigador no encuentra delitos", u: "https://cyprus-mail.com/2026/07/20/no-criminal-wrongdoing-indicated-in-videogate-investigator-says" },

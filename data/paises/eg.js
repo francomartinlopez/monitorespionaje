@@ -154,6 +154,9 @@
     { a: "GIS", b: "Ministerio del Interior", k: "Entre agencias", stake: "El control de la seguridad interna", state: "Latente", x: "Las dos estructuras compiten por expedientes y recursos desde 2011." },
     { a: "Egipto", b: "Justicia italiana", k: "Con otros poderes", stake: "El caso Regeni", state: "Abierta", x: "Roma condenó a oficiales egipcios; el gobierno italiano evita una ruptura con El Cairo." }
   ],
+  proxies: [
+    {"id": "lna", "s": "Ejército de Haftar", "n": "Ejército Nacional Libio de Jalifa Haftar", "k": "armado", "d": "2014–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Egipto apoya a Haftar en el este de Libia, según la ONU.", "who": "Panel de expertos de la ONU sobre Libia", "u": "https://en.wikipedia.org/wiki/Libyan_National_Army", "st": "Wikipedia: Libyan National Army", "graf": true}
+  ],
   sources: [
     { t: "Al Jazeera: condena en Roma por el caso Regeni (2026)", u: "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni" },
     { t: "Citizen Lab: Predator contra Ahmed Tantawy", u: "https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/" },

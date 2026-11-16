@@ -144,6 +144,8 @@
   struggles: [
     { a: "VSSE", b: "Gobierno", k: "Con la política", stake: "Los recursos del servicio", state: "Latente", x: "El servicio reclama más personal para vigilar Bruselas." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Wikipedia: State Security Service (Belgium)", u: "https://en.wikipedia.org/wiki/State_Security_Service_(Belgium)" },
     { t: "Wikipedia: Operation Socialist", u: "https://en.wikipedia.org/wiki/Operation_Socialist" },

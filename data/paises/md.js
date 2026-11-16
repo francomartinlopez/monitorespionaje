@@ -140,6 +140,8 @@
   struggles: [
     { a: "Gobierno de PAS", b: "Partidos prorrusos", k: "Con la política", stake: "El rumbo europeo", state: "Abierta", x: "La oposición acusa al gobierno de usar a los servicios; el gobierno acusa a la oposición de servir a Moscú." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "SIS: informe sobre la injerencia electoral", u: "https://sis.md/en/node/1613" },
     { t: "Gobierno de Moldavia: discurso del primer ministro (2025)", u: "https://gov.md/en/print/pdf/node/5371" },

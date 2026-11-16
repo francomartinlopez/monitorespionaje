@@ -143,6 +143,9 @@
   struggles: [
     { a: "Régimen de Lukashenko", b: "Oposición en el exilio", k: "Con la política", stake: "La legitimidad del poder", state: "Abierta", x: "La oposición encabezada por Sviatlana Tsikhanóuskaya opera desde Vilna." }
   ],
+  proxies: [
+    {"id": "traficantes", "s": "Traficantes de migrantes", "n": "Redes de tráfico de migrantes", "k": "crimen", "d": "2021–", "rol": "usa", "hoy": true, "ev": 2, "x": "La UE acusa al régimen de traer migrantes de Medio Oriente y empujarlos a la frontera con Polonia y Lituania.", "who": "Unión Europea; gobiernos de Polonia y Lituania", "u": "https://en.wikipedia.org/wiki/2021%E2%80%932022_Belarus%E2%80%93European_Union_border_crisis", "st": "Wikipedia: 2021–2022 Belarus–European Union border crisis"}
+  ],
   sources: [
     { t: "Defence24: el papel del KGB en Bielorrusia", u: "https://defence24.com/geopolitics/the-role-of-the-kgb-in-the-belarusian-power-architecture" },
     { t: "Anuario 2026: el KGB y los presos políticos", u: "https://nmn.media/yearbook/2026/en/page4.html" },

@@ -141,6 +141,8 @@
   struggles: [
     { a: "Ministerio del Interior (FPÖ, 2018)", b: "BVT", k: "Con la política", stake: "El control del servicio", state: "Cerrada", x: "El allanamiento llevó a la disolución de la BVT y a la creación de la DSN." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Reuters: condena de Egisto Ott (2026)", u: "https://www.thestar.com.my/news/world/2026/05/21/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds" },
     { t: "Brussels Signal: el mayor caso de espionaje", u: "https://brusselssignal.eu/2026/05/former-austrian-intelligence-officer-convicted-of-spying-for-russia/" },

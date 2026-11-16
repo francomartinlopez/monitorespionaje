@@ -162,6 +162,10 @@
     { a: "Riad", b: "Saad al-Jabri", k: "Interna", stake: "Secretos de los servicios", state: "Abierta", x: "Juicios cruzados en EE.UU. y Canadá." },
     { a: "Arabia Saudita", b: "Turquía", k: "Con otros Estados", stake: "El caso Khashoggi", state: "Cerrada", x: "Turquía pasó el juicio a Arabia Saudita en 2022 y las relaciones se normalizaron." }
   ],
+  proxies: [
+    {"id": "muyahidines", "s": "Muyahidines", "n": "Muyahidines afganos", "k": "armado", "d": "1979–1989", "rol": "patrocina", "hoy": false, "ev": 1, "x": "Riad igualó el dinero de la CIA para la resistencia afgana.", "who": "Comisión del 11-S", "u": "https://en.wikipedia.org/wiki/Operation_Cyclone", "st": "Wikipedia: Operation Cyclone", "graf": true},
+    {"id": "jaysh", "s": "Jaysh al-Islam", "n": "Jaysh al-Islam", "k": "armado", "d": "2013–2018", "rol": "patrocina", "hoy": false, "ev": 2, "x": "Grupo rebelde sirio salafista financiado por Arabia Saudita, según la prensa y analistas.", "who": "Prensa internacional", "u": "https://en.wikipedia.org/wiki/Jaysh_al-Islam", "st": "Wikipedia: Jaysh al-Islam"}
+  ],
   sources: [
     { t: "Wikipedia: Khalid Al Humaidan", u: "https://en.wikipedia.org/wiki/Khalid_bin_Ali_Al_Humaidan" },
     { t: "Citizen Lab: fallo británico por Pegasus (2026)", u: "https://citizenlab.ca/saudi-arabia-ordered-to-pay-3m-to-london-dissident-over-pegasus-spying/" },

@@ -156,6 +156,8 @@
     { a: "Bolsonarismo", b: "Supremo Tribunal Federal", k: "Con otros poderes", stake: "La Abin paralela y la trama golpista", state: "Abierta", x: "Condenas en 2025 y causas abiertas contra Carlos Bolsonaro." },
     { a: "Brasil", b: "Paraguay", k: "Con otros Estados", stake: "Itaipú", state: "Latente", x: "El hackeo frenó la negociación del anexo C en 2025." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "ABIN: Desafíos de Inteligencia, edición 2026", u: "https://www.gov.br/abin/pt-br/centrais-de-conteudo/publicacoes/defeso/sem-logo-de-gov_abin_desafios_2026.pdf" },
     { t: "Brasil de Fato: Ramagem y la Abin paralela", u: "https://www.brasildefato.com.br/2025/09/18/futuro-alexandre-ramagem/" },

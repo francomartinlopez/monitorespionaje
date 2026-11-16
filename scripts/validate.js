@@ -94,6 +94,15 @@ Object.entries(FICHAS).forEach(([id, f]) => {
     if (x.k === "ocultamiento" && !x.aquien) err(w, `leaks[${i}] ocultamiento sin "aquien"`);
     if (!f.sample && !isUrl(x.u)) err(w, `leaks[${i}] sin fuente (u)`);
   });
+  if (!f.sample && !Array.isArray(f.proxies)) warn(w, "ficha real sin \"proxies\" (puede ser una lista vacía)");
+  (f.proxies || []).forEach((x, i) => {
+    ["id", "s", "n", "d", "x", "who", "st"].forEach(k => { if (!x[k]) err(w, `proxies[${i}] sin ${k}`); });
+    if (!ctx.PROXY_TIPOS?.[x.k]) err(w, `proxies[${i}].k inválido`);
+    if (!ctx.PROXY_ROLES?.[x.rol]) err(w, `proxies[${i}].rol inválido`);
+    if (![1, 2, 3, 4].includes(x.ev)) err(w, `proxies[${i}].ev inválido`);
+    if (typeof x.hoy !== "boolean") err(w, `proxies[${i}].hoy debe ser true o false`);
+    if (!isUrl(x.u)) err(w, `proxies[${i}] sin fuente (u)`);
+  });
   (f.failures || []).forEach((x, i) => {
     if (!["falla", "omision", "falsa"].includes(x.k)) err(w, `failures[${i}].k inválido`);
     if (![1, 2, 3, 4].includes(x.ev)) err(w, `failures[${i}].ev inválido`);

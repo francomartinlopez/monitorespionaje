@@ -33,6 +33,7 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 - `dinero` {presupuesto, uso, ingresos, empresas, bancos, crimen, cobertura}: cómo manejan el dinero (cuánto da el Estado y cuánto se sabe, en qué se gasta, otros ingresos, empresas propias y de fachada, bancos, crimen organizado, ONG y organizaciones de cobertura). Un párrafo por aspecto; nombres en `DINERO` de `data/meta.js`.
 - `fondos` [{k: "presupuesto"|"fachada"|"banco"|"crimen"|"cobertura"|"desvio", rol: "autor"|"blanco", d, h, x, monto?, obj?, ev, who, u, st}]: casos documentados de dinero y coberturas. `rol` = si el servicio de este país lo hizo o lo sufrió.
 - `events[].disputed` = true en territorios disputados (por ejemplo Crimea), para que el validador no compare con el mapa y la capa de intensidad use `c`.
+- `proxies` [{id, s, n, k, d, rol, hoy, ev, x, who, u, st, graf?}]: organizaciones no estatales que el servicio creó, financió o usó, hoy o en el pasado. `k` ∈ armado, terrorista, crimen, empresa, ong, institucion, academia (institutos, laboratorios, universidades, centros de estudio); `rol` ∈ patrocina, usa, doble (doble juego o cambio de bando); `hoy` = sigue activo; `id` igual en todas las fichas que comparten el mismo proxy; `graf: true` sólo para los importantes, que aparecen en el nivel 5 de #poder. Lista vacía si no hay casos. Tipos y roles en `PROXY_TIPOS` y `PROXY_ROLES` de `data/meta.js`.
 - `companies` [{n, c: "nacional"|"extranjera", rubro, rel, x}].
 - `struggles` [{a, b, k, stake, state, x}]: luchas de poder (internas, entre agencias, con otros poderes, con la política y la economía).
 - `sources` [{t, u}].
@@ -42,7 +43,7 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 - `RELACIONES` en `data/relaciones.js`: [a, b, t, x, u, st]; `x` explica la clasificación.
 
 ## Secciones de Explorar (`data/explorar.js`, interfaz en `js/explorar.js`)
-- `PODER`: esquema "Quién manda" (#poder[/<id>]). `niveles` 1 polos · 2 autónomos · 3 socios integrados · 4 regionales y neutrales; `paises` {id: {n, x, dep?[ids]}} para los 57; `internos` {id: [{h, x}]}: quién manda dentro de cada potencia. El tamaño sale de `power` de la ficha.
+- `PODER`: esquema "Quién manda" (#poder[/<id>]). `niveles` 1 polos · 2 autónomos · 3 socios integrados · 4 regionales y neutrales; `paises` {id: {n, x, dep?[ids]}} para los 57; `internos` {id: [{h, x}]}: quién manda dentro de cada potencia. El nivel 5 (proxies) se arma solo con los `proxies` con `graf: true` de las fichas. El tamaño sale de `power` de la ficha.
 - `BLOQUES`: mapa general en cinco bloques (occidental, euroasiático, autónomos, neutrales, zonas abiertas). `paises` = [nombre de `data/world.js`, bloque, grado n|c|p, nota?]. Clasificación editorial; la nota explica los casos discutibles. Todo país del monitor debe tener bloque.
 - `ALIANZAS`: miembros por nombre de país de `data/world.js`. Reales.
 - `INFRA`: instalaciones de vigilancia con tipo, coordenadas `ll` [lon, lat], quién la opera y nivel de evidencia `ev`. `lab: "l"` y `dy` acomodan la etiqueta.

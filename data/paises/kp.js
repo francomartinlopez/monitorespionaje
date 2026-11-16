@@ -184,6 +184,9 @@
     { a: "Corea del Norte", b: "EE.UU., Corea del Sur y Japón", k: "Con otros Estados", stake: "Armas y sanciones", state: "Abierta", x: "Ciberrobos, espionaje militar y evasión de sanciones frente a acusaciones y sanciones." },
     { a: "Régimen", b: "Mercados y comerciantes", k: "Con la economía", stake: "Control de la economía informal", state: "Latente", x: "La Seguridad del Estado persigue a comerciantes en la frontera con China, según Daily NK." }
   ],
+  proxies: [
+    {"id": "yodogo", "s": "Ejército Rojo Japonés (Yodogo)", "n": "Facción Yodogo del Ejército Rojo Japonés", "k": "terrorista", "d": "1970–", "rol": "usa", "hoy": false, "ev": 2, "x": "Pyongyang alojó a los secuestradores del vuelo 351 y los usó, según Japón, en secuestros de ciudadanos japoneses.", "who": "Gobierno de Japón", "u": "https://en.wikipedia.org/wiki/Japan_Airlines_Flight_351", "st": "Wikipedia: Japan Airlines Flight 351"}
+  ],
   sources: [
     { t: "Korea Herald: se amplía la inteligencia exterior (julio de 2026)", u: "https://www.koreaherald.com/article/10816475" },
     { t: "Daily NK: la Seguridad del Estado pasa a llamarse Oficina Estatal de Información", u: "https://www.dailynk.com/english/north-koreas-state-security-apparatus-undergoes-generational-overhaul-after-party-congress/" },

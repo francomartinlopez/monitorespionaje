@@ -565,3 +565,9 @@ a:hover .lane-l { fill: var(--ph); }
 .pw-int { margin: 0; padding-left: 18px; }
 .pw-int li { margin: 0 0 8px; font-size: 13px; line-height: 1.45; }
 .pw-int li span { display: block; color: var(--muted); }
+.pw-n text.sm { font-size: 9.5px; }
+.pw-px { fill: none; stroke-width: 1.1; }
+.pw-p { cursor: pointer; }
+.pw-p text { fill: var(--text); font: 10px var(--f-ui, sans-serif); paint-order: stroke; stroke: #000; stroke-width: 3px; }
+.pw-p.on rect { stroke: #fff; stroke-width: 2; }
+.pw-sq { display: inline-block; width: 9px; height: 9px; background: var(--red); transform: rotate(45deg); margin-right: 6px; }

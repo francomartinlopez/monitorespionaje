@@ -147,6 +147,9 @@
   struggles: [
     { a: "Ramaphosa", b: "Facción de Zuma", k: "Con la política", stake: "El control del aparato de seguridad", state: "Abierta", x: "Fraser, aliado de Zuma, denunció al presidente; la reforma busca cerrar esa etapa." }
   ],
+  proxies: [
+    {"id": "renamo", "s": "RENAMO y UNITA", "n": "RENAMO y UNITA", "k": "armado", "d": "1975–1990", "rol": "patrocina", "hoy": false, "ev": 1, "x": "El régimen del apartheid armó a la RENAMO en Mozambique y a la UNITA en Angola.", "who": "Comisión de la Verdad y Reconciliación", "u": "https://en.wikipedia.org/wiki/RENAMO", "st": "Wikipedia: RENAMO"}
+  ],
   sources: [
     { t: "EWN: se firma la ley que divide la SSA (2025)", u: "https://ewn.co.za/2025/03/28/ramaphosa-signs-general-intelligence-laws-amendment-bill-into-law-splits-ssa-into-2-bodies" },
     { t: "SAnews: los dos nuevos servicios", u: "https://www.sanews.gov.za/node/74134" },

@@ -164,6 +164,8 @@
     { a: "NIS", b: "Policía", k: "Entre agencias", stake: "La investigación del espionaje", state: "Latente", x: "La oposición pide devolver al NIS la facultad que pasó a la policía en 2024." },
     { a: "Gobierno de Lee Jae-myung", b: "Oposición", k: "Con la política", stake: "La alianza con EE.UU.", state: "Abierta", x: "La oposición pide la renuncia del director del NIS por supuestas tensiones con Washington; el NIS lo niega." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "The Korea Herald: el NIS y la alianza con EE.UU. (2026)", u: "https://mbiz.heraldcorp.com/article/10900786" },
     { t: "The Korea Times: condena por los drones", u: "https://www.koreatimes.co.kr/southkorea/law-crime/20260612/ex-president-yoon-sentenced-to-30-yrs-in-prison-in-drone-infiltration-case" },

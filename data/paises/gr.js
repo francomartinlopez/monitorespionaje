@@ -146,6 +146,8 @@
   struggles: [
     { a: "Gobierno de Mitsotakis", b: "Oposición", k: "Con la política", stake: "El Watergate griego", state: "Abierta", x: "La oposición acusa al gobierno de un \"Estado profundo\"; el gobierno niega el uso de Predator." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Amnistía: condenas en el caso Predator (2026)", u: "https://www.amnesty.org/en/latest/news/2026/02/greece-spyware-scandal/" },
     { t: "AFP: cuatro condenados por el escándalo de espionaje", u: "https://neoskosmos.com/en/2026/02/27/news/greece/athens-court-convicts-four-over-greece-spyware-saga/" },

@@ -165,6 +165,11 @@
     { a: "Gobierno", b: "Oposición", k: "Con la política", stake: "Uso de los servicios y las agencias", state: "Abierta", x: "La oposición acusa al gobierno de espiarla y de usar las agencias en su contra." },
     { a: "Ejecutivo", b: "Corte Suprema", k: "Con otros poderes", stake: "Investigación sobre Pegasus", state: "Latente", x: "El gobierno no colaboró con el comité de la Corte." }
   ],
+  proxies: [
+    {"id": "mukti", "s": "Mukti Bahini", "n": "Mukti Bahini", "k": "armado", "d": "1971", "rol": "patrocina", "hoy": false, "ev": 1, "x": "India armó y entrenó a la guerrilla bengalí en la guerra de independencia de Bangladés.", "who": "Historiografía y gobierno indio", "u": "https://en.wikipedia.org/wiki/Mukti_Bahini", "st": "Wikipedia: Mukti Bahini"},
+    {"id": "ltte", "s": "Tigres tamiles", "n": "Tigres de Liberación del Eelam Tamil", "k": "armado", "d": "1983–1987", "rol": "doble", "hoy": false, "ev": 1, "x": "El RAW entrenó a grupos tamiles en los años ochenta; luego India los combatió y los Tigres mataron a Rajiv Gandhi en 1991.", "who": "Comisiones y gobierno indio", "u": "https://en.wikipedia.org/wiki/Liberation_Tigers_of_Tamil_Eelam", "st": "Wikipedia: Liberation Tigers of Tamil Eelam"},
+    {"id": "bishnoi", "s": "Banda de Lawrence Bishnoi", "n": "Banda de Lawrence Bishnoi", "k": "crimen", "d": "2023–", "rol": "usa", "hoy": true, "ev": 3, "x": "La policía canadiense acusó en 2024 a agentes indios de usar a esta banda contra activistas sijs; India lo niega.", "who": "Real Policía Montada de Canadá (2024)", "u": "https://en.wikipedia.org/wiki/Lawrence_Bishnoi", "st": "Wikipedia: Lawrence Bishnoi", "graf": true}
+  ],
   sources: [
     { t: "ThePrint: Parag Jain al frente de la R&AW", u: "https://theprint.in/defence/parag-jain-seasoned-intelligence-officer-with-key-role-in-op-sindoor-is-new-raw-chief/2673616" },
     { t: "The Wire: Mahesh Dixit, nuevo director de la IB", u: "https://thewire.in/government/who-is-the-new-ib-chief-mahesh-dixit" },

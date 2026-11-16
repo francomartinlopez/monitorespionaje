@@ -146,6 +146,8 @@
   struggles: [
     { a: "Dirección del SRC", b: "Personal del servicio", k: "Interna", stake: "La reestructuración", state: "Abierta", x: "Años de reformas generaron salidas y malestar; el nuevo director busca cerrarlas en 2026." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Swissinfo: la situación de seguridad empeora (2026)", u: "https://swissinfo.ch/eng/foreign-affairs/switzerlands-security-situation-has-deteriorated-further-according-to-the-src/91650054" },
     { t: "SRF: el informe sobre la sospecha de espionaje en el SRC", u: "https://www.srf.ch/news/schweiz/spionageverdacht-im-ndb-bericht-zur-russlandaffaere-entscheidende-fragen-bleiben-offen" },

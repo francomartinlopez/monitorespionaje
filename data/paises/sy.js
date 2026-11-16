@@ -145,6 +145,9 @@
     { a: "Gobierno de al-Sharaa", b: "Remanentes de Assad y minorías armadas", k: "Interna", stake: "El control del territorio", state: "Abierta", x: "Violencia en la costa y en el sur druso." },
     { a: "Siria", b: "Israel", k: "Con otros Estados", stake: "El sur del país", state: "Abierta", x: "Israel ocupa una zona tampón y bombardea." }
   ],
+  proxies: [
+    {"id": "pkk", "s": "PKK", "n": "Partido de los Trabajadores del Kurdistán (PKK)", "k": "armado", "d": "1980–1998", "rol": "patrocina", "hoy": false, "ev": 1, "x": "Damasco alojó a Abdullah Öcalan y al PKK hasta que Turquía amenazó con la guerra en 1998.", "who": "Gobiernos de Turquía y Siria (acuerdo de Adana)", "u": "https://en.wikipedia.org/wiki/Kurdistan_Workers%27_Party", "st": "Wikipedia: Kurdistan Workers' Party"}
+  ],
   sources: [
     { t: "Wikipedia: Fall of the Assad regime", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime" },
     { t: "Wikipedia: Caesar Report", u: "https://en.wikipedia.org/wiki/Caesar_Report" },

@@ -139,6 +139,8 @@
   struggles: [
     { a: "Gobierno interino", b: "Antiguo aparato de seguridad", k: "Con otros poderes", stake: "Las responsabilidades por desapariciones", state: "Abierta", x: "Juicios a oficiales de la DGFI." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "ACNUDH: informe sobre la represión de 2024", u: "https://www.ohchr.org/en/press-releases/2025/02/bangladesh-un-report-finds-brutal-systematic-repression-protests-calls-justice" },
     { t: "Wikipedia: Aynaghar", u: "https://en.wikipedia.org/wiki/Aynaghar" },

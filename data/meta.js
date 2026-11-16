@@ -118,3 +118,19 @@ window.ALERTS = [
   { level: 3, tag: "Ciberataque", date: "2026-11-02", countries: ["Rusia", "Ucrania"], target: "ua", title: "Hackean las apps de alertas aéreas de Ucrania y de Rusia", text: "La app ucraniana Alerta Aérea envió falsos avisos nucleares y químicos el 1 de noviembre; Kiev culpó a Rusia. Horas después falló la app de emergencias rusa, y Volodímir Zelenski confirmó que fue una respuesta ucraniana.", u: "https://kyivindependent.com/zelensky-confirms-ukraine-targeted-russian-emergency-alert-systems-in-retaliatory-hack/", st: "The Kyiv Independent" },
   { level: 2, tag: "Expulsión", date: "2026-10-23", countries: ["Austria", "Rusia"], target: "at", title: "Austria expulsa a cuatro diplomáticos rusos por espionaje", text: "Tres trabajaban en la embajada en Viena y uno en la misión rusa ante la OSCE. Con ellos, Austria suma 18 diplomáticos rusos expulsados desde 2020, según la prensa.", u: "https://meduza.io/en/news/2026/10/23/austria-orders-expulsion-of-four-russian-diplomats-suspected-of-spying", st: "Meduza" }
 ];
+
+// Organizaciones proxy (campo proxies de cada ficha)
+window.PROXY_TIPOS = {
+  armado: { n: "Grupo armado", c: "#ff5a5f" },
+  terrorista: { n: "Organización terrorista", c: "#d0342c" },
+  crimen: { n: "Crimen organizado", c: "#f5b83d" },
+  empresa: { n: "Empresa", c: "#4fa3ff" },
+  ong: { n: "ONG o fundación", c: "#9a8cff" },
+  institucion: { n: "Institución o medio", c: "#7fd1c7" },
+  academia: { n: "Academia, laboratorio o centro de estudios", c: "#c8b6ff" }
+};
+window.PROXY_ROLES = {
+  patrocina: { n: "Lo financia o arma", c: "#ff5a5f" },
+  usa: { n: "Lo usa o lo creó", c: "#4fa3ff" },
+  doble: { n: "Doble juego o cambio de bando", c: "#c084fc" }
+};

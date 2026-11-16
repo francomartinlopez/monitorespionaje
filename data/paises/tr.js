@@ -174,6 +174,10 @@
     { a: "MİT", b: "Oposición (CHP)", k: "Con la política", stake: "Causa contra İmamoğlu", state: "Abierta", x: "La oposición acusa al servicio de fabricar pruebas; el gobierno lo niega." },
     { a: "Turquía", b: "Alemania", k: "Con otros Estados", stake: "Espionaje en la diáspora", state: "Latente", x: "Tribunales alemanes procesan a informantes del MİT en forma recurrente." }
   ],
+  proxies: [
+    {"id": "sna", "s": "Ejército Nacional Sirio", "n": "Ejército Nacional Sirio", "k": "armado", "d": "2017–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Milicias sirias que Turquía arma y paga; enviaron combatientes a Libia y a Nagorno Karabaj, según la ONU y monitores.", "who": "Panel de la ONU; Observatorio Sirio de Derechos Humanos", "u": "https://en.wikipedia.org/wiki/Syrian_National_Army", "st": "Wikipedia: Syrian National Army", "graf": true},
+    {"id": "sadat", "s": "SADAT", "n": "SADAT", "k": "empresa", "d": "2012–", "rol": "usa", "hoy": true, "ev": 3, "x": "Empresa militar privada fundada por un ex asesor de Erdogan, acusada de entrenar milicias; la empresa lo niega.", "who": "Opositores turcos y prensa internacional", "u": "https://en.wikipedia.org/wiki/SADAT_International_Defense_Consultancy", "st": "Wikipedia: SADAT International Defense Consultancy"}
+  ],
   sources: [
     { t: "Anadolu: balance 2025 del jefe del MİT", u: "https://aa.com.tr/en/turkiye/turkish-intelligence-thwarted-threats-before-they-materialized-in-2025-says-intelligence-chief/3791450" },
     { t: "Middle East Forum: presupuesto del MİT", u: "https://www.meforum.org/mef-online/turkeys-intelligence-agency-expands-as-erdogan-centralizes-power" },

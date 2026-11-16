@@ -141,6 +141,9 @@
     { a: "Kandahar (emir)", b: "Red Haqqani", k: "Interna", stake: "El poder dentro del Emirato", state: "Latente", x: "Diferencias entre el círculo del emir y los Haqqani, según la prensa." },
     { a: "Emirato", b: "Pakistán", k: "Con otros Estados", stake: "El TTP y la frontera", state: "Abierta", x: "Combates fronterizos y bombardeos desde 2025." }
   ],
+  proxies: [
+    {"id": "alqaeda", "s": "Al Qaeda", "n": "Al Qaeda", "k": "terrorista", "d": "1996–", "rol": "doble", "hoy": true, "ev": 1, "x": "El jefe de Al Qaeda, Ayman al Zawahiri, vivía en Kabul cuando EE.UU. lo mató en 2022, pese al compromiso talibán de Doha.", "who": "Gobierno de EE.UU.; equipo de monitoreo de la ONU", "u": "https://en.wikipedia.org/wiki/Ayman_al-Zawahiri", "st": "Wikipedia: Ayman al-Zawahiri", "graf": true}
+  ],
   sources: [
     { t: "Wikipedia: Killing of Ayman al-Zawahiri", u: "https://en.wikipedia.org/wiki/Killing_of_Ayman_al-Zawahiri" },
     { t: "Wikipedia: Human rights in Afghanistan", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan" },

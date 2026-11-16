@@ -154,6 +154,9 @@
     { a: "Gobierno de Meloni", b: "Oposición y prensa", k: "Con la política", stake: "El caso Paragon", state: "Abierta", x: "La oposición acusa al gobierno de ocultar quién espió a periodistas." },
     { a: "DIS", b: "Fiscalía de Roma", k: "Con otros poderes", stake: "Documentos reservados", state: "Latente", x: "El DIS denunció la difusión de documentos de la AISI que estaban en manos de fiscales." }
   ],
+  proxies: [
+    {"id": "p2", "s": "Logia P2", "n": "Logia Propaganda Due (P2)", "k": "institucion", "d": "1970–1981", "rol": "doble", "hoy": false, "ev": 1, "x": "Logia masónica secreta que reunía a jefes de los servicios, militares y empresarios; una comisión parlamentaria la declaró una amenaza para la democracia.", "who": "Comisión parlamentaria Anselmi", "u": "https://en.wikipedia.org/wiki/Propaganda_Due", "st": "Wikipedia: Propaganda Due", "graf": true}
+  ],
   sources: [
     { t: "Il Sole 24 Ore: qué es el caso Paragon", u: "https://en.ilsole24ore.com/art/what-is-the-paragon-case-and-what-is-happening-AHhJrvBB" },
     { t: "Avvenire: la fiscalía y el teléfono de Cancellato (2026)", u: "https://www.avvenire.it/attualita/caso-paragon-la-procura-conferma-malware-su-tre-telefoni-ma-aisi-non-spio-cancellato_105412" },

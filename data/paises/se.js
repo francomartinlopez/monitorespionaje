@@ -146,6 +146,8 @@
   struggles: [
     { a: "FRA", b: "Defensores de la privacidad", k: "Con otros poderes", stake: "La interceptación de cables", state: "Latente", x: "La ley de 2008 provocó grandes protestas y un fallo europeo pidió más garantías en 2021." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Reuters: Rusia, China e Irán, principales amenazas (2026)", u: "https://theprint.in/world/russia-china-and-iran-are-main-threats-to-sweden-security-service-says/2882406" },
     { t: "Säpo: informe 2025-2026", u: "https://sakerhetspolisen.se/download/18.6d8b207419df2497fd955/1778075300407/SP_La%CC%88gesbild%20ENG_Anpassad.pdf" },

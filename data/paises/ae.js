@@ -162,6 +162,11 @@
     { a: "Emiratos", b: "Sudán (gobierno)", k: "Con otros Estados", stake: "La guerra civil sudanesa", state: "Abierta", x: "Jartum acusó a Abu Dabi ante la Corte Internacional de Justicia en 2025; la Corte se declaró incompetente." },
     { a: "Abu Dabi", b: "EE.UU.", k: "Con otros Estados", stake: "Tecnología y lealtad", state: "Latente", x: "Washington revisó los vínculos de G42 con China antes de venderle chips avanzados." }
   ],
+  proxies: [
+    {"id": "rsf", "s": "Fuerzas de Apoyo Rápido", "n": "Fuerzas de Apoyo Rápido (Sudán)", "k": "armado", "d": "2019–", "rol": "patrocina", "hoy": true, "ev": 2, "x": "Un panel de la ONU y legisladores de EE.UU. acusan a Emiratos de armar a las RSF en la guerra de Sudán; Emiratos lo niega.", "who": "Panel de expertos de la ONU; Congreso de EE.UU.", "u": "https://en.wikipedia.org/wiki/Rapid_Support_Forces", "st": "Wikipedia: Rapid Support Forces", "graf": true},
+    {"id": "stc", "s": "Consejo de Transición del Sur", "n": "Consejo de Transición del Sur (Yemen)", "k": "armado", "d": "2017–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Movimiento separatista del sur de Yemen financiado y armado por Emiratos.", "who": "Panel de expertos de la ONU", "u": "https://en.wikipedia.org/wiki/Southern_Transitional_Council", "st": "Wikipedia: Southern Transitional Council"},
+    {"id": "lna", "s": "Ejército de Haftar", "n": "Ejército Nacional Libio de Jalifa Haftar", "k": "armado", "d": "2014–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Emiratos, Egipto y Rusia apoyaron a Haftar con armas, drones y mercenarios, según la ONU.", "who": "Panel de expertos de la ONU sobre Libia", "u": "https://en.wikipedia.org/wiki/Libyan_National_Army", "st": "Wikipedia: Libyan National Army", "graf": true}
+  ],
   sources: [
     { t: "Reuters vía Axios: el Proyecto Raven", u: "https://www.axios.com/2019/01/30/nsa-spies-uae-hacking-operations" },
     { t: "The Record: multas a ex agentes de la NSA", u: "https://therecord.media/us-fines-former-nsa-employees-who-provided-hacker-for-hire-services-to-uae" },

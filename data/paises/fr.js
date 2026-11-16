@@ -191,6 +191,10 @@
     { a: "Ejecutivo", b: "Parlamento", k: "Con otros poderes", stake: "Control de los servicios", state: "Latente", x: "La delegación parlamentaria reclama más acceso a información operativa y presupuestaria." },
     { a: "Francia", b: "Rusia", k: "Con otros Estados", stake: "Influencia en África y guerra híbrida", state: "Abierta", x: "La salida francesa del Sahel y la llegada rusa llevaron la competencia a la desinformación y el espionaje." }
   ],
+  proxies: [
+    {"id": "elf", "s": "Elf Aquitaine", "n": "Elf Aquitaine", "k": "empresa", "d": "1965–2000", "rol": "usa", "hoy": false, "ev": 1, "x": "La petrolera estatal funcionó como cobertura de la inteligencia y como caja de la política africana de Francia, según el juicio del caso Elf.", "who": "Tribunales franceses (caso Elf)", "u": "https://en.wikipedia.org/wiki/Elf_Aquitaine", "st": "Wikipedia: Elf Aquitaine", "graf": true},
+    {"id": "denard", "s": "Bob Denard", "n": "Mercenarios de Bob Denard", "k": "armado", "d": "1960–1995", "rol": "usa", "hoy": false, "ev": 2, "x": "El mercenario dirigió golpes en Comoras y operaciones en África con la tolerancia o el apoyo de la inteligencia francesa, según su propio juicio.", "who": "Tribunal de París (2006)", "u": "https://en.wikipedia.org/wiki/Bob_Denard", "st": "Wikipedia: Bob Denard"}
+  ],
   sources: [
     { t: "DGSE: quiénes somos (Nicolas Lerner)", u: "https://www.dgse.gouv.fr/en/get-to-know-us/who-are-we" },
     { t: "Next: la DGSE y la ley de programación militar 2024-2030", u: "https://next.ink/237157/les-emplois-lies-au-numerique-ont-explose-de-79-a-la-dgse-en-10-ans/" },

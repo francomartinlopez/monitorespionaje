@@ -167,6 +167,11 @@
     { a: "Cúpula militar", b: "Faiz Hameed", k: "Interna", stake: "Control del servicio", state: "Cerrada", x: "El ex jefe fue condenado; el Ejército lo presenta como un caso de disciplina." },
     { a: "Pakistán", b: "Talibanes afganos", k: "Con otros Estados", stake: "Refugio del TTP", state: "Abierta", x: "Los antiguos protegidos de la ISI se volvieron rivales; en 2026 hubo ataques cruzados." }
   ],
+  proxies: [
+    {"id": "haqqani", "s": "Red Haqqani", "n": "Red Haqqani", "k": "armado", "d": "1980–", "rol": "patrocina", "hoy": true, "ev": 2, "x": "El jefe del Estado Mayor de EE.UU. la llamó en 2011 un brazo del ISI; Pakistán lo niega.", "who": "Almirante Mike Mullen (2011)", "u": "https://en.wikipedia.org/wiki/Haqqani_network", "st": "Wikipedia: Haqqani network", "graf": true},
+    {"id": "talibanes", "s": "Talibanes afganos", "n": "Talibanes afganos", "k": "armado", "d": "1994–2021", "rol": "patrocina", "hoy": false, "ev": 1, "x": "El ISI apoyó a los talibanes en su ascenso y les dio refugio durante la guerra con EE.UU.", "who": "Gobiernos de EE.UU. y Afganistán; ex funcionarios pakistaníes", "u": "https://en.wikipedia.org/wiki/Taliban", "st": "Wikipedia: Taliban", "graf": true},
+    {"id": "let", "s": "Lashkar-e-Taiba", "n": "Lashkar-e-Taiba", "k": "terrorista", "d": "1990–", "rol": "patrocina", "hoy": true, "ev": 2, "x": "Autor del ataque de Bombay en 2008; un acusado declaró en EE.UU. que tuvo apoyo de oficiales del ISI.", "who": "Tribunal federal de Chicago (caso Headley)", "u": "https://en.wikipedia.org/wiki/Lashkar-e-Taiba", "st": "Wikipedia: Lashkar-e-Taiba", "graf": true}
+  ],
   sources: [
     { t: "Dawn: Asim Malik, nuevo jefe de la ISI", u: "https://www.dawn.com/news/1860627/lt-gen-asim-malik-appointed-new-dg-isi-state-media" },
     { t: "Dawn: condena de Faiz Hameed", u: "https://www.dawn.com/news/1960498/ex-spymaster-faiz-hameed-sentenced-to-14-years-imprisonment-under-army-act" },

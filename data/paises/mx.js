@@ -157,6 +157,10 @@
     { a: "Fuerzas Armadas", b: "Autoridades civiles", k: "Con otros poderes", stake: "El control de la inteligencia y la seguridad", state: "Abierta", x: "El Ejército ganó funciones civiles y acceso a datos policiales." },
     { a: "Gobierno de México", b: "Gobierno de EE.UU.", k: "Con la política", stake: "La lucha contra los carteles", state: "Abierta", x: "Washington presiona y amenaza con acciones unilaterales; México defiende su soberanía." }
   ],
+  proxies: [
+    {"id": "guadalajara", "s": "Cartel de Guadalajara", "n": "Cartel de Guadalajara", "k": "crimen", "d": "1980–1989", "rol": "doble", "hoy": false, "ev": 1, "x": "Agentes de la Dirección Federal de Seguridad (DFS) protegían a narcotraficantes y les daban credenciales; la DFS se disolvió en 1985 tras el asesinato del agente de la DEA Enrique Camarena.", "who": "Tribunales de EE.UU.; gobierno de México", "u": "https://en.wikipedia.org/wiki/Direcci%C3%B3n_Federal_de_Seguridad", "st": "Wikipedia: Dirección Federal de Seguridad", "graf": true},
+    {"id": "sinaloa", "s": "Cartel de Sinaloa", "n": "Cartel de Sinaloa", "k": "crimen", "d": "2001–2012", "rol": "doble", "hoy": false, "ev": 1, "x": "Un jurado de EE.UU. condenó en 2023 a Genaro García Luna, ex jefe de la Agencia Federal de Investigación (AFI) y de seguridad federal, por recibir sobornos del cartel.", "who": "Tribunal federal de Nueva York", "u": "https://en.wikipedia.org/wiki/Genaro_Garc%C3%ADa_Luna", "st": "Wikipedia: Genaro García Luna", "graf": true}
+  ],
   sources: [
     { t: "InSight Crime: la nueva ley de inteligencia", u: "https://insightcrime.org/es/noticias/como-impactara-nueva-ley-inteligencia-en-mexico-seguridad-publica/" },
     { t: "Cámara de Diputados: texto de la ley (2025)", u: "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSNIIMSP.pdf" },

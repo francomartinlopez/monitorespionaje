@@ -160,6 +160,9 @@
     { a: "Gobierno de Takaichi", b: "Oposición y abogados", k: "Con la política", stake: "La ley contra el espionaje", state: "Abierta", x: "Críticos advierten sobre la vigilancia de ciudadanos; el gobierno dice que Japón es vulnerable." },
     { a: "NIB", b: "Ministerios", k: "Entre agencias", stake: "El control de la información", state: "Latente", x: "La reforma busca terminar con la compartimentación entre Defensa, Justicia, Exteriores y la policía." }
   ],
+  proxies: [
+    {"id": "kodama", "s": "Yoshio Kodama", "n": "Red de Yoshio Kodama", "k": "crimen", "d": "1945–1976", "rol": "doble", "hoy": false, "ev": 2, "x": "Ultranacionalista ligado a la yakuza que trabajó con la ocupación estadounidense y fue clave en el escándalo Lockheed.", "who": "Investigaciones del Congreso de EE.UU. y de Japón", "u": "https://en.wikipedia.org/wiki/Yoshio_Kodama", "st": "Wikipedia: Yoshio Kodama"}
+  ],
   sources: [
     { t: "UPI: nace la Oficina Nacional de Inteligencia (2026)", u: "https://www.upi.com/Top_News/World-News/2026/07/31/japan-national-intelligence-bureau-national-security/7451785540742/" },
     { t: "Al Jazeera: la nueva inteligencia japonesa", u: "https://www.aljazeera.com/amp/news/2026/7/13/what-is-japans-new-intelligence-agency-and-why-is-tokyo-building-it" },

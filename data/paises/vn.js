@@ -141,6 +141,8 @@
   struggles: [
     { a: "Ministerio de Seguridad Pública", b: "Ejército", k: "Entre agencias", stake: "El poder dentro del partido", state: "Latente", x: "El ascenso de To Lam reforzó el peso de la seguridad frente al Ejército." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Radio Free Asia: segunda condena por el secuestro de Berlín", u: "https://www.rfa.org/english/news/vietnam/vietnam-kidnapping-trial-01312023223033.html" },
     { t: "Human Rights Watch: el caso Duong Van Thai", u: "https://www.hrw.org/news/2024/10/30/vietnam-quash-verdict-against-democracy-campaigner" },

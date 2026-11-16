@@ -143,6 +143,8 @@
   struggles: [
     { a: "Gobierno de Magyar", b: "Fidesz", k: "Con la política", stake: "El control de los servicios y la revisión del pasado", state: "Abierta", x: "El nuevo gobierno desmantela instituciones de Orbán y revisa la vigilancia política." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Telex: el Parlamento disuelve la Oficina de Protección de la Soberanía (2026)", u: "https://telex.hu/english/2026/06/30/hungarian-parliament-votes-to-abolish-sovereignty-protection-office" },
     { t: "Euronews: cómo Magyar desmontó el régimen de Orbán", u: "https://www.euronews.com/my-europe/2026/08/03/built-to-last-gone-in-months-how-peter-magyar-dismantled-viktor-orbans-regime" },

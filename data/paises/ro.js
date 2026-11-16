@@ -144,6 +144,8 @@
     { a: "SRI", b: "Partidos y fiscalía", k: "Con otros poderes", stake: "La influencia del servicio en la Justicia", state: "Latente", x: "Los protocolos alimentaron acusaciones de un Estado paralelo." },
     { a: "Nacionalistas", b: "Instituciones", k: "Con la política", stake: "La anulación de 2024", state: "Abierta", x: "Los partidarios de Georgescu acusan a los servicios de golpe institucional." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Wikipedia: 2024 Romanian presidential election", u: "https://en.wikipedia.org/wiki/2024_Romanian_presidential_election" },
     { t: "Wikipedia: Romanian Intelligence Service", u: "https://en.wikipedia.org/wiki/Romanian_Intelligence_Service" },

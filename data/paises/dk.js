@@ -140,6 +140,8 @@
   struggles: [
     { a: "Dinamarca", b: "EE.UU.", k: "Con otros Estados", stake: "Groenlandia", state: "Abierta", x: "Convocatorias diplomáticas y desconfianza entre aliados." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Al Jazeera: Dinamarca convoca al diplomático de EE.UU. (2025)", u: "https://www.aljazeera.com/news/2025/8/27/denmark-summons-us-diplomat-over-greenland-interference-attempts" },
     { t: "Reuters: influencia encubierta en Groenlandia", u: "https://www.thestar.com.my/news/world/2025/08/27/danish-foreign-minister-summons-us-diplomat-over-greenland-broadcaster-reports" },

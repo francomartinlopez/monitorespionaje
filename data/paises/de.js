@@ -206,6 +206,10 @@
     { a: "BfV", b: "Oficinas regionales", k: "Entre agencias", stake: "Coordinación y datos", state: "Latente", x: "El sistema federal de 17 oficinas dificultó compartir información, como mostraron el NSU y Amri." },
     { a: "Alemania", b: "Rusia", k: "Con otros Estados", stake: "Apoyo a Ucrania y guerra híbrida", state: "Abierta", x: "Sabotajes, espionaje y desinformación rusos frente a detenciones, expulsiones y nuevas leyes alemanas." }
   ],
+  proxies: [
+    {"id": "gehlen", "s": "Organización Gehlen", "n": "Organización Gehlen", "k": "institucion", "d": "1946–1956", "rol": "usa", "hoy": false, "ev": 1, "x": "Red de ex oficiales nazis organizada por EE.UU. que dio origen al BND.", "who": "CIA y BND, documentos desclasificados", "u": "https://en.wikipedia.org/wiki/Gehlen_Organization", "st": "Wikipedia: Gehlen Organization"},
+    {"id": "ths", "s": "Confidentes neonazis", "n": "Confidentes en la escena neonazi (Thüringer Heimatschutz)", "k": "armado", "d": "1994–2011", "rol": "usa", "hoy": false, "ev": 1, "x": "El fundador del grupo del que salió la célula terrorista NSU era informante pagado del servicio de Turingia.", "who": "Comisión del Bundestag sobre el NSU", "u": "https://en.wikipedia.org/wiki/National_Socialist_Underground", "st": "Wikipedia: National Socialist Underground"}
+  ],
   sources: [
     { t: "Bundestag: audiencia pública de los jefes de los servicios (octubre de 2026)", u: "https://www.bundestag.de/presse/hib/kurzmeldungen-1222500" },
     { t: "Bundestag: presupuesto 2027 del BND", u: "https://www.bundestag.de/presse/hib/kurzmeldungen-1205354" },

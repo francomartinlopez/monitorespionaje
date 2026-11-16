@@ -144,6 +144,9 @@
   struggles: [
     { a: "Ruanda", b: "República Democrática del Congo", k: "Con otros Estados", stake: "El este del Congo y sus minerales", state: "Latente", x: "Acuerdo de paz firmado en 2025, con combates intermitentes." }
   ],
+  proxies: [
+    {"id": "m23", "s": "M23", "n": "Movimiento 23 de Marzo (M23)", "k": "armado", "d": "2012–", "rol": "patrocina", "hoy": true, "ev": 1, "x": "Grupos de expertos de la ONU documentaron que Ruanda arma y comanda al M23 en el este del Congo; Ruanda lo niega.", "who": "Grupo de expertos de la ONU sobre el Congo", "u": "https://en.wikipedia.org/wiki/March_23_Movement", "st": "Wikipedia: March 23 Movement", "graf": true}
+  ],
   sources: [
     { t: "Wikipedia: March 23 Movement", u: "https://en.wikipedia.org/wiki/March_23_Movement" },
     { t: "Wikipedia: Patrick Karegeya", u: "https://en.wikipedia.org/wiki/Patrick_Karegeya" },

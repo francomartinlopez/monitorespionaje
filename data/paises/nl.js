@@ -145,6 +145,8 @@
   struggles: [
     { a: "Servicios", b: "Organizaciones de privacidad", k: "Con otros poderes", stake: "La interceptación masiva", state: "Latente", x: "El referéndum de 2018 mostró desconfianza hacia la ley de servicios." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Ministerio de Defensa: Laundry Bear (2025)", u: "https://www.defensie.nl/nieuws/20250527-onbekende-russische-groep-achter-hacks-nederlandse-doelen" },
     { t: "NOS: el informe anual del AIVD (2026)", u: "https://nos.nl/l/2611683" },

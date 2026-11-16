@@ -144,6 +144,8 @@
   struggles: [
     { a: "Gobierno", b: "Oposición y sociedad civil", k: "Con la política", stake: "El uso de las leyes de seguridad", state: "Latente", x: "Críticos temen que la ley de injerencia se use contra opositores." }
   ],
+  proxies: [
+  ],
   sources: [
     { t: "Agencia de Ciberseguridad: operación Cyber Guardian (2026)", u: "https://csa.gov.sg/news-events/press-releases/largest-multi-agency-cyber-operation-mounted-to-counter-threat-posed-by-advanced-persistent-threat--apt--actor-unc3886-to-singapore-s-telecommunications-sector" },
     { t: "AFP: Singapur enfrenta un ciberataque grave (2025)", u: "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/07/19/singapore-is-facing-039serious039-cyberattack-says-national-security-minister-k-shanmugam" },
