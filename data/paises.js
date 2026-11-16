@@ -1,4 +1,4 @@
-// Los 34 países del monitor. Los organismos son reales; el resto del contenido de cada
+// Los 35 países del monitor. Los organismos son reales; el resto del contenido de cada
 // ficha está en data/paises/<id>.js.
 // g: grupo del organigrama → k coordinación · c inteligencia civil · m militar · p policial y seguridad · j control y justicia
 // tier: 1 núcleo · 2 muy relevante · 3 relevante en su región o por una habilidad
@@ -300,6 +300,14 @@ window.PAISES = [
       { code: "NISS", name: "Servicio Nacional de Inteligencia y Seguridad", g: "c" },
       { code: "DMI", name: "Inteligencia Militar", g: "m" },
       { code: "RIB", name: "Oficina de Investigación de Ruanda", g: "p" }
+    ] },
+  { id: "se", name: "Suecia", short: "Suecia", map: "Sweden", tier: 3, center: [18.07, 59.33], skill: "Inteligencia de señales sobre el Báltico y Rusia",
+    agencies: [
+      { code: "CSN", name: "Consejo de Seguridad Nacional", g: "k" },
+      { code: "FRA", name: "Instituto Nacional de Radio de Defensa", g: "c" },
+      { code: "MUST", name: "Servicio Militar de Inteligencia y Seguridad", g: "m" },
+      { code: "Säpo", name: "Servicio de Seguridad", g: "p" },
+      { code: "SIN", name: "Inspección de Inteligencia de Defensa", g: "j" }
     ] }
 ];
 
