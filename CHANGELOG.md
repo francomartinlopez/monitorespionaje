@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Taiwán: NSB, MIB y MJIB, la ola de causas por espionaje chino, el caso de los colaboradores del PDP, el asesinato de Henry Liu, el cable de Penghu y los fondos secretos de la NSB.
+
 - 2026-11-15 · Suman Austria, Dinamarca, Serbia y Bangladesh (relevantes por una habilidad): el monitor llega a 57 países. Se cierra la lista.
 
 - 2026-11-15 · Suman Afganistán, Kazajistán, Siria, Jordania y Argelia (relevantes por una habilidad) y Australia y Canadá (muy relevantes, antes dentro de las fichas de EE.UU. y el Reino Unido): el monitor llega a 53 países.
