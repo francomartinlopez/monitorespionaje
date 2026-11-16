@@ -611,3 +611,7 @@ a:hover .lane-l { fill: var(--ph); }
   .tl .ctx i { display: block; }
 }
 .acc-link[hidden], .acc-body[hidden] { display: none; }
+
+/* Cómo funciona el espionaje, al final de la portada */
+.home-como { margin-top: 48px; padding-top: 8px; border-top: 1px solid var(--line); scroll-margin-top: 110px; }
+.home-como .x-head .back { display: none; }

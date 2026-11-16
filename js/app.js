@@ -92,6 +92,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     const ext = window.ME.ROUTES[h.split("/")[0]];
     if (h.startsWith("p-") && byId[h.slice(2)]) { renderCountry(byId[h.slice(2)]); current = "country"; }
     else if (h === "metodologia") { renderMethod(); current = "method"; }
+    else if (h === "como-funciona") { renderHome(); current = "home"; document.getElementById("alerts").hidden = false; document.querySelectorAll(".mainnav > a").forEach(a => a.classList.toggle("on", a.dataset.nav === "como-funciona")); requestAnimationFrame(() => document.getElementById("homeComo")?.scrollIntoView({ block: "start" })); return; }
     else if (ext) { const r = ext.render(h.split("/").slice(1)); if (typeof r === "function") cleanup = r; current = "ext"; document.title = ext.title + " · Monitor de Espionaje"; }
     else { renderHome(); current = "home"; }
     document.getElementById("alerts").hidden = current !== "home";
@@ -127,10 +128,12 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
 
       <div class="section-title"><h2>Poder por rubro</h2><span>Comparación de capacidades, de 1 a 5 · tocá una columna para ordenar${sampleTag(PAISES.some(p => FICHAS[p.id]?.sample))}</span></div>
       <p class="rub-legend">${RUBROS.map(r => `<span><b>${r.s}</b> ${esc(r.n.toLowerCase())}</span>`).join("")}</p>
-      <div class="cmp-wrap"><table class="cmp" id="cmp"></table></div>`;
+      <div class="cmp-wrap"><table class="cmp" id="cmp"></table></div>
+      <section class="home-como" id="homeComo"></section>`;
     drawHomeMap();
     drawCmp("tot");
     bindAccordion();
+    const cf = document.getElementById("homeComo"); if (cf && window.ME.ROUTES["como-funciona"]) window.ME.ROUTES["como-funciona"].render([], cf);
   }
 
   function card(p) {

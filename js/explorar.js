@@ -347,12 +347,12 @@
   } };
 
   // ================= CÓMO FUNCIONA =================
-  R["como-funciona"] = { title: "Cómo funciona", render(args, root) { const app = root || ME.app;
+  R["como-funciona"] = { title: "Cómo funciona el espionaje", render(args, root) { const app = root || ME.app;
     const C = window.CICLO, n = C.length, cx = 250, cy = 250, rr = 170;
     const P = C.map((_, i) => { const a = -Math.PI / 2 + i * 2 * Math.PI / n; return [cx + rr * Math.cos(a), cy + rr * Math.sin(a)]; });
     const arrow = i => { const a0 = -Math.PI / 2 + i * 2 * Math.PI / n + .3, a1 = -Math.PI / 2 + (i + 1) * 2 * Math.PI / n - .3;
       return `<path d="M${cx + rr * Math.cos(a0)} ${cy + rr * Math.sin(a0)} A${rr} ${rr} 0 0 1 ${cx + rr * Math.cos(a1)} ${cy + rr * Math.sin(a1)}" fill="none" stroke="var(--ph-lo)" stroke-width="2" marker-end="url(#ah)"/>`; };
-    app.innerHTML = head("Cómo funciona", "Una entrada al tema para quien no lo conoce: el ciclo de inteligencia, los tipos de inteligencia y el vocabulario básico.") + `
+    app.innerHTML = head("Cómo funciona el espionaje", "Una entrada al tema para quien no lo conoce: el ciclo de inteligencia, los tipos de inteligencia y el vocabulario básico.") + `
       <div class="section-title"><h2>El ciclo de inteligencia</h2><span>Cómo una pregunta del gobierno se convierte en un informe</span></div>
       <div class="cycle"><svg viewBox="0 0 500 500" role="img" aria-label="Ciclo de inteligencia en seis pasos">
         <defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="var(--ph-lo)"/></marker></defs>

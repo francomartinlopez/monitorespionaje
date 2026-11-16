@@ -1,5 +1,8 @@
 # Cambios
 
+- 2026-11-16 · Revisión del núcleo: espías atómicos y los Rosenberg, red Walker y "año de los espías" (EE.UU.); Theodore Hall, George Koval y la operación Osoaviakhim (Rusia); Klaus Fuchs (Reino Unido); Operación Paperclip; Dimona con ayuda francesa, el uranio de NUMEC, Eli Cohen y la Cólera de Dios (Israel y Francia); Markus Wolf y los científicos alemanes (Alemania); científicos alemanes, criminales nazis y el Proyecto Huemul (Argentina); Qian Xuesen (China); la red de A. Q. Khan (Irán y Corea del Norte).
+- 2026-11-16 · "Cómo funciona el espionaje" se desarrolla al final de la portada; el botón del menú lleva ahí.
+
 - 2026-11-16 · Alertas: siempre 4, 8 o 12, con nivel 0 para hechos resueltos; suman tres alertas (Israel e Irán, Canadá y Ucrania, Irak). Poder por rubro: escala de verdes con más contraste, del 1 casi negro al 5 fosforescente.
 
 - 2026-11-16 · Cronologías del núcleo llevadas hasta el primer servicio de inteligencia conocido (de la Opríchnina rusa y Walsingham a la red Culper y el Sun Tzu chino) y nueva columna de contexto histórico en cada fecha. Explorar pasa a ser una lista desplegable en la portada. "Poder por rubro" explica las siglas.
