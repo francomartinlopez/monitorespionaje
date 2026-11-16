@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Colombia: DNI, inteligencia militar y DIPOL; las chuzadas del DAS, las operaciones Jaque y Fénix, la compra de Pegasus financiada por EE.UU., la suspensión del intercambio con EE.UU. en 2025 y los perfilamientos del Ejército.
+
 - 2026-11-15 · Ficha real de Catar: QSS e inteligencia militar; la mediación con Hamas y el ataque israelí en Doha, Qatargate, el espionaje al fútbol según AP y el hackeo de 2017.
 
 - 2026-11-15 · Ficha real de Azerbaiyán: DTX, XKX e inteligencia militar; Pegasus contra Khadija Ismayilova, Abzas Media, el secuestro de Mukhtarli, el lavadero azerbaiyano y la crisis con Rusia.
