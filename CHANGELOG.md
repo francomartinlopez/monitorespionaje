@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ola 3: ficha real de Corea del Norte. La RGB pasa a llamarse Oficina General de Información de Reconocimiento (2025) y la Seguridad del Estado, Oficina Estatal de Información (2026); se actualizaron los nombres en el organigrama. Robos de Bybit, KelpDAO y del primer semestre de 2026, esquema de informáticos falsos, secuestros de japoneses, Rangún, vuelo 858, Kim Jong Nam, tropas en Rusia; prácticas y dinero completos.
+
 - 2026-11-15 · Ola 3: ficha real de Irán (Consejo Supremo de Seguridad Nacional, MOIS, inteligencia de la Guardia, Fuerza Quds y FARAJA): masacre de enero de 2026, guerra y muerte de Alí Jamenei, muerte del ministro Jatib y del jefe de inteligencia de la Guardia Jademi, reparto de cargos de agosto; 14 operaciones desde Bajtiar hasta 2026, AMIA con nivel "con sustento sólido", 7 casos, 6 fallas, 5 topos y desertores, 6 filtraciones y ocultamientos, prácticas y dinero completos.
 - 2026-11-15 · Nuevos rubros de prácticas: "Derrocar gobiernos" e "Intervención en elecciones", cargados en las nueve fichas reales.
 

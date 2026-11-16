@@ -96,9 +96,9 @@ window.PAISES = [
   { id: "kp", name: "Corea del Norte", short: "Corea del Norte", map: "North Korea", tier: 1, center: [125.75, 39.03],
     agencies: [
       { code: "CAE", name: "Comisión de Asuntos Estatales", g: "k" },
-      { code: "RGB", name: "Oficina General de Reconocimiento", g: "m" },
-      { code: "MSE", name: "Ministerio de Seguridad del Estado", g: "p" },
-      { code: "MSS", name: "Ministerio de Seguridad Social", g: "p" },
+      { code: "RGB", name: "Oficina General de Información de Reconocimiento (ex RGB)", g: "m" },
+      { code: "MSE", name: "Oficina Estatal de Información (ex Seguridad del Estado)", g: "p" },
+      { code: "MSS", name: "Seguridad Social y nueva policía", g: "p" },
       { code: "Lazarus", name: "Grupo Lazarus (ciber, bajo la RGB)", g: "m" }
     ] },
   { id: "ar", name: "Argentina", short: "Argentina", map: "Argentina", tier: 1, center: [-58.38, -34.6],
