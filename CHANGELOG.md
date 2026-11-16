@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Polonia: AW, ABW, SWW, SKW y CBA; los sabotajes rusos (Marywilska y la vía Varsovia-Lublin), el plan de asesinato frustrado en 2026, Pegasus y las acusaciones a ex jefes de los servicios, y el centro secreto de la CIA. En México, Guacamaya pasa a figurar como denunciante.
+
 - 2026-11-15 · Ficha real de México: CNI, inteligencia militar y naval, UIF y FGR; la ley de 2025 y la Plataforma Central de Inteligencia, Pegasus (Gobierno Espía y Ejército Espía), la filtración de Guacamaya y la DFS.
 
 - 2026-11-15 · Ficha real de Egipto: GIS, Inteligencia Militar y Sector de Seguridad Nacional; la condena en Roma por el secuestro de Giulio Regeni, Predator contra Ahmed Tantawy, el caso Menendez y el conglomerado de medios del GIS.

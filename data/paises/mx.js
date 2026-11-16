@@ -102,7 +102,7 @@
     enlaces: "Relación estrecha y desigual con la CIA, la DEA y el FBI; EE.UU. vuela drones de vigilancia sobre carteles."
   },
   insiders: [
-    { k: "desertor", dir: "sale", ev: 1, d: "2022", n: "Guacamaya", h: "El colectivo que filtró a Defensa", x: "Hackers anónimos extrajeron y publicaron correos de Defensa y de otros ejércitos latinoamericanos.", cargo: "Externo", hacia: "Periodistas y público", fin: "Sin detenidos conocidos.", who: "Gobierno de México y medios", u: "https://mexiconewsdaily.com/news/journalists-and-ngos-file-spyware-criminal-complaint-against-defense-ministry", st: "Mexico News Daily" },
+    { k: "denunciante", dir: "sale", ev: 1, d: "2022", n: "Guacamaya", h: "El colectivo que filtró a Defensa", x: "Hackers anónimos extrajeron y publicaron correos de Defensa y de otros ejércitos latinoamericanos.", cargo: "Externo", hacia: "Periodistas y público", fin: "Sin detenidos conocidos.", who: "Gobierno de México y medios", u: "https://mexiconewsdaily.com/news/journalists-and-ngos-file-spyware-criminal-complaint-against-defense-ministry", st: "Mexico News Daily" },
     { k: "topo", dir: "sale", ev: 1, d: "1980–1985", n: "Agentes de la DFS", h: "Los policías del cartel", x: "Agentes con credenciales oficiales protegieron a narcotraficantes del cartel de Guadalajara.", cargo: "Dirección Federal de Seguridad", hacia: "Cartel de Guadalajara", fin: "La DFS fue disuelta en 1985.", who: "Justicia de EE.UU. y de México", u: "https://en.wikipedia.org/wiki/Direcci%C3%B3n_Federal_de_Seguridad", st: "Wikipedia (síntesis de fuentes)" }
   ],
   leaks: [
