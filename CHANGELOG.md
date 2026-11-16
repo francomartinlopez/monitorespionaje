@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ola 5: ficha real de Emiratos Árabes Unidos (CSN, Seguridad del Estado, Agencia de Inteligencia de Señales e inteligencia militar). Proyecto Raven y DarkMatter (multas a ex NSA en 2021), asesinatos en Yemen con mercenarios de EE.UU. (demanda de 2026), Abu Dhabi Secrets, armas para la milicia sudanesa (con sustento sólido), Pegasus contra Ahmed Mansoor, hackeo de la agencia catarí, caso Barrack (absuelto); prácticas y dinero completos.
+
 - 2026-11-15 · Ola 5: ficha real de Cuba (MININT, DI, contrainteligencia y contrainteligencia militar). Ramón Romero Curbelo al frente de la DI y visita de la CIA (mayo de 2026), 32 cubanos muertos en Caracas, Rocha, Montes, Myers, Red Avispa, derribo de 1996 y acusación a Raúl Castro, muerte de Payá (con sustento sólido, según la CIDH), informe del Departamento de Estado sobre el ICAP (denuncia sin pruebas firmes), caso Ochoa; prácticas y dinero completos.
 
 - 2026-11-15 · Ola 4 completa: ficha real de Arabia Saudita (CPSA, GIP, Seguridad del Estado e inteligencia militar). Khashoggi, espías de Twitter (condena de 2022), fallo británico de 2026 por Pegasus contra Ghanem al-Masarir, demanda de Saad al-Jabri sobre el "escuadrón del Tigre" (denuncia sin pruebas firmes), Ritz-Carlton, Hariri, red de cuentas de Smaat, Timber Sycamore, empresas Sakab; prácticas y dinero completos.
