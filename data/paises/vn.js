@@ -1,847 +1,148 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Vietnam · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["vn"] = {
- "sample": true,
- "id": "vn",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Vietnam: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 3,
-  "senales": 2,
-  "ciber": 4,
-  "imagenes": 1,
-  "encubierta": 2,
-  "contra": 4
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "MPS": {
-   "since": 1907,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Ministerio de Seguridad Pública: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "TC2": {
-   "since": 2010,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Dirección General de Inteligencia de Defensa: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Comando 86": {
-   "since": 1941,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comando del Ciberespacio: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "SP": {
-   "since": 1979,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Seguridad interior del Ministerio de Seguridad Pública: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "vn",
+  updated: "2026-11-15",
+  summary: [
+    "En Vietnam la inteligencia y la seguridad interior dependen del Ministerio de Seguridad Pública, el organismo más poderoso del Estado de partido único. Su ex ministro To Lam se convirtió en 2024 en secretario general del Partido Comunista. El Ejército tiene su propia Dirección General de Inteligencia de Defensa (conocida como TC2) y desde 2017 un Comando del Ciberespacio.",
+    "Los servicios vietnamitas persiguen a disidentes también fuera del país. En 2017 agentes vietnamitas secuestraron en un parque de Berlín a un ex funcionario que pedía asilo; un tribunal alemán condenó a dos cómplices y Alemania expulsó al jefe de inteligencia de la embajada. En 2023 el bloguero Duong Van Thai desapareció en Tailandia y reapareció preso en Hanoi; fue condenado a 12 años.",
+    "En el ciberespacio, empresas de seguridad atribuyen a Vietnam el grupo de hackers OceanLotus, que espía a periodistas, disidentes y empresas extranjeras. El Ejército mantiene la Fuerza 47, una unidad que combate en redes las \"opiniones erróneas\" sobre el partido."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Secretario general del partido", v: "To Lam", n: "ex ministro de Seguridad Pública, desde 2024" },
+    { l: "Secuestro en Berlín", v: "2017", n: "dos condenados en Alemania" },
+    { l: "Duong Van Thai", v: "12 años de prisión", n: "secuestrado en Tailandia en 2023, según organizaciones de derechos humanos" },
+    { l: "Fuerza 47", v: "Unidad del Ejército", n: "propaganda y vigilancia en redes desde 2017" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 3, senales: 3, ciber: 3, imagenes: 2, encubierta: 3, contra: 4 },
+  powerWhy: {
+    humana: "Redes en la diáspora y en los países vecinos; capacidad demostrada de operar en Europa.",
+    senales: "Vigilancia amplia de las comunicaciones internas; poca capacidad exterior documentada.",
+    ciber: "El grupo OceanLotus, atribuido a Vietnam, espía a periodistas y empresas en varios países.",
+    imagenes: "Depende de satélites comerciales y de socios.",
+    encubierta: "Secuestros documentados en Alemania y atribuidos en Tailandia.",
+    contra: "Control total del espacio interno y vigilancia de la diáspora."
+  },
+  priorities: [
+    { h: "Seguridad del régimen", x: "Disidentes, blogueros y organizaciones religiosas independientes." },
+    { h: "China", x: "Mar de China Meridional y relación con Pekín." },
+    { h: "Diáspora", x: "Opositores en EE.UU., Europa y Tailandia." },
+    { h: "Corrupción", x: "La campaña anticorrupción del partido." },
+    { h: "Empresas extranjeras", x: "Información sobre inversiones y competencia." }
+  ],
+  focos: ["China", "Disidentes", "Diáspora", "Mar de China Meridional", "Ciberespionaje"],
+  bodies: {
+    "MPS": { since: 1945, how: "Ministerio de Seguridad Pública: policía, inteligencia interior y exterior, contraespionaje y ciberseguridad. Su titular integra el buró político del partido.", staff: "No se publica.", budget: "Secreto.", tech: ["Vigilancia de comunicaciones"], where: ["Hanoi", "Todo el país", "Embajadas"] },
+    "TC2": { since: 1945, how: "Dirección General de Inteligencia de Defensa del Ministerio de Defensa: inteligencia militar en el exterior.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: [], where: ["Hanoi"] },
+    "Comando 86": { since: 2017, how: "Comando del Ciberespacio del Ejército: ciberdefensa y operaciones en redes.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: ["Ciberoperaciones"], where: ["Hanoi"] },
+    "SP": { since: 1945, how: "Seguridad interior del Ministerio de Seguridad Pública: vigila a disidentes, religiones independientes y medios.", staff: "No se publica.", budget: "Secreto.", tech: [], where: ["Todo el país"] }
+  },
+  civil: [
+    "No hay control civil independiente: los servicios responden al Partido Comunista.",
+    "El ministro de Seguridad Pública integra el buró político, la máxima instancia del partido.",
+    "La Asamblea Nacional no supervisa en la práctica a los servicios."
+  ],
+  law: {
+    domestic: [
+      "El artículo 117 del código penal castiga la \"propaganda contra el Estado\" con hasta 20 años.",
+      "La ley de ciberseguridad de 2018 obliga a las empresas a guardar datos en el país y entregarlos a la policía.",
+      "El decreto 53 de 2022 reglamenta el acceso policial a los datos de usuarios."
+    ],
+    foreign: [
+      "No hay normas públicas sobre operaciones en el exterior."
+    ],
+    oversight: [
+      "No existe un órgano independiente de control."
+    ]
+  },
+  rights: [
+    { d: "2015-07", dir: "amplia", area: "Expresión", h: "Nuevo código penal", x: "Mantiene los delitos de propaganda y abuso de libertades democráticas." },
+    { d: "2018-06", dir: "amplia", area: "Privacidad", h: "Ley de ciberseguridad", x: "Obliga a guardar datos en Vietnam y a retirar contenidos a pedido del gobierno." },
+    { d: "2022-08", dir: "amplia", area: "Privacidad", h: "Decreto 53", x: "Detalla la obligación de entregar datos a la policía." }
+  ],
+  events: [
+    { d: "2017-07-23", lat: 52.51, lon: 13.35, c: "Germany", t: "encubierta", ev: 1, h: "Secuestro de Trinh Xuan Thanh", x: "Agentes vietnamitas secuestran en el Tiergarten de Berlín a un ex ejecutivo petrolero que pedía asilo y lo llevan a Hanoi.", u: "https://www.rfa.org/english/news/vietnam/vietnam-kidnapping-trial-01312023223033.html", st: "Radio Free Asia" },
+    { d: "2023-04", lat: 14.0, lon: 100.6, c: "Thailand", t: "encubierta", ev: 2, h: "Desaparece Duong Van Thai", x: "El bloguero refugiado desaparece cerca de Bangkok y reaparece preso en Vietnam; organizaciones de derechos humanos acusan a agentes vietnamitas.", u: "https://www.hrw.org/news/2024/10/30/vietnam-quash-verdict-against-democracy-campaigner", st: "Human Rights Watch" }
+  ],
+  interest: {
+    "China": 3, "Cambodia": 2, "Laos": 2, "Thailand": 2, "United States of America": 2, "Germany": 1, "Czechia": 1, "Philippines": 1, "Taiwan": 1
+  },
+  timeline: [
+    { era: "Guerras", d: "1945", h: "Nacen los servicios", x: "El Viet Minh crea su seguridad y su inteligencia militar." },
+    { era: "", d: "1954–1975", h: "Guerra de Vietnam", x: "Redes de espías en Saigón, como el periodista Pham Xuan An." },
+    { era: "Doi Moi", d: "1986", h: "Apertura económica", x: "Los servicios siguen bajo control del partido." },
+    { era: "", d: "2017", h: "Secuestro en Berlín", x: "Crisis diplomática con Alemania." },
+    { era: "Actual", d: "2024–2026", h: "To Lam al frente del partido", x: "El ex jefe de la seguridad lidera el país.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2017", h: "El secuestro de Berlín", x: "Agentes vietnamitas secuestraron a Trinh Xuan Thanh y a su acompañante en un parque de Berlín. Un tribunal alemán condenó en 2018 a un cómplice que admitió trabajar para la inteligencia vietnamita, y en 2023 a otro. La fiscalía mostró que un general de la policía vietnamita dirigió la operación.", who: "Tribunal Superior de Berlín", missing: "", u: "https://www.rfa.org/english/news/vietnam/vietnam-kidnapping-trial-01312023223033.html", st: "Radio Free Asia" },
+    { ev: 2, ilegal: true, d: "2023", h: "Duong Van Thai", x: "El bloguero, reconocido como refugiado por la ONU, desapareció en Tailandia. Reapareció preso en Vietnam y fue condenado a 12 años por propaganda. Organizaciones de derechos humanos y de prensa sostienen que fue secuestrado; Vietnam dice que entró al país de manera ilegal.", who: "Human Rights Watch, CPJ y RSF", missing: "Reconocimiento oficial o investigación tailandesa concluyente.", u: "https://www.hrw.org/news/2024/10/30/vietnam-quash-verdict-against-democracy-campaigner", st: "Human Rights Watch" },
+    { ev: 2, ilegal: true, d: "2014–", h: "OceanLotus", x: "Empresas de ciberseguridad atribuyen al gobierno vietnamita el grupo OceanLotus (APT32). Espió a periodistas, activistas de la diáspora y empresas extranjeras de autos y energía. Vietnam lo niega.", who: "FireEye y otras empresas de ciberseguridad", missing: "Reconocimiento oficial o acusación judicial.", u: "https://en.wikipedia.org/wiki/OceanLotus", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "2017-07", ev: 1, w: 3, h: "La operación de Berlín quedó expuesta", x: "La policía alemana reconstruyó el secuestro y identificó a los participantes; Vietnam perdió a su jefe de inteligencia en Berlín y la relación con Alemania.", why: "No está en duda; hubo dos condenas y una expulsión.", wx: "Sentencias del Tribunal Superior de Berlín.", who: "Gobierno y justicia de Alemania", u: "https://www.arabnews.pk/node/1345671", st: "Reuters, vía Arab News" }
+  ],
+  modus: {
+    embajadas: "Oficiales de inteligencia en embajadas: Alemania expulsó al jefe de inteligencia vietnamita tras el secuestro de 2017.",
+    campo: "Agentes y colaboradores de la diáspora en Europa central y el sudeste asiático, según los juicios en Alemania.",
+    oficina: "El Ministerio de Seguridad Pública informa al buró político del partido.",
+    reclutamiento: "Academias propias de policía y seguridad; colaboradores dentro de la diáspora.",
+    tecnica: "Vigilancia de redes sociales, presión a plataformas y ciberespionaje atribuido.",
+    enlaces: "Cooperación histórica con la KGB soviética y hoy con servicios de la región."
+  },
+  insiders: [
+    { k: "topo", dir: "entra", ev: 1, d: "1960–1975", n: "Pham Xuan An", h: "El periodista espía", x: "Corresponsal de Time en Saigón que pasó información al Norte durante toda la guerra.", cargo: "Periodista de Reuters y Time", hacia: "Inteligencia norvietnamita", fin: "Nombrado general; murió en 2006.", who: "Gobierno de Vietnam e historiadores", u: "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_Xu%C3%A2n_%E1%BA%A8n", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "entra", ev: 1, d: "2017", n: "Long N. H.", h: "El cómplice de Praga", x: "Vietnamita checo que alquiló la camioneta del secuestro y admitió trabajar para la inteligencia vietnamita.", cargo: "Residente en la República Checa", hacia: "Inteligencia vietnamita", fin: "Condenado en Berlín a 3 años y 10 meses.", who: "Tribunal Superior de Berlín", u: "https://www.scmp.com/print/news/world/europe/article/2156932/germany-jails-man-who-helped-vietnam-kidnap-oil-executive-berlin", st: "South China Morning Post" }
+  ],
+  leaks: [
+    { k: "desinfo", rol: "autor", ev: 1, d: "2017–", h: "La Fuerza 47", x: "Una unidad del Ejército publica en redes contenidos favorables al partido y denuncia a críticos.", obj: "Controlar la opinión en internet.", who: "Ejército de Vietnam", u: "https://en.wikipedia.org/wiki/Force_47", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  practicas: {
+    propios: { ev: 1, x: "La seguridad investiga a funcionarios en la campaña anticorrupción, incluso en el exterior.", u: "https://www.rfa.org/english/news/vietnam/vietnam-kidnapping-trial-01312023223033.html", st: "Radio Free Asia" },
+    politicos: { ev: 1, x: "Disidentes y candidatos independientes son vigilados y detenidos.", u: "https://www.hrw.org/news/2024/10/30/vietnam-quash-verdict-against-democracy-campaigner", st: "Human Rights Watch" },
+    periodistas: { ev: 1, x: "Blogueros y periodistas independientes son condenados por propaganda contra el Estado.", u: "https://manage.thediplomat.com/2024/10/vietnamese-court-sentences-dissident-blogger-to-12-years-in-prison", st: "The Diplomat" },
+    activistas: { ev: 1, x: "Activistas ambientales y de derechos humanos fueron encarcelados en los últimos años.", u: "https://www.hrw.org/news/2024/10/30/vietnam-quash-verdict-against-democracy-campaigner", st: "Human Rights Watch" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 2, x: "OceanLotus apuntó a empresas y gobiernos de la región, según empresas de ciberseguridad.", u: "https://en.wikipedia.org/wiki/OceanLotus", st: "Wikipedia (síntesis de fuentes)" },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 2, x: "Organizaciones de derechos humanos denuncian malos tratos a presos políticos.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Vietnam", st: "Wikipedia (síntesis de fuentes)" },
+    secuestro: { ev: 1, x: "Secuestró a Trinh Xuan Thanh en Berlín en 2017.", u: "https://www.rfa.org/english/news/vietnam/vietnam-kidnapping-trial-01312023223033.html", st: "Radio Free Asia" },
+    propaganda: { ev: 1, x: "La Fuerza 47 hace propaganda en redes sociales.", u: "https://en.wikipedia.org/wiki/Force_47", st: "Wikipedia (síntesis de fuentes)" },
+    conflictos: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
+    elecciones: { ev: 0, x: "Esta ficha no encontró intervenciones en elecciones extranjeras." },
+    partidos: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
+    diaspora: { ev: 1, x: "Usó a vietnamitas residentes en la República Checa para el secuestro de Berlín.", u: "https://www.scmp.com/print/news/world/europe/article/2156932/germany-jails-man-who-helped-vietnam-kidnap-oil-executive-berlin", st: "South China Morning Post" },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 2, x: "Vigila y presiona a iglesias y pagodas independientes, según organizaciones de derechos humanos.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Vietnam", st: "Wikipedia (síntesis de fuentes)" },
+    armas: { ev: 0, x: "Esta ficha no encontró envíos encubiertos recientes." },
+    inteligencia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró transferencias documentadas." },
+    entrenamiento: { ev: 1, x: "Entrena a fuerzas de seguridad de Laos y Camboya, sus aliados históricos.", u: "https://en.wikipedia.org/wiki/Ministry_of_Public_Security_(Vietnam)", st: "Wikipedia (síntesis de fuentes)" }
+  },
+  dinero: {
+    presupuesto: "El presupuesto de seguridad es secreto.",
+    uso: "Policía, vigilancia interna y operaciones contra disidentes.",
+    ingresos: "El Ministerio de Seguridad Pública y el Ejército tienen empresas propias.",
+    empresas: "Esta ficha no encontró empresas de fachada documentadas.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "Esta ficha no encontró uso documentado de organizaciones criminales.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
+  },
+  fondos: [
+    { k: "cobertura", rol: "autor", ev: 2, d: "2017-07", h: "Una visita oficial como cobertura", x: "Medios checos y eslovacos informaron que Thanh fue sacado de Europa en un avión del gobierno eslovaco que transportaba a una delegación oficial vietnamita. Eslovaquia negó haber participado a sabiendas.", obj: "Sacar al secuestrado sin controles fronterizos.", who: "Fiscalía alemana y prensa centroeuropea", u: "https://ct24.ceskatelevize.cz/clanek/svet/v-nemecku-odsoudili-za-unos-manazera-vietnamce-s-trvalym-pobytem-v-cesku-pracoval-pro-tajne-sluzby-76615", st: "Česká televize" }
+  ],
+  companies: [
+    { n: "Viettel", c: "nacional", rubro: "Telecomunicaciones", rel: "Del Ejército", x: "La mayor operadora del país pertenece al Ministerio de Defensa." }
+  ],
+  struggles: [
+    { a: "Ministerio de Seguridad Pública", b: "Ejército", k: "Entre agencias", stake: "El poder dentro del partido", state: "Latente", x: "El ascenso de To Lam reforzó el peso de la seguridad frente al Ejército." }
+  ],
+  sources: [
+    { t: "Radio Free Asia: segunda condena por el secuestro de Berlín", u: "https://www.rfa.org/english/news/vietnam/vietnam-kidnapping-trial-01312023223033.html" },
+    { t: "Human Rights Watch: el caso Duong Van Thai", u: "https://www.hrw.org/news/2024/10/30/vietnam-quash-verdict-against-democracy-campaigner" },
+    { t: "Wikipedia: Ministry of Public Security (Vietnam)", u: "https://en.wikipedia.org/wiki/Ministry_of_Public_Security_(Vietnam)" }
   ]
- },
- "rights": [
-  {
-   "d": "1950",
-   "dir": "recorta",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1960",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1967",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1977",
-   "dir": "amplia",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1983",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1992",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1999",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2012",
-   "dir": "recorta",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2019",
-   "dir": "amplia",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  }
- ],
- "events": [
-  {
-   "d": "1962-10-04",
-   "lat": 22.89,
-   "lon": 148.91,
-   "t": "ciber",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1965-06-03",
-   "lat": 2.7,
-   "lon": -49.82,
-   "t": "ciber",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1972-06-01",
-   "lat": 14.06,
-   "lon": -65.77,
-   "t": "contra",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1975-03-26",
-   "lat": 57.93,
-   "lon": -100.21,
-   "t": "ciber",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1978-04-15",
-   "lat": -21.97,
-   "lon": -7.9,
-   "t": "sabotaje",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1984-02-27",
-   "lat": 29.82,
-   "lon": 91.8,
-   "t": "contra",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1990-10-27",
-   "lat": 24.68,
-   "lon": 107.75,
-   "t": "encubierta",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1992-03-12",
-   "lat": 17.53,
-   "lon": 99.94,
-   "t": "ciber",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1998-06-25",
-   "lat": 28.51,
-   "lon": 63.79,
-   "t": "encubierta",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2004-06-26",
-   "lat": 59.11,
-   "lon": 67.7,
-   "t": "humana",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2007-06-09",
-   "lat": 25.12,
-   "lon": -114.02,
-   "t": "humana",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2011-05-24",
-   "lat": 50.16,
-   "lon": 127.84,
-   "t": "sabotaje",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2015-01-07",
-   "lat": 27.25,
-   "lon": 84.96,
-   "t": "sabotaje",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2022-04-14",
-   "lat": 23.24,
-   "lon": 104.66,
-   "t": "sabotaje",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  }
- ],
- "interest": {
-  "United States of America": 1,
-  "Israel": 2,
-  "Pakistan": 1,
-  "Saudi Arabia": 1,
-  "Iraq": 1,
-  "Venezuela": 2,
-  "Cuba": 2,
-  "Mexico": 2,
-  "South Korea": 1,
-  "North Korea": 1,
-  "Nigeria": 1,
-  "Kazakhstan": 1,
-  "Poland": 2
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1980",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1976",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2003",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "1963",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "2017",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1964",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
