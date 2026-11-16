@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ola 4 completa: ficha real de Arabia Saudita (CPSA, GIP, Seguridad del Estado e inteligencia militar). Khashoggi, espías de Twitter (condena de 2022), fallo británico de 2026 por Pegasus contra Ghanem al-Masarir, demanda de Saad al-Jabri sobre el "escuadrón del Tigre" (denuncia sin pruebas firmes), Ritz-Carlton, Hariri, red de cuentas de Smaat, Timber Sycamore, empresas Sakab; prácticas y dinero completos.
+
 - 2026-11-15 · Ola 4: ficha real de India (NSCS, R&AW, IB, NTRO, DIA y NIA). Parag Jain en la R&AW, Mahesh Dixit en la IB, caso Pannun (Gupta se declaró culpable en 2026), Nijjar bajado a "denuncia sin pruebas firmes" tras la declaración de la policía canadiense de julio de 2026, asesinatos en Pakistán según The Guardian, Pegasus y el comité de la Corte Suprema, comisión Hogue sobre interferencia en Canadá, Kargil, topos Rabinder Singh y Madhuri Gupta; prácticas y dinero completos.
 
 - 2026-11-15 · Ola 4: ficha real de Pakistán (NSD, ISI, IB, MI y FIA). Asim Malik al frente de la ISI y como asesor de seguridad nacional, condena de Faiz Hameed, carta de los jueces de Islamabad, autorización de escuchas de 2024 y sistema de vigilancia masiva (Amnistía), desapariciones forzadas, Mehran Bank, Bombay 2008 y Pahalgam 2025 (denuncia sin pruebas firmes), Abbottabad, ataques en Afganistán de 2026; prácticas y dinero completos.
