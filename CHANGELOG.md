@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Argelia: DGSI, DGDSE y DCSA, herederos del DRS; la década negra, Tibhirine, el juicio del general Toufik, el secuestro de un opositor en Francia y el apoyo al Polisario.
+
 - 2026-11-15 · Ficha real de Jordania: GID, inteligencia militar y PSD; el doble agente de Khost, el caso de sedición del príncipe Hamzah, Pegasus contra activistas, el envenenamiento de Meshal y la prohibición de los Hermanos Musulmanes.
 
 - 2026-11-15 · Ficha real de Siria: el aparato de inteligencia de Assad y el nuevo GID del gobierno de transición; el informe César, el juicio de Koblenz, la caída de Assad, las matanzas de alauitas de 2025 y el captagón.
