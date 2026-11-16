@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Azerbaiyán: DTX, XKX e inteligencia militar; Pegasus contra Khadija Ismayilova, Abzas Media, el secuestro de Mukhtarli, el lavadero azerbaiyano y la crisis con Rusia.
+
 - 2026-11-15 · Ficha real de Moldavia: SIS, CNA e Inspección General de Policía; la red de Ilan Shor y la injerencia rusa en 2024 y 2025, el plan de disturbios, el robo del siglo y el caso Cavcaliuc.
 
 - 2026-11-15 · Ficha real de Georgia: SSG, GIS e inteligencia militar; la filtración de los archivos del SSG (2021), el secuestro de Mukhtarli, la guerra de 2008 y las leyes de agentes extranjeros.
