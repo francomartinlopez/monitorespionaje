@@ -1,875 +1,155 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Sudáfrica · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["za"] = {
- "sample": true,
- "id": "za",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Sudáfrica: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 2,
-  "senales": 2,
-  "ciber": 1,
-  "imagenes": 1,
-  "encubierta": 2,
-  "contra": 2
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "NICOC": {
-   "since": 1993,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comité Nacional de Coordinación de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "SSA": {
-   "since": 1900,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Agencia de Seguridad del Estado: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "DI": {
-   "since": 1964,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia de Defensa: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "CI": {
-   "since": 2017,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia Criminal de la Policía: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "IGI": {
-   "since": 2015,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inspector General de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "JSCI": {
-   "since": 2012,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comité Conjunto Permanente de Inteligencia del Parlamento: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "za",
+  updated: "2026-11-15",
+  summary: [
+    "La Agencia de Seguridad del Estado (SSA) concentró desde 2009 la inteligencia civil sudafricana. En marzo de 2025 el presidente Cyril Ramaphosa firmó una ley que la disuelve y la divide en un Servicio de Inteligencia Exterior y una Agencia de Inteligencia Doméstica, como recomendaron un panel presidencial en 2018 y la comisión sobre la captura del Estado. La transición sigue en curso.",
+    "La comisión presidida por el juez Raymond Zondo concluyó que durante el gobierno de Jacob Zuma la SSA se usó para fines políticos y que se perdieron grandes sumas en efectivo sin control. Su ex director Arthur Fraser montó una red paralela de agentes y en 2022 denunció al propio Ramaphosa por el caso del dinero robado en su granja Phala Phala.",
+    "En el apartheid, la Oficina de Seguridad del Estado (BOSS) y unidades secretas del Ejército como la Oficina de Cooperación Civil (CCB) asesinaron a opositores dentro y fuera del país, según la Comisión de la Verdad y la Reconciliación. En 2021 la Corte Constitucional declaró ilegal la interceptación masiva que hacía el Estado."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Disolución de la SSA", v: "Ley de marzo de 2025", n: "se divide en servicio exterior y agencia doméstica" },
+    { l: "Comisión Zondo", v: "SSA usada políticamente", n: "informe sobre la captura del Estado (2022)" },
+    { l: "Interceptación masiva", v: "Ilegal", n: "Corte Constitucional, 2021" },
+    { l: "Ministra responsable", v: "Khumbudzo Ntshavheni", n: "ministra en la Presidencia" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 2, senales: 2, ciber: 2, imagenes: 1, encubierta: 2, contra: 2 },
+  powerWhy: {
+    humana: "Redes en el continente africano, debilitadas por años de uso político y salidas de personal.",
+    senales: "El Centro Nacional de Comunicaciones intercepta, pero la Corte limitó la interceptación masiva.",
+    ciber: "Capacidad modesta; hubo ataques graves a sistemas del Estado sin respuesta eficaz.",
+    imagenes: "Sin satélites propios de inteligencia.",
+    encubierta: "La red paralela de agentes de la era Zuma operó fuera de la ley, según la comisión Zondo.",
+    contra: "Servicio debilitado por la corrupción y en plena reestructuración."
+  },
+  priorities: [
+    { h: "Reforma", x: "Crear los dos nuevos servicios y recuperar credibilidad." },
+    { h: "Crimen organizado", x: "Mafias de la construcción, minería ilegal y cárteles." },
+    { h: "Estabilidad interna", x: "Disturbios como los de julio de 2021." },
+    { h: "Región", x: "Mozambique, Zimbabue y los Grandes Lagos." },
+    { h: "Injerencia extranjera", x: "Actividad de servicios de grandes potencias en el país." }
+  ],
+  focos: ["Reforma", "Crimen organizado", "Mozambique", "Zimbabue", "Disturbios"],
+  bodies: {
+    "NICOC": { since: 1994, how: "Comité Nacional de Coordinación de Inteligencia: reúne a todos los servicios y produce evaluaciones para el gabinete.", staff: "No se publica.", budget: "Dentro de la seguridad del Estado.", tech: [], where: ["Pretoria"] },
+    "SSA": { since: 2009, how: "Agencia de Seguridad del Estado: inteligencia interior y exterior. La ley de 2025 la disuelve para crear el Servicio de Inteligencia Exterior y la Agencia de Inteligencia Doméstica.", staff: "No se publica.", budget: "Parcialmente secreto.", tech: ["Centro Nacional de Comunicaciones"], where: ["Pretoria", "Embajadas"] },
+    "DI": { since: 1994, how: "Inteligencia de Defensa de la Fuerza Nacional de Defensa: inteligencia militar para despliegues en África.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: [], where: ["Pretoria"] },
+    "CI": { since: 1995, how: "Inteligencia Criminal del Servicio de Policía: inteligencia sobre crimen organizado y disturbios.", staff: "No se publica.", budget: "Dentro de la Policía.", tech: [], where: ["Pretoria", "Todo el país"] },
+    "IGI": { since: 1994, how: "Inspector General de Inteligencia: investiga quejas y controla la legalidad de los servicios.", staff: "No se publica.", budget: "Público.", tech: [], where: ["Pretoria"] },
+    "JSCI": { since: 1994, how: "Comité Conjunto Permanente de Inteligencia del Parlamento, con acceso a información secreta.", staff: "Legisladores de varios partidos.", budget: "No aplica.", tech: [], where: ["Ciudad del Cabo"] }
+  },
+  civil: [
+    "Los servicios responden a un ministro en la Presidencia.",
+    "La comisión Zondo concluyó que la SSA sirvió a facciones políticas durante el gobierno de Zuma.",
+    "La ley de 2025 refuerza el control parlamentario y del inspector general."
+  ],
+  law: {
+    domestic: [
+      "La ley de interceptación RICA regula las escuchas; la Corte Constitucional la declaró inconstitucional en parte en 2021.",
+      "La ley de enmienda de 2025 disuelve la SSA y crea dos servicios.",
+      "La ley de protección de información del Estado de 2013 nunca entró en vigor por críticas a su alcance."
+    ],
+    foreign: [
+      "El nuevo Servicio de Inteligencia Exterior tendrá a su cargo la inteligencia fuera del país."
+    ],
+    oversight: [
+      "Inspector General de Inteligencia (IGI).",
+      "Comité Conjunto Permanente de Inteligencia (JSCI).",
+      "Corte Constitucional, que limitó la interceptación."
+    ]
+  },
+  rights: [
+    { d: "1994", dir: "recorta", area: "Debido proceso", h: "Fin del apartheid", x: "Nuevos servicios con control parlamentario e inspector general." },
+    { d: "2021-02", dir: "recorta", area: "Privacidad", h: "Fallo amaBhungane", x: "La Corte Constitucional declara ilegal la interceptación masiva y exige avisar a los vigilados." },
+    { d: "2025-03", dir: "recorta", area: "Debido proceso", h: "Disolución de la SSA", x: "La reforma busca evitar el uso político del servicio; críticos advierten sobre definiciones amplias de seguridad." }
+  ],
+  events: [
+    { d: "1989-05-01", lat: -26.2, lon: 28.04, c: "South Africa", t: "encubierta", ev: 1, h: "Asesinato de David Webster", x: "Un agente de la Oficina de Cooperación Civil mata al antropólogo y activista frente a su casa en Johannesburgo.", u: "https://en.wikipedia.org/wiki/Civil_Cooperation_Bureau", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2017-07", lat: -25.75, lon: 28.19, c: "South Africa", t: "humana", ev: 1, h: "Red paralela de agentes", x: "Sale a la luz que el ex director Arthur Fraser montó una red de agentes con fondos sin control.", u: "https://en.wikipedia.org/wiki/State_Security_Agency_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2022-06", lat: -24.5, lon: 28.6, c: "South Africa", t: "contra", ev: 1, h: "Denuncia por Phala Phala", x: "Arthur Fraser denuncia que el presidente ocultó el robo de dólares en su granja; el caso se volvió una crisis política.", u: "https://en.wikipedia.org/wiki/Phala_Phala_scandal", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  interest: {
+    "Mozambique": 2, "Zimbabwe": 2, "Lesotho": 2, "Dem. Rep. Congo": 1, "eSwatini": 1, "Russia": 1, "China": 1, "United States of America": 1
+  },
+  timeline: [
+    { era: "Apartheid", d: "1969", h: "Nace la BOSS", x: "La Oficina de Seguridad del Estado persigue a la oposición." },
+    { era: "", d: "1986–1990", h: "Oficina de Cooperación Civil", x: "Unidad secreta del Ejército que asesina a opositores." },
+    { era: "Democracia", d: "1994", h: "Nuevos servicios", x: "Se crean servicios con control parlamentario." },
+    { era: "", d: "2009", h: "Nace la SSA", x: "Zuma unifica la inteligencia civil." },
+    { era: "", d: "2018–2022", h: "Panel y comisión Zondo", x: "Revelan la captura del servicio." },
+    { era: "Actual", d: "2025–2026", h: "Disolución de la SSA", x: "Comienza la división en dos servicios.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2009–2018", h: "La captura de la SSA", x: "La comisión Zondo concluyó que la SSA se usó para proteger al presidente Zuma y atacar a sus rivales. Detectó grandes retiros de efectivo sin justificar y una red paralela de agentes llamada Principal Agent Network.", who: "Comisión judicial sobre la captura del Estado", missing: "", u: "https://en.wikipedia.org/wiki/Zondo_Commission", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "1986–1990", h: "La Oficina de Cooperación Civil", x: "Una unidad secreta de las Fuerzas de Defensa asesinó y atacó a opositores dentro y fuera del país. La Comisión de la Verdad y la Reconciliación documentó sus crímenes.", who: "Comisión de la Verdad y la Reconciliación", missing: "", u: "https://en.wikipedia.org/wiki/Civil_Cooperation_Bureau", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "2006–2021", h: "La interceptación masiva", x: "La Corte Constitucional falló en 2021, a pedido del centro de periodismo amaBhungane, que el Estado no tenía base legal para la interceptación masiva. El caso empezó cuando se supo que un periodista había sido espiado.", who: "Corte Constitucional", missing: "", u: "https://en.wikipedia.org/wiki/State_Security_Agency_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "2021-07", ev: 1, w: 3, h: "Los disturbios de julio de 2021", x: "Saqueos y violencia tras la detención de Zuma dejaron más de 300 muertos; un panel de expertos concluyó que la inteligencia falló en anticiparlos.", why: "No está en duda; lo concluyó un panel convocado por el presidente.", wx: "Informe del panel de expertos.", who: "Panel de expertos de la Presidencia", u: "https://en.wikipedia.org/wiki/2021_South_African_unrest", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "La SSA tiene oficiales en embajadas, sobre todo en África.",
+    campo: "Agentes y fuentes en la región; la comisión Zondo describió una red paralela fuera de los controles.",
+    oficina: "El comité de coordinación produce evaluaciones para el gabinete, cuya calidad fue criticada tras 2021.",
+    reclutamiento: "La ley de 2025 restablece la academia nacional de inteligencia.",
+    tecnica: "Interceptación del Centro Nacional de Comunicaciones, limitada por la Corte en 2021.",
+    enlaces: "Cooperación con servicios de los BRICS y de la región, y contactos con servicios occidentales."
+  },
+  insiders: [
+    { k: "denunciante", dir: "sale", ev: 2, d: "2022", n: "Arthur Fraser", h: "El ex director que denunció al presidente", x: "Presentó una denuncia penal contra Ramaphosa por el dinero robado en Phala Phala. Él mismo fue acusado por la comisión Zondo de manejar una red paralela.", cargo: "Ex director general de la SSA", hacia: "Policía y opinión pública", fin: "La fiscalía no acusó al presidente; Fraser no fue condenado.", who: "Comisión Zondo y prensa", u: "https://en.wikipedia.org/wiki/Phala_Phala_scandal", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "1960–1994", h: "Los crímenes del apartheid", x: "Los servicios destruyeron grandes cantidades de archivos antes de la transición, según la Comisión de la Verdad.", obj: "Evitar responsabilidades.", aquien: "La Comisión de la Verdad y la sociedad", como: "Investigaciones de la propia comisión.", who: "Comisión de la Verdad y la Reconciliación", u: "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  practicas: {
+    propios: { ev: 1, x: "La SSA espió a rivales de Zuma dentro del propio partido de gobierno, según la comisión Zondo.", u: "https://en.wikipedia.org/wiki/Zondo_Commission", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 1, x: "Durante el gobierno de Zuma la SSA atacó a rivales políticos, según la comisión Zondo.", u: "https://en.wikipedia.org/wiki/Zondo_Commission", st: "Wikipedia (síntesis de fuentes)" },
+    periodistas: { ev: 1, x: "El periodista Sam Sole fue espiado; su caso llevó al fallo de 2021.", u: "https://en.wikipedia.org/wiki/State_Security_Agency_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
+    activistas: { ev: 1, x: "En el apartheid los servicios persiguieron y asesinaron a activistas.", u: "https://en.wikipedia.org/wiki/Civil_Cooperation_Bureau", st: "Wikipedia (síntesis de fuentes)" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 1, x: "La Oficina de Cooperación Civil mató a opositores en el apartheid.", u: "https://en.wikipedia.org/wiki/Civil_Cooperation_Bureau", st: "Wikipedia (síntesis de fuentes)" },
+    sabotaje: { ev: 1, x: "Los servicios del apartheid pusieron bombas en oficinas del ANC en el exterior, según la Comisión de la Verdad.", u: "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
+    tortura: { ev: 1, x: "La policía de seguridad torturó a detenidos políticos en el apartheid.", u: "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
+    secuestro: { ev: 1, x: "Opositores fueron secuestrados en países vecinos en el apartheid.", u: "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
+    propaganda: { ev: 1, x: "El gobierno del apartheid financió en secreto medios de propaganda en el escándalo de la Información de 1978.", u: "https://en.wikipedia.org/wiki/Information_Scandal", st: "Wikipedia (síntesis de fuentes)" },
+    conflictos: { ev: 1, x: "El apartheid apoyó a la guerrilla Renamo en Mozambique y a UNITA en Angola.", u: "https://en.wikipedia.org/wiki/RENAMO", st: "Wikipedia (síntesis de fuentes)" },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 1, x: "Mercenarios con base en Sudáfrica intentaron un golpe en Seychelles en 1981 con apoyo de oficiales sudafricanos.", u: "https://en.wikipedia.org/wiki/1981_Seychelles_coup_attempt", st: "Wikipedia (síntesis de fuentes)" },
+    elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    partidos: { ev: 1, x: "El apartheid financió partidos rivales del ANC, según la Comisión de la Verdad.", u: "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
+    diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    armas: { ev: 1, x: "Abasteció de armas a Renamo y UNITA en las décadas de 1970 y 1980.", u: "https://en.wikipedia.org/wiki/RENAMO", st: "Wikipedia (síntesis de fuentes)" },
+    inteligencia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    entrenamiento: { ev: 1, x: "Entrenó a la guerrilla Renamo en el apartheid.", u: "https://en.wikipedia.org/wiki/RENAMO", st: "Wikipedia (síntesis de fuentes)" }
+  },
+  dinero: {
+    presupuesto: "El presupuesto de la SSA es parcialmente secreto. La comisión Zondo detectó grandes retiros de efectivo sin justificar.",
+    uso: "Personal, interceptación y operaciones; parte se desvió a fines políticos según la comisión.",
+    ingresos: "Esta ficha no encontró ingresos propios.",
+    empresas: "En el apartheid se usaron empresas de fachada para la Oficina de Cooperación Civil.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "La Oficina de Cooperación Civil contrató a criminales para sus ataques.",
+    cobertura: "La comisión Zondo señaló pagos de la SSA a medios y a organizaciones afines a Zuma."
+  },
+  fondos: [
+    { k: "desvio", rol: "autor", ev: 1, d: "2012–2018", h: "El efectivo de la SSA", x: "La comisión Zondo concluyó que se retiraron grandes sumas en efectivo sin control y que parte terminó en fines políticos.", obj: "Proteger a la facción de Zuma.", who: "Comisión judicial sobre la captura del Estado", u: "https://en.wikipedia.org/wiki/Zondo_Commission", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "cobertura", rol: "autor", ev: 1, d: "1973–1978", h: "El escándalo de la Información", x: "El gobierno del apartheid financió en secreto un diario y campañas de propaganda en el exterior.", obj: "Mejorar la imagen del régimen.", who: "Comisión Erasmus", u: "https://en.wikipedia.org/wiki/Information_Scandal", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "Armscor", c: "nacional", rubro: "Armamento", rel: "Estatal", x: "Empresa estatal que eludió el embargo de armas del apartheid con redes encubiertas." }
+  ],
+  struggles: [
+    { a: "Ramaphosa", b: "Facción de Zuma", k: "Con la política", stake: "El control del aparato de seguridad", state: "Abierta", x: "Fraser, aliado de Zuma, denunció al presidente; la reforma busca cerrar esa etapa." }
+  ],
+  sources: [
+    { t: "EWN: se firma la ley que divide la SSA (2025)", u: "https://ewn.co.za/2025/03/28/ramaphosa-signs-general-intelligence-laws-amendment-bill-into-law-splits-ssa-into-2-bodies" },
+    { t: "SAnews: los dos nuevos servicios", u: "https://www.sanews.gov.za/node/74134" },
+    { t: "Wikipedia: Zondo Commission", u: "https://en.wikipedia.org/wiki/Zondo_Commission" },
+    { t: "Wikipedia: State Security Agency (South Africa)", u: "https://en.wikipedia.org/wiki/State_Security_Agency_(South_Africa)" }
   ]
- },
- "rights": [
-  {
-   "d": "1952",
-   "dir": "recorta",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1962",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1967",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1977",
-   "dir": "amplia",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1987",
-   "dir": "recorta",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1995",
-   "dir": "recorta",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1999",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2008",
-   "dir": "recorta",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2019",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  }
- ],
- "events": [
-  {
-   "d": "1962-10-07",
-   "lat": 20.67,
-   "lon": 147.68,
-   "t": "ciber",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1967-10-04",
-   "lat": 45.86,
-   "lon": 145.7,
-   "t": "humana",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1972-08-13",
-   "lat": -14.87,
-   "lon": 76.43,
-   "t": "sabotaje",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1975-10-03",
-   "lat": 47.3,
-   "lon": 56.28,
-   "t": "senales",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1978-05-27",
-   "lat": -13.99,
-   "lon": 64.74,
-   "t": "encubierta",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1985-03-21",
-   "lat": -23.87,
-   "lon": 30.67,
-   "t": "encubierta",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1990-02-12",
-   "lat": 15.54,
-   "lon": -23.94,
-   "t": "encubierta",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1993-02-01",
-   "lat": 48,
-   "lon": -143.13,
-   "t": "ciber",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1998-02-10",
-   "lat": -25.42,
-   "lon": 24.25,
-   "t": "contra",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2001-12-21",
-   "lat": 23.33,
-   "lon": 46.23,
-   "t": "senales",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2005-06-04",
-   "lat": -22.43,
-   "lon": 29.33,
-   "t": "encubierta",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2012-01-21",
-   "lat": -38.13,
-   "lon": -83.37,
-   "t": "humana",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2016-01-06",
-   "lat": 8.04,
-   "lon": -90.43,
-   "t": "humana",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2023-02-20",
-   "lat": -25.16,
-   "lon": 28.35,
-   "t": "sabotaje",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  }
- ],
- "interest": {
-  "Russia": 1,
-  "United Kingdom": 1,
-  "France": 3,
-  "Israel": 3,
-  "Turkey": 1,
-  "Pakistan": 1,
-  "Syria": 2,
-  "Iraq": 1,
-  "Mexico": 3,
-  "North Korea": 2,
-  "Egypt": 1,
-  "Sudan": 1,
-  "Colombia": 2
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1971",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1962",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "1987",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "1979",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "2016",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1978",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };

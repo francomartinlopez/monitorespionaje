@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Sudáfrica: la disolución de la SSA en dos servicios (2025), la comisión Zondo y la red paralela de agentes, Phala Phala, el fallo de 2021 contra la interceptación masiva y los crímenes de la Oficina de Cooperación Civil.
+
 - 2026-11-15 · Ficha real de Suiza: SRC, MND, fedpol y órganos de control; Rusia como principal amenaza (2026), la sospecha de fuga hacia Rusia, Crypto AG, el escándalo de las fichas y el caso Jeanmaire.
 
 - 2026-11-15 · Ficha real de Vietnam: Ministerio de Seguridad Pública, TC2 y Comando del Ciberespacio; el secuestro de Berlín de 2017, el caso Duong Van Thai, OceanLotus y la Fuerza 47.
