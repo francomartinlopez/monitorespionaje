@@ -9,7 +9,7 @@ Sitio estático (HTML, CSS y JavaScript sin dependencias externas salvo d3-geo y
 ## Estructura
 - `index.html`, `css/`, `js/`: interfaz.
 - `data/meta.js`: fecha de corte, alertas, rubros, tipos de operación, escala de evidencia, tipos de relación.
-- `data/paises.js`: los 46 países y sus organismos reales, agrupados para el organigrama.
+- `data/paises.js`: los 53 países y sus organismos reales, agrupados para el organigrama.
 - `data/relaciones.js`: vínculos entre servicios (cooperación, ambigua, enfrentamiento).
 - `data/paises/<id>.js`: la ficha de cada país.
 - `scripts/muestra.js`: genera fichas de prueba (no pisa las fichas reales).

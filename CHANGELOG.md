@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Suman Afganistán, Kazajistán, Siria, Jordania y Argelia (relevantes por una habilidad) y Australia y Canadá (muy relevantes, antes dentro de las fichas de EE.UU. y el Reino Unido): el monitor llega a 53 países.
+
 - 2026-11-15 · Suman Rumania, Georgia, Moldavia, Azerbaiyán, Catar y Colombia (relevantes por una habilidad): el monitor llega a 46 países.
 
 - 2026-11-15 · Suman Italia y España (muy relevantes) y Grecia, Chipre y Bélgica (relevantes por una habilidad): el monitor llega a 40 países.

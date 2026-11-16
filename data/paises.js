@@ -1,4 +1,4 @@
-// Los 46 países del monitor. Los organismos son reales; el resto del contenido de cada
+// Los 53 países del monitor. Los organismos son reales; el resto del contenido de cada
 // ficha está en data/paises/<id>.js.
 // g: grupo del organigrama → k coordinación · c inteligencia civil · m militar · p policial y seguridad · j control y justicia
 // tier: 1 núcleo · 2 muy relevante · 3 relevante en su región o por una habilidad
@@ -389,6 +389,59 @@ window.PAISES = [
       { code: "CGFM", name: "Inteligencia de las Fuerzas Militares", g: "m" },
       { code: "DIPOL", name: "Dirección de Inteligencia Policial", g: "p" },
       { code: "Comisión", name: "Comisión Legal de Seguimiento a las Actividades de Inteligencia", g: "j" }
+    ] },
+  { id: "af", name: "Afganistán", short: "Afganistán", map: "Afghanistan", tier: 3, center: [69.17, 34.53], skill: "Inteligencia talibana y refugio de grupos armados",
+    agencies: [
+      { code: "Emir", name: "Liderazgo del Emirato Islámico", g: "k" },
+      { code: "GDI", name: "Dirección General de Inteligencia", g: "c" },
+      { code: "Defensa", name: "Inteligencia del Ministerio de Defensa", g: "m" },
+      { code: "Interior", name: "Ministerio del Interior", g: "p" }
+    ] },
+  { id: "kz", name: "Kazajistán", short: "Kazajistán", map: "Kazakhstan", tier: 3, center: [71.45, 51.17], skill: "Entre Rusia y China; la caída del jefe del KNB",
+    agencies: [
+      { code: "CS", name: "Consejo de Seguridad", g: "k" },
+      { code: "Syrbar", name: "Servicio de Inteligencia Exterior", g: "c" },
+      { code: "Defensa", name: "Inteligencia Militar", g: "m" },
+      { code: "KNB", name: "Comité de Seguridad Nacional", g: "p" }
+    ] },
+  { id: "sy", name: "Siria", short: "Siria", map: "Syria", tier: 3, center: [36.29, 33.51], skill: "Un aparato de seguridad que se desarma y se rehace",
+    agencies: [
+      { code: "CSN", name: "Consejo de Seguridad Nacional", g: "k" },
+      { code: "GID", name: "Servicio General de Inteligencia", g: "c" },
+      { code: "Defensa", name: "Inteligencia Militar", g: "m" },
+      { code: "Seguridad General", name: "Seguridad General del Ministerio del Interior", g: "p" }
+    ] },
+  { id: "jo", name: "Jordania", short: "Jordania", map: "Jordan", tier: 3, center: [35.93, 31.95], skill: "Socio clave de la CIA en Medio Oriente",
+    agencies: [
+      { code: "CSN", name: "Consejo de Seguridad Nacional", g: "k" },
+      { code: "GID", name: "Dirección General de Inteligencia", g: "c" },
+      { code: "Defensa", name: "Inteligencia Militar", g: "m" },
+      { code: "PSD", name: "Dirección de Seguridad Pública", g: "p" }
+    ] },
+  { id: "dz", name: "Argelia", short: "Argelia", map: "Algeria", tier: 3, center: [3.06, 36.75], skill: "Persecución de opositores en Francia",
+    agencies: [
+      { code: "HCS", name: "Alto Consejo de Seguridad", g: "k" },
+      { code: "DGDSE", name: "Dirección General de Documentación y Seguridad Exterior", g: "c" },
+      { code: "DCSA", name: "Dirección Central de Seguridad del Ejército", g: "m" },
+      { code: "DGSI", name: "Dirección General de Seguridad Interior", g: "p" }
+    ] },
+  { id: "au", name: "Australia", short: "Australia", map: "Australia", tier: 2, center: [149.13, -35.28], alliance: "Cinco Ojos (con EE.UU., Reino Unido, Canadá y Nueva Zelanda)",
+    agencies: [
+      { code: "ONI", name: "Oficina de Inteligencia Nacional", g: "k" },
+      { code: "ASIS", name: "Servicio Secreto de Inteligencia de Australia", g: "c" },
+      { code: "ASD", name: "Dirección de Señales de Australia", g: "m" },
+      { code: "DIO", name: "Organización de Inteligencia de Defensa", g: "m" },
+      { code: "ASIO", name: "Organización de Inteligencia de Seguridad de Australia", g: "p" },
+      { code: "IGIS", name: "Inspector General de Inteligencia y Seguridad", g: "j" }
+    ] },
+  { id: "ca", name: "Canadá", short: "Canadá", map: "Canada", tier: 2, center: [-75.7, 45.42], alliance: "Cinco Ojos (con EE.UU., Reino Unido, Australia y Nueva Zelanda)",
+    agencies: [
+      { code: "NSIA", name: "Asesor de Seguridad Nacional e Inteligencia del Primer Ministro", g: "k" },
+      { code: "CSE", name: "Establecimiento de Seguridad de las Comunicaciones", g: "c" },
+      { code: "CFINTCOM", name: "Comando de Inteligencia de las Fuerzas Canadienses", g: "m" },
+      { code: "CSIS", name: "Servicio Canadiense de Inteligencia de Seguridad", g: "p" },
+      { code: "RCMP", name: "Real Policía Montada de Canadá", g: "p" },
+      { code: "NSIRA", name: "Agencia de Revisión de la Seguridad Nacional y la Inteligencia", g: "j" }
     ] }
 ];
 

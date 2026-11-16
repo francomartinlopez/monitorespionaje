@@ -7,12 +7,12 @@ Responsable editorial: Franco Martín López. Proyecto hermano de Monitor de Con
 Esqueleto: estructura completa y contenido de prueba. `MONITOR_META.skeleton = true` muestra la banda amarilla de aviso; se apaga cuando haya contenido real.
 Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un país, reemplazá su archivo entero y quitá `sample`.
 
-## Países (46)
+## Países (53)
 - Núcleo: us, ru, cn, uk, il, fr, de, ir, kp, ar, va
 - Muy relevantes: ua, tr, pk, in, sa
-- Muy relevantes (suma de noviembre de 2026): tw, jp, eg, mx, pl, it, es
-- Relevantes en su región o por una habilidad: cu, ae, br, kr, vn, ch, za, sg, hu, nl, by, ve, rw, se, gr, cy, be, ro, ge, md, az, qa, co
-- Canadá, Australia y Nueva Zelanda entran como Cinco Ojos dentro de las fichas de us y uk.
+- Muy relevantes (suma de noviembre de 2026): tw, jp, eg, mx, pl, it, es, au, ca
+- Relevantes en su región o por una habilidad: cu, ae, br, kr, vn, ch, za, sg, hu, nl, by, ve, rw, se, gr, cy, be, ro, ge, md, az, qa, co, af, kz, sy, jo, dz
+- Nueva Zelanda entra como Cinco Ojos dentro de las fichas de us y uk.
 
 ## Formato de una ficha (`data/paises/<id>.js`)
 `(window.FICHAS = window.FICHAS || {})["<id>"] = { ... }` con:
