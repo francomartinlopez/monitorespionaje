@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Egipto: GIS, Inteligencia Militar y Sector de Seguridad Nacional; la condena en Roma por el secuestro de Giulio Regeni, Predator contra Ahmed Tantawy, el caso Menendez y el conglomerado de medios del GIS.
+
 - 2026-11-15 · Ficha real de Japón: la reforma de 2026 (Consejo Nacional de Inteligencia y Oficina Nacional de Inteligencia, que reemplaza a la CIRO), el caso Ohkawara Kakohki, el espionaje ruso, Mukden y la Tokko. Se actualizan los organismos en data/paises.js.
 
 - 2026-11-15 · Ficha real de Taiwán: NSB, MIB y MJIB, la ola de causas por espionaje chino, el caso de los colaboradores del PDP, el asesinato de Henry Liu, el cable de Penghu y los fondos secretos de la NSB.

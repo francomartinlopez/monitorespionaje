@@ -1,850 +1,163 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Egipto · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["eg"] = {
- "sample": true,
- "id": "eg",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Egipto: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 3,
-  "senales": 2,
-  "ciber": 2,
-  "imagenes": 2,
-  "encubierta": 3,
-  "contra": 4
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "CSN": {
-   "since": 1949,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Consejo de Seguridad Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "GIS": {
-   "since": 1969,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio General de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "MI": {
-   "since": 2011,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia Militar: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "NSS": {
-   "since": 1982,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Sector de Seguridad Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "eg",
+  updated: "2026-11-15",
+  summary: [
+    "El Servicio General de Inteligencia (GIS), la Mujabarat, es uno de los pilares del poder en Egipto junto con el Ejército. Lo dirige desde octubre de 2024 el general Hassan Rashad, que en enero de 2026 se sumó a la junta ejecutiva para la reconstrucción de Gaza. El presidente Abdel Fattah al-Sisi fue jefe de la Inteligencia Militar antes del golpe de 2013.",
+    "El GIS maneja los expedientes más sensibles de la política exterior: la mediación entre Israel y Hamas, Libia, Sudán y la relación con EE.UU. Hacia adentro controla, a través de una empresa propia, la mayor parte de los canales y diarios privados del país. El Sector de Seguridad Nacional (NSS), la policía política, se ocupa de la represión interna.",
+    "Los servicios egipcios están acusados de desapariciones forzadas y torturas. En septiembre de 2026 un tribunal de Roma condenó en ausencia a tres oficiales de seguridad egipcios a 10 años por el secuestro del investigador italiano Giulio Regeni, asesinado en El Cairo en 2016; Egipto niega su participación."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Director del GIS", v: "Hassan Rashad", n: "desde octubre de 2024" },
+    { l: "Caso Regeni", v: "3 condenas en Roma", n: "10 años por secuestro, en ausencia (sept. 2026)" },
+    { l: "Medios del GIS", v: "Más de 40 empresas", n: "United Media Services, según CPJ y prensa independiente" },
+    { l: "Libertad de prensa", v: "Puesto 169 de 180", n: "Reporteros sin Fronteras, 2026" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 4, senales: 3, ciber: 3, imagenes: 2, encubierta: 3, contra: 4 },
+  powerWhy: {
+    humana: "Redes de fuentes en Gaza, Libia y Sudán; interlocutor obligado de Israel, Hamas y EE.UU.",
+    senales: "Interceptación interna amplia sobre las redes de telecomunicaciones; poca capacidad propia en el exterior.",
+    ciber: "Compra programas espía comerciales como Predator e inyecta tráfico en las redes de los operadores.",
+    imagenes: "Depende sobre todo de aliados y de satélites comerciales.",
+    encubierta: "Opera en Libia y en la mediación de Gaza; la intervención directa está poco documentada.",
+    contra: "Aparato de seguridad interna muy extendido, orientado a vigilar a la oposición."
+  },
+  priorities: [
+    { h: "Gaza", x: "Mediación entre Israel y Hamas, frontera de Rafah y reconstrucción." },
+    { h: "Libia y Sudán", x: "Apoyo a aliados en dos guerras en sus fronteras." },
+    { h: "Oposición interna", x: "Hermanos Musulmanes, críticos y opositores en el exilio." },
+    { h: "Etiopía", x: "La represa del Nilo." },
+    { h: "Terrorismo", x: "Grupos yihadistas en el Sinaí y el desierto occidental." }
+  ],
+  focos: ["Gaza", "Israel", "Libia", "Sudán", "Hermanos Musulmanes"],
+  bodies: {
+    "CSN": { since: 2014, how: "Consejo de Seguridad Nacional presidido por el presidente, que fija la política de seguridad.", staff: "No se publica.", budget: "Dentro de la Presidencia.", tech: [], where: ["El Cairo"] },
+    "GIS": { since: 1954, how: "Servicio General de Inteligencia: inteligencia exterior, contraespionaje y expedientes políticos clave como Gaza y Libia. Depende directamente del presidente y controla un conglomerado de medios.", staff: "No se publica.", budget: "Secreto.", tech: ["Interceptación", "Programas espía comerciales"], where: ["El Cairo", "Embajadas"] },
+    "MI": { since: 1952, how: "Inteligencia Militar y Reconocimiento del Ministerio de Defensa. La dirigió Sisi entre 2010 y 2012.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: [], where: ["El Cairo"] },
+    "NSS": { since: 2011, how: "Sector de Seguridad Nacional del Ministerio del Interior, heredero de la Investigación de Seguridad del Estado disuelta tras la revolución de 2011. Vigila y detiene a opositores.", staff: "No se publica.", budget: "Dentro del Interior.", tech: ["Vigilancia de redes sociales"], where: ["Todo el país"] }
+  },
+  civil: [
+    "El GIS responde al presidente; no hay control parlamentario efectivo.",
+    "Militares retirados y oficiales de inteligencia ocupan cargos clave del Estado y de la economía.",
+    "El Parlamento no discute el presupuesto de los servicios."
+  ],
+  law: {
+    domestic: [
+      "La ley antiterrorista de 2015 y la ley de delitos informáticos de 2018 permiten bloquear sitios y vigilar comunicaciones.",
+      "La detención preventiva se renueva por años, una práctica que organizaciones de derechos humanos llaman \"rotación\".",
+      "La ley de 2020 exige permiso de inteligencia para que militares retirados se presenten a elecciones."
+    ],
+    foreign: [
+      "No hay normas públicas sobre operaciones en el exterior."
+    ],
+    oversight: [
+      "No hay un órgano independiente que controle a los servicios.",
+      "Tribunales extranjeros, como el de Roma en el caso Regeni, juzgaron a oficiales egipcios en ausencia."
+    ]
+  },
+  rights: [
+    { d: "1981-10", dir: "amplia", area: "Debido proceso", h: "Estado de emergencia", x: "Tras el asesinato de Sadat rige una emergencia que dura hasta 2012 y permite detenciones sin juicio." },
+    { d: "2011-03", dir: "recorta", area: "Debido proceso", h: "Disolución de Seguridad del Estado", x: "Tras la revolución se disuelve la policía política, que renace como Sector de Seguridad Nacional." },
+    { d: "2015-08", dir: "amplia", area: "Debido proceso", h: "Ley antiterrorista", x: "Amplía las detenciones y castiga publicar cifras distintas de las oficiales sobre ataques." },
+    { d: "2018-08", dir: "amplia", area: "Expresión", h: "Ley de delitos informáticos", x: "Permite bloquear sitios y exige a los operadores guardar datos de los usuarios." }
+  ],
+  events: [
+    { d: "2003-02-17", lat: 45.48, lon: 9.2, c: "Italy", t: "encubierta", ev: 1, h: "Secuestro de Abu Omar", x: "La CIA secuestra en Milán a un clérigo egipcio y lo lleva a Egipto, donde denunció torturas; Italia condenó a agentes estadounidenses.", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2007-06-27", lat: 51.5, lon: -0.15, c: "United Kingdom", t: "contra", ev: 3, h: "Muerte de Ashraf Marwan", x: "El yerno de Nasser, que había sido fuente del Mossad, cae de un balcón en Londres; la investigación británica no determinó si fue asesinato.", u: "https://en.wikipedia.org/wiki/Ashraf_Marwan", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2016-01-25", lat: 30.0, lon: 31.2, c: "Egypt", t: "contra", ev: 1, h: "Secuestro de Giulio Regeni", x: "El investigador italiano desaparece en El Cairo; su cuerpo torturado aparece días después. Un tribunal de Roma condenó a tres oficiales egipcios en 2026.", u: "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni", st: "Al Jazeera" },
+    { d: "2023-08", lat: 30.05, lon: 31.25, c: "Egypt", t: "ciber", ev: 2, h: "Predator contra un candidato", x: "Intentan infectar el teléfono del opositor Ahmed Tantawy con un programa espía tras anunciar su candidatura; Citizen Lab lo atribuye al gobierno egipcio.", u: "https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/", st: "Citizen Lab" }
+  ],
+  interest: {
+    "Israel": 3, "Palestine": 3, "Libya": 3, "Sudan": 3, "Ethiopia": 2, "Saudi Arabia": 2, "United Arab Emirates": 2, "Qatar": 2, "Turkey": 2, "United States of America": 2, "Italy": 1, "S. Sudan": 1
+  },
+  timeline: [
+    { era: "Nasser", d: "1954", h: "Nace el GIS", x: "Los Oficiales Libres crean un servicio de inteligencia tras la revolución de 1952." },
+    { era: "", d: "1973", h: "Guerra de Octubre", x: "El engaño egipcio sorprende a Israel." },
+    { era: "Mubarak", d: "1993–2011", h: "Omar Suleiman", x: "El jefe del GIS coopera con la CIA en traslados de detenidos y maneja el expediente palestino." },
+    { era: "", d: "2011", h: "Revolución", x: "Se disuelve la policía política, que vuelve con otro nombre." },
+    { era: "Sisi", d: "2013", h: "Golpe militar", x: "El ex jefe de la Inteligencia Militar derroca al presidente Mohamed Morsi." },
+    { era: "", d: "2016", h: "Caso Regeni", x: "El asesinato de un investigador italiano abre una crisis con Italia." },
+    { era: "Actual", d: "2024–2026", h: "Gaza y Regeni", x: "El GIS media en Gaza; Roma condena a tres oficiales egipcios.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2016", h: "El secuestro de Giulio Regeni", x: "El investigador de la Universidad de Cambridge estudiaba sindicatos independientes en El Cairo. Un tribunal de Roma condenó en ausencia a tres oficiales de seguridad egipcios a 10 años por secuestro agravado, absolvió a un cuarto y no los condenó por el asesinato. Egipto niega toda participación y no cooperó con el juicio.", who: "Primer Tribunal de Assise de Roma", missing: "", u: "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni", st: "Al Jazeera" },
+    { ev: 1, ilegal: true, d: "2018–2022", h: "El senador Menendez", x: "Un jurado de EE.UU. condenó en 2024 al senador Bob Menendez por recibir sobornos para favorecer a Egipto, entre otros cargos. La acusación describió contactos con funcionarios de inteligencia egipcios.", who: "Justicia federal de EE.UU.", missing: "", u: "https://en.wikipedia.org/wiki/Bob_Menendez", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "2023", h: "Predator contra Ahmed Tantawy", x: "Citizen Lab detectó intentos de infectar el teléfono del ex diputado tras anunciar que competiría contra Sisi. Lo atribuyó con alta confianza al gobierno egipcio, cliente conocido del programa, porque el ataque salió de un equipo dentro de Egipto.", who: "Citizen Lab y Google", missing: "Reconocimiento oficial o documentos internos.", u: "https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/", st: "Citizen Lab" },
+    { ev: 3, ilegal: false, d: "1956–1973", h: "Rafaat al-Haggan", x: "Egipto presenta como su agente infiltrado en Israel durante años a un hombre que inspiró una famosa serie de televisión. Israel sostiene que trabajaba en realidad para su inteligencia.", who: "GIS de Egipto", missing: "Documentos de ambos servicios.", u: "https://en.wikipedia.org/wiki/Refaat_Al-Gammal", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "1967-06", ev: 1, w: 3, h: "La guerra de los Seis Días", x: "Israel destruyó la aviación egipcia en tierra en pocas horas.", why: "No está en duda; la sorpresa está ampliamente documentada.", wx: "Abundante historiografía.", who: "Historiadores", u: "https://en.wikipedia.org/wiki/Six-Day_War", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "1954", ev: 1, w: 3, h: "El caso Lavon", x: "Agentes israelíes pusieron bombas en blancos estadounidenses y británicos en Egipto para culpar a egipcios. Egipto desarmó la red.", why: "No está en duda; Israel lo reconoció en 2005.", wx: "Reconocimiento oficial israelí.", who: "Gobierno de Israel", u: "https://en.wikipedia.org/wiki/Lavon_affair", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "Oficiales del GIS trabajan en embajadas y vigilan a opositores en el exterior, según organizaciones de derechos humanos.",
+    campo: "Fuentes y contactos en Gaza, Libia y Sudán, donde el GIS negocia con milicias y facciones.",
+    oficina: "La sede de El Cairo maneja expedientes políticos que en otros países llevaría la Cancillería.",
+    reclutamiento: "Recluta sobre todo en el Ejército y la Academia Militar; parientes del presidente ocuparon cargos altos.",
+    tecnica: "Interceptación interna, inspección de tráfico en las redes de los operadores y programas espía comprados.",
+    enlaces: "Cooperación histórica con la CIA; coordinación con Israel en Gaza y el Sinaí y con Emiratos y Arabia Saudita."
+  },
+  insiders: [
+    { k: "topo", dir: "sale", ev: 1, d: "1970–1998", n: "Ashraf Marwan", h: "El yerno de Nasser", x: "Pasó secretos al Mossad durante décadas; alertó sobre la guerra de 1973. Algunos sostienen que era un doble agente egipcio.", cargo: "Asesor de la Presidencia", hacia: "Mossad (Israel)", fin: "Murió en Londres en 2007 al caer de un balcón.", who: "Tribunales de Israel e historiadores", u: "https://en.wikipedia.org/wiki/Ashraf_Marwan", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "entra", ev: 1, d: "2018–2022", n: "Bob Menendez", h: "El senador de EE.UU.", x: "Recibió oro y dinero a cambio de favorecer a Egipto en ayuda militar, según el jurado que lo condenó.", cargo: "Senador y presidente de la Comisión de Relaciones Exteriores", hacia: "Funcionarios egipcios", fin: "Condenado en 2024 a 11 años de prisión.", who: "Justicia federal de EE.UU.", u: "https://en.wikipedia.org/wiki/Bob_Menendez", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "2016–2026", h: "Los responsables del caso Regeni", x: "Egipto no informó el paradero de los acusados ni cooperó con la justicia italiana.", obj: "Evitar el juicio a sus oficiales.", aquien: "La justicia italiana y la familia de la víctima", como: "La fiscalía de Roma reconstruyó el caso con testigos y registros telefónicos.", who: "Fiscalía de Roma", u: "https://www.thestar.com.my/news/world/2026/09/29/italy-distances-egypt-from-verdict-over-giulio-regeni-as-opposition-attacks", st: "Reuters, vía The Star" },
+    { k: "desinfo", rol: "autor", ev: 1, d: "2016–2026", h: "El control de los medios", x: "Una empresa ligada al GIS controla canales y diarios privados y despide a conductores críticos.", obj: "Controlar el mensaje político.", who: "Comité para la Protección de los Periodistas (CPJ)", u: "https://cpj.org/2025/07/egypts-intelligence-controlled-media-company-retaliates-against-programs-hosts-critical-of-government/", st: "CPJ" }
+  ],
+  practicas: {
+    propios: { ev: 2, x: "Los servicios controlan a militares retirados, que necesitan permiso para presentarse a elecciones.", u: "https://en.wikipedia.org/wiki/General_Intelligence_Service_(Egypt)", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 2, x: "Un programa espía apuntó al opositor Ahmed Tantawy tras anunciar su candidatura, según Citizen Lab.", u: "https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/", st: "Citizen Lab" },
+    periodistas: { ev: 2, x: "Un conductor de televisión exiliado fue infectado con Predator en 2021, según Citizen Lab.", u: "https://citizenlab.ca/tag/egypt", st: "Citizen Lab" },
+    activistas: { ev: 1, x: "El Sector de Seguridad Nacional detiene y desaparece a activistas, según organizaciones de derechos humanos.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Egypt", st: "Wikipedia (síntesis de fuentes)" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 1, x: "Vigila a Turquía, Catar y los Hermanos Musulmanes, y negocia con Hamas.", u: "https://en.wikipedia.org/wiki/General_Intelligence_Service_(Egypt)", st: "Wikipedia (síntesis de fuentes)" },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 3, x: "Hay sospechas sobre la muerte de Ashraf Marwan en Londres en 2007, sin conclusión oficial.", u: "https://en.wikipedia.org/wiki/Ashraf_Marwan", st: "Wikipedia (síntesis de fuentes)" },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
+    tortura: { ev: 1, x: "Un tribunal de Roma concluyó que oficiales egipcios secuestraron a Regeni, torturado hasta la muerte; Abu Omar denunció torturas tras su traslado.", u: "https://www.timeshighereducation.com/news/three-convicted-kidnapping-murdered-cambridge-phd-student", st: "Times Higher Education" },
+    secuestro: { ev: 1, x: "Tres oficiales condenados en Roma por el secuestro de Regeni en 2016.", u: "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni", st: "Al Jazeera" },
+    propaganda: { ev: 1, x: "El conglomerado de medios del GIS produce noticieros y series de televisión con mensajes del Estado.", u: "https://cpj.org/2025/07/egypts-intelligence-controlled-media-company-retaliates-against-programs-hosts-critical-of-government/", st: "CPJ" },
+    conflictos: { ev: 2, x: "Apoya al mariscal Jalifa Haftar en Libia; la ONU documentó violaciones del embargo de armas de varios países.", u: "https://en.wikipedia.org/wiki/Libyan_civil_war_(2014%E2%80%932020)", st: "Wikipedia (síntesis de fuentes)" },
+    cultural: { ev: 1, x: "Financia series y películas con relatos oficiales de la historia de los servicios.", u: "https://3arabawy.substack.com/p/the-garrison-state-prime-time", st: "Hossam el-Hamalawy" },
+    golpes: { ev: 0, x: "Esta ficha no encontró intentos documentados de derrocar gobiernos extranjeros." },
+    elecciones: { ev: 0, x: "Esta ficha no encontró intervenciones documentadas en elecciones extranjeras." },
+    partidos: { ev: 0, x: "Esta ficha no encontró financiamiento documentado de partidos extranjeros." },
+    diaspora: { ev: 2, x: "Opositores en el exilio, como Ayman Nour, fueron infectados con programas espía, según Citizen Lab.", u: "https://citizenlab.ca/tag/egypt", st: "Citizen Lab" },
+    empresarios: { ev: 1, x: "Un empresario de Nueva Jersey canalizó sobornos al senador Menendez en favor de Egipto, según la condena.", u: "https://en.wikipedia.org/wiki/Bob_Menendez", st: "Wikipedia (síntesis de fuentes)" },
+    religiosos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    armas: { ev: 2, x: "Envía apoyo militar a Haftar en Libia, según informes del panel de expertos de la ONU citados por la prensa.", u: "https://en.wikipedia.org/wiki/Libyan_civil_war_(2014%E2%80%932020)", st: "Wikipedia (síntesis de fuentes)" },
+    inteligencia: { ev: 1, x: "Cooperó con la CIA en el traslado de detenidos tras 2001.", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair", st: "Wikipedia (síntesis de fuentes)" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró transferencias documentadas." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "El presupuesto de los servicios es secreto y no pasa por el Parlamento.",
+    uso: "Personal, vigilancia interna, programas espía y operaciones regionales.",
+    ingresos: "El GIS tiene ingresos propios a través de empresas de medios, publicidad, producción y derechos deportivos.",
+    empresas: "United Media Services controla más de 40 empresas de medios a través de un fondo ligado al GIS, según prensa independiente.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "Esta ficha no encontró uso documentado de organizaciones criminales.",
+    cobertura: "Esta ficha no encontró ONG de cobertura documentadas."
+  },
+  fondos: [
+    { k: "fachada", rol: "autor", ev: 2, d: "2016–", h: "United Media Services", x: "El conglomerado que domina la televisión privada pertenece a un fondo de inversión vinculado al GIS, según CPJ y prensa independiente.", obj: "Controlar los medios y generar ingresos.", who: "CPJ y prensa independiente", u: "https://statemediamonitor.com/egypt/", st: "State Media Monitor" },
+    { k: "cobertura", rol: "autor", ev: 1, d: "2018–2022", h: "Los sobornos a Menendez", x: "Lingotes de oro y dinero en efectivo para un senador a cambio de favores a Egipto, según el jurado.", obj: "Asegurar ayuda militar y apoyo en Washington.", who: "Justicia federal de EE.UU.", u: "https://en.wikipedia.org/wiki/Bob_Menendez", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "Cytrox / Intellexa", c: "extranjera", rubro: "Programas espía", rel: "Proveedor", x: "Egipto es cliente conocido de Predator, según Citizen Lab." },
+    { n: "Sandvine", c: "extranjera", rubro: "Inspección de tráfico", rel: "Proveedor", x: "Sus equipos sirvieron para inyectar el programa espía en la red de un operador egipcio, según Citizen Lab." },
+    { n: "United Media Services", c: "nacional", rubro: "Medios", rel: "Propia", x: "Controla los principales canales privados." }
+  ],
+  struggles: [
+    { a: "GIS", b: "Ministerio del Interior", k: "Entre agencias", stake: "El control de la seguridad interna", state: "Latente", x: "Las dos estructuras compiten por expedientes y recursos desde 2011." },
+    { a: "Egipto", b: "Justicia italiana", k: "Con otros poderes", stake: "El caso Regeni", state: "Abierta", x: "Roma condenó a oficiales egipcios; el gobierno italiano evita una ruptura con El Cairo." }
+  ],
+  sources: [
+    { t: "Al Jazeera: condena en Roma por el caso Regeni (2026)", u: "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni" },
+    { t: "Citizen Lab: Predator contra Ahmed Tantawy", u: "https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/" },
+    { t: "CPJ: la empresa de medios de la inteligencia", u: "https://cpj.org/2025/07/egypts-intelligence-controlled-media-company-retaliates-against-programs-hosts-critical-of-government/" },
+    { t: "State Media Monitor: Egipto", u: "https://statemediamonitor.com/egypt/" },
+    { t: "Wikipedia: General Intelligence Service (Egypt)", u: "https://en.wikipedia.org/wiki/General_Intelligence_Service_(Egypt)" }
   ]
- },
- "rights": [
-  {
-   "d": "1951",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1958",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1968",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1975",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1987",
-   "dir": "recorta",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1993",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2003",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2012",
-   "dir": "recorta",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2020",
-   "dir": "amplia",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  }
- ],
- "events": [
-  {
-   "d": "1961-02-11",
-   "lat": 31.93,
-   "lon": 33.87,
-   "t": "sabotaje",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1967-02-12",
-   "lat": 38.31,
-   "lon": -131.01,
-   "t": "ciber",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1969-01-14",
-   "lat": 10.02,
-   "lon": 69.05,
-   "t": "contra",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1976-03-10",
-   "lat": 11.78,
-   "lon": 6.37,
-   "t": "senales",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1981-02-22",
-   "lat": 36.98,
-   "lon": 7.47,
-   "t": "senales",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1983-04-21",
-   "lat": -20.15,
-   "lon": -65.42,
-   "t": "contra",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1989-02-23",
-   "lat": 26.22,
-   "lon": 28.41,
-   "t": "humana",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1995-01-25",
-   "lat": 16.43,
-   "lon": 49.6,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1997-06-12",
-   "lat": 24.84,
-   "lon": 1.41,
-   "t": "humana",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2004-11-18",
-   "lat": 30.45,
-   "lon": 25.76,
-   "t": "senales",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2007-04-13",
-   "lat": 30.19,
-   "lon": 31.37,
-   "t": "senales",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2011-02-09",
-   "lat": 45.18,
-   "lon": -104.71,
-   "t": "sabotaje",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2018-10-20",
-   "lat": 14.26,
-   "lon": 20.66,
-   "t": "contra",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2022-12-17",
-   "lat": 29.91,
-   "lon": 30.06,
-   "t": "humana",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  }
- ],
- "interest": {
-  "Russia": 1,
-  "China": 3,
-  "Ukraine": 1,
-  "Turkey": 1,
-  "Syria": 2,
-  "Cuba": 1,
-  "Mexico": 2,
-  "Argentina": 1,
-  "Japan": 1,
-  "Taiwan": 2,
-  "Sudan": 1,
-  "Mali": 1,
-  "Nigeria": 1,
-  "Poland": 2,
-  "Philippines": 3,
-  "Colombia": 1
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1961",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1989",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2009",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "2014",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1966",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1978",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
