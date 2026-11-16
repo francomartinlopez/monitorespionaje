@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Kazajistán: KNB, Syrbar e inteligencia militar; los disturbios de enero de 2022 y la condena de Masimov, el certificado de interceptación de 2019 y el asesinato de Aidos Sadykov en Kiev.
+
 - 2026-11-15 · Ficha real de Afganistán: GDI del Emirato talibán, Interior de la red Haqqani y la antigua NDS; Zawahiri en Kabul, represalias contra ex funcionarios según la ONU, el ISKP y el choque con Pakistán.
 
 - 2026-11-15 · Ficha real de Colombia: DNI, inteligencia militar y DIPOL; las chuzadas del DAS, las operaciones Jaque y Fénix, la compra de Pegasus financiada por EE.UU., la suspensión del intercambio con EE.UU. en 2025 y los perfilamientos del Ejército.

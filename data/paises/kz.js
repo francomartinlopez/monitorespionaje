@@ -1,852 +1,146 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Kazajistán · contenido real · revisada el 2026-11-16
 (window.FICHAS = window.FICHAS || {})["kz"] = {
- "sample": true,
- "id": "kz",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Kazajistán: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 2,
-  "senales": 2,
-  "ciber": 2,
-  "imagenes": 1,
-  "encubierta": 1,
-  "contra": 3
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "CS": {
-   "since": 2007,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Consejo de Seguridad: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Syrbar": {
-   "since": 2012,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio de Inteligencia Exterior: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Defensa": {
-   "since": 1960,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia Militar: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "KNB": {
-   "since": 1983,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comité de Seguridad Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "kz",
+  updated: "2026-11-16",
+  summary: [
+    "El Comité de Seguridad Nacional (KNB) es el servicio más poderoso de Kazajistán: contraespionaje, fronteras, antiterrorismo y vigilancia política. La inteligencia exterior está en manos del servicio Syrbar. Ambos responden al presidente Kasym-Yomart Tokáyev.",
+    "En enero de 2022 protestas por el precio del gas derivaron en disturbios con más de 200 muertos. Tokáyev pidió tropas a la alianza militar liderada por Rusia y acusó a un intento de golpe. El ex jefe del KNB Karim Masimov, aliado del ex presidente Nursultán Nazarbáyev, fue condenado en 2023 a 18 años por traición y abuso de poder.",
+    "Kazajistán equilibra a Rusia, China y Occidente. En 2019 el gobierno intentó obligar a los usuarios a instalar un certificado que permitía interceptar el tráfico cifrado. En 2024 el periodista opositor exiliado Aidos Sadykov murió baleado en Kiev; Ucrania acusó a dos ciudadanos kazajos."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Presidente", v: "Kasym-Yomart Tokáyev", n: "desde 2019" },
+    { l: "Disturbios de enero de 2022", v: "Más de 200 muertos", n: "según cifras oficiales" },
+    { l: "Ex jefe del KNB", v: "Karim Masimov", n: "condenado a 18 años en 2023" },
+    { l: "Certificado de interceptación", v: "2019", n: "abandonado tras la reacción de los navegadores" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 3, senales: 3, ciber: 2, imagenes: 1, encubierta: 2, contra: 3 },
+  powerWhy: {
+    humana: "Redes en Asia Central, la diáspora y China (Xinjiang).",
+    senales: "El KNB controla la infraestructura de interceptación nacional.",
+    ciber: "Intentó interceptar tráfico cifrado de manera masiva en 2019.",
+    imagenes: "Satélites propios de observación de uso civil.",
+    encubierta: "Acusaciones de operaciones contra exiliados.",
+    contra: "El propio jefe del KNB fue acusado de traición en 2022."
+  },
+  priorities: [
+    { h: "Estabilidad del régimen", x: "Evitar otra crisis como la de 2022." },
+    { h: "Rusia", x: "Influencia rusa y minoría rusa en el norte." },
+    { h: "China", x: "Xinjiang, inversiones y diáspora kazaja." },
+    { h: "Extremismo", x: "Grupos islamistas y retornados de Siria." },
+    { h: "Oposición", x: "Opositores y periodistas en el exilio." }
+  ],
+  focos: ["Rusia", "China", "Asia Central", "Oposición en el exilio", "Afganistán"],
+  bodies: {
+    "CS": { since: 1991, how: "Consejo de Seguridad presidido por el presidente; Nazarbáyev lo encabezó de por vida hasta 2022.", staff: "No aplica.", budget: "No aplica.", tech: [], where: ["Astaná"] },
+    "Syrbar": { since: 1992, how: "Servicio de Inteligencia Exterior, dependiente del presidente.", staff: "No se publica.", budget: "Secreto.", tech: [], where: ["Astaná", "Embajadas"] },
+    "Defensa": { since: 1992, how: "Inteligencia militar del Ministerio de Defensa.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: [], where: ["Astaná"] },
+    "KNB": { since: 1992, how: "Comité de Seguridad Nacional: contraespionaje, fronteras, antiterrorismo e interceptación. Heredero del KGB soviético.", staff: "No se publica.", budget: "Secreto.", tech: ["Interceptación"], where: ["Astaná", "Todo el país"] }
+  },
+  civil: [
+    "Los servicios responden al presidente; el Parlamento no los controla.",
+    "Tras 2022 Tokáyev desplazó del KNB a los aliados de Nazarbáyev.",
+    "No hay control judicial independiente de la vigilancia."
+  ],
+  law: {
+    domestic: [
+      "La ley de seguridad nacional permite a los servicios interceptar comunicaciones con control de fiscales.",
+      "Las leyes contra el extremismo y la difusión de información falsa se usan contra críticos, según organizaciones de derechos humanos.",
+      "La ley de 2024 sobre medios amplió el control sobre periodistas extranjeros."
+    ],
+    foreign: [
+      "Syrbar opera en el exterior sin normas públicas detalladas."
+    ],
+    oversight: [
+      "No existe un órgano independiente de control."
+    ]
+  },
+  rights: [
+    { d: "2019-07", dir: "amplia", area: "Privacidad", h: "Certificado nacional", x: "El gobierno pide instalar un certificado que permite interceptar tráfico cifrado; lo abandona tras el bloqueo de los navegadores." },
+    { d: "2022-01", dir: "amplia", area: "Debido proceso", h: "Estado de emergencia", x: "Orden de disparar sin aviso y detenciones masivas tras los disturbios." }
+  ],
+  events: [
+    { d: "2022-01-05", lat: 43.25, lon: 76.92, c: "Kazakhstan", t: "contra", ev: 1, h: "Disturbios de Almatý", x: "Las protestas se vuelven violentas; el KNB pierde el control y Tokáyev pide tropas a la alianza liderada por Rusia.", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2024-06-18", lat: 50.45, lon: 30.52, c: "Ukraine", t: "encubierta", ev: 2, h: "Atentado contra Aidos Sadykov", x: "El periodista opositor kazajo es baleado en Kiev y muere días después; Ucrania acusó a dos kazajos.", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  interest: {
+    "Russia": 3, "China": 3, "Kyrgyzstan": 2, "Uzbekistan": 2, "Afghanistan": 1, "Ukraine": 1, "Turkey": 1
+  },
+  timeline: [
+    { era: "Nazarbáyev", d: "1992", h: "Nace el KNB", x: "Hereda el KGB soviético." },
+    { era: "", d: "2011", h: "Masacre de Zhanaozén", x: "La policía mata a trabajadores petroleros en huelga." },
+    { era: "Tokáyev", d: "2019", h: "Transición", x: "Nazarbáyev deja la presidencia pero conserva poder." },
+    { era: "", d: "2022", h: "Enero sangriento", x: "Disturbios, intervención rusa y caída de Masimov." },
+    { era: "Actual", d: "2023–2026", h: "Consolidación", x: "Tokáyev controla los servicios y equilibra a Rusia y China.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2022", h: "Karim Masimov", x: "El jefe del KNB fue detenido días después de los disturbios y condenado en 2023 a 18 años por traición, intento de toma del poder y abuso de funciones. El juicio fue a puertas cerradas.", who: "Tribunal militar de Kazajistán", missing: "", u: "https://en.wikipedia.org/wiki/Karim_Massimov", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 3, ilegal: true, d: "2022", h: "El intento de golpe", x: "Tokáyev atribuyó los disturbios a terroristas entrenados en el exterior y a un intento de golpe interno. Investigaciones independientes no encontraron pruebas públicas de terroristas extranjeros.", who: "Gobierno de Kazajistán", missing: "Pruebas públicas y juicios abiertos.", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "2024", h: "El asesinato de Aidos Sadykov", x: "El periodista opositor fue baleado en Kiev. La fiscalía ucraniana acusó a dos ciudadanos kazajos y su familia culpó al gobierno de Kazajistán, que lo niega.", who: "Fiscalía de Ucrania y familia de la víctima", missing: "Prueba de la orden estatal.", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "2022-01", ev: 1, w: 3, h: "Los disturbios de enero", x: "El KNB no anticipó ni contuvo la violencia; su jefe terminó condenado.", why: "No está en duda; el propio presidente lo admitió.", wx: "Declaraciones oficiales y condena de Masimov.", who: "Gobierno de Kazajistán", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "Syrbar trabaja desde embajadas en la región y en Occidente.",
+    campo: "Redes en Asia Central y vigilancia de exiliados.",
+    oficina: "Los servicios informan al presidente.",
+    reclutamiento: "Academia propia del KNB.",
+    tecnica: "Interceptación nacional y control de internet en crisis.",
+    enlaces: "Cooperación con Rusia en la alianza militar y con China en la Organización de Cooperación de Shanghái."
+  },
+  insiders: [
+    { k: "topo", dir: "sale", ev: 1, d: "2022", n: "Karim Masimov", h: "El jefe del KNB condenado por traición", x: "Ex primer ministro y jefe del KNB acusado de intentar tomar el poder.", cargo: "Jefe del Comité de Seguridad Nacional", hacia: "Facción de Nazarbáyev, según la acusación", fin: "Condenado a 18 años en 2023.", who: "Tribunal militar de Kazajistán", u: "https://en.wikipedia.org/wiki/Karim_Massimov", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "ocultamiento", rol: "autor", ev: 2, d: "2022", h: "Los muertos de enero", x: "El gobierno tardó en publicar cifras y nombres de los muertos; organizaciones denunciaron torturas a detenidos.", obj: "Controlar el relato oficial.", aquien: "Las familias y la sociedad", como: "Investigaciones de periodistas y organizaciones de derechos humanos.", who: "Organizaciones de derechos humanos", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  practicas: {
+    propios: { ev: 1, x: "El KNB detuvo a su propio ex jefe y a altos funcionarios tras 2022.", u: "https://en.wikipedia.org/wiki/Karim_Massimov", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 1, x: "Opositores son encarcelados o forzados al exilio.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Kazakhstan", st: "Wikipedia (síntesis de fuentes)" },
+    periodistas: { ev: 2, x: "Periodistas críticos son perseguidos; uno exiliado fue asesinado en Kiev.", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov", st: "Wikipedia (síntesis de fuentes)" },
+    activistas: { ev: 1, x: "Activistas fueron detenidos tras las protestas de 2022.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Kazakhstan", st: "Wikipedia (síntesis de fuentes)" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 3, x: "La familia de Aidos Sadykov culpa al gobierno de su asesinato; no hay pruebas firmes.", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov", st: "Wikipedia (síntesis de fuentes)" },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 1, x: "Detenidos de 2022 denunciaron torturas; el gobierno reconoció algunos casos.", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" },
+    secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    conflictos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    partidos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    diaspora: { ev: 2, x: "Vigila a opositores en el exilio, según organizaciones de derechos humanos.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Kazakhstan", st: "Wikipedia (síntesis de fuentes)" },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 1, x: "Persigue a grupos religiosos no registrados por extremismo.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Kazakhstan", st: "Wikipedia (síntesis de fuentes)" },
+    armas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    inteligencia: { ev: 1, x: "Coopera con Rusia y China en las alianzas regionales.", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "El presupuesto de los servicios es secreto.",
+    uso: "Seguridad interna, fronteras e interceptación.",
+    ingresos: "La renta petrolera y minera financia al Estado.",
+    empresas: "Esta ficha no encontró empresas de fachada documentadas.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "Esta ficha no encontró casos documentados.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
+  },
+  fondos: [
+    { k: "desvio", rol: "autor", ev: 2, d: "1991–2022", h: "La fortuna del clan Nazarbáyev", x: "Investigaciones periodísticas describieron grandes fortunas de la familia del ex presidente en el exterior; el gobierno de Tokáyev recuperó parte de los activos.", obj: "Enriquecimiento de la élite.", who: "Prensa internacional y gobierno de Kazajistán", u: "https://en.wikipedia.org/wiki/Nursultan_Nazarbayev", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "Kazakhtelecom", c: "nacional", rubro: "Telecomunicaciones", rel: "Estatal", x: "Operadora que debía distribuir el certificado de interceptación en 2019." }
+  ],
+  struggles: [
+    { a: "Tokáyev", b: "Clan Nazarbáyev", k: "Interna", stake: "El control del Estado y los servicios", state: "Latente", x: "Tras 2022 Tokáyev desplazó a la familia y aliados del ex presidente." }
+  ],
+  sources: [
+    { t: "Wikipedia: 2022 Kazakh unrest", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest" },
+    { t: "Wikipedia: Karim Massimov", u: "https://en.wikipedia.org/wiki/Karim_Massimov" },
+    { t: "Wikipedia: Aidos Sadykov", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov" }
   ]
- },
- "rights": [
-  {
-   "d": "1950",
-   "dir": "recorta",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1962",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1971",
-   "dir": "recorta",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1975",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1985",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1995",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "2000",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2009",
-   "dir": "amplia",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2017",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  }
- ],
- "events": [
-  {
-   "d": "1962-07-27",
-   "lat": -3.85,
-   "lon": 149.84,
-   "t": "humana",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1968-02-22",
-   "lat": -36.04,
-   "lon": -94.22,
-   "t": "sabotaje",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1970-03-08",
-   "lat": -22.7,
-   "lon": -116.98,
-   "t": "sabotaje",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1976-01-16",
-   "lat": 51.47,
-   "lon": 66.29,
-   "t": "encubierta",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1979-07-26",
-   "lat": 50.11,
-   "lon": 65.87,
-   "t": "humana",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1984-01-24",
-   "lat": -39.54,
-   "lon": -120.23,
-   "t": "ciber",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1990-07-03",
-   "lat": -3.8,
-   "lon": -0.06,
-   "t": "sabotaje",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1994-09-05",
-   "lat": 48.77,
-   "lon": 67.82,
-   "t": "senales",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1999-05-12",
-   "lat": 48.86,
-   "lon": 65.68,
-   "t": "encubierta",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2005-04-19",
-   "lat": 52.57,
-   "lon": -41.62,
-   "t": "sabotaje",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2008-01-11",
-   "lat": 1.98,
-   "lon": -11.93,
-   "t": "ciber",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2012-09-10",
-   "lat": 44.28,
-   "lon": -83.97,
-   "t": "humana",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2016-05-05",
-   "lat": 35.54,
-   "lon": 31.86,
-   "t": "encubierta",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2021-02-24",
-   "lat": -12.06,
-   "lon": 30.03,
-   "t": "senales",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  }
- ],
- "interest": {
-  "United States of America": 3,
-  "United Kingdom": 1,
-  "France": 2,
-  "Germany": 1,
-  "Iran": 2,
-  "Israel": 1,
-  "Turkey": 1,
-  "Syria": 2,
-  "Cuba": 2,
-  "Argentina": 2,
-  "Japan": 3,
-  "South Korea": 3,
-  "Taiwan": 2,
-  "Libya": 3,
-  "Indonesia": 3,
-  "Philippines": 1,
-  "Colombia": 3,
-  "Somalia": 1
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1978",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1996",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2000",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "2017",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1987",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1964",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
