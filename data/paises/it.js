@@ -1,864 +1,163 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Italia · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["it"] = {
- "sample": true,
- "id": "it",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Italia: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 3,
-  "senales": 3,
-  "ciber": 3,
-  "imagenes": 2,
-  "encubierta": 2,
-  "contra": 3
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "DIS": {
-   "since": 1907,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Departamento de Información para la Seguridad: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "AISE": {
-   "since": 1990,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Agencia de Información y Seguridad Exterior: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "RIS": {
-   "since": 1934,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia del Estado Mayor de Defensa: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "AISI": {
-   "since": 1932,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Agencia de Información y Seguridad Interior: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "COPASIR": {
-   "since": 2017,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comité Parlamentario para la Seguridad de la República: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "it",
+  updated: "2026-11-15",
+  summary: [
+    "El sistema italiano tiene dos agencias: la Agencia de Información y Seguridad Exterior (AISE), dirigida por Giovanni Caravelli, y la Agencia de Información y Seguridad Interior (AISI), dirigida por Bruno Valensise. Las coordina el Departamento de Información para la Seguridad (DIS), que encabeza desde enero de 2025 el prefecto Vittorio Rizzi, bajo la autoridad delegada del subsecretario Alfredo Mantovano.",
+    "La AISE tiene peso propio en el Mediterráneo: maneja la relación con Libia, los flujos migratorios y la liberación de rehenes, como la de la periodista Cecilia Sala en Irán en enero de 2025. La contrainteligencia enfrenta el espionaje ruso; en 2023 un capitán de la Marina fue condenado por vender documentos a un agregado ruso.",
+    "La historia de los servicios está marcada por desvíos: en las décadas de 1970 y 1980 oficiales del servicio militar desviaron investigaciones de atentados como el de la estación de Bolonia. En 2025 se supo que la AISE y la AISI usaban el programa espía Graphite de la empresa israelí Paragon; el comité parlamentario reconoció su uso contra activistas de una ONG de rescate de migrantes."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Director del DIS", v: "Vittorio Rizzi", n: "desde enero de 2025" },
+    { l: "Contratos con Paragon", v: "Unos 2 millones de euros", n: "AISE y AISI, rescindidos en 2025, según la prensa" },
+    { l: "Condena por espionaje ruso", v: "Walter Biot", n: "capitán de fragata, condenado en 2023" },
+    { l: "Centenario", v: "1925", n: "el sistema celebra 100 años de inteligencia" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 4, senales: 3, ciber: 3, imagenes: 3, encubierta: 3, contra: 3 },
+  powerWhy: {
+    humana: "Red extensa en el Mediterráneo, Libia y Medio Oriente; negocia liberaciones de rehenes.",
+    senales: "Capacidad militar de interceptación y cooperación con EE.UU. y la OTAN.",
+    ciber: "Usó programas espía comerciales; la Agencia de Ciberseguridad Nacional maneja la defensa.",
+    imagenes: "Satélites militares propios de la serie COSMO-SkyMed.",
+    encubierta: "Operaciones de negociación y presencia en Libia; poca acción encubierta documentada fuera de eso.",
+    contra: "Detecta espías rusos, pero un ruso detenido a pedido de EE.UU. escapó de su arresto domiciliario en 2023."
+  },
+  priorities: [
+    { h: "Libia y el Mediterráneo", x: "Migración, energía y milicias." },
+    { h: "Rusia", x: "Espionaje, influencia y guerra híbrida." },
+    { h: "Terrorismo", x: "Yihadismo y extremismo violento." },
+    { h: "Medio Oriente", x: "Irán, Israel y Gaza." },
+    { h: "Seguridad económica", x: "Protección de empresas estratégicas." }
+  ],
+  focos: ["Libia", "Rusia", "Migración", "Irán", "Terrorismo"],
+  bodies: {
+    "DIS": { since: 2007, how: "Departamento de Información para la Seguridad de la Presidencia del Consejo: coordina a las dos agencias, hace análisis estratégico e inspecciona su actividad.", staff: "No se publica.", budget: "Dentro de la Presidencia del Consejo.", tech: [], where: ["Roma"] },
+    "AISE": { since: 2007, how: "Agencia de Información y Seguridad Exterior, heredera del servicio militar SISMI: inteligencia en el exterior, rehenes y Libia.", staff: "No se publica.", budget: "Reservado.", tech: ["Graphite (hasta 2025)"], where: ["Roma", "Embajadas"] },
+    "RIS": { since: 1997, how: "Inteligencia del Estado Mayor de Defensa: inteligencia militar, señales e imágenes.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: ["Satélites COSMO-SkyMed"], where: ["Roma"] },
+    "AISI": { since: 2007, how: "Agencia de Información y Seguridad Interior, heredera del SISDE: contraespionaje, terrorismo y crimen organizado.", staff: "No se publica.", budget: "Reservado.", tech: ["Graphite (hasta 2025)"], where: ["Roma", "Centros regionales"] },
+    "COPASIR": { since: 2007, how: "Comité Parlamentario para la Seguridad de la República: lo preside siempre la oposición y controla a los servicios.", staff: "Diez legisladores.", budget: "Dentro del Parlamento.", tech: [], where: ["Roma"] }
+  },
+  civil: [
+    "La primera ministra delega el control de los servicios en un subsecretario, hoy Alfredo Mantovano.",
+    "La ley de 2007 separó a los servicios de las Fuerzas Armadas tras décadas de escándalos.",
+    "El secreto de Estado lo pone el gobierno; en el caso Abu Omar frenó condenas a oficiales."
+  ],
+  law: {
+    domestic: [
+      "La ley 124 de 2007 regula los servicios y el secreto de Estado.",
+      "Las agencias pueden pedir escuchas preventivas con autorización de un fiscal.",
+      "Las garantías funcionales permiten a los agentes cometer ciertos delitos con autorización del gobierno."
+    ],
+    foreign: [
+      "La AISE opera en el exterior bajo directivas de la Presidencia del Consejo."
+    ],
+    oversight: [
+      "Comité Parlamentario para la Seguridad de la República (COPASIR), presidido por la oposición.",
+      "Fiscalías, que investigaron el uso de Graphite y casos históricos de desvíos."
+    ]
+  },
+  rights: [
+    { d: "1977-10", dir: "recorta", area: "Debido proceso", h: "Primera reforma de los servicios", x: "Tras escándalos golpistas se crean el SISMI y el SISDE con control parlamentario." },
+    { d: "2007-08", dir: "recorta", area: "Debido proceso", h: "Ley 124", x: "Nueva estructura con AISE, AISI y DIS y un comité parlamentario con más poderes." },
+    { d: "2015-04", dir: "amplia", area: "Privacidad", h: "Decreto antiterrorista", x: "Amplía las escuchas preventivas y el acceso a datos tras los atentados de París." },
+    { d: "2025-06", dir: "recorta", area: "Privacidad", h: "Fin de Graphite", x: "Las agencias rescinden el contrato con Paragon tras el escándalo." }
+  ],
+  events: [
+    { d: "1980-08-02", lat: 44.5, lon: 11.34, c: "Italy", t: "contra", ev: 1, h: "Atentado de Bolonia", x: "Una bomba en la estación mata a 85 personas; oficiales del SISMI fueron condenados por desviar la investigación.", u: "https://en.wikipedia.org/wiki/Bologna_massacre", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2003-02-17", lat: 45.48, lon: 9.2, c: "Italy", t: "encubierta", ev: 1, h: "Secuestro de Abu Omar", x: "La CIA secuestra en Milán a un clérigo egipcio con ayuda de oficiales del SISMI, según la fiscalía de Milán.", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2021-03-30", lat: 41.87, lon: 12.52, c: "Italy", t: "contra", ev: 1, h: "Caso Walter Biot", x: "Detienen a un capitán de fragata cuando entregaba documentos a un agregado militar ruso; dos diplomáticos rusos fueron expulsados.", u: "https://en.wikipedia.org/wiki/Walter_Biot", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2023-03-22", lat: 45.4, lon: 9.1, c: "Italy", t: "contra", ev: 1, h: "Fuga de Artem Uss", x: "Un empresario ruso detenido a pedido de EE.UU. escapa de su arresto domiciliario cerca de Milán y llega a Rusia.", u: "https://en.wikipedia.org/wiki/Artem_Uss", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2025-01-08", lat: 35.7, lon: 51.4, c: "Iran", t: "humana", ev: 1, h: "Liberación de Cecilia Sala", x: "El director de la AISE vuela a Teherán para traer a la periodista detenida; Italia liberó días después a un iraní pedido por EE.UU.", u: "https://gabrielecarrer.substack.com/p/il-dopo-belloni-rizzi-al-dis-e-cuzzocrea", st: "Gabriele Carrer" },
+    { d: "2025-01-31", lat: 41.9, lon: 12.48, c: "Italy", t: "ciber", ev: 1, h: "Escándalo Paragon", x: "WhatsApp avisa a periodistas y activistas italianos que fueron blanco de Graphite; el comité parlamentario confirmó su uso por las agencias contra activistas.", u: "https://en.ilsole24ore.com/art/what-is-the-paragon-case-and-what-is-happening-AHhJrvBB", st: "Il Sole 24 Ore" }
+  ],
+  interest: {
+    "Libya": 3, "Russia": 3, "Tunisia": 2, "Egypt": 2, "Iran": 2, "Israel": 2, "Turkey": 2, "Algeria": 1, "Niger": 1, "China": 1, "Albania": 1
+  },
+  timeline: [
+    { era: "Guerra Fría", d: "1949", h: "SIFAR", x: "Nace el servicio militar, que en 1964 elabora un plan golpista." },
+    { era: "", d: "1969–1984", h: "Años de plomo", x: "Desvíos del servicio militar en las investigaciones de atentados." },
+    { era: "", d: "1981", h: "Logia P2", x: "Se descubre que los jefes de los servicios integraban la logia de Licio Gelli." },
+    { era: "", d: "1990", h: "Gladio", x: "El gobierno reconoce la red secreta de resistencia de la OTAN." },
+    { era: "Reforma", d: "2007", h: "AISE, AISI y DIS", x: "La ley 124 reorganiza el sistema." },
+    { era: "Actual", d: "2025–2026", h: "Paragon", x: "Escándalo por Graphite, investigación judicial y relevo en el DIS.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: false, d: "2023–2025", h: "Graphite contra activistas", x: "El comité parlamentario confirmó que la AISE y la AISI usaron el programa espía de Paragon contra Luca Casarini y Giuseppe Caccia, de la ONG Mediterranea. Sostuvo que lo hicieron dentro de la ley. Las agencias rescindieron el contrato en 2025.", who: "Comité Parlamentario para la Seguridad de la República (COPASIR)", missing: "", u: "https://en.ilsole24ore.com/art/paragon-contract-l-italy-cancelled-case-AHuXlzAB", st: "Il Sole 24 Ore" },
+    { ev: 2, ilegal: true, d: "2024–2025", h: "El periodista Francesco Cancellato", x: "El director del medio Fanpage recibió el aviso de que su teléfono fue blanco de Graphite. En 2026 la fiscalía confirmó el programa en su teléfono, pero concluyó que no lo infectó la AISI; no se sabe quién lo hizo.", who: "Fiscalías de Roma y Nápoles", missing: "Identificar al responsable.", u: "https://www.avvenire.it/attualita/caso-paragon-la-procura-conferma-malware-su-tre-telefoni-ma-aisi-non-spio-cancellato_105412", st: "Avvenire" },
+    { ev: 1, ilegal: true, d: "1980–1995", h: "El desvío de la investigación de Bolonia", x: "Oficiales del SISMI fueron condenados por fabricar pistas falsas para desviar la investigación del atentado de 1980. La justicia también condenó a militantes neofascistas como autores.", who: "Justicia de Italia", missing: "", u: "https://en.wikipedia.org/wiki/Bologna_massacre", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "2003", h: "Abu Omar", x: "La justicia italiana condenó en ausencia a 23 estadounidenses por el secuestro. Los oficiales italianos del SISMI acusados quedaron sin condena porque el gobierno impuso el secreto de Estado.", who: "Justicia de Italia", missing: "", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "2023-03", ev: 1, w: 3, h: "La fuga de Artem Uss", x: "Un ruso acusado en EE.UU. de contrabando de tecnología militar escapó con ayuda externa.", why: "No está en duda; el gobierno abrió una investigación disciplinaria a jueces.", wx: "Hechos públicos y condenas a quienes lo ayudaron.", who: "Gobierno de Italia", u: "https://en.wikipedia.org/wiki/Artem_Uss", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falsa", d: "1969–1980", ev: 2, w: 3, h: "La estrategia de la tensión", x: "Atentados de la extrema derecha se atribuyeron al comienzo a la izquierda, con desvíos de oficiales de inteligencia.", why: "Los desvíos están probados en varias causas; el grado de dirección de los servicios sigue en debate.", wx: "Sentencias y comisiones parlamentarias.", who: "Justicia y comisiones parlamentarias", u: "https://en.wikipedia.org/wiki/Strategy_of_tension", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "La AISE tiene oficiales en embajadas, con presencia fuerte en Libia, el norte de África y Medio Oriente.",
+    campo: "Oficiales y fuentes que negocian con milicias, gobiernos y grupos armados, sobre todo en casos de rehenes.",
+    oficina: "El DIS integra análisis de ambas agencias y publica un informe anual al Parlamento.",
+    reclutamiento: "Gran parte del personal viene de los Carabineros, la Policía y la Guardia de Finanzas; hay concursos para especialistas técnicos.",
+    tecnica: "Escuchas preventivas, satélites COSMO-SkyMed y programas espía comerciales hasta 2025.",
+    enlaces: "Alianza con la CIA y los servicios de la OTAN; cooperación con Libia y Túnez en migración."
+  },
+  insiders: [
+    { k: "topo", dir: "sale", ev: 1, d: "2019–2021", n: "Walter Biot", h: "El capitán que vendía documentos", x: "Entregó documentos clasificados de la OTAN a un agregado militar ruso por unos 5.000 euros.", cargo: "Capitán de fragata en el Estado Mayor de Defensa", hacia: "Inteligencia militar rusa", fin: "Condenado en 2023 por un tribunal militar y uno civil.", who: "Justicia de Italia", u: "https://en.wikipedia.org/wiki/Walter_Biot", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "sale", ev: 1, d: "1976–1981", n: "Oficiales de la logia P2", h: "Los jefes de los servicios en una logia", x: "Los directores del SISMI y del SISDE integraban la logia P2 de Licio Gelli, que buscaba influir en la política.", cargo: "Directores de los servicios", hacia: "Logia P2", fin: "La logia fue disuelta por ley en 1982.", who: "Comisión parlamentaria sobre la P2", u: "https://en.wikipedia.org/wiki/Propaganda_Due", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "1945–1990", h: "Gladio", x: "Una red armada secreta preparada para una invasión soviética funcionó durante décadas sin conocimiento del Parlamento.", obj: "Mantener una resistencia clandestina.", aquien: "El Parlamento y el público", como: "El primer ministro Giulio Andreotti la reveló en 1990.", who: "Gobierno de Italia", u: "https://en.wikipedia.org/wiki/Operation_Gladio", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "filtracion", rol: "blanco", ev: 2, d: "2025", h: "Documentos de la AISI", x: "El DIS denunció ante la fiscalía de Perugia la difusión de documentos reservados de la AISI que estaban en manos de la fiscalía de Roma.", obj: "No determinado.", who: "DIS", u: "https://en.ilsole24ore.com/art/007-allerta-jihadismo-e-suprematismo-russia-leader-minaccia-ibrida-golden-power-mantovano-possibile-tagliando-legge-AGJJxJJD", st: "Il Sole 24 Ore" }
+  ],
+  practicas: {
+    propios: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
+    politicos: { ev: 1, x: "En 1964 el servicio militar SIFAR reunió expedientes de miles de políticos para un plan golpista.", u: "https://en.wikipedia.org/wiki/Piano_Solo", st: "Wikipedia (síntesis de fuentes)" },
+    periodistas: { ev: 2, x: "El teléfono del periodista Francesco Cancellato tenía Graphite; la fiscalía descartó a la AISI y no identificó al responsable.", u: "https://www.avvenire.it/attualita/caso-paragon-la-procura-conferma-malware-su-tre-telefoni-ma-aisi-non-spio-cancellato_105412", st: "Avvenire" },
+    activistas: { ev: 1, x: "La AISE y la AISI usaron Graphite contra dirigentes de la ONG Mediterranea, según el comité parlamentario.", u: "https://en.ilsole24ore.com/art/paragon-contract-l-italy-cancelled-case-AHuXlzAB", st: "Il Sole 24 Ore" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 1, x: "La contrainteligencia sigue a Rusia; el informe anual de 2025 la señala como principal amenaza híbrida.", u: "https://en.ilsole24ore.com/art/007-allerta-jihadismo-e-suprematismo-russia-leader-minaccia-ibrida-golden-power-mantovano-possibile-tagliando-legge-AGJJxJJD", st: "Il Sole 24 Ore" },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 0, x: "Esta ficha no encontró casos documentados en territorio italiano." },
+    secuestro: { ev: 1, x: "Oficiales del SISMI colaboraron con la CIA en el secuestro de Abu Omar en Milán en 2003, según la fiscalía.", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair", st: "Wikipedia (síntesis de fuentes)" },
+    propaganda: { ev: 0, x: "Esta ficha no encontró campañas documentadas." },
+    conflictos: { ev: 1, x: "Oficiales de inteligencia desviaron investigaciones de atentados en la estrategia de la tensión.", u: "https://en.wikipedia.org/wiki/Strategy_of_tension", st: "Wikipedia (síntesis de fuentes)" },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 1, x: "El servicio militar preparó en 1964 el Plan Solo, un esquema de golpe que no se ejecutó.", u: "https://en.wikipedia.org/wiki/Piano_Solo", st: "Wikipedia (síntesis de fuentes)" },
+    elecciones: { ev: 0, x: "Esta ficha no encontró intervenciones en elecciones extranjeras." },
+    partidos: { ev: 0, x: "Esta ficha no encontró financiamiento de partidos extranjeros." },
+    diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    armas: { ev: 1, x: "Gladio tenía depósitos secretos de armas en todo el país.", u: "https://en.wikipedia.org/wiki/Operation_Gladio", st: "Wikipedia (síntesis de fuentes)" },
+    inteligencia: { ev: 1, x: "Comparte información con Libia sobre migración; la cooperación con la guardia costera libia es pública.", u: "https://en.wikipedia.org/wiki/Libya%E2%80%93Italy_relations", st: "Wikipedia (síntesis de fuentes)" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró transferencias documentadas." },
+    entrenamiento: { ev: 1, x: "Italia entrena y equipa a la guardia costera libia.", u: "https://en.wikipedia.org/wiki/Libya%E2%80%93Italy_relations", st: "Wikipedia (síntesis de fuentes)" }
+  },
+  dinero: {
+    presupuesto: "El presupuesto de los servicios se fija en un fondo reservado de la Presidencia del Consejo. Esta ficha no encontró la cifra de 2026 verificada.",
+    uso: "Personal, operaciones en el exterior, liberación de rehenes y tecnología.",
+    ingresos: "Esta ficha no encontró ingresos propios.",
+    empresas: "Esta ficha no encontró empresas de fachada documentadas.",
+    bancos: "Esta ficha no encontró casos documentados recientes.",
+    crimen: "Esta ficha no encontró uso documentado reciente de organizaciones criminales.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
+  },
+  fondos: [
+    { k: "presupuesto", rol: "autor", ev: 2, d: "2023–2025", h: "Contratos con Paragon", x: "Las dos agencias pagaron unos 2 millones de euros por Graphite, según la prensa.", monto: "Unos 2 millones de euros", obj: "Vigilancia de comunicaciones.", who: "Prensa italiana", u: "https://www.tecnoandroid.it/news/paragon-lo-spyware-graphite-e-il-muro-di-silenzio-con-litalia-1875335/", st: "Tecnoandroid" }
+  ],
+  companies: [
+    { n: "Paragon Solutions", c: "extranjera", rubro: "Programas espía", rel: "Proveedor", x: "Vendió Graphite a la AISE y la AISI; los contratos se rescindieron en 2025." },
+    { n: "Hacking Team", c: "nacional", rubro: "Programas espía", rel: "Proveedor", x: "Empresa milanesa que vendió herramientas de hackeo a decenas de gobiernos hasta su filtración en 2015." }
+  ],
+  struggles: [
+    { a: "Gobierno de Meloni", b: "Oposición y prensa", k: "Con la política", stake: "El caso Paragon", state: "Abierta", x: "La oposición acusa al gobierno de ocultar quién espió a periodistas." },
+    { a: "DIS", b: "Fiscalía de Roma", k: "Con otros poderes", stake: "Documentos reservados", state: "Latente", x: "El DIS denunció la difusión de documentos de la AISI que estaban en manos de fiscales." }
+  ],
+  sources: [
+    { t: "Il Sole 24 Ore: qué es el caso Paragon", u: "https://en.ilsole24ore.com/art/what-is-the-paragon-case-and-what-is-happening-AHhJrvBB" },
+    { t: "Avvenire: la fiscalía y el teléfono de Cancellato (2026)", u: "https://www.avvenire.it/attualita/caso-paragon-la-procura-conferma-malware-su-tre-telefoni-ma-aisi-non-spio-cancellato_105412" },
+    { t: "Il Post: Rizzi, nuevo director del DIS", u: "https://www.ilpost.it/2025/01/09/rizzi-nuovo-direttore-servizi-segreti-dopo-belloni/" },
+    { t: "Il Sole 24 Ore: informe anual de inteligencia", u: "https://en.ilsole24ore.com/art/007-allerta-jihadismo-e-suprematismo-russia-leader-minaccia-ibrida-golden-power-mantovano-possibile-tagliando-legge-AGJJxJJD" },
+    { t: "Wikipedia: Imam Rapito affair", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair" }
   ]
- },
- "rights": [
-  {
-   "d": "1952",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1959",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1971",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1976",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1984",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1992",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2001",
-   "dir": "recorta",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "2008",
-   "dir": "recorta",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2020",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  }
- ],
- "events": [
-  {
-   "d": "1962-12-13",
-   "lat": -35.82,
-   "lon": -103.46,
-   "t": "ciber",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1966-04-07",
-   "lat": 21.31,
-   "lon": -11.3,
-   "t": "humana",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1973-11-27",
-   "lat": -22.09,
-   "lon": 101.31,
-   "t": "humana",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1976-04-12",
-   "lat": 41.64,
-   "lon": 7.62,
-   "t": "encubierta",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1981-07-06",
-   "lat": -27.95,
-   "lon": -108.27,
-   "t": "senales",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1984-12-01",
-   "lat": 53.72,
-   "lon": -102.05,
-   "t": "ciber",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1989-06-18",
-   "lat": 53.21,
-   "lon": -45.46,
-   "t": "ciber",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1992-11-08",
-   "lat": -19.66,
-   "lon": -88.08,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1999-12-23",
-   "lat": 21.47,
-   "lon": -28.66,
-   "t": "sabotaje",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2001-03-06",
-   "lat": -11.09,
-   "lon": -87.92,
-   "t": "senales",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2009-07-18",
-   "lat": 45.23,
-   "lon": 11.99,
-   "t": "humana",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2011-09-10",
-   "lat": 47.02,
-   "lon": -111.34,
-   "t": "encubierta",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2017-10-01",
-   "lat": 39.05,
-   "lon": 11.69,
-   "t": "encubierta",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2021-03-06",
-   "lat": -31.15,
-   "lon": -1.41,
-   "t": "contra",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  }
- ],
- "interest": {
-  "Russia": 2,
-  "China": 3,
-  "France": 3,
-  "Germany": 1,
-  "Iran": 1,
-  "Israel": 3,
-  "Ukraine": 3,
-  "Turkey": 1,
-  "India": 3,
-  "Saudi Arabia": 2,
-  "Japan": 2,
-  "Libya": 1,
-  "Mali": 1,
-  "Nigeria": 1,
-  "Belarus": 1,
-  "Colombia": 1
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1984",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1998",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "1960",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "2015",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1962",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1977",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
