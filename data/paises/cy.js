@@ -1,852 +1,151 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Chipre · contenido real · revisada el 2026-11-16
 (window.FICHAS = window.FICHAS || {})["cy"] = {
- "sample": true,
- "id": "cy",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Chipre: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 1,
-  "senales": 1,
-  "ciber": 1,
-  "imagenes": 1,
-  "encubierta": 1,
-  "contra": 2
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "CNS": {
-   "since": 1962,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Consejo Nacional de Seguridad: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "KYP": {
-   "since": 2004,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio de Información de Chipre: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Guardia": {
-   "since": 1903,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia de la Guardia Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Policía": {
-   "since": 1906,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Policía de Chipre: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "cy",
+  updated: "2026-11-16",
+  summary: [
+    "El Servicio de Información de Chipre (KYP) depende del presidente y tiene como prioridad a Turquía, que ocupa el norte de la isla desde 1974. Chipre está a menos de 300 kilómetros de Líbano, Siria e Israel, lo que la convierte en un punto de paso para servicios de todo el Mediterráneo oriental, y su sector financiero atrajo durante años dinero ruso.",
+    "La isla fue base de empresas de vigilancia privadas. En 2019 la policía detuvo cerca de Lárnaca a empleados de una empresa del israelí Tal Dilian, fundador de Intellexa, por una camioneta capaz de interceptar teléfonos; la causa se cerró en 2021. Investigaciones de periodistas de 2023, conocidas como Cyprus Confidential, mostraron a Chipre como centro de la red de Intellexa y de servicios financieros para oligarcas rusos.",
+    "En enero de 2026, cuando Chipre asumía la presidencia de la Unión Europea, circuló un video grabado en secreto que acusaba a colaboradores del presidente Nikos Christodoulides de financiamiento irregular de campaña. El gobierno habló de un ataque híbrido; en abril la empresa israelí de inteligencia privada Black Cube admitió haberlo producido, sin decir quién la contrató."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Video del escándalo", v: "8 de enero de 2026", n: "producido por Black Cube, según la propia empresa" },
+    { l: "Renuncia", v: "Jefe de gabinete del presidente", n: "tras el video, enero de 2026" },
+    { l: "Camioneta espía", v: "2019", n: "empresa de Tal Dilian; causa cerrada en 2021" },
+    { l: "Dependencia del KYP", v: "Presidencia", n: "ley de 2016" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 2, senales: 2, ciber: 1, imagenes: 1, encubierta: 1, contra: 2 },
+  powerWhy: {
+    humana: "Fuentes en la parte norte de la isla y en Turquía; servicio chico.",
+    senales: "Capacidad limitada; la isla alberga bases británicas de interceptación ajenas al Estado chipriota.",
+    ciber: "Capacidad propia mínima.",
+    imagenes: "Sin capacidades propias.",
+    encubierta: "No hay operaciones encubiertas documentadas.",
+    contra: "Frustró planes iraníes con ayuda extranjera, pero empresas privadas de vigilancia operaron con libertad."
+  },
+  priorities: [
+    { h: "Turquía", x: "Ocupación del norte, Egeo y gas." },
+    { h: "Mediterráneo oriental", x: "Israel, Líbano, Siria y Gaza." },
+    { h: "Irán y Hezbolá", x: "Planes contra israelíes en la isla." },
+    { h: "Dinero ruso", x: "Sanciones y lavado." },
+    { h: "Migración", x: "Llegadas por la Línea Verde y por mar." }
+  ],
+  focos: ["Turquía", "Israel", "Líbano", "Irán", "Rusia"],
+  bodies: {
+    "CNS": { since: 2016, how: "Consejo Nacional de Seguridad presidido por el presidente.", staff: "No aplica.", budget: "No aplica.", tech: [], where: ["Nicosia"] },
+    "KYP": { since: 1970, how: "Servicio de Información de Chipre: inteligencia y contrainteligencia, bajo control directo del presidente desde la ley de 2016.", staff: "No se publica.", budget: "Secreto.", tech: [], where: ["Nicosia"] },
+    "Guardia": { since: 1964, how: "Inteligencia de la Guardia Nacional: inteligencia militar centrada en las fuerzas turcas del norte.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: [], where: ["Nicosia"] },
+    "Policía": { since: 1960, how: "Policía de Chipre: investiga delitos de seguridad, incluidos planes terroristas y el caso de la camioneta espía.", staff: "No se publica.", budget: "Público.", tech: [], where: ["Nicosia", "Todo el país"] }
+  },
+  civil: [
+    "El presidente nombra al jefe del KYP, que le responde directamente.",
+    "El Parlamento tiene un control limitado sobre el servicio.",
+    "Según la prensa, el KYP ayudó a las autoridades a contactar a Black Cube en la investigación de 2026."
+  ],
+  law: {
+    domestic: [
+      "La ley del KYP de 2016 dio base legal al servicio y regula sus escuchas.",
+      "Las escuchas necesitan autorización judicial.",
+      "Una reforma de 2020 amplió el acceso a datos de comunicaciones por razones de seguridad."
+    ],
+    foreign: [
+      "No hay normas públicas sobre operaciones en el exterior."
+    ],
+    oversight: [
+      "Comité de tres miembros que supervisa las escuchas del KYP.",
+      "Fiscal general, que dirige las investigaciones penales."
+    ]
+  },
+  rights: [
+    { d: "2016-05", dir: "recorta", area: "Privacidad", h: "Ley del KYP", x: "El servicio pasa a tener base legal y un control de sus escuchas." },
+    { d: "2020", dir: "amplia", area: "Privacidad", h: "Acceso a datos", x: "Se amplía el acceso de las autoridades a datos de comunicaciones." }
+  ],
+  events: [
+    { d: "2015-05", lat: 34.92, lon: 33.55, c: "Cyprus", t: "contra", ev: 1, h: "Explosivos de Hezbolá en Lárnaca", x: "La policía halla casi nueve toneladas de nitrato de amonio en un depósito de un miembro de Hezbolá, que fue condenado.", u: "https://en.wikipedia.org/wiki/Hezbollah", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2019-11", lat: 34.93, lon: 33.6, c: "Cyprus", t: "senales", ev: 1, h: "La camioneta espía", x: "Detienen a empleados de una empresa de Tal Dilian por una camioneta capaz de interceptar teléfonos; la causa se cerró en 2021.", u: "https://eualive.net/eus-spyware-scandal-deepens-black-cube-and-intellexa-thrived-in-greece-cyprus-slovenia-amid-brussels-inaction/", st: "Bosphorus News, vía EU Alive" },
+    { d: "2026-01-08", lat: 34.95, lon: 33.15, c: "Cyprus", t: "humana", ev: 1, h: "El video contra el presidente", x: "Circula un video grabado en secreto sobre el financiamiento de la campaña presidencial; Black Cube admitió haberlo producido.", u: "https://cyprus-mail.com/2026/04/10/israeli-private-intelligence-agency-allegedly-behind-christodoulides-corruption-video", st: "Cyprus Mail" }
+  ],
+  interest: {
+    "Turkey": 3, "N. Cyprus": 3, "Israel": 2, "Lebanon": 2, "Syria": 2, "Greece": 2, "Iran": 1, "Russia": 1, "Egypt": 1
+  },
+  timeline: [
+    { era: "Independencia", d: "1970", h: "Nace el KYP", x: "Se crea el servicio bajo la presidencia de Makarios." },
+    { era: "", d: "1974", h: "Golpe e invasión", x: "Golpe impulsado por la junta griega e invasión turca del norte." },
+    { era: "Siglo XXI", d: "2016", h: "Ley del KYP", x: "Primer marco legal del servicio." },
+    { era: "", d: "2019", h: "Camioneta espía", x: "Expone a la industria privada de vigilancia en la isla." },
+    { era: "Actual", d: "2026", h: "Videogate", x: "Un video producido por Black Cube sacude al gobierno.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: false, d: "2025–2026", h: "El video de Black Cube", x: "Un video con grabaciones ocultas acusó a allegados del presidente de manejar fondos de campaña irregulares, y su jefe de gabinete renunció. Black Cube admitió en abril de 2026 haberlo producido. En julio el investigador designado dijo que no encontró indicios de delito en los implicados y sugirió que pudo ser un ataque híbrido.", who: "Investigador designado por el fiscal general y Black Cube", missing: "", u: "https://cyprus-mail.com/2026/07/20/no-criminal-wrongdoing-indicated-in-videogate-investigator-says", st: "Cyprus Mail" },
+    { ev: 3, ilegal: true, d: "2025–2026", h: "Quién encargó el video", x: "El gobierno habló de un ataque híbrido y el investigador habló de grandes sumas pagadas a Black Cube. La empresa no reveló su cliente; partidos de oposición y la prensa especularon con un Estado detrás.", who: "Gobierno de Chipre y prensa", missing: "La identidad del cliente.", u: "https://en.politis.com.cy/news/cy-news/1020862/videogate-probe-split-over-black-cubes-motive", st: "Politis" },
+    { ev: 1, ilegal: true, d: "2015", h: "El depósito de Hezbolá", x: "La policía chipriota encontró toneladas de nitrato de amonio guardadas por un miembro de Hezbolá en Lárnaca. Fue condenado a seis años.", who: "Justicia de Chipre", missing: "", u: "https://en.wikipedia.org/wiki/Hezbollah", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "2025–2026", ev: 1, w: 3, h: "Una operación privada sobre el entorno presidencial", x: "Agentes de una empresa extranjera grabaron en secreto a allegados del presidente sin que los servicios lo detectaran.", why: "No está en duda; la empresa lo admitió.", wx: "Declaraciones de Black Cube e investigación oficial.", who: "Investigación oficial", u: "https://cyprus-mail.com/2026/06/11/fresh-leads-emerge-in-videogate-probe", st: "Cyprus Mail" }
+  ],
+  modus: {
+    embajadas: "El KYP tiene presencia limitada en el exterior.",
+    campo: "Fuentes en el norte ocupado y en las comunidades de la región.",
+    oficina: "El servicio informa directamente al presidente.",
+    reclutamiento: "Personal policial y militar.",
+    tecnica: "Escuchas con autorización judicial; capacidades modestas.",
+    enlaces: "Cooperación estrecha con Grecia e Israel, y con EE.UU. y el Reino Unido."
+  },
+  insiders: [
+    { k: "denunciante", dir: "sale", ev: 3, d: "2022", n: "Makarios Drousiotis", h: "El periodista que denunció espionaje", x: "Periodista crítico del gobierno anterior que dijo que su teléfono fue atacado con Predator.", cargo: "Periodista", hacia: "Prensa y Justicia", fin: "No hubo conclusión oficial.", who: "El propio periodista", u: "https://eualive.net/eus-spyware-scandal-deepens-black-cube-and-intellexa-thrived-in-greece-cyprus-slovenia-amid-brussels-inaction/", st: "Bosphorus News, vía EU Alive" }
+  ],
+  leaks: [
+    { k: "desinfo", rol: "blanco", ev: 2, d: "2026-01", h: "La difusión del video", x: "Una cuenta con foto generada por inteligencia artificial publicó el video, que se difundió en horas en medios chipriotas.", obj: "Dañar al gobierno durante la presidencia europea.", who: "Observatorio europeo de medios digitales (EDMO)", u: "https://edmo.eu/publications/cyprus-report-on-the-videogate-incident/", st: "EDMO" }
+  ],
+  practicas: {
+    propios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    politicos: { ev: 0, x: "Esta ficha no encontró casos documentados con prueba." },
+    periodistas: { ev: 3, x: "Un periodista denunció ataques con Predator, sin conclusión oficial.", u: "https://eualive.net/eus-spyware-scandal-deepens-black-cube-and-intellexa-thrived-in-greece-cyprus-slovenia-amid-brussels-inaction/", st: "Bosphorus News, vía EU Alive" },
+    activistas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 1, x: "Turquía es el blanco central de la inteligencia chipriota.", u: "https://en.wikipedia.org/wiki/Cyprus_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    conflictos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    partidos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    armas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    inteligencia: { ev: 1, x: "Coopera con Israel, EE.UU. y Grecia; pidió ayuda a EE.UU. e Israel en la investigación del video.", u: "https://theins.ru/en/news/288532", st: "The Insider" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "El presupuesto del KYP es secreto.",
+    uso: "Personal y operaciones en la isla.",
+    ingresos: "Esta ficha no encontró ingresos propios.",
+    empresas: "Empresas de vigilancia extranjeras, como las de Intellexa, se registraron en Chipre, según Cyprus Confidential.",
+    bancos: "El sector financiero chipriota sirvió a oligarcas rusos, según investigaciones periodísticas de 2023.",
+    crimen: "Esta ficha no encontró uso de organizaciones criminales por el KYP.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
+  },
+  fondos: [
+    { k: "banco", rol: "blanco", ev: 2, d: "2010–2023", h: "Cyprus Confidential", x: "Documentos filtrados mostraron cómo proveedores de servicios chipriotas ayudaron a oligarcas rusos y a la red de Intellexa.", obj: "Ocultar dinero y eludir controles.", who: "Consorcio Internacional de Periodistas de Investigación (ICIJ)", u: "https://eualive.net/eus-spyware-scandal-deepens-black-cube-and-intellexa-thrived-in-greece-cyprus-slovenia-amid-brussels-inaction/", st: "Bosphorus News, vía EU Alive" },
+    { k: "cobertura", rol: "blanco", ev: 1, d: "2025–2026", h: "Los pagos a Black Cube", x: "El investigador oficial dijo que Black Cube recibió grandes sumas por la operación, de un cliente no identificado.", obj: "Producir el video contra el entorno presidencial.", who: "Investigador designado por el fiscal general", u: "https://cyprus-mail.com/2026/07/20/no-criminal-wrongdoing-indicated-in-videogate-investigator-says", st: "Cyprus Mail" }
+  ],
+  companies: [
+    { n: "Black Cube", c: "extranjera", rubro: "Inteligencia privada", rel: "Autora del video", x: "Empresa israelí que admitió haber producido el video de 2026." },
+    { n: "Intellexa", c: "extranjera", rubro: "Programas espía", rel: "Con base en la isla", x: "Usó Chipre como centro de operaciones, según Cyprus Confidential." }
+  ],
+  struggles: [
+    { a: "Gobierno de Christodoulides", b: "Oposición (AKEL)", k: "Con la política", stake: "El videogate", state: "Abierta", x: "La oposición pide transparencia y habla de posible encubrimiento." }
+  ],
+  sources: [
+    { t: "Cyprus Mail: Black Cube detrás del video (2026)", u: "https://cyprus-mail.com/2026/04/10/israeli-private-intelligence-agency-allegedly-behind-christodoulides-corruption-video" },
+    { t: "Cyprus Mail: el investigador no encuentra delitos", u: "https://cyprus-mail.com/2026/07/20/no-criminal-wrongdoing-indicated-in-videogate-investigator-says" },
+    { t: "EDMO: informe sobre el videogate", u: "https://edmo.eu/publications/cyprus-report-on-the-videogate-incident/" },
+    { t: "Politis: la investigación dividida sobre el motivo", u: "https://en.politis.com.cy/news/cy-news/1020862/videogate-probe-split-over-black-cubes-motive" }
   ]
- },
- "rights": [
-  {
-   "d": "1954",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1959",
-   "dir": "recorta",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1970",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1976",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1985",
-   "dir": "recorta",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1992",
-   "dir": "recorta",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2003",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2010",
-   "dir": "recorta",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2017",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  }
- ],
- "events": [
-  {
-   "d": "1961-01-21",
-   "lat": 34.46,
-   "lon": 37.2,
-   "t": "ciber",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1965-03-08",
-   "lat": 37.58,
-   "lon": 29.57,
-   "t": "ciber",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1970-11-13",
-   "lat": 31.91,
-   "lon": 38.96,
-   "t": "ciber",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1975-11-16",
-   "lat": 38.24,
-   "lon": 31.68,
-   "t": "humana",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1979-08-06",
-   "lat": 31.81,
-   "lon": 31.65,
-   "t": "encubierta",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1986-09-08",
-   "lat": 36.17,
-   "lon": 31.22,
-   "t": "ciber",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1989-08-01",
-   "lat": 40.26,
-   "lon": 111.64,
-   "t": "contra",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1993-08-14",
-   "lat": -30.38,
-   "lon": -125.16,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2000-06-10",
-   "lat": 21.54,
-   "lon": 146.83,
-   "t": "encubierta",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2002-03-20",
-   "lat": 31.81,
-   "lon": 32.33,
-   "t": "sabotaje",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2009-09-22",
-   "lat": -3.07,
-   "lon": -120.68,
-   "t": "encubierta",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2012-11-11",
-   "lat": 36.24,
-   "lon": 29.18,
-   "t": "humana",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2015-07-25",
-   "lat": 57.01,
-   "lon": 92.89,
-   "t": "humana",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2022-09-23",
-   "lat": 36.4,
-   "lon": 33.5,
-   "t": "encubierta",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  }
- ],
- "interest": {
-  "Russia": 2,
-  "Israel": 3,
-  "Ukraine": 3,
-  "India": 1,
-  "Syria": 1,
-  "Iraq": 3,
-  "Cuba": 2,
-  "Mexico": 3,
-  "Brazil": 3,
-  "Argentina": 2,
-  "South Korea": 1,
-  "Egypt": 1,
-  "Nigeria": 3,
-  "Kazakhstan": 3,
-  "Serbia": 1,
-  "Indonesia": 2,
-  "Vietnam": 1,
-  "Colombia": 2
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1983",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1998",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "1999",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "2019",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1990",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "2004",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };

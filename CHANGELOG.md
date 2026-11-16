@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Chipre: KYP, inteligencia de la Guardia Nacional y policía; el videogate de 2026 producido por Black Cube, la camioneta espía de 2019, Cyprus Confidential y el depósito de Hezbolá en Lárnaca.
+
 - 2026-11-15 · Ficha real de Grecia: EYP, inteligencia militar y ADAE; el Watergate griego y las condenas a Intellexa (2026), las escuchas a Androulakis, el caso Vodafone de 2004-2005 y la expulsión de diplomáticos rusos.
 
 - 2026-11-15 · Ficha real de Suecia: FRA, MUST, Säpo e Inspección de Inteligencia; los hermanos Kia, Stig Bergling, Irán y las bandas criminales, la ley de la FRA y el escándalo de la IB.
