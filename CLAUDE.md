@@ -4,14 +4,13 @@ Sitio estático publicado con GitHub Pages desde `main` (raíz). Todo en españo
 Responsable editorial: Franco Martín López. Proyecto hermano de Monitor de Conflictos (`conflictoglobal`), con la misma base técnica.
 
 ## Estado
-Desde el 2026-11-16 todo el contenido es real: 57 fichas, alertas, relaciones y Explorar. `MONITOR_META.skeleton` está en false. El validador rechaza cualquier dato con `sample` fuera de las fichas y exige fuente (`u`) en relaciones, alertas, software espía, expulsiones y archivo.
+Desde el 2026-11-16 todo el contenido es real: 60 fichas, alertas, relaciones y Explorar. `MONITOR_META.skeleton` está en false. El validador rechaza cualquier dato con `sample` fuera de las fichas y exige fuente (`u`) en relaciones, alertas, software espía, expulsiones y archivo.
 Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un país, reemplazá su archivo entero y quitá `sample`.
 
-## Países (57)
-- Núcleo: us, ru, cn, uk, il, fr, de, ir, kp, ar, va
-- Muy relevantes: ua, tr, pk, in, sa
-- Muy relevantes (suma de noviembre de 2026): tw, jp, eg, mx, pl, it, es, au, ca
-- Relevantes en su región o por una habilidad: cu, ae, br, kr, vn, ch, za, sg, hu, nl, by, ve, rw, se, gr, cy, be, ro, ge, md, az, qa, co, af, kz, sy, jo, dz, at, dk, rs, bd
+## Países (60: 12 · 16 · 32, para que cada nivel llene filas completas de cuatro tarjetas en la web)
+- Núcleo (12): us, ru, cn, uk, il, fr, de, ir, kp, ar, va, ua
+- Muy relevantes (16): tr, pk, in, sa, tw, jp, eg, mx, pl, it, es, au, ca, cu, ma, lb
+- Relevantes en su región o por una habilidad (32): ae, br, kr, vn, ch, za, sg, hu, nl, by, ve, rw, se, gr, cy, be, ro, ge, md, az, qa, co, af, kz, sy, jo, dz, at, dk, rs, bd, iq
 - Nueva Zelanda entra como Cinco Ojos dentro de las fichas de us y uk.
 
 ## Formato de una ficha (`data/paises/<id>.js`)
@@ -44,7 +43,7 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 
 ## Secciones de Explorar (`data/explorar.js`, interfaz en `js/explorar.js`)
 - `PODER`: esquema "Quién manda" (#poder[/<id>]). `niveles` 1 polos · 2 autónomos · 3 socios integrados · 4 regionales y neutrales; `paises` {id: {n, x, dep?[ids]}} para los 57; `internos` {id: [{h, x}]}: quién manda dentro de cada potencia. El nivel 5 (proxies) se arma solo con los `proxies` con `graf: true` de las fichas. El tamaño sale de `power` de la ficha.
-- `BLOQUES`: mapa general en cinco bloques (occidental, euroasiático, autónomos, neutrales, zonas abiertas). `paises` = [nombre de `data/world.js`, bloque, grado n|c|p, nota?]. Clasificación editorial; la nota explica los casos discutibles. Todo país del monitor debe tener bloque.
+- `BLOQUES`: mapa general en cinco bloques (occidental, euroasiático, autónomos, neutrales, zonas abiertas). `paises` = [nombre de `data/world.js`, bloque, grado n|c|p, nota?]. Clasificación editorial; la nota explica los casos discutibles. Todo país del monitor debe tener bloque. Si se suma un país, mantener los niveles en múltiplos de cuatro.
 - `ALIANZAS`: miembros por nombre de país de `data/world.js`. Reales.
 - `INFRA`: instalaciones de vigilancia con tipo, coordenadas `ll` [lon, lat], quién la opera y nivel de evidencia `ev`. `lab: "l"` y `dy` acomodan la etiqueta.
 - `SPYWARE`: proveedores y `flows` {p, c (país de data/world.js), ll, ev, x, u, st}: ventas o usos documentados.

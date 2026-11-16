@@ -121,7 +121,7 @@ window.PAISES = [
       { code: "Guardia Suiza", name: "Guardia Suiza Pontificia", g: "m" },
       { code: "ASIF", name: "Autoridad de Supervisión e Información Financiera", g: "j" }
     ] },
-  { id: "ua", name: "Ucrania", short: "Ucrania", map: "Ukraine", tier: 2, center: [30.52, 50.45],
+  { id: "ua", name: "Ucrania", short: "Ucrania", map: "Ukraine", tier: 1, center: [30.52, 50.45],
     agencies: [
       { code: "CNSD", name: "Consejo Nacional de Seguridad y Defensa", g: "k" },
       { code: "SZRU", name: "Servicio de Inteligencia Exterior", g: "c" },
@@ -161,7 +161,7 @@ window.PAISES = [
       { code: "PSS", name: "Presidencia de Seguridad del Estado", g: "p" },
       { code: "Defensa", name: "Inteligencia militar", g: "m" }
     ] },
-  { id: "cu", name: "Cuba", short: "Cuba", map: "Cuba", tier: 3, center: [-82.37, 23.11], skill: "Penetración de la inteligencia de EE.UU.",
+  { id: "cu", name: "Cuba", short: "Cuba", map: "Cuba", tier: 2, center: [-82.37, 23.11],
     agencies: [
       { code: "MININT", name: "Ministerio del Interior", g: "k" },
       { code: "DI", name: "Dirección de Inteligencia", g: "c" },
@@ -471,6 +471,30 @@ window.PAISES = [
       { code: "NTMC", name: "Centro Nacional de Monitoreo de Telecomunicaciones", g: "c" },
       { code: "DGFI", name: "Dirección General de Inteligencia de las Fuerzas", g: "m" },
       { code: "SB", name: "Rama Especial de la Policía", g: "p" }
+    ] },
+  { id: "ma", name: "Marruecos", short: "Marruecos", map: "Morocco", tier: 2, center: [-6.84, 34.02],
+    agencies: [
+      { code: "Palacio", name: "Gabinete Real y Consejo Superior de Seguridad", g: "k" },
+      { code: "DGED", name: "Dirección General de Estudios y Documentación", g: "c" },
+      { code: "DGST", name: "Dirección General de Vigilancia del Territorio", g: "c" },
+      { code: "DGSN", name: "Dirección General de Seguridad Nacional", g: "p" },
+      { code: "DRM", name: "Dirección de Inteligencia Militar", g: "m" }
+    ] },
+  { id: "lb", name: "Líbano", short: "Líbano", map: "Lebanon", tier: 2, center: [35.5, 33.89],
+    agencies: [
+      { code: "CSD", name: "Consejo Superior de Defensa", g: "k" },
+      { code: "SG", name: "Dirección General de Seguridad General", g: "c" },
+      { code: "SE", name: "Dirección General de Seguridad del Estado", g: "c" },
+      { code: "G2", name: "Dirección de Inteligencia del Ejército", g: "m" },
+      { code: "FSI-RI", name: "Rama de Información de las Fuerzas de Seguridad Interior", g: "p" }
+    ] },
+  { id: "iq", name: "Irak", short: "Irak", map: "Iraq", tier: 3, center: [44.37, 33.31], skill: "Territorio disputado entre Irán y EE.UU.",
+    agencies: [
+      { code: "CSN", name: "Consejo y Asesoría de Seguridad Nacional", g: "k" },
+      { code: "INIS", name: "Servicio Nacional de Inteligencia Iraquí", g: "c" },
+      { code: "NSS", name: "Servicio de Seguridad Nacional", g: "p" },
+      { code: "DGIS", name: "Dirección de Inteligencia Militar", g: "m" },
+      { code: "FMP", name: "Comisión de Movilización Popular", g: "m" }
     ] }
 ];
 

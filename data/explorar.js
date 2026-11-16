@@ -394,7 +394,7 @@ window.PODER = {
     au: { n: 3, dep: ["us"], x: "Miembro de los Cinco Ojos; aloja la base de Pine Gap." },
     ca: { n: 3, dep: ["us"], x: "Miembro de los Cinco Ojos con poca capacidad exterior propia." },
     tw: { n: 3, dep: ["us"], x: "Depende de EE.UU. frente a China." },
-    ua: { n: 3, dep: ["us", "uk"], x: "Ejecuta operaciones audaces propias, pero depende de la inteligencia de EE.UU. y el Reino Unido." },
+    ua: { n: 3, dep: ["us", "uk"], x: "Ejecuta operaciones de gran alcance dentro de Rusia, pero depende de la inteligencia de EE.UU. y el Reino Unido." },
     jo: { n: 3, dep: ["us"], x: "Uno de los socios más estrechos de la CIA en la región." },
     eg: { n: 3, dep: ["us", "sa"], x: "Depende de la ayuda militar de EE.UU. y del dinero del Golfo." },
     co: { n: 3, dep: ["us"], x: "Décadas de cooperación con la CIA y la DEA." },
@@ -420,7 +420,10 @@ window.PODER = {
     ve: { n: 4, x: "En transición tras la captura de Maduro." },
     sy: { n: 4, x: "Aparato en reconstrucción tras la caída de Assad." },
     af: { n: 4, x: "Los talibanes controlan el país con servicios débiles." },
-    va: { n: 4, x: "Sin servicio formal; red diplomática mundial." }
+    va: { n: 4, x: "Sin servicio formal; red diplomática mundial." },
+    ma: { n: 2, dep: ["us"], x: "Servicio de tamaño medio con operaciones propias en Europa y África; socio de EE.UU., Francia e Israel." },
+    lb: { n: 4, x: "Escenario de la guerra secreta entre Israel, Irán y Siria; servicios divididos por confesión." },
+    iq: { n: 4, dep: ["us", "ir"], x: "Servicio creado por la CIA y penetrado por Irán; el país es territorio disputado entre ambos." }
   },
   // quién manda dentro de cada potencia (de arriba hacia abajo)
   internos: {

@@ -72,7 +72,7 @@
     { era: "Actual", d: "2023–2026", h: "Mediación en Gaza", x: "Negociaciones y ataque israelí en Doha.", now: true }
   ],
   cases: [
-    { ev: 2, ilegal: true, d: "2018–2022", h: "Qatargate", x: "La fiscalía belga acusa a eurodiputados y asistentes de recibir sobornos de Catar y de Marruecos para influir en el Parlamento Europeo. Catar niega haber pagado; el juicio no se hizo.", who: "Fiscalía federal de Bélgica", missing: "Un juicio.", u: "https://en.wikipedia.org/wiki/Qatargate", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "2018–2022", h: "Qatargate", x: "La fiscalía belga acusa a eurodiputados y asistentes de recibir sobornos de Catar y de Marruecos para influir en el Parlamento Europeo. Catar niega haber pagado; el juicio no se hizo.", who: "Fiscalía federal de Bélgica", missing: "Un juicio.", u: "https://en.wikipedia.org/wiki/Qatar_corruption_scandal_at_the_European_Parliament", st: "Wikipedia (síntesis de fuentes)" },
     { ev: 2, ilegal: false, d: "2012–2019", h: "El espionaje al fútbol", x: "Una investigación de AP informó en 2022 que Catar contrató a un ex oficial de la CIA para vigilar a funcionarios del fútbol y a críticos del Mundial. El ex oficial niega haber hecho algo ilegal.", who: "Associated Press", missing: "Documentos oficiales o un juicio.", u: "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
@@ -94,7 +94,7 @@
   ],
   practicas: {
     propios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
-    politicos: { ev: 2, x: "Pagos a eurodiputados, según la fiscalía belga.", u: "https://en.wikipedia.org/wiki/Qatargate", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 2, x: "Pagos a eurodiputados, según la fiscalía belga.", u: "https://en.wikipedia.org/wiki/Qatar_corruption_scandal_at_the_European_Parliament", st: "Wikipedia (síntesis de fuentes)" },
     periodistas: { ev: 2, x: "Vigilancia de críticos del Mundial, según AP.", u: "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies", st: "Wikipedia (síntesis de fuentes)" },
     activistas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -129,7 +129,7 @@
     cobertura: "Fundaciones y medios cataríes son vistos por sus rivales como instrumentos de influencia."
   },
   fondos: [
-    { k: "cobertura", rol: "autor", ev: 2, d: "2018–2022", h: "Los sobornos de Qatargate", x: "La fiscalía belga encontró más de 1,5 millones de euros en efectivo en casas de los acusados.", monto: "Más de 1,5 millones de euros", obj: "Influir en el Parlamento Europeo.", who: "Fiscalía federal de Bélgica", u: "https://en.wikipedia.org/wiki/Qatargate", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "cobertura", rol: "autor", ev: 2, d: "2018–2022", h: "Los sobornos de Qatargate", x: "La fiscalía belga encontró más de 1,5 millones de euros en efectivo en casas de los acusados.", monto: "Más de 1,5 millones de euros", obj: "Influir en el Parlamento Europeo.", who: "Fiscalía federal de Bélgica", u: "https://en.wikipedia.org/wiki/Qatar_corruption_scandal_at_the_European_Parliament", st: "Wikipedia (síntesis de fuentes)" }
   ],
   companies: [
     { n: "Al Jazeera", c: "nacional", rubro: "Medios", rel: "Estatal", x: "Cadena financiada por el Estado, clave en la influencia regional." }
@@ -144,6 +144,6 @@
   sources: [
     { t: "Wikipedia: 2017–2021 Qatar diplomatic crisis", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis" },
     { t: "Wikipedia: 2025 Israeli strike on Doha", u: "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha" },
-    { t: "Wikipedia: 2022 European Parliament corruption scandal", u: "https://en.wikipedia.org/wiki/Qatargate" }
+    { t: "Wikipedia: 2022 European Parliament corruption scandal", u: "https://en.wikipedia.org/wiki/Qatar_corruption_scandal_at_the_European_Parliament" }
   ]
 };
