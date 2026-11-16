@@ -10,7 +10,7 @@
  "keyFacts": [
   {
    "l": "Organismos",
-   "v": "4",
+   "v": "5",
    "n": "en el organigrama"
   },
   {
@@ -61,8 +61,22 @@
   "Foco de prueba C"
  ],
  "bodies": {
-  "NSI": {
+  "NCC": {
    "since": 1978,
+   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
+   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
+   "how": "Texto de prueba. Cómo trabaja Comité Nacional de Coordinación de Inteligencia: misión, a quién responde y qué puede hacer.",
+   "tech": [
+    "Tecnología de prueba A",
+    "Tecnología de prueba B"
+   ],
+   "where": [
+    "Región de prueba 1",
+    "Región de prueba 2"
+   ]
+  },
+  "NSI": {
+   "since": 1981,
    "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
    "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
    "how": "Texto de prueba. Cómo trabaja Inteligencia de Seguridad Nacional: misión, a quién responde y qué puede hacer.",
@@ -76,7 +90,7 @@
    ]
   },
   "NTMC": {
-   "since": 1981,
+   "since": 1982,
    "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
    "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
    "how": "Texto de prueba. Cómo trabaja Centro Nacional de Monitoreo de Telecomunicaciones: misión, a quién responde y qué puede hacer.",
@@ -90,7 +104,7 @@
    ]
   },
   "DGFI": {
-   "since": 1982,
+   "since": 1959,
    "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
    "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
    "how": "Texto de prueba. Cómo trabaja Dirección General de Inteligencia de las Fuerzas: misión, a quién responde y qué puede hacer.",
@@ -104,7 +118,7 @@
    ]
   },
   "SB": {
-   "since": 1959,
+   "since": 1906,
    "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
    "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
    "how": "Texto de prueba. Cómo trabaja Rama Especial de la Policía: misión, a quién responde y qué puede hacer.",
@@ -135,67 +149,67 @@
  },
  "rights": [
   {
-   "d": "1950",
-   "dir": "recorta",
+   "d": "1954",
+   "dir": "amplia",
    "h": "Hito de prueba 1",
+   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
+   "area": "Privacidad"
+  },
+  {
+   "d": "1961",
+   "dir": "amplia",
+   "h": "Hito de prueba 2",
    "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
    "area": "Debido proceso"
   },
   {
-   "d": "1959",
+   "d": "1970",
    "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1969",
-   "dir": "recorta",
    "h": "Hito de prueba 3",
    "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
+   "area": "Datos personales"
   },
   {
-   "d": "1979",
+   "d": "1978",
    "dir": "recorta",
    "h": "Hito de prueba 4",
    "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1984",
-   "dir": "recorta",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
    "area": "Comunicaciones"
   },
   {
-   "d": "1991",
+   "d": "1986",
    "dir": "amplia",
-   "h": "Hito de prueba 6",
+   "h": "Hito de prueba 5",
    "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
+   "area": "Privacidad"
   },
   {
-   "d": "1999",
+   "d": "1992",
+   "dir": "recorta",
+   "h": "Hito de prueba 6",
+   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
+   "area": "Privacidad"
+  },
+  {
+   "d": "2001",
    "dir": "amplia",
    "h": "Hito de prueba 7",
    "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
+   "area": "Expresión"
   },
   {
-   "d": "2011",
-   "dir": "amplia",
+   "d": "2009",
+   "dir": "recorta",
    "h": "Hito de prueba 8",
    "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
    "area": "Datos personales"
   },
   {
-   "d": "2020",
-   "dir": "amplia",
+   "d": "2017",
+   "dir": "recorta",
    "h": "Hito de prueba 9",
    "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
+   "area": "Debido proceso"
   }
  ],
  "events": [
@@ -400,17 +414,7 @@
   {
    "ev": 1,
    "h": "Caso de prueba 1",
-   "d": "1992",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "2009",
+   "d": "2017",
    "ilegal": true,
    "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
    "who": "Un ex agente",
@@ -418,10 +422,20 @@
    "debunk": ""
   },
   {
+   "ev": 1,
+   "h": "Caso de prueba 2",
+   "d": "1989",
+   "ilegal": false,
+   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
+   "who": "Un tribunal",
+   "missing": "",
+   "debunk": ""
+  },
+  {
    "ev": 2,
    "h": "Caso de prueba 3",
-   "d": "1969",
-   "ilegal": false,
+   "d": "2022",
+   "ilegal": true,
    "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
    "who": "Un gobierno extranjero",
    "missing": "Texto de prueba. Qué falta para subir de categoría.",
@@ -430,30 +444,30 @@
   {
    "ev": 2,
    "h": "Caso de prueba 4",
-   "d": "1985",
-   "ilegal": false,
+   "d": "2019",
+   "ilegal": true,
    "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
+   "who": "Un tribunal",
    "missing": "Texto de prueba. Qué falta para subir de categoría.",
    "debunk": ""
   },
   {
    "ev": 3,
    "h": "Caso de prueba 5",
-   "d": "1966",
+   "d": "1975",
    "ilegal": true,
    "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
+   "who": "Una investigación periodística",
    "missing": "Texto de prueba. Qué falta para subir de categoría.",
    "debunk": ""
   },
   {
    "ev": 4,
    "h": "Caso de prueba 6",
-   "d": "1995",
+   "d": "2021",
    "ilegal": false,
    "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
+   "who": "Un gobierno extranjero",
    "missing": "Texto de prueba. Qué falta para subir de categoría.",
    "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
   }
@@ -518,11 +532,11 @@
    "x": "Texto de prueba."
   },
   "politicos": {
-   "ev": 0,
+   "ev": 3,
    "x": "Texto de prueba."
   },
   "periodistas": {
-   "ev": 3,
+   "ev": 0,
    "x": "Texto de prueba."
   },
   "activistas": {
@@ -530,11 +544,11 @@
    "x": "Texto de prueba."
   },
   "aliados": {
-   "ev": 0,
+   "ev": 2,
    "x": "Texto de prueba."
   },
   "rivales": {
-   "ev": 2,
+   "ev": 3,
    "x": "Texto de prueba."
   },
   "extorsion": {
@@ -542,15 +556,15 @@
    "x": "Texto de prueba."
   },
   "asesinato": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
    "ev": 2,
    "x": "Texto de prueba."
   },
-  "tortura": {
+  "sabotaje": {
    "ev": 0,
+   "x": "Texto de prueba."
+  },
+  "tortura": {
+   "ev": 2,
    "x": "Texto de prueba."
   },
   "secuestro": {
@@ -558,15 +572,15 @@
    "x": "Texto de prueba."
   },
   "propaganda": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
    "ev": 1,
    "x": "Texto de prueba."
   },
-  "cultural": {
+  "conflictos": {
    "ev": 2,
+   "x": "Texto de prueba."
+  },
+  "cultural": {
+   "ev": 0,
    "x": "Texto de prueba."
   },
   "golpes": {
@@ -586,15 +600,15 @@
    "x": "Texto de prueba."
   },
   "empresarios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
    "ev": 2,
    "x": "Texto de prueba."
   },
-  "armas": {
+  "religiosos": {
    "ev": 0,
+   "x": "Texto de prueba."
+  },
+  "armas": {
+   "ev": 1,
    "x": "Texto de prueba."
   },
   "inteligencia": {
@@ -602,11 +616,11 @@
    "x": "Texto de prueba."
   },
   "tecnologia": {
-   "ev": 1,
+   "ev": 3,
    "x": "Texto de prueba."
   },
   "entrenamiento": {
-   "ev": 3,
+   "ev": 0,
    "x": "Texto de prueba."
   }
  },

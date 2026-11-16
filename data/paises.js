@@ -466,6 +466,7 @@ window.PAISES = [
     ] },
   { id: "bd", name: "Bangladesh", short: "Bangladesh", map: "Bangladesh", tier: 3, center: [90.41, 23.81], skill: "Cárceles secretas y desapariciones forzadas",
     agencies: [
+      { code: "NCC", name: "Comité Nacional de Coordinación de Inteligencia", g: "k" },
       { code: "NSI", name: "Inteligencia de Seguridad Nacional", g: "c" },
       { code: "NTMC", name: "Centro Nacional de Monitoreo de Telecomunicaciones", g: "c" },
       { code: "DGFI", name: "Dirección General de Inteligencia de las Fuerzas", g: "m" },
