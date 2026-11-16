@@ -1,4 +1,4 @@
-// Los 28 países del monitor. Los organismos son reales; el resto del contenido de cada
+// Los 32 países del monitor. Los organismos son reales; el resto del contenido de cada
 // ficha está en data/paises/<id>.js.
 // g: grupo del organigrama → k coordinación · c inteligencia civil · m militar · p policial y seguridad · j control y justicia
 // tier: 1 núcleo · 2 muy relevante · 3 relevante en su región o por una habilidad
@@ -187,7 +187,8 @@ window.PAISES = [
     agencies: [
       { code: "NSO", name: "Oficina de Seguridad Nacional", g: "k" },
       { code: "NIS", name: "Servicio Nacional de Inteligencia", g: "c" },
-      { code: "DCC", name: "Comando de Contrainteligencia de Defensa", g: "m" },
+      { code: "DCA", name: "Agencia de Contrainteligencia de Defensa (ex DCC)", g: "m" },
+      { code: "KDIC", name: "Comando de Inteligencia de Defensa", g: "m" },
       { code: "KDIA", name: "Agencia de Inteligencia de Defensa", g: "m" },
       { code: "KNPA", name: "Inteligencia de la Policía Nacional", g: "p" }
     ] },
@@ -253,9 +254,41 @@ window.PAISES = [
       { code: "SID", name: "División de Seguridad e Inteligencia", g: "c" },
       { code: "MIO", name: "Organización de Inteligencia Militar", g: "m" },
       { code: "ISD", name: "Departamento de Seguridad Interior", g: "p" }
+    ] },
+  { id: "pl", name: "Polonia", short: "Polonia", map: "Poland", tier: 2, center: [21.01, 52.23],
+    agencies: [
+      { code: "Colegio", name: "Colegio de Servicios Especiales", g: "k" },
+      { code: "AW", name: "Agencia de Inteligencia", g: "c" },
+      { code: "SWW", name: "Servicio de Inteligencia Militar", g: "m" },
+      { code: "SKW", name: "Servicio de Contrainteligencia Militar", g: "m" },
+      { code: "ABW", name: "Agencia de Seguridad Interior", g: "p" },
+      { code: "CBA", name: "Oficina Central Anticorrupción", g: "p" }
+    ] },
+  { id: "hu", name: "Hungría", short: "Hungría", map: "Hungary", tier: 3, center: [19.04, 47.5], skill: "Programas espía contra críticos y espionaje dentro de la Unión Europea",
+    agencies: [
+      { code: "TIBEK", name: "Centro de Información y Análisis contra el Terrorismo", g: "k" },
+      { code: "IH", name: "Oficina de Información", g: "c" },
+      { code: "KNBSZ", name: "Servicio de Seguridad Nacional Militar", g: "m" },
+      { code: "AH", name: "Oficina de Protección de la Constitución", g: "p" },
+      { code: "NBSZ", name: "Servicio Especial de Seguridad Nacional", g: "p" }
+    ] },
+  { id: "nl", name: "Países Bajos", short: "Países Bajos", map: "Netherlands", tier: 3, center: [4.3, 52.08], skill: "Ciberinteligencia y contraespionaje frente a Rusia",
+    agencies: [
+      { code: "NCTV", name: "Coordinador Nacional de Antiterrorismo y Seguridad", g: "k" },
+      { code: "AIVD", name: "Servicio General de Inteligencia y Seguridad", g: "c" },
+      { code: "MIVD", name: "Servicio de Inteligencia y Seguridad Militar", g: "m" },
+      { code: "CTIVD", name: "Comisión de Control de los Servicios de Inteligencia y Seguridad", g: "j" }
+    ] },
+  { id: "by", name: "Bielorrusia", short: "Bielorrusia", map: "Belarus", tier: 3, center: [27.56, 53.9], skill: "El último KGB y brazo de Moscú en Europa",
+    agencies: [
+      { code: "CS", name: "Consejo de Seguridad", g: "k" },
+      { code: "OAC", name: "Centro Operativo y Analítico", g: "c" },
+      { code: "GRU", name: "Dirección Principal de Inteligencia del Estado Mayor", g: "m" },
+      { code: "KGB", name: "Comité de Seguridad del Estado", g: "p" },
+      { code: "GUBOPiK", name: "Dirección contra el Crimen Organizado y la Corrupción", g: "p" }
     ] }
-
 ];
+
 window.TIERS = {
   1: { n: "Núcleo", x: "Las potencias de inteligencia y los casos de interés directo" },
   2: { n: "Muy relevantes", x: "Peso propio en su región y en los conflictos actuales" },
