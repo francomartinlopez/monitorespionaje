@@ -1,859 +1,146 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Bangladés · contenido real · revisada el 2026-11-16
 (window.FICHAS = window.FICHAS || {})["bd"] = {
- "sample": true,
- "id": "bd",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Bangladesh: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "5",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 2,
-  "senales": 2,
-  "ciber": 2,
-  "imagenes": 1,
-  "encubierta": 2,
-  "contra": 3
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "NCC": {
-   "since": 1978,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comité Nacional de Coordinación de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "NSI": {
-   "since": 1981,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia de Seguridad Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "NTMC": {
-   "since": 1982,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Centro Nacional de Monitoreo de Telecomunicaciones: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "DGFI": {
-   "since": 1959,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Dirección General de Inteligencia de las Fuerzas: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "SB": {
-   "since": 1906,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Rama Especial de la Policía: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "bd",
+  updated: "2026-11-16",
+  summary: [
+    "La Dirección General de Inteligencia de las Fuerzas de Defensa (DGFI) es el servicio más poderoso de Bangladés. La Inteligencia de Seguridad Nacional (NSI) cubre lo civil, el Centro Nacional de Monitoreo de Telecomunicaciones (NTMC) concentra las escuchas y la Rama Especial (SB) de la policía vigila dentro del país.",
+    "Bajo el gobierno de Sheikh Hasina (2009–2024), la DGFI y la policía fueron acusadas de cientos de desapariciones forzadas. En 2025 una comisión investigadora describió cárceles secretas como \"Aynaghar\", y en octubre de 2025 un tribunal acusó a oficiales de la DGFI.",
+    "Hasina cayó en agosto de 2024 tras protestas estudiantiles con cientos de muertos, según la ONU. El gobierno interino de Muhammad Yunus prometió reformar los servicios; Hasina fue condenada en ausencia en noviembre de 2025 y vive en India."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Muertos en las protestas de 2024", v: "Hasta 1.400", n: "según la ONU, febrero de 2025" },
+    { l: "Desapariciones denunciadas", v: "Más de 1.600", n: "según la comisión investigadora, 2025" },
+    { l: "Cárcel secreta", v: "Aynaghar (DGFI)", n: "según la comisión y testimonios" },
+    { l: "Hasina", v: "Condenada en ausencia", n: "noviembre de 2025" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 3, senales: 3, ciber: 2, imagenes: 1, encubierta: 2, contra: 4 },
+  powerWhy: {
+    humana: "Redes internas extensas; poca presencia exterior fuera de la región.",
+    senales: "El NTMC centraliza la interceptación de telecomunicaciones.",
+    ciber: "Compró equipos de vigilancia a empresas extranjeras, según investigaciones de prensa.",
+    imagenes: "Sin capacidades propias.",
+    encubierta: "Secuestros y desapariciones internas, según la comisión.",
+    contra: "Aparato de control interno amplio, usado contra la oposición."
+  },
+  priorities: [
+    { h: "Oposición", x: "BNP y Jamaat-e-Islami hasta 2024." },
+    { h: "Terrorismo islamista", x: "Ataque de Holey Artisan en 2016." },
+    { h: "India y Myanmar", x: "Fronteras y refugiados rohinyás." },
+    { h: "Transición", x: "Reforma tras la caída de Hasina." }
+  ],
+  focos: ["Daca", "India", "Myanmar", "Rohinyás"],
+  bodies: {
+    "NCC": { since: 2010, how: "Comité Nacional de Coordinación de inteligencia.", staff: "No aplica.", budget: "No aplica.", tech: [], where: ["Daca"] },
+    "NSI": { since: 1972, how: "Inteligencia de Seguridad Nacional: servicio civil bajo la oficina del primer ministro.", staff: "No se publica.", budget: "Secreto.", tech: [], where: ["Daca"] },
+    "NTMC": { since: 2013, how: "Centro Nacional de Monitoreo de Telecomunicaciones: escuchas legales del Estado.", staff: "No se publica.", budget: "Secreto.", tech: ["Interceptación", "Vigilancia de redes"], where: ["Daca"] },
+    "DGFI": { since: 1977, how: "Dirección General de Inteligencia de las Fuerzas de Defensa: inteligencia militar con gran poder político interno.", staff: "No se publica.", budget: "Secreto.", tech: [], where: ["Daca"] },
+    "SB": { since: 1947, how: "Rama Especial de la policía: inteligencia interior y control de pasaportes.", staff: "No se publica.", budget: "Dentro de la policía.", tech: [], where: ["Daca"] }
+  },
+  civil: [
+    "Bajo Hasina, la DGFI respondía de hecho a la oficina de la primera ministra.",
+    "El gobierno interino de 2024 removió a jefes de inteligencia y abrió investigaciones.",
+    "No hay control parlamentario efectivo de los servicios."
+  ],
+  law: {
+    domestic: [
+      "La Ley de Telecomunicaciones de 2001, reformada en 2006, permite escuchas por razones de seguridad.",
+      "La Ley de Seguridad Digital de 2018 se usó contra periodistas; fue reemplazada en 2023."
+    ],
+    foreign: [
+      "No hay normas públicas sobre operaciones en el exterior."
+    ],
+    oversight: [
+      "Comisión de investigación de desapariciones forzadas, creada en 2024.",
+      "Tribunal Internacional de Crímenes."
+    ]
+  },
+  rights: [
+    { d: "2006", dir: "amplia", area: "Privacidad", h: "Reforma de telecomunicaciones", x: "Permite escuchas sin control judicial." },
+    { d: "2018", dir: "amplia", area: "Expresión", h: "Ley de Seguridad Digital", x: "Usada para detener a periodistas y críticos." },
+    { d: "2024", dir: "recorta", area: "Debido proceso", h: "Comisión de desapariciones", x: "Investiga a la DGFI y a la policía." }
+  ],
+  events: [
+    { d: "2016-07-01", lat: 23.79, lon: 90.42, c: "Bangladesh", t: "contra", ev: 1, h: "Ataque de Holey Artisan", x: "Un comando islamista mata a 22 rehenes en un café de Daca.", u: "https://en.wikipedia.org/wiki/July_2016_Dhaka_attack", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2024-08-05", lat: 23.76, lon: 90.39, c: "Bangladesh", t: "contra", ev: 1, h: "Cae Hasina", x: "La primera ministra huye a India tras semanas de protestas.", u: "https://en.wikipedia.org/wiki/July_Revolution_(Bangladesh)", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2024-12", lat: 23.82, lon: 90.4, c: "Bangladesh", t: "encubierta", ev: 2, h: "Aynaghar", x: "La comisión visita celdas secretas de la DGFI en Daca, según su informe.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  interest: {
+    "India": 3, "Myanmar": 3, "Pakistan": 1, "China": 1
+  },
+  timeline: [
+    { era: "Independencia", d: "1971", h: "Nace Bangladés", x: "Guerra de independencia de Pakistán." },
+    { era: "Militares", d: "1977", h: "Nace la DGFI", x: "Bajo el gobierno militar de Ziaur Rahman." },
+    { era: "Hasina", d: "2009–2024", h: "Desapariciones", x: "Cientos de opositores desaparecidos, según organizaciones de derechos humanos." },
+    { era: "Transición", d: "2024–2026", h: "Gobierno interino", x: "Investigaciones a la DGFI y juicio a Hasina.", now: true }
+  ],
+  cases: [
+    { ev: 2, ilegal: true, d: "2009–2024", h: "Aynaghar", x: "La comisión investigadora y ex detenidos describieron una cárcel secreta de la DGFI donde opositores pasaron meses o años sin proceso. En 2025 un tribunal acusó a oficiales por desapariciones forzadas.", who: "Comisión de investigación de desapariciones forzadas; Human Rights Watch", missing: "Sentencias firmes.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "2024-07", h: "La represión de julio", x: "La ONU concluyó que el gobierno de Hasina y sus servicios coordinaron una represión que pudo dejar hasta 1.400 muertos. Hasina fue condenada en ausencia en 2025.", who: "Oficina de la ONU para los Derechos Humanos; Tribunal Internacional de Crímenes", missing: "", u: "https://www.ohchr.org/en/press-releases/2025/02/bangladesh-un-report-finds-brutal-systematic-repression-protests-calls-justice", st: "ACNUDH" }
+  ],
+  failures: [
+    { k: "falla", d: "2016-07", ev: 1, w: 2, h: "Holey Artisan", x: "Los servicios no detectaron la célula que atacó el café pese a amenazas previas.", why: "El ataque está probado; el alcance de los avisos se discute.", wx: "Hubo informes de prensa sobre alertas ignoradas.", who: "Prensa bangladesí", u: "https://en.wikipedia.org/wiki/July_2016_Dhaka_attack", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "Presencia limitada en embajadas regionales.",
+    campo: "Redes internas en universidades, partidos y medios.",
+    oficina: "La DGFI dominaba el aparato bajo Hasina.",
+    reclutamiento: "Oficiales militares y policías.",
+    tecnica: "El NTMC compró equipos de interceptación extranjeros, según investigaciones de prensa.",
+    enlaces: "Cooperación con India bajo Hasina."
+  },
+  insiders: [
+    { k: "desertor", dir: "sale", ev: 2, d: "2024", n: "Ziaul Ahsan", h: "El jefe del NTMC", x: "El ex jefe del NTMC fue detenido tras la caída de Hasina y acusado por desapariciones.", cargo: "Director del NTMC", hacia: "No aplica", fin: "Detenido en 2024.", who: "Prensa bangladesí", u: "https://en.wikipedia.org/wiki/Ziaul_Ahsan", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "ocultamiento", rol: "autor", ev: 2, d: "2009–2024", h: "Las desapariciones", x: "El gobierno negó durante años la existencia de cárceles secretas.", obj: "Evitar responsabilidades.", aquien: "Al público y a la justicia", como: "Testimonios de liberados y la comisión de 2024.", who: "Comisión de investigación", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  practicas: {
+    propios: { ev: 2, x: "Se detuvo a oficiales críticos, según testimonios.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 1, x: "Opositores del BNP y de Jamaat desaparecieron bajo Hasina.", u: "https://www.ohchr.org/en/press-releases/2025/02/bangladesh-un-report-finds-brutal-systematic-repression-protests-calls-justice", st: "ACNUDH" },
+    periodistas: { ev: 2, x: "Periodistas detenidos con la Ley de Seguridad Digital.", u: "https://en.wikipedia.org/wiki/Digital_Security_Act,_2018", st: "Wikipedia (síntesis de fuentes)" },
+    activistas: { ev: 1, x: "Líderes estudiantiles detenidos por la policía de inteligencia en 2024, según la ONU.", u: "https://www.ohchr.org/en/press-releases/2025/02/bangladesh-un-report-finds-brutal-systematic-repression-protests-calls-justice", st: "ACNUDH" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 2, x: "Ejecuciones extrajudiciales atribuidas a fuerzas de seguridad, según organizaciones de derechos humanos.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 2, x: "Ex detenidos de Aynaghar describieron torturas.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" },
+    secuestro: { ev: 2, x: "Desapariciones forzadas atribuidas a la DGFI.", u: "https://en.wikipedia.org/wiki/Aynaghar", st: "Wikipedia (síntesis de fuentes)" },
+    propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    conflictos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    elecciones: { ev: 3, x: "La oposición acusó a los servicios de manipular las elecciones de 2014, 2018 y 2024.", u: "https://en.wikipedia.org/wiki/2024_Bangladeshi_general_election", st: "Wikipedia (síntesis de fuentes)" },
+    partidos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    armas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    inteligencia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "El presupuesto de los servicios es secreto.",
+    uso: "Control interno y vigilancia de telecomunicaciones.",
+    ingresos: "Esta ficha no encontró ingresos propios documentados.",
+    empresas: "Las Fuerzas Armadas tienen empresas propias; no se documentó su uso por la DGFI.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "Esta ficha no encontró casos documentados.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
+  },
+  fondos: [
+    { k: "presupuesto", rol: "autor", ev: 3, d: "2013–2024", h: "Compras de vigilancia", x: "Investigaciones de prensa describieron compras de equipos de interceptación por el NTMC y la DGFI sin control público.", obj: "Vigilancia de la población.", who: "Prensa de investigación", u: "https://en.wikipedia.org/wiki/National_Telecommunication_Monitoring_Centre", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "Proveedores extranjeros de interceptación", c: "extranjera", rubro: "Vigilancia", rel: "Proveedores", x: "Vendieron equipos al NTMC, según investigaciones de prensa." }
+  ],
+  struggles: [
+    { a: "Gobierno interino", b: "Antiguo aparato de seguridad", k: "Con otros poderes", stake: "Las responsabilidades por desapariciones", state: "Abierta", x: "Juicios a oficiales de la DGFI." }
+  ],
+  sources: [
+    { t: "ACNUDH: informe sobre la represión de 2024", u: "https://www.ohchr.org/en/press-releases/2025/02/bangladesh-un-report-finds-brutal-systematic-repression-protests-calls-justice" },
+    { t: "Wikipedia: Aynaghar", u: "https://en.wikipedia.org/wiki/Aynaghar" },
+    { t: "Wikipedia: July Revolution (Bangladesh)", u: "https://en.wikipedia.org/wiki/July_Revolution_(Bangladesh)" }
   ]
- },
- "rights": [
-  {
-   "d": "1954",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1961",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1970",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1978",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1986",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1992",
-   "dir": "recorta",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "2001",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2009",
-   "dir": "recorta",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2017",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  }
- ],
- "events": [
-  {
-   "d": "1961-06-23",
-   "lat": 25.85,
-   "lon": 95.67,
-   "t": "contra",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1967-08-19",
-   "lat": 19.85,
-   "lon": 92.68,
-   "t": "ciber",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1970-05-10",
-   "lat": -24.42,
-   "lon": 59.58,
-   "t": "senales",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1975-09-19",
-   "lat": 25.99,
-   "lon": 87.52,
-   "t": "sabotaje",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1979-12-06",
-   "lat": 13.87,
-   "lon": 33.83,
-   "t": "sabotaje",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1986-07-09",
-   "lat": 21.58,
-   "lon": 88.82,
-   "t": "contra",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1991-08-08",
-   "lat": 21.25,
-   "lon": 87.13,
-   "t": "senales",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1992-09-27",
-   "lat": 23.43,
-   "lon": 84.78,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1996-08-12",
-   "lat": 22.97,
-   "lon": 85.7,
-   "t": "encubierta",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2004-06-09",
-   "lat": 48.72,
-   "lon": 132.83,
-   "t": "humana",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2006-03-03",
-   "lat": -29.83,
-   "lon": -103.64,
-   "t": "senales",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2014-02-03",
-   "lat": 26.46,
-   "lon": 93.85,
-   "t": "encubierta",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2016-06-10",
-   "lat": 22.89,
-   "lon": 95.36,
-   "t": "ciber",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2022-12-03",
-   "lat": 20.11,
-   "lon": 90.99,
-   "t": "contra",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  }
- ],
- "interest": {
-  "Russia": 1,
-  "Ukraine": 3,
-  "Iraq": 1,
-  "Afghanistan": 2,
-  "Argentina": 2,
-  "Taiwan": 1,
-  "Mali": 2,
-  "Nigeria": 3,
-  "Belarus": 2,
-  "Indonesia": 3,
-  "Somalia": 1
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "2017",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1989",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2022",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "2019",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1975",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "2021",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };

@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Bangladés: ficha real (DGFI, Aynaghar, represión de 2024, NTMC). Las 57 fichas son reales.
+
 - 2026-11-15 · Serbia: ficha real (BIA, NoviSpy, sanciones a Vulin, protestas de Novi Sad).
 
 - 2026-11-15 · Ficha real de Dinamarca: FE, PET y TET; la operación Dunhammer con la NSA, el caso Findsen y las operaciones de influencia en Groenlandia de 2025.
