@@ -106,7 +106,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     document.title = "Monitor de Espionaje";
     const rels = window.RELACIONES;
     app.innerHTML = `
-      <div class="section-title"><h2>Mapa de relaciones</h2><span>Cómo se vinculan los servicios de los 28 países: cooperación, enfrentamiento o relación ambigua${sampleTag(true)}</span></div>
+      <div class="section-title"><h2>Mapa de relaciones</h2><span>Cómo se vinculan los servicios de los ${PAISES.length} países: cooperación, enfrentamiento o relación ambigua${sampleTag(true)}</span></div>
       <div class="chips" id="relChips">
         <button type="button" class="chip on" data-mode="rel" style="--c:var(--ph)">Relaciones</button>
         <button type="button" class="chip" data-mode="focos" style="--c:var(--ph)">Focos de operaciones</button>
