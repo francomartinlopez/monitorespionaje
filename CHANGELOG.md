@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Australia: ONI, ASIS, ASD, DIO, ASIO e IGIS; los incendios ordenados por la Guardia Revolucionaria iraní y la expulsión del embajador, el ataque de Bondi y la comisión real, las escuchas en Timor Oriental y el caso Petrov.
+
 - 2026-11-15 · Ficha real de España: CNI, CIFAS y CITCO; el Catalangate y lo que reconoció la directora del CNI, Pegasus en el teléfono de Sánchez (causa archivada en 2026), el juicio Kitchen, los GAL, las escuchas del CESID y el asesinato de Kuzmínov.
 
 - 2026-11-15 · Ficha real de Italia: DIS, AISE, AISI y RIS; el caso Paragon (Graphite contra activistas y el teléfono de Cancellato), Walter Biot, la fuga de Artem Uss, Abu Omar, Bolonia, Gladio y la P2.
