@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de España: CNI, CIFAS y CITCO; el Catalangate y lo que reconoció la directora del CNI, Pegasus en el teléfono de Sánchez (causa archivada en 2026), el juicio Kitchen, los GAL, las escuchas del CESID y el asesinato de Kuzmínov.
+
 - 2026-11-15 · Ficha real de Italia: DIS, AISE, AISI y RIS; el caso Paragon (Graphite contra activistas y el teléfono de Cancellato), Walter Biot, la fuga de Artem Uss, Abu Omar, Bolonia, Gladio y la P2.
 
 - 2026-11-15 · Ficha real de Polonia: AW, ABW, SWW, SKW y CBA; los sabotajes rusos (Marywilska y la vía Varsovia-Lublin), el plan de asesinato frustrado en 2026, Pegasus y las acusaciones a ex jefes de los servicios, y el centro secreto de la CIA. En México, Guacamaya pasa a figurar como denunciante.
