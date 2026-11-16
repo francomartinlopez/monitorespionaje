@@ -1,866 +1,152 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Bélgica · contenido real · revisada el 2026-11-16
 (window.FICHAS = window.FICHAS || {})["be"] = {
- "sample": true,
- "id": "be",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Bélgica: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 2,
-  "senales": 2,
-  "ciber": 2,
-  "imagenes": 1,
-  "encubierta": 1,
-  "contra": 3
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "CNS": {
-   "since": 1978,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Consejo Nacional de Seguridad: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "VSSE": {
-   "since": 1958,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Seguridad del Estado: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "SGRS": {
-   "since": 1974,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio General de Inteligencia y Seguridad: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "OCAM": {
-   "since": 1928,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Órgano de Coordinación para el Análisis de la Amenaza: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Comité R": {
-   "since": 1975,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Comité Permanente de Control de los Servicios de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "be",
+  updated: "2026-11-16",
+  summary: [
+    "Bruselas aloja las instituciones de la Unión Europea y el cuartel general de la OTAN, lo que la convierte en una de las capitales con más espías del mundo. Bélgica tiene dos servicios chicos: la Seguridad del Estado (VSSE), civil y uno de los servicios más antiguos del mundo, y el Servicio General de Inteligencia y Seguridad (SGRS) militar. El Órgano de Coordinación para el Análisis de la Amenaza (OCAM) evalúa el terrorismo.",
+    "Bélgica fue blanco de aliados y rivales. Documentos de Snowden mostraron que la agencia británica GCHQ hackeó a la operadora estatal Belgacom en la operación Socialist. En 2023 la prensa reveló que un ex senador del partido Vlaams Belang trabajó para la inteligencia china, y en 2024 se descubrió la red rusa Voice of Europe, que pagaba a eurodiputados.",
+    "Los atentados yihadistas de marzo de 2016 en Bruselas mataron a 32 personas y expusieron fallas de coordinación entre servicios. En 2022 el escándalo Qatargate, sobre sobornos a miembros del Parlamento Europeo, empezó con información de la VSSE."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Fundación de la Seguridad del Estado", v: "1830", n: "uno de los servicios más antiguos del mundo" },
+    { l: "Operación Socialist", v: "GCHQ hackeó a Belgacom", n: "revelado en 2013" },
+    { l: "Atentados de Bruselas", v: "32 muertos", n: "22 de marzo de 2016" },
+    { l: "Qatargate", v: "2022", n: "investigación iniciada con datos de la VSSE" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 2, senales: 2, ciber: 2, imagenes: 1, encubierta: 1, contra: 3 },
+  powerWhy: {
+    humana: "Servicios chicos con recursos limitados para una capital llena de espías.",
+    senales: "El SGRS tiene capacidades modestas de interceptación.",
+    ciber: "No detectó durante años el hackeo de la GCHQ a su principal operadora.",
+    imagenes: "Depende de la OTAN y de socios.",
+    encubierta: "No hay operaciones encubiertas documentadas.",
+    contra: "Destapó Qatargate y la red Voice of Europe con ayuda de socios."
+  },
+  priorities: [
+    { h: "Instituciones europeas", x: "Proteger a la UE y la OTAN del espionaje." },
+    { h: "Terrorismo", x: "Yihadismo y radicalización." },
+    { h: "Rusia y China", x: "Espionaje e influencia en Bruselas." },
+    { h: "Injerencia", x: "Sobornos y redes de influencia en el Parlamento Europeo." },
+    { h: "Crimen organizado", x: "El puerto de Amberes y el narcotráfico." }
+  ],
+  focos: ["Rusia", "China", "Catar", "Marruecos", "Yihadismo"],
+  bodies: {
+    "CNS": { since: 2015, how: "Consejo Nacional de Seguridad, que reúne al primer ministro y a ministros clave.", staff: "No aplica.", budget: "No aplica.", tech: [], where: ["Bruselas"] },
+    "VSSE": { since: 1830, how: "Seguridad del Estado: inteligencia civil, contraespionaje, injerencia y extremismo. Depende del Ministerio de Justicia.", staff: "Unas 800 personas, según estimaciones públicas.", budget: "Público.", tech: [], where: ["Bruselas"] },
+    "SGRS": { since: 1915, how: "Servicio General de Inteligencia y Seguridad: inteligencia militar, ciber y contrainteligencia de Defensa.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: ["Interceptación", "Ciber"], where: ["Evere"] },
+    "OCAM": { since: 2006, how: "Órgano de Coordinación para el Análisis de la Amenaza: fija el nivel de amenaza terrorista.", staff: "No se publica.", budget: "Público.", tech: [], where: ["Bruselas"] },
+    "Comité R": { since: 1991, how: "Comité Permanente de Control de los Servicios de Inteligencia, que depende del Parlamento.", staff: "No se publica.", budget: "Público.", tech: [], where: ["Bruselas"] }
+  },
+  civil: [
+    "La VSSE responde al ministro de Justicia y el SGRS al de Defensa.",
+    "El Comité R controla a los dos servicios para el Parlamento.",
+    "Una comisión administrativa autoriza los métodos excepcionales."
+  ],
+  law: {
+    domestic: [
+      "La ley orgánica de 1998 regula a los servicios.",
+      "La ley de métodos especiales de 2010 permite escuchas e intrusiones con control de una comisión.",
+      "Reformas posteriores a 2016 ampliaron el intercambio de datos entre servicios."
+    ],
+    foreign: [
+      "El SGRS puede interceptar comunicaciones en el exterior."
+    ],
+    oversight: [
+      "Comité Permanente R.",
+      "Comisión administrativa de métodos especiales."
+    ]
+  },
+  rights: [
+    { d: "2010-02", dir: "amplia", area: "Privacidad", h: "Ley de métodos especiales", x: "Autoriza escuchas e intrusiones con control administrativo." },
+    { d: "2016-12", dir: "amplia", area: "Privacidad", h: "Bases de datos comunes", x: "Tras los atentados se crean bases compartidas sobre combatientes extranjeros." }
+  ],
+  events: [
+    { d: "2013-09", lat: 50.85, lon: 4.36, c: "Belgium", t: "ciber", ev: 1, h: "El hackeo a Belgacom", x: "Se revela que la GCHQ británica infectó durante años la red de la operadora estatal belga.", u: "https://en.wikipedia.org/wiki/Operation_Socialist", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2016-03-22", lat: 50.9, lon: 4.48, c: "Belgium", t: "contra", ev: 1, h: "Atentados de Bruselas", x: "Ataques suicidas en el aeropuerto y el metro matan a 32 personas.", u: "https://en.wikipedia.org/wiki/2016_Brussels_bombings", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2022-12-09", lat: 50.84, lon: 4.38, c: "Belgium", t: "contra", ev: 2, h: "Qatargate", x: "La policía detiene a una vicepresidenta del Parlamento Europeo y encuentra bolsas con dinero, en una causa iniciada con datos de la VSSE.", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  interest: {
+    "Russia": 3, "China": 3, "Qatar": 2, "Morocco": 2, "Iran": 1, "Syria": 1, "Dem. Rep. Congo": 1, "Netherlands": 1
+  },
+  timeline: [
+    { era: "Fundación", d: "1830", h: "Nace la Seguridad del Estado", x: "Creada con la independencia belga." },
+    { era: "Siglo XX", d: "1915", h: "Inteligencia militar", x: "Nace el servicio militar durante la Primera Guerra Mundial." },
+    { era: "", d: "1998", h: "Ley orgánica", x: "Marco legal moderno y control parlamentario." },
+    { era: "Siglo XXI", d: "2016", h: "Atentados de Bruselas", x: "Reformas de coordinación." },
+    { era: "Actual", d: "2022–2026", h: "Injerencia en la UE", x: "Qatargate, Voice of Europe y espionaje chino.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2010–2013", h: "La operación Socialist", x: "Documentos de Snowden mostraron que la GCHQ infectó computadoras de empleados de Belgacom para acceder a su red. La fiscalía belga concluyó en 2018 que fue obra del Reino Unido, que nunca lo confirmó.", who: "Fiscalía federal de Bélgica", missing: "", u: "https://en.wikipedia.org/wiki/Operation_Socialist", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "2018–2022", h: "Qatargate", x: "La fiscalía belga acusa a eurodiputados y asistentes de recibir sobornos de Catar y Marruecos para influir en el Parlamento Europeo. Los acusados lo niegan y el juicio aún no se hizo.", who: "Fiscalía federal de Bélgica", missing: "Un juicio.", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "2019–2023", h: "Frank Creyelman", x: "Una investigación periodística mostró que el ex senador de Vlaams Belang recibía instrucciones de un agente del Ministerio de Seguridad del Estado chino para influir en la política europea. Fue expulsado de su partido.", who: "Financial Times, Der Spiegel y Le Monde", missing: "Una condena judicial.", u: "https://en.wikipedia.org/wiki/Vlaams_Belang", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "2015–2016", ev: 1, w: 3, h: "La célula de París y Bruselas", x: "Los autores de los atentados de París y Bruselas vivieron en Molenbeek pese a estar en listas de sospechosos.", why: "No está en duda; lo concluyó una comisión parlamentaria.", wx: "Informe de la comisión parlamentaria de 2017.", who: "Comisión parlamentaria belga", u: "https://en.wikipedia.org/wiki/2016_Brussels_bombings", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "Bélgica tiene pocos oficiales en el exterior; en Bruselas operan cientos de espías extranjeros, según la VSSE.",
+    campo: "Fuentes humanas en comunidades de riesgo y en el entorno de las instituciones europeas.",
+    oficina: "La VSSE informa al gobierno y alerta a las instituciones europeas.",
+    reclutamiento: "Concursos públicos; el servicio pidió más personal durante años.",
+    tecnica: "Métodos especiales con control administrativo; capacidad técnica modesta.",
+    enlaces: "Cooperación con servicios europeos, la OTAN y EE.UU."
+  },
+  insiders: [
+    { k: "topo", dir: "sale", ev: 2, d: "2019–2023", n: "Frank Creyelman", h: "El ex senador al servicio de China", x: "Recibía pedidos de un agente chino para difundir mensajes y obtener información, según la prensa.", cargo: "Ex senador y dirigente de Vlaams Belang", hacia: "Ministerio de Seguridad del Estado chino", fin: "Expulsado del partido.", who: "Financial Times, Der Spiegel y Le Monde", u: "https://en.wikipedia.org/wiki/Vlaams_Belang", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "robo", rol: "blanco", ev: 1, d: "2010–2013", h: "Belgacom", x: "Un servicio aliado accede a las comunicaciones de la principal operadora belga.", obj: "Interceptar tráfico de instituciones y clientes.", who: "Fiscalía federal de Bélgica", u: "https://en.wikipedia.org/wiki/Operation_Socialist", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desinfo", rol: "blanco", ev: 2, d: "2023–2024", h: "Voice of Europe", x: "Un sitio financiado por Rusia pagaba a políticos europeos para difundir mensajes prorrusos, según los servicios checo y belga.", obj: "Influir en las elecciones europeas de 2024.", who: "Servicios de seguridad de Chequia y Bélgica", u: "https://en.wikipedia.org/wiki/Voice_of_Europe", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  practicas: {
+    propios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    politicos: { ev: 1, x: "La VSSE vigila a políticos por posibles vínculos con potencias extranjeras, como en Qatargate.", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    periodistas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    activistas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 1, x: "Rusia y China son blancos centrales de la contrainteligencia belga.", u: "https://en.wikipedia.org/wiki/Voice_of_Europe", st: "Wikipedia (síntesis de fuentes)" },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 1, x: "Durante la descolonización, oficiales belgas participaron en el asesinato de Patrice Lumumba en 1961, según una comisión parlamentaria.", u: "https://en.wikipedia.org/wiki/Patrice_Lumumba", st: "Wikipedia (síntesis de fuentes)" },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    conflictos: { ev: 1, x: "Apoyó la secesión de Katanga en el Congo en 1960.", u: "https://en.wikipedia.org/wiki/State_of_Katanga", st: "Wikipedia (síntesis de fuentes)" },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 2, x: "Una comisión parlamentaria atribuyó a Bélgica una responsabilidad moral en la caída y muerte de Lumumba.", u: "https://en.wikipedia.org/wiki/Patrice_Lumumba", st: "Wikipedia (síntesis de fuentes)" },
+    elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    partidos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 1, x: "La VSSE vigila mezquitas y la financiación extranjera del islam en Bélgica.", u: "https://en.wikipedia.org/wiki/State_Security_Service_(Belgium)", st: "Wikipedia (síntesis de fuentes)" },
+    armas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    inteligencia: { ev: 1, x: "Comparte información con socios europeos sobre injerencia y terrorismo.", u: "https://en.wikipedia.org/wiki/State_Security_Service_(Belgium)", st: "Wikipedia (síntesis de fuentes)" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "Los presupuestos de la VSSE y el SGRS son públicos y crecieron tras 2016. Esta ficha no encontró las cifras de 2026 verificadas.",
+    uso: "Personal, contraterrorismo y contraespionaje.",
+    ingresos: "Esta ficha no encontró ingresos propios.",
+    empresas: "Esta ficha no encontró empresas de fachada documentadas.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "Esta ficha no encontró casos documentados.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
+  },
+  fondos: [
+    { k: "cobertura", rol: "blanco", ev: 2, d: "2018–2022", h: "El dinero de Qatargate", x: "La policía encontró más de 1,5 millones de euros en efectivo en casas de los acusados, según la fiscalía.", monto: "Más de 1,5 millones de euros", obj: "Comprar influencia en el Parlamento Europeo.", who: "Fiscalía federal de Bélgica", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "fachada", rol: "blanco", ev: 2, d: "2023–2024", h: "Voice of Europe", x: "Un sitio con sede en Praga, financiado por Rusia, pagaba a políticos europeos.", obj: "Difundir propaganda prorrusa.", who: "Servicio de seguridad checo", u: "https://en.wikipedia.org/wiki/Voice_of_Europe", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "Proximus (ex Belgacom)", c: "nacional", rubro: "Telecomunicaciones", rel: "Víctima", x: "Hackeada por la GCHQ entre 2010 y 2013." }
+  ],
+  struggles: [
+    { a: "VSSE", b: "Gobierno", k: "Con la política", stake: "Los recursos del servicio", state: "Latente", x: "El servicio reclama más personal para vigilar Bruselas." }
+  ],
+  sources: [
+    { t: "Wikipedia: State Security Service (Belgium)", u: "https://en.wikipedia.org/wiki/State_Security_Service_(Belgium)" },
+    { t: "Wikipedia: Operation Socialist", u: "https://en.wikipedia.org/wiki/Operation_Socialist" },
+    { t: "Wikipedia: 2022 European Parliament corruption scandal", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal" },
+    { t: "Wikipedia: Voice of Europe", u: "https://en.wikipedia.org/wiki/Voice_of_Europe" }
   ]
- },
- "rights": [
-  {
-   "d": "1954",
-   "dir": "recorta",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1960",
-   "dir": "recorta",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1970",
-   "dir": "recorta",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1978",
-   "dir": "amplia",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1987",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1994",
-   "dir": "recorta",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "2004",
-   "dir": "recorta",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2008",
-   "dir": "amplia",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "2017",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  }
- ],
- "events": [
-  {
-   "d": "1961-02-24",
-   "lat": 50.22,
-   "lon": 6.58,
-   "t": "ciber",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1966-01-10",
-   "lat": 54.7,
-   "lon": 6.04,
-   "t": "humana",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1970-08-07",
-   "lat": 44.69,
-   "lon": -71.57,
-   "t": "sabotaje",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1975-04-13",
-   "lat": 18.18,
-   "lon": 112.98,
-   "t": "humana",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1979-05-04",
-   "lat": 50.01,
-   "lon": 3.57,
-   "t": "sabotaje",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1985-02-24",
-   "lat": 53.45,
-   "lon": 2.75,
-   "t": "sabotaje",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1988-10-05",
-   "lat": 48.69,
-   "lon": -1.55,
-   "t": "ciber",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1992-01-17",
-   "lat": -30.08,
-   "lon": 26.82,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1998-05-18",
-   "lat": -23.19,
-   "lon": 83.57,
-   "t": "humana",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2002-09-24",
-   "lat": 49.67,
-   "lon": 7.93,
-   "t": "humana",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2005-04-20",
-   "lat": 9.15,
-   "lon": -121.27,
-   "t": "ciber",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2012-08-05",
-   "lat": 50.47,
-   "lon": 24.71,
-   "t": "senales",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2017-04-09",
-   "lat": 36.11,
-   "lon": -21.12,
-   "t": "humana",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2021-04-10",
-   "lat": -13.94,
-   "lon": -20.42,
-   "t": "senales",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  }
- ],
- "interest": {
-  "United States of America": 1,
-  "Russia": 2,
-  "Germany": 3,
-  "Iran": 3,
-  "Israel": 3,
-  "Pakistan": 3,
-  "Venezuela": 3,
-  "Japan": 2,
-  "South Korea": 2,
-  "Taiwan": 2,
-  "Libya": 1,
-  "Mali": 3,
-  "Nigeria": 1,
-  "Kazakhstan": 1,
-  "Belarus": 1,
-  "Philippines": 1,
-  "Vietnam": 3,
-  "Colombia": 1
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1970",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1977",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2007",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "1986",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1961",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "2021",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };

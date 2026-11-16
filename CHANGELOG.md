@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Bélgica: VSSE, SGRS, OCAM y Comité R; la operación Socialist de la GCHQ, Qatargate, el caso Creyelman, Voice of Europe y los atentados de 2016.
+
 - 2026-11-15 · Ficha real de Chipre: KYP, inteligencia de la Guardia Nacional y policía; el videogate de 2026 producido por Black Cube, la camioneta espía de 2019, Cyprus Confidential y el depósito de Hezbolá en Lárnaca.
 
 - 2026-11-15 · Ficha real de Grecia: EYP, inteligencia militar y ADAE; el Watergate griego y las condenas a Intellexa (2026), las escuchas a Androulakis, el caso Vodafone de 2004-2005 y la expulsión de diplomáticos rusos.
