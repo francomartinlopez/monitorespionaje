@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Serbia: ficha real (BIA, NoviSpy, sanciones a Vulin, protestas de Novi Sad).
+
 - 2026-11-15 · Ficha real de Dinamarca: FE, PET y TET; la operación Dunhammer con la NSA, el caso Findsen y las operaciones de influencia en Groenlandia de 2025.
 
 - 2026-11-15 · Ficha real de Austria: DSN y servicios militares; la condena de Egisto Ott por espiar para Rusia con Jan Marsalek (2026), el allanamiento de la BVT en 2018 y el atentado de Viena de 2020.

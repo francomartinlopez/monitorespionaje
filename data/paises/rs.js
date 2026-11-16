@@ -1,855 +1,147 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Serbia · contenido real · revisada el 2026-11-16
 (window.FICHAS = window.FICHAS || {})["rs"] = {
- "sample": true,
- "id": "rs",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Serbia: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 2,
-  "senales": 2,
-  "ciber": 3,
-  "imagenes": 1,
-  "encubierta": 2,
-  "contra": 3
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "CSN": {
-   "since": 1943,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Consejo de Seguridad Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "BIA": {
-   "since": 1942,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Agencia de Información de Seguridad: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "VOA": {
-   "since": 1986,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Agencia de Inteligencia Militar: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "VBA": {
-   "since": 1950,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Agencia de Seguridad Militar: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "rs",
+  updated: "2026-11-16",
+  summary: [
+    "La Agencia de Información de Seguridad (BIA) es el servicio civil de Serbia, y la Agencia de Inteligencia Militar (VOA) y la Agencia de Seguridad Militar (VBA) cubren lo militar. Serbia equilibra su candidatura a la Unión Europea con lazos estrechos con Rusia y China, y sus servicios cooperan con los rusos.",
+    "En diciembre de 2024 Amnistía Internacional reveló que la policía y la BIA usaron herramientas forenses de la empresa Cellebrite y un programa espía propio, NoviSpy, para infectar teléfonos de periodistas y activistas. Desde noviembre de 2024 el país vive protestas masivas tras la caída de un techo en la estación de Novi Sad, que mató a 16 personas.",
+    "El ex jefe de la BIA Aleksandar Vulin fue sancionado por EE.UU. en 2023 por sus vínculos con Rusia y con el narcotráfico, según Washington. El presidente Aleksandar Vučić dijo en 2025 que servicios extranjeros alientan las protestas; Rusia afirmó haberle advertido de una \"revolución de colores\"."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Programa espía NoviSpy", v: "Revelado en diciembre de 2024", n: "según Amnistía Internacional" },
+    { l: "Ex jefe de la BIA sancionado", v: "Aleksandar Vulin", n: "por EE.UU., julio de 2023" },
+    { l: "Protestas", v: "Desde noviembre de 2024", n: "tras el derrumbe de Novi Sad" },
+    { l: "Presidente", v: "Aleksandar Vučić", n: "desde 2017" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 3, senales: 2, ciber: 2, imagenes: 1, encubierta: 2, contra: 3 },
+  powerWhy: {
+    humana: "Redes en los Balcanes y en la diáspora; cooperación con servicios rusos.",
+    senales: "Escuchas internas con capacidad moderada.",
+    ciber: "Usó herramientas comerciales y un programa espía propio contra activistas, según Amnistía.",
+    imagenes: "Sin capacidades propias.",
+    encubierta: "Operaciones en Kosovo y la región denunciadas por vecinos.",
+    contra: "Control interno amplio y orientado a la oposición, según sus críticos."
+  },
+  priorities: [
+    { h: "Protestas", x: "Movimiento estudiantil desde 2024." },
+    { h: "Kosovo", x: "Comunidad serbia y tensiones con Pristina." },
+    { h: "Vecinos", x: "Bosnia, Montenegro y Croacia." },
+    { h: "Rusia y Occidente", x: "Equilibrio entre ambos bloques." },
+    { h: "Crimen organizado", x: "Clanes balcánicos del narcotráfico." }
+  ],
+  focos: ["Kosovo", "Protestas", "Bosnia", "Montenegro", "Rusia"],
+  bodies: {
+    "CSN": { since: 2007, how: "Consejo de Seguridad Nacional presidido por el presidente.", staff: "No aplica.", budget: "No aplica.", tech: [], where: ["Belgrado"] },
+    "BIA": { since: 2002, how: "Agencia de Información de Seguridad: inteligencia civil interior y exterior y contraespionaje.", staff: "No se publica.", budget: "Secreto en parte.", tech: ["NoviSpy", "Herramientas forenses"], where: ["Belgrado"] },
+    "VOA": { since: 2010, how: "Agencia de Inteligencia Militar: inteligencia exterior militar.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: [], where: ["Belgrado"] },
+    "VBA": { since: 2010, how: "Agencia de Seguridad Militar: contrainteligencia en las Fuerzas Armadas.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: [], where: ["Belgrado"] }
+  },
+  civil: [
+    "La BIA responde al gobierno y, en la práctica, al presidente Vučić.",
+    "Una comisión parlamentaria controla a los servicios con poca eficacia, según sus críticos.",
+    "El ex jefe de la BIA pasó a ser viceprimer ministro pese a las sanciones de EE.UU."
+  ],
+  law: {
+    domestic: [
+      "La ley de la BIA de 2002 regula sus facultades.",
+      "Las escuchas necesitan orden judicial, pero el control es débil según organizaciones locales.",
+      "Una ley de 2024 amplió la vigilancia de la policía."
+    ],
+    foreign: [
+      "La BIA y la VOA operan en el exterior sin normas públicas detalladas."
+    ],
+    oversight: [
+      "Comisión de Control de los Servicios de Seguridad del Parlamento.",
+      "Defensor del Pueblo y comisionado de protección de datos."
+    ]
+  },
+  rights: [
+    { d: "2002", dir: "recorta", area: "Debido proceso", h: "Nace la BIA", x: "Reemplaza al servicio de seguridad del régimen de Milošević." },
+    { d: "2024-12", dir: "amplia", area: "Privacidad", h: "NoviSpy", x: "Amnistía revela la infección de teléfonos de activistas durante interrogatorios." }
+  ],
+  events: [
+    { d: "2024-02", lat: 44.8, lon: 20.46, c: "Serbia", t: "ciber", ev: 2, h: "Infección de teléfonos de periodistas", x: "Policías y agentes de la BIA desbloquean teléfonos con Cellebrite e instalan NoviSpy, según Amnistía.", u: "https://www.amnesty.org/en/latest/news/2024/12/serbia-authorities-using-spyware-and-cellebrite-forensic-extraction-tools-to-hack-journalists-and-activists/", st: "Amnistía Internacional" },
+    { d: "2024-11-01", lat: 45.26, lon: 19.83, c: "Serbia", t: "contra", ev: 1, h: "Derrumbe en Novi Sad", x: "El techo de la estación renovada mata a 16 personas y desata protestas masivas.", u: "https://en.wikipedia.org/wiki/2024_Novi_Sad_railway_station_canopy_collapse", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  interest: {
+    "Kosovo": 3, "Bosnia and Herz.": 2, "Montenegro": 2, "Croatia": 2, "Russia": 1, "Hungary": 1, "Albania": 1
+  },
+  timeline: [
+    { era: "Yugoslavia", d: "1946", h: "UDBA", x: "Policía política yugoslava, con asesinatos de emigrados." },
+    { era: "Milošević", d: "1991–1999", h: "Guerras yugoslavas", x: "Servicios ligados a paramilitares y crímenes de guerra." },
+    { era: "Democracia", d: "2002", h: "Nace la BIA", x: "Reforma de los servicios." },
+    { era: "Vučić", d: "2022–2023", h: "Vulin al frente de la BIA", x: "Acercamiento a Rusia y sanciones de EE.UU." },
+    { era: "Actual", d: "2024–2026", h: "Protestas y espionaje", x: "NoviSpy y represión de protestas.", now: true }
+  ],
+  cases: [
+    { ev: 2, ilegal: true, d: "2023–2024", h: "NoviSpy", x: "Amnistía documentó que policías y agentes de la BIA desbloquearon teléfonos de periodistas y activistas detenidos con herramientas de Cellebrite e instalaron un programa espía de desarrollo local. La BIA lo negó; Cellebrite suspendió a algunos clientes serbios.", who: "Amnistía Internacional", missing: "Reconocimiento oficial o investigación judicial.", u: "https://www.amnesty.org/en/latest/news/2024/12/serbia-authorities-using-spyware-and-cellebrite-forensic-extraction-tools-to-hack-journalists-and-activists/", st: "Amnistía Internacional" },
+    { ev: 2, ilegal: true, d: "2022–2023", h: "Aleksandar Vulin", x: "El Tesoro de EE.UU. sancionó en 2023 al jefe de la BIA por facilitar actividades rusas en Serbia y por vínculos con una red de narcotráfico. Vulin lo negó y Serbia no lo investigó.", who: "Departamento del Tesoro de EE.UU.", missing: "Un proceso judicial.", u: "https://en.wikipedia.org/wiki/Aleksandar_Vulin", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "1946–1990", h: "Los asesinatos de la UDBA", x: "Tribunales alemanes condenaron a ex agentes de la policía secreta yugoslava por el asesinato de emigrados croatas en Alemania.", who: "Tribunal Regional Superior de Múnich", missing: "", u: "https://en.wikipedia.org/wiki/UDBA", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "2024-11", ev: 1, w: 3, h: "Novi Sad", x: "El derrumbe expuso corrupción en obras públicas y desató la mayor crisis del gobierno de Vučić.", why: "El derrumbe está probado; la responsabilidad penal se investiga.", wx: "Proceso judicial en curso.", who: "Fiscalía de Novi Sad", u: "https://en.wikipedia.org/wiki/2024_Novi_Sad_railway_station_canopy_collapse", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "Oficiales en embajadas de la región y en Moscú.",
+    campo: "Redes en Kosovo, Bosnia y Montenegro.",
+    oficina: "Los servicios informan al presidente.",
+    reclutamiento: "Personal policial y militar.",
+    tecnica: "Herramientas forenses comerciales y programas espía propios, según Amnistía.",
+    enlaces: "Cooperación con servicios rusos y, en menor medida, con occidentales."
+  },
+  insiders: [
+    { k: "topo", dir: "sale", ev: 2, d: "2022–2023", n: "Aleksandar Vulin", h: "El jefe de la BIA cercano a Moscú", x: "Según EE.UU., usó su cargo para favorecer a Rusia.", cargo: "Director de la BIA", hacia: "Rusia, según el Tesoro de EE.UU.", fin: "Sancionado por EE.UU.; luego viceprimer ministro.", who: "Departamento del Tesoro de EE.UU.", u: "https://en.wikipedia.org/wiki/Aleksandar_Vulin", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "desinfo", rol: "autor", ev: 2, d: "2025", h: "La revolución de colores", x: "El gobierno y medios afines acusan a servicios occidentales de financiar las protestas estudiantiles.", obj: "Desacreditar a los manifestantes.", who: "Organizaciones de medios y observadores", u: "https://en.wikipedia.org/wiki/2024%E2%80%932025_Serbian_anti-corruption_protests", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  practicas: {
+    propios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    politicos: { ev: 2, x: "Opositores denunciaron vigilancia durante las protestas.", u: "https://en.wikipedia.org/wiki/2024%E2%80%932025_Serbian_anti-corruption_protests", st: "Wikipedia (síntesis de fuentes)" },
+    periodistas: { ev: 2, x: "Periodistas fueron infectados con NoviSpy, según Amnistía.", u: "https://www.amnesty.org/en/latest/news/2024/12/serbia-authorities-using-spyware-and-cellebrite-forensic-extraction-tools-to-hack-journalists-and-activists/", st: "Amnistía Internacional" },
+    activistas: { ev: 2, x: "Activistas ambientales y de derechos humanos fueron espiados, según Amnistía.", u: "https://www.amnesty.org/en/latest/news/2024/12/serbia-authorities-using-spyware-and-cellebrite-forensic-extraction-tools-to-hack-journalists-and-activists/", st: "Amnistía Internacional" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 1, x: "Kosovo es el blanco central de los servicios.", u: "https://en.wikipedia.org/wiki/Security_Intelligence_Agency", st: "Wikipedia (síntesis de fuentes)" },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 1, x: "La UDBA yugoslava asesinó a emigrados en el exterior.", u: "https://en.wikipedia.org/wiki/UDBA", st: "Wikipedia (síntesis de fuentes)" },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
+    secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
+    propaganda: { ev: 2, x: "Medios afines difunden la tesis de una conspiración extranjera contra el gobierno.", u: "https://en.wikipedia.org/wiki/2024%E2%80%932025_Serbian_anti-corruption_protests", st: "Wikipedia (síntesis de fuentes)" },
+    conflictos: { ev: 2, x: "Kosovo acusó a Serbia de apoyar al grupo armado que atacó en Banjska en 2023.", u: "https://en.wikipedia.org/wiki/Banjska_attack", st: "Wikipedia (síntesis de fuentes)" },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 3, x: "Montenegro acusó a nacionalistas serbios y a agentes rusos de un intento de golpe en 2016; Serbia lo niega.", u: "https://en.wikipedia.org/wiki/2016_Montenegrin_coup_plot", st: "Wikipedia (síntesis de fuentes)" },
+    elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    partidos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    armas: { ev: 2, x: "Kosovo halló armas de origen serbio tras el ataque de Banjska.", u: "https://en.wikipedia.org/wiki/Banjska_attack", st: "Wikipedia (síntesis de fuentes)" },
+    inteligencia: { ev: 2, x: "Coopera con servicios rusos, según EE.UU. y Moscú.", u: "https://en.wikipedia.org/wiki/Aleksandar_Vulin", st: "Wikipedia (síntesis de fuentes)" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "El presupuesto de la BIA es parcialmente secreto.",
+    uso: "Vigilancia, contraespionaje y operaciones regionales.",
+    ingresos: "Esta ficha no encontró ingresos propios.",
+    empresas: "Esta ficha no encontró empresas de fachada documentadas.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "EE.UU. vinculó al ex jefe de la BIA con una red de narcotráfico.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
+  },
+  fondos: [
+    { k: "crimen", rol: "autor", ev: 2, d: "2022–2023", h: "Las sanciones a Vulin", x: "El Tesoro de EE.UU. dijo que Vulin estaba involucrado en tráfico de armas y drogas y en abuso de su cargo.", obj: "Beneficio personal y favorecer a Rusia, según EE.UU.", who: "Departamento del Tesoro de EE.UU.", u: "https://en.wikipedia.org/wiki/Aleksandar_Vulin", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "Cellebrite", c: "extranjera", rubro: "Herramientas forenses", rel: "Proveedor", x: "Sus equipos sirvieron para desbloquear teléfonos de activistas, según Amnistía." }
+  ],
+  struggles: [
+    { a: "Gobierno de Vučić", b: "Movimiento estudiantil", k: "Con la política", stake: "La corrupción y el poder", state: "Abierta", x: "Protestas masivas desde 2024." }
+  ],
+  sources: [
+    { t: "Amnistía: NoviSpy y Cellebrite en Serbia (2024)", u: "https://www.amnesty.org/en/latest/news/2024/12/serbia-authorities-using-spyware-and-cellebrite-forensic-extraction-tools-to-hack-journalists-and-activists/" },
+    { t: "Wikipedia: Aleksandar Vulin", u: "https://en.wikipedia.org/wiki/Aleksandar_Vulin" },
+    { t: "Wikipedia: Security Intelligence Agency", u: "https://en.wikipedia.org/wiki/Security_Intelligence_Agency" }
   ]
- },
- "rights": [
-  {
-   "d": "1953",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1962",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1969",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1976",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1983",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1994",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2003",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "2009",
-   "dir": "recorta",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2018",
-   "dir": "recorta",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  }
- ],
- "events": [
-  {
-   "d": "1962-04-20",
-   "lat": -8.05,
-   "lon": -144.37,
-   "t": "sabotaje",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1967-06-17",
-   "lat": -21.95,
-   "lon": -129.71,
-   "t": "sabotaje",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1971-12-14",
-   "lat": 43.23,
-   "lon": 18.11,
-   "t": "encubierta",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1975-12-19",
-   "lat": 20.68,
-   "lon": 61.74,
-   "t": "senales",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1980-01-20",
-   "lat": -15.2,
-   "lon": 46.65,
-   "t": "ciber",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1983-07-20",
-   "lat": 43.03,
-   "lon": 123.62,
-   "t": "humana",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1988-11-18",
-   "lat": 55.43,
-   "lon": 43.09,
-   "t": "humana",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1993-11-18",
-   "lat": -33.02,
-   "lon": 6.99,
-   "t": "senales",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2000-01-17",
-   "lat": 24.13,
-   "lon": 116.18,
-   "t": "humana",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2005-12-16",
-   "lat": 22.71,
-   "lon": 136.67,
-   "t": "contra",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2008-06-14",
-   "lat": 42.98,
-   "lon": 15.84,
-   "t": "sabotaje",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2010-02-17",
-   "lat": -20.05,
-   "lon": -70.05,
-   "t": "sabotaje",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2017-04-13",
-   "lat": 47.63,
-   "lon": 17.22,
-   "t": "sabotaje",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2021-11-10",
-   "lat": -20.75,
-   "lon": -84.65,
-   "t": "contra",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  }
- ],
- "interest": {
-  "Russia": 3,
-  "China": 1,
-  "United Kingdom": 3,
-  "Germany": 3,
-  "Iran": 2,
-  "Ukraine": 2,
-  "Syria": 2,
-  "Afghanistan": 1,
-  "Cuba": 1,
-  "Mexico": 3,
-  "Japan": 1,
-  "Egypt": 2,
-  "Libya": 1,
-  "Sudan": 2,
-  "Nigeria": 1,
-  "Kazakhstan": 1,
-  "Belarus": 2,
-  "Poland": 3,
-  "Indonesia": 3,
-  "Colombia": 2,
-  "Somalia": 1
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1996",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1985",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2012",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "1988",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1983",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1997",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
