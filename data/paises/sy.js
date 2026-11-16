@@ -1,847 +1,153 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Siria · contenido real · revisada el 2026-11-16
 (window.FICHAS = window.FICHAS || {})["sy"] = {
- "sample": true,
- "id": "sy",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Siria: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "4",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 2,
-  "senales": 1,
-  "ciber": 1,
-  "imagenes": 1,
-  "encubierta": 1,
-  "contra": 2
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "CSN": {
-   "since": 1932,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Consejo de Seguridad Nacional: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "GID": {
-   "since": 1945,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio General de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Defensa": {
-   "since": 1914,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia Militar: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Seguridad General": {
-   "since": 2003,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Seguridad General del Ministerio del Interior: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "sy",
+  updated: "2026-11-16",
+  summary: [
+    "Durante el gobierno de la familia Assad (1970-2024), Siria tuvo uno de los aparatos de inteligencia más temidos del mundo: cuatro grandes servicios, la Mujabarat, con centros de detención donde murieron decenas de miles de presos. Las fotos sacadas por el desertor conocido como César documentaron más de 6.000 muertos bajo custodia.",
+    "La caída de Bashar al-Assad en diciembre de 2024 disolvió esos servicios. El nuevo gobierno de Ahmed al-Sharaa, ex jefe del grupo Hayat Tahrir al-Sham, creó un Servicio General de Inteligencia (GID) y un nuevo aparato de seguridad del Ministerio del Interior. En marzo de 2025 fuerzas afines al gobierno mataron a cientos de civiles alauitas en la costa, según la ONU y organizaciones sirias.",
+    "Siria es hoy una zona de operaciones abierta: Israel bombardea y ocupa zonas del sur, Turquía tiene tropas en el norte, EE.UU. mantiene presencia en el este y Rusia negocia por sus bases. En 2022 un tribunal alemán condenó a perpetua a un ex coronel de la inteligencia de Assad por crímenes de lesa humanidad."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Caída de Assad", v: "8 de diciembre de 2024", n: "fin de 54 años de gobierno familiar" },
+    { l: "Fotos de César", v: "Más de 6.000 muertos identificados", n: "en centros de inteligencia, según Human Rights Watch" },
+    { l: "Condena en Koblenz", v: "Anwar Raslan", n: "perpetua en 2022" },
+    { l: "Presidente de transición", v: "Ahmed al-Sharaa", n: "desde enero de 2025" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 2, senales: 1, ciber: 1, imagenes: 1, encubierta: 1, contra: 2 },
+  powerWhy: {
+    humana: "El nuevo servicio hereda redes de Hayat Tahrir al-Sham en el noroeste.",
+    senales: "Infraestructura destruida o abandonada tras 2024.",
+    ciber: "Capacidad mínima.",
+    imagenes: "Sin capacidades propias.",
+    encubierta: "No hay operaciones exteriores documentadas del nuevo gobierno.",
+    contra: "Servicios extranjeros operan con libertad en el país."
+  },
+  priorities: [
+    { h: "Remanentes de Assad", x: "Ex oficiales y milicias leales al régimen caído." },
+    { h: "Estado Islámico", x: "Células en el desierto y en el este." },
+    { h: "Israel", x: "Ocupación y bombardeos en el sur." },
+    { h: "Kurdos", x: "Integración de las Fuerzas Democráticas Sirias." },
+    { h: "Minorías", x: "Tensiones con alauitas y drusos." }
+  ],
+  focos: ["Israel", "Estado Islámico", "Kurdos", "Irán", "Hezbolá"],
+  bodies: {
+    "CSN": { since: 2025, how: "Consejo de Seguridad Nacional del gobierno de transición.", staff: "No aplica.", budget: "No aplica.", tech: [], where: ["Damasco"] },
+    "GID": { since: 2024, how: "Servicio General de Inteligencia del nuevo gobierno, creado tras disolver los servicios de Assad.", staff: "No se publica.", budget: "Secreto.", tech: [], where: ["Damasco"] },
+    "Defensa": { since: 2025, how: "Inteligencia del nuevo Ministerio de Defensa, que integra a ex grupos rebeldes.", staff: "No se publica.", budget: "Secreto.", tech: [], where: ["Damasco"] },
+    "Seguridad General": { since: 2025, how: "Seguridad General del Ministerio del Interior, la fuerza de seguridad interna del nuevo gobierno.", staff: "No se publica.", budget: "Secreto.", tech: [], where: ["Damasco", "Todo el país"] }
+  },
+  civil: [
+    "Los servicios responden al presidente de transición.",
+    "La declaración constitucional de 2025 no creó controles independientes sobre la inteligencia.",
+    "Bajo Assad, la inteligencia de la Fuerza Aérea y la militar respondían directamente al presidente."
+  ],
+  law: {
+    domestic: [
+      "La declaración constitucional de marzo de 2025 rige la transición.",
+      "Bajo Assad, el estado de emergencia de 1963 permitió detenciones sin juicio durante 48 años.",
+      "Las leyes antiterroristas de 2012 se usaron contra opositores."
+    ],
+    foreign: [
+      "No hay normas públicas sobre operaciones en el exterior."
+    ],
+    oversight: [
+      "No existe un órgano independiente de control.",
+      "Tribunales extranjeros juzgan a ex oficiales por jurisdicción universal."
+    ]
+  },
+  rights: [
+    { d: "1963-03", dir: "amplia", area: "Debido proceso", h: "Estado de emergencia", x: "Rige hasta 2011 y permite detenciones sin juicio." },
+    { d: "2024-12", dir: "recorta", area: "Debido proceso", h: "Apertura de las cárceles", x: "Los rebeldes liberan a presos de Sednaya y otros centros de la inteligencia." },
+    { d: "2025-03", dir: "amplia", area: "Debido proceso", h: "Declaración constitucional", x: "Concentra poder en el presidente de transición." }
+  ],
+  events: [
+    { d: "2013-08", lat: 33.52, lon: 36.3, c: "Syria", t: "contra", ev: 1, h: "Las fotos de César", x: "Un fotógrafo de la policía militar saca del país miles de fotos de presos muertos en centros de inteligencia.", u: "https://en.wikipedia.org/wiki/Caesar_Report", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2024-12-08", lat: 33.6, lon: 36.28, c: "Syria", t: "contra", ev: 1, h: "Cae Assad", x: "Los rebeldes toman Damasco, Assad huye a Moscú y se abren las cárceles de la inteligencia, como Sednaya.", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2025-03-07", lat: 35.5, lon: 35.95, c: "Syria", t: "contra", ev: 1, h: "Matanzas en la costa", x: "Tras ataques de leales a Assad, fuerzas afines al gobierno matan a cientos de civiles alauitas, según la ONU.", u: "https://en.wikipedia.org/wiki/March_2025_Western_Syria_clashes", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  interest: {
+    "Israel": 3, "Turkey": 2, "Lebanon": 2, "Iraq": 2, "Jordan": 1, "Russia": 1, "Iran": 2
+  },
+  timeline: [
+    { era: "Assad", d: "1970", h: "Hafez al-Assad", x: "Construye un Estado de seguridad con servicios rivales." },
+    { era: "", d: "1982", h: "Hama", x: "El Ejército y los servicios aplastan una rebelión islamista; miles de muertos." },
+    { era: "", d: "2011–2024", h: "Guerra civil", x: "Detenciones masivas y torturas en centros de inteligencia." },
+    { era: "Transición", d: "2024", h: "Caída de Assad", x: "Se disuelven los servicios del régimen." },
+    { era: "Actual", d: "2025–2026", h: "Nuevo aparato", x: "Nuevo servicio de inteligencia y violencia sectaria.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2011–2024", h: "Las cárceles de la inteligencia", x: "La comisión de investigación de la ONU y organizaciones sirias documentaron torturas, desapariciones y ejecuciones masivas en centros de los servicios de Assad, como la sección 215 de la inteligencia militar y la prisión de Sednaya.", who: "Comisión de Investigación de la ONU sobre Siria", missing: "", u: "https://en.wikipedia.org/wiki/Caesar_Report", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "2011–2012", h: "El juicio de Koblenz", x: "Un tribunal alemán condenó en 2022 a perpetua al ex coronel Anwar Raslan, de la inteligencia general, por la tortura de miles de presos en la sección 251 de Damasco. Fue el primer juicio penal por los crímenes del régimen.", who: "Tribunal Regional Superior de Koblenz", missing: "", u: "https://en.wikipedia.org/wiki/Anwar_Raslan", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "2025", h: "Las matanzas de alauitas", x: "La ONU y organizaciones sirias documentaron la muerte de cientos de civiles alauitas en la costa a manos de fuerzas afines al gobierno. El gobierno creó una comisión que confirmó violaciones.", who: "ONU y comisión del gobierno sirio", missing: "", u: "https://en.wikipedia.org/wiki/March_2025_Western_Syria_clashes", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "2024-11", ev: 1, w: 3, h: "El derrumbe en dos semanas", x: "Los servicios de Assad no previeron ni frenaron la ofensiva rebelde que tomó Damasco en 11 días.", why: "No está en duda.", wx: "Hechos públicos.", who: "Prensa internacional", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "Bajo Assad, oficiales de inteligencia en embajadas vigilaban a la diáspora; el nuevo gobierno reconstruye su red.",
+    campo: "Informantes en todo el país; el nuevo servicio usa redes de los ex rebeldes.",
+    oficina: "Bajo Assad, los servicios competían entre sí y respondían al presidente.",
+    reclutamiento: "El nuevo aparato recluta entre ex combatientes rebeldes.",
+    tecnica: "Capacidades técnicas mínimas tras la guerra.",
+    enlaces: "El nuevo gobierno coopera con Turquía, Catar y, en parte, con EE.UU. contra el Estado Islámico."
+  },
+  insiders: [
+    { k: "denunciante", dir: "sale", ev: 1, d: "2011–2013", n: "César", h: "El fotógrafo de los cadáveres", x: "Fotógrafo de la policía militar que sacó unas 53.000 fotos de presos muertos.", cargo: "Fotógrafo forense de la policía militar", hacia: "Oposición siria y gobiernos occidentales", fin: "Vive en el exilio con identidad protegida; reveló su nombre en 2025.", who: "Human Rights Watch y Congreso de EE.UU.", u: "https://en.wikipedia.org/wiki/Caesar_Report", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "desertor", dir: "sale", ev: 1, d: "2012", n: "Anwar Raslan", h: "El coronel que desertó y fue condenado", x: "Jefe de investigaciones de la sección 251 que desertó en 2012 y pidió asilo en Alemania.", cargo: "Coronel de la inteligencia general", hacia: "Oposición y luego Alemania", fin: "Condenado a perpetua en Alemania en 2022.", who: "Tribunal de Koblenz", u: "https://en.wikipedia.org/wiki/Anwar_Raslan", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "filtracion", rol: "autor", ev: 1, d: "2014-01", h: "El informe César", x: "Se publican fotos de miles de presos muertos en centros de la inteligencia.", obj: "Exponer los crímenes del régimen.", who: "Human Rights Watch", u: "https://en.wikipedia.org/wiki/Caesar_Report", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "2011–2024", h: "Los desaparecidos", x: "El régimen ocultó el destino de más de 100.000 desaparecidos, según organizaciones sirias.", obj: "Aterrorizar y evitar responsabilidades.", aquien: "Las familias y la comunidad internacional", como: "Apertura de cárceles y archivos tras la caída de Assad.", who: "Organizaciones sirias de derechos humanos", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  practicas: {
+    propios: { ev: 1, x: "Bajo Assad los servicios vigilaban a militares y funcionarios.", u: "https://en.wikipedia.org/wiki/Anwar_Raslan", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 1, x: "Opositores fueron detenidos y torturados por décadas.", u: "https://en.wikipedia.org/wiki/Caesar_Report", st: "Wikipedia (síntesis de fuentes)" },
+    periodistas: { ev: 1, x: "Periodistas sirios y extranjeros fueron detenidos o muertos bajo Assad.", u: "https://en.wikipedia.org/wiki/Caesar_Report", st: "Wikipedia (síntesis de fuentes)" },
+    activistas: { ev: 1, x: "Manifestantes de 2011 murieron bajo custodia, según el informe César.", u: "https://en.wikipedia.org/wiki/Caesar_Report", st: "Wikipedia (síntesis de fuentes)" },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 1, x: "Bajo Assad, Israel y la oposición; hoy, remanentes del régimen y el Estado Islámico.", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime", st: "Wikipedia (síntesis de fuentes)" },
+    extorsion: { ev: 1, x: "Funcionarios cobraban a familias por información sobre presos, según organizaciones sirias.", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime", st: "Wikipedia (síntesis de fuentes)" },
+    asesinato: { ev: 1, x: "Ejecuciones masivas en Sednaya, según Amnistía.", u: "https://en.wikipedia.org/wiki/Saydnaya_Prison", st: "Wikipedia (síntesis de fuentes)" },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 1, x: "Tortura sistemática en centros de inteligencia, probada en juicios en Alemania.", u: "https://en.wikipedia.org/wiki/Anwar_Raslan", st: "Wikipedia (síntesis de fuentes)" },
+    secuestro: { ev: 1, x: "Más de 100.000 desaparecidos durante la guerra.", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime", st: "Wikipedia (síntesis de fuentes)" },
+    propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    conflictos: { ev: 1, x: "El régimen de Assad apoyó a grupos armados en el Líbano durante décadas.", u: "https://en.wikipedia.org/wiki/Syrian_occupation_of_Lebanon", st: "Wikipedia (síntesis de fuentes)" },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    partidos: { ev: 1, x: "Assad controló a partidos libaneses durante la ocupación del Líbano.", u: "https://en.wikipedia.org/wiki/Syrian_occupation_of_Lebanon", st: "Wikipedia (síntesis de fuentes)" },
+    diaspora: { ev: 1, x: "Bajo Assad los servicios vigilaban a sirios en Europa, según los juicios en Alemania.", u: "https://en.wikipedia.org/wiki/Anwar_Raslan", st: "Wikipedia (síntesis de fuentes)" },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    armas: { ev: 1, x: "El régimen de Assad fue un corredor de armas iraníes hacia Hezbolá.", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime", st: "Wikipedia (síntesis de fuentes)" },
+    inteligencia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "El presupuesto es secreto.",
+    uso: "Reconstrucción del aparato de seguridad.",
+    ingresos: "Bajo Assad, el tráfico de captagón financió al régimen, según gobiernos occidentales.",
+    empresas: "Esta ficha no encontró empresas de fachada documentadas del nuevo gobierno.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "La Cuarta División de Maher al-Assad estuvo vinculada al captagón, según EE.UU. y la UE.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
+  },
+  fondos: [
+    { k: "crimen", rol: "autor", ev: 2, d: "2018–2024", h: "El negocio del captagón", x: "EE.UU. y la UE sancionaron a familiares y aliados de Assad por producir y traficar la droga captagón.", obj: "Financiar al régimen.", who: "Gobiernos de EE.UU. y la UE", u: "https://en.wikipedia.org/wiki/Captagon", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "Syriatel", c: "nacional", rubro: "Telecomunicaciones", rel: "Ligada al régimen de Assad", x: "Operadora creada por Rami Makhlouf, primo de Assad; sancionada por EE.UU. y la UE." }
+  ],
+  struggles: [
+    { a: "Gobierno de al-Sharaa", b: "Remanentes de Assad y minorías armadas", k: "Interna", stake: "El control del territorio", state: "Abierta", x: "Violencia en la costa y en el sur druso." },
+    { a: "Siria", b: "Israel", k: "Con otros Estados", stake: "El sur del país", state: "Abierta", x: "Israel ocupa una zona tampón y bombardea." }
+  ],
+  sources: [
+    { t: "Wikipedia: Fall of the Assad regime", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime" },
+    { t: "Wikipedia: Caesar Report", u: "https://en.wikipedia.org/wiki/Caesar_Report" },
+    { t: "Wikipedia: Anwar Raslan", u: "https://en.wikipedia.org/wiki/Anwar_Raslan" },
+    { t: "Wikipedia: March 2025 Western Syria clashes", u: "https://en.wikipedia.org/wiki/March_2025_Western_Syria_clashes" }
   ]
- },
- "rights": [
-  {
-   "d": "1950",
-   "dir": "amplia",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1961",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1969",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1979",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1987",
-   "dir": "recorta",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1992",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2001",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2008",
-   "dir": "amplia",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2019",
-   "dir": "amplia",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  }
- ],
- "events": [
-  {
-   "d": "1962-08-03",
-   "lat": 37.34,
-   "lon": 38.5,
-   "t": "encubierta",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1967-03-26",
-   "lat": -7.56,
-   "lon": -64.54,
-   "t": "senales",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1970-12-09",
-   "lat": 47.15,
-   "lon": -111.36,
-   "t": "contra",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1976-02-02",
-   "lat": 34.08,
-   "lon": 36.85,
-   "t": "sabotaje",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1978-09-24",
-   "lat": 54.13,
-   "lon": -129.14,
-   "t": "senales",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1983-03-09",
-   "lat": -22.42,
-   "lon": 113.72,
-   "t": "ciber",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1988-01-13",
-   "lat": 36.07,
-   "lon": 37.06,
-   "t": "encubierta",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1992-02-14",
-   "lat": -39.12,
-   "lon": -91.51,
-   "t": "senales",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2000-11-03",
-   "lat": -14,
-   "lon": 62.07,
-   "t": "humana",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2001-09-14",
-   "lat": 36.24,
-   "lon": 37.47,
-   "t": "encubierta",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2009-02-21",
-   "lat": 35.04,
-   "lon": 41.57,
-   "t": "ciber",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2012-05-07",
-   "lat": 50.52,
-   "lon": 59.55,
-   "t": "humana",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2016-08-13",
-   "lat": 38.74,
-   "lon": -39.52,
-   "t": "ciber",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2021-11-12",
-   "lat": 5.81,
-   "lon": 126.57,
-   "t": "contra",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  }
- ],
- "interest": {
-  "United States of America": 2,
-  "Russia": 1,
-  "France": 3,
-  "Germany": 1,
-  "Saudi Arabia": 3,
-  "Iraq": 3,
-  "Afghanistan": 3,
-  "Mexico": 2,
-  "Brazil": 3,
-  "Mali": 2,
-  "Kazakhstan": 1,
-  "Ethiopia": 1,
-  "Somalia": 3
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1986",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "1961",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "1981",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una comisión parlamentaria",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "1988",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un tribunal",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "2021",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1995",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
