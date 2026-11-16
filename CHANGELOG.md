@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Georgia: SSG, GIS e inteligencia militar; la filtración de los archivos del SSG (2021), el secuestro de Mukhtarli, la guerra de 2008 y las leyes de agentes extranjeros.
+
 - 2026-11-15 · Ficha real de Rumania: SRI, SIE, DGIA y CSAT; la elección anulada de 2024 por la campaña de TikTok, el centro secreto de la CIA, los protocolos SRI-fiscalía y la deserción de Pacepa.
 
 - 2026-11-15 · Ficha real de Bélgica: VSSE, SGRS, OCAM y Comité R; la operación Socialist de la GCHQ, Qatargate, el caso Creyelman, Voice of Europe y los atentados de 2016.
