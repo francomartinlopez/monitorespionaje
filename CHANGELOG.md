@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · El monitor pasa de 20 a 28 países: suma Taiwán, Japón, Egipto y México (muy relevantes) y Vietnam, Suiza, Sudáfrica y Singapur (relevantes por una habilidad), con sus organismos reales y fichas de prueba hasta cargar el contenido.
+
 - 2026-11-15 · Ola 5: ficha real de Brasil (GSI, ABIN, Policía Federal, inteligencia militar y comisión del Congreso). Abin paralela y condena de Ramagem, FirstMile, hackeo a Paraguay por Itaipú (admitido por el gobierno), operación Leste contra espías rusos, espionaje de la NSA a Dilma Rousseff, 8 de enero, Plan Cóndor; prácticas y dinero completos.
 
 - 2026-11-15 · Ola 5: ficha real de Emiratos Árabes Unidos (CSN, Seguridad del Estado, Agencia de Inteligencia de Señales e inteligencia militar). Proyecto Raven y DarkMatter (multas a ex NSA en 2021), asesinatos en Yemen con mercenarios de EE.UU. (demanda de 2026), Abu Dhabi Secrets, armas para la milicia sudanesa (con sustento sólido), Pegasus contra Ahmed Mansoor, hackeo de la agencia catarí, caso Barrack (absuelto); prácticas y dinero completos.

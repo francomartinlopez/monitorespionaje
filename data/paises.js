@@ -1,4 +1,4 @@
-// Los 20 países del monitor. Los organismos son reales; el resto del contenido de cada
+// Los 28 países del monitor. Los organismos son reales; el resto del contenido de cada
 // ficha está en data/paises/<id>.js.
 // g: grupo del organigrama → k coordinación · c inteligencia civil · m militar · p policial y seguridad · j control y justicia
 // tier: 1 núcleo · 2 muy relevante · 3 relevante en su región o por una habilidad
@@ -190,9 +190,72 @@ window.PAISES = [
       { code: "DCC", name: "Comando de Contrainteligencia de Defensa", g: "m" },
       { code: "KDIA", name: "Agencia de Inteligencia de Defensa", g: "m" },
       { code: "KNPA", name: "Inteligencia de la Policía Nacional", g: "p" }
+    ] },
+  { id: "tw", name: "Taiwán", short: "Taiwán", map: "Taiwan", tier: 2, center: [121.56, 25.04],
+    agencies: [
+      { code: "NSC", name: "Consejo de Seguridad Nacional", g: "k" },
+      { code: "NSB", name: "Oficina de Seguridad Nacional", g: "c" },
+      { code: "MIB", name: "Oficina de Inteligencia Militar", g: "m" },
+      { code: "MJIB", name: "Oficina de Investigación del Ministerio de Justicia", g: "p" }
+    ] },
+  { id: "jp", name: "Japón", short: "Japón", map: "Japan", tier: 2, center: [139.69, 35.69],
+    agencies: [
+      { code: "NSS", name: "Secretaría de Seguridad Nacional", g: "k" },
+      { code: "CIRO", name: "Oficina de Investigación e Inteligencia del Gabinete", g: "c" },
+      { code: "DIH", name: "Cuartel General de Inteligencia de Defensa", g: "m" },
+      { code: "PSIA", name: "Agencia de Inteligencia de Seguridad Pública", g: "p" },
+      { code: "NPA", name: "Oficina de Seguridad de la Agencia Nacional de Policía", g: "p" }
+    ] },
+  { id: "eg", name: "Egipto", short: "Egipto", map: "Egypt", tier: 2, center: [31.24, 30.04],
+    agencies: [
+      { code: "CSN", name: "Consejo de Seguridad Nacional", g: "k" },
+      { code: "GIS", name: "Servicio General de Inteligencia", g: "c" },
+      { code: "MI", name: "Inteligencia Militar", g: "m" },
+      { code: "NSS", name: "Sector de Seguridad Nacional", g: "p" }
+    ] },
+  { id: "mx", name: "México", short: "México", map: "Mexico", tier: 2, center: [-99.13, 19.43],
+    agencies: [
+      { code: "Gabinete", name: "Gabinete de Seguridad", g: "k" },
+      { code: "CNI", name: "Centro Nacional de Inteligencia", g: "c" },
+      { code: "Defensa", name: "Inteligencia del Ejército y la Fuerza Aérea", g: "m" },
+      { code: "Marina", name: "Inteligencia Naval", g: "m" },
+      { code: "UIF", name: "Unidad de Inteligencia Financiera", g: "p" },
+      { code: "FGR", name: "Inteligencia de la Fiscalía General", g: "p" }
+    ] },
+  { id: "vn", name: "Vietnam", short: "Vietnam", map: "Vietnam", tier: 3, center: [105.85, 21.03], skill: "Ciberespionaje y persecución de opositores en el exterior",
+    agencies: [
+      { code: "MPS", name: "Ministerio de Seguridad Pública", g: "k" },
+      { code: "TC2", name: "Dirección General de Inteligencia de Defensa", g: "m" },
+      { code: "Comando 86", name: "Comando del Ciberespacio", g: "m" },
+      { code: "SP", name: "Seguridad interior del Ministerio de Seguridad Pública", g: "p" }
+    ] },
+  { id: "ch", name: "Suiza", short: "Suiza", map: "Switzerland", tier: 3, center: [7.45, 46.95], skill: "Plaza del espionaje mundial y cifrado (Crypto AG)",
+    agencies: [
+      { code: "Consejo", name: "Delegación del Consejo Federal para la Seguridad", g: "k" },
+      { code: "SRC", name: "Servicio de Inteligencia de la Confederación", g: "c" },
+      { code: "MND", name: "Servicio de Inteligencia Militar", g: "m" },
+      { code: "fedpol", name: "Oficina Federal de Policía", g: "p" },
+      { code: "AS-SRC", name: "Autoridad de Supervisión Independiente de la Inteligencia", g: "j" },
+      { code: "DelGes", name: "Delegación de las Comisiones de Gestión del Parlamento", g: "j" }
+    ] },
+  { id: "za", name: "Sudáfrica", short: "Sudáfrica", map: "South Africa", tier: 3, center: [28.19, -25.75], skill: "Captura del Estado y uso político de la inteligencia",
+    agencies: [
+      { code: "NICOC", name: "Comité Nacional de Coordinación de Inteligencia", g: "k" },
+      { code: "SSA", name: "Agencia de Seguridad del Estado", g: "c" },
+      { code: "DI", name: "Inteligencia de Defensa", g: "m" },
+      { code: "CI", name: "Inteligencia Criminal de la Policía", g: "p" },
+      { code: "IGI", name: "Inspector General de Inteligencia", g: "j" },
+      { code: "JSCI", name: "Comité Conjunto Permanente de Inteligencia del Parlamento", g: "j" }
+    ] },
+  { id: "sg", name: "Singapur", short: "Singapur", map: "Singapore", tier: 3, center: [103.82, 1.35], skill: "Inteligencia de señales y alianza con los Cinco Ojos",
+    agencies: [
+      { code: "NSCS", name: "Secretaría de Coordinación de Seguridad Nacional", g: "k" },
+      { code: "SID", name: "División de Seguridad e Inteligencia", g: "c" },
+      { code: "MIO", name: "Organización de Inteligencia Militar", g: "m" },
+      { code: "ISD", name: "Departamento de Seguridad Interior", g: "p" }
     ] }
-];
 
+];
 window.TIERS = {
   1: { n: "Núcleo", x: "Las potencias de inteligencia y los casos de interés directo" },
   2: { n: "Muy relevantes", x: "Peso propio en su región y en los conflictos actuales" },

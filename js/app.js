@@ -106,7 +106,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     document.title = "Monitor de Espionaje";
     const rels = window.RELACIONES;
     app.innerHTML = `
-      <div class="section-title"><h2>Mapa de relaciones</h2><span>Cómo se vinculan los servicios de los 20 países: cooperación, enfrentamiento o relación ambigua${sampleTag(true)}</span></div>
+      <div class="section-title"><h2>Mapa de relaciones</h2><span>Cómo se vinculan los servicios de los 28 países: cooperación, enfrentamiento o relación ambigua${sampleTag(true)}</span></div>
       <div class="chips" id="relChips">
         <button type="button" class="chip on" data-mode="rel" style="--c:var(--ph)">Relaciones</button>
         <button type="button" class="chip" data-mode="focos" style="--c:var(--ph)">Focos de operaciones</button>
@@ -121,7 +121,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       <div class="section-title"><h2>Explorar</h2><span>Mapas temáticos, personas, comparaciones y archivo</span></div>
       <div class="explore">${window.ME.EXPLORE.map(e => `<a class="xtile" href="#${e.id}"><span class="k">${esc(e.k)}</span><b>${esc(e.n)}</b><span>${esc(e.x)}</span></a>`).join("")}</div>
 
-      <div class="section-title"><h2>Países monitoreados</h2><span>20 países, de las potencias de inteligencia a los especialistas regionales</span></div>
+      <div class="section-title"><h2>Países monitoreados</h2><span>${PAISES.length} países, de las potencias de inteligencia a los especialistas regionales</span></div>
       ${[1, 2, 3].map(t => `<div class="tier-head"><h3>${esc(window.TIERS[t].n)}</h3><span>${esc(window.TIERS[t].x)}</span></div>
         <div class="cards">${PAISES.filter(p => p.tier === t).map(card).join("")}</div>`).join("")}
 
@@ -590,7 +590,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     app.innerHTML = `<div class="method">
       <h1>Metodología</h1>
       <div class="prose">
-        <p>El monitor sigue a 20 países: once del núcleo, cinco muy relevantes y cuatro relevantes en su región o por una habilidad puntual. Canadá, Australia y Nueva Zelanda entran como parte de la alianza Cinco Ojos, dentro de las fichas de EE.UU. y el Reino Unido.</p>
+        <p>El monitor sigue a 28 países: once del núcleo, nueve muy relevantes y ocho relevantes en su región o por una habilidad puntual. Canadá, Australia y Nueva Zelanda entran como parte de la alianza Cinco Ojos, dentro de las fichas de EE.UU. y el Reino Unido.</p>
         <p>Responsable editorial: Franco Martín López. Todo el contenido está redactado con palabras propias a partir de las fuentes citadas en cada ficha.</p>
         <p>La actualización es semanal. Las alertas cubren operaciones, capturas, expulsiones y filtraciones de los últimos días; se retiran cuando pasan dos semanas sin novedades.</p>
       </div>
