@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Catar: QSS e inteligencia militar; la mediación con Hamas y el ataque israelí en Doha, Qatargate, el espionaje al fútbol según AP y el hackeo de 2017.
+
 - 2026-11-15 · Ficha real de Azerbaiyán: DTX, XKX e inteligencia militar; Pegasus contra Khadija Ismayilova, Abzas Media, el secuestro de Mukhtarli, el lavadero azerbaiyano y la crisis con Rusia.
 
 - 2026-11-15 · Ficha real de Moldavia: SIS, CNA e Inspección General de Policía; la red de Ilan Shor y la injerencia rusa en 2024 y 2025, el plan de disturbios, el robo del siglo y el caso Cavcaliuc.

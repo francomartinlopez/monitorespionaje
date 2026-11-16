@@ -1,834 +1,144 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Catar · contenido real · revisada el 2026-11-16
 (window.FICHAS = window.FICHAS || {})["qa"] = {
- "sample": true,
- "id": "qa",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Catar: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "3",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 2,
-  "senales": 2,
-  "ciber": 2,
-  "imagenes": 1,
-  "encubierta": 2,
-  "contra": 2
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "CSD": {
-   "since": 1958,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Consejo Supremo de Defensa: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "QSS": {
-   "since": 1970,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio de Seguridad del Estado: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Defensa": {
-   "since": 1920,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia Militar: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "qa",
+  updated: "2026-11-16",
+  summary: [
+    "Catar tiene servicios chicos pero una influencia desproporcionada gracias a su dinero y a su papel de mediador. El Servicio de Seguridad del Estado (QSS) concentra la inteligencia interior y exterior; depende del emir Tamim bin Hamad Al Thani. El país aloja la mayor base militar de EE.UU. en Medio Oriente y, al mismo tiempo, mantiene canales con Hamas, los talibanes e Irán.",
+    "Doha fue sede de la oficina política de Hamas por pedido de EE.UU. y mediador en las negociaciones de alto el fuego en Gaza. En septiembre de 2025 Israel bombardeó en Doha una reunión de dirigentes de Hamas, el primer ataque israelí en territorio catarí.",
+    "Catar fue acusado de comprar influencia en el exterior. En Bélgica, la fiscalía investiga desde 2022 sobornos a miembros del Parlamento Europeo en el caso Qatargate. Una investigación de AP de 2022 informó que Catar contrató a un ex oficial de la CIA para espiar a funcionarios del fútbol mundial antes del Mundial."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Emir", v: "Tamim bin Hamad Al Thani", n: "desde 2013" },
+    { l: "Ataque israelí en Doha", v: "9 de septiembre de 2025", n: "contra dirigentes de Hamas" },
+    { l: "Base de Al Udeid", v: "Mayor base de EE.UU. en la región", n: "base aérea cerca de Doha" },
+    { l: "Qatargate", v: "Desde 2022", n: "investigación de la fiscalía belga" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 3, senales: 2, ciber: 2, imagenes: 1, encubierta: 3, contra: 3 },
+  powerWhy: {
+    humana: "Contactos únicos con Hamas, los talibanes, Irán y milicias, gracias a la mediación.",
+    senales: "Capacidad propia limitada; cooperación con EE.UU.",
+    ciber: "Compra servicios privados; fue blanco de hackeos de sus vecinos en 2017.",
+    imagenes: "Sin capacidades propias.",
+    encubierta: "Financiamiento de grupos en Libia y Siria y operaciones de influencia, según investigaciones.",
+    contra: "Control interno estricto en un país pequeño."
+  },
+  priorities: [
+    { h: "Mediación", x: "Gaza, Afganistán, Irán y Ucrania." },
+    { h: "Vecinos del Golfo", x: "Arabia Saudita y Emiratos, tras el bloqueo de 2017." },
+    { h: "Irán", x: "Yacimiento de gas compartido." },
+    { h: "Imagen internacional", x: "Al Jazeera, deportes e inversiones." },
+    { h: "Seguridad interna", x: "Control de la población y de los trabajadores extranjeros." }
+  ],
+  focos: ["Gaza", "Irán", "Arabia Saudita", "Emiratos", "Afganistán"],
+  bodies: {
+    "CSD": { since: 1971, how: "Consejo Supremo de Defensa presidido por el emir.", staff: "No aplica.", budget: "No aplica.", tech: [], where: ["Doha"] },
+    "QSS": { since: 2003, how: "Servicio de Seguridad del Estado: inteligencia interior y exterior y contraespionaje, bajo el emir.", staff: "No se publica.", budget: "Secreto.", tech: [], where: ["Doha"] },
+    "Defensa": { since: 1971, how: "Inteligencia de las Fuerzas Armadas, con fuerte cooperación de EE.UU. y Turquía.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: [], where: ["Doha"] }
+  },
+  civil: [
+    "Los servicios responden al emir; no hay control parlamentario.",
+    "El Consejo Consultivo no supervisa a la inteligencia.",
+    "La familia gobernante ocupa los cargos clave de seguridad."
+  ],
+  law: {
+    domestic: [
+      "La ley de ciberdelitos de 2014 castiga noticias que dañen el orden público.",
+      "Una ley de 2020 penalizó difundir rumores, criticada por organizaciones de prensa.",
+      "La ley de protección de la sociedad permite detenciones administrativas."
+    ],
+    foreign: [
+      "No hay normas públicas sobre operaciones en el exterior."
+    ],
+    oversight: [
+      "No existe un órgano independiente de control."
+    ]
+  },
+  rights: [
+    { d: "2014-09", dir: "amplia", area: "Expresión", h: "Ley de ciberdelitos", x: "Castiga contenidos que atenten contra los valores sociales o el orden." },
+    { d: "2020-01", dir: "amplia", area: "Expresión", h: "Ley de rumores", x: "Penas de prisión por difundir noticias consideradas falsas." }
+  ],
+  events: [
+    { d: "2017-05", lat: 25.2, lon: 51.2, c: "Qatar", t: "ciber", ev: 1, h: "Hackeo de la agencia de noticias catarí", x: "Publican declaraciones falsas del emir en la agencia oficial; EE.UU. atribuyó el hackeo a Emiratos y siguió el bloqueo regional.", u: "https://en.wikipedia.org/wiki/2017%E2%80%932021_Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2025-09-09", lat: 25.25, lon: 51.4, c: "Qatar", t: "encubierta", ev: 1, h: "Ataque israelí en Doha", x: "Israel bombardea una reunión de dirigentes de Hamas en la capital catarí.", u: "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  interest: {
+    "Saudi Arabia": 2, "United Arab Emirates": 2, "Iran": 2, "Palestine": 3, "Israel": 2, "Afghanistan": 2, "Egypt": 1, "Libya": 1, "Syria": 2, "Belgium": 1
+  },
+  timeline: [
+    { era: "Independencia", d: "1971", h: "Independencia", x: "Fin del protectorado británico." },
+    { era: "Hamad", d: "1996", h: "Al Jazeera", x: "Nace la cadena que da a Catar influencia regional." },
+    { era: "", d: "2011", h: "Primavera Árabe", x: "Catar apoya a movimientos islamistas en Libia, Egipto y Siria." },
+    { era: "Tamim", d: "2017–2021", h: "Bloqueo", x: "Arabia Saudita, Emiratos, Baréin y Egipto rompen con Catar." },
+    { era: "Actual", d: "2023–2026", h: "Mediación en Gaza", x: "Negociaciones y ataque israelí en Doha.", now: true }
+  ],
+  cases: [
+    { ev: 2, ilegal: true, d: "2018–2022", h: "Qatargate", x: "La fiscalía belga acusa a eurodiputados y asistentes de recibir sobornos de Catar y de Marruecos para influir en el Parlamento Europeo. Catar niega haber pagado; el juicio no se hizo.", who: "Fiscalía federal de Bélgica", missing: "Un juicio.", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: false, d: "2012–2019", h: "El espionaje al fútbol", x: "Una investigación de AP informó en 2022 que Catar contrató a un ex oficial de la CIA para vigilar a funcionarios del fútbol y a críticos del Mundial. El ex oficial niega haber hecho algo ilegal.", who: "Associated Press", missing: "Documentos oficiales o un juicio.", u: "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falsa", d: "2017-05", ev: 1, w: 3, h: "Las falsas declaraciones del emir", x: "Hackers publicaron en la agencia oficial frases inventadas del emir que sirvieron de pretexto al bloqueo.", why: "Catar y EE.UU. lo atribuyeron a Emiratos, que lo niega.", wx: "Investigación del FBI citada por la prensa.", who: "Gobierno de Catar y funcionarios de EE.UU.", u: "https://en.wikipedia.org/wiki/2017%E2%80%932021_Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "Diplomáticos y enviados especiales hacen el trabajo de mediación y contacto con grupos armados.",
+    campo: "Contactos directos con Hamas, los talibanes y grupos sirios.",
+    oficina: "Las decisiones se concentran en el emir y su círculo.",
+    reclutamiento: "Personal catarí y extranjeros contratados, incluidos ex oficiales occidentales.",
+    tecnica: "Servicios privados de seguridad e inteligencia contratados en el exterior.",
+    enlaces: "EE.UU., Turquía y el Reino Unido."
+  },
+  insiders: [
+    { k: "topo", dir: "entra", ev: 2, d: "2012–2019", n: "Kevin Chalker", h: "El ex oficial de la CIA contratado", x: "Ex oficial de la CIA cuya empresa trabajó para Catar en tareas de inteligencia sobre el fútbol mundial, según AP.", cargo: "Ex oficial de la CIA y empresario", hacia: "Gobierno de Catar", fin: "Niega haber actuado de manera ilegal.", who: "Associated Press", u: "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  leaks: [
+    { k: "robo", rol: "blanco", ev: 1, d: "2017-05", h: "La agencia de noticias", x: "Hackers acceden a la agencia oficial y publican declaraciones falsas del emir.", obj: "Justificar el bloqueo contra Catar.", who: "Gobierno de Catar y funcionarios de EE.UU.", u: "https://en.wikipedia.org/wiki/2017%E2%80%932021_Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  practicas: {
+    propios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    politicos: { ev: 2, x: "Pagos a eurodiputados, según la fiscalía belga.", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    periodistas: { ev: 2, x: "Vigilancia de críticos del Mundial, según AP.", u: "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies", st: "Wikipedia (síntesis de fuentes)" },
+    activistas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 1, x: "Los vecinos del Golfo son su principal preocupación desde el bloqueo.", u: "https://en.wikipedia.org/wiki/2017%E2%80%932021_Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    secuestro: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    propaganda: { ev: 2, x: "Sus vecinos acusan a Al Jazeera de servir a la política exterior catarí.", u: "https://en.wikipedia.org/wiki/Al_Jazeera", st: "Wikipedia (síntesis de fuentes)" },
+    conflictos: { ev: 2, x: "Financió y armó a grupos rebeldes en Libia y Siria durante la Primavera Árabe.", u: "https://en.wikipedia.org/wiki/Qatar%E2%80%93Syria_relations", st: "Wikipedia (síntesis de fuentes)" },
+    cultural: { ev: 1, x: "Financia mezquitas, universidades y centros en el exterior.", u: "https://en.wikipedia.org/wiki/Qatar_Foundation", st: "Wikipedia (síntesis de fuentes)" },
+    golpes: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    partidos: { ev: 2, x: "Apoyó a los Hermanos Musulmanes en Egipto y otros países.", u: "https://en.wikipedia.org/wiki/Qatar%E2%80%93Muslim_Brotherhood_relations", st: "Wikipedia (síntesis de fuentes)" },
+    diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    religiosos: { ev: 1, x: "Aloja y financia a predicadores islamistas.", u: "https://en.wikipedia.org/wiki/Qatar%E2%80%93Muslim_Brotherhood_relations", st: "Wikipedia (síntesis de fuentes)" },
+    armas: { ev: 2, x: "Envió armas a rebeldes libios en 2011.", u: "https://en.wikipedia.org/wiki/Qatar%E2%80%93Syria_relations", st: "Wikipedia (síntesis de fuentes)" },
+    inteligencia: { ev: 1, x: "Sirve de canal de comunicación de EE.UU. con Hamas y los talibanes.", u: "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha", st: "Wikipedia (síntesis de fuentes)" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "El presupuesto de seguridad es secreto.",
+    uso: "Seguridad interna, mediación y operaciones de influencia.",
+    ingresos: "La renta del gas financia al Estado.",
+    empresas: "Esta ficha no encontró empresas de fachada documentadas.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "Esta ficha no encontró casos documentados.",
+    cobertura: "Fundaciones y medios cataríes son vistos por sus rivales como instrumentos de influencia."
+  },
+  fondos: [
+    { k: "cobertura", rol: "autor", ev: 2, d: "2018–2022", h: "Los sobornos de Qatargate", x: "La fiscalía belga encontró más de 1,5 millones de euros en efectivo en casas de los acusados.", monto: "Más de 1,5 millones de euros", obj: "Influir en el Parlamento Europeo.", who: "Fiscalía federal de Bélgica", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  companies: [
+    { n: "Al Jazeera", c: "nacional", rubro: "Medios", rel: "Estatal", x: "Cadena financiada por el Estado, clave en la influencia regional." }
+  ],
+  struggles: [
+    { a: "Catar", b: "Arabia Saudita y Emiratos", k: "Con otros Estados", stake: "La influencia regional", state: "Latente", x: "El bloqueo terminó en 2021, pero la rivalidad sigue." }
+  ],
+  sources: [
+    { t: "Wikipedia: 2017–2021 Qatar diplomatic crisis", u: "https://en.wikipedia.org/wiki/2017%E2%80%932021_Qatar_diplomatic_crisis" },
+    { t: "Wikipedia: 2025 Israeli strike on Doha", u: "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha" },
+    { t: "Wikipedia: 2022 European Parliament corruption scandal", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal" }
   ]
- },
- "rights": [
-  {
-   "d": "1950",
-   "dir": "recorta",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1960",
-   "dir": "recorta",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1969",
-   "dir": "recorta",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1979",
-   "dir": "amplia",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1987",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1993",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "2003",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "2009",
-   "dir": "amplia",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2019",
-   "dir": "amplia",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  }
- ],
- "events": [
-  {
-   "d": "1962-10-26",
-   "lat": 26.59,
-   "lon": 50.1,
-   "t": "encubierta",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1968-03-02",
-   "lat": -8.57,
-   "lon": -21.43,
-   "t": "contra",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1969-04-02",
-   "lat": 3.8,
-   "lon": 67.66,
-   "t": "sabotaje",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1976-07-03",
-   "lat": 28.68,
-   "lon": 51.02,
-   "t": "humana",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1979-07-15",
-   "lat": -12.41,
-   "lon": -36.77,
-   "t": "ciber",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1983-02-13",
-   "lat": 23.19,
-   "lon": 57,
-   "t": "sabotaje",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1989-06-15",
-   "lat": 8.28,
-   "lon": -46.98,
-   "t": "contra",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1992-11-01",
-   "lat": 24.22,
-   "lon": 47.3,
-   "t": "senales",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1996-05-10",
-   "lat": 27.22,
-   "lon": 45.75,
-   "t": "humana",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2004-12-23",
-   "lat": 43.01,
-   "lon": -134.93,
-   "t": "ciber",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2007-04-19",
-   "lat": 22.66,
-   "lon": 57.48,
-   "t": "contra",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2011-01-13",
-   "lat": 26.22,
-   "lon": 49,
-   "t": "encubierta",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2016-10-22",
-   "lat": 24.46,
-   "lon": 56.14,
-   "t": "sabotaje",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2019-02-09",
-   "lat": -15.39,
-   "lon": 122.11,
-   "t": "senales",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  }
- ],
- "interest": {
-  "China": 1,
-  "Ukraine": 2,
-  "Syria": 1,
-  "Afghanistan": 1,
-  "Venezuela": 2,
-  "Cuba": 3,
-  "Japan": 1,
-  "North Korea": 2,
-  "Egypt": 1,
-  "Libya": 1,
-  "Nigeria": 1,
-  "Poland": 3,
-  "Philippines": 3,
-  "Ethiopia": 2
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1999",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "2019",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "2016",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "2001",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1971",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "2012",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };
