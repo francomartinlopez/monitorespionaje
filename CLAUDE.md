@@ -74,4 +74,4 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 - Cifras (presupuesto, personal) siempre con fuente y fecha; si son estimaciones, decirlo.
 
 ## Actualización semanal
-Se define cuando el contenido real esté cargado (alertas, eventos, casos y relaciones). Hasta entonces, no hay tarea programada.
+Tarea programada desde el 2026-11-16: los lunes a las 05:46 (hora de Argentina) una sesión nueva busca los hechos de la semana, renueva las alertas (4, 8 o 12), suma eventos a las fichas, valida, sube la versión de caché, anota en CHANGELOG.md y publica en main.
