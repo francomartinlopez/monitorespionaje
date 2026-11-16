@@ -1,856 +1,154 @@
-// FICHA DE PRUEBA generada por scripts/muestra.js: reemplazar por contenido real.
+// Ficha de Grecia · contenido real · revisada el 2026-11-16
 (window.FICHAS = window.FICHAS || {})["gr"] = {
- "sample": true,
- "id": "gr",
- "updated": "2026-11-15",
- "summary": [
-  "Texto de prueba. Panorama de la comunidad de inteligencia de Grecia: su peso en el mundo, su lógica y sus prioridades.",
-  "Texto de prueba. Segundo párrafo con el momento actual: cambios recientes, conducción y tensiones."
- ],
- "keyFacts": [
-  {
-   "l": "Organismos",
-   "v": "3",
-   "n": "en el organigrama"
-  },
-  {
-   "l": "Presupuesto",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Personal",
-   "v": "[DATO]",
-   "n": "dato de prueba"
-  },
-  {
-   "l": "Ley marco",
-   "v": "[LEY]",
-   "n": "dato de prueba"
-  }
- ],
- "power": {
-  "humana": 2,
-  "senales": 2,
-  "ciber": 3,
-  "imagenes": 1,
-  "encubierta": 1,
-  "contra": 2
- },
- "priorities": [
-  {
-   "h": "Prioridad de prueba 1",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 2",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 3",
-   "x": "Texto de prueba."
-  },
-  {
-   "h": "Prioridad de prueba 4",
-   "x": "Texto de prueba."
-  }
- ],
- "focos": [
-  "Foco de prueba A",
-  "Foco de prueba B",
-  "Foco de prueba C"
- ],
- "bodies": {
-  "PM": {
-   "since": 1927,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Oficina del Primer Ministro: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "EYP": {
-   "since": 1998,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Servicio Nacional de Inteligencia: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "Defensa": {
-   "since": 1995,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Inteligencia del Estado Mayor de Defensa: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  },
-  "ADAE": {
-   "since": 1997,
-   "staff": "Texto de prueba. Dotación estimada y cómo se compone.",
-   "budget": "Texto de prueba. Presupuesto público o estimado, con fuente.",
-   "how": "Texto de prueba. Cómo trabaja Autoridad para la Privacidad de las Comunicaciones: misión, a quién responde y qué puede hacer.",
-   "tech": [
-    "Tecnología de prueba A",
-    "Tecnología de prueba B"
-   ],
-   "where": [
-    "Región de prueba 1",
-    "Región de prueba 2"
-   ]
-  }
- },
- "law": {
-  "domestic": [
-   "Texto de prueba. Qué puede hacer con sus propios ciudadanos y con qué autorización.",
-   "Texto de prueba. Límites a la interceptación dentro del país."
+  id: "gr",
+  updated: "2026-11-16",
+  summary: [
+    "El Servicio Nacional de Inteligencia (EYP) es el servicio civil de Grecia y depende directamente de la Oficina del Primer Ministro desde 2019. Su principal preocupación exterior es Turquía, con la que Grecia mantiene disputas en el Egeo y Chipre. La Autoridad para la Privacidad de las Comunicaciones (ADAE) controla las escuchas.",
+    "En 2022 estalló el escándalo conocido como \"Watergate griego\": el teléfono del líder socialista Nikos Androulakis fue atacado con el programa espía Predator, y se supo que el EYP también lo tenía bajo escucha legal. En febrero de 2026 un tribunal de Atenas condenó a cuatro personas vinculadas con la empresa Intellexa por la vigilancia ilegal de 87 personas, entre ellas ministros, militares y periodistas.",
+    "El gobierno de Kyriakos Mitsotakis siempre negó haber comprado o usado Predator, pero un tercio de los vigilados también estaba bajo escucha del EYP. La causa sobre quién ordenó la vigilancia pasó a la Corte Suprema en abril de 2026. En la historia griega, el servicio antecesor KYP fue clave en la dictadura de los coroneles (1967-1974)."
   ],
-  "foreign": [
-   "Texto de prueba. Qué puede hacer con extranjeros, dentro y fuera del país.",
-   "Texto de prueba. Cooperación e intercambio de datos con otros servicios."
+  keyFacts: [
+    { l: "Vigilados con Predator", v: "87 personas", n: "según el tribunal de Atenas (2026)" },
+    { l: "Condenas a Intellexa", v: "Cuatro personas", n: "febrero de 2026, en primera instancia" },
+    { l: "Escuchas del EYP", v: "Un tercio de los blancos", n: "también vigilados legalmente, según AFP" },
+    { l: "Dependencia", v: "Oficina del Primer Ministro", n: "desde 2019" }
   ],
-  "oversight": [
-   "Texto de prueba. Control parlamentario.",
-   "Texto de prueba. Control judicial.",
-   "Texto de prueba. Inspectores y auditorías."
+  power: { humana: 3, senales: 3, ciber: 2, imagenes: 2, encubierta: 2, contra: 2 },
+  powerWhy: {
+    humana: "Redes en Turquía, los Balcanes y el Mediterráneo oriental.",
+    senales: "Escuchas legales extendidas; la ADAE controla con dificultades.",
+    ciber: "Capacidad propia limitada; el escándalo Predator mostró el uso de proveedores privados.",
+    imagenes: "Acceso a imágenes de la OTAN y de socios.",
+    encubierta: "Participó en la detención de sospechosos en 2005 junto con agentes británicos, según denuncias.",
+    contra: "No evitó la interceptación de los teléfonos del primer ministro en 2004 y 2005."
+  },
+  priorities: [
+    { h: "Turquía", x: "Egeo, Chipre y migración." },
+    { h: "Migración", x: "Flujos por el Egeo y la frontera de Evros." },
+    { h: "Rusia", x: "Influencia en la Iglesia y en los Balcanes." },
+    { h: "Terrorismo", x: "Grupos armados de extrema izquierda y yihadismo." },
+    { h: "Mediterráneo oriental", x: "Energía, Libia y Medio Oriente." }
+  ],
+  focos: ["Turquía", "Chipre", "Migración", "Rusia", "Balcanes"],
+  bodies: {
+    "PM": { since: 2019, how: "Oficina del Primer Ministro, de la que depende el EYP desde 2019; su secretario general fue el nexo con el servicio en el escándalo de 2022.", staff: "No aplica.", budget: "No aplica.", tech: [], where: ["Atenas"] },
+    "EYP": { since: 1986, how: "Servicio Nacional de Inteligencia: inteligencia exterior e interior y contraespionaje. Heredero del KYP de la Guerra Fría.", staff: "No se publica.", budget: "Secreto.", tech: ["Escuchas con orden fiscal"], where: ["Atenas", "Embajadas"] },
+    "Defensa": { since: 1953, how: "Inteligencia del Estado Mayor de Defensa: inteligencia militar centrada en Turquía.", staff: "No se publica.", budget: "Dentro de Defensa.", tech: [], where: ["Atenas"] },
+    "ADAE": { since: 2003, how: "Autoridad para la Privacidad de las Comunicaciones: controla la legalidad de las escuchas y auditó a las operadoras en el caso Predator.", staff: "No se publica.", budget: "Público.", tech: [], where: ["Atenas"] }
+  },
+  civil: [
+    "El EYP depende del primer ministro desde 2019, lo que la oposición considera un riesgo de uso político.",
+    "Las escuchas del EYP las autoriza un fiscal asignado al servicio.",
+    "En 2022 renunciaron el director del EYP y el secretario general del primer ministro."
+  ],
+  law: {
+    domestic: [
+      "La ley del EYP de 2008 regula sus funciones.",
+      "La ley de 2022 prohibió a privados vender o usar programas espía y permitió su uso estatal con condiciones.",
+      "En 2021 una reforma eliminó la obligación de avisar a los vigilados cuando termina la escucha; la Justicia la cuestionó."
+    ],
+    foreign: [
+      "El EYP opera en el exterior; no hay normas públicas detalladas."
+    ],
+    oversight: [
+      "Autoridad para la Privacidad de las Comunicaciones (ADAE).",
+      "Comisión parlamentaria de instituciones y transparencia.",
+      "Fiscal del EYP que autoriza escuchas."
+    ]
+  },
+  rights: [
+    { d: "1967-04", dir: "amplia", area: "Debido proceso", h: "Golpe de los coroneles", x: "La dictadura usa al KYP para perseguir a la oposición." },
+    { d: "2021-03", dir: "amplia", area: "Privacidad", h: "Fin del aviso a los vigilados", x: "Se suspende el derecho a saber que uno fue espiado por razones de seguridad nacional." },
+    { d: "2022-12", dir: "recorta", area: "Privacidad", h: "Ley sobre programas espía", x: "Prohíbe su venta y uso privado y fija condiciones para el uso estatal." }
+  ],
+  events: [
+    { d: "2004-08", lat: 37.98, lon: 23.73, c: "Greece", t: "senales", ev: 2, h: "Escuchas a Vodafone", x: "Un programa oculto en la red de Vodafone intercepta los teléfonos del primer ministro y de ministros durante los Juegos Olímpicos; la prensa lo atribuyó a EE.UU.", u: "https://en.wikipedia.org/wiki/Greek_wiretapping_case_2004%E2%80%9305", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2018-07", lat: 38.0, lon: 23.75, c: "Greece", t: "contra", ev: 1, h: "Expulsión de diplomáticos rusos", x: "Grecia expulsa a dos diplomáticos rusos por intentar sobornar a funcionarios y frenar el acuerdo sobre el nombre de Macedonia del Norte.", u: "https://en.wikipedia.org/wiki/Greece%E2%80%93Russia_relations", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2021-09", lat: 37.96, lon: 23.7, c: "Greece", t: "ciber", ev: 1, h: "Predator contra Androulakis", x: "Intentan infectar con Predator el teléfono del líder socialista, que también estaba bajo escucha del EYP.", u: "https://www.amnesty.org/en/latest/news/2026/02/greece-spyware-scandal/", st: "Amnistía Internacional" },
+    { d: "2026-02-26", lat: 37.99, lon: 23.72, c: "Greece", t: "ciber", ev: 1, h: "Condena en el caso Predator", x: "Un tribunal de Atenas condena a cuatro personas ligadas a Intellexa por la vigilancia ilegal de 87 personas.", u: "https://neoskosmos.com/en/2026/02/27/news/greece/athens-court-convicts-four-over-greece-spyware-saga/", st: "AFP, vía Neos Kosmos" }
+  ],
+  interest: {
+    "Turkey": 3, "Cyprus": 3, "Albania": 1, "Macedonia": 1, "Russia": 2, "Libya": 1, "Egypt": 1, "Israel": 1, "Bulgaria": 1
+  },
+  timeline: [
+    { era: "Guerra Fría", d: "1953", h: "Nace el KYP", x: "Servicio creado con apoyo de la CIA." },
+    { era: "", d: "1967–1974", h: "Dictadura", x: "Oficiales ligados al KYP encabezan el régimen de los coroneles." },
+    { era: "Democracia", d: "1986", h: "Nace el EYP", x: "Reemplaza al KYP." },
+    { era: "", d: "2004–2005", h: "Escuchas a Vodafone", x: "Intercepción del teléfono del primer ministro." },
+    { era: "", d: "2022", h: "Watergate griego", x: "Predator y escuchas del EYP a un líder opositor." },
+    { era: "Actual", d: "2026", h: "Condenas y Corte Suprema", x: "Condenas a Intellexa y nueva investigación sobre quién ordenó el espionaje.", now: true }
+  ],
+  cases: [
+    { ev: 1, ilegal: true, d: "2020–2022", h: "El Watergate griego", x: "Un tribunal de Atenas condenó en 2026 a Tal Dilian, fundador de Intellexa, y a otras tres personas por el acceso ilegal a comunicaciones de 87 personas. El gobierno niega haber usado Predator. Un tercio de los vigilados también estaba bajo escucha legal del EYP y la causa sobre quién lo ordenó pasó a la Corte Suprema.", who: "Tribunal de Atenas", missing: "", u: "https://neoskosmos.com/en/2026/02/27/news/greece/athens-court-convicts-four-over-greece-spyware-saga/", st: "AFP, vía Neos Kosmos" },
+    { ev: 3, ilegal: true, d: "2020–2022", h: "Quién ordenó el uso de Predator", x: "La oposición y periodistas vigilados sostienen que el gobierno usó Predator junto con las escuchas del EYP. El gobierno lo niega. Dilian dijo que Intellexa solo vende a gobiernos.", who: "Oposición griega y periodistas vigilados", missing: "Prueba de la orden y del comprador estatal.", u: "https://edri.org/our-work/predatorgate-breaking-the-chain-of-impunity-of-the-spyware-underworld/", st: "EDRi" },
+    { ev: 2, ilegal: true, d: "2004–2005", h: "Las escuchas de Vodafone", x: "Un programa instalado en la red de Vodafone interceptó unos 100 teléfonos, entre ellos el del primer ministro Kostas Karamanlís. Un técnico de la empresa apareció muerto. Investigaciones de prensa atribuyeron la operación a la NSA desde la embajada de EE.UU.", who: "Fiscalía griega y prensa internacional", missing: "Confirmación oficial de EE.UU.", u: "https://en.wikipedia.org/wiki/Greek_wiretapping_case_2004%E2%80%9305", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  failures: [
+    { k: "falla", d: "2004–2005", ev: 2, w: 2, h: "Los teléfonos del primer ministro", x: "Los servicios griegos no detectaron durante meses la interceptación de los teléfonos del gobierno.", why: "La interceptación está probada; la autoría sigue sin confirmación oficial.", wx: "Investigación judicial y prensa.", who: "Fiscalía griega", u: "https://en.wikipedia.org/wiki/Greek_wiretapping_case_2004%E2%80%9305", st: "Wikipedia (síntesis de fuentes)" }
+  ],
+  modus: {
+    embajadas: "El EYP trabaja desde embajadas, con foco en Turquía y los Balcanes.",
+    campo: "Fuentes humanas en Turquía y en las rutas migratorias.",
+    oficina: "El EYP informa al primer ministro a través de su secretario general.",
+    reclutamiento: "Personal militar y policial y concursos públicos.",
+    tecnica: "Escuchas legales a través de las operadoras con orden fiscal.",
+    enlaces: "OTAN, EE.UU. y cooperación estrecha con Chipre e Israel."
+  },
+  insiders: [
+    { k: "denunciante", dir: "sale", ev: 1, d: "2022", n: "Thanasis Koukakis", h: "El periodista que destapó el caso", x: "Periodista financiero que descubrió que su teléfono tenía Predator y que el EYP lo escuchaba, y llevó el caso a la Justicia.", cargo: "Periodista", hacia: "Justicia y prensa", fin: "Querellante en el juicio de 2026.", who: "Citizen Lab y tribunal de Atenas", u: "https://neoskosmos.com/en/2026/02/27/news/greece/athens-court-convicts-four-over-greece-spyware-saga/", st: "AFP, vía Neos Kosmos" }
+  ],
+  leaks: [
+    { k: "ocultamiento", rol: "autor", ev: 2, d: "2021–2022", h: "Las escuchas a Androulakis", x: "El EYP escuchó al líder opositor por \"razones de seguridad nacional\" y la ley de 2021 impedía avisarle.", obj: "Mantener la vigilancia en secreto.", aquien: "El vigilado y el Parlamento", como: "La ADAE le informó tras el escándalo de Predator.", who: "ADAE y prensa", u: "https://www.yahoo.com/news/articles/four-convicted-over-spyware-scandal-150558339.html", st: "AFP, vía Yahoo" }
+  ],
+  practicas: {
+    propios: { ev: 1, x: "Ministros y altos militares figuran entre los vigilados con Predator o por el EYP.", u: "https://neoskosmos.com/en/2026/02/27/news/greece/athens-court-convicts-four-over-greece-spyware-saga/", st: "AFP, vía Neos Kosmos" },
+    politicos: { ev: 1, x: "El EYP escuchó al líder del partido socialista PASOK.", u: "https://www.yahoo.com/news/articles/four-convicted-over-spyware-scandal-150558339.html", st: "AFP, vía Yahoo" },
+    periodistas: { ev: 1, x: "Periodistas como Thanasis Koukakis fueron vigilados por el EYP y con Predator.", u: "https://neoskosmos.com/en/2026/02/27/news/greece/athens-court-convicts-four-over-greece-spyware-saga/", st: "AFP, vía Neos Kosmos" },
+    activistas: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
+    aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    rivales: { ev: 1, x: "Turquía es el blanco principal de la inteligencia griega.", u: "https://en.wikipedia.org/wiki/National_Intelligence_Service_(Greece)", st: "Wikipedia (síntesis de fuentes)" },
+    extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    tortura: { ev: 1, x: "Durante la dictadura de 1967-1974 la policía militar torturó a opositores.", u: "https://en.wikipedia.org/wiki/Greek_junta", st: "Wikipedia (síntesis de fuentes)" },
+    secuestro: { ev: 2, x: "Paquistaníes denunciaron haber sido secuestrados e interrogados por agentes griegos y británicos en 2005.", u: "https://en.wikipedia.org/wiki/National_Intelligence_Service_(Greece)", st: "Wikipedia (síntesis de fuentes)" },
+    propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    conflictos: { ev: 1, x: "La junta griega promovió en 1974 el golpe contra Makarios en Chipre, que desató la invasión turca.", u: "https://en.wikipedia.org/wiki/1974_Cypriot_coup_d%27%C3%A9tat", st: "Wikipedia (síntesis de fuentes)" },
+    cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    golpes: { ev: 1, x: "La junta de Atenas organizó el golpe de 1974 en Chipre.", u: "https://en.wikipedia.org/wiki/1974_Cypriot_coup_d%27%C3%A9tat", st: "Wikipedia (síntesis de fuentes)" },
+    elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    partidos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    empresarios: { ev: 1, x: "Empresarios figuran entre los vigilados con Predator.", u: "https://www.yahoo.com/news/articles/four-convicted-over-spyware-scandal-150558339.html", st: "AFP, vía Yahoo" },
+    religiosos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    armas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    inteligencia: { ev: 1, x: "Comparte inteligencia con Chipre e Israel en el Mediterráneo oriental.", u: "https://en.wikipedia.org/wiki/National_Intelligence_Service_(Greece)", st: "Wikipedia (síntesis de fuentes)" },
+    tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
+  },
+  dinero: {
+    presupuesto: "El presupuesto del EYP es secreto en buena parte.",
+    uso: "Personal, escuchas y operaciones regionales.",
+    ingresos: "Esta ficha no encontró ingresos propios.",
+    empresas: "Intellexa operaba desde Atenas con empresas vinculadas, según el juicio.",
+    bancos: "Esta ficha no encontró casos documentados.",
+    crimen: "Esta ficha no encontró uso de organizaciones criminales.",
+    cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
+  },
+  fondos: [
+    { k: "fachada", rol: "blanco", ev: 1, d: "2020–2022", h: "La red de Intellexa en Atenas", x: "Empresas ligadas a Intellexa y a un empresario griego operaron la infraestructura de Predator, según el tribunal.", obj: "Vender y operar vigilancia ilegal.", who: "Tribunal de Atenas", u: "https://thetimes.gr/predator-scandal-four-intellexa-executives-convicted-in-greek-wiretapping-case", st: "The Times (Grecia)" }
+  ],
+  companies: [
+    { n: "Intellexa", c: "extranjera", rubro: "Programas espía", rel: "Proveedor", x: "Comercializó Predator en Grecia; sus responsables fueron condenados en 2026." },
+    { n: "Vodafone Grecia", c: "extranjera", rubro: "Telecomunicaciones", rel: "Víctima", x: "Su red fue usada para escuchar al gobierno en 2004 y 2005." }
+  ],
+  struggles: [
+    { a: "Gobierno de Mitsotakis", b: "Oposición", k: "Con la política", stake: "El Watergate griego", state: "Abierta", x: "La oposición acusa al gobierno de un \"Estado profundo\"; el gobierno niega el uso de Predator." }
+  ],
+  sources: [
+    { t: "Amnistía: condenas en el caso Predator (2026)", u: "https://www.amnesty.org/en/latest/news/2026/02/greece-spyware-scandal/" },
+    { t: "AFP: cuatro condenados por el escándalo de espionaje", u: "https://neoskosmos.com/en/2026/02/27/news/greece/athens-court-convicts-four-over-greece-spyware-saga/" },
+    { t: "EDRi: la cadena de impunidad del espionaje", u: "https://edri.org/our-work/predatorgate-breaking-the-chain-of-impunity-of-the-spyware-underworld/" },
+    { t: "Wikipedia: National Intelligence Service (Greece)", u: "https://en.wikipedia.org/wiki/National_Intelligence_Service_(Greece)" }
   ]
- },
- "rights": [
-  {
-   "d": "1950",
-   "dir": "recorta",
-   "h": "Hito de prueba 1",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Datos personales"
-  },
-  {
-   "d": "1960",
-   "dir": "amplia",
-   "h": "Hito de prueba 2",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Privacidad"
-  },
-  {
-   "d": "1970",
-   "dir": "amplia",
-   "h": "Hito de prueba 3",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "1978",
-   "dir": "recorta",
-   "h": "Hito de prueba 4",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  },
-  {
-   "d": "1983",
-   "dir": "amplia",
-   "h": "Hito de prueba 5",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "1992",
-   "dir": "amplia",
-   "h": "Hito de prueba 6",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2003",
-   "dir": "amplia",
-   "h": "Hito de prueba 7",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Comunicaciones"
-  },
-  {
-   "d": "2012",
-   "dir": "amplia",
-   "h": "Hito de prueba 8",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Expresión"
-  },
-  {
-   "d": "2019",
-   "dir": "amplia",
-   "h": "Hito de prueba 9",
-   "x": "Texto de prueba. Ley, fallo, programa revelado o reforma, y qué derecho tocó.",
-   "area": "Debido proceso"
-  }
- ],
- "events": [
-  {
-   "d": "1962-02-03",
-   "lat": -1.2,
-   "lon": -59.51,
-   "t": "humana",
-   "h": "Operación de prueba 1",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1967-04-12",
-   "lat": -30.61,
-   "lon": 13.8,
-   "t": "encubierta",
-   "h": "Operación de prueba 2",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "1969-10-07",
-   "lat": 54.95,
-   "lon": 95,
-   "t": "contra",
-   "h": "Operación de prueba 3",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "1974-12-09",
-   "lat": 23.71,
-   "lon": 25.51,
-   "t": "senales",
-   "h": "Operación de prueba 4",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1978-02-05",
-   "lat": 36.38,
-   "lon": 24.1,
-   "t": "encubierta",
-   "h": "Operación de prueba 5",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1985-02-11",
-   "lat": -11.45,
-   "lon": -84.94,
-   "t": "contra",
-   "h": "Operación de prueba 6",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1988-02-17",
-   "lat": 30.4,
-   "lon": -52.89,
-   "t": "senales",
-   "h": "Operación de prueba 7",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "1992-05-27",
-   "lat": 39.54,
-   "lon": -15.01,
-   "t": "humana",
-   "h": "Operación de prueba 8",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2000-06-05",
-   "lat": -28.78,
-   "lon": -8.04,
-   "t": "encubierta",
-   "h": "Operación de prueba 9",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2003-04-27",
-   "lat": 11.35,
-   "lon": -7.97,
-   "t": "encubierta",
-   "h": "Operación de prueba 10",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2006-06-11",
-   "lat": 41.75,
-   "lon": 20.37,
-   "t": "encubierta",
-   "h": "Operación de prueba 11",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  },
-  {
-   "d": "2012-01-15",
-   "lat": 35.5,
-   "lon": 20.36,
-   "t": "humana",
-   "h": "Operación de prueba 12",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 1
-  },
-  {
-   "d": "2016-08-21",
-   "lat": -36.21,
-   "lon": -51.45,
-   "t": "humana",
-   "h": "Operación de prueba 13",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 2
-  },
-  {
-   "d": "2019-07-14",
-   "lat": 40.31,
-   "lon": 28.84,
-   "t": "sabotaje",
-   "h": "Operación de prueba 14",
-   "x": "Texto de prueba. Qué se hizo, dónde, qué organismo y quién lo atribuye.",
-   "ev": 3
-  }
- ],
- "interest": {
-  "United States of America": 2,
-  "Russia": 3,
-  "Germany": 2,
-  "Ukraine": 1,
-  "Turkey": 3,
-  "India": 2,
-  "Pakistan": 1,
-  "Iraq": 2,
-  "Venezuela": 3,
-  "Mexico": 2,
-  "Brazil": 1,
-  "North Korea": 2,
-  "Taiwan": 2,
-  "Egypt": 1,
-  "Sudan": 1,
-  "Mali": 1,
-  "Nigeria": 1,
-  "Kazakhstan": 2,
-  "Serbia": 1,
-  "Philippines": 3,
-  "Vietnam": 2,
-  "Ethiopia": 2
- },
- "timeline": [
-  {
-   "era": "Orígenes",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Guerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Posguerra Fría",
-   "d": "19XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "Era digital",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba."
-  },
-  {
-   "era": "",
-   "d": "20XX",
-   "h": "Hito de prueba",
-   "x": "Texto de prueba.",
-   "now": true
-  }
- ],
- "cases": [
-  {
-   "ev": 1,
-   "h": "Caso de prueba 1",
-   "d": "1980",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un gobierno extranjero",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 1,
-   "h": "Caso de prueba 2",
-   "d": "2023",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Un ex agente",
-   "missing": "",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 3",
-   "d": "1969",
-   "ilegal": false,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 2,
-   "h": "Caso de prueba 4",
-   "d": "1969",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 3,
-   "h": "Caso de prueba 5",
-   "d": "1996",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Una investigación periodística",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": ""
-  },
-  {
-   "ev": 4,
-   "h": "Caso de prueba 6",
-   "d": "1979",
-   "ilegal": true,
-   "x": "Texto de prueba. Qué se sabe del caso y qué hizo el organismo.",
-   "who": "Redes sociales",
-   "missing": "Texto de prueba. Qué falta para subir de categoría.",
-   "debunk": "Texto de prueba. De dónde salió, por qué prendió y qué la desmiente."
-  }
- ],
- "failures": [
-  {
-   "k": "falla",
-   "ev": 1,
-   "w": 3,
-   "d": "19XX",
-   "h": "Falla de prueba 1",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué no está en duda.",
-   "wx": "",
-   "who": "Una comisión investigadora"
-  },
-  {
-   "k": "falla",
-   "ev": 2,
-   "w": 2,
-   "d": "20XX",
-   "h": "Falla de prueba 2",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué se discute.",
-   "wx": "",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "falsa",
-   "ev": 3,
-   "w": 1,
-   "d": "19XX",
-   "h": "Falsa bandera de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Por qué está en duda.",
-   "wx": "",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "falsa",
-   "ev": 4,
-   "w": 1,
-   "d": "20XX",
-   "h": "Teoría de prueba",
-   "x": "Texto de prueba.",
-   "why": "Texto de prueba. Qué la desmiente.",
-   "wx": "",
-   "who": "Redes sociales"
-  }
- ],
- "modus": {
-  "embajadas": "Texto de prueba.",
-  "campo": "Texto de prueba.",
-  "oficina": "Texto de prueba.",
-  "reclutamiento": "Texto de prueba.",
-  "tecnica": "Texto de prueba.",
-  "enlaces": "Texto de prueba."
- },
- "practicas": {
-  "propios": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "politicos": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "periodistas": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "activistas": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "aliados": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "rivales": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "extorsion": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "asesinato": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "sabotaje": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "tortura": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "secuestro": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "propaganda": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "conflictos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "cultural": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "golpes": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "elecciones": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "partidos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "diaspora": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "empresarios": {
-   "ev": 1,
-   "x": "Texto de prueba."
-  },
-  "religiosos": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  },
-  "armas": {
-   "ev": 2,
-   "x": "Texto de prueba."
-  },
-  "inteligencia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "tecnologia": {
-   "ev": 3,
-   "x": "Texto de prueba."
-  },
-  "entrenamiento": {
-   "ev": 0,
-   "x": "Texto de prueba."
-  }
- },
- "dinero": {
-  "presupuesto": "Texto de prueba.",
-  "uso": "Texto de prueba.",
-  "ingresos": "Texto de prueba.",
-  "empresas": "Texto de prueba.",
-  "bancos": "Texto de prueba.",
-  "crimen": "Texto de prueba.",
-  "cobertura": "Texto de prueba."
- },
- "fondos": [
-  {
-   "k": "presupuesto",
-   "rol": "autor",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Presupuesto de prueba",
-   "x": "Texto de prueba.",
-   "monto": "Monto de prueba",
-   "who": "Ley de presupuesto"
-  },
-  {
-   "k": "fachada",
-   "rol": "autor",
-   "ev": 2,
-   "d": "19XX",
-   "h": "Empresa de fachada de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "crimen",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Vínculo criminal de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  },
-  {
-   "k": "cobertura",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "ONG de cobertura de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "insiders": [
-  {
-   "k": "denunciante",
-   "dir": "sale",
-   "ev": 1,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Denuncia de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un medio",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Topo de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Un servicio extranjero",
-   "fin": "Texto de prueba.",
-   "who": "Un tribunal"
-  },
-  {
-   "k": "topo",
-   "dir": "entra",
-   "ev": 2,
-   "d": "20XX",
-   "n": "Persona de prueba",
-   "h": "Fuente reclutada de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Servicio extranjero",
-   "hacia": "Este país",
-   "fin": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "desertor",
-   "dir": "sale",
-   "ev": 1,
-   "d": "19XX",
-   "n": "Persona de prueba",
-   "h": "Deserción de prueba",
-   "x": "Texto de prueba.",
-   "cargo": "Organismo de prueba",
-   "hacia": "Otro país",
-   "fin": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  }
- ],
- "leaks": [
-  {
-   "k": "filtracion",
-   "rol": "blanco",
-   "ev": 1,
-   "d": "20XX",
-   "h": "Filtración de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Una investigación periodística"
-  },
-  {
-   "k": "accidental",
-   "rol": "blanco",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Filtración no intencional de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Prensa especializada"
-  },
-  {
-   "k": "robo",
-   "rol": "autor",
-   "ev": 2,
-   "d": "20XX",
-   "h": "Robo de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un gobierno extranjero"
-  },
-  {
-   "k": "ocultamiento",
-   "rol": "autor",
-   "ev": 1,
-   "d": "19XX",
-   "h": "Ocultamiento de prueba",
-   "x": "Texto de prueba.",
-   "aquien": "Al Congreso",
-   "como": "Texto de prueba.",
-   "who": "Una comisión parlamentaria"
-  },
-  {
-   "k": "desinfo",
-   "rol": "autor",
-   "ev": 3,
-   "d": "20XX",
-   "h": "Desinformación de prueba",
-   "x": "Texto de prueba.",
-   "obj": "Texto de prueba.",
-   "who": "Un ex agente"
-  }
- ],
- "companies": [
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Defensa",
-   "rel": "Contratista",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa nacional de prueba",
-   "c": "nacional",
-   "rubro": "Telecomunicaciones",
-   "rel": "Cooperación legal",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Tecnología",
-   "rel": "Proveedor",
-   "x": "Texto de prueba."
-  },
-  {
-   "n": "Empresa extranjera de prueba",
-   "c": "extranjera",
-   "rubro": "Software espía",
-   "rel": "Objetivo de vigilancia",
-   "x": "Texto de prueba."
-  }
- ],
- "civil": [
-  "Texto de prueba. Relación con la Presidencia o el Gobierno.",
-  "Texto de prueba. Relación con la cancillería y otros ministerios."
- ],
- "struggles": [
-  {
-   "a": "Organismo A",
-   "b": "Organismo B",
-   "k": "Entre agencias",
-   "stake": "Presupuesto y control",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Sección interna X",
-   "b": "Sección interna Y",
-   "k": "Interna",
-   "stake": "Conducción",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Justicia",
-   "k": "Con otros poderes",
-   "stake": "Causas judiciales",
-   "state": "Abierta",
-   "x": "Texto de prueba."
-  },
-  {
-   "a": "Servicios",
-   "b": "Partido o empresa",
-   "k": "Con la política y la economía",
-   "stake": "Influencia",
-   "state": "Latente",
-   "x": "Texto de prueba."
-  }
- ],
- "sources": [
-  {
-   "t": "Fuente de prueba",
-   "u": "#"
-  }
- ]
 };

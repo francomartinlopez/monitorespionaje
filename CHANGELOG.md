@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-15 · Ficha real de Grecia: EYP, inteligencia militar y ADAE; el Watergate griego y las condenas a Intellexa (2026), las escuchas a Androulakis, el caso Vodafone de 2004-2005 y la expulsión de diplomáticos rusos.
+
 - 2026-11-15 · Ficha real de Suecia: FRA, MUST, Säpo e Inspección de Inteligencia; los hermanos Kia, Stig Bergling, Irán y las bandas criminales, la ley de la FRA y el escándalo de la IB.
 
 - 2026-11-15 · Ficha real de Ruanda: NISS, DMI y RIB; el asesinato de Karegeya, el atentado contra Nyamwasa, la captura de Rusesabagina, Pegasus y el apoyo al M23 según la ONU.
