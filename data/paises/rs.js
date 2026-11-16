@@ -61,7 +61,7 @@
   ],
   events: [
     { d: "2024-02", lat: 44.8, lon: 20.46, c: "Serbia", t: "ciber", ev: 2, h: "Infección de teléfonos de periodistas", x: "Policías y agentes de la BIA desbloquean teléfonos con Cellebrite e instalan NoviSpy, según Amnistía.", u: "https://www.amnesty.org/en/latest/news/2024/12/serbia-authorities-using-spyware-and-cellebrite-forensic-extraction-tools-to-hack-journalists-and-activists/", st: "Amnistía Internacional" },
-    { d: "2024-11-01", lat: 45.26, lon: 19.83, c: "Serbia", t: "contra", ev: 1, h: "Derrumbe en Novi Sad", x: "El techo de la estación renovada mata a 16 personas y desata protestas masivas.", u: "https://en.wikipedia.org/wiki/2024_Novi_Sad_railway_station_canopy_collapse", st: "Wikipedia (síntesis de fuentes)" }
+    { d: "2024-11-01", lat: 45.26, lon: 19.83, c: "Serbia", t: "contra", ev: 1, h: "Derrumbe en Novi Sad", x: "El techo de la estación renovada mata a 16 personas y desata protestas masivas.", u: "https://en.wikipedia.org/wiki/Novi_Sad_railway_station_canopy_collapse", st: "Wikipedia (síntesis de fuentes)" }
   ],
   interest: {
     "Kosovo": 3, "Bosnia and Herz.": 2, "Montenegro": 2, "Croatia": 2, "Russia": 1, "Hungary": 1, "Albania": 1
@@ -79,7 +79,7 @@
     { ev: 1, ilegal: true, d: "1946–1990", h: "Los asesinatos de la UDBA", x: "Tribunales alemanes condenaron a ex agentes de la policía secreta yugoslava por el asesinato de emigrados croatas en Alemania.", who: "Tribunal Regional Superior de Múnich", missing: "", u: "https://en.wikipedia.org/wiki/UDBA", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
-    { k: "falla", d: "2024-11", ev: 1, w: 3, h: "Novi Sad", x: "El derrumbe expuso corrupción en obras públicas y desató la mayor crisis del gobierno de Vučić.", why: "El derrumbe está probado; la responsabilidad penal se investiga.", wx: "Proceso judicial en curso.", who: "Fiscalía de Novi Sad", u: "https://en.wikipedia.org/wiki/2024_Novi_Sad_railway_station_canopy_collapse", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "falla", d: "2024-11", ev: 1, w: 3, h: "Novi Sad", x: "El derrumbe expuso corrupción en obras públicas y desató la mayor crisis del gobierno de Vučić.", why: "El derrumbe está probado; la responsabilidad penal se investiga.", wx: "Proceso judicial en curso.", who: "Fiscalía de Novi Sad", u: "https://en.wikipedia.org/wiki/Novi_Sad_railway_station_canopy_collapse", st: "Wikipedia (síntesis de fuentes)" }
   ],
   modus: {
     embajadas: "Oficiales en embajadas de la región y en Moscú.",

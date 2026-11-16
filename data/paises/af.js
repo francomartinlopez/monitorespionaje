@@ -93,7 +93,7 @@
     { k: "desertor", dir: "sale", ev: 1, d: "2021", n: "Ex agentes de la NDS", h: "Los espías de la república", x: "Miles de ex oficiales de la NDS huyeron o se escondieron; algunos fueron evacuados por EE.UU.", cargo: "Oficiales de la NDS", hacia: "EE.UU. y otros países", fin: "Varios fueron asesinados en Afganistán, según la ONU.", who: "UNAMA y prensa", u: "https://en.wikipedia.org/wiki/National_Directorate_of_Security", st: "Wikipedia (síntesis de fuentes)" }
   ],
   leaks: [
-    { k: "accidental", rol: "blanco", ev: 1, d: "2022-02", h: "La lista de afganos colaboradores", x: "Un error del Ministerio de Defensa británico expuso datos de miles de afganos que trabajaron con el Reino Unido.", obj: "No intencional; expuso a personas a represalias.", who: "Gobierno del Reino Unido", u: "https://en.wikipedia.org/wiki/Afghan_data_leak", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "accidental", rol: "blanco", ev: 1, d: "2022-02", h: "La lista de afganos colaboradores", x: "Un error del Ministerio de Defensa británico expuso datos de miles de afganos que trabajaron con el Reino Unido.", obj: "No intencional; expuso a personas a represalias.", who: "Gobierno del Reino Unido", u: "https://en.wikipedia.org/wiki/Afghan_Relocations_and_Assistance_Policy", st: "Wikipedia (síntesis de fuentes)" }
   ],
   practicas: {
     propios: { ev: 1, x: "La GDI detiene a miembros del propio régimen acusados de deslealtad.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },

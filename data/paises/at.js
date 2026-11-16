@@ -4,7 +4,7 @@
   updated: "2026-11-16",
   summary: [
     "Viena, sede de la ONU, la OSCE y la OPEP, es desde la Guerra Fría una de las capitales del espionaje mundial. La ley austríaca castigó hasta hace poco solo el espionaje dirigido contra la propia Austria, lo que permitió a servicios extranjeros operar con libertad. Austria no tiene un servicio civil de inteligencia exterior: sus servicios son la Dirección de Seguridad del Estado e Inteligencia (DSN) y los dos servicios militares.",
-    "La DSN nació en 2021 para reemplazar a la Oficina para la Protección de la Constitución (BVT), desacreditada después de que el Ministerio del Interior de Herbert Kickl ordenara allanarla en 2018 y de que servicios aliados redujeran el intercambio de información. En noviembre de 2020 un atentado yihadista en Viena mató a cuatro personas pese a advertencias previas.",
+    "La DSN nació en 2021 para reemplazar a la Oficina para la Protección de la Constitución (BVT). La BVT quedó desacreditada después de que el Ministerio del Interior de Herbert Kickl ordenara allanarla en 2018, y servicios aliados redujeran el intercambio de información. En noviembre de 2020 un atentado yihadista en Viena mató a cuatro personas pese a advertencias previas.",
     "En mayo de 2026 un jurado de Viena condenó al ex oficial de la BVT Egisto Ott a cuatro años y un mes por espiar para Rusia como cómplice de Jan Marsalek, ex directivo de Wirecard prófugo en Rusia. Ott ayudó a localizar al periodista de investigación Christo Grozev, según la fiscalía."
   ],
   keyFacts: [

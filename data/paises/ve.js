@@ -63,7 +63,7 @@
   events: [
     { d: "2018-10-08", lat: 10.49, lon: -66.9, c: "Venezuela", t: "contra", ev: 1, h: "Muerte de Fernando Albán", x: "El concejal opositor muere bajo custodia del SEBIN; el gobierno dijo que se suicidó y la ONU pidió una investigación independiente.", u: "https://en.wikipedia.org/wiki/Fernando_Alb%C3%A1n", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2019-06-29", lat: 10.5, lon: -66.82, c: "Venezuela", t: "contra", ev: 1, h: "Muerte del capitán Acosta Arévalo", x: "Un capitán de corbeta detenido por la DGCIM muere con signos de tortura; dos militares fueron condenados por homicidio.", u: "https://en.wikipedia.org/wiki/Rafael_Acosta_Ar%C3%A9valo", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "2024-02-21", lat: -33.45, lon: -70.67, c: "Chile", t: "encubierta", ev: 2, h: "Secuestro de Ronald Ojeda", x: "El teniente desertor es secuestrado y asesinado en Santiago; la fiscalía chilena atribuyó el crimen a una orden del gobierno venezolano.", u: "https://en.wikipedia.org/wiki/Murder_of_Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2024-02-21", lat: -33.45, lon: -70.67, c: "Chile", t: "encubierta", ev: 2, h: "Secuestro de Ronald Ojeda", x: "El teniente desertor es secuestrado y asesinado en Santiago; la fiscalía chilena atribuyó el crimen a una orden del gobierno venezolano.", u: "https://en.wikipedia.org/wiki/Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2026-01-03", lat: 10.48, lon: -66.88, c: "Venezuela", t: "contra", ev: 1, h: "Captura de Maduro", x: "Fuerzas de EE.UU. bombardean Caracas y capturan a Nicolás Maduro y a Cilia Flores; la contrainteligencia no lo evitó.", u: "https://www.thestar.com.my/news/world/2026/01/04/maduro-is-out-but-it039s-unclear-who-is-running-venezuela", st: "Reuters, vía The Star" }
   ],
   interest: {
@@ -78,7 +78,7 @@
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2014–2024", h: "Los crímenes del SEBIN y la DGCIM", x: "La Misión de Determinación de los Hechos de la ONU documentó torturas, desapariciones forzadas y violencia sexual en centros del SEBIN y la DGCIM. Concluyó que fueron crímenes de lesa humanidad cometidos como parte de una política del Estado. La Corte Penal Internacional investiga.", who: "Misión de Determinación de los Hechos de la ONU", missing: "", u: "https://citizen.digital/article/maduro-is-out-but-his-top-allies-still-hold-power-in-venezuela-n375237", st: "Reuters, vía Citizen Digital" },
-    { ev: 2, ilegal: true, d: "2024", h: "El asesinato de Ronald Ojeda en Chile", x: "El teniente desertor Ronald Ojeda fue secuestrado en Santiago por falsos policías y apareció muerto. La fiscalía chilena sostuvo que el crimen se ordenó desde el gobierno venezolano y lo ejecutó la banda Tren de Aragua. Caracas lo niega.", who: "Fiscalía de Chile", missing: "Un juicio que pruebe la orden estatal.", u: "https://en.wikipedia.org/wiki/Murder_of_Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "2024", h: "El asesinato de Ronald Ojeda en Chile", x: "El teniente desertor Ronald Ojeda fue secuestrado en Santiago por falsos policías y apareció muerto. La fiscalía chilena sostuvo que el crimen se ordenó desde el gobierno venezolano y lo ejecutó la banda Tren de Aragua. Caracas lo niega.", who: "Fiscalía de Chile", missing: "Un juicio que pruebe la orden estatal.", u: "https://en.wikipedia.org/wiki/Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
     { ev: 1, ilegal: true, d: "2019", h: "La muerte de Acosta Arévalo", x: "El capitán Rafael Acosta Arévalo murió tras ser detenido por la DGCIM y presentado ante un juez en silla de ruedas. La fiscalía reconoció la tortura y dos militares fueron condenados.", who: "Fiscalía y tribunales de Venezuela", missing: "", u: "https://en.wikipedia.org/wiki/Rafael_Acosta_Ar%C3%A9valo", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
@@ -105,9 +105,9 @@
     periodistas: { ev: 1, x: "Periodistas fueron detenidos por el SEBIN y liberados recién en 2026.", u: "https://www.euaa.europa.eu/print/pdf/node/32025", st: "Agencia de Asilo de la UE" },
     activistas: { ev: 1, x: "Defensores de derechos humanos fueron detenidos y desaparecidos, según la ONU.", u: "https://www.euaa.europa.eu/print/pdf/node/32025", st: "Agencia de Asilo de la UE" },
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
-    rivales: { ev: 2, x: "Vigiló a militares exiliados en Chile y Colombia, según las fiscalías de esos países.", u: "https://en.wikipedia.org/wiki/Murder_of_Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
+    rivales: { ev: 2, x: "Vigiló a militares exiliados en Chile y Colombia, según las fiscalías de esos países.", u: "https://en.wikipedia.org/wiki/Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 2, x: "Detenidos denunciaron presiones a sus familias para obtener pagos o información.", u: "https://www.euaa.europa.eu/print/pdf/node/32025", st: "Agencia de Asilo de la UE" },
-    asesinato: { ev: 2, x: "La fiscalía chilena atribuye al gobierno venezolano el asesinato de Ronald Ojeda.", u: "https://en.wikipedia.org/wiki/Murder_of_Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
+    asesinato: { ev: 2, x: "La fiscalía chilena atribuye al gobierno venezolano el asesinato de Ronald Ojeda.", u: "https://en.wikipedia.org/wiki/Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     tortura: { ev: 1, x: "La ONU documentó torturas sistemáticas en el SEBIN y la DGCIM.", u: "https://citizen.digital/article/maduro-is-out-but-his-top-allies-still-hold-power-in-venezuela-n375237", st: "Reuters, vía Citizen Digital" },
     secuestro: { ev: 1, x: "Desapariciones forzadas de opositores tras detenciones arbitrarias, según la ONU.", u: "https://www.euaa.europa.eu/print/pdf/node/32025", st: "Agencia de Asilo de la UE" },
@@ -117,7 +117,7 @@
     golpes: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     partidos: { ev: 3, x: "Hubo acusaciones de financiamiento venezolano a partidos de la región, sin pruebas firmes.", u: "https://en.wikipedia.org/wiki/Foreign_relations_of_Venezuela", st: "Wikipedia (síntesis de fuentes)" },
-    diaspora: { ev: 2, x: "Persiguió a militares venezolanos exiliados, según la fiscalía chilena.", u: "https://en.wikipedia.org/wiki/Murder_of_Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
+    diaspora: { ev: 2, x: "Persiguió a militares venezolanos exiliados, según la fiscalía chilena.", u: "https://en.wikipedia.org/wiki/Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
     empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     religiosos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     armas: { ev: 2, x: "Acusaciones de entrega de armas a guerrillas colombianas, según gobiernos de la región.", u: "https://en.wikipedia.org/wiki/Colombia%E2%80%93Venezuela_relations", st: "Wikipedia (síntesis de fuentes)" },

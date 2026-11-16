@@ -3,7 +3,7 @@
   id: "uk",
   updated: "2026-11-15",
   summary: [
-    "El Reino Unido tiene tres agencias civiles: el Servicio Secreto de Inteligencia (MI6), que espía en el exterior; el Servicio de Seguridad (MI5), a cargo de la contrainteligencia y el antiterrorismo dentro del país; y el Cuartel General de Comunicaciones del Gobierno (GCHQ), que intercepta comunicaciones y protege las redes. Las tres comparten un presupuesto único y responden a ministros civiles.",
+    "El Reino Unido tiene tres agencias civiles. El Servicio Secreto de Inteligencia (MI6) espía en el exterior y el Servicio de Seguridad (MI5) se ocupa de la contrainteligencia y el antiterrorismo dentro del país. El Cuartel General de Comunicaciones del Gobierno (GCHQ) intercepta comunicaciones y protege las redes. Las tres comparten un presupuesto único y responden a ministros civiles.",
     "Blaise Metreweli dirige el MI6 desde el 1 de octubre de 2025 y es la primera mujer en el cargo. Ken McCallum encabeza el MI5 desde 2020 y Anne Keast-Butler el GCHQ desde 2023. Los tres describen una amenaza simultánea de Rusia, Irán y China.",
     "El país es el socio más cercano de EE.UU. en la alianza Cinco Ojos, que nació con el acuerdo de interceptación UKUSA de 1946. Canadá, Australia y Nueva Zelanda forman parte de la misma red.",
     "Los controles son mayores que hace treinta años, pero los escándalos siguen. En 2025 y 2026 se supo que el MI5 dio información falsa a tres tribunales y que el gobierno ocultó con una orden judicial secreta la filtración de datos de miles de afganos."

@@ -3,7 +3,7 @@
   id: "kr",
   updated: "2026-11-15",
   summary: [
-    "El Servicio Nacional de Inteligencia (NIS) es el principal servicio de Corea del Sur. Heredero de la temida Agencia Central de Inteligencia de Corea (KCIA) de la dictadura, se ocupa sobre todo de Corea del Norte. Desde junio de 2025 lo dirige Lee Jong-seok, ex ministro de Unificación, al que la oposición acusa de ser blando con Pyongyang.",
+    "El Servicio Nacional de Inteligencia (NIS) es el principal servicio de Corea del Sur. Heredero de la Agencia Central de Inteligencia de Corea (KCIA) de la dictadura, se ocupa sobre todo de Corea del Norte. Desde junio de 2025 lo dirige Lee Jong-seok, ex ministro de Unificación, al que la oposición acusa de ser blando con Pyongyang.",
     "La historia del servicio está marcada por el uso político: según el propio director, la mitad de sus 16 ex jefes fue a prisión por escuchas ilegales, manipulación de la opinión en internet o el plan de ley marcial. En 2012 agentes del NIS publicaron comentarios en internet a favor de la candidata oficialista, y su jefe fue condenado.",
     "La ley marcial de diciembre de 2024 provocó la mayor reforma en décadas. En junio de 2026 un tribunal condenó en primera instancia al ex presidente Yoon Suk Yeol a 30 años y al jefe de la contrainteligencia militar a 15 por enviar drones sobre Pyongyang para justificar la ley marcial. En agosto de 2026 el gobierno disolvió el Comando de Contrainteligencia de Defensa y repartió sus funciones en tres organismos."
   ],

@@ -58,7 +58,7 @@
     { d: "2020-01", dir: "amplia", area: "Expresión", h: "Ley de rumores", x: "Penas de prisión por difundir noticias consideradas falsas." }
   ],
   events: [
-    { d: "2017-05", lat: 25.2, lon: 51.2, c: "Qatar", t: "ciber", ev: 1, h: "Hackeo de la agencia de noticias catarí", x: "Publican declaraciones falsas del emir en la agencia oficial; EE.UU. atribuyó el hackeo a Emiratos y siguió el bloqueo regional.", u: "https://en.wikipedia.org/wiki/2017%E2%80%932021_Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2017-05", lat: 25.2, lon: 51.2, c: "Qatar", t: "ciber", ev: 1, h: "Hackeo de la agencia de noticias catarí", x: "Publican declaraciones falsas del emir en la agencia oficial; EE.UU. atribuyó el hackeo a Emiratos y siguió el bloqueo regional.", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2025-09-09", lat: 25.25, lon: 51.4, c: "Qatar", t: "encubierta", ev: 1, h: "Ataque israelí en Doha", x: "Israel bombardea una reunión de dirigentes de Hamas en la capital catarí.", u: "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha", st: "Wikipedia (síntesis de fuentes)" }
   ],
   interest: {
@@ -72,11 +72,11 @@
     { era: "Actual", d: "2023–2026", h: "Mediación en Gaza", x: "Negociaciones y ataque israelí en Doha.", now: true }
   ],
   cases: [
-    { ev: 2, ilegal: true, d: "2018–2022", h: "Qatargate", x: "La fiscalía belga acusa a eurodiputados y asistentes de recibir sobornos de Catar y de Marruecos para influir en el Parlamento Europeo. Catar niega haber pagado; el juicio no se hizo.", who: "Fiscalía federal de Bélgica", missing: "Un juicio.", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "2018–2022", h: "Qatargate", x: "La fiscalía belga acusa a eurodiputados y asistentes de recibir sobornos de Catar y de Marruecos para influir en el Parlamento Europeo. Catar niega haber pagado; el juicio no se hizo.", who: "Fiscalía federal de Bélgica", missing: "Un juicio.", u: "https://en.wikipedia.org/wiki/Qatargate", st: "Wikipedia (síntesis de fuentes)" },
     { ev: 2, ilegal: false, d: "2012–2019", h: "El espionaje al fútbol", x: "Una investigación de AP informó en 2022 que Catar contrató a un ex oficial de la CIA para vigilar a funcionarios del fútbol y a críticos del Mundial. El ex oficial niega haber hecho algo ilegal.", who: "Associated Press", missing: "Documentos oficiales o un juicio.", u: "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
-    { k: "falsa", d: "2017-05", ev: 1, w: 3, h: "Las falsas declaraciones del emir", x: "Hackers publicaron en la agencia oficial frases inventadas del emir que sirvieron de pretexto al bloqueo.", why: "Catar y EE.UU. lo atribuyeron a Emiratos, que lo niega.", wx: "Investigación del FBI citada por la prensa.", who: "Gobierno de Catar y funcionarios de EE.UU.", u: "https://en.wikipedia.org/wiki/2017%E2%80%932021_Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "falsa", d: "2017-05", ev: 1, w: 3, h: "Las falsas declaraciones del emir", x: "Hackers publicaron en la agencia oficial frases inventadas del emir que sirvieron de pretexto al bloqueo.", why: "Catar y EE.UU. lo atribuyeron a Emiratos, que lo niega.", wx: "Investigación del FBI citada por la prensa.", who: "Gobierno de Catar y funcionarios de EE.UU.", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" }
   ],
   modus: {
     embajadas: "Diplomáticos y enviados especiales hacen el trabajo de mediación y contacto con grupos armados.",
@@ -90,15 +90,15 @@
     { k: "topo", dir: "entra", ev: 2, d: "2012–2019", n: "Kevin Chalker", h: "El ex oficial de la CIA contratado", x: "Ex oficial de la CIA cuya empresa trabajó para Catar en tareas de inteligencia sobre el fútbol mundial, según AP.", cargo: "Ex oficial de la CIA y empresario", hacia: "Gobierno de Catar", fin: "Niega haber actuado de manera ilegal.", who: "Associated Press", u: "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies", st: "Wikipedia (síntesis de fuentes)" }
   ],
   leaks: [
-    { k: "robo", rol: "blanco", ev: 1, d: "2017-05", h: "La agencia de noticias", x: "Hackers acceden a la agencia oficial y publican declaraciones falsas del emir.", obj: "Justificar el bloqueo contra Catar.", who: "Gobierno de Catar y funcionarios de EE.UU.", u: "https://en.wikipedia.org/wiki/2017%E2%80%932021_Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "robo", rol: "blanco", ev: 1, d: "2017-05", h: "La agencia de noticias", x: "Hackers acceden a la agencia oficial y publican declaraciones falsas del emir.", obj: "Justificar el bloqueo contra Catar.", who: "Gobierno de Catar y funcionarios de EE.UU.", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" }
   ],
   practicas: {
     propios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
-    politicos: { ev: 2, x: "Pagos a eurodiputados, según la fiscalía belga.", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 2, x: "Pagos a eurodiputados, según la fiscalía belga.", u: "https://en.wikipedia.org/wiki/Qatargate", st: "Wikipedia (síntesis de fuentes)" },
     periodistas: { ev: 2, x: "Vigilancia de críticos del Mundial, según AP.", u: "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies", st: "Wikipedia (síntesis de fuentes)" },
     activistas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
-    rivales: { ev: 1, x: "Los vecinos del Golfo son su principal preocupación desde el bloqueo.", u: "https://en.wikipedia.org/wiki/2017%E2%80%932021_Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" },
+    rivales: { ev: 1, x: "Los vecinos del Golfo son su principal preocupación desde el bloqueo.", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -109,10 +109,10 @@
     cultural: { ev: 1, x: "Financia mezquitas, universidades y centros en el exterior.", u: "https://en.wikipedia.org/wiki/Qatar_Foundation", st: "Wikipedia (síntesis de fuentes)" },
     golpes: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     elecciones: { ev: 0, x: "Esta ficha no encontró casos documentados." },
-    partidos: { ev: 2, x: "Apoyó a los Hermanos Musulmanes en Egipto y otros países.", u: "https://en.wikipedia.org/wiki/Qatar%E2%80%93Muslim_Brotherhood_relations", st: "Wikipedia (síntesis de fuentes)" },
+    partidos: { ev: 2, x: "Apoyó a los Hermanos Musulmanes en Egipto y otros países.", u: "https://en.wikipedia.org/wiki/Muslim_Brotherhood", st: "Wikipedia (síntesis de fuentes)" },
     diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
-    religiosos: { ev: 1, x: "Aloja y financia a predicadores islamistas.", u: "https://en.wikipedia.org/wiki/Qatar%E2%80%93Muslim_Brotherhood_relations", st: "Wikipedia (síntesis de fuentes)" },
+    religiosos: { ev: 1, x: "Aloja y financia a predicadores islamistas.", u: "https://en.wikipedia.org/wiki/Muslim_Brotherhood", st: "Wikipedia (síntesis de fuentes)" },
     armas: { ev: 2, x: "Envió armas a rebeldes libios en 2011.", u: "https://en.wikipedia.org/wiki/Qatar%E2%80%93Syria_relations", st: "Wikipedia (síntesis de fuentes)" },
     inteligencia: { ev: 1, x: "Sirve de canal de comunicación de EE.UU. con Hamas y los talibanes.", u: "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha", st: "Wikipedia (síntesis de fuentes)" },
     tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -128,7 +128,7 @@
     cobertura: "Fundaciones y medios cataríes son vistos por sus rivales como instrumentos de influencia."
   },
   fondos: [
-    { k: "cobertura", rol: "autor", ev: 2, d: "2018–2022", h: "Los sobornos de Qatargate", x: "La fiscalía belga encontró más de 1,5 millones de euros en efectivo en casas de los acusados.", monto: "Más de 1,5 millones de euros", obj: "Influir en el Parlamento Europeo.", who: "Fiscalía federal de Bélgica", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "cobertura", rol: "autor", ev: 2, d: "2018–2022", h: "Los sobornos de Qatargate", x: "La fiscalía belga encontró más de 1,5 millones de euros en efectivo en casas de los acusados.", monto: "Más de 1,5 millones de euros", obj: "Influir en el Parlamento Europeo.", who: "Fiscalía federal de Bélgica", u: "https://en.wikipedia.org/wiki/Qatargate", st: "Wikipedia (síntesis de fuentes)" }
   ],
   companies: [
     { n: "Al Jazeera", c: "nacional", rubro: "Medios", rel: "Estatal", x: "Cadena financiada por el Estado, clave en la influencia regional." }
@@ -137,8 +137,8 @@
     { a: "Catar", b: "Arabia Saudita y Emiratos", k: "Con otros Estados", stake: "La influencia regional", state: "Latente", x: "El bloqueo terminó en 2021, pero la rivalidad sigue." }
   ],
   sources: [
-    { t: "Wikipedia: 2017–2021 Qatar diplomatic crisis", u: "https://en.wikipedia.org/wiki/2017%E2%80%932021_Qatar_diplomatic_crisis" },
+    { t: "Wikipedia: 2017–2021 Qatar diplomatic crisis", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis" },
     { t: "Wikipedia: 2025 Israeli strike on Doha", u: "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha" },
-    { t: "Wikipedia: 2022 European Parliament corruption scandal", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal" }
+    { t: "Wikipedia: 2022 European Parliament corruption scandal", u: "https://en.wikipedia.org/wiki/Qatargate" }
   ]
 };

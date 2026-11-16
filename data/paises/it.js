@@ -65,8 +65,8 @@
   events: [
     { d: "1980-08-02", lat: 44.5, lon: 11.34, c: "Italy", t: "contra", ev: 1, h: "Atentado de Bolonia", x: "Una bomba en la estación mata a 85 personas; oficiales del SISMI fueron condenados por desviar la investigación.", u: "https://en.wikipedia.org/wiki/Bologna_massacre", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2003-02-17", lat: 45.48, lon: 9.2, c: "Italy", t: "encubierta", ev: 1, h: "Secuestro de Abu Omar", x: "La CIA secuestra en Milán a un clérigo egipcio con ayuda de oficiales del SISMI, según la fiscalía de Milán.", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "2021-03-30", lat: 41.87, lon: 12.52, c: "Italy", t: "contra", ev: 1, h: "Caso Walter Biot", x: "Detienen a un capitán de fragata cuando entregaba documentos a un agregado militar ruso; dos diplomáticos rusos fueron expulsados.", u: "https://en.wikipedia.org/wiki/Walter_Biot", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "2023-03-22", lat: 45.4, lon: 9.1, c: "Italy", t: "contra", ev: 1, h: "Fuga de Artem Uss", x: "Un empresario ruso detenido a pedido de EE.UU. escapa de su arresto domiciliario cerca de Milán y llega a Rusia.", u: "https://en.wikipedia.org/wiki/Artem_Uss", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2021-03-30", lat: 41.87, lon: 12.52, c: "Italy", t: "contra", ev: 1, h: "Caso Walter Biot", x: "Detienen a un capitán de fragata cuando entregaba documentos a un agregado militar ruso; dos diplomáticos rusos fueron expulsados.", u: "https://en.wikipedia.org/wiki/Italy%E2%80%93Russia_relations", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2023-03-22", lat: 45.4, lon: 9.1, c: "Italy", t: "contra", ev: 1, h: "Fuga de Artem Uss", x: "Un empresario ruso detenido a pedido de EE.UU. escapa de su arresto domiciliario cerca de Milán y llega a Rusia.", u: "https://en.wikipedia.org/wiki/Italy%E2%80%93Russia_relations", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2025-01-08", lat: 35.7, lon: 51.4, c: "Iran", t: "humana", ev: 1, h: "Liberación de Cecilia Sala", x: "El director de la AISE vuela a Teherán para traer a la periodista detenida; Italia liberó días después a un iraní pedido por EE.UU.", u: "https://gabrielecarrer.substack.com/p/il-dopo-belloni-rizzi-al-dis-e-cuzzocrea", st: "Gabriele Carrer" },
     { d: "2025-01-31", lat: 41.9, lon: 12.48, c: "Italy", t: "ciber", ev: 1, h: "Escándalo Paragon", x: "WhatsApp avisa a periodistas y activistas italianos que fueron blanco de Graphite; el comité parlamentario confirmó su uso por las agencias contra activistas.", u: "https://en.ilsole24ore.com/art/what-is-the-paragon-case-and-what-is-happening-AHhJrvBB", st: "Il Sole 24 Ore" }
   ],
@@ -88,7 +88,7 @@
     { ev: 1, ilegal: true, d: "2003", h: "Abu Omar", x: "La justicia italiana condenó en ausencia a 23 estadounidenses por el secuestro. Los oficiales italianos del SISMI acusados quedaron sin condena porque el gobierno impuso el secreto de Estado.", who: "Justicia de Italia", missing: "", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
-    { k: "falla", d: "2023-03", ev: 1, w: 3, h: "La fuga de Artem Uss", x: "Un ruso acusado en EE.UU. de contrabando de tecnología militar escapó con ayuda externa.", why: "No está en duda; el gobierno abrió una investigación disciplinaria a jueces.", wx: "Hechos públicos y condenas a quienes lo ayudaron.", who: "Gobierno de Italia", u: "https://en.wikipedia.org/wiki/Artem_Uss", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "falla", d: "2023-03", ev: 1, w: 3, h: "La fuga de Artem Uss", x: "Un ruso acusado en EE.UU. de contrabando de tecnología militar escapó con ayuda externa.", why: "No está en duda; el gobierno abrió una investigación disciplinaria a jueces.", wx: "Hechos públicos y condenas a quienes lo ayudaron.", who: "Gobierno de Italia", u: "https://en.wikipedia.org/wiki/Italy%E2%80%93Russia_relations", st: "Wikipedia (síntesis de fuentes)" },
     { k: "falsa", d: "1969–1980", ev: 2, w: 3, h: "La estrategia de la tensión", x: "Atentados de la extrema derecha se atribuyeron al comienzo a la izquierda, con desvíos de oficiales de inteligencia.", why: "Los desvíos están probados en varias causas; el grado de dirección de los servicios sigue en debate.", wx: "Sentencias y comisiones parlamentarias.", who: "Justicia y comisiones parlamentarias", u: "https://en.wikipedia.org/wiki/Strategy_of_tension", st: "Wikipedia (síntesis de fuentes)" }
   ],
   modus: {
@@ -100,7 +100,7 @@
     enlaces: "Alianza con la CIA y los servicios de la OTAN; cooperación con Libia y Túnez en migración."
   },
   insiders: [
-    { k: "topo", dir: "sale", ev: 1, d: "2019–2021", n: "Walter Biot", h: "El capitán que vendía documentos", x: "Entregó documentos clasificados de la OTAN a un agregado militar ruso por unos 5.000 euros.", cargo: "Capitán de fragata en el Estado Mayor de Defensa", hacia: "Inteligencia militar rusa", fin: "Condenado en 2023 por un tribunal militar y uno civil.", who: "Justicia de Italia", u: "https://en.wikipedia.org/wiki/Walter_Biot", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "sale", ev: 1, d: "2019–2021", n: "Walter Biot", h: "El capitán que vendía documentos", x: "Entregó documentos clasificados de la OTAN a un agregado militar ruso por unos 5.000 euros.", cargo: "Capitán de fragata en el Estado Mayor de Defensa", hacia: "Inteligencia militar rusa", fin: "Condenado en 2023 por un tribunal militar y uno civil.", who: "Justicia de Italia", u: "https://en.wikipedia.org/wiki/Italy%E2%80%93Russia_relations", st: "Wikipedia (síntesis de fuentes)" },
     { k: "topo", dir: "sale", ev: 1, d: "1976–1981", n: "Oficiales de la logia P2", h: "Los jefes de los servicios en una logia", x: "Los directores del SISMI y del SISDE integraban la logia P2 de Licio Gelli, que buscaba influir en la política.", cargo: "Directores de los servicios", hacia: "Logia P2", fin: "La logia fue disuelta por ley en 1982.", who: "Comisión parlamentaria sobre la P2", u: "https://en.wikipedia.org/wiki/Propaganda_Due", st: "Wikipedia (síntesis de fuentes)" }
   ],
   leaks: [
@@ -129,9 +129,9 @@
     empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     religiosos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     armas: { ev: 1, x: "Gladio tenía depósitos secretos de armas en todo el país.", u: "https://en.wikipedia.org/wiki/Operation_Gladio", st: "Wikipedia (síntesis de fuentes)" },
-    inteligencia: { ev: 1, x: "Comparte información con Libia sobre migración; la cooperación con la guardia costera libia es pública.", u: "https://en.wikipedia.org/wiki/Libya%E2%80%93Italy_relations", st: "Wikipedia (síntesis de fuentes)" },
+    inteligencia: { ev: 1, x: "Comparte información con Libia sobre migración; la cooperación con la guardia costera libia es pública.", u: "https://en.wikipedia.org/wiki/Italy%E2%80%93Libya_relations", st: "Wikipedia (síntesis de fuentes)" },
     tecnologia: { ev: 0, x: "Esta ficha no encontró transferencias documentadas." },
-    entrenamiento: { ev: 1, x: "Italia entrena y equipa a la guardia costera libia.", u: "https://en.wikipedia.org/wiki/Libya%E2%80%93Italy_relations", st: "Wikipedia (síntesis de fuentes)" }
+    entrenamiento: { ev: 1, x: "Italia entrena y equipa a la guardia costera libia.", u: "https://en.wikipedia.org/wiki/Italy%E2%80%93Libya_relations", st: "Wikipedia (síntesis de fuentes)" }
   },
   dinero: {
     presupuesto: "El presupuesto de los servicios se fija en un fondo reservado de la Presidencia del Consejo. Esta ficha no encontró la cifra de 2026 verificada.",

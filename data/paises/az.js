@@ -5,7 +5,7 @@
   summary: [
     "Azerbaiyán tiene dos servicios creados en 2015 al dividir el antiguo Ministerio de Seguridad Nacional: el Servicio de Seguridad del Estado (DTX), interno, y el Servicio de Inteligencia Exterior (XKX). Ambos responden al presidente Ilham Aliyev, en el poder desde 2003. Su principal tarea es proteger al gobierno y vigilar a la oposición, la prensa independiente y la diáspora.",
     "Amnistía Internacional confirmó en 2021 que el teléfono de la periodista de investigación Khadija Ismayilova fue infectado con Pegasus. Desde 2023 el gobierno encarceló a decenas de periodistas, entre ellos el equipo del medio Abzas Media. En 2017 el periodista Afgán Mukhtarli fue secuestrado en Georgia y llevado a Bakú.",
-    "En septiembre de 2023 Azerbaiyán recuperó todo Nagorno Karabaj en una ofensiva relámpago. Desde 2024 su relación con Rusia se deterioró: un avión de la aerolínea nacional fue derribado en diciembre de 2024 por la defensa aérea rusa, según Bakú, y en 2025 el DTX detuvo a empleados de la agencia rusa Sputnik acusados de trabajar para el FSB."
+    "En septiembre de 2023 Azerbaiyán recuperó todo Nagorno Karabaj en una ofensiva relámpago. Desde 2024 su relación con Rusia se deterioró. En diciembre de 2024 la defensa aérea rusa derribó un avión de la aerolínea nacional, según Bakú. En 2025 el DTX detuvo a empleados de la agencia rusa Sputnik acusados de trabajar para el FSB."
   ],
   keyFacts: [
     { l: "Presidente", v: "Ilham Aliyev", n: "desde 2003" },

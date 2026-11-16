@@ -4,7 +4,7 @@
   updated: "2026-11-16",
   summary: [
     "El Servicio Rumano de Información (SRI) es uno de los servicios internos más grandes de Europa en proporción a la población, heredero en parte de la Securitate de Nicolae Ceaușescu. Lo acompañan el Servicio de Información Exterior (SIE) y la Dirección General de Información de la Defensa (DGIA). El Consejo Supremo de Defensa del País (CSAT), presidido por el jefe del Estado, los coordina.",
-    "En diciembre de 2024 la Corte Constitucional anuló la primera vuelta de la elección presidencial después de que el presidente desclasificara informes del SRI y otros servicios sobre una campaña coordinada en TikTok a favor del candidato ultranacionalista Călin Georgescu, con indicios de un actor estatal. La elección se repitió en mayo de 2025 y ganó Nicușor Dan.",
+    "En diciembre de 2024 la Corte Constitucional anuló la primera vuelta de la elección presidencial. Antes, el presidente había desclasificado informes del SRI y otros servicios sobre una campaña coordinada en TikTok a favor del candidato ultranacionalista Călin Georgescu. Los informes señalaban indicios de un actor estatal. La elección se repitió en mayo de 2025 y ganó Nicușor Dan.",
     "El SRI arrastra el escándalo de los \"protocolos\" secretos de cooperación con la fiscalía anticorrupción, declarados inconstitucionales en 2016. En 2018 el Tribunal Europeo de Derechos Humanos condenó a Rumania por haber alojado un centro secreto de detención de la CIA en Bucarest."
   ],
   keyFacts: [
@@ -62,7 +62,7 @@
     { d: "2024-12", dir: "amplia", area: "Expresión", h: "Anulación electoral", x: "La Corte anula la elección por la campaña en redes; críticos cuestionaron la base pública de la decisión." }
   ],
   events: [
-    { d: "2003-09", lat: 44.45, lon: 26.08, c: "Romania", t: "encubierta", ev: 1, h: "Centro secreto de la CIA", x: "La CIA retiene e interroga a sospechosos de Al Qaeda en un edificio de Bucarest, según el Tribunal Europeo.", u: "https://en.wikipedia.org/wiki/Romania_and_the_CIA_black_sites", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2003-09", lat: 44.45, lon: 26.08, c: "Romania", t: "encubierta", ev: 1, h: "Centro secreto de la CIA", x: "La CIA retiene e interroga a sospechosos de Al Qaeda en un edificio de Bucarest, según el Tribunal Europeo.", u: "https://en.wikipedia.org/wiki/Black_site", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2024-11-24", lat: 44.43, lon: 26.1, c: "Romania", t: "ciber", ev: 2, h: "La campaña de TikTok", x: "Un candidato casi desconocido gana la primera vuelta tras una campaña coordinada en TikTok; los servicios hablaron de un actor estatal.", u: "https://en.wikipedia.org/wiki/2024_Romanian_presidential_election", st: "Wikipedia (síntesis de fuentes)" }
   ],
   interest: {
@@ -77,7 +77,7 @@
   ],
   cases: [
     { ev: 2, ilegal: true, d: "2024", h: "La injerencia en la elección de 2024", x: "Informes desclasificados del SRI y otros servicios describieron una red de cuentas de TikTok coordinadas e influencers pagos a favor de Georgescu, con rasgos de una operación estatal. La Corte Constitucional anuló la elección. Rusia negó su participación y Georgescu fue luego acusado penalmente.", who: "Servicios rumanos y Corte Constitucional", missing: "Una atribución pública detallada a un Estado.", u: "https://en.wikipedia.org/wiki/2024_Romanian_presidential_election", st: "Wikipedia (síntesis de fuentes)" },
-    { ev: 1, ilegal: true, d: "2003–2005", h: "El centro de la CIA en Bucarest", x: "El Tribunal Europeo de Derechos Humanos concluyó en 2018 que Rumania permitió a la CIA detener y maltratar en su territorio a Abd al-Rahim al-Nashiri. Rumania lo había negado durante años.", who: "Tribunal Europeo de Derechos Humanos", missing: "", u: "https://en.wikipedia.org/wiki/Romania_and_the_CIA_black_sites", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "2003–2005", h: "El centro de la CIA en Bucarest", x: "El Tribunal Europeo de Derechos Humanos concluyó en 2018 que Rumania permitió a la CIA detener y maltratar en su territorio a Abd al-Rahim al-Nashiri. Rumania lo había negado durante años.", who: "Tribunal Europeo de Derechos Humanos", missing: "", u: "https://en.wikipedia.org/wiki/Black_site", st: "Wikipedia (síntesis de fuentes)" },
     { ev: 1, ilegal: true, d: "2009–2016", h: "Los protocolos con la fiscalía", x: "El SRI firmó acuerdos secretos con fiscales para colaborar en investigaciones penales. La Corte Constitucional los declaró inconstitucionales y varios condenados pidieron revisar sus causas.", who: "Corte Constitucional de Rumania", missing: "", u: "https://en.wikipedia.org/wiki/Romanian_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
@@ -95,7 +95,7 @@
     { k: "desertor", dir: "sale", ev: 1, d: "1978", n: "Ion Mihai Pacepa", h: "El general de la Securitate que desertó", x: "Jefe adjunto de la inteligencia exterior que pidió asilo en EE.UU. y reveló las operaciones de Ceaușescu.", cargo: "Jefe adjunto de la inteligencia exterior", hacia: "CIA", fin: "Vivió en EE.UU. hasta su muerte en 2021.", who: "Gobierno de EE.UU. e historiadores", u: "https://en.wikipedia.org/wiki/Ion_Mihai_Pacepa", st: "Wikipedia (síntesis de fuentes)" }
   ],
   leaks: [
-    { k: "ocultamiento", rol: "autor", ev: 1, d: "2003–2018", h: "El centro de la CIA", x: "Rumania negó durante años haber alojado un centro de detención secreto.", obj: "Proteger la relación con EE.UU.", aquien: "El Parlamento y la sociedad", como: "Investigaciones del Consejo de Europa, prensa y fallo del Tribunal Europeo.", who: "Tribunal Europeo de Derechos Humanos", u: "https://en.wikipedia.org/wiki/Romania_and_the_CIA_black_sites", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "ocultamiento", rol: "autor", ev: 1, d: "2003–2018", h: "El centro de la CIA", x: "Rumania negó durante años haber alojado un centro de detención secreto.", obj: "Proteger la relación con EE.UU.", aquien: "El Parlamento y la sociedad", como: "Investigaciones del Consejo de Europa, prensa y fallo del Tribunal Europeo.", who: "Tribunal Europeo de Derechos Humanos", u: "https://en.wikipedia.org/wiki/Black_site", st: "Wikipedia (síntesis de fuentes)" },
     { k: "desinfo", rol: "blanco", ev: 2, d: "2024", h: "Campaña en TikTok", x: "Cuentas coordinadas e influencers pagos promueven a un candidato.", obj: "Alterar el resultado electoral.", who: "Servicios rumanos", u: "https://en.wikipedia.org/wiki/2024_Romanian_presidential_election", st: "Wikipedia (síntesis de fuentes)" }
   ],
   practicas: {
@@ -108,8 +108,8 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 1, x: "La Securitate atentó contra la emisora Radio Free Europe en Múnich en 1981, según investigaciones posteriores.", u: "https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
-    tortura: { ev: 1, x: "La Securitate torturó a presos políticos; Rumania permitió maltratos de la CIA según el Tribunal Europeo.", u: "https://en.wikipedia.org/wiki/Romania_and_the_CIA_black_sites", st: "Wikipedia (síntesis de fuentes)" },
-    secuestro: { ev: 1, x: "Colaboró con los traslados secretos de detenidos de la CIA.", u: "https://en.wikipedia.org/wiki/Romania_and_the_CIA_black_sites", st: "Wikipedia (síntesis de fuentes)" },
+    tortura: { ev: 1, x: "La Securitate torturó a presos políticos; Rumania permitió maltratos de la CIA según el Tribunal Europeo.", u: "https://en.wikipedia.org/wiki/Black_site", st: "Wikipedia (síntesis de fuentes)" },
+    secuestro: { ev: 1, x: "Colaboró con los traslados secretos de detenidos de la CIA.", u: "https://en.wikipedia.org/wiki/Black_site", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     conflictos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     cultural: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -146,6 +146,6 @@
   sources: [
     { t: "Wikipedia: 2024 Romanian presidential election", u: "https://en.wikipedia.org/wiki/2024_Romanian_presidential_election" },
     { t: "Wikipedia: Romanian Intelligence Service", u: "https://en.wikipedia.org/wiki/Romanian_Intelligence_Service" },
-    { t: "Wikipedia: Romania and the CIA black sites", u: "https://en.wikipedia.org/wiki/Romania_and_the_CIA_black_sites" }
+    { t: "Wikipedia: Romania and the CIA black sites", u: "https://en.wikipedia.org/wiki/Black_site" }
   ]
 };

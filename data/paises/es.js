@@ -101,20 +101,20 @@
     enlaces: "Cooperación con la CIA, la DGSE francesa y servicios del Magreb, sobre todo en terrorismo."
   },
   insiders: [
-    { k: "denunciante", dir: "sale", ev: 1, d: "1995", n: "Juan Alberto Perote", h: "El coronel de las escuchas", x: "Sacó documentos del CESID que revelaron escuchas a políticos, empresarios y al rey, y datos sobre los GAL.", cargo: "Jefe de operaciones del CESID", hacia: "El banquero Mario Conde y la prensa", fin: "Condenado por revelación de secretos.", who: "Justicia de España", u: "https://en.wikipedia.org/wiki/Spanish_National_Intelligence_Centre", st: "Wikipedia (síntesis de fuentes)" },
-    { k: "topo", dir: "sale", ev: 1, d: "2004–2007", n: "Roberto Flórez", h: "El agente que vendió secretos a Rusia", x: "Ex agente del CNI que ofreció a la inteligencia rusa información sobre agentes españoles.", cargo: "Agente del CNI", hacia: "Servicio de Inteligencia Exterior ruso (SVR)", fin: "Condenado a 12 años en 2010.", who: "Audiencia Provincial de Madrid", u: "https://en.wikipedia.org/wiki/Spanish_National_Intelligence_Centre", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "denunciante", dir: "sale", ev: 1, d: "1995", n: "Juan Alberto Perote", h: "El coronel de las escuchas", x: "Sacó documentos del CESID que revelaron escuchas a políticos, empresarios y al rey, y datos sobre los GAL.", cargo: "Jefe de operaciones del CESID", hacia: "El banquero Mario Conde y la prensa", fin: "Condenado por revelación de secretos.", who: "Justicia de España", u: "https://en.wikipedia.org/wiki/National_Intelligence_Centre_(Spain)", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "topo", dir: "sale", ev: 1, d: "2004–2007", n: "Roberto Flórez", h: "El agente que vendió secretos a Rusia", x: "Ex agente del CNI que ofreció a la inteligencia rusa información sobre agentes españoles.", cargo: "Agente del CNI", hacia: "Servicio de Inteligencia Exterior ruso (SVR)", fin: "Condenado a 12 años en 2010.", who: "Audiencia Provincial de Madrid", u: "https://en.wikipedia.org/wiki/National_Intelligence_Centre_(Spain)", st: "Wikipedia (síntesis de fuentes)" }
   ],
   leaks: [
-    { k: "filtracion", rol: "autor", ev: 1, d: "1995", h: "Las escuchas del CESID", x: "Documentos sacados por un coronel revelan años de grabaciones ilegales a personalidades.", obj: "Presionar al gobierno, según la justicia.", who: "Justicia de España", u: "https://en.wikipedia.org/wiki/Spanish_National_Intelligence_Centre", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "filtracion", rol: "autor", ev: 1, d: "1995", h: "Las escuchas del CESID", x: "Documentos sacados por un coronel revelan años de grabaciones ilegales a personalidades.", obj: "Presionar al gobierno, según la justicia.", who: "Justicia de España", u: "https://en.wikipedia.org/wiki/National_Intelligence_Centre_(Spain)", st: "Wikipedia (síntesis de fuentes)" },
     { k: "ocultamiento", rol: "autor", ev: 1, d: "2022–2026", h: "Los secretos del Catalangate", x: "El gobierno solo desclasificó parte de los documentos y limitó lo que la directora podía declarar ante los jueces.", obj: "Proteger fuentes y métodos, según el gobierno.", aquien: "Los jueces de Barcelona y las víctimas", como: "Pedidos judiciales y desclasificaciones parciales.", who: "elDiario.es", u: "https://www.eldiario.es/catalunya/gobierno-limita-investigaciones-espionaje-cni-independentistas-vetar-datos-clave_1_13380210.html", st: "elDiario.es" }
   ],
   practicas: {
-    propios: { ev: 1, x: "En la década de 1990 el CESID grabó conversaciones de ministros y del propio rey.", u: "https://en.wikipedia.org/wiki/Spanish_National_Intelligence_Centre", st: "Wikipedia (síntesis de fuentes)" },
+    propios: { ev: 1, x: "En la década de 1990 el CESID grabó conversaciones de ministros y del propio rey.", u: "https://en.wikipedia.org/wiki/National_Intelligence_Centre_(Spain)", st: "Wikipedia (síntesis de fuentes)" },
     politicos: { ev: 1, x: "El CNI reconoció haber espiado con Pegasus a dirigentes independentistas, con autorización del Supremo.", u: "https://en.ara.cat/politics/the-cni-admits-that-it-spied-carles-riera-and-david-fernandez-with-pegasus_1_5797167.html", st: "Ara" },
     periodistas: { ev: 2, x: "Citizen Lab detectó infecciones de periodistas del entorno independentista; el CNI no las reconoció.", u: "https://www.eldebate.com/espana/20251218/directora-cni-desmiente-investigara-abogado-junqueras_366902.html", st: "El Debate" },
     activistas: { ev: 1, x: "Los ex presidentes de la Asamblea Nacional Catalana fueron espiados con autorización judicial, según la directora del CNI.", u: "https://en.ara.cat/politics/the-director-of-the-cni-confirms-that-the-supreme-court-authorized-spying-former-anc-presidents-jordi-sanchez-and-elisenda-paluzie_1_5579583.html", st: "Ara" },
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
-    rivales: { ev: 1, x: "Rusia y el yihadismo son blancos centrales de la contrainteligencia; un ex agente vendió secretos a Rusia.", u: "https://en.wikipedia.org/wiki/Spanish_National_Intelligence_Centre", st: "Wikipedia (síntesis de fuentes)" },
+    rivales: { ev: 1, x: "Rusia y el yihadismo son blancos centrales de la contrainteligencia; un ex agente vendió secretos a Rusia.", u: "https://en.wikipedia.org/wiki/National_Intelligence_Centre_(Spain)", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 1, x: "Los GAL mataron a 27 personas en la década de 1980 con fondos del Estado.", u: "https://en.wikipedia.org/wiki/Grupos_Antiterroristas_de_Liberaci%C3%B3n", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
@@ -130,7 +130,7 @@
     empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     religiosos: { ev: 2, x: "El imán de Ripoll había sido informante del CNI antes de los atentados de 2017.", u: "https://en.wikipedia.org/wiki/2017_Barcelona_attacks", st: "Wikipedia (síntesis de fuentes)" },
     armas: { ev: 0, x: "Esta ficha no encontró envíos encubiertos de armas." },
-    inteligencia: { ev: 1, x: "Coopera con Marruecos y Francia contra el terrorismo y con la OTAN.", u: "https://en.wikipedia.org/wiki/Spanish_National_Intelligence_Centre", st: "Wikipedia (síntesis de fuentes)" },
+    inteligencia: { ev: 1, x: "Coopera con Marruecos y Francia contra el terrorismo y con la OTAN.", u: "https://en.wikipedia.org/wiki/National_Intelligence_Centre_(Spain)", st: "Wikipedia (síntesis de fuentes)" },
     tecnologia: { ev: 0, x: "Esta ficha no encontró transferencias documentadas." },
     entrenamiento: { ev: 0, x: "Esta ficha no encontró casos documentados." }
   },
@@ -159,6 +159,6 @@
     { t: "Ara: se archiva la causa por el teléfono de Sánchez (2026)", u: "https://es.ara.cat/politica/justicia-no-investigara-espionaje-pedro-sanchez-pegasus-obstruccion-israel_1_5625719.amp.html" },
     { t: "Moncloa.com: el juicio Kitchen, visto para sentencia", u: "https://www.moncloa.com/2026/08/02/juicio-operacion-kitchen-visto-para-sentencia-3409515/" },
     { t: "elDiario.es: el gobierno limita la investigación del Catalangate", u: "https://www.eldiario.es/catalunya/gobierno-limita-investigaciones-espionaje-cni-independentistas-vetar-datos-clave_1_13380210.html" },
-    { t: "Wikipedia: Spanish National Intelligence Centre", u: "https://en.wikipedia.org/wiki/Spanish_National_Intelligence_Centre" }
+    { t: "Wikipedia: Spanish National Intelligence Centre", u: "https://en.wikipedia.org/wiki/National_Intelligence_Centre_(Spain)" }
   ]
 };

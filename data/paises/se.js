@@ -3,7 +3,7 @@
   id: "se",
   updated: "2026-11-15",
   summary: [
-    "Suecia, miembro de la OTAN desde 2024, tiene tres servicios principales: el Instituto Nacional de Radio de Defensa (FRA), que intercepta señales y es uno de los mejores de Europa; el Servicio Militar de Inteligencia y Seguridad (MUST); y el Servicio de Seguridad (Säpo), dirigido por Charlotte von Essen. Su ubicación sobre el Báltico le da acceso a las comunicaciones rusas.",
+    "Suecia, miembro de la OTAN desde 2024, tiene tres servicios principales. El Instituto Nacional de Radio de Defensa (FRA) intercepta señales con gran capacidad técnica. Los otros dos son el Servicio Militar de Inteligencia y Seguridad (MUST) y el Servicio de Seguridad (Säpo), dirigido por Charlotte von Essen. Su ubicación sobre el Báltico le da acceso a las comunicaciones rusas.",
     "Según la Säpo, Rusia, China e Irán son las principales amenazas. Irán usa a redes criminales suecas, incluidos menores, como intermediarios para atacar blancos israelíes y judíos. En 2023 un ex oficial de la Säpo y del MUST fue condenado a prisión perpetua por espiar para la inteligencia militar rusa durante una década.",
     "La FRA intercepta el tráfico de los cables que cruzan el país desde la ley de 2008, muy discutida en su momento. En 1973 dos periodistas revelaron la existencia de la Oficina de Información (IB), un servicio secreto que fichaba a comunistas, y fueron condenados por espionaje."
   ],

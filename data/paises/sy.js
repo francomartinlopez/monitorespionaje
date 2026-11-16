@@ -3,7 +3,7 @@
   id: "sy",
   updated: "2026-11-16",
   summary: [
-    "Durante el gobierno de la familia Assad (1970-2024), Siria tuvo uno de los aparatos de inteligencia más temidos del mundo: cuatro grandes servicios, la Mujabarat, con centros de detención donde murieron decenas de miles de presos. Las fotos sacadas por el desertor conocido como César documentaron más de 6.000 muertos bajo custodia.",
+    "Durante el gobierno de la familia Assad (1970-2024), Siria tuvo uno de los aparatos de inteligencia más extensos de Medio Oriente: cuatro grandes servicios, la Mujabarat, con centros de detención donde murieron decenas de miles de presos. Las fotos sacadas por el desertor conocido como César documentaron más de 6.000 muertos bajo custodia.",
     "La caída de Bashar al-Assad en diciembre de 2024 disolvió esos servicios. El nuevo gobierno de Ahmed al-Sharaa, ex jefe del grupo Hayat Tahrir al-Sham, creó un Servicio General de Inteligencia (GID) y un nuevo aparato de seguridad del Ministerio del Interior. En marzo de 2025 fuerzas afines al gobierno mataron a cientos de civiles alauitas en la costa, según la ONU y organizaciones sirias.",
     "Siria es hoy una zona de operaciones abierta: Israel bombardea y ocupa zonas del sur, Turquía tiene tropas en el norte, EE.UU. mantiene presencia en el este y Rusia negocia por sus bases. En 2022 un tribunal alemán condenó a perpetua a un ex coronel de la inteligencia de Assad por crímenes de lesa humanidad."
   ],

@@ -4,7 +4,7 @@
   updated: "2026-11-16",
   summary: [
     "La Dirección General de Inteligencia (GID), la Mujabarat jordana, es uno de los servicios más eficaces del mundo árabe y uno de los socios más cercanos de la CIA en Medio Oriente. Depende directamente del rey Abdalá II y tiene un peso enorme en la política interna.",
-    "La GID penetró redes yihadistas durante décadas, pero sufrió un golpe en 2009: un médico jordano que trabajaba como doble agente detonó una bomba en una base de la CIA en Afganistán y mató a siete estadounidenses y a un oficial jordano. Organizaciones de derechos humanos denunciaron torturas en sus centros de detención.",
+    "La GID penetró redes yihadistas durante décadas, pero sufrió un golpe en 2009. Un médico jordano que trabajaba como doble agente detonó una bomba en una base de la CIA en Afganistán y mató a siete estadounidenses y a un oficial jordano. Organizaciones de derechos humanos denunciaron torturas en sus centros de detención.",
     "En 2021 el gobierno acusó al príncipe Hamzah, medio hermano del rey, y al ex jefe de la Corte Real Bassem Awadallah de conspirar contra la estabilidad del reino; Awadallah fue condenado a 15 años. En abril de 2025 la GID desarmó una célula que fabricaba cohetes y drones, y el gobierno prohibió a los Hermanos Musulmanes."
   ],
   keyFacts: [
@@ -61,7 +61,7 @@
   events: [
     { d: "1997-09-25", lat: 31.95, lon: 35.93, c: "Jordan", t: "encubierta", ev: 1, h: "Envenenamiento de Jaled Meshal", x: "Agentes del Mossad envenenan en Amán al dirigente de Hamas; Jordania detiene a dos y obliga a Israel a entregar el antídoto.", u: "https://en.wikipedia.org/wiki/Khaled_Mashal", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2009-12-30", lat: 33.34, lon: 69.95, c: "Afghanistan", t: "contra", ev: 1, h: "Ataque en Khost", x: "Un doble agente presentado por la GID detona una bomba en una base de la CIA y mata a siete estadounidenses y a un oficial jordano.", u: "https://en.wikipedia.org/wiki/Camp_Chapman_attack", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "2021-04-03", lat: 31.97, lon: 35.86, c: "Jordan", t: "contra", ev: 1, h: "Caso de sedición", x: "Detienen a Bassem Awadallah y ponen bajo arresto domiciliario al príncipe Hamzah.", u: "https://en.wikipedia.org/wiki/2021_Jordanian_alleged_coup_attempt", st: "Wikipedia (síntesis de fuentes)" }
+    { d: "2021-04-03", lat: 31.97, lon: 35.86, c: "Jordan", t: "contra", ev: 1, h: "Caso de sedición", x: "Detienen a Bassem Awadallah y ponen bajo arresto domiciliario al príncipe Hamzah.", u: "https://en.wikipedia.org/wiki/Hamzah_bin_Hussein", st: "Wikipedia (síntesis de fuentes)" }
   ],
   interest: {
     "Syria": 3, "Iraq": 2, "Palestine": 3, "Israel": 2, "Iran": 2, "Saudi Arabia": 1, "United States of America": 1
@@ -75,7 +75,7 @@
   ],
   cases: [
     { ev: 1, ilegal: false, d: "2009", h: "El doble agente de Khost", x: "Humam al-Balawi, un médico jordano detenido y reclutado por la GID, fue llevado a una base de la CIA en Afganistán como fuente sobre Al Qaeda. Era leal a los yihadistas y se inmoló, matando a siete agentes de la CIA y al oficial jordano Sharif Ali bin Zeid.", who: "CIA y gobierno de Jordania", missing: "", u: "https://en.wikipedia.org/wiki/Camp_Chapman_attack", st: "Wikipedia (síntesis de fuentes)" },
-    { ev: 1, ilegal: true, d: "2021", h: "La sedición del príncipe Hamzah", x: "El Tribunal de Seguridad del Estado condenó en 2022 a Bassem Awadallah y a un miembro de la familia real a 15 años por incitar contra el rey. El príncipe Hamzah no fue juzgado. Los defensores denunciaron falta de garantías.", who: "Tribunal de Seguridad del Estado de Jordania", missing: "", u: "https://en.wikipedia.org/wiki/2021_Jordanian_alleged_coup_attempt", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 1, ilegal: true, d: "2021", h: "La sedición del príncipe Hamzah", x: "El Tribunal de Seguridad del Estado condenó en 2022 a Bassem Awadallah y a un miembro de la familia real a 15 años por incitar contra el rey. El príncipe Hamzah no fue juzgado. Los defensores denunciaron falta de garantías.", who: "Tribunal de Seguridad del Estado de Jordania", missing: "", u: "https://en.wikipedia.org/wiki/Hamzah_bin_Hussein", st: "Wikipedia (síntesis de fuentes)" },
     { ev: 2, ilegal: true, d: "2019–2023", h: "Pegasus contra activistas", x: "Access Now y Citizen Lab identificaron infecciones de Pegasus en teléfonos de unos 35 periodistas, abogados y activistas jordanos. Atribuyeron la mayoría al gobierno, que lo niega.", who: "Access Now y Citizen Lab", missing: "Reconocimiento oficial.", u: "https://en.wikipedia.org/wiki/Pegasus_(spyware)", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
@@ -93,11 +93,11 @@
     { k: "topo", dir: "entra", ev: 1, d: "2009", n: "Humam al-Balawi", h: "El médico doble agente", x: "Reclutado por la GID para infiltrar a Al Qaeda, trabajaba en realidad para los yihadistas.", cargo: "Médico y fuente de la GID", hacia: "Al Qaeda y talibanes pakistaníes", fin: "Murió en el atentado de Khost.", who: "CIA y gobierno de Jordania", u: "https://en.wikipedia.org/wiki/Camp_Chapman_attack", st: "Wikipedia (síntesis de fuentes)" }
   ],
   leaks: [
-    { k: "filtracion", rol: "blanco", ev: 1, d: "2021-04", h: "Los audios del príncipe Hamzah", x: "El príncipe difundió videos y audios de su arresto domiciliario y de su conversación con el jefe del Ejército.", obj: "Denunciar su arresto.", who: "Prensa internacional", u: "https://en.wikipedia.org/wiki/2021_Jordanian_alleged_coup_attempt", st: "Wikipedia (síntesis de fuentes)" }
+    { k: "filtracion", rol: "blanco", ev: 1, d: "2021-04", h: "Los audios del príncipe Hamzah", x: "El príncipe difundió videos y audios de su arresto domiciliario y de su conversación con el jefe del Ejército.", obj: "Denunciar su arresto.", who: "Prensa internacional", u: "https://en.wikipedia.org/wiki/Hamzah_bin_Hussein", st: "Wikipedia (síntesis de fuentes)" }
   ],
   practicas: {
-    propios: { ev: 1, x: "La GID investigó a miembros de la familia real y ex funcionarios en 2021.", u: "https://en.wikipedia.org/wiki/2021_Jordanian_alleged_coup_attempt", st: "Wikipedia (síntesis de fuentes)" },
-    politicos: { ev: 1, x: "Vigila y detiene a dirigentes de los Hermanos Musulmanes.", u: "https://en.wikipedia.org/wiki/Muslim_Brotherhood_in_Jordan", st: "Wikipedia (síntesis de fuentes)" },
+    propios: { ev: 1, x: "La GID investigó a miembros de la familia real y ex funcionarios en 2021.", u: "https://en.wikipedia.org/wiki/Hamzah_bin_Hussein", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 1, x: "Vigila y detiene a dirigentes de los Hermanos Musulmanes.", u: "https://en.wikipedia.org/wiki/Islamic_Action_Front", st: "Wikipedia (síntesis de fuentes)" },
     periodistas: { ev: 2, x: "Periodistas fueron infectados con Pegasus, según Access Now.", u: "https://en.wikipedia.org/wiki/Pegasus_(spyware)", st: "Wikipedia (síntesis de fuentes)" },
     activistas: { ev: 2, x: "Activistas del sindicato docente y de protestas fueron espiados, según Access Now.", u: "https://en.wikipedia.org/wiki/Pegasus_(spyware)", st: "Wikipedia (síntesis de fuentes)" },
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -115,7 +115,7 @@
     partidos: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     diaspora: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     empresarios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
-    religiosos: { ev: 1, x: "Controla mezquitas y predicadores; prohibió a los Hermanos Musulmanes en 2025.", u: "https://en.wikipedia.org/wiki/Muslim_Brotherhood_in_Jordan", st: "Wikipedia (síntesis de fuentes)" },
+    religiosos: { ev: 1, x: "Controla mezquitas y predicadores; prohibió a los Hermanos Musulmanes en 2025.", u: "https://en.wikipedia.org/wiki/Islamic_Action_Front", st: "Wikipedia (síntesis de fuentes)" },
     armas: { ev: 2, x: "Canalizó armas de la CIA a rebeldes sirios; parte fue robada, según la prensa.", u: "https://en.wikipedia.org/wiki/Timber_Sycamore", st: "Wikipedia (síntesis de fuentes)" },
     inteligencia: { ev: 1, x: "Socio de la CIA en contraterrorismo.", u: "https://en.wikipedia.org/wiki/Camp_Chapman_attack", st: "Wikipedia (síntesis de fuentes)" },
     tecnologia: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -142,6 +142,6 @@
   sources: [
     { t: "Wikipedia: General Intelligence Directorate (Jordan)", u: "https://en.wikipedia.org/wiki/General_Intelligence_Directorate_(Jordan)" },
     { t: "Wikipedia: Camp Chapman attack", u: "https://en.wikipedia.org/wiki/Camp_Chapman_attack" },
-    { t: "Wikipedia: 2021 Jordanian alleged coup attempt", u: "https://en.wikipedia.org/wiki/2021_Jordanian_alleged_coup_attempt" }
+    { t: "Wikipedia: 2021 Jordanian alleged coup attempt", u: "https://en.wikipedia.org/wiki/Hamzah_bin_Hussein" }
   ]
 };

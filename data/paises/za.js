@@ -3,7 +3,7 @@
   id: "za",
   updated: "2026-11-15",
   summary: [
-    "La Agencia de Seguridad del Estado (SSA) concentró desde 2009 la inteligencia civil sudafricana. En marzo de 2025 el presidente Cyril Ramaphosa firmó una ley que la disuelve y la divide en un Servicio de Inteligencia Exterior y una Agencia de Inteligencia Doméstica, como recomendaron un panel presidencial en 2018 y la comisión sobre la captura del Estado. La transición sigue en curso.",
+    "La Agencia de Seguridad del Estado (SSA) concentró desde 2009 la inteligencia civil sudafricana. En marzo de 2025 el presidente Cyril Ramaphosa firmó una ley que la disuelve y la divide en un Servicio de Inteligencia Exterior y una Agencia de Inteligencia Doméstica. Así lo habían recomendado un panel presidencial en 2018 y la comisión sobre la captura del Estado. La transición sigue en curso.",
     "La comisión presidida por el juez Raymond Zondo concluyó que durante el gobierno de Jacob Zuma la SSA se usó para fines políticos y que se perdieron grandes sumas en efectivo sin control. Su ex director Arthur Fraser montó una red paralela de agentes y en 2022 denunció al propio Ramaphosa por el caso del dinero robado en su granja Phala Phala.",
     "En el apartheid, la Oficina de Seguridad del Estado (BOSS) y unidades secretas del Ejército como la Oficina de Cooperación Civil (CCB) asesinaron a opositores dentro y fuera del país, según la Comisión de la Verdad y la Reconciliación. En 2021 la Corte Constitucional declaró ilegal la interceptación masiva que hacía el Estado."
   ],

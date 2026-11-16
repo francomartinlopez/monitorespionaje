@@ -3,7 +3,7 @@
   id: "hu",
   updated: "2026-11-15",
   summary: [
-    "Hungría tiene cinco servicios: la Oficina de Información (IH), de inteligencia exterior; la Oficina de Protección de la Constitución (AH), de contraespionaje; el Servicio Especial de Seguridad Nacional (NBSZ), que hace las escuchas para todos; el Servicio de Seguridad Nacional Militar (KNBSZ); y el centro antiterrorista TIBEK. Durante los 16 años de Viktor Orbán quedaron bajo control directo del gobierno.",
+    "Hungría tiene cinco servicios. La Oficina de Información (IH) hace inteligencia exterior y la Oficina de Protección de la Constitución (AH), contraespionaje. Completan el sistema el Servicio Especial de Seguridad Nacional (NBSZ), que hace las escuchas para todos; el Servicio de Seguridad Nacional Militar (KNBSZ); y el centro antiterrorista TIBEK. Durante los 16 años de Viktor Orbán quedaron bajo control directo del gobierno.",
     "Bajo Orbán los servicios fueron acusados de espiar a periodistas con Pegasus y de intentar reclutar a funcionarios de las instituciones europeas en Bruselas. En 2023 el gobierno creó una Oficina de Protección de la Soberanía que investigaba a medios y ONG con fondos extranjeros. En 2025 Ucrania dijo haber desarmado una red de la inteligencia militar húngara en Transcarpatia.",
     "El 12 de abril de 2026 el partido Tisza de Péter Magyar ganó las elecciones con mayoría de dos tercios. En junio el Parlamento disolvió la Oficina de Protección de la Soberanía, y el nuevo gobierno prometió revisar el uso político de los servicios."
   ],

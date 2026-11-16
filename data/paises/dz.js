@@ -3,7 +3,7 @@
   id: "dz",
   updated: "2026-11-16",
   summary: [
-    "Durante 25 años el Departamento de Inteligencia y Seguridad (DRS) del general Mohamed \"Toufik\" Mediène fue el verdadero centro del poder en Argelia. En 2016 el presidente Abdelaziz Buteflika lo disolvió y repartió sus funciones; hoy los servicios principales son la Dirección General de Seguridad Interior (DGSI), la Dirección General de Documentación y Seguridad Exterior (DGDSE) y la Dirección Central de Seguridad del Ejército (DCSA).",
+    "Durante 25 años el Departamento de Inteligencia y Seguridad (DRS) del general Mohamed \"Toufik\" Mediène fue el verdadero centro del poder en Argelia. En 2016 el presidente Abdelaziz Buteflika lo disolvió y repartió sus funciones. Hoy los servicios principales son la Dirección General de Seguridad Interior (DGSI), la Dirección General de Documentación y Seguridad Exterior (DGDSE) y la Dirección Central de Seguridad del Ejército (DCSA).",
     "En la guerra civil de la década de 1990, desertores y periodistas acusaron al DRS de infiltrar y manipular a grupos islamistas armados, incluso en matanzas atribuidas a ellos. El Ejército y los servicios siguen siendo el pilar del poder bajo el presidente Abdelmadjid Tebboune.",
     "En 2025 la relación con Francia entró en crisis cuando la justicia francesa acusó a un agente consular argelino por el secuestro en 2024 de un opositor en la periferia de París. Ambos países expulsaron diplomáticos. Argelia y Marruecos rompieron relaciones en 2021 y se acusan de espionaje mutuo."
   ],

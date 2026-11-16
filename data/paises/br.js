@@ -4,8 +4,8 @@
   updated: "2026-11-15",
   summary: [
     "La Agencia Brasileña de Inteligencia (ABIN) es el órgano central del sistema de inteligencia de Brasil. Desde 2023 depende de la Casa Civil y no del Gabinete de Seguridad Institucional (GSI), que la controlaba desde su creación. La dirige Luiz Fernando Corrêa, ex jefe de la Policía Federal.",
-    "El caso que marcó a la ABIN es la llamada \"Abin paralela\": durante el gobierno de Jair Bolsonaro, un grupo dentro de la agencia espió sin orden judicial a jueces, legisladores, periodistas y adversarios, y produjo noticias falsas contra el sistema electoral. El ex director Alexandre Ramagem fue condenado en 2025 por la trama golpista y huyó a EE.UU.",
-    "Brasil también fue protagonista en el exterior. En 2025 se supo que la ABIN hackeó a autoridades de Paraguay para conocer su posición en la negociación de Itaipú, y que la Policía Federal desarmó una red de espías rusos que usaban identidades brasileñas para operar en otros países."
+    "El caso que marcó a la ABIN es la llamada \"Abin paralela\". Durante el gobierno de Jair Bolsonaro, un grupo dentro de la agencia espió sin orden judicial a jueces, legisladores, periodistas y adversarios, y produjo noticias falsas contra el sistema electoral. El ex director Alexandre Ramagem fue condenado en 2025 por la trama golpista y huyó a EE.UU.",
+    "Brasil también fue protagonista en el exterior. En 2025 se supo que la ABIN hackeó a autoridades de Paraguay para conocer su posición en la negociación de Itaipú. Ese año, además, la Policía Federal desarmó una red de espías rusos que usaban identidades brasileñas para operar en otros países."
   ],
   keyFacts: [
     { l: "Director de la ABIN", v: "Luiz Fernando Corrêa", n: "desde mayo de 2023" },
@@ -119,7 +119,7 @@
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados en democracia." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
-    tortura: { ev: 1, x: "Durante la dictadura, el SNI y los centros de inteligencia militares participaron en torturas, según la Comisión Nacional de la Verdad.", u: "https://en.wikipedia.org/wiki/National_Truth_Commission_(Brazil)", st: "Wikipedia (síntesis de fuentes)" },
+    tortura: { ev: 1, x: "Durante la dictadura, el SNI y los centros de inteligencia militares participaron en torturas, según la Comisión Nacional de la Verdad.", u: "https://en.wikipedia.org/wiki/National_Truth_Commission", st: "Wikipedia (síntesis de fuentes)" },
     secuestro: { ev: 1, x: "En el Plan Cóndor, agentes brasileños y uruguayos secuestraron en Porto Alegre a los uruguayos Lilián Celiberti y Universindo Rodríguez en 1978.", u: "https://en.wikipedia.org/wiki/Operation_Condor", st: "Wikipedia (síntesis de fuentes)" },
     propaganda: { ev: 0, x: "Esta ficha no encontró campañas en otros países; la desinformación de la Abin paralela apuntó al público brasileño." },
     conflictos: { ev: 0, x: "Esta ficha no encontró casos documentados." },

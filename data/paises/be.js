@@ -63,7 +63,7 @@
   events: [
     { d: "2013-09", lat: 50.85, lon: 4.36, c: "Belgium", t: "ciber", ev: 1, h: "El hackeo a Belgacom", x: "Se revela que la GCHQ británica infectó durante años la red de la operadora estatal belga.", u: "https://en.wikipedia.org/wiki/Operation_Socialist", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2016-03-22", lat: 50.9, lon: 4.48, c: "Belgium", t: "contra", ev: 1, h: "Atentados de Bruselas", x: "Ataques suicidas en el aeropuerto y el metro matan a 32 personas.", u: "https://en.wikipedia.org/wiki/2016_Brussels_bombings", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "2022-12-09", lat: 50.84, lon: 4.38, c: "Belgium", t: "contra", ev: 2, h: "Qatargate", x: "La policía detiene a una vicepresidenta del Parlamento Europeo y encuentra bolsas con dinero, en una causa iniciada con datos de la VSSE.", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" }
+    { d: "2022-12-09", lat: 50.84, lon: 4.38, c: "Belgium", t: "contra", ev: 2, h: "Qatargate", x: "La policía detiene a una vicepresidenta del Parlamento Europeo y encuentra bolsas con dinero, en una causa iniciada con datos de la VSSE.", u: "https://en.wikipedia.org/wiki/Qatargate", st: "Wikipedia (síntesis de fuentes)" }
   ],
   interest: {
     "Russia": 3, "China": 3, "Qatar": 2, "Morocco": 2, "Iran": 1, "Syria": 1, "Dem. Rep. Congo": 1, "Netherlands": 1
@@ -77,7 +77,7 @@
   ],
   cases: [
     { ev: 1, ilegal: true, d: "2010–2013", h: "La operación Socialist", x: "Documentos de Snowden mostraron que la GCHQ infectó computadoras de empleados de Belgacom para acceder a su red. La fiscalía belga concluyó en 2018 que fue obra del Reino Unido, que nunca lo confirmó.", who: "Fiscalía federal de Bélgica", missing: "", u: "https://en.wikipedia.org/wiki/Operation_Socialist", st: "Wikipedia (síntesis de fuentes)" },
-    { ev: 2, ilegal: true, d: "2018–2022", h: "Qatargate", x: "La fiscalía belga acusa a eurodiputados y asistentes de recibir sobornos de Catar y Marruecos para influir en el Parlamento Europeo. Los acusados lo niegan y el juicio aún no se hizo.", who: "Fiscalía federal de Bélgica", missing: "Un juicio.", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    { ev: 2, ilegal: true, d: "2018–2022", h: "Qatargate", x: "La fiscalía belga acusa a eurodiputados y asistentes de recibir sobornos de Catar y Marruecos para influir en el Parlamento Europeo. Los acusados lo niegan y el juicio aún no se hizo.", who: "Fiscalía federal de Bélgica", missing: "Un juicio.", u: "https://en.wikipedia.org/wiki/Qatargate", st: "Wikipedia (síntesis de fuentes)" },
     { ev: 2, ilegal: true, d: "2019–2023", h: "Frank Creyelman", x: "Una investigación periodística mostró que el ex senador de Vlaams Belang recibía instrucciones de un agente del Ministerio de Seguridad del Estado chino para influir en la política europea. Fue expulsado de su partido.", who: "Financial Times, Der Spiegel y Le Monde", missing: "Una condena judicial.", u: "https://en.wikipedia.org/wiki/Vlaams_Belang", st: "Wikipedia (síntesis de fuentes)" }
   ],
   failures: [
@@ -100,7 +100,7 @@
   ],
   practicas: {
     propios: { ev: 0, x: "Esta ficha no encontró casos documentados." },
-    politicos: { ev: 1, x: "La VSSE vigila a políticos por posibles vínculos con potencias extranjeras, como en Qatargate.", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    politicos: { ev: 1, x: "La VSSE vigila a políticos por posibles vínculos con potencias extranjeras, como en Qatargate.", u: "https://en.wikipedia.org/wiki/Qatargate", st: "Wikipedia (síntesis de fuentes)" },
     periodistas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     activistas: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
@@ -134,7 +134,7 @@
     cobertura: "Esta ficha no encontró organizaciones de cobertura documentadas."
   },
   fondos: [
-    { k: "cobertura", rol: "blanco", ev: 2, d: "2018–2022", h: "El dinero de Qatargate", x: "La policía encontró más de 1,5 millones de euros en efectivo en casas de los acusados, según la fiscalía.", monto: "Más de 1,5 millones de euros", obj: "Comprar influencia en el Parlamento Europeo.", who: "Fiscalía federal de Bélgica", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal", st: "Wikipedia (síntesis de fuentes)" },
+    { k: "cobertura", rol: "blanco", ev: 2, d: "2018–2022", h: "El dinero de Qatargate", x: "La policía encontró más de 1,5 millones de euros en efectivo en casas de los acusados, según la fiscalía.", monto: "Más de 1,5 millones de euros", obj: "Comprar influencia en el Parlamento Europeo.", who: "Fiscalía federal de Bélgica", u: "https://en.wikipedia.org/wiki/Qatargate", st: "Wikipedia (síntesis de fuentes)" },
     { k: "fachada", rol: "blanco", ev: 2, d: "2023–2024", h: "Voice of Europe", x: "Un sitio con sede en Praga, financiado por Rusia, pagaba a políticos europeos.", obj: "Difundir propaganda prorrusa.", who: "Servicio de seguridad checo", u: "https://en.wikipedia.org/wiki/Voice_of_Europe", st: "Wikipedia (síntesis de fuentes)" }
   ],
   companies: [
@@ -146,7 +146,7 @@
   sources: [
     { t: "Wikipedia: State Security Service (Belgium)", u: "https://en.wikipedia.org/wiki/State_Security_Service_(Belgium)" },
     { t: "Wikipedia: Operation Socialist", u: "https://en.wikipedia.org/wiki/Operation_Socialist" },
-    { t: "Wikipedia: 2022 European Parliament corruption scandal", u: "https://en.wikipedia.org/wiki/2022_European_Parliament_corruption_scandal" },
+    { t: "Wikipedia: 2022 European Parliament corruption scandal", u: "https://en.wikipedia.org/wiki/Qatargate" },
     { t: "Wikipedia: Voice of Europe", u: "https://en.wikipedia.org/wiki/Voice_of_Europe" }
   ]
 };
