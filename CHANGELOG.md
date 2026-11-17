@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-17 · Alerta nueva: Nvidia investiga si Jensen Huang fue blanco de una operación del MSS (reemplaza a la expulsión de rusos en Austria, la alerta más vieja). Ficha de China: hecho, caso (evidencia 2) y práctica "Vínculo falso" actualizada.
+
 - 2026-11-17 · Explorar suma cinco secciones: Asesinatos y secuestros (66 operaciones con autor atribuido y evidencia), Filtraciones y secretos, Poder y control, Mitos y denuncias sin pruebas, y Espías que llegaron al poder (28 casos). Nueva práctica "Vínculo falso" en las 60 fichas (seducción, amistad, falsos profesionales, infiltración), con casos de Lonetree y Christine Fang. Budánov figura como jefe de la Oficina del Presidente de Ucrania desde enero de 2026.
 
 - 2026-11-16 · Explorar: la red de personas pasa de 11 a 28 (espías atómicos, Penkovski, Walker, Guillaume, Farewell, Eli Cohen, Marwan, Vanunu, Skripal y otros); infraestructura de 13 a 22 instalaciones; glosario de 15 a 30 términos, con el oficio del reclutamiento.
