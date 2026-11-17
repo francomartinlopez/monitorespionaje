@@ -76,4 +76,5 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 - Cifras (presupuesto, personal) siempre con fuente y fecha; si son estimaciones, decirlo.
 
 ## Actualización semanal
+La lista de causas en curso está en SEGUIMIENTO.md: la tarea semanal busca novedades de cada una, la mantiene al día y carga cada hecho en las fichas de todos los países involucrados.
 Tarea programada desde el 2026-11-16: los lunes a las 05:46 (hora de Argentina) una sesión nueva busca los hechos de la semana, renueva las alertas (4, 8 o 12), suma eventos a las fichas, valida, sube la versión de caché, anota en CHANGELOG.md y publica en main.
