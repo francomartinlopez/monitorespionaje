@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-17 · Nord Stream en las fichas de Alemania (juicio en Hamburgo), Polonia (negativa a extraditar y acusaciones de obstrucción, evidencia 3) y EE.UU. (la versión de Seymour Hersh, evidencia 3). Casos importantes que faltaban: Operación Mongoose, ECHELON, la Doble Cruz, Operación Fortitude, Lockerbie, el robo de Equifax y Ghostwriter.
+
 - 2026-11-17 · Refuerzo de las 16 fichas muy relevantes: 88 datos nuevos (hechos, casos, fallas, aciertos y personas) y repaso de hechos 2025–2026 con búsquedas por país. Entre ellos: condena en Londres a Arabia Saudita por Pegasus, redes chinas condenadas en Taiwán, ex agentes italianos detenidos por espiar para Rusia, el CNI admite espionaje a dos ex diputados, el denunciante marroquí de Pegasus, protestas pagadas por Rusia en Polonia y el pasante canadiense detenido en la OTAN.
 
 - 2026-11-17 · Alerta nueva: Nvidia investiga si Jensen Huang fue blanco de una operación del MSS (reemplaza a la expulsión de rusos en Austria, la alerta más vieja). Ficha de China: hecho, caso (evidencia 2) y práctica "Vínculo falso" actualizada.

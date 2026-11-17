@@ -1,7 +1,7 @@
 // Ficha de Bielorrusia · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["by"] = {
   id: "by",
-  updated: "2026-11-15",
+  updated: "2026-11-17",
   summary: [
     "Bielorrusia es el único país europeo cuyo servicio de seguridad conserva el nombre de Comité de Seguridad del Estado (KGB). Lo dirige Iván Tertel, uno de los hombres más cercanos a Alexandr Lukashenko. El KGB, la Dirección contra el Crimen Organizado (GUBOPiK) y el Centro Operativo y Analítico, que controla las comunicaciones, son la base del aparato represivo.",
     "Tras las protestas por el fraude electoral de 2020, los servicios detuvieron a decenas de miles de personas; organizaciones de derechos humanos documentaron torturas. En mayo de 2021 las autoridades obligaron a aterrizar en Minsk un vuelo de Ryanair con una falsa amenaza de bomba para detener al periodista Román Protasévich. Desde 2024 el KGB negocia con EE.UU. la liberación de presos políticos a cambio del alivio de sanciones.",
@@ -76,6 +76,7 @@
     { era: "Actual", d: "2024–2026", h: "Presos como moneda", x: "Liberaciones negociadas con EE.UU. y presión híbrida sobre Lituania.", now: true, ctx: "Guerra en Ucrania y negociación con EE.UU." }
   ],
   cases: [
+    {"ev": 2, "ilegal": false, "d": "2017–", "h": "Ghostwriter", "x": "Una campaña de hackeo y noticias falsas contra Polonia, Lituania y Letonia fue atribuida por la empresa Mandiant y por el gobierno polaco al régimen bielorruso; Alemania la atribuyó a Rusia.", "who": "Mandiant; gobierno de Polonia", "missing": "Bielorrusia no lo reconoce; no hubo juicios.", "u": "https://en.wikipedia.org/wiki/Ghostwriter_(hacker_group)", "st": "Wikipedia: Ghostwriter (hacker group)"},
     { ev: 1, ilegal: true, d: "2021", h: "El desvío del vuelo de Ryanair", x: "La Organización de Aviación Civil Internacional concluyó en 2022 que la amenaza de bomba fue falsa y que la comunicaron deliberadamente funcionarios bielorrusos. El objetivo fue detener al periodista opositor Román Protasévich, que luego apareció en confesiones televisadas.", who: "Organización de Aviación Civil Internacional (OACI)", missing: "", u: "https://en.wikipedia.org/wiki/Ryanair_Flight_4978", st: "Wikipedia (síntesis de fuentes)" },
     { ev: 2, ilegal: true, d: "1999–2000", h: "Los desaparecidos", x: "El ex ministro Yuri Zajarenko, el opositor Víktor Gonchar, el empresario Anatoli Krasovski y el camarógrafo Dmitri Zavadski desaparecieron. En 2019 un ex integrante de una unidad especial del Ministerio del Interior, Yuri Garavski, confesó en Deutsche Welle su participación; en 2023 un tribunal suizo lo absolvió.", who: "Consejo de Europa y testimonio de Yuri Garavski", missing: "Un juicio en Bielorrusia y los restos de las víctimas.", u: "https://en.wikipedia.org/wiki/Viktar_Hanchar", st: "Wikipedia (síntesis de fuentes)" },
     { ev: 1, ilegal: true, d: "2020", h: "Torturas tras la elección", x: "La ONU y organizaciones de derechos humanos documentaron torturas y malos tratos a detenidos tras las protestas de agosto de 2020. Ningún funcionario fue juzgado en el país.", who: "ONU y Viasna", missing: "", u: "https://en.wikipedia.org/wiki/2020%E2%80%932021_Belarusian_protests", st: "Wikipedia (síntesis de fuentes)" }
