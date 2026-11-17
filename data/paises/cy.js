@@ -104,6 +104,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Turquía es el blanco central de la inteligencia chipriota.", u: "https://en.wikipedia.org/wiki/Cyprus_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

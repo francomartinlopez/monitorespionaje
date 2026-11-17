@@ -60,8 +60,8 @@
     { d: "2024-12", dir: "amplia", area: "Privacidad", h: "NoviSpy", x: "Amnistía revela la infección de teléfonos de activistas durante interrogatorios." }
   ],
   events: [
-    {"d": "1999-04-11", "lat": 44.81, "lon": 20.46, "c": "Serbia", "t": "encubierta", "ev": 2, "h": "Asesinato de Slavko Ćuruvija", "x": "Matan a tiros al periodista crítico de Milošević frente a su casa en Belgrado.", "u": "https://en.wikipedia.org/wiki/Slavko_%C4%86uruvija", "st": "Wikipedia: Slavko Ćuruvija"},
-    {"d": "2003-03-12", "lat": 44.81, "lon": 20.47, "c": "Serbia", "t": "encubierta", "ev": 1, "h": "Asesinato de Zoran Đinđić", "x": "Un francotirador mata al primer ministro frente a la sede del gobierno.", "u": "https://en.wikipedia.org/wiki/Assassination_of_Zoran_%C4%90in%C4%91i%C4%87", "st": "Wikipedia: asesinato de Zoran Đinđić"},
+    {"d": "1999-04-11", "lat": 44.81, "lon": 20.46, "c": "Serbia", "t": "encubierta", "ev": 2, "h": "Asesinato de Slavko Ćuruvija", "x": "Matan a tiros al periodista crítico de Milošević frente a su casa en Belgrado.", "u": "https://en.wikipedia.org/wiki/Slavko_%C4%86uruvija", "st": "Wikipedia: Slavko Ćuruvija", "op": "asesinato" },
+    {"d": "2003-03-12", "lat": 44.81, "lon": 20.47, "c": "Serbia", "t": "encubierta", "ev": 1, "h": "Asesinato de Zoran Đinđić", "x": "Un francotirador mata al primer ministro frente a la sede del gobierno.", "u": "https://en.wikipedia.org/wiki/Assassination_of_Zoran_%C4%90in%C4%91i%C4%87", "st": "Wikipedia: asesinato de Zoran Đinđić", "op": "asesinato" },
     {"d": "2023-09-24", "lat": 42.97, "lon": 20.78, "c": "Kosovo", "t": "encubierta", "ev": 2, "h": "Ataque de Banjska", "x": "Un grupo armado serbio mata a un policía kosovar; Kosovo acusa a Belgrado de apoyarlo.", "u": "https://en.wikipedia.org/wiki/Banjska_attack", "st": "Wikipedia: ataque de Banjska"},
     { d: "2024-02", lat: 44.8, lon: 20.46, c: "Serbia", t: "ciber", ev: 2, h: "Infección de teléfonos de periodistas", x: "Policías y agentes de la BIA desbloquean teléfonos con Cellebrite e instalan NoviSpy, según Amnistía.", u: "https://www.amnesty.org/en/latest/news/2024/12/serbia-authorities-using-spyware-and-cellebrite-forensic-extraction-tools-to-hack-journalists-and-activists/", st: "Amnistía Internacional" },
     { d: "2024-11-01", lat: 45.26, lon: 19.83, c: "Serbia", t: "contra", ev: 1, h: "Derrumbe en Novi Sad", x: "El techo de la estación renovada mata a 16 personas y desata protestas masivas.", u: "https://en.wikipedia.org/wiki/Novi_Sad_railway_station_canopy_collapse", st: "Wikipedia (síntesis de fuentes)" }
@@ -108,6 +108,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Kosovo es el blanco central de los servicios.", u: "https://en.wikipedia.org/wiki/Security_Intelligence_Agency", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "La UDBA yugoslava asesinó a emigrados en el exterior.", u: "https://en.wikipedia.org/wiki/UDBA", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

@@ -60,10 +60,10 @@
     { d: "2021-06", dir: "amplia", area: "Expresión", h: "Terrorismo ampliado", x: "Movimientos opositores pueden ser declarados terroristas." }
   ],
   events: [
-    {"d": "1992-06-29", "lat": 36.9, "lon": 7.76, "c": "Algeria", "t": "encubierta", "ev": 3, "h": "Asesinato de Mohamed Boudiaf", "x": "Un miembro de su guardia mata al presidente durante un acto en Annaba.", "u": "https://en.wikipedia.org/wiki/Mohamed_Boudiaf", "st": "Wikipedia: Mohamed Boudiaf"},
-    { d: "1996-03-27", lat: 36.27, lon: 2.75, c: "Algeria", t: "encubierta", ev: 3, h: "Secuestro de los monjes de Tibhirine", x: "Siete monjes franceses son secuestrados y asesinados; el GIA lo reivindicó, pero desertores acusaron al DRS de manipulación.", u: "https://en.wikipedia.org/wiki/Assassination_of_the_monks_of_Tibhirine", st: "Wikipedia (síntesis de fuentes)" },
+    {"d": "1992-06-29", "lat": 36.9, "lon": 7.76, "c": "Algeria", "t": "encubierta", "ev": 3, "h": "Asesinato de Mohamed Boudiaf", "x": "Un miembro de su guardia mata al presidente durante un acto en Annaba.", "u": "https://en.wikipedia.org/wiki/Mohamed_Boudiaf", "st": "Wikipedia: Mohamed Boudiaf", "op": "asesinato" },
+    { d: "1996-03-27", lat: 36.27, lon: 2.75, c: "Algeria", t: "encubierta", ev: 3, h: "Secuestro de los monjes de Tibhirine", x: "Siete monjes franceses son secuestrados y asesinados; el GIA lo reivindicó, pero desertores acusaron al DRS de manipulación.", u: "https://en.wikipedia.org/wiki/Assassination_of_the_monks_of_Tibhirine", st: "Wikipedia (síntesis de fuentes)", op: "secuestro" },
     {"d": "2013-01-16", "lat": 28.05, "lon": 9.56, "c": "Algeria", "t": "contra", "ev": 1, "h": "Toma de In Amenas", "x": "Un comando yihadista toma una planta de gas; el asalto del Ejército deja decenas de rehenes muertos.", "u": "https://en.wikipedia.org/wiki/In_Amenas_hostage_crisis", "st": "Wikipedia: crisis de In Amenas"},
-    { d: "2024-04-29", lat: 48.8, lon: 2.35, c: "France", t: "encubierta", ev: 2, h: "Secuestro de Amir DZ", x: "Un influencer opositor argelino es secuestrado cerca de París; la justicia francesa acusó en 2025 a un agente consular argelino.", u: "https://en.wikipedia.org/wiki/Algeria%E2%80%93France_relations", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2024-04-29", lat: 48.8, lon: 2.35, c: "France", t: "encubierta", ev: 2, h: "Secuestro de Amir DZ", x: "Un influencer opositor argelino es secuestrado cerca de París; la justicia francesa acusó en 2025 a un agente consular argelino.", u: "https://en.wikipedia.org/wiki/Algeria%E2%80%93France_relations", st: "Wikipedia (síntesis de fuentes)", op: "secuestro" },
     {"d": "2025-04-14", "lat": 36.75, "lon": 3.06, "c": "Algeria", "t": "contra", "ev": 1, "h": "Expulsión de funcionarios franceses", "x": "Argelia expulsa a doce funcionarios franceses tras la detención en Francia de un agente consular por el secuestro de un opositor.", "u": "https://en.wikipedia.org/wiki/Algeria%E2%80%93France_relations", "st": "Wikipedia: relaciones Argelia–Francia"}
   ],
   interest: {
@@ -107,6 +107,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Marruecos es el principal rival.", u: "https://en.wikipedia.org/wiki/Algeria%E2%80%93Morocco_relations", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 3, x: "Acusaciones de desertores sobre asesinatos en la guerra civil, sin investigación judicial.", u: "https://en.wikipedia.org/wiki/Armed_Islamic_Group_of_Algeria", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

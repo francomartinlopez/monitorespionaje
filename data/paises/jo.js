@@ -108,6 +108,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Grupos yihadistas y milicias proiraníes son blancos centrales.", u: "https://en.wikipedia.org/wiki/General_Intelligence_Directorate_(Jordan)", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

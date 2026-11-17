@@ -64,7 +64,7 @@
   events: [
     { d: "2003-02-17", lat: 45.48, lon: 9.2, c: "Italy", t: "encubierta", ev: 1, h: "Secuestro de Abu Omar", x: "La CIA secuestra en Milán a un clérigo egipcio y lo lleva a Egipto, donde denunció torturas; Italia condenó a agentes estadounidenses.", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2007-06-27", lat: 51.5, lon: -0.15, c: "United Kingdom", t: "contra", ev: 3, h: "Muerte de Ashraf Marwan", x: "El yerno de Nasser, que había sido fuente del Mossad, cae de un balcón en Londres; la investigación británica no determinó si fue asesinato.", u: "https://en.wikipedia.org/wiki/Ashraf_Marwan", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "2016-01-25", lat: 30.0, lon: 31.2, c: "Egypt", t: "contra", ev: 1, h: "Secuestro de Giulio Regeni", x: "El investigador italiano desaparece en El Cairo; su cuerpo torturado aparece días después. Un tribunal de Roma condenó a tres oficiales egipcios en 2026.", u: "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni", st: "Al Jazeera" },
+    { d: "2016-01-25", lat: 30.0, lon: 31.2, c: "Egypt", t: "contra", ev: 1, h: "Secuestro de Giulio Regeni", x: "El investigador italiano desaparece en El Cairo; su cuerpo torturado aparece días después. Un tribunal de Roma condenó a tres oficiales egipcios en 2026.", u: "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni", st: "Al Jazeera", op: "secuestro" },
     { d: "2023-08", lat: 30.05, lon: 31.25, c: "Egypt", t: "ciber", ev: 2, h: "Predator contra un candidato", x: "Intentan infectar el teléfono del opositor Ahmed Tantawy con un programa espía tras anunciar su candidatura; Citizen Lab lo atribuye al gobierno egipcio.", u: "https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/", st: "Citizen Lab" }
   ],
   interest: {
@@ -113,6 +113,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Vigila a Turquía, Catar y los Hermanos Musulmanes, y negocia con Hamas.", u: "https://en.wikipedia.org/wiki/General_Intelligence_Service_(Egypt)", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 3, x: "Hay sospechas sobre la muerte de Ashraf Marwan en Londres en 2007, sin conclusión oficial.", u: "https://en.wikipedia.org/wiki/Ashraf_Marwan", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

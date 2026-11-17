@@ -118,6 +118,7 @@
     aliados: { ev: 1, x: "Intentó escuchar el teléfono del presidente de Indonesia en 2009, según documentos de Snowden.", u: "https://en.wikipedia.org/wiki/Australian_Signals_Directorate", st: "Wikipedia (síntesis de fuentes)" },
     rivales: { ev: 1, x: "China e Irán son los blancos centrales de la contrainteligencia.", u: "https://thenightly.com.au/politics/asio-identifies-antisemitic-bombings-as-iranian-regime-arson-foreign-coercion-in-annual-threat-assessment-c-22478862", st: "The Nightly" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 1, x: "La ASD admitió operaciones cibernéticas ofensivas contra el Estado Islámico.", u: "https://en.wikipedia.org/wiki/Australian_Signals_Directorate", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

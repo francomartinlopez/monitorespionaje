@@ -61,7 +61,7 @@
     { d: "1988-03-16", lat: 35.18, lon: 45.98, c: "Iraq", t: "encubierta", ev: 1, h: "Halabja", x: "El régimen de Saddam Hussein bombardea con armas químicas a la ciudad kurda y mata a miles de civiles.", u: "https://en.wikipedia.org/wiki/Halabja_massacre", st: "Wikipedia: masacre de Halabja" },
     {"d": "2003-02-05", "lat": 33.32, "lon": 44.42, "c": "Iraq", "t": "humana", "ev": 1, "h": "Curveball", "x": "Colin Powell cita en la ONU a un desertor iraquí cuyos datos sobre laboratorios móviles eran falsos.", "u": "https://en.wikipedia.org/wiki/Curveball_(informant)", "st": "Wikipedia: Curveball"},
     { d: "2014-06-10", lat: 36.34, lon: 43.13, c: "Iraq", t: "contra", ev: 1, h: "Caída de Mosul", x: "El Estado Islámico toma la segunda ciudad del país ante un ejército que se desbanda.", u: "https://en.wikipedia.org/wiki/Fall_of_Mosul", st: "Wikipedia: caída de Mosul" },
-    { d: "2020-01-03", lat: 33.26, lon: 44.23, c: "Iraq", t: "encubierta", ev: 1, h: "Muerte de Soleimani", x: "Un dron de EE.UU. mata al jefe de la Fuerza Quds y a un jefe de las FMP en el aeropuerto de Bagdad.", u: "https://en.wikipedia.org/wiki/Assassination_of_Qasem_Soleimani", st: "Wikipedia: asesinato de Qasem Soleimani" },
+    { d: "2020-01-03", lat: 33.26, lon: 44.23, c: "Iraq", t: "encubierta", ev: 1, h: "Muerte de Soleimani", x: "Un dron de EE.UU. mata al jefe de la Fuerza Quds y a un jefe de las FMP en el aeropuerto de Bagdad.", u: "https://en.wikipedia.org/wiki/Assassination_of_Qasem_Soleimani", st: "Wikipedia: asesinato de Qasem Soleimani", op: "asesinato", por: "us" },
     { d: "2026-10-29", lat: 33.31, lon: 44.37, c: "Iraq", t: "contra", ev: 1, h: "El primer ministro toma el INIS", x: "Ali al-Zaidi destituye al jefe de inteligencia y asume la conducción del servicio.", u: "https://www.thenationalnews.com/news/mena/2026/10/30/iraqi-prime-minister-takes-direct-control-of-intelligence-service/", st: "The National" }
   ],
   interest: {
@@ -106,6 +106,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "El Estado Islámico es el blanco central.", u: "https://en.wikipedia.org/wiki/Iraqi_National_Intelligence_Service", st: "Wikipedia: INIS" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "El régimen de Saddam Hussein asesinó a opositores dentro y fuera del país.", u: "https://en.wikipedia.org/wiki/Iraqi_Intelligence_Service", st: "Wikipedia: Mujabarat iraquí" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

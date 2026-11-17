@@ -108,6 +108,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Rusia, China e Irán son los blancos centrales de la contrainteligencia.", u: "https://nos.nl/l/2611683", st: "NOS" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 2, x: "Participó en la operación Stuxnet contra el programa nuclear iraní, según la prensa.", u: "https://en.wikipedia.org/wiki/Stuxnet", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

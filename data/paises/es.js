@@ -64,11 +64,11 @@
     { d: "2022-05", dir: "recorta", area: "Privacidad", h: "Destitución de la directora del CNI", x: "Tras el Catalangate el gobierno releva a Paz Esteban." }
   ],
   events: [
-    { d: "1983-10", lat: 43.42, lon: -1.3, c: "France", t: "encubierta", ev: 1, h: "Primeros secuestros de los GAL", x: "Grupos parapoliciales financiados con fondos reservados secuestran y matan a presuntos miembros de ETA en Francia.", u: "https://en.wikipedia.org/wiki/Grupos_Antiterroristas_de_Liberaci%C3%B3n", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1983-10", lat: 43.42, lon: -1.3, c: "France", t: "encubierta", ev: 1, h: "Primeros secuestros de los GAL", x: "Grupos parapoliciales financiados con fondos reservados secuestran y matan a presuntos miembros de ETA en Francia.", u: "https://en.wikipedia.org/wiki/Grupos_Antiterroristas_de_Liberaci%C3%B3n", st: "Wikipedia (síntesis de fuentes)", op: "secuestro" },
     { d: "2013-07", lat: 40.42, lon: -3.7, c: "Spain", t: "humana", ev: 1, h: "Operación Kitchen", x: "Policías espían al ex tesorero del PP para quitarle pruebas; la Audiencia Nacional los juzgó en 2026.", u: "https://www.moncloa.com/2026/08/02/juicio-operacion-kitchen-visto-para-sentencia-3409515/", st: "Moncloa.com" },
     { d: "2017-08-17", lat: 41.38, lon: 2.17, c: "Spain", t: "contra", ev: 2, h: "Atentados de Barcelona", x: "Una célula yihadista ataca la Rambla; su líder, el imán de Ripoll, había sido informante del CNI.", u: "https://en.wikipedia.org/wiki/2017_Barcelona_attacks", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2021-05", lat: 40.45, lon: -3.75, c: "Spain", t: "ciber", ev: 1, h: "Pegasus en el teléfono del presidente", x: "Infectan el teléfono de Pedro Sánchez en plena crisis migratoria en Ceuta; la causa se archivó en 2026.", u: "https://es.ara.cat/politica/justicia-no-investigara-espionaje-pedro-sanchez-pegasus-obstruccion-israel_1_5625719.amp.html", st: "Ara" },
-    { d: "2024-02-13", lat: 38.52, lon: -0.3, c: "Spain", t: "encubierta", ev: 3, h: "Asesinato de Maksim Kuzmínov", x: "Matan a tiros en Villajoyosa al piloto ruso que desertó a Ucrania con su helicóptero; la prensa citó fuentes de inteligencia que apuntan a Rusia.", u: "https://en.wikipedia.org/wiki/Maxim_Kuzminov", st: "Wikipedia (síntesis de fuentes)" }
+    { d: "2024-02-13", lat: 38.52, lon: -0.3, c: "Spain", t: "encubierta", ev: 3, h: "Asesinato de Maksim Kuzmínov", x: "Matan a tiros en Villajoyosa al piloto ruso que desertó a Ucrania con su helicóptero; la prensa citó fuentes de inteligencia que apuntan a Rusia.", u: "https://en.wikipedia.org/wiki/Maxim_Kuzminov", st: "Wikipedia (síntesis de fuentes)", op: "asesinato", por: "ru" }
   ],
   interest: {
     "Morocco": 3, "Algeria": 3, "Mali": 2, "Mauritania": 2, "Russia": 2, "W. Sahara": 2, "Venezuela": 1, "Libya": 1, "France": 1, "Niger": 1
@@ -116,6 +116,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Rusia y el yihadismo son blancos centrales de la contrainteligencia; un ex agente vendió secretos a Rusia.", u: "https://en.wikipedia.org/wiki/National_Intelligence_Centre_(Spain)", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "Los GAL mataron a 27 personas en la década de 1980 con fondos del Estado.", u: "https://en.wikipedia.org/wiki/Grupos_Antiterroristas_de_Liberaci%C3%B3n", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

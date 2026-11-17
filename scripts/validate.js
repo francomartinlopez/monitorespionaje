@@ -49,6 +49,8 @@ Object.entries(FICHAS).forEach(([id, f]) => {
     if (!EV_TYPES[e.t]) err(w, `events[${i}] tipo inválido "${e.t}"`);
     if (!e.nomap && !(Math.abs(e.lat) <= 90 && Math.abs(e.lon) <= 180)) err(w, `events[${i}] coordenadas inválidas`);
     if (!f.sample && !isUrl(e.u)) err(w, `events[${i}] sin fuente (u)`);
+    if (e.op && !["asesinato", "intento", "secuestro", "atentado"].includes(e.op)) err(w, `events[${i}] op inválido "${e.op}"`);
+    if (e.por && !ids.has(e.por)) err(w, `events[${i}] por: id desconocido "${e.por}"`);
     if (!f.sample && e.c && byName[e.c] && !e.nomap && !e.disputed && !TINY.has(e.c) && !d3.geoContains(byName[e.c], [e.lon, e.lat])) warn(w, `events[${i}] "${e.h}": las coordenadas no caen en ${e.c}`);
   });
   for (let i = 1; i < (f.events || []).length; i++) if (f.events[i].d < f.events[i - 1].d) warn(w, `events no están en orden de fecha (${f.events[i].d})`);
@@ -140,6 +142,7 @@ noSample("relaciones", ctx.RELACIONES); noSample("software espía", ctx.SPYWARE.
 ctx.INFRA.forEach((x, i) => { if (x.sample) err("infra", `[${i}] marcado como de prueba`); });
 ctx.RELACIONES.forEach((r, i) => { if (!r.x) err("relaciones", `[${i}] sin explicación (x)`); });
 ctx.SPYWARE.flows.forEach((f, i) => { if (!names.has(f.c)) err("software espía", `[${i}] país desconocido "${f.c}"`); if (![1, 2, 3, 4].includes(f.ev)) err("software espía", `[${i}] ev inválido`); });
+(ctx.JEFES || []).forEach((j, i) => { if (!["gobierno", "cargo", "sombra"].includes(j.k)) err("jefes", `[${i}] tipo inválido`); if (!isDate(j.d)) err("jefes", `[${i}] fecha inválida`); if (!j.n || !j.de || !j.a || !j.x) err("jefes", `[${i}] faltan campos`); if (!isUrl(j.u)) err("jefes", `[${i}] sin fuente`); if (j.c && !ids.has(j.c)) err("jefes", `[${i}] id desconocido`); if (!j.c && !j.pais) err("jefes", `[${i}] sin país`); });
 ctx.EXPULSIONES.forEach((e, i) => { if (!["expulsion", "canje"].includes(e.k)) err("expulsiones", `[${i}] tipo inválido`); if (!isDate(e.d)) err("expulsiones", `[${i}] fecha inválida`); });
 if (![4, 8, 12].includes(ctx.ALERTS.length)) err("alertas", `tiene que haber 4, 8 o 12 alertas (hay ${ctx.ALERTS.length})`);
 ctx.ALERTS.forEach((a, i) => { if (!ids.has(a.target)) err("alertas", `[${i}] target desconocido`); if (!isDate(a.date)) err("alertas", `[${i}] fecha inválida`); if (![0, 1, 2, 3, 4, 5].includes(a.level)) err("alertas", `[${i}] nivel inválido`); });

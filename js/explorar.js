@@ -17,6 +17,11 @@
     { id: "expulsiones", k: "Mapa", n: "Expulsiones y canjes", x: "Diplomáticos expulsados y espías canjeados, año por año." },
     { id: "personas", k: "Red", n: "Personas", x: "Topos, desertores, agentes dobles y directores." },
     { id: "practicas", k: "Tabla", n: "Qué hace cada servicio", x: "A quién espían y si hay casos de extorsión, asesinatos, tortura, armas o asistencia." },
+    { id: "asesinatos", k: "Mapa", n: "Asesinatos y secuestros", x: "Operaciones con muertos o capturas atribuidas a cada servicio, con su nivel de evidencia." },
+    { id: "filtraciones", k: "Tabla", n: "Filtraciones y secretos", x: "Filtraciones, denunciantes, robos de información, ocultamientos y desinformación." },
+    { id: "control", k: "Gráfico", n: "Poder y control", x: "La capacidad de cada servicio frente a si sus abusos tuvieron consecuencias." },
+    { id: "mitos", k: "Lista", n: "Mitos y denuncias sin pruebas", x: "Teorías conspirativas, de dónde salieron y qué las desmiente; denuncias que esperan pruebas." },
+    { id: "jefes", k: "Línea de tiempo", n: "Espías que llegaron al poder", x: "Jefes de inteligencia que después gobernaron o mandaron desde las sombras." },
     { id: "comparar", k: "Herramienta", n: "Comparar dos países", x: "Poder, leyes, casos y relación, cara a cara." },
     { id: "cronologia", k: "Línea de tiempo", n: "Cronología global", x: "Un carril por país en la misma línea de tiempo." },
     { id: "archivo", k: "Documentos", n: "Archivo desclasificado", x: "Fondos documentales y documentos de cada caso." }
@@ -271,6 +276,105 @@
         <tr><th></th>${PR.map(m => `<th title="${esc(m.x)}">${esc(m.n)}</th>`).join("")}</tr></thead>
         <tbody>${rows}</tbody></table></div>
       <p class="muted" style="font-size:13px">"Sin casos documentados" significa que la ficha no encontró casos públicos, no que se pueda descartar la práctica.</p>`;
+  } };
+
+  // ================= ASESINATOS Y SECUESTROS =================
+  const OPS = { asesinato: { n: "Asesinato", c: "#ff4d3d" }, intento: { n: "Intento de asesinato", c: "#ff9433" }, secuestro: { n: "Secuestro", c: "#c9a7ff" }, atentado: { n: "Atentado o voladura", c: "#ffd23f" } };
+  ME.OPS = OPS;
+  const allOps = () => { const L = []; Object.entries(FICHAS).forEach(([id, f]) => (f.events || []).forEach(e => { if (e.op && OPS[e.op]) L.push({ ...e, por: e.por || id, ficha: id }); })); return L.sort((a, b) => a.d.localeCompare(b.d)); };
+  R.asesinatos = { title: "Asesinatos y secuestros", render(args, root) { const app = root || ME.app;
+    const L = allOps(), on = new Set(Object.keys(OPS)); let who = byId[args[0]] ? args[0] : null;
+    const authors = [...new Set(L.map(e => e.por))].map(id => ({ id, n: L.filter(e => e.por === id).length })).sort((a, b) => b.n - a.n || byId[a.id].name.localeCompare(byId[b.id].name));
+    app.innerHTML = head("Asesinatos y secuestros", "Operaciones con muertos o personas capturadas que gobiernos, tribunales, investigaciones o la prensa atribuyen a un servicio. Cada punto marca dónde ocurrió; el color, qué tipo de operación fue. La atribución y su nivel de evidencia figuran en cada caso.") + `
+      <div class="chips" id="opChips">${Object.entries(OPS).map(([k, t]) => `<button type="button" class="chip on" data-t="${k}" aria-pressed="true" style="--c:${t.c}"><i></i>${t.n} · ${L.filter(e => e.op === k).length}</button>`).join("")}</div>
+      <div class="mapbox"><div class="map-split"><div id="opMap"></div><aside class="map-side"><h4 id="opCount"></h4><div class="ev-list" id="opList"></div></aside></div>
+      <div class="legend">${Object.values(OPS).map(t => `<span><i class="dot" style="--c:${t.c}"></i>${t.n}</span>`).join("")}<span class="hint">☞ Tocá un punto para ver el caso</span></div></div>
+      <div class="section-title"><h2>Por servicio</h2><span>Operaciones atribuidas a cada país · tocá una barra para filtrar</span></div>
+      <div class="bars-box"><div class="hbars" id="opBars"></div></div>`;
+    const draw = () => {
+      const V = L.filter(e => on.has(e.op) && (!who || e.por === who));
+      document.getElementById("opMap").innerHTML = stage(V.map(e => { const [a, b] = pt([e.lon, e.lat]), c = OPS[e.op].c;
+        return `<g class="opp" data-i="${L.indexOf(e)}" tabindex="0"><circle cx="${a}" cy="${b}" r="9" fill="none" stroke="${c}" stroke-opacity=".45"/><circle cx="${a}" cy="${b}" r="3.6" fill="${c}"/></g>`; }).join(""), "Mapa de asesinatos y secuestros", `<b>${who ? esc(byId[who].name) : "Todos los servicios"}</b>${V.length} operaciones`);
+      document.getElementById("opCount").textContent = `Operaciones · ${V.length}`;
+      document.getElementById("opList").innerHTML = V.slice().reverse().map(e => `<div class="ev-item" id="op-${L.indexOf(e)}" style="--c:${OPS[e.op].c}"><i></i><div><span class="d">${esc(fmt(e.d))} · ${esc(OPS[e.op].n)} · en ${esc(es(e.c) || e.c || "")}</span><b>${esc(e.h)}</b><p>Atribuido a: <a href="#p-${e.por}">${esc(byId[e.por].name)}</a></p><p>${esc(e.x)}</p><p>${e.ev ? evTag(e.ev) : ""} <a href="${esc(e.u)}" target="_blank" rel="noopener">${esc(e.st || "Fuente")} ↗</a></p></div></div>`).join("") || `<p class="muted">Nada con este filtro.</p>`;
+      const mx = Math.max(...authors.map(a => a.n));
+      document.getElementById("opBars").innerHTML = authors.map(a => `<button type="button" class="hbar${who === a.id ? " on" : ""}" data-id="${a.id}"><span class="l">${esc(byId[a.id].name)}</span><span class="t"><i style="width:${(a.n / mx * 100).toFixed(0)}%"></i></span><span class="n">${a.n}</span></button>`).join("");
+      app.querySelectorAll(".hbar").forEach(b => b.addEventListener("click", () => { who = who === b.dataset.id ? null : b.dataset.id; draw(); }));
+      bindTips(app, ".opp", el => { const e = L[el.dataset.i]; return `<b>${esc(e.h)}</b><span class="d">${esc(fmt(e.d))} · ${esc(byId[e.por].name)}</span>`; },
+        el => { const it = document.getElementById("op-" + el.dataset.i); if (!it) return; it.scrollIntoView({ block: "nearest", behavior: "smooth" }); it.classList.add("flash"); setTimeout(() => it.classList.remove("flash"), 1200); });
+    };
+    app.querySelectorAll("#opChips .chip").forEach(b => b.addEventListener("click", () => { const k = b.dataset.t; on.has(k) ? on.delete(k) : on.add(k); b.classList.toggle("on", on.has(k)); b.setAttribute("aria-pressed", String(on.has(k))); draw(); }));
+    draw();
+  } };
+
+  // ================= FILTRACIONES Y DENUNCIANTES =================
+  const LK = { filtracion: "Filtración", denunciante: "Denunciante", robo: "Robo de información", accidental: "Pérdida accidental", ocultamiento: "Ocultamiento", desinfo: "Desinformación" };
+  R.filtraciones = { title: "Filtraciones y secretos", render(args, root) { const app = root || ME.app;
+    const L = [];
+    Object.entries(FICHAS).forEach(([id, f]) => {
+      (f.leaks || []).forEach(l => L.push({ k: l.k, id, rol: l.rol, d: l.d, h: l.h, x: l.x, ev: l.ev, who: l.who, u: l.u, st: l.st }));
+      (f.insiders || []).filter(i => i.k === "denunciante").forEach(i => L.push({ k: "denunciante", id, rol: i.dir === "sale" ? "blanco" : "autor", d: i.d, h: (i.n ? i.n + ": " : "") + i.h, x: i.x + (i.fin ? " " + i.fin : ""), ev: i.ev, who: i.who, u: i.u, st: i.st }));
+    });
+    L.sort((a, b) => String(b.d).localeCompare(String(a.d)));
+    let k = LK[args[0]] ? args[0] : "filtracion", q = "";
+    app.innerHTML = head("Filtraciones y secretos", "Lo que salió a la luz y lo que se quiso tapar: filtraciones, denunciantes, robos de información, pérdidas accidentales, ocultamientos y campañas de desinformación, de todas las fichas. \"Lo hizo\" significa que el servicio de ese país fue el autor; \"lo sufrió\", que fue el blanco.") + `
+      <div class="chips" id="lkChips">${Object.entries(LK).map(([c, n]) => `<button type="button" class="chip" data-k="${c}">${n} · ${L.filter(l => l.k === c).length}</button>`).join("")}<label class="search"><span>Buscar</span><input type="search" id="lkQ" placeholder="Snowden, Stasi, Vault 7…"></label></div>
+      <div class="tbl-wrap"><table class="tbl"><thead><tr><th scope="col">Fecha</th><th scope="col">País</th><th scope="col">Papel</th><th scope="col">Qué pasó</th><th scope="col">Evidencia</th></tr></thead><tbody id="lkBody"></tbody></table></div>`;
+    const norm = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+    const draw = () => {
+      app.querySelectorAll("#lkChips .chip").forEach(b => b.classList.toggle("on", b.dataset.k === k));
+      const V = L.filter(l => (q ? true : l.k === k) && (!q || norm(l.h + " " + l.x + " " + byId[l.id].name).includes(norm(q))));
+      document.getElementById("lkBody").innerHTML = V.map(l => `<tr><td class="mono">${esc(l.d)}</td><td><a href="#p-${l.id}">${esc(byId[l.id].name)}</a></td><td>${q ? esc(LK[l.k]) + " · " : ""}${l.rol === "autor" ? "Lo hizo" : "Lo sufrió"}</td><td><b>${esc(l.h)}</b><br>${esc(l.x)} ${l.u ? `<a href="${esc(l.u)}" target="_blank" rel="noopener">${esc(l.st || "Fuente")} ↗</a>` : ""}</td><td>${l.ev ? evTag(l.ev) : ""}</td></tr>`).join("") || `<tr><td colspan="5" class="muted">Nada con este filtro.</td></tr>`;
+    };
+    app.querySelectorAll("#lkChips .chip").forEach(b => b.addEventListener("click", () => { k = b.dataset.k; q = ""; document.getElementById("lkQ").value = ""; draw(); }));
+    document.getElementById("lkQ").addEventListener("input", e => { q = e.target.value.trim(); draw(); });
+    draw();
+  } };
+
+  // ================= PODER Y CONTROL =================
+  R.control = { title: "Poder y control", render(args, root) { const app = root || ME.app;
+    const B = window.BLOQUES, BD = Object.fromEntries(B.defs.map(d => [d.id, d])), CU = window.CUENTAS;
+    const bloc = id => { const m = B.paises.find(x => x[0] === byId[id].map); return m ? m[1] : "neu"; };
+    const pts = PAISES.filter(p => FICHAS[p.id]?.cuentas && FICHAS[p.id]?.power).map(p => { const f = FICHAS[p.id]; return { id: p.id, n: p.name, cap: Object.values(f.power).reduce((a, b) => a + b, 0), cu: f.cuentas.n, x: f.cuentas.x, b: bloc(p.id) }; }).sort((a, b) => b.cap - a.cap);
+    const COLS = [[6, 11, "Baja"], [12, 17, "Media"], [18, 23, "Alta"], [24, 30, "Muy alta"]];
+    const cell = (n, c) => pts.filter(p => p.cu === n && p.cap >= c[0] && p.cap <= c[1]).map(p => `<a class="ctl-p" href="#p-${p.id}" data-id="${p.id}" style="--c:${BD[p.b].c}"><i></i>${esc(p.n)}<span>${p.cap}</span></a>`).join("");
+    app.innerHTML = head("Poder y control", "Cada país según dos ejes: cuánta capacidad tienen sus servicios (columnas, de menor a mayor) y si sus abusos tuvieron consecuencias (filas). Arriba a la derecha, servicios fuertes con controles; abajo a la derecha, servicios fuertes sin controles. El color es el bloque y el número, la capacidad.") + `
+      <div class="tbl-wrap"><table class="ctl"><thead><tr><th scope="col">Rendición de cuentas ↓ · Capacidad →</th>${COLS.map(c => `<th scope="col">${c[2]}<span>${c[0]} a ${c[1]}</span></th>`).join("")}</tr></thead>
+      <tbody>${[3, 2, 1].map(n => `<tr style="--c:${CU[n].c}"><th scope="row">${esc(CU[n].n)}<span>${pts.filter(p => p.cu === n).length} países</span></th>${COLS.map(c => `<td>${cell(n, c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+      <div class="legend">${B.defs.map(d => `<span><i class="dot" style="--c:${d.c}"></i>${esc(d.n)}</span>`).join("")}</div>
+      <p class="muted" style="font-size:13px">La capacidad es la suma de los seis rubros de cada ficha (de 6 a 30). La rendición de cuentas es una clasificación editorial del monitor, explicada en cada ficha en "Doctrina y poder"; pasá el cursor por un país para leerla.</p>`;
+    bindTips(app, ".ctl-p", el => { const p = pts.find(x => x.id === el.dataset.id); return `<b>${esc(p.n)} · capacidad ${p.cap}</b><span class="d">${esc(CU[p.cu].n)}: ${esc(p.x)}</span>`; });
+  } };
+
+  // ================= MITOS Y DENUNCIAS =================
+  R.mitos = { title: "Mitos y denuncias sin pruebas", render(args, root) { const app = root || ME.app;
+    const L = []; Object.entries(FICHAS).forEach(([id, f]) => (f.cases || []).filter(c => c.ev >= 3).forEach(c => L.push({ ...c, id })));
+    L.sort((a, b) => String(b.d).localeCompare(String(a.d)));
+    let ev = args[0] === "denuncias" ? 3 : 4;
+    app.innerHTML = head("Mitos y denuncias sin pruebas", "Lo que circula sobre los servicios de inteligencia y no está probado. Las teorías conspirativas no resisten el análisis o están contradichas por la evidencia: se explica de dónde salieron y qué las desmiente. Las denuncias sin pruebas firmes tienen lógica o indicios, pero falta lo que diría si son ciertas.") + `
+      <div class="chips" id="miChips"><button type="button" class="chip" data-e="4" style="--c:${EVI[4].c}"><i></i>Teorías conspirativas · ${L.filter(c => c.ev === 4).length}</button><button type="button" class="chip" data-e="3" style="--c:${EVI[3].c}"><i></i>Denuncias sin pruebas firmes · ${L.filter(c => c.ev === 3).length}</button></div>
+      <div class="cards" id="miCards"></div>`;
+    const draw = () => {
+      app.querySelectorAll("#miChips .chip").forEach(b => b.classList.toggle("on", +b.dataset.e === ev));
+      document.getElementById("miCards").innerHTML = L.filter(c => c.ev === ev).map(c => `<div class="card mi-card"><div class="top"><span><a href="#p-${c.id}">${esc(byId[c.id].name)}</a> · ${esc(c.d)}</span>${evTag(c.ev)}</div><h3>${esc(c.h)}</h3>
+        <p>${esc(c.x)}</p>${c.who ? `<p><span class="k">Quién lo afirma</span>${esc(c.who)}</p>` : ""}${c.debunk ? `<p><span class="k">Qué la desmiente</span>${esc(c.debunk)}</p>` : ""}${c.missing && c.ev === 3 ? `<p><span class="k">Qué falta</span>${esc(c.missing)}</p>` : ""}
+        ${c.u ? `<p><a href="${esc(c.u)}" target="_blank" rel="noopener">${esc(c.st || "Fuente")} ↗</a></p>` : ""}</div>`).join("");
+    };
+    app.querySelectorAll("#miChips .chip").forEach(b => b.addEventListener("click", () => { ev = +b.dataset.e; draw(); }));
+    draw();
+  } };
+
+  // ================= JEFES QUE LLEGARON AL PODER =================
+  const JK = { gobierno: { n: "Gobernaron", c: "#7dffb0" }, cargo: { n: "Cargos altos", c: "#4fa3ff" }, sombra: { n: "Poder en las sombras", c: "#c9a7ff" } };
+  R.jefes = { title: "Espías que llegaron al poder", render(args, root) { const app = root || ME.app;
+    const J = window.JEFES, on = new Set(Object.keys(JK));
+    app.innerHTML = head("Espías que llegaron al poder", "Jefes y oficiales de inteligencia que después gobernaron, ocuparon cargos altos o manejaron el poder sin un cargo de gobierno. Ordenados por el año en que llegaron a ese lugar.") + `
+      <div class="chips" id="jfChips">${Object.entries(JK).map(([k, t]) => `<button type="button" class="chip on" data-k="${k}" aria-pressed="true" style="--c:${t.c}"><i></i>${t.n} · ${J.filter(j => j.k === k).length}</button>`).join("")}</div>
+      <div class="jf-list" id="jfList"></div>`;
+    const draw = () => { document.getElementById("jfList").innerHTML = J.filter(j => on.has(j.k)).map(j => `<div class="jf-it" style="--c:${JK[j.k].c}"><span class="jf-y">${esc(j.d)}</span><div><span class="d">${j.c && byId[j.c] ? `<a href="#p-${j.c}">${esc(byId[j.c].name)}</a>` : esc(j.pais)} · ${esc(JK[j.k].n)}</span><b>${esc(j.n)}</b>
+      <p class="jf-path"><span>${esc(j.de)}</span><em>→</em><span>${esc(j.a)}</span></p><p>${esc(j.x)} <a href="${esc(j.u)}" target="_blank" rel="noopener">${esc(j.st)} ↗</a></p></div></div>`).join(""); };
+    app.querySelectorAll("#jfChips .chip").forEach(b => b.addEventListener("click", () => { const k = b.dataset.k; on.has(k) ? on.delete(k) : on.add(k); b.classList.toggle("on", on.has(k)); b.setAttribute("aria-pressed", String(on.has(k))); draw(); }));
+    draw();
   } };
 
   // ================= COMPARAR =================

@@ -60,7 +60,7 @@
     { d: "2023-11", dir: "amplia", area: "Prensa", h: "Detenciones en Abzas Media", x: "Comienza una ola de arrestos de periodistas independientes." }
   ],
   events: [
-    { d: "2017-05-29", lat: 41.6, lon: 45.0, c: "Georgia", t: "encubierta", ev: 2, h: "Secuestro de Mukhtarli", x: "El periodista exiliado es secuestrado en Tiflis y entregado en la frontera; fue condenado a seis años en Bakú.", u: "https://oc-media.org/tag/ssg-files", st: "OC Media" },
+    { d: "2017-05-29", lat: 41.6, lon: 45.0, c: "Georgia", t: "encubierta", ev: 2, h: "Secuestro de Mukhtarli", x: "El periodista exiliado es secuestrado en Tiflis y entregado en la frontera; fue condenado a seis años en Bakú.", u: "https://oc-media.org/tag/ssg-files", st: "OC Media", op: "secuestro" },
     { d: "2019", lat: 40.45, lon: 49.3, c: "Azerbaijan", t: "ciber", ev: 1, h: "Pegasus contra Khadija Ismayilova", x: "El teléfono de la periodista es infectado con Pegasus durante años, según el análisis forense de Amnistía.", u: "https://en.wikipedia.org/wiki/Khadija_Ismayilova", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2024-12-25", lat: 43.9, lon: 52.2, c: "Kazakhstan", t: "contra", ev: 2, h: "Avión de AZAL derribado", x: "Un avión de Azerbaijan Airlines se estrella en Kazajistán; Bakú atribuyó el daño a la defensa aérea rusa y Putin pidió disculpas sin admitir culpa.", u: "https://en.wikipedia.org/wiki/Azerbaijan_Airlines_Flight_8243", st: "Wikipedia (síntesis de fuentes)" }
   ],
@@ -104,6 +104,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Armenia, Irán y, desde 2024, Rusia son blancos de los servicios.", u: "https://en.wikipedia.org/wiki/Azerbaijan%E2%80%93Russia_relations", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 2, x: "Ismayilova fue chantajeada con videos íntimos grabados en secreto en su casa en 2012.", u: "https://en.wikipedia.org/wiki/Khadija_Ismayilova", st: "Wikipedia (síntesis de fuentes)" },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 3, x: "Exiliados azerbaiyanos fueron atacados en Francia; sus allegados acusan a Bakú, que lo niega.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Azerbaijan", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

@@ -63,7 +63,7 @@
   events: [
     { d: "2018-10-08", lat: 10.49, lon: -66.9, c: "Venezuela", t: "contra", ev: 1, h: "Muerte de Fernando Albán", x: "El concejal opositor muere bajo custodia del SEBIN; el gobierno dijo que se suicidó y la ONU pidió una investigación independiente.", u: "https://en.wikipedia.org/wiki/Fernando_Alb%C3%A1n", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2019-06-29", lat: 10.5, lon: -66.82, c: "Venezuela", t: "contra", ev: 1, h: "Muerte del capitán Acosta Arévalo", x: "Un capitán de corbeta detenido por la DGCIM muere con signos de tortura; dos militares fueron condenados por homicidio.", u: "https://en.wikipedia.org/wiki/Rafael_Acosta_Ar%C3%A9valo", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "2024-02-21", lat: -33.45, lon: -70.67, c: "Chile", t: "encubierta", ev: 2, h: "Secuestro de Ronald Ojeda", x: "El teniente desertor es secuestrado y asesinado en Santiago; la fiscalía chilena atribuyó el crimen a una orden del gobierno venezolano.", u: "https://en.wikipedia.org/wiki/Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2024-02-21", lat: -33.45, lon: -70.67, c: "Chile", t: "encubierta", ev: 2, h: "Secuestro de Ronald Ojeda", x: "El teniente desertor es secuestrado y asesinado en Santiago; la fiscalía chilena atribuyó el crimen a una orden del gobierno venezolano.", u: "https://en.wikipedia.org/wiki/Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)", op: "asesinato" },
     { d: "2026-01-03", lat: 10.48, lon: -66.88, c: "Venezuela", t: "contra", ev: 1, h: "Captura de Maduro", x: "Fuerzas de EE.UU. bombardean Caracas y capturan a Nicolás Maduro y a Cilia Flores; la contrainteligencia no lo evitó.", u: "https://www.thestar.com.my/news/world/2026/01/04/maduro-is-out-but-it039s-unclear-who-is-running-venezuela", st: "Reuters, vía The Star" }
   ],
   interest: {
@@ -107,6 +107,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 2, x: "Vigiló a militares exiliados en Chile y Colombia, según las fiscalías de esos países.", u: "https://en.wikipedia.org/wiki/Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 2, x: "Detenidos denunciaron presiones a sus familias para obtener pagos o información.", u: "https://www.euaa.europa.eu/print/pdf/node/32025", st: "Agencia de Asilo de la UE" },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 2, x: "La fiscalía chilena atribuye al gobierno venezolano el asesinato de Ronald Ojeda.", u: "https://en.wikipedia.org/wiki/Ronald_Ojeda", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

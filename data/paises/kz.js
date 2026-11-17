@@ -60,9 +60,9 @@
   ],
   events: [
     {"d": "2011-12-16", "lat": 43.34, "lon": 52.86, "c": "Kazakhstan", "t": "contra", "ev": 1, "h": "Masacre de Zhanaozén", "x": "La policía dispara contra petroleros en huelga; mueren al menos 14 personas.", "u": "https://en.wikipedia.org/wiki/Zhanaozen_massacre", "st": "Wikipedia: masacre de Zhanaozén"},
-    {"d": "2015-02-24", "lat": 48.21, "lon": 16.37, "c": "Austria", "t": "encubierta", "ev": 3, "h": "Muerte de Rakhat Aliyev", "x": "El ex yerno de Nazarbáyev y ex subjefe del KNB aparece ahorcado en una cárcel de Viena antes de su juicio. La justicia austríaca concluyó que fue un suicidio; su familia lo niega.", "u": "https://en.wikipedia.org/wiki/Rakhat_Aliyev", "st": "Wikipedia: Rakhat Aliyev"},
+    {"d": "2015-02-24", "lat": 48.21, "lon": 16.37, "c": "Austria", "t": "encubierta", "ev": 3, "h": "Muerte de Rakhat Aliyev", "x": "El ex yerno de Nazarbáyev y ex subjefe del KNB aparece ahorcado en una cárcel de Viena antes de su juicio. La justicia austríaca concluyó que fue un suicidio; su familia lo niega.", "u": "https://en.wikipedia.org/wiki/Rakhat_Aliyev", "st": "Wikipedia: Rakhat Aliyev", "op": "asesinato" },
     { d: "2022-01-05", lat: 43.25, lon: 76.92, c: "Kazakhstan", t: "contra", ev: 1, h: "Disturbios de Almatý", x: "Las protestas se vuelven violentas; el KNB pierde el control y Tokáyev pide tropas a la alianza liderada por Rusia.", u: "https://en.wikipedia.org/wiki/2022_Kazakh_unrest", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "2024-06-18", lat: 50.45, lon: 30.52, c: "Ukraine", t: "encubierta", ev: 2, h: "Atentado contra Aidos Sadykov", x: "El periodista opositor kazajo es baleado en Kiev y muere días después; Ucrania acusó a dos kazajos.", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov", st: "Wikipedia (síntesis de fuentes)" }
+    { d: "2024-06-18", lat: 50.45, lon: 30.52, c: "Ukraine", t: "encubierta", ev: 2, h: "Atentado contra Aidos Sadykov", x: "El periodista opositor kazajo es baleado en Kiev y muere días después; Ucrania acusó a dos kazajos.", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov", st: "Wikipedia (síntesis de fuentes)", op: "asesinato" }
   ],
   interest: {
     "Russia": 3, "China": 3, "Kyrgyzstan": 2, "Uzbekistan": 2, "Afghanistan": 1, "Ukraine": 1, "Turkey": 1
@@ -106,6 +106,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 3, x: "La familia de Aidos Sadykov culpa al gobierno de su asesinato; no hay pruebas firmes.", u: "https://en.wikipedia.org/wiki/Aidos_Sadykov", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

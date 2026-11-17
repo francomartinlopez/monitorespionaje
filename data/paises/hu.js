@@ -106,6 +106,7 @@
     aliados: { ev: 2, x: "Intentó reclutar a funcionarios de la Comisión Europea, según una investigación periodística.", u: "https://insighthungary.444.hu/2025/10/10/european-commission-launches-investigation-into-hungarian-spy-network", st: "Insight Hungary (444)" },
     rivales: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

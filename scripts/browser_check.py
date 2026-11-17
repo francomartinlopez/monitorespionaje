@@ -3,7 +3,7 @@ Lo llama scripts/validate.js --browser. Uso directo: python3 scripts/browser_che
 import asyncio, sys
 from playwright.async_api import async_playwright
 
-ROUTES = ["inicio", "metodologia", "poder", "bloques", "alianzas", "infraestructura", "software-espia", "expulsiones",
+ROUTES = ["inicio", "metodologia", "poder", "bloques", "alianzas", "infraestructura", "software-espia", "expulsiones", "asesinatos", "filtraciones", "control", "mitos", "jefes",
           "personas", "comparar/us/cn", "cronologia", "archivo", "como-funciona"]
 
 async def main(root, extra):

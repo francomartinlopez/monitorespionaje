@@ -107,6 +107,7 @@
     aliados: { ev: 2, x: "Ayudó a interceptar comunicaciones de países vecinos como Malasia e Indonesia, según documentos de Snowden.", u: "https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)", st: "Wikipedia (síntesis de fuentes)" },
     rivales: { ev: 1, x: "Expulsó a un académico acusado de actuar como agente de influencia de un país extranjero.", u: "https://en.wikipedia.org/wiki/Huang_Jing_(academic)", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

@@ -615,3 +615,45 @@ a:hover .lane-l { fill: var(--ph); }
 /* Cómo funciona el espionaje, al final de la portada */
 .home-como { margin-top: 48px; padding-top: 8px; border-top: 1px solid var(--line); scroll-margin-top: 110px; }
 .home-como .x-head .back { display: none; }
+
+/* Asesinatos: barras por servicio */
+.hbars { display: grid; gap: 4px; }
+.hbar { display: grid; grid-template-columns: 170px 1fr 34px; gap: 10px; align-items: center; background: none; border: 0; padding: 4px 6px; color: var(--soft); font: 13px var(--f-ui); text-align: left; cursor: pointer; border-radius: 4px; min-height: 30px; }
+.hbar:hover, .hbar:focus-visible { background: var(--surface); }
+.hbar.on { background: var(--surface); color: var(--text-hi); outline: 1px solid var(--ph-lo); }
+.hbar .t { height: 10px; background: #0f1a14; border-radius: 2px; overflow: hidden; }
+.hbar .t i { display: block; height: 100%; background: #ff4d3d; }
+.hbar .n { font: 12px var(--f-mono); color: var(--text-hi); text-align: right; }
+@media (max-width: 600px) { .hbar { grid-template-columns: 110px 1fr 28px; font-size: 12px; } }
+
+/* Poder y control */
+.ctl { width: 100%; border-collapse: collapse; min-width: 720px; }
+.ctl th, .ctl td { border: 1px solid var(--line); padding: 10px; vertical-align: top; text-align: left; }
+.ctl thead th { font: 500 11px var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); background: var(--bg-2); }
+.ctl thead th span, .ctl tbody th span { display: block; font: 10.5px var(--f-mono); color: var(--muted); letter-spacing: .06em; margin-top: 3px; text-transform: none; }
+.ctl tbody th { width: 170px; font: 600 12px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--c); background: color-mix(in srgb, var(--c) 7%, transparent); }
+.ctl td { background: color-mix(in srgb, var(--c) 3%, transparent); }
+.ctl-p { display: inline-flex; align-items: center; gap: 6px; margin: 0 6px 6px 0; padding: 4px 8px; border: 1px solid var(--line-2); border-radius: 4px; font-size: 13px; color: var(--text); text-decoration: none; background: var(--surface); }
+.ctl-p i { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+.ctl-p span { font: 11px var(--f-mono); color: var(--muted); }
+.ctl-p:hover, .ctl-p:focus-visible { border-color: var(--c); color: var(--text-hi); }
+
+/* Mitos */
+.mi-card p { font-size: 13.5px; color: var(--soft); margin: 8px 0 0; }
+.mi-card h3 { font-size: 20px; }
+.mi-card .k { display: block; font: 500 10.5px var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+.mi-card .top a { color: inherit; }
+
+/* Espías que llegaron al poder */
+.jf-list { position: relative; }
+.jf-list::before { content: ""; position: absolute; left: 78px; top: 0; bottom: 0; width: 1px; background: var(--line-2); }
+.jf-it { display: grid; grid-template-columns: 70px 1fr; gap: 26px; padding: 12px 0; position: relative; }
+.jf-it::before { content: ""; position: absolute; left: 74px; top: 17px; width: 9px; height: 9px; border-radius: 50%; background: var(--c); }
+.jf-y { font: 600 14px var(--f-mono); color: var(--c); padding-top: 12px; text-align: right; }
+.jf-it .d { font: 11px var(--f-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+.jf-it .d a { color: inherit; }
+.jf-it b { display: block; font-size: 17px; color: var(--text-hi); margin: 2px 0 4px; }
+.jf-it p { margin: 4px 0 0; font-size: 13.5px; color: var(--soft); }
+.jf-path { display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; }
+.jf-path span { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 2px 8px; font-size: 13px; color: var(--text); }
+.jf-path em { font-style: normal; color: var(--c); }

@@ -107,6 +107,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Bajo Assad, Israel y la oposición; hoy, remanentes del régimen y el Estado Islámico.", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 1, x: "Funcionarios cobraban a familias por información sobre presos, según organizaciones sirias.", u: "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime", st: "Wikipedia (síntesis de fuentes)" },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "Ejecuciones masivas en Sednaya, según Amnistía.", u: "https://en.wikipedia.org/wiki/Saydnaya_Prison", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

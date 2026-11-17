@@ -60,7 +60,7 @@
     { d: "2021-12", dir: "recorta", area: "Debido proceso", h: "Reforma de la DSN", x: "Separa la inteligencia de la policía y crea nuevos controles." }
   ],
   events: [
-    {"d": "1989-07-13", "lat": 48.2, "lon": 16.38, "c": "Austria", "t": "encubierta", "ev": 2, "h": "Asesinato de Ghassemlou", "x": "Emisarios iraníes matan en Viena al líder kurdo Abdul Rahman Ghassemlou durante una negociación.", "u": "https://en.wikipedia.org/wiki/Abdul_Rahman_Ghassemlou", "st": "Wikipedia: Abdul Rahman Ghassemlou"},
+    {"d": "1989-07-13", "lat": 48.2, "lon": 16.38, "c": "Austria", "t": "encubierta", "ev": 2, "h": "Asesinato de Ghassemlou", "x": "Emisarios iraníes matan en Viena al líder kurdo Abdul Rahman Ghassemlou durante una negociación.", "u": "https://en.wikipedia.org/wiki/Abdul_Rahman_Ghassemlou", "st": "Wikipedia: Abdul Rahman Ghassemlou", "op": "asesinato", "por": "ir" },
     { d: "2018-02-28", lat: 48.2, lon: 16.4, c: "Austria", t: "contra", ev: 1, h: "Allanamiento de la BVT", x: "Policías bajo el Ministerio del Interior allanan la oficina de contrainteligencia y se llevan datos sensibles; un tribunal lo declaró ilegal.", u: "https://en.wikipedia.org/wiki/Federal_Office_for_the_Protection_of_the_Constitution_and_Counterterrorism", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2020-11-02", lat: 48.21, lon: 16.37, c: "Austria", t: "contra", ev: 1, h: "Atentado de Viena", x: "Un yihadista mata a cuatro personas; Eslovaquia había avisado que intentó comprar munición.", u: "https://en.wikipedia.org/wiki/2020_Vienna_attack", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2026-05-20", lat: 48.2, lon: 16.35, c: "Austria", t: "contra", ev: 1, h: "Condena de Egisto Ott", x: "Un jurado condena al ex oficial de la BVT por espiar para Rusia.", u: "https://www.thestar.com.my/news/world/2026/05/21/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds", st: "Reuters, vía The Star" }
@@ -107,6 +107,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Rusia es el principal blanco de la contrainteligencia.", u: "https://www.thestar.com.my/news/world/2026/05/21/austrian-former-domestic-intelligence-officer-spied-for-russia-court-finds", st: "Reuters, vía The Star" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

@@ -117,6 +117,7 @@
     aliados: { ev: 1, x: "Ex agentes de la NSA admitieron haber hackeado sistemas de EE.UU. para los Emiratos.", u: "https://therecord.media/us-fines-former-nsa-employees-who-provided-hacker-for-hire-services-to-uae", st: "The Record" },
     rivales: { ev: 1, x: "Catar, Irán, Turquía y la Hermandad Musulmana son sus blancos principales.", u: "https://www.axios.com/2019/01/30/nsa-spies-uae-hacking-operations", st: "Axios" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 2, x: "Un programa de asesinatos en Yemen con mercenarios estadounidenses, según su propio jefe y una demanda de 2026.", u: "https://www.npr.org/2026/03/30/nx-s1-5707305/yemen-politician-assassination-us-soldiers-lawsuit", st: "NPR" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

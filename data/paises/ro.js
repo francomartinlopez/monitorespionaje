@@ -106,6 +106,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Rusia es el blanco central de la contrainteligencia rumana.", u: "https://en.wikipedia.org/wiki/2024_Romanian_presidential_election", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "La Securitate atentó contra la emisora Radio Free Europe en Múnich en 1981, según investigaciones posteriores.", u: "https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

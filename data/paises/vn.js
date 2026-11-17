@@ -60,7 +60,7 @@
     { d: "2022-08", dir: "amplia", area: "Privacidad", h: "Decreto 53", x: "Detalla la obligación de entregar datos a la policía." }
   ],
   events: [
-    { d: "2017-07-23", lat: 52.51, lon: 13.35, c: "Germany", t: "encubierta", ev: 1, h: "Secuestro de Trinh Xuan Thanh", x: "Agentes vietnamitas secuestran en el Tiergarten de Berlín a un ex ejecutivo petrolero que pedía asilo y lo llevan a Hanoi.", u: "https://www.rfa.org/english/news/vietnam/vietnam-kidnapping-trial-01312023223033.html", st: "Radio Free Asia" },
+    { d: "2017-07-23", lat: 52.51, lon: 13.35, c: "Germany", t: "encubierta", ev: 1, h: "Secuestro de Trinh Xuan Thanh", x: "Agentes vietnamitas secuestran en el Tiergarten de Berlín a un ex ejecutivo petrolero que pedía asilo y lo llevan a Hanoi.", u: "https://www.rfa.org/english/news/vietnam/vietnam-kidnapping-trial-01312023223033.html", st: "Radio Free Asia", op: "secuestro" },
     { d: "2023-04", lat: 14.0, lon: 100.6, c: "Thailand", t: "encubierta", ev: 2, h: "Desaparece Duong Van Thai", x: "El bloguero refugiado desaparece cerca de Bangkok y reaparece preso en Vietnam; organizaciones de derechos humanos acusan a agentes vietnamitas.", u: "https://www.hrw.org/news/2024/10/30/vietnam-quash-verdict-against-democracy-campaigner", st: "Human Rights Watch" }
   ],
   interest: {
@@ -104,6 +104,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 2, x: "OceanLotus apuntó a empresas y gobiernos de la región, según empresas de ciberseguridad.", u: "https://en.wikipedia.org/wiki/OceanLotus", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

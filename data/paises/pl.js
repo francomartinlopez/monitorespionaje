@@ -116,6 +116,7 @@
     aliados: { ev: 1, x: "En 2015 el gobierno ocupó de noche un centro de contrainteligencia de la OTAN en Varsovia.", u: "https://en.wikipedia.org/wiki/Antoni_Macierewicz", st: "Wikipedia (síntesis de fuentes)" },
     rivales: { ev: 1, x: "Rusia y Bielorrusia son los blancos centrales de su inteligencia y contrainteligencia.", u: "https://www.npr.org/2026/02/18/nx-s1-5702706/russia-hybrid-warfare-poland", st: "NPR" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes polacos documentados; Polonia es blanco de sabotajes rusos." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

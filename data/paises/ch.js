@@ -109,6 +109,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "El servicio suizo aprovechó la información de Crypto AG sobre gobiernos de todo el mundo, según el Parlamento.", u: "https://en.wikipedia.org/wiki/Crypto_AG", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 1, x: "Crypto AG operó desde Suiza; una investigación parlamentaria de 2020 concluyó que el servicio de inteligencia suizo conocía la operación de la CIA y el BND.", u: "https://en.wikipedia.org/wiki/Crypto_AG", st: "Wikipedia: Crypto AG" },

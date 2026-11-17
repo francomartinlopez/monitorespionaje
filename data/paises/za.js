@@ -64,7 +64,7 @@
     { d: "2025-03", dir: "recorta", area: "Debido proceso", h: "Disolución de la SSA", x: "La reforma busca evitar el uso político del servicio; críticos advierten sobre definiciones amplias de seguridad." }
   ],
   events: [
-    { d: "1989-05-01", lat: -26.2, lon: 28.04, c: "South Africa", t: "encubierta", ev: 1, h: "Asesinato de David Webster", x: "Un agente de la Oficina de Cooperación Civil mata al antropólogo y activista frente a su casa en Johannesburgo.", u: "https://en.wikipedia.org/wiki/Civil_Cooperation_Bureau", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1989-05-01", lat: -26.2, lon: 28.04, c: "South Africa", t: "encubierta", ev: 1, h: "Asesinato de David Webster", x: "Un agente de la Oficina de Cooperación Civil mata al antropólogo y activista frente a su casa en Johannesburgo.", u: "https://en.wikipedia.org/wiki/Civil_Cooperation_Bureau", st: "Wikipedia (síntesis de fuentes)", op: "asesinato" },
     { d: "2017-07", lat: -25.75, lon: 28.19, c: "South Africa", t: "humana", ev: 1, h: "Red paralela de agentes", x: "Sale a la luz que el ex director Arthur Fraser montó una red de agentes con fondos sin control.", u: "https://en.wikipedia.org/wiki/State_Security_Agency_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2022-06", lat: -24.5, lon: 28.6, c: "South Africa", t: "contra", ev: 1, h: "Denuncia por Phala Phala", x: "Arthur Fraser denuncia que el presidente ocultó el robo de dólares en su granja; el caso se volvió una crisis política.", u: "https://en.wikipedia.org/wiki/Phala_Phala_scandal", st: "Wikipedia (síntesis de fuentes)" }
   ],
@@ -109,6 +109,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 0, x: "Esta ficha no encontró casos documentados recientes." },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "La Oficina de Cooperación Civil mató a opositores en el apartheid.", u: "https://en.wikipedia.org/wiki/Civil_Cooperation_Bureau", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 1, x: "Los servicios del apartheid pusieron bombas en oficinas del ANC en el exterior, según la Comisión de la Verdad.", u: "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

@@ -65,7 +65,7 @@
   ],
   events: [
     { d: "1962-09", lat: 31.2, lon: 121.1, c: "China", t: "encubierta", ev: 1, h: "U-2 derribado sobre China", x: "Pekín derriba un avión espía U-2 del Escuadrón Gato Negro, que la Fuerza Aérea taiwanesa operaba con la CIA.", u: "https://en.wikipedia.org/wiki/Black_Cat_Squadron", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "1984-10-15", lat: 37.66, lon: -122.42, c: "United States of America", t: "encubierta", ev: 1, h: "Asesinato de Henry Liu", x: "Pistoleros de la banda Bambú Unido matan al periodista crítico del gobierno en su casa de Daly City por orden del jefe de la MIB.", u: "https://en.wikipedia.org/wiki/Henry_Liu", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1984-10-15", lat: 37.66, lon: -122.42, c: "United States of America", t: "encubierta", ev: 1, h: "Asesinato de Henry Liu", x: "Pistoleros de la banda Bambú Unido matan al periodista crítico del gobierno en su casa de Daly City por orden del jefe de la MIB.", u: "https://en.wikipedia.org/wiki/Henry_Liu", st: "Wikipedia (síntesis de fuentes)", op: "asesinato" },
     { d: "2011-01", lat: 25.04, lon: 121.52, c: "Taiwan", t: "contra", ev: 1, h: "Detienen al general Lo Hsien-che", x: "El jefe de comunicaciones del Ejército es detenido por espiar para China desde 2004; recibió cadena perpetua.", u: "https://en.wikipedia.org/wiki/Lo_Hsien-che", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2024-12", lat: 25.05, lon: 121.56, c: "Taiwan", t: "contra", ev: 1, h: "Detienen a colaboradores del gobierno", x: "La investigación contra Huang Chu-jung y otros tres ex miembros del partido de gobierno desemboca en su detención y acusación.", u: "https://www.taiwannews.com.tw/news/6130624", st: "Taiwan News" },
     { d: "2025-02-25", lat: 23.2, lon: 120.2, c: "Taiwan", t: "sabotaje", ev: 1, h: "Corte del cable a Penghu", x: "Un buque con tripulación china arrastra el ancla y corta el cable Taiwán-Penghu n.º 3 frente a Tainán; su capitán fue condenado a 3 años.", u: "https://www.taipeitimes.com/News/taiwan/archives/2025/06/13/2003838551", st: "Taipei Times" },
@@ -124,6 +124,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados de espionaje a aliados." },
     rivales: { ev: 1, x: "China es el blanco central; vuelos de U-2 sobre sus instalaciones nucleares en las décadas de 1960 y 1970.", u: "https://en.wikipedia.org/wiki/Black_Cat_Squadron", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "Henry Liu fue asesinado en 1984 por orden del jefe de la MIB.", u: "https://en.wikipedia.org/wiki/Henry_Liu", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 1, x: "En las décadas de 1950 y 1960 comandos taiwaneses hicieron incursiones y sabotajes en la costa china.", u: "https://en.wikipedia.org/wiki/National_Security_Bureau_(Taiwan)", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

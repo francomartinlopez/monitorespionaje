@@ -61,7 +61,7 @@
     { d: "2022-05", dir: "amplia", area: "Debido proceso", h: "Pena de muerte por intento de terrorismo", x: "Se extiende la pena capital a intentos de actos terroristas, usada contra saboteadores ferroviarios." }
   ],
   events: [
-    { d: "1999-09-16", lat: 53.9, lon: 27.56, c: "Belarus", t: "encubierta", ev: 2, h: "Desaparición de Gonchar y Krasovski", x: "Desaparecen el opositor Víktor Gonchar y el empresario Anatoli Krasovski; un ex miembro de una unidad especial confesó en 2019 haber participado en los asesinatos.", u: "https://en.wikipedia.org/wiki/Viktar_Hanchar", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1999-09-16", lat: 53.9, lon: 27.56, c: "Belarus", t: "encubierta", ev: 2, h: "Desaparición de Gonchar y Krasovski", x: "Desaparecen el opositor Víktor Gonchar y el empresario Anatoli Krasovski; un ex miembro de una unidad especial confesó en 2019 haber participado en los asesinatos.", u: "https://en.wikipedia.org/wiki/Viktar_Hanchar", st: "Wikipedia (síntesis de fuentes)", op: "secuestro" },
     { d: "2021-05-23", lat: 53.88, lon: 28.03, c: "Belarus", t: "contra", ev: 1, h: "Desvío del vuelo de Ryanair", x: "Un caza escolta a Minsk un vuelo de Atenas a Vilna tras una falsa amenaza de bomba; detienen al periodista Román Protasévich.", u: "https://en.wikipedia.org/wiki/Ryanair_Flight_4978", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2025-12", lat: 54.69, lon: 25.28, c: "Lithuania", t: "sabotaje", ev: 2, h: "Globos sobre Lituania", x: "Lituania declara la emergencia nacional por globos de contrabando lanzados desde Bielorrusia, que cerraron el aeropuerto de Vilna varias veces.", u: "https://isans.org/analysis/belarus-review/belarus-review-by-isans-december-15-2025.html", st: "iSANS" }
   ],
@@ -106,6 +106,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Polonia, Lituania y Ucrania son blancos del KGB, según sus servicios.", u: "https://euromaidanpress.com/2026/03/10/belarus-uses-prisoner-release-to-charm-west-but-lukashenka-stands-with-russia-anyway-says-defense-report/", st: "Euromaidan Press" },
     extorsion: { ev: 2, x: "El KGB presiona a familiares de exiliados para obtener información, según los servicios lituanos.", u: "https://euromaidanpress.com/2026/03/10/belarus-uses-prisoner-release-to-charm-west-but-lukashenka-stands-with-russia-anyway-says-defense-report/", st: "Euromaidan Press" },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 2, x: "Opositores desaparecidos en 1999 y 2000, según un ex integrante de una unidad especial y el Consejo de Europa.", u: "https://en.wikipedia.org/wiki/Viktar_Hanchar", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 2, x: "Globos de contrabando cerraron el aeropuerto de Vilna; Lituania lo considera un ataque híbrido.", u: "https://www.lrt.lt/en/news-in-english/19/2777094/lithuania-weighs-de-escalation-after-belarus-frees-prisoners-pressure-shifts-to-sanctions", st: "LRT" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

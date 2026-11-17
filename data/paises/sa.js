@@ -68,7 +68,7 @@
     { d: "2017-11-04", lat: 24.68, lon: 46.62, c: "Saudi Arabia", t: "contra", ev: 1, h: "Hariri retenido en Riad", x: "El primer ministro libanés anuncia su renuncia desde Riad; Francia negoció su salida días después.", u: "https://en.wikipedia.org/wiki/2017_Lebanon%E2%80%93Saudi_Arabia_dispute", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2018-06", lat: 51.5, lon: -0.12, c: "United Kingdom", t: "ciber", ev: 1, h: "Pegasus contra Ghanem al-Masarir", x: "El teléfono del disidente en Londres es infectado con Pegasus; un tribunal británico responsabilizó al reino en 2026.", u: "https://citizenlab.ca/saudi-arabia-ordered-to-pay-3m-to-london-dissident-over-pegasus-spying/", st: "Citizen Lab" },
     { d: "2018-10", lat: 43.65, lon: -79.6, c: "Canada", t: "encubierta", ev: 3, h: "El equipo enviado a Canadá", x: "Saad al-Jabri sostiene en una demanda que un grupo saudita intentó entrar a Canadá para matarlo y fue frenado en la frontera.", u: "https://www.middleeasteye.net/news/saudi-hit-squad-mbs-kill-saad-aljabri-us-canada-lawsuit", st: "Middle East Eye" },
-    { d: "2018-10-02", lat: 40.9, lon: 29.4, c: "Turkey", t: "encubierta", ev: 1, h: "Asesinato de Jamal Khashoggi", x: "Un equipo saudita mata al periodista en el consulado de Estambul; la inteligencia de EE.UU. concluyó que Mohammed bin Salman aprobó la operación.", u: "https://en.wikipedia.org/wiki/Assassination_of_Jamal_Khashoggi", st: "Wikipedia (síntesis de fuentes)" }
+    { d: "2018-10-02", lat: 40.9, lon: 29.4, c: "Turkey", t: "encubierta", ev: 1, h: "Asesinato de Jamal Khashoggi", x: "Un equipo saudita mata al periodista en el consulado de Estambul; la inteligencia de EE.UU. concluyó que Mohammed bin Salman aprobó la operación.", u: "https://en.wikipedia.org/wiki/Assassination_of_Jamal_Khashoggi", st: "Wikipedia (síntesis de fuentes)", op: "asesinato" }
   ],
   interest: {
     "Iran": 3, "Yemen": 3, "Qatar": 2, "Lebanon": 2, "Syria": 2, "Iraq": 2, "Turkey": 2, "United Kingdom": 2, "United States of America": 2,
@@ -119,6 +119,7 @@
     aliados: { ev: 1, x: "Reclutó a empleados de Twitter dentro de EE.UU. para espiar a usuarios, según una condena de 2022.", u: "https://san.com/cc/former-twitter-worker-found-guilty-of-spying-for-saudi-arabia/", st: "Straight Arrow News" },
     rivales: { ev: 1, x: "Irán, los hutíes de Yemen y, entre 2017 y 2021, Catar.", u: "https://en.wikipedia.org/wiki/General_Intelligence_Presidency", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 2, x: "Los retenidos en el Ritz-Carlton entregaron bienes bajo presión; Saad al-Jabri dice que detuvieron a sus hijos para forzarlo a volver.", u: "https://en.wikipedia.org/wiki/2017%E2%80%932019_Saudi_Arabian_purge", st: "Wikipedia (síntesis de fuentes)" },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "El asesinato de Khashoggi en Estambul, aprobado por Mohammed bin Salman según la inteligencia de EE.UU.", u: "https://en.wikipedia.org/wiki/Assassination_of_Jamal_Khashoggi", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes a infraestructura atribuidos a los servicios sauditas." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

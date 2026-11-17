@@ -61,7 +61,7 @@
     { d: "2013-04", dir: "recorta", area: "Privacidad", h: "Ley de Inteligencia", x: "Prohíbe el uso político y crea controles." }
   ],
   events: [
-    { d: "2008-03-01", lat: 0.1, lon: -77.0, c: "Ecuador", t: "encubierta", ev: 1, h: "Operación Fénix", x: "Un bombardeo colombiano en territorio ecuatoriano mata al jefe guerrillero Raúl Reyes y provoca una crisis regional.", u: "https://en.wikipedia.org/wiki/2008_Andean_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2008-03-01", lat: 0.1, lon: -77.0, c: "Ecuador", t: "encubierta", ev: 1, h: "Operación Fénix", x: "Un bombardeo colombiano en territorio ecuatoriano mata al jefe guerrillero Raúl Reyes y provoca una crisis regional.", u: "https://en.wikipedia.org/wiki/2008_Andean_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)", op: "asesinato" },
     { d: "2008-07-02", lat: 2.0, lon: -72.6, c: "Colombia", t: "humana", ev: 1, h: "Operación Jaque", x: "Inteligencia militar engaña a las FARC y rescata a Ingrid Betancourt y otros 14 rehenes sin disparos.", u: "https://en.wikipedia.org/wiki/Operation_Jaque", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2009-02", lat: 4.65, lon: -74.1, c: "Colombia", t: "contra", ev: 1, h: "Escándalo de las chuzadas", x: "Se revela que el DAS escuchaba ilegalmente a jueces, periodistas y opositores.", u: "https://en.wikipedia.org/wiki/Departamento_Administrativo_de_Seguridad", st: "Wikipedia (síntesis de fuentes)" }
   ],
@@ -105,6 +105,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Guerrillas y grupos armados, incluso en territorio vecino como en 2008.", u: "https://en.wikipedia.org/wiki/2008_Andean_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "Funcionarios del DAS entregaron listas de sindicalistas a paramilitares, según la Justicia.", u: "https://en.wikipedia.org/wiki/Departamento_Administrativo_de_Seguridad", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

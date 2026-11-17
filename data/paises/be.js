@@ -106,6 +106,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Rusia y China son blancos centrales de la contrainteligencia belga.", u: "https://en.wikipedia.org/wiki/Voice_of_Europe", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "Durante la descolonización, oficiales belgas participaron en el asesinato de Patrice Lumumba en 1961, según una comisión parlamentaria.", u: "https://en.wikipedia.org/wiki/Patrice_Lumumba", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

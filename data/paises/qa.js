@@ -61,7 +61,7 @@
     { d: "2017-05", lat: 25.2, lon: 51.2, c: "Qatar", t: "ciber", ev: 1, h: "Hackeo de la agencia de noticias catarí", x: "Publican declaraciones falsas del emir en la agencia oficial; EE.UU. atribuyó el hackeo a Emiratos y siguió el bloqueo regional.", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" },
     {"d": "2020-02-29", "lat": 25.29, "lon": 51.53, "c": "Qatar", "t": "humana", "ev": 1, "h": "Acuerdo de Doha", "x": "EE.UU. y los talibanes firman en Doha el acuerdo de retirada, tras años de mediación catarí.", "u": "https://en.wikipedia.org/wiki/United_States%E2%80%93Taliban_deal", "st": "Wikipedia: acuerdo EE.UU.–talibanes"},
     {"d": "2022-08-30", "lat": 25.28, "lon": 51.52, "c": "Qatar", "t": "contra", "ev": 2, "h": "Detención de ocho ex marinos indios", "x": "La seguridad catarí detiene a ocho ex oficiales de la Marina india que trabajaban para una empresa de defensa.", "u": "https://en.wikipedia.org/wiki/2023_Qatar_espionage_case", "st": "Wikipedia: caso de espionaje de 2023 en Catar"},
-    { d: "2025-09-09", lat: 25.25, lon: 51.4, c: "Qatar", t: "encubierta", ev: 1, h: "Ataque israelí en Doha", x: "Israel bombardea una reunión de dirigentes de Hamas en la capital catarí.", u: "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha", st: "Wikipedia (síntesis de fuentes)" }
+    { d: "2025-09-09", lat: 25.25, lon: 51.4, c: "Qatar", t: "encubierta", ev: 1, h: "Ataque israelí en Doha", x: "Israel bombardea una reunión de dirigentes de Hamas en la capital catarí.", u: "https://en.wikipedia.org/wiki/2025_Israeli_strike_on_Doha", st: "Wikipedia (síntesis de fuentes)", op: "intento", por: "il" }
   ],
   interest: {
     "Saudi Arabia": 2, "United Arab Emirates": 2, "Iran": 2, "Palestine": 3, "Israel": 2, "Afghanistan": 2, "Egypt": 1, "Libya": 1, "Syria": 2, "Belgium": 1
@@ -104,6 +104,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Los vecinos del Golfo son su principal preocupación desde el bloqueo.", u: "https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

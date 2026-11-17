@@ -109,6 +109,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Israel es el blanco central de la contrainteligencia.", u: "https://www.aljazeera.com/amp/news/2025/10/10/lebanon-says-it-foiled-israeli-network-plotting-bomb-attacks", st: "Al Jazeera" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados de los servicios estatales." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

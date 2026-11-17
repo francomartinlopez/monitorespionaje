@@ -60,8 +60,8 @@
     { d: "2018-08", dir: "amplia", area: "Expresión", h: "Ley de cibercrimen", x: "Castiga la difusión de rumores y noticias falsas." }
   ],
   events: [
-    { d: "1998-05-16", lat: -1.29, lon: 36.82, c: "Kenya", t: "encubierta", ev: 2, h: "Asesinato de Seth Sendashonga", x: "Matan en Nairobi al ex ministro del Interior que había roto con el gobierno; un tribunal keniano señaló a un diplomático ruandés.", u: "https://en.wikipedia.org/wiki/Seth_Sendashonga", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "2014-01-01", lat: -26.1, lon: 28.05, c: "South Africa", t: "encubierta", ev: 2, h: "Asesinato de Patrick Karegeya", x: "El ex jefe de inteligencia exterior ruandés aparece estrangulado en un hotel de Johannesburgo.", u: "https://en.wikipedia.org/wiki/Patrick_Karegeya", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1998-05-16", lat: -1.29, lon: 36.82, c: "Kenya", t: "encubierta", ev: 2, h: "Asesinato de Seth Sendashonga", x: "Matan en Nairobi al ex ministro del Interior que había roto con el gobierno; un tribunal keniano señaló a un diplomático ruandés.", u: "https://en.wikipedia.org/wiki/Seth_Sendashonga", st: "Wikipedia (síntesis de fuentes)", op: "asesinato" },
+    { d: "2014-01-01", lat: -26.1, lon: 28.05, c: "South Africa", t: "encubierta", ev: 2, h: "Asesinato de Patrick Karegeya", x: "El ex jefe de inteligencia exterior ruandés aparece estrangulado en un hotel de Johannesburgo.", u: "https://en.wikipedia.org/wiki/Patrick_Karegeya", st: "Wikipedia (síntesis de fuentes)", op: "asesinato" },
     { d: "2020-08-27", lat: -1.95, lon: 30.06, c: "Rwanda", t: "encubierta", ev: 1, h: "Rusesabagina llega a Kigali con engaños", x: "Un avión privado que el disidente creía con destino a Burundi lo lleva desde Dubái a Kigali, donde lo detienen.", u: "https://en.wikipedia.org/wiki/Paul_Rusesabagina", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2025-01", lat: -1.6, lon: 28.9, c: "Dem. Rep. Congo", t: "encubierta", ev: 2, h: "El M23 toma Goma", x: "La guerrilla, apoyada por Ruanda según la ONU, toma la principal ciudad del este del Congo.", u: "https://en.wikipedia.org/wiki/March_23_Movement", st: "Wikipedia (síntesis de fuentes)" }
   ],
@@ -106,6 +106,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "Vigila a las FDLR y a gobiernos vecinos.", u: "https://en.wikipedia.org/wiki/March_23_Movement", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 2, x: "Un tribunal sudafricano vinculó al gobierno con el asesinato de Karegeya.", u: "https://en.wikipedia.org/wiki/Patrick_Karegeya", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

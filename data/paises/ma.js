@@ -60,7 +60,7 @@
     { d: "2011", dir: "recorta", area: "Debido proceso", h: "Nueva Constitución", x: "Reconoce derechos y prohíbe la tortura, aunque sin control sobre los servicios." }
   ],
   events: [
-    { d: "1965-10-29", lat: 48.85, lon: 2.33, c: "France", t: "encubierta", ev: 1, h: "Secuestro de Ben Barka", x: "El opositor Mehdi Ben Barka es secuestrado en París y desaparece; la justicia francesa condenó a agentes franceses y al ministro marroquí Mohamed Oufkir en ausencia.", u: "https://en.wikipedia.org/wiki/Mehdi_Ben_Barka", st: "Wikipedia: Mehdi Ben Barka" },
+    { d: "1965-10-29", lat: 48.85, lon: 2.33, c: "France", t: "encubierta", ev: 1, h: "Secuestro de Ben Barka", x: "El opositor Mehdi Ben Barka es secuestrado en París y desaparece; la justicia francesa condenó a agentes franceses y al ministro marroquí Mohamed Oufkir en ausencia.", u: "https://en.wikipedia.org/wiki/Mehdi_Ben_Barka", st: "Wikipedia: Mehdi Ben Barka", op: "secuestro" },
     { d: "2003-05-16", lat: 33.59, lon: -7.62, c: "Morocco", t: "contra", ev: 1, h: "Atentados de Casablanca", x: "Doce suicidas matan a 33 personas; el Estado endurece la ley antiterrorista.", u: "https://en.wikipedia.org/wiki/2003_Casablanca_bombings", st: "Wikipedia: atentados de Casablanca" },
     { d: "2019", lat: 48.85, lon: 2.35, c: "France", t: "ciber", ev: 2, h: "Pegasus en Francia", x: "El Proyecto Pegasus halló números de periodistas y ministros franceses entre los posibles blancos de un cliente marroquí; Rabat lo niega.", u: "https://en.wikipedia.org/wiki/Pegasus_Project_(investigation)", st: "Wikipedia: Proyecto Pegasus" },
     { d: "2022-12-09", lat: 50.85, lon: 4.35, c: "Belgium", t: "humana", ev: 2, h: "Sobornos en el Parlamento Europeo", x: "La policía belga detiene a eurodiputados y asistentes acusados de recibir dinero de Catar y Marruecos.", u: "https://en.wikipedia.org/wiki/Qatar_corruption_scandal_at_the_European_Parliament", st: "Wikipedia: caso de corrupción en el Parlamento Europeo" }
@@ -107,6 +107,7 @@
     aliados: { ev: 2, x: "Francia y España, aliados de Marruecos, aparecen entre los países con blancos de Pegasus.", u: "https://en.wikipedia.org/wiki/Pegasus_Project_(investigation)", st: "Wikipedia: Proyecto Pegasus" },
     rivales: { ev: 1, x: "Argelia y el Frente Polisario son los blancos principales.", u: "https://en.wikipedia.org/wiki/Algeria%E2%80%93Morocco_relations", st: "Wikipedia: relaciones Argelia–Marruecos" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "Ben Barka desapareció en París en 1965, con participación marroquí según la justicia francesa.", u: "https://en.wikipedia.org/wiki/Mehdi_Ben_Barka", st: "Wikipedia: Mehdi Ben Barka" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

@@ -106,6 +106,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "El ISKP es el blanco principal de la GDI.", u: "https://en.wikipedia.org/wiki/Islamic_State_%E2%80%93_Khorasan_Province", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "Ejecuciones extrajudiciales de ex miembros de las fuerzas de seguridad, según la ONU.", u: "https://en.wikipedia.org/wiki/Human_rights_in_Afghanistan", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

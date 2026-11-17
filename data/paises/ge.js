@@ -104,6 +104,7 @@
     aliados: { ev: 2, x: "El embajador de la UE y personal de embajadas aliadas fueron escuchados, según los archivos.", u: "https://georgiatoday.ge/?p=16225", st: "Georgia Today" },
     rivales: { ev: 1, x: "Rusia y los territorios ocupados son blancos centrales.", u: "https://en.wikipedia.org/wiki/Russo-Georgian_War", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 2, x: "Los archivos contenían material comprometedor sobre la vida privada de clérigos.", u: "https://georgiatoday.ge/former-security-officer-allegedly-leaks-surveillance-files-including-kompromats-against-clergy/", st: "Georgia Today" },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

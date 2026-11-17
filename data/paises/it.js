@@ -64,7 +64,7 @@
   ],
   events: [
     { d: "1980-08-02", lat: 44.5, lon: 11.34, c: "Italy", t: "contra", ev: 1, h: "Atentado de Bolonia", x: "Una bomba en la estación mata a 85 personas; oficiales del SISMI fueron condenados por desviar la investigación.", u: "https://en.wikipedia.org/wiki/Bologna_massacre", st: "Wikipedia (síntesis de fuentes)" },
-    { d: "2003-02-17", lat: 45.48, lon: 9.2, c: "Italy", t: "encubierta", ev: 1, h: "Secuestro de Abu Omar", x: "La CIA secuestra en Milán a un clérigo egipcio con ayuda de oficiales del SISMI, según la fiscalía de Milán.", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "2003-02-17", lat: 45.48, lon: 9.2, c: "Italy", t: "encubierta", ev: 1, h: "Secuestro de Abu Omar", x: "La CIA secuestra en Milán a un clérigo egipcio con ayuda de oficiales del SISMI, según la fiscalía de Milán.", u: "https://en.wikipedia.org/wiki/Imam_Rapito_affair", st: "Wikipedia (síntesis de fuentes)", op: "secuestro", por: "us" },
     { d: "2021-03-30", lat: 41.87, lon: 12.52, c: "Italy", t: "contra", ev: 1, h: "Caso Walter Biot", x: "Detienen a un capitán de fragata cuando entregaba documentos a un agregado militar ruso; dos diplomáticos rusos fueron expulsados.", u: "https://en.wikipedia.org/wiki/Italy%E2%80%93Russia_relations", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2023-03-22", lat: 45.4, lon: 9.1, c: "Italy", t: "contra", ev: 1, h: "Fuga de Artem Uss", x: "Un empresario ruso detenido a pedido de EE.UU. escapa de su arresto domiciliario cerca de Milán y llega a Rusia.", u: "https://en.wikipedia.org/wiki/Italy%E2%80%93Russia_relations", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2025-01-08", lat: 35.7, lon: 51.4, c: "Iran", t: "humana", ev: 1, h: "Liberación de Cecilia Sala", x: "El director de la AISE vuela a Teherán para traer a la periodista detenida; Italia liberó días después a un iraní pedido por EE.UU.", u: "https://gabrielecarrer.substack.com/p/il-dopo-belloni-rizzi-al-dis-e-cuzzocrea", st: "Gabriele Carrer" },
@@ -115,6 +115,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "La contrainteligencia sigue a Rusia; el informe anual de 2025 la señala como principal amenaza híbrida.", u: "https://en.ilsole24ore.com/art/007-allerta-jihadismo-e-suprematismo-russia-leader-minaccia-ibrida-golden-power-mantovano-possibile-tagliando-legge-AGJJxJJD", st: "Il Sole 24 Ore" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

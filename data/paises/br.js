@@ -117,6 +117,7 @@
     aliados: { ev: 1, x: "Hackeó a autoridades de Paraguay, socio en Itaipú y en el Mercosur; el gobierno admitió la operación.", u: "https://congressoemfoco.com.br/noticia/107417/brasil-e-paraguai-em-tensao-diplomatica-155-anos-apos-guerra-sangrenta", st: "Congresso em Foco" },
     rivales: { ev: 0, x: "Brasil no tiene rivales declarados; esta ficha no encontró operaciones documentadas contra otros Estados aparte del caso Paraguay." },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados en democracia." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

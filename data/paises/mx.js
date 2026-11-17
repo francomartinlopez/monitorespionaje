@@ -117,6 +117,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 0, x: "Esta ficha no encontró espionaje documentado contra otros Estados." },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "La DFS participó en ejecuciones extrajudiciales durante la Guerra Sucia.", u: "https://en.wikipedia.org/wiki/Mexican_Dirty_War", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 0, x: "Esta ficha no encontró sabotajes documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

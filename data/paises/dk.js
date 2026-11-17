@@ -107,6 +107,7 @@
     aliados: { ev: 1, x: "Ayudó a la NSA a espiar a líderes europeos, según DR.", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
     rivales: { ev: 1, x: "Rusia es el blanco central.", u: "https://en.wikipedia.org/wiki/Danish_Defence_Intelligence_Service", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

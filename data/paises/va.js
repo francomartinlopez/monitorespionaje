@@ -129,6 +129,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados de espionaje vaticano a gobiernos aliados." },
     rivales: { ev: 0, x: "Esta ficha no encontró operaciones de espionaje vaticano contra otros Estados; las nunciaturas reúnen información por vías diplomáticas." },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados de extorsión por parte del Vaticano." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 0, x: "No hay casos documentados. Las versiones sobre una \"Entidad\" que mata en nombre del papa no tienen pruebas." },
     sabotaje: { ev: 0, x: "Esta ficha no encontró casos documentados de sabotajes." },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },

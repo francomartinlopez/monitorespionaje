@@ -55,6 +55,7 @@ window.PRACTICAS = [
   { g: "A quién espían", k: "rivales", n: "Rivales y enemigos", x: "Gobiernos, fuerzas armadas y servicios adversarios." },
   { g: "A quién espían", k: "economico", n: "Empresas, tecnología y ciencia", x: "Espionaje económico, industrial y científico: secretos comerciales, patentes, programas de armas." },
   { g: "Qué métodos usan", k: "extorsion", n: "Extorsión y chantaje", x: "Presión con información comprometedora, amenazas a familiares, sobornos forzados." },
+  { g: "Qué métodos usan", k: "vinculo", n: "Vínculo falso", x: "Acercarse a un blanco con una relación armada a propósito: seducción o pareja, amistad, falsos periodistas, académicos o reclutadores, o infiltración en un grupo haciéndose pasar por militante o fiel." },
   { g: "Qué métodos usan", k: "asesinato", n: "Asesinatos selectivos", x: "Muertes planificadas dentro o fuera del país." },
   { g: "Qué métodos usan", k: "sabotaje", n: "Sabotajes", x: "Daños a infraestructura, industria, redes, transporte o equipos militares, físicos o informáticos." },
   { g: "Qué métodos usan", k: "infraestructura", n: "Infraestructura civil como plataforma", x: "Puertos, antenas, cables, bases, empresas de tecnología o cadenas de suministro propias usadas para recolectar información u operar desde otro país." },

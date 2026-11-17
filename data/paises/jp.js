@@ -64,7 +64,7 @@
     { d: "2026-05", dir: "amplia", area: "Debido proceso", h: "Consejo Nacional de Inteligencia", x: "Centraliza la inteligencia bajo la primera ministra." }
   ],
   events: [
-    { d: "1928-06-04", lat: 41.8, lon: 123.4, c: "China", t: "sabotaje", ev: 1, h: "Asesinato de Zhang Zuolin", x: "Oficiales del Ejército de Kwantung vuelan el tren del jefe militar de Manchuria.", u: "https://en.wikipedia.org/wiki/Huanggutun_incident", st: "Wikipedia (síntesis de fuentes)" },
+    { d: "1928-06-04", lat: 41.8, lon: 123.4, c: "China", t: "sabotaje", ev: 1, h: "Asesinato de Zhang Zuolin", x: "Oficiales del Ejército de Kwantung vuelan el tren del jefe militar de Manchuria.", u: "https://en.wikipedia.org/wiki/Huanggutun_incident", st: "Wikipedia (síntesis de fuentes)", op: "asesinato" },
     { d: "1931-09-18", lat: 41.85, lon: 123.45, c: "China", t: "sabotaje", ev: 1, h: "Incidente de Mukden", x: "Oficiales japoneses detonan explosivos en una vía férrea, culpan a China y usan el ataque para invadir Manchuria.", u: "https://en.wikipedia.org/wiki/Mukden_incident", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2000-09", lat: 35.68, lon: 139.75, c: "Japan", t: "contra", ev: 1, h: "Caso Bogatenkov", x: "Un oficial de la Fuerza Marítima es detenido por vender documentos a un agregado militar ruso; el ruso salió del país.", u: "https://en.wikipedia.org/wiki/Japan%E2%80%93Russia_relations", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2010-10", lat: 35.69, lon: 139.75, c: "Japan", t: "contra", ev: 1, h: "Filtración sobre musulmanes", x: "Se publican en internet 114 documentos de la policía de Tokio sobre la vigilancia de residentes musulmanes.", u: "https://en.wikipedia.org/wiki/Tokyo_Metropolitan_Police_Department", st: "Wikipedia (síntesis de fuentes)" },
@@ -120,6 +120,7 @@
     aliados: { ev: 0, x: "Esta ficha no encontró casos documentados." },
     rivales: { ev: 1, x: "El DIH intercepta comunicaciones militares de China, Rusia y Corea del Norte.", u: "https://en.wikipedia.org/wiki/Defense_Intelligence_Headquarters", st: "Wikipedia (síntesis de fuentes)" },
     extorsion: { ev: 0, x: "Esta ficha no encontró casos documentados." },
+    vinculo: {"ev": 0, "x": "Esta ficha no encontró casos documentados."},
     asesinato: { ev: 1, x: "Oficiales del Ejército de Kwantung mataron en 1928 al jefe militar Zhang Zuolin.", u: "https://en.wikipedia.org/wiki/Huanggutun_incident", st: "Wikipedia (síntesis de fuentes)" },
     sabotaje: { ev: 1, x: "El incidente de Mukden de 1931 fue un sabotaje propio atribuido a China.", u: "https://en.wikipedia.org/wiki/Mukden_incident", st: "Wikipedia (síntesis de fuentes)" },
     infraestructura: { ev: 0, x: "Esta ficha no encontró casos documentados." },
