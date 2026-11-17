@@ -1,7 +1,7 @@
 // Ficha de Cuba · contenido real · revisada el 2026-11-15
 (window.FICHAS = window.FICHAS || {})["cu"] = {
   id: "cu",
-  updated: "2026-11-15",
+  updated: "2026-11-17",
   summary: [
     "Los servicios cubanos dependen del Ministerio del Interior (MININT). La Dirección de Inteligencia (DI) trabaja en el exterior y la Dirección General de Contrainteligencia vigila a la población. Desde mayo de 2026 se sabe en público que la DI la dirige el general de brigada Ramón Romero Curbelo, que recibió en La Habana al director de la CIA, John Ratcliffe.",
     "Pese a su tamaño, la DI logró algunas de las penetraciones más profundas en el gobierno de EE.UU. Entre sus agentes estuvieron la analista Ana Belén Montes en la Agencia de Inteligencia de Defensa, el funcionario Kendall Myers en el Departamento de Estado y el ex embajador Víctor Manuel Rocha, que espió desde 1981 y fue condenado en 2024.",
@@ -63,12 +63,14 @@
     { d: "2022-05", dir: "amplia", area: "Expresión", h: "Nuevo Código Penal", x: "Amplía delitos contra la seguridad del Estado y castiga el financiamiento extranjero." }
   ],
   events: [
+    {"d": "1961-04-17", "lat": 22.3, "lon": -81.1, "c": "Cuba", "t": "contra", "ev": 1, "h": "Bahía de Cochinos", "x": "La inteligencia cubana conocía la preparación de la invasión de exiliados organizada por la CIA, que fracasa en tres días.", "u": "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion", "st": "Wikipedia: Bay of Pigs Invasion"},
     { d: "1996-02-24", lat: 23.4, lon: -82.5, c: "Cuba", t: "contra", ev: 1, nomap: true, h: "Derribo de las avionetas de Hermanos al Rescate", x: "Aviones cubanos derriban dos avionetas del grupo del exilio; espías infiltrados habían avisado de los vuelos, según la acusación de EE.UU. de 2026.", u: "https://www.aljazeera.com/news/2026/5/20/trump-administration-indicts-cubas-raul-castro-over-1996-plane-shootdown", st: "Al Jazeera" },
     { d: "1998-09", lat: 25.8, lon: -80.35, c: "United States of America", t: "humana", ev: 1, h: "Cae la Red Avispa", x: "El FBI detiene a agentes cubanos que infiltraban grupos del exilio y bases militares en Florida.", u: "https://en.wikipedia.org/wiki/Cuban_Five", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2001-09-21", lat: 38.85, lon: -77.05, c: "United States of America", t: "humana", ev: 1, h: "Detienen a Ana Belén Montes", x: "La principal analista sobre Cuba de la Agencia de Inteligencia de Defensa trabajaba para La Habana desde 1985.", u: "https://en.wikipedia.org/wiki/Ana_Montes", st: "Wikipedia (síntesis de fuentes)" },
     { d: "2012-07-22", lat: 20.38, lon: -76.64, c: "Cuba", t: "encubierta", ev: 2, h: "Muerte de Oswaldo Payá", x: "El opositor muere en un choque; la Comisión Interamericana concluyó en 2023 que agentes del Estado participaron.", u: "https://virginislandsnewsonline.com/en/news/human-rights-body-finds-cuban-govt-responsible-in-2012-deaths-of-dissidents", st: "Reuters", op: "asesinato" },
     { d: "2023-12-01", lat: 25.8, lon: -80.35, c: "United States of America", t: "contra", ev: 1, h: "Detienen a Víctor Manuel Rocha", x: "El ex embajador de EE.UU. en Bolivia es detenido en Miami tras confesar su lealtad a Cuba a un agente encubierto del FBI.", u: "https://www.justice.gov/usao-sdfl/pr/former-us-ambassador-and-national-security-council-official-admits-secretly-acting", st: "Departamento de Justicia de EE.UU." },
-    { d: "2026-01-03", lat: 10.48, lon: -66.9, c: "Venezuela", t: "contra", ev: 1, h: "Mueren 32 cubanos en Caracas", x: "La custodia cubana de Maduro cae en la operación de EE.UU.; 21 de los muertos eran del MININT.", u: "https://www.dawn.com/news/1966185", st: "AFP, vía Dawn" }
+    { d: "2026-01-03", lat: 10.48, lon: -66.9, c: "Venezuela", t: "contra", ev: 1, h: "Mueren 32 cubanos en Caracas", x: "La custodia cubana de Maduro cae en la operación de EE.UU.; 21 de los muertos eran del MININT.", u: "https://www.dawn.com/news/1966185", st: "AFP, vía Dawn" },
+    {"d": "2026-07", "lat": 25.98, "lon": -80.18, "c": "United States of America", "t": "contra", "ev": 2, "h": "Detienen a un ex oficial de la DGI en Florida", "x": "Las autoridades de EE.UU. detienen a Tomás Emilio Hernández Cruz, ex oficial de inteligencia cubano, por ocultar su pasado al pedir la residencia.", "u": "https://www.diariolasamericas.com/florida/el-largo-brazo-la-habana-la-amenaza-espionaje-eeuu-n5373217", "st": "Diario Las Américas"}
   ],
   interest: {
     "United States of America": 3, "Venezuela": 3, "Nicaragua": 2, "Mexico": 2, "Colombia": 2, "Bolivia": 2, "Spain": 2,

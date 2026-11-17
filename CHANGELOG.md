@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-17 · Refuerzo de las 16 fichas muy relevantes: 88 datos nuevos (hechos, casos, fallas, aciertos y personas) y repaso de hechos 2025–2026 con búsquedas por país. Entre ellos: condena en Londres a Arabia Saudita por Pegasus, redes chinas condenadas en Taiwán, ex agentes italianos detenidos por espiar para Rusia, el CNI admite espionaje a dos ex diputados, el denunciante marroquí de Pegasus, protestas pagadas por Rusia en Polonia y el pasante canadiense detenido en la OTAN.
+
 - 2026-11-17 · Alerta nueva: Nvidia investiga si Jensen Huang fue blanco de una operación del MSS (reemplaza a la expulsión de rusos en Austria, la alerta más vieja). Ficha de China: hecho, caso (evidencia 2) y práctica "Vínculo falso" actualizada.
 
 - 2026-11-17 · Explorar suma cinco secciones: Asesinatos y secuestros (66 operaciones con autor atribuido y evidencia), Filtraciones y secretos, Poder y control, Mitos y denuncias sin pruebas, y Espías que llegaron al poder (28 casos). Nueva práctica "Vínculo falso" en las 60 fichas (seducción, amistad, falsos profesionales, infiltración), con casos de Lonetree y Christine Fang. Budánov figura como jefe de la Oficina del Presidente de Ucrania desde enero de 2026.
