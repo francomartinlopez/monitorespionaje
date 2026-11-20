@@ -54,8 +54,9 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   }
 
   // ---------- barra superior, menú de países ----------
-  document.getElementById("stamp").innerHTML = `<div><span class="live"></span>Actualizado <b>${esc(META.updatedLabel)}</b></div><div>Próxima actualización: ${esc(META.next)}</div>`;
-  document.getElementById("footEdition").textContent = `Monitor de Espionaje · ${META.edition}`;
+  const stampTxt = `Actualizado <b>${esc(META.updatedLabel)}</b> · próxima: ${esc(META.next)}`;
+  document.getElementById("stamp")?.remove();
+  document.getElementById("footEdition").innerHTML = `Monitor de Espionaje · ${esc(META.edition)} · ${stampTxt}`;
   document.getElementById("skeletonBand").hidden = !META.skeleton;
   const menu = document.getElementById("navMenu"), navBtn = document.getElementById("navBtn");
   const menu2 = document.getElementById("navMenu2"), navBtn2 = document.getElementById("navBtn2");
@@ -71,7 +72,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     const box = document.getElementById("alerts");
     const al = [...window.ALERTS].sort((a, b) => b.level - a.level || b.date.localeCompare(a.date));
     box.innerHTML = `<div class="wrap alerts-in">
-      <div class="sec-head"><h2><span class="live"></span>Alertas · ${al.length}</h2><span>Hechos de las últimas semanas, renovados cada lunes. Las que ya se cerraron figuran como resueltas.</span></div>
+      <div class="sec-head"><h2><span class="live"></span>Alertas · ${al.length}</h2><span>Hechos de las últimas semanas, renovados cada lunes · ${stampTxt}</span></div>
       <div class="alert-grid">${al.map(a => `<article class="alert" style="--lv:${window.LV[a.level]}">
         <div class="meta"><span class="pill">${a.level ? `Nivel ${a.level}` : "Resuelto"}</span><span>${esc(a.tag)}</span><span>· ${fmt(a.date)}</span>${sampleTag(a.sample)}</div>
         <div class="where">${esc(a.countries.join(" · "))}</div>
@@ -107,7 +108,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   // lleva a una sección de la ficha y, si hay número, al caso o hecho y lo resalta
   function goDeep(sec, n) {
     const block = document.getElementById("sec-" + sec); if (!block) return;
-    const det = block.closest("details"); if (det) det.open = true;
+    if (block.classList.contains("fold")) { block.classList.add("open"); block.querySelector("h2")?.setAttribute("aria-expanded", "true"); }
     const it = n != null ? document.getElementById(`it-${sec}-${n}`) : null;
     (it || block).scrollIntoView({ block: "start" });
     if (it) { it.classList.add("flash"); setTimeout(() => it.classList.remove("flash"), 2200); }
@@ -140,7 +141,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       </div>
 
       <div class="section-title"><h2>Explorar</h2><span>Mapas temáticos, personas, comparaciones y archivo</span></div>
-      <div class="acc-list" id="accList">${window.ME.EXPLORE.map(e => `<div class="acc" data-id="${e.id}"><button type="button" class="acc-h" aria-expanded="false"><span class="k">${esc(e.k)}</span><b>${esc(e.n)}</b><span class="x">${esc(e.x)}</span><i aria-hidden="true">+</i></button><div class="acc-body" hidden></div><a class="acc-link" href="#${e.id}" hidden>Abrir en página propia →</a></div>`).join("")}</div>
+      <div class="acc-list" id="accList">${window.ME.EXPLORE.map((e, i, A) => `${i === 0 || A[i - 1].g !== e.g ? `<h3 class="acc-g">${esc(e.g)}</h3>` : ""}<div class="acc" data-id="${e.id}"><button type="button" class="acc-h" aria-expanded="false"><span class="k">${esc(e.k)}</span><b>${esc(e.n)}</b><span class="x">${esc(e.x)}</span><i aria-hidden="true">+</i></button><div class="acc-body" hidden></div><a class="acc-link" href="#${e.id}" hidden>Abrir en página propia →</a></div>`).join("")}</div>
 
       <div class="section-title"><h2>Países monitoreados</h2><span>${PAISES.length} países, de las potencias de inteligencia a los especialistas regionales</span></div>
       ${[1, 2, 3].map(t => `<div class="tier-head"><h3>${esc(window.TIERS[t].n)}</h3><span>${esc(window.TIERS[t].x)}</span></div>
@@ -175,13 +176,13 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     const relSvg = window.RELACIONES.map((r, i) => P[r.a] && P[r.b] ? `<path class="rel ${r.t}" data-i="${i}" d="${arc(P[r.a], P[r.b])}" stroke="${RT[r.t].c}"/>` : "").join("");
     const allEv = PAISES.flatMap(p => (FICHAS[p.id]?.events || []).map(e => ({ ...e, p }))).filter(e => !e.nomap);
     const focos = allEv.map(e => { const [x, y] = pt([e.lon, e.lat]); return `<circle class="ev-dot" cx="${x}" cy="${y}" r="3.2" fill="${EV[e.t].c}" fill-opacity=".85" data-k="${allEv.indexOf(e)}"/>`; }).join("");
-    const nodes = PAISES.map(p => { const [x, y] = P[p.id]; return `<g class="node" data-id="${p.id}" tabindex="0" role="link" aria-label="${esc(p.name)}">${rings(x, y)}<rect x="${x - 3.5}" y="${y - 3.5}" width="7" height="7"/>${nodeLabel(p.id, x, y, p.short.toUpperCase())}</g>`; }).join("");
+    const nodes = PAISES.map(p => { const [x, y] = P[p.id]; return `<g class="node t${p.tier}" data-id="${p.id}" tabindex="0" role="link" aria-label="${esc(p.name)}">${rings(x, y)}<rect x="${x - 3.5}" y="${y - 3.5}" width="7" height="7"/>${nodeLabel(p.id, x, y, p.short.toUpperCase())}</g>`; }).join("");
     host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Mapa de relaciones entre servicios de inteligencia">${BASE}${members}
       <g id="relLayer">${relSvg}</g><g id="focLayer" style="display:none">${focos}</g><g>${nodes}</g></svg>
       <div class="scan" aria-hidden="true"></div>
       <div class="map-corner"><b>${fmt(META.updated)}</b>Situación actual</div>
       <div class="map-foot">PROY. NATURAL EARTH · RETÍCULA 15°</div>`;
-    const relLeg = `${Object.values(RT).map(t => `<span><i class="sw${t === RT.amb ? " dash" : ""}" style="--c:${t.c}"></i>${t.n}</span>`).join("")}<span><i class="sq"></i>País del monitor</span><span class="hint">☞ Pasá por un país para aislar sus vínculos · clic para abrir la ficha</span>`;
+    const relLeg = `${Object.values(RT).map(t => `<span><i class="sw${t === RT.amb ? " dash" : ""}" style="--c:${t.c}"></i>${t.n}</span>`).join("")}<span><i class="sq"></i>País del monitor</span><span class="hint">${matchMedia("(hover: none)").matches ? "☞ Tocá un país para abrir su ficha" : "☞ Pasá por un país para aislar sus vínculos · clic para abrir la ficha"}</span>`;
     const focLeg = `${Object.values(EV).map(t => `<span><i class="dot" style="--c:${t.c}"></i>${t.n}</span>`).join("")}`;
     legend.innerHTML = relLeg;
 
@@ -247,7 +248,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   }
 
   // ================= FICHA DE PAÍS =================
-  const SECS = [["resumen", "Resumen"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["doctrina", "Doctrina y poder"], ["fallas", "Aciertos, fallas y falsas banderas"], ["practicas", "Qué hacen y a quién espían"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["dinero", "Dinero y coberturas"], ["proxies", "Organizaciones proxy"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
+  const SECS = [["resumen", "Resumen"], ["doctrina", "Doctrina y poder"], ["organigrama", "Organigrama"], ["legal", "Marco legal"], ["mapa", "Mapa"], ["cronologia", "Cronología"], ["casos", "Casos"], ["fallas", "Aciertos y fallas"], ["practicas", "Qué hacen y a quién espían"], ["gente", "Denunciantes, topos y desertores"], ["filtraciones", "Filtraciones, ocultamientos y desinformación"], ["dinero", "Dinero y coberturas"], ["proxies", "Organizaciones proxy"], ["relaciones", "Relaciones"], ["poder", "Luchas de poder"], ["fuentes", "Fuentes"]];
 
   function renderCountry(p) {
     const f = FICHAS[p.id];
@@ -375,6 +376,13 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
         <ol class="sources">${f.sources.map(s => `<li><a href="${esc(s.u)}" ${s.u.startsWith("http") ? 'target="_blank" rel="noopener"' : ""}>${esc(s.t)}</a></li>`).join("")}</ol>
       </section>`;
 
+    // secciones plegables en pantallas angostas
+    if (matchMedia("(max-width: 760px)").matches) app.querySelectorAll("section.block").forEach(sec => {
+      if (sec.id === "sec-resumen") return;
+      sec.classList.add("fold"); const h = sec.querySelector("h2"); h.tabIndex = 0; h.setAttribute("role", "button"); h.setAttribute("aria-expanded", "false");
+      const t = () => { const o = sec.classList.toggle("open"); h.setAttribute("aria-expanded", String(o)); };
+      h.addEventListener("click", t); h.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); t(); } });
+    });
     // subnavegación
     const links = [...app.querySelectorAll(".subnav a")];
     links.forEach(a => a.addEventListener("click", e => { e.preventDefault(); history.replaceState(null, "", `#p-${p.id}/${a.dataset.sec}`); goDeep(a.dataset.sec); }));

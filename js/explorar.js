@@ -9,25 +9,27 @@
   const es = n => window.esName(n);
 
   ME.EXPLORE = [
-    { id: "poder", k: "Esquema", n: "Quién manda", x: "La jerarquía real entre servicios: quién decide solo, quién depende de quién y quién manda adentro." },
-    { id: "bloques", k: "Mapa", n: "Bloques de inteligencia", x: "El mundo dividido en cinco: occidental, euroasiático, autónomos, neutrales y zonas abiertas." },
-    { id: "alianzas", k: "Mapa", n: "Alianzas de inteligencia", x: "Cinco Ojos, Catorce Ojos, Club de Berna, OTAN y Shanghái." },
-    { id: "infraestructura", k: "Mapa", n: "Infraestructura de vigilancia", x: "Estaciones de escucha, satélites, bases y cables." },
-    { id: "software-espia", k: "Mapa", n: "Mercado del software espía", x: "Proveedores, herramientas y a quién le venden." },
-    { id: "expulsiones", k: "Mapa", n: "Expulsiones y canjes", x: "Diplomáticos expulsados y espías canjeados, año por año." },
-    { id: "personas", k: "Red", n: "Personas", x: "Topos, desertores, agentes dobles y directores." },
-    { id: "practicas", k: "Tabla", n: "Qué hace cada servicio", x: "A quién espían y si hay casos de extorsión, asesinatos, tortura, armas o asistencia." },
-    { id: "asesinatos", k: "Mapa", n: "Asesinatos y secuestros", x: "Operaciones con muertos o capturas atribuidas a cada servicio, con su nivel de evidencia." },
-    { id: "filtraciones", k: "Tabla", n: "Filtraciones y secretos", x: "Filtraciones, denunciantes, robos de información, ocultamientos y desinformación." },
-    { id: "control", k: "Gráfico", n: "Poder y control", x: "La capacidad de cada servicio frente a si sus abusos tuvieron consecuencias." },
-    { id: "mitos", k: "Lista", n: "Mitos y denuncias sin pruebas", x: "Teorías conspirativas, de dónde salieron y qué las desmiente; denuncias que esperan pruebas." },
-    { id: "jefes", k: "Línea de tiempo", n: "Espías que llegaron al poder", x: "Jefes de inteligencia que después gobernaron o mandaron desde las sombras." },
-    { id: "comparar", k: "Herramienta", n: "Comparar dos países", x: "Poder, leyes, casos y relación, cara a cara." },
-    { id: "cronologia", k: "Línea de tiempo", n: "Cronología global", x: "Un carril por país en la misma línea de tiempo." },
-    { id: "archivo", k: "Documentos", n: "Archivo desclasificado", x: "Fondos documentales y documentos de cada caso." }
+    { id: "poder", g: "El mapa del poder", k: "Esquema", n: "Quién manda", x: "La jerarquía real entre servicios: quién decide solo, quién depende de quién y quién manda adentro." },
+    { id: "bloques", g: "El mapa del poder", k: "Mapa", n: "Bloques de inteligencia", x: "El mundo dividido en cinco: occidental, euroasiático, autónomos, neutrales y zonas abiertas." },
+    { id: "alianzas", g: "El mapa del poder", k: "Mapa", n: "Alianzas de inteligencia", x: "Cinco Ojos, Catorce Ojos, Club de Berna, OTAN y Shanghái." },
+    { id: "infraestructura", g: "Operaciones", k: "Mapa", n: "Infraestructura de vigilancia", x: "Estaciones de escucha, satélites, bases y cables." },
+    { id: "software-espia", g: "Operaciones", k: "Mapa", n: "Mercado del software espía", x: "Proveedores, herramientas y a quién le venden." },
+    { id: "expulsiones", g: "Operaciones", k: "Mapa", n: "Expulsiones y canjes", x: "Diplomáticos expulsados y espías canjeados, año por año." },
+    { id: "personas", g: "Personas y secretos", k: "Red", n: "Personas", x: "Topos, desertores, agentes dobles y directores." },
+    { id: "practicas", g: "El mapa del poder", k: "Tabla", n: "Qué hace cada servicio", x: "A quién espían y si hay casos de extorsión, asesinatos, tortura, armas o asistencia." },
+    { id: "asesinatos", g: "Operaciones", k: "Mapa", n: "Asesinatos y secuestros", x: "Operaciones con muertos o capturas atribuidas a cada servicio, con su nivel de evidencia." },
+    { id: "filtraciones", g: "Personas y secretos", k: "Tabla", n: "Filtraciones y secretos", x: "Filtraciones, denunciantes, robos de información, ocultamientos y desinformación." },
+    { id: "control", g: "El mapa del poder", k: "Gráfico", n: "Poder y control", x: "La capacidad de cada servicio frente a si sus abusos tuvieron consecuencias." },
+    { id: "mitos", g: "Personas y secretos", k: "Lista", n: "Mitos y denuncias sin pruebas", x: "Teorías conspirativas, de dónde salieron y qué las desmiente; denuncias que esperan pruebas." },
+    { id: "jefes", g: "Personas y secretos", k: "Línea de tiempo", n: "Espías que llegaron al poder", x: "Jefes de inteligencia que después gobernaron o mandaron desde las sombras." },
+    { id: "comparar", g: "Herramientas y archivo", k: "Herramienta", n: "Comparar dos países", x: "Poder, leyes, casos y relación, cara a cara." },
+    { id: "cronologia", g: "Herramientas y archivo", k: "Línea de tiempo", n: "Cronología global", x: "Un carril por país en la misma línea de tiempo." },
+    { id: "archivo", g: "Herramientas y archivo", k: "Documentos", n: "Archivo desclasificado", x: "Fondos documentales y documentos de cada caso." }
   ];
   const menu2 = document.getElementById("navMenu2");
-  if (menu2) menu2.innerHTML = ME.EXPLORE.map(e => `<a href="#${e.id}">${esc(e.n)}<span>${esc(e.k)}</span></a>`).join("");
+  const GORD = ["El mapa del poder", "Operaciones", "Personas y secretos", "Herramientas y archivo"];
+  ME.EXPLORE.sort((a, b) => GORD.indexOf(a.g) - GORD.indexOf(b.g));
+  if (menu2) menu2.innerHTML = GORD.map(g => `<h4>${esc(g)}</h4>` + ME.EXPLORE.filter(e => e.g === g).map(e => `<a href="#${e.id}">${esc(e.n)}<span>${esc(e.k)}</span></a>`).join("")).join("");
 
   // ---------- piezas comunes ----------
   const head = (t, sub, sample) => `<div class="x-head"><a class="back" href="#inicio">← Volver al panorama</a>
@@ -109,7 +111,9 @@
     const RC = { patrocina: "var(--red)", usa: "#4fa3ff", doble: "#c084fc" };
     app.innerHTML = head("Quién manda", "Una lectura editorial de la jerarquía real entre servicios de inteligencia. La fila indica la autonomía: si el servicio decide solo o si, en lo estratégico, sigue a otro. El tamaño del punto es su capacidad, según el puntaje de cada ficha. Las líneas grises marcan de quién depende cada uno.") + `
       <div class="chips" id="pwChips"><button type="button" class="chip on" data-r="1">Alianzas y enfrentamientos</button><button type="button" class="chip" data-r="0">Sólo dependencias</button><span class="chip-sep" aria-hidden="true"></span><button type="button" class="chip" data-p="hoy">Proxies activos</button><button type="button" class="chip" data-p="todos">Proxies activos e históricos</button><button type="button" class="chip" data-p="no">Sin proxies</button></div>
-      <div class="mapbox"><div class="map-split"><div class="pw-stage"><svg id="pwSvg" viewBox="0 0 ${VW} ${VH}" role="img" aria-label="Esquema de jerarquía entre servicios"></svg></div><aside class="map-side" id="pwSide"></aside></div>
+      <div class="pw-list" aria-label="Quién manda, en lista">${P.niveles.map(nv => `<div class="pw-lv"><h3>${nv.n} · ${esc(nv.h)}</h3><p class="muted">${esc(nv.x)}</p>${Object.entries(P.paises).filter(([, v]) => v.n === nv.n).sort((a, b) => cap(b[0]) - cap(a[0])).map(([id, v]) => `<a class="pw-it" href="#p-${id}"><b>${esc(byId[id].name)}</b><span class="cap">${cap(id)}/30</span>${v.dep ? `<span class="dep">depende de ${v.dep.map(d => esc(byId[d].name)).join(" y ")}</span>` : ""}<p>${esc(v.x)}</p></a>`).join("")}</div>`).join("")}
+        <div class="pw-lv"><h3>5 · Proxies</h3><p class="muted">Organizaciones que un servicio creó, financió o usó. Sólo las más importantes.</p>${Object.values(PX).sort((a, b) => b.hoy - a.hoy).map(o => `<div class="pw-it"><b>${esc(o.s)}</b>${o.hoy ? `<span class="cap">activo</span>` : ""}<span class="dep">${o.sp.map(x => esc(byId[x.c].name) + " (" + esc(window.PROXY_ROLES[x.rol].n.toLowerCase()) + ")").join(", ")}</span></div>`).join("")}</div></div>
+      <div class="mapbox pw-graph"><div class="map-split"><div class="pw-stage"><svg id="pwSvg" viewBox="0 0 ${VW} ${VH}" role="img" aria-label="Esquema de jerarquía entre servicios"></svg></div><aside class="map-side" id="pwSide"></aside></div>
       <div class="legend">${B.defs.filter(d => d.id !== "abi").map(d => `<span><i class="dot" style="--c:${d.c}"></i>${esc(d.n)}</span>`).join("")}<span><i class="sw" style="--c:var(--muted)"></i>Depende de</span><span><i class="sw" style="--c:var(--ph)"></i>Cooperación</span><span><i class="sw dash" style="--c:var(--red)"></i>Enfrentamiento</span><span><i class="pw-sq"></i>Proxy (nivel 5): el color del rombo es el tipo; el de la línea, el papel (rojo lo financia o arma · azul lo usa · violeta doble juego). Rombo hueco = sólo histórico</span></div></div>`;
     const draw = () => {
       app.querySelectorAll("#pwChips .chip[data-r]").forEach(b => b.classList.toggle("on", +b.dataset.r === +showRel));
@@ -312,9 +316,9 @@
       return `<tr><td class="c"><a href="#p-${p.id}">${esc(p.name)}</a>${f.sample ? ` <span class="muted" style="font-size:11px">(sin cargar)</span>` : ""}</td>${PR.map(m => {
         const v = f.sample ? null : f.practicas?.[m.k]; if (!v) return `<td><span class="cell na" title="Sin cargar"></span></td>`;
         const E = v.ev ? EVI[v.ev] : NONE;
-        return `<td><span class="cell${v.ev ? "" : " none"}" style="--c:${E.c}" title="${esc(p.name)} · ${esc(m.n)}: ${esc(E.n)}. ${esc(v.x)}"></span></td>`; }).join("")}</tr>`; }).join("");
-    app.innerHTML = head("Qué hace cada servicio", "A quién espía cada país y si hay casos documentados de extorsión, asesinatos, tortura y secuestros, o de armas, inteligencia, tecnología y entrenamiento dados a otros. El color es el nivel de evidencia del caso más firme; pasá el cursor por una celda para leer el resumen y entrá a la ficha para ver la fuente.", false) + `
-      <div class="pm-leg">${[1, 2, 3, 4].map(e => `<span style="--c:${EVI[e].c}"><i></i>${EVI[e].n}</span>`).join("")}<span><i style="background:transparent;border:1px dashed #2b4033"></i>Sin casos documentados</span><span><i style="background:transparent;border:1px solid #1a2a20"></i>Sin cargar</span></div>
+        return `<td><a class="cell${v.ev ? "" : " none"}" href="#p-${p.id}/practicas" style="--c:${E.c}" title="${esc(p.name)} · ${esc(m.n)}: ${esc(E.n)}. ${esc(v.x)}" aria-label="${esc(m.n)}: ${esc(E.n)}">${v.ev || ""}</a></td>`; }).join("")}</tr>`; }).join("");
+    app.innerHTML = head("Qué hace cada servicio", "A quién espía cada país y si hay casos documentados de extorsión, asesinatos, tortura y secuestros, o de armas, inteligencia, tecnología y entrenamiento dados a otros. El color es el nivel de evidencia del caso más firme; el número repite el nivel. Pasá el cursor por una celda para leer el resumen, o tocala para ir a la ficha y ver la fuente.", false) + `
+      <div class="pm-leg">${[1, 2, 3, 4].map(e => `<span style="--c:${EVI[e].c}"><i class="n">${e}</i>${EVI[e].n}</span>`).join("")}<span><i style="background:transparent;border:1px dashed #2b4033"></i>Sin casos documentados</span><span><i style="background:transparent;border:1px solid #1a2a20"></i>Sin cargar</span></div>
       <div class="pm-wrap"><table class="pm"><thead>
         <tr><th></th>${groups.map(g => `<th class="g" colspan="${PR.filter(x => x.g === g).length}">${esc(g)}</th>`).join("")}</tr>
         <tr><th></th>${PR.map(m => `<th title="${esc(m.x)}">${esc(m.n)}</th>`).join("")}</tr></thead>
