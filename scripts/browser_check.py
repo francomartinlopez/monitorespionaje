@@ -4,7 +4,7 @@ import asyncio, sys
 from playwright.async_api import async_playwright
 
 ROUTES = ["inicio", "metodologia", "poder", "bloques", "alianzas", "infraestructura", "software-espia", "expulsiones", "asesinatos", "filtraciones", "control", "mitos", "jefes",
-          "personas", "comparar/us/cn", "cronologia", "archivo", "como-funciona"]
+          "personas", "comparar/us/cn", "buscar/nisman", "p-ar/casos/2", "cronologia", "archivo", "como-funciona"]
 
 async def main(root, extra):
     async with async_playwright() as p:

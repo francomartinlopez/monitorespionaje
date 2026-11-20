@@ -657,3 +657,35 @@ a:hover .lane-l { fill: var(--ph); }
 .jf-path { display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; }
 .jf-path span { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 2px 8px; font-size: 13px; color: var(--text); }
 .jf-path em { font-style: normal; color: var(--c); }
+
+/* Alertas: enlaces a la ficha y a la fuente */
+.alert h3 a { color: inherit; }
+.alert h3 a:hover { color: var(--ph); }
+.alert .go { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+.alert .go a { color: var(--ph); }
+.alert .go a.src { color: var(--soft); text-transform: none; letter-spacing: 0; font-family: var(--f-ui); }
+a.src { color: var(--soft); text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: 2px; }
+a.src:hover { color: var(--ph); }
+/* Enlace a un caso */
+.lnk { margin-left: auto; background: none; border: 1px solid var(--line-2); color: var(--muted); font: 500 10.5px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; padding: 5px 8px; border-radius: 3px; cursor: pointer; }
+.lnk:hover, .lnk:focus-visible { color: var(--ph); border-color: var(--ph); }
+.flash { animation: flash 2.2s ease-out; }
+@keyframes flash { 0%, 30% { box-shadow: 0 0 0 2px var(--ph), 0 0 24px rgba(106,245,154,.35); } 100% { box-shadow: none; } }
+/* Buscador */
+.nav-search { border: 1px solid var(--line-2); }
+.search-big { display: flex; gap: 8px; margin: 6px 0 14px; max-width: 760px; }
+.search-big input { flex: 1; min-width: 0; background: var(--surface); border: 1px solid var(--line-2); color: var(--text-hi); font: 16px var(--f-ui); padding: 12px 14px; border-radius: var(--r); }
+.search-big input:focus { outline: 2px solid var(--ph); outline-offset: 1px; }
+.s-res { display: grid; gap: 8px; margin-top: 12px; }
+.s-it { display: block; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px; color: var(--text); }
+.s-it:hover, .s-it:focus-visible { border-color: var(--ph); color: var(--text); }
+.s-it .d { font: 500 11px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.s-it b { display: block; font-size: 15.5px; color: var(--text-hi); margin: 3px 0; }
+.s-it p { margin: 0; font-size: 13.5px; color: var(--soft); }
+mark { background: rgba(255,210,63,.25); color: var(--text-hi); padding: 0 1px; border-radius: 2px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+/* Metodología */
+.m-toc { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 6px; }
+.m-toc a { border: 1px solid var(--line-2); border-radius: 3px; padding: 6px 10px; font-size: 13px; color: var(--soft); }
+.m-toc a:hover { color: var(--ph); border-color: var(--ph); }
+.method .law ul { margin: 6px 0; padding-left: 18px; }

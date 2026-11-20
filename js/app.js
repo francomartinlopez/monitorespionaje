@@ -71,11 +71,12 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     const box = document.getElementById("alerts");
     const al = [...window.ALERTS].sort((a, b) => b.level - a.level || b.date.localeCompare(a.date));
     box.innerHTML = `<div class="wrap alerts-in">
-      <div class="sec-head"><h2><span class="live"></span>Alertas activas · ${al.length}</h2><span>Operaciones, capturas, expulsiones y filtraciones de los últimos días</span></div>
-      <div class="alert-grid">${al.map(a => `<a class="alert" href="#p-${a.target}" style="--lv:${window.LV[a.level]}">
-        <div class="meta"><span class="pill">${a.level ? `Nivel ${a.level}` : "Resuelto"}</span><span>${esc(a.tag)}</span><span>· ${fmt(a.date)}</span>${a.st ? `<span>· ${esc(a.st)}</span>` : ""}${sampleTag(a.sample)}</div>
+      <div class="sec-head"><h2><span class="live"></span>Alertas · ${al.length}</h2><span>Hechos de las últimas semanas, renovados cada lunes. Las que ya se cerraron figuran como resueltas.</span></div>
+      <div class="alert-grid">${al.map(a => `<article class="alert" style="--lv:${window.LV[a.level]}">
+        <div class="meta"><span class="pill">${a.level ? `Nivel ${a.level}` : "Resuelto"}</span><span>${esc(a.tag)}</span><span>· ${fmt(a.date)}</span>${sampleTag(a.sample)}</div>
         <div class="where">${esc(a.countries.join(" · "))}</div>
-        <h3>${esc(a.title)}</h3><p>${esc(a.text)}</p><span class="go">Ver la ficha →</span></a>`).join("")}</div></div>`;
+        <h3><a href="#p-${a.target}">${esc(a.title)}</a></h3><p>${esc(a.text)}</p>
+        <div class="go"><a href="#p-${a.target}">Ver la ficha →</a>${a.u ? `<a class="src" href="${esc(a.u)}" target="_blank" rel="noopener">${esc(a.st || "Fuente")} ↗</a>` : ""}</div></article>`).join("")}</div></div>`;
   }
 
   // ---------- router ----------
@@ -90,7 +91,8 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     document.querySelectorAll(".mainnav > a").forEach(a => a.classList.toggle("on", a.dataset.nav === (h.startsWith("p-") ? "" : h)));
     document.querySelectorAll(".navdrop-menu").forEach(m => m.hidden = true);
     const ext = window.ME.ROUTES[h.split("/")[0]];
-    if (h.startsWith("p-") && byId[h.slice(2)]) { renderCountry(byId[h.slice(2)]); current = "country"; }
+    const [h0, ...deep] = h.split("/");
+    if (h0.startsWith("p-") && byId[h0.slice(2)]) { renderCountry(byId[h0.slice(2)]); current = "country"; }
     else if (h === "metodologia") { renderMethod(); current = "method"; }
     else if (h === "como-funciona") { renderHome(); current = "home"; document.getElementById("alerts").hidden = false; document.querySelectorAll(".mainnav > a").forEach(a => a.classList.toggle("on", a.dataset.nav === "como-funciona")); requestAnimationFrame(() => document.getElementById("homeComo")?.scrollIntoView({ block: "start" })); return; }
     else if (ext) { const r = ext.render(h.split("/").slice(1)); if (typeof r === "function") cleanup = r; current = "ext"; document.title = ext.title + " · Monitor de Espionaje"; }
@@ -98,9 +100,27 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     document.getElementById("alerts").hidden = current !== "home";
     if (current === "home") { scrollTo(0, first ? 0 : homeScroll); return; }
     scrollTo(0, 0);
-    if (current !== "ext") document.title = current === "country" ? `${byId[h.slice(2)].name} · Monitor de Espionaje` : "Metodología · Monitor de Espionaje";
+    if (current !== "ext") document.title = current === "country" ? `${byId[h0.slice(2)].name} · Monitor de Espionaje` : "Metodología · Monitor de Espionaje";
+    if (current === "country" && deep[0]) requestAnimationFrame(() => goDeep(deep[0], deep[1]));
   }
   addEventListener("hashchange", route);
+  // lleva a una sección de la ficha y, si hay número, al caso o hecho y lo resalta
+  function goDeep(sec, n) {
+    const block = document.getElementById("sec-" + sec); if (!block) return;
+    const det = block.closest("details"); if (det) det.open = true;
+    const it = n != null ? document.getElementById(`it-${sec}-${n}`) : null;
+    (it || block).scrollIntoView({ block: "start" });
+    if (it) { it.classList.add("flash"); setTimeout(() => it.classList.remove("flash"), 2200); }
+  }
+  // botones "copiar enlace"
+  document.addEventListener("click", e => {
+    const b = e.target.closest(".lnk"); if (!b) return;
+    const url = location.href.split("#")[0] + b.dataset.href;
+    const ok = () => { b.textContent = "Copiado ✓"; setTimeout(() => b.textContent = "Enlace", 1600); };
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(ok, () => { location.hash = b.dataset.href; }); else location.hash = b.dataset.href;
+  });
+  const lnk = (p, sec, i) => `<button type="button" class="lnk" data-href="#p-${p}/${sec}/${i}" aria-label="Copiar enlace a este caso">Enlace</button>`;
+  const src = x => x.u ? `<dt>Fuente</dt><dd><a href="${esc(x.u)}" ${String(x.u).startsWith("http") ? 'target="_blank" rel="noopener"' : ""}>${esc(x.st || "Fuente")} ↗</a></dd>` : "";
 
   // ================= PORTADA =================
   function renderHome() {
@@ -357,7 +377,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
 
     // subnavegación
     const links = [...app.querySelectorAll(".subnav a")];
-    links.forEach(a => a.addEventListener("click", e => { e.preventDefault(); document.getElementById("sec-" + a.dataset.sec).scrollIntoView({ behavior: "smooth" }); }));
+    links.forEach(a => a.addEventListener("click", e => { e.preventDefault(); history.replaceState(null, "", `#p-${p.id}/${a.dataset.sec}`); goDeep(a.dataset.sec); }));
     const io = new IntersectionObserver(ents => ents.forEach(en => { if (en.isIntersecting) links.forEach(a => a.classList.toggle("on", "sec-" + a.dataset.sec === en.target.id)); }), { rootMargin: "-140px 0px -60% 0px" });
     app.querySelectorAll("section.block").forEach(s => io.observe(s));
 
@@ -370,11 +390,11 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       app.querySelector("#rightsDetail").innerHTML = `<span class="mono" style="color:${r.dir === "amplia" ? "var(--orange)" : "var(--ph)"}">${esc(r.d)} · ${r.dir === "amplia" ? "Amplió la vigilancia" : "Agregó controles"} · ${esc(r.area)}</span><br><b>${esc(r.h)}</b> — ${esc(r.x)}`;
     }));
     // casos
-    drawCases(f);
-    drawFailures(f);
-    drawKinds(f.insiders, "px", PX_KIND, PX_DIR, x => `${x.cargo ? `<dt>Dónde estaba</dt><dd>${esc(x.cargo)}</dd>` : ""}${x.hacia ? `<dt>A quién</dt><dd>${esc(x.hacia)}</dd>` : ""}${x.fin ? `<dt>Qué pasó</dt><dd>${esc(x.fin)}</dd>` : ""}`);
-    drawKinds(f.leaks, "lk", LK_KIND, LK_ROL, x => `${x.aquien ? `<dt>A quién se ocultó</dt><dd>${esc(x.aquien)}</dd>` : ""}${x.como ? `<dt>Cómo salió a la luz</dt><dd>${esc(x.como)}</dd>` : ""}${x.obj ? `<dt>Objetivo o efecto</dt><dd>${esc(x.obj)}</dd>` : ""}`);
-    drawKinds(f.fondos, "fd", FD_KIND, LK_ROL, x => `${x.monto ? `<dt>Monto</dt><dd>${esc(x.monto)}</dd>` : ""}${x.obj ? `<dt>Para qué</dt><dd>${esc(x.obj)}</dd>` : ""}`);
+    drawCases(f, p.id);
+    drawFailures(f, p.id);
+    drawKinds(f.insiders, "px", p.id, "gente", PX_KIND, PX_DIR, x => `${x.cargo ? `<dt>Dónde estaba</dt><dd>${esc(x.cargo)}</dd>` : ""}${x.hacia ? `<dt>A quién</dt><dd>${esc(x.hacia)}</dd>` : ""}${x.fin ? `<dt>Qué pasó</dt><dd>${esc(x.fin)}</dd>` : ""}`);
+    drawKinds(f.leaks, "lk", p.id, "filtraciones", LK_KIND, LK_ROL, x => `${x.aquien ? `<dt>A quién se ocultó</dt><dd>${esc(x.aquien)}</dd>` : ""}${x.como ? `<dt>Cómo salió a la luz</dt><dd>${esc(x.como)}</dd>` : ""}${x.obj ? `<dt>Objetivo o efecto</dt><dd>${esc(x.obj)}</dd>` : ""}`);
+    drawKinds(f.fondos, "fd", p.id, "dinero", FD_KIND, LK_ROL, x => `${x.monto ? `<dt>Monto</dt><dd>${esc(x.monto)}</dd>` : ""}${x.obj ? `<dt>Para qué</dt><dd>${esc(x.obj)}</dd>` : ""}`);
     // mapa con línea de tiempo
     const m = OpMap(document.getElementById("opMap"), p, f);
     cleanup = () => { io.disconnect(); m.destroy(); };
@@ -429,7 +449,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       <div class="rights-detail" id="rightsDetail">Tocá un hito para ver qué ley, fallo, programa o reforma fue y qué derecho tocó.</div></div>`;
   }
 
-  function drawCases(f) {
+  function drawCases(f, pid) {
     const chips = document.getElementById("caseChips"), list = document.getElementById("caseList");
     let filt = "all", onlyIl = false;
     const n = k => f.cases.filter(c => c.ev === +k).length;
@@ -437,10 +457,11 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
     const draw = () => {
       const cs = f.cases.filter(c => (filt === "all" || c.ev === +filt) && (!onlyIl || c.ilegal));
       list.innerHTML = cs.map(c => { const e = EVI[c.ev];
-        return `<article class="case${c.ev === 4 ? " consp" : ""}" style="--c:${e.c}">
-          <div class="meta"><span class="ev">${e.n}</span><span>${esc(c.d)}</span>${c.ilegal ? `<span class="ilegal">Ilegal</span>` : ""}${c.ev === 4 ? `<span class="stamp-nv">No verificado</span>` : ""}</div>
+        const i = f.cases.indexOf(c);
+        return `<article class="case${c.ev === 4 ? " consp" : ""}" id="it-casos-${i}" style="--c:${e.c}">
+          <div class="meta"><span class="ev">${e.n}</span><span>${esc(c.d)}</span>${c.ilegal ? `<span class="ilegal">Ilegal</span>` : ""}${c.ev === 4 ? `<span class="stamp-nv">No verificado</span>` : ""}${lnk(pid, "casos", i)}</div>
           <h4>${esc(c.h)}</h4><p>${esc(c.x)}</p>
-          <dl><dt>Lo afirma</dt><dd>${esc(c.who)}</dd>${c.missing ? `<dt>Qué falta</dt><dd>${esc(c.missing)}</dd>` : ""}${c.debunk ? `<dt>Qué la desmiente</dt><dd>${esc(c.debunk)}</dd>` : ""}</dl></article>`; }).join("") || `<p class="muted">No hay casos con ese filtro.</p>`;
+          <dl><dt>Lo afirma</dt><dd>${esc(c.who)}</dd>${c.missing ? `<dt>Qué falta</dt><dd>${esc(c.missing)}</dd>` : ""}${c.debunk ? `<dt>Qué la desmiente</dt><dd>${esc(c.debunk)}</dd>` : ""}${src(c)}</dl></article>`; }).join("") || `<p class="muted">No hay casos con ese filtro.</p>`;
     };
     chips.querySelectorAll("[data-k]").forEach(b => b.addEventListener("click", () => { filt = b.dataset.k; chips.querySelectorAll("[data-k]").forEach(x => x.classList.toggle("on", x === b)); draw(); }));
     chips.querySelector("[data-il]").addEventListener("click", e => { onlyIl = !onlyIl; e.currentTarget.classList.toggle("on", onlyIl); e.currentTarget.setAttribute("aria-pressed", String(onlyIl)); draw(); });
@@ -459,7 +480,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   }
   const FL_KIND = { falla: { n: "Falla de inteligencia", c: "var(--cyan)" }, acierto: { n: "Acierto de inteligencia", c: "var(--ph)" }, omision: { n: "Omisión o encubrimiento", c: "var(--amber)" }, falsa: { n: "Falsa bandera", c: "var(--violet)" } };
   const FL_WEIGHT = { 3: "Abundante", 2: "Parcial", 1: "Escasa" };
-  function drawFailures(f) {
+  function drawFailures(f, pid) {
     const chips = document.getElementById("flChips"), list = document.getElementById("flList"), F = f.failures || [];
     if (!F.length) { chips.innerHTML = ""; list.innerHTML = `<p class="muted">Sin datos cargados todavía.</p>`; return; }
     let kind = "all", ev = "all";
@@ -468,11 +489,11 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       <span class="chip-sep" aria-hidden="true"></span>${[1, 2, 3, 4].map(e => `<button type="button" class="chip" data-e="${e}" aria-pressed="false" style="--c:${EVI[e].c}"><i></i>${EVI[e].n}</button>`).join("")}`;
     const draw = () => {
       const L = F.filter(x => (kind === "all" || x.k === kind) && (ev === "all" || x.ev === +ev)).sort((a, b) => String(a.d).localeCompare(String(b.d)));
-      list.innerHTML = L.map(x => { const K = FL_KIND[x.k], E = EVI[x.ev];
-        return `<article class="fl" style="--k:${K.c};--c:${E.c}">
+      list.innerHTML = L.map(x => { const K = FL_KIND[x.k], E = EVI[x.ev], i = F.indexOf(x);
+        return `<article class="fl" id="it-fallas-${i}" style="--k:${K.c};--c:${E.c}">
           <div class="fl-d">${esc(x.d)}</div>
           <div class="fl-b${x.ev === 4 ? " consp" : ""}">
-            <div class="meta"><span class="kind">${K.n}</span><span class="evtag" style="--c:${E.c}">${E.n}</span>${x.ev === 4 ? `<span class="stamp-nv">No verificado</span>` : ""}</div>
+            <div class="meta"><span class="kind">${K.n}</span><span class="evtag" style="--c:${E.c}">${E.n}</span>${x.ev === 4 ? `<span class="stamp-nv">No verificado</span>` : ""}${lnk(pid, "fallas", i)}</div>
             <h4>${esc(x.h)}</h4><p>${esc(x.x)}</p>
             <dl><dt>¿En duda?</dt><dd>${esc(x.why)}</dd>
               <dt>Evidencia</dt><dd><span class="wbar" aria-label="${FL_WEIGHT[x.w]}">${[1, 2, 3].map(i => `<i class="${i <= x.w ? "on" : ""}"></i>`).join("")}</span> ${FL_WEIGHT[x.w]}${x.wx ? ` · ${esc(x.wx)}` : ""}</dd>
@@ -491,7 +512,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
   const LK_ROL = { autor: "Lo hizo", blanco: "Lo sufrió" };
   const FD_KIND = { presupuesto: { n: "Presupuesto", c: "var(--cyan)" }, fachada: { n: "Empresa de fachada", c: "var(--violet)" }, banco: { n: "Bancos y finanzas", c: "var(--blue)" }, crimen: { n: "Crimen organizado", c: "var(--magenta)" }, cobertura: { n: "ONG y cobertura", c: "var(--amber-lo)" }, desvio: { n: "Desvío o uso indebido", c: "var(--red)" } };
   // lista cronológica con filtros por tipo y por dirección (sirve para personas y para filtraciones)
-  function drawKinds(items, pre, KIND, DIR, extra) {
+  function drawKinds(items, pre, pid, sec, KIND, DIR, extra) {
     const chips = document.getElementById(pre + "Chips"), list = document.getElementById(pre + "List"), F = items || [];
     if (!F.length) { chips.innerHTML = ""; list.innerHTML = `<p class="muted">Sin datos cargados todavía.</p>`; return; }
     let kind = "all", dir = "all";
@@ -500,11 +521,11 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       <span class="chip-sep" aria-hidden="true"></span>${Object.entries(DIR).map(([k, t]) => `<button type="button" class="chip" data-r="${k}" aria-pressed="false">${t} · ${F.filter(x => x[dk] === k).length}</button>`).join("")}`;
     const draw = () => {
       const L = F.filter(x => (kind === "all" || x.k === kind) && (dir === "all" || x[dk] === dir)).sort((a, b) => String(a.d).localeCompare(String(b.d)));
-      list.innerHTML = L.map(x => { const K = KIND[x.k] || { n: x.k, c: "var(--muted)" }, E = EVI[x.ev] || EVI[1];
-        return `<article class="fl" style="--k:${K.c};--c:${E.c}">
+      list.innerHTML = L.map(x => { const K = KIND[x.k] || { n: x.k, c: "var(--muted)" }, E = EVI[x.ev] || EVI[1], i = F.indexOf(x);
+        return `<article class="fl" id="it-${sec}-${i}" style="--k:${K.c};--c:${E.c}">
           <div class="fl-d">${esc(x.d)}</div>
           <div class="fl-b${x.ev === 4 ? " consp" : ""}">
-            <div class="meta"><span class="kind">${K.n}</span><span class="dirtag">${esc(DIR[x[dk]] || "")}</span><span class="evtag" style="--c:${E.c}">${E.n}</span>${x.ev === 4 ? `<span class="stamp-nv">No verificado</span>` : ""}</div>
+            <div class="meta"><span class="kind">${K.n}</span><span class="dirtag">${esc(DIR[x[dk]] || "")}</span><span class="evtag" style="--c:${E.c}">${E.n}</span>${x.ev === 4 ? `<span class="stamp-nv">No verificado</span>` : ""}${lnk(pid, sec, i)}</div>
             <h4>${x.n ? `${esc(x.n)} <small>· ${esc(x.h)}</small>` : esc(x.h)}</h4><p>${esc(x.x)}</p>
             <dl>${extra(x)}<dt>Lo afirma</dt><dd>${esc(x.who)}</dd>
               ${x.u ? `<dt>Fuente</dt><dd><a href="${esc(x.u)}" ${String(x.u).startsWith("http") ? 'target="_blank" rel="noopener"' : ""}>${esc(x.st || "Fuente")}</a></dd>` : ""}</dl>
@@ -597,7 +618,7 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
       const isNow = cur >= end - 864e5;
       $("#opDate").innerHTML = `<b>${fmt(new Date(cur).toISOString().slice(0, 10))}</b>${isNow ? "Hoy · situación actual" : "Hechos hasta esta fecha"}`;
       $("#opCount").textContent = `Hechos hasta la fecha · ${shown.length}`;
-      $("#opList").innerHTML = [...shown].reverse().map((e, k) => `<div class="ev-item${k === 0 ? " fresh" : ""}" style="--c:${EV[e.t].c}"><i></i><div><span class="d">${fmt(e.d)} · ${esc(EV[e.t].n)}</span><b>${esc(e.h)}</b><p>${esc(e.x)}</p></div></div>`).join("") || `<p class="muted" style="font-size:13px">Sin hechos hasta esta fecha.</p>`;
+      $("#opList").innerHTML = [...shown].reverse().map((e, k) => `<div class="ev-item${k === 0 ? " fresh" : ""}" style="--c:${EV[e.t].c}"><i></i><div><span class="d">${fmt(e.d)} · ${esc(EV[e.t].n)}</span><b>${esc(e.h)}</b><p>${esc(e.x)}${e.u ? ` <a class="src" href="${esc(e.u)}" target="_blank" rel="noopener">${esc(e.st || "Fuente")} ↗</a>` : ""}</p></div></div>`).join("") || `<p class="muted" style="font-size:13px">Sin hechos hasta esta fecha.</p>`;
       $("#opDots").querySelectorAll(".ev-dot").forEach(c => { const e = evs[c.dataset.i];
         c.addEventListener("mousemove", ev => showTip(ev, `<b>${esc(e.h)}</b><span class="d">${fmt(e.d)} · ${esc(EV[e.t].n)}</span>`)); c.addEventListener("mouseleave", hideTip); });
     }
@@ -626,28 +647,53 @@ window.ME = window.ME || { ROUTES: {}, EXPLORE: [] };
 
   // ================= METODOLOGÍA =================
   function renderMethod() {
+    const sec = (t, sub) => `<div class="section-title"><h2>${t}</h2>${sub ? `<span>${sub}</span>` : ""}</div>`;
+    const PT = window.PROXY_TIPOS, PR = window.PROXY_ROLES, CU = window.CUENTAS;
     app.innerHTML = `<div class="method">
       <h1>Metodología</h1>
+      <nav class="m-toc" aria-label="Contenido">${[["m-que", "Qué es"], ["m-como", "Cómo se hace"], ["m-ev", "Evidencia"], ["m-poder", "Poder"], ["m-clas", "Clasificaciones"], ["m-alertas", "Alertas"], ["m-lim", "Límites"], ["m-corr", "Correcciones"]].map(([a, b]) => `<a href="#metodologia" data-go="${a}">${b}</a>`).join("")}</nav>
+      <div id="m-que">${sec("Qué es")}</div>
       <div class="prose">
-        <p>El monitor sigue a 60 países: doce del núcleo, dieciséis muy relevantes y treinta y dos relevantes en su región o por una habilidad puntual. Nueva Zelanda entra como parte de la alianza Cinco Ojos, dentro de las fichas de EE.UU. y el Reino Unido.</p>
-        <p>Responsable editorial: Franco Martín López. Todo el contenido está redactado con palabras propias a partir de las fuentes citadas en cada ficha.</p>
-        <p>La actualización es semanal. Las alertas cubren operaciones, capturas, expulsiones y filtraciones de los últimos días; se retiran cuando pasan dos semanas sin novedades.</p>
+        <p>El Monitor de Espionaje describe los servicios de inteligencia de ${PAISES.length} países: qué organismos tienen, qué leyes los rigen, qué operaciones se les atribuyen, qué casos los marcaron y cómo se relacionan entre sí. Doce países forman el núcleo, dieciséis son muy relevantes y treinta y dos son relevantes en su región o por una habilidad puntual. Nueva Zelanda entra como parte de los Cinco Ojos, dentro de las fichas de EE.UU. y el Reino Unido.</p>
+        <p>Responsable editorial: Franco Martín López.</p>
       </div>
-      <div class="section-title"><h2>Escala de evidencia</h2><span>Cómo se clasifica cada caso controvertido</span></div>
+      <div id="m-como">${sec("Cómo se hace", "Fuentes, redacción y actualización")}</div>
+      <div class="prose">
+        <p>Todo sale de fuentes abiertas: fallos judiciales, informes parlamentarios y de comisiones, documentos desclasificados, comunicados oficiales, investigaciones de organizaciones de derechos humanos y de empresas de ciberseguridad, y prensa internacional. Cada hecho, caso, relación y alerta lleva su fuente con enlace. Una parte de los enlaces apunta a artículos de Wikipedia que resumen y citan fuentes primarias; se marcan como "síntesis de fuentes" y se van reemplazando por las fuentes originales.</p>
+        <p>Los textos están redactados con palabras propias, en frases cortas y sin adjetivos de juicio. Cada atribución dice quién la hace: un gobierno, un tribunal, una empresa o un medio. El sitio no atribuye una operación a un Estado si no hay una fuente que lo haga.</p>
+        <p>La investigación, la redacción y la actualización se hacen con asistencia de herramientas de inteligencia artificial, bajo revisión editorial. Un programa controla el formato de todos los datos y que cada dato tenga fuente antes de publicar.</p>
+        <p>La actualización es semanal, los lunes. Se buscan los hechos de la semana en los ${PAISES.length} países, se renuevan las alertas y se siguen las causas abiertas (juicios, investigaciones, extradiciones) hasta que se cierran. Cada cambio queda registrado en el historial del sitio.</p>
+      </div>
+      <div id="m-ev">${sec("Escala de evidencia", "Para casos, fallas, filtraciones, personas, dinero, proxies y prácticas")}</div>
       <div class="ev-scale">${Object.values(EVI).map(e => `<div style="--c:${e.c}"><b>${e.n}</b>${esc(e.x)}</div>`).join("")}</div>
-      <div class="prose"><p>Cada caso dice quién lo afirma (un tribunal, un gobierno, un medio, un ex agente) y qué falta para subir de categoría. Si aparece evidencia nueva, el caso cambia de etiqueta y queda registrado. Las teorías conspirativas se incluyen con borde punteado y el sello "no verificado", junto con su origen y lo que las desmiente.</p></div>
-      <div class="section-title"><h2>Poder por rubro</h2><span>Seis rubros, de 1 a 5</span></div>
+      <div class="prose"><p>Cada caso dice quién lo afirma y qué falta para subir de categoría. Si aparece evidencia nueva, el caso cambia de etiqueta y queda anotado en el historial. Cuando el mismo hecho figura en varias fichas, lleva el mismo nivel en todas. Las teorías conspirativas se muestran con borde punteado y el sello "no verificado", junto con su origen y lo que las desmiente.</p>
+      <p>En la tabla "Qué hace cada servicio", "Sin casos documentados" significa que la ficha no encontró casos públicos, no que se pueda descartar la práctica.</p></div>
+      <div id="m-poder">${sec("Poder por rubro", "Seis rubros, de 1 a 5")}</div>
       <div class="law-grid">${RUBROS.map(r => `<div class="law"><h4>${esc(r.n)} · ${r.s}</h4><p style="margin:0;color:var(--soft);font-size:14px">${esc(r.x)}</p></div>`).join("")}</div>
-      <div class="section-title"><h2>Escala de poder</h2><span>El mismo criterio para los seis rubros; cada valor de una ficha lleva su justificación</span></div>
       <div class="ev-scale">${[5, 4, 3, 2, 1].map(l => `<div style="--c:rgba(106,245,154,${(.25 + l * .15).toFixed(2)})"><b style="color:var(--ph)">${l}</b>${esc(window.POWER_SCALE[l])}</div>`).join("")}</div>
-      <div class="section-title"><h2>Interés estratégico</h2><span>Capa del mapa de operaciones de cada ficha</span></div>
-      <div class="ev-scale">${[3, 2, 1].map(l => `<div style="--c:${["", "#ffd23f", "#ff9433", "#ff4d3d"][l]}"><b>${["", "Bajo", "Medio", "Alto"][l]}</b>${esc(window.INTEREST_SCALE[l])}</div>`).join("")}</div>
-      <div class="prose"><p>La intensidad de operaciones, en cambio, no es editorial: se calcula contando los hechos cargados en cada país hasta la fecha que muestra el mapa.</p></div>
-      <div class="section-title"><h2>Niveles de alerta</h2></div>
-      <div class="ev-scale">${[5, 4, 3, 2, 1].map(l => `<div style="--c:${window.LV[l]}"><b>Nivel ${l} · ${window.LV_LABEL[l]}</b></div>`).join("")}</div>
-      <div class="section-title"><h2>Derechos civiles</h2></div>
-      <div class="prose"><p>Cada país tiene una línea de tiempo con las leyes, fallos, programas revelados y reformas que tocaron la privacidad, las comunicaciones, el debido proceso y la libertad de expresión. Los hitos que ampliaron los poderes de vigilancia van hacia arriba, en naranja; los que agregaron controles van hacia abajo, en verde.</p></div>
+      <div class="prose"><p>Es una estimación editorial basada en presupuesto, personal, tecnología, alcance y resultados conocidos. Cada valor lleva una frase que lo justifica, en "Por qué estos valores" dentro de cada ficha. El poder total suma los seis rubros (de 6 a 30).</p></div>
+      <div id="m-clas">${sec("Clasificaciones editoriales", "Lecturas del monitor, explicadas en cada caso")}</div>
+      <div class="law-grid">
+        <div class="law"><h4>Rendición de cuentas</h4><ul>${[1, 2, 3].map(n => `<li><b style="color:${CU[n].c}">${esc(CU[n].n)}</b></li>`).join("")}</ul><p class="muted" style="font-size:13px">Si los abusos conocidos del servicio tuvieron consecuencias: condenas, reformas o ninguna.</p></div>
+        <div class="law"><h4>Relaciones entre servicios</h4><ul>${Object.values(RT).map(t => `<li><b style="color:${t.c}">${esc(t.n)}</b></li>`).join("")}</ul><p class="muted" style="font-size:13px">Cada vínculo explica por qué tiene esa etiqueta y lleva su fuente.</p></div>
+        <div class="law"><h4>Bloques de inteligencia</h4><p style="font-size:13.5px;color:var(--soft)">Con quién comparte inteligencia cada país de manera estable: occidental, euroasiático, potencias autónomas, neutrales y pendulares, y zonas abiertas. El grado indica si es núcleo, cercano o pendular.</p></div>
+        <div class="law"><h4>Quién manda</h4><p style="font-size:13.5px;color:var(--soft)">Otra pregunta: si el servicio decide solo o sigue a otro en lo estratégico. Polos, independientes, socios integrados y regionales. Un país puede ser de un bloque y, a la vez, depender de otro servicio.</p></div>
+        <div class="law"><h4>Organizaciones proxy</h4><p style="font-size:13.5px;color:var(--soft)">Tipos: ${Object.values(PT).map(t => esc(t.n.toLowerCase())).join(", ")}. Papel del servicio: ${Object.values(PR).map(t => esc(t.n.toLowerCase())).join(", ")}.</p></div>
+        <div class="law"><h4>Interés estratégico</h4><p style="font-size:13.5px;color:var(--soft)">Capa editorial del mapa de cada ficha: hacia dónde mira el servicio según su doctrina. La intensidad de operaciones, en cambio, se calcula contando los hechos cargados.</p></div>
+      </div>
+      <div id="m-alertas">${sec("Alertas")}</div>
+      <div class="ev-scale">${[5, 4, 3, 2, 1, 0].map(l => `<div style="--c:${window.LV[l]}"><b>${l ? `Nivel ${l} · ` : ""}${window.LV_LABEL[l]}</b></div>`).join("")}</div>
+      <div class="prose"><p>Son hechos de las últimas semanas, con fuente. Se renuevan cada lunes y siempre son 4, 8 o 12 para llenar filas completas. Si una alerta sigue en pantalla pero el hecho ya se cerró (una sentencia, una liberación), pasa a "Resuelto". Ninguna alerta debería tener más de tres semanas.</p></div>
+      <div class="prose"><h3 class="sub">Derechos civiles</h3><p>Cada país tiene una línea de tiempo con las leyes, fallos, programas revelados y reformas que tocaron la privacidad, las comunicaciones, el debido proceso y la libertad de expresión. Los hitos que ampliaron la vigilancia van hacia arriba, en naranja; los que agregaron controles van hacia abajo, en verde.</p></div>
+      <div id="m-lim">${sec("Límites")}</div>
+      <div class="prose">
+        <p>Lo que se sabe de un servicio de inteligencia es, por definición, una parte de lo que hace. Los países con prensa libre, tribunales independientes y control parlamentario aparecen con más casos, no necesariamente porque hagan más, sino porque se conoce más. Las fichas de regímenes cerrados dependen de denuncias de exiliados, de gobiernos rivales y de investigaciones técnicas, y por eso tienen más casos en duda.</p>
+        <p>Las atribuciones de ciberataques casi siempre vienen de gobiernos rivales o de empresas privadas. Los puntajes de poder y las clasificaciones de bloques, jerarquía y rendición de cuentas son lecturas editoriales, no mediciones. Las fichas del tercer nivel tienen menos detalle que las del núcleo.</p>
+      </div>
+      <div id="m-corr">${sec("Correcciones")}</div>
+      <div class="prose"><p>Si encontrás un error, un dato viejo o un caso que falta, podés avisar <a href="https://github.com/francomartinlopez/monitorespionaje/issues" target="_blank" rel="noopener">abriendo un aviso en el repositorio del sitio ↗</a>, con la fuente si la tenés. Las correcciones quedan anotadas en el historial.</p></div>
     </div>`;
+    app.querySelectorAll("[data-go]").forEach(a => a.addEventListener("click", e => { e.preventDefault(); document.getElementById(a.dataset.go).scrollIntoView({ block: "start" }); }));
   }
 
   Object.assign(window.ME, { esc, fmt, parseD, sampleTag, showTip, moveTip, hideTip, W, H, BASE, path, pt, arc, FEAT, rings, nodeLabel, byId, app, powerSum });

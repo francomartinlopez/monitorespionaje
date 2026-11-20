@@ -41,6 +41,50 @@
   });
   const monitorNodes = (ids) => PAISES.filter(p => !ids || ids.includes(p.id)).map(p => { const [x, y] = pt(p.center); return `<g class="node" data-id="${p.id}" tabindex="0" role="link" aria-label="${esc(p.name)}">${rings(x, y, .8)}<rect x="${x - 3}" y="${y - 3}" width="6" height="6"/></g>`; }).join("");
 
+  // ================= BUSCADOR =================
+  let IDX = null;
+  const norm = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  function buildIndex() {
+    const L = [], add = (o) => { o.t = norm([o.h, o.x, o.extra].join(" ")); L.push(o); };
+    const SEC = { events: ["mapa", "Hecho"], cases: ["casos", "Caso"], failures: ["fallas", "Acierto o falla"], insiders: ["gente", "Persona"], leaks: ["filtraciones", "Filtración"], fondos: ["dinero", "Dinero"] };
+    PAISES.forEach(p => { const f = FICHAS[p.id]; if (!f) return;
+      add({ k: "País", href: `#p-${p.id}`, h: p.name, x: f.summary[0], d: "", extra: p.agencies.map(a => a.code + " " + a.name).join(" "), pid: p.id });
+      p.agencies.forEach(a => add({ k: "Organismo", href: `#p-${p.id}/organigrama`, h: `${a.code} · ${a.name}`, x: (f.bodies[a.code] || {}).how || "", d: "", pid: p.id }));
+      Object.entries(SEC).forEach(([key, [sec, k]]) => (f[key] || []).forEach((x, i) => add({ k, href: key === "events" ? `#p-${p.id}/mapa` : `#p-${p.id}/${sec}/${i}`, h: x.n ? `${x.n}: ${x.h}` : x.h, x: x.x, d: x.d, extra: x.who || "", pid: p.id })));
+      (f.proxies || []).forEach(x => add({ k: "Organización proxy", href: `#p-${p.id}/proxies`, h: x.n, x: x.x, d: x.d, pid: p.id }));
+      (f.timeline || []).forEach(x => add({ k: "Cronología", href: `#p-${p.id}/cronologia`, h: x.h, x: x.x, d: x.d, pid: p.id }));
+    });
+    (window.PERSONAS || []).forEach(x => add({ k: "Persona", href: "#personas", h: x.n, x: x.x || x.h || "", d: x.d || "" }));
+    (window.JEFES || []).forEach(x => add({ k: "Espía que llegó al poder", href: "#jefes", h: x.n, x: x.x, d: x.d, pid: x.c }));
+    (window.GLOSARIO || []).forEach(g => add({ k: "Glosario", href: "#como-funciona", h: g[0], x: g[1], d: "" }));
+    (window.ALERTS || []).forEach(a => add({ k: "Alerta", href: `#p-${a.target}`, h: a.title, x: a.text, d: a.date, pid: a.target }));
+    return L;
+  }
+  R.buscar = { title: "Buscar", render(args, root) { const app = root || ME.app;
+    IDX = IDX || buildIndex();
+    const q0 = decodeURIComponent(args.join("/") || "");
+    app.innerHTML = head("Buscar", `Casos, hechos, personas, organismos y términos de las ${PAISES.length} fichas y de Explorar. Probá con un nombre, una sigla o un tema: Nisman, Pegasus, Mossad, Nord Stream.`) + `
+      <form class="search-big" id="sForm" role="search"><label for="sQ" class="sr">Buscar en el monitor</label><input type="search" id="sQ" value="${esc(q0)}" placeholder="Buscar…" autocomplete="off"><button type="submit" class="btn primary">Buscar</button></form>
+      <div class="chips" id="sKinds"></div><div id="sRes" class="s-res"></div>`;
+    const inp = document.getElementById("sQ"); let kind = "all";
+    const run = () => {
+      const q = norm(inp.value.trim()), words = q.split(/\s+/).filter(w => w.length > 1);
+      const box = document.getElementById("sRes"), kb = document.getElementById("sKinds");
+      if (!words.length) { box.innerHTML = `<p class="muted">Escribí al menos dos letras.</p>`; kb.innerHTML = ""; return; }
+      const hits = IDX.filter(o => words.every(w => o.t.includes(w))).map(o => ({ o, s: words.reduce((a, w) => a + (norm(o.h).includes(w) ? 3 : 1), 0) })).sort((a, b) => b.s - a.s || String(b.o.d).localeCompare(String(a.o.d)));
+      const kinds = [...new Set(hits.map(h => h.o.k))];
+      kb.innerHTML = `<button type="button" class="chip${kind === "all" ? " on" : ""}" data-k="all">Todo · ${hits.length}</button>` + kinds.map(k => `<button type="button" class="chip${kind === k ? " on" : ""}" data-k="${esc(k)}">${esc(k)} · ${hits.filter(h => h.o.k === k).length}</button>`).join("");
+      kb.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => { kind = b.dataset.k; run(); }));
+      const V = hits.filter(h => kind === "all" || h.o.k === kind).slice(0, 120);
+      const mark = t => { let r = esc(t); words.forEach(w => { r = r.replace(new RegExp("(" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").split("").map(ch => ({ a: "[aáà]", e: "[eéè]", i: "[iíì]", o: "[oóò]", u: "[uúüù]", n: "[nñ]" }[ch] || ch)).join("") + ")", "gi"), "<mark>$1</mark>"); }); return r; };
+      box.innerHTML = V.length ? V.map(({ o }) => `<a class="s-it" href="${o.href}"><span class="d">${esc(o.k)}${o.pid && byId[o.pid] ? " · " + esc(byId[o.pid].name) : ""}${o.d ? " · " + esc(fmt(o.d)) : ""}</span><b>${mark(o.h)}</b><p>${mark(String(o.x).slice(0, 260))}</p></a>`).join("") + (hits.length > 120 ? `<p class="muted">Se muestran 120 de ${hits.length}. Agregá otra palabra para afinar.</p>` : "")
+        : `<p class="muted">Sin resultados para “${esc(inp.value)}”.</p>`;
+    };
+    document.getElementById("sForm").addEventListener("submit", e => { e.preventDefault(); history.replaceState(null, "", "#buscar/" + encodeURIComponent(inp.value.trim())); kind = "all"; run(); });
+    let t; inp.addEventListener("input", () => { clearTimeout(t); t = setTimeout(() => { kind = "all"; run(); }, 180); });
+    run(); if (!root) inp.focus();
+  } };
+
   // ================= QUIÉN MANDA =================
   R.poder = { title: "Quién manda", render(args, root) { const app = root || ME.app;
     const P = window.PODER, B = window.BLOQUES, BD = Object.fromEntries(B.defs.map(d => [d.id, d]));

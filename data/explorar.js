@@ -405,7 +405,7 @@ window.BLOQUES = {
 window.PODER = {
   niveles: [
     { n: 1, h: "Polos", x: "Deciden solos a escala mundial y otros servicios dependen de ellos." },
-    { n: 2, h: "Autónomos", x: "Deciden solos y actúan lejos de sus fronteras. Cooperan con un polo, pero no le responden." },
+    { n: 2, h: "Independientes", x: "Deciden solos y actúan lejos de sus fronteras. Cooperan con un polo, pero no le responden." },
     { n: 3, h: "Socios integrados", x: "Tienen margen en lo propio, pero en lo estratégico siguen a un polo y dependen de su inteligencia." },
     { n: 4, h: "Regionales y neutrales", x: "Su poder se concentra dentro del país o en su región; no forman parte estable de ninguna cadena." }
   ],
