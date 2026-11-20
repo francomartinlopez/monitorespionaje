@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://francomartinlopez.github.io/monitorespionaje/sitemap.xml

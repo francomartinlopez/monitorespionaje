@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-20 · Técnica: las fuentes tipográficas se sirven desde el sitio (sin Google Fonts); una página estática por país (p/<id>.html) con vista previa para redes, más sitemap.xml y robots.txt; el validador controla URLs, fechas futuras, duplicados y páginas al día; GitHub Actions valida cada subida y revisa enlaces cada semana; licencia CC BY 4.0 para textos y datos y MIT para el código.
+
 - 2026-11-20 · Diseño: ficha plegable en celular, alertas en carrusel, tarjetas de países compactas, Quién manda en lista para pantallas angostas, menú de Explorar agrupado, números en la tabla de prácticas, más contraste y letra mínima de 11 px, sello de edición en el pie.
 
 - 2026-11-20 · Las fuentes se ven en cada caso, falla, filtración, hecho del mapa y alerta. Cada caso tiene un enlace propio (#p-<país>/<sección>/<n>) y cada sección de la ficha se puede compartir. Buscador en todo el sitio (#buscar). Metodología reescrita: cómo se hace, todas las escalas y clasificaciones, límites y cómo pedir correcciones. Las alertas se presentan como hechos de las últimas semanas y el validador avisa si alguna supera las tres semanas. El nivel 2 de "Quién manda" pasa a llamarse "Independientes" para no confundirse con el bloque de potencias autónomas.

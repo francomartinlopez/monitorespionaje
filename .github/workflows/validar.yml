@@ -1,0 +1,17 @@
+name: Validar datos
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Formato y fuentes de todas las fichas
+        run: node scripts/validate.js
+      - name: Páginas por país al día
+        run: node scripts/paginas.js --check

@@ -148,6 +148,30 @@ if (![4, 8, 12].includes(ctx.ALERTS.length)) err("alertas", `tiene que haber 4, 
 const upd = Date.parse(ctx.MONITOR_META.updated); ctx.ALERTS.forEach((a, i) => { const age = (upd - Date.parse(a.date)) / 864e5; if (a.level > 0 && age > 21) warn("alertas", `[${i}] "${a.title}" tiene ${Math.round(age)} días: pasala a nivel 0 o reemplazala`); });
 ctx.ALERTS.forEach((a, i) => { if (!ids.has(a.target)) err("alertas", `[${i}] target desconocido`); if (!isDate(a.date)) err("alertas", `[${i}] fecha inválida`); if (![0, 1, 2, 3, 4, 5].includes(a.level)) err("alertas", `[${i}] nivel inválido`); });
 
+// controles generales (revisión del 2026-11-20)
+{
+  const corte = String(ctx.MONITOR_META.updated).slice(0, 10), LISTS = ["events", "cases", "failures", "insiders", "leaks", "fondos", "rights", "timeline"];
+  const mas = (d, n) => { const t = new Date(corte); t.setDate(t.getDate() + n); return t.toISOString().slice(0, 10); };
+  // URLs bien formadas y fechas que no pasen la fecha de corte (con una semana de margen)
+  Object.entries(FICHAS).forEach(([id, f]) => {
+    LISTS.forEach(k => (f[k] || []).forEach((x, i) => {
+      if (x.u && !isUrl(x.u)) err("ficha " + id, `${k}[${i}] URL mal formada "${x.u}"`);
+      if (x.d && isDate(x.d) && String(x.d).length === 10 && x.d > mas(corte, 7)) err("ficha " + id, `${k}[${i}] fecha futura ${x.d}`);
+    }));
+    ["events", "cases", "failures", "insiders", "leaks"].forEach(k => {
+      const seen = new Set();
+      (f[k] || []).forEach((x, i) => { const key = (x.d || "") + "|" + x.h; if (seen.has(key)) warn("ficha " + id, `${k}[${i}] repetido "${x.h}"`); seen.add(key); });
+    });
+    Object.entries(f.practicas || {}).forEach(([k, v]) => { if (v.u && !isUrl(v.u)) err("ficha " + id, `practicas.${k} URL mal formada`); });
+  });
+  // pares de relaciones repetidos
+  const pares = new Set();
+  (ctx.RELACIONES || []).forEach((r, i) => { const a = Array.isArray(r) ? r : [r.a, r.b], k = [a[0], a[1]].sort().join("-"); if (pares.has(k)) err("relaciones", `[${i}] par repetido ${k}`); pares.add(k); });
+  // páginas estáticas por país al día
+  try { execFileSync("node", [path.join(__dirname, "paginas.js"), "--check"], { encoding: "utf8" }); }
+  catch (e) { err("páginas", "p/*.html o sitemap.xml desactualizados: correr node scripts/paginas.js"); }
+}
+
 // navegador
 if (process.argv.includes("--browser")) {
   try {

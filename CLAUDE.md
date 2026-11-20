@@ -59,6 +59,8 @@ Las fichas de prueba llevan `"sample": true`. Al cargar contenido real de un pa�
 
 ## Validador
 `node scripts/validate.js` controla el formato de todas las fichas y de los datos de Explorar; `--browser` además abre todas las rutas en Chromium. Nunca subir con el validador en rojo.
+`node scripts/paginas.js` regenera `p/<id>.html`, `sitemap.xml` y `robots.txt` a partir de las fichas; correrlo después de cambiar una ficha (el validador da error si quedaron viejas). Las fuentes tipográficas están en `fonts/`: no volver a enlazar Google Fonts.
+Licencia: textos y datos CC BY 4.0, código MIT (`LICENSE`).
 
 ## Guía de estilo
 - Español rioplatense neutro, frases cortas (menos de 25 palabras), voz activa. Nada de adjetivos de juicio ("siniestro", "heroico").
