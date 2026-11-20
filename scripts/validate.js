@@ -145,7 +145,7 @@ ctx.SPYWARE.flows.forEach((f, i) => { if (!names.has(f.c)) err("software espía"
 (ctx.JEFES || []).forEach((j, i) => { if (!["gobierno", "cargo", "sombra"].includes(j.k)) err("jefes", `[${i}] tipo inválido`); if (!isDate(j.d)) err("jefes", `[${i}] fecha inválida`); if (!j.n || !j.de || !j.a || !j.x) err("jefes", `[${i}] faltan campos`); if (!isUrl(j.u)) err("jefes", `[${i}] sin fuente`); if (j.c && !ids.has(j.c)) err("jefes", `[${i}] id desconocido`); if (!j.c && !j.pais) err("jefes", `[${i}] sin país`); });
 ctx.EXPULSIONES.forEach((e, i) => { if (!["expulsion", "canje"].includes(e.k)) err("expulsiones", `[${i}] tipo inválido`); if (!isDate(e.d)) err("expulsiones", `[${i}] fecha inválida`); });
 if (![4, 8, 12].includes(ctx.ALERTS.length)) err("alertas", `tiene que haber 4, 8 o 12 alertas (hay ${ctx.ALERTS.length})`);
-const upd = Date.parse(ctx.MONITOR_META.updated); ctx.ALERTS.forEach((a, i) => { const age = (upd - Date.parse(a.date)) / 864e5; if (a.level > 0 && age > 21) warn("alertas", `[${i}] "${a.title}" tiene ${Math.round(age)} días: pasala a nivel 0 o reemplazala`); });
+const upd = Date.parse(ctx.MONITOR_META.updated); ctx.ALERTS.forEach((a, i) => { const age = (upd - Date.parse(a.date)) / 864e5; if (a.level > 0 && age > 14) warn("alertas", `[${i}] "${a.title}" tiene ${Math.round(age)} días: pasala a nivel 0 o reemplazala`); });
 ctx.ALERTS.forEach((a, i) => { if (!ids.has(a.target)) err("alertas", `[${i}] target desconocido`); if (!isDate(a.date)) err("alertas", `[${i}] fecha inválida`); if (![0, 1, 2, 3, 4, 5].includes(a.level)) err("alertas", `[${i}] nivel inválido`); });
 
 // controles generales (revisión del 2026-11-20)

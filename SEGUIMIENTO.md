@@ -14,3 +14,9 @@ La actualización semanal revisa cada una de estas causas. Si hubo novedades, la
 | Protestas pagadas por Rusia en Polonia y detenidos de la ABW | pl, ru | Acusaciones y juicios | 2026-06 |
 | Interferencia china contra la asociación budista de Canberra | au, cn | Juicio | 2025-08 |
 | Periodista japonés detenido en Sajalín | jp, ru | Juicio o canje | 2026-10 |
+
+## Revisión a fondo por turnos
+
+Además de los hechos de la semana, cada actualización revisa a fondo las **cuatro fichas siguientes** de esta lista (las que llevan más tiempo sin hechos nuevos van primero): busca hechos de los últimos 12 meses que falten, cambios de jefes y de leyes, casos que cambiaron de nivel de evidencia y enlaces caídos. Después mueve el marcador `→` a la primera ficha que sigue sin revisar y anota en CHANGELOG.md qué se revisó. Cuando la lista termina, vuelve a empezar.
+
+Orden (2026-11-20): → be, ae, jo, kz · ro, eg, se, vn · az, rs, rw, ge · dz, br, qa, by · af, dk, md, nl · sg, sy, za, ve · cy, sa, gr, il · uk, in, pk, at · hu, fr, bd, ca · cu, lb, it, va · es, ma, kr, tw · mx, ru, au, ch · co, ua, tr, jp · kp, de, iq, pl · ar, us, cn, ir

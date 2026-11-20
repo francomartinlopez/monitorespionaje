@@ -79,4 +79,4 @@ Licencia: textos y datos CC BY 4.0, código MIT (`LICENSE`).
 
 ## Actualización semanal
 La lista de causas en curso está en SEGUIMIENTO.md: la tarea semanal busca novedades de cada una, la mantiene al día y carga cada hecho en las fichas de todos los países involucrados.
-Tarea programada desde el 2026-11-16: los lunes a las 05:46 (hora de Argentina) una sesión nueva busca los hechos de la semana, renueva las alertas (4, 8 o 12), suma eventos a las fichas, valida, sube la versión de caché, anota en CHANGELOG.md y publica en main.
+Tarea programada desde el 2026-11-16: los lunes a las 05:46 (hora de Argentina) una sesión nueva busca los hechos de la semana, renueva las alertas (4, 8 o 12), suma eventos a las fichas, revisa a fondo cuatro fichas por turno (lista en SEGUIMIENTO.md), retira las alertas de más de 14 días, regenera las páginas por país, valida, sube la versión de caché, anota en CHANGELOG.md, publica en main y manda un resumen por mail a Franco.

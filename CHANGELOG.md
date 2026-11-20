@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-20 · Actualización semanal: revisa a fondo cuatro fichas por semana en turnos (lista en SEGUIMIENTO.md), retira las alertas de más de 14 días y manda un resumen por mail. La alerta de Binance pasa a nivel 0 por antigüedad.
+
 - 2026-11-20 · Técnica: las fuentes tipográficas se sirven desde el sitio (sin Google Fonts); una página estática por país (p/<id>.html) con vista previa para redes, más sitemap.xml y robots.txt; el validador controla URLs, fechas futuras, duplicados y páginas al día; GitHub Actions valida cada subida y revisa enlaces cada semana; licencia CC BY 4.0 para textos y datos y MIT para el código.
 
 - 2026-11-20 · Diseño: ficha plegable en celular, alertas en carrusel, tarjetas de países compactas, Quién manda en lista para pantallas angostas, menú de Explorar agrupado, números en la tabla de prácticas, más contraste y letra mínima de 11 px, sello de edición en el pie.
