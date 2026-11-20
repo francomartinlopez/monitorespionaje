@@ -1,7 +1,7 @@
-// Ficha de Israel · contenido real · revisada el 2026-11-15
+// Ficha de Israel · contenido real · revisada el 2026-11-20
 (window.FICHAS = window.FICHAS || {})["il"] = {
   "id": "il",
-  "updated": "2026-11-15",
+  "updated": "2026-11-20",
   "summary": [
     "Israel tiene tres pilares de inteligencia. El Mossad opera en el exterior y el Servicio de Seguridad General (Shin Bet) cuida la seguridad interna y los territorios palestinos. La Dirección de Inteligencia Militar (Aman), la más grande, incluye a la Unidad 8200 de interceptación de señales. Los tres responden al primer ministro o al ministro de Defensa.",
     "El 7 de octubre de 2023 fue la mayor falla de su historia. Los jefes de Aman y del Shin Bet de entonces asumieron responsabilidades y dejaron sus cargos, pero a tres años no hay una comisión estatal de investigación: Benjamin Netanyahu se opone y propone un formato distinto.",
@@ -16,17 +16,17 @@
   ],
   "power": {
     "humana": 5,
-    "senales": 5,
+    "senales": 4,
     "ciber": 5,
-    "imagenes": 4,
+    "imagenes": 3,
     "encubierta": 5,
     "contra": 4
   },
   "powerWhy": {
     "humana": "Redes de agentes dentro de Irán y del Líbano capaces de operar en masa, según reconocen tanto Israel como Irán.",
-    "senales": "La Unidad 8200 es una de las mayores agencias de interceptación del mundo en relación con el tamaño del país.",
+    "senales": "La Unidad 8200 es una de las mayores agencias de interceptación del mundo en relación con el tamaño del país, pero su alcance es regional, no mundial como el de la NSA.",
     "ciber": "Industria privada de ciberataque y vigilancia nacida de sus unidades militares y operaciones como Stuxnet junto a EE.UU.",
-    "imagenes": "Satélites espía propios de la serie Ofek y drones de largo alcance.",
+    "imagenes": "Satélites espía propios de la serie Ofek y drones de largo alcance, con una flota mucho menor que la de EE.UU., China o Rusia.",
     "encubierta": "Asesinatos selectivos, sabotajes y operaciones como la de los buscapersonas, sin equivalente en otros servicios de su tamaño.",
     "contra": "El Shin Bet detecta decenas de casos de israelíes reclutados por Irán, pero falló ante Hamás el 7 de octubre."
   },
@@ -77,7 +77,7 @@
   ],
   "events": [
     {"d":"1960-05-11","lat":-34.48,"lon":-58.53,"c":"Argentina","t":"encubierta","ev":1,"h":"La captura de Eichmann","x":"Agentes del Mossad secuestran en San Fernando, provincia de Buenos Aires, al criminal nazi Adolf Eichmann y lo llevan a Israel para juzgarlo, sin permiso argentino.","u":"https://en.wikipedia.org/wiki/Adolf_Eichmann","st":"Wikipedia (síntesis de fuentes)","op":"secuestro"},
-    {"d":"1973-07-21","lat":61.12,"lon":10.47,"c":"Norway","t":"encubierta","ev":1,"h":"El error de Lillehammer","x":"Un equipo del Mossad que buscaba a los responsables de la masacre de Múnich mata por error a un camarero marroquí; seis agentes son detenidos.","u":"https://en.wikipedia.org/wiki/Lillehammer_affair","st":"Wikipedia (síntesis de fuentes)"},
+    {"d":"1973-07-21","lat":61.12,"lon":10.47,"c":"Norway","t":"encubierta","ev":1,"h":"El error de Lillehammer","x":"Un equipo del Mossad que buscaba a los responsables de la masacre de Múnich mata por error a un camarero marroquí; seis agentes son detenidos.","u":"https://en.wikipedia.org/wiki/Lillehammer_affair","st":"Wikipedia (síntesis de fuentes)","op":"asesinato"},
     {"d":"1976-07-04","lat":0.04,"lon":32.44,"c":"Uganda","t":"encubierta","ev":1,"h":"Entebbe","x":"Comandos israelíes liberan a los rehenes de un avión secuestrado, con información reunida por el Mossad.","u":"https://en.wikipedia.org/wiki/Operation_Entebbe","st":"Wikipedia (síntesis de fuentes)"},
     {"d":"1981-06-07","lat":33.2,"lon":44.5,"c":"Iraq","t":"encubierta","ev":1,"h":"Osirak","x":"La aviación destruye el reactor nuclear iraquí con inteligencia de Aman y del Mossad.","u":"https://en.wikipedia.org/wiki/Operation_Opera","st":"Wikipedia (síntesis de fuentes)"},
     {"d":"1986-09-30","lat":41.9,"lon":12.5,"c":"Italy","t":"contra","ev":1,"h":"El secuestro de Vanunu","x":"Una agente del Mossad atrae a Mordechai Vanunu a Roma, donde lo drogan y lo llevan a Israel tras revelar el programa nuclear.","u":"https://en.wikipedia.org/wiki/Mordechai_Vanunu","st":"Wikipedia (síntesis de fuentes)","op":"secuestro"},
@@ -90,7 +90,7 @@
     {"d":"2024-07-31","lat":35.74,"lon":51.45,"c":"Iran","t":"encubierta","ev":1,"h":"Haniyeh en Teherán","x":"El jefe político de Hamás muere en una residencia oficial de Teherán; Israel reconoció la autoría en diciembre de 2024.","u":"https://en.wikipedia.org/wiki/Assassination_of_Ismail_Haniyeh","st":"Wikipedia (síntesis de fuentes)","op":"asesinato"},
     {"d":"2024-09-17","lat":33.85,"lon":35.5,"c":"Lebanon","t":"sabotaje","ev":1,"h":"Los buscapersonas","x":"Miles de buscapersonas y radios de Hezbollah con explosivos ocultos estallan a la vez; Netanyahu reconoció la operación en noviembre de 2024.","u":"https://en.wikipedia.org/wiki/2024_Lebanon_electronic_device_attacks","st":"Wikipedia (síntesis de fuentes)","op":"atentado"},
     {"d":"2025-06-13","lat":34.3,"lon":50,"c":"Iran","t":"sabotaje","ev":2,"h":"Drones armados dentro de Irán","x":"Al iniciar la guerra de junio, agentes del Mossad usan drones montados dentro de Irán contra defensas antiaéreas, según Israel y las propias autoridades iraníes.","u":"https://www.newarab.com/news/how-mossads-network-agents-helped-israel-strike-inside-iran","st":"The New Arab"},
-    {"d":"2026-02-28","lat":35.69,"lon":51.42,"c":"Iran","t":"encubierta","ev":2,"h":"Guerra con Irán y muerte de Jamenei","x":"EE.UU. e Israel atacan Irán y matan al líder supremo; el jefe del Mossad atribuyó a su servicio inteligencia obtenida en el corazón del enemigo.","u":"https://www.arabnews.pk/node/2641548","st":"Arab News"}
+    {"d":"2026-02-28","lat":35.69,"lon":51.42,"c":"Iran","t":"encubierta","ev":2,"h":"Guerra con Irán y muerte de Jamenei","x":"EE.UU. e Israel atacan Irán y matan al líder supremo; el jefe del Mossad atribuyó a su servicio inteligencia obtenida en el corazón del enemigo.","u":"https://www.arabnews.pk/node/2641548","st":"Arab News","op":"asesinato"}
   ],
   "interest": {
     "Iran": 3,
@@ -203,7 +203,7 @@
     "engano": {"ev":1,"x":"El Mossad vendió a Hezbollah buscapersonas con explosivos a través de empresas de fachada.","u":"https://en.wikipedia.org/wiki/2024_Lebanon_electronic_device_attacks","st":"Wikipedia: 2024 Lebanon electronic device attacks"},
     "ilegales": {"ev":1,"x":"Eli Cohen vivió en Damasco como empresario sirio hasta su captura en 1965.","u":"https://en.wikipedia.org/wiki/Eli_Cohen","st":"Wikipedia: Eli Cohen"},
     "financiera": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
-    "mediacion": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
+    "mediacion": {"ev":1,"x":"Desde octubre de 2023 el jefe del Mossad, David Barnea, negoció en Doha con Qatar, la CIA y Egipto la liberación de rehenes en manos de Hamás.","u":"https://www.axios.com/2023/10/30/hamas-gaza-hostages-mossad-barnea-war-israel","st":"Axios"},
     "privados": {"ev":2,"x":"Empresas de ex agentes, como Black Cube, hacen espionaje privado; no está probado que actúen por encargo del Estado.","u":"https://en.wikipedia.org/wiki/Black_Cube","st":"Wikipedia: Black Cube"},
     "tortura": {"ev":1,"x":"En 1999 la Corte Suprema prohibió métodos de interrogatorio del Shin Bet como sacudir o atar en posiciones dolorosas, aunque dejó abierta la excepción de \"necesidad\".","u":"https://en.wikipedia.org/wiki/Public_Committee_Against_Torture_in_Israel","st":"Wikipedia (síntesis de fuentes)"},
     "secuestro": {"ev":1,"x":"El Mossad capturó a Adolf Eichmann en Buenos Aires en 1960 y a Mordejái Vanunu, que había revelado el programa nuclear, en Roma en 1986.","u":"https://en.wikipedia.org/wiki/Mordechai_Vanunu","st":"Wikipedia (síntesis de fuentes)"},

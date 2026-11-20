@@ -1,7 +1,7 @@
-// Ficha de Alemania · contenido real · revisada el 2026-11-17
+// Ficha de Alemania · contenido real · revisada el 2026-11-20
 (window.FICHAS = window.FICHAS || {})["de"] = {
   "id": "de",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "summary": [
     "Alemania reparte la inteligencia entre tres servicios federales. El Servicio Federal de Inteligencia (BND) espía en el exterior y depende de la Cancillería. La Oficina Federal de Protección de la Constitución (BfV) hace contrainteligencia y vigila el extremismo dentro del país. El Servicio de Contrainteligencia Militar (MAD) cuida a las fuerzas armadas.",
     "Martin Jäger preside el BND desde septiembre de 2025 y quiere convertirlo en la \"primera línea de defensa\" del país. Sinan Selen dirige el BfV desde octubre de 2025 y Martina Rosenberg encabeza el MAD. En octubre de 2026 los tres dijeron ante el Bundestag que Rusia es el adversario más peligroso y que libra una guerra en las sombras contra Alemania.",
@@ -79,7 +79,7 @@
     {"d":"2000-01-01","lat":48.06,"lon":11.52,"c":"Germany","t":"humana","ev":1,"h":"Curveball","x":"El BND interroga a un refugiado iraquí que inventa laboratorios móviles de armas biológicas; EE.UU. usó su relato para justificar la guerra de 2003.","u":"https://en.wikipedia.org/wiki/Curveball_(informant)","st":"Wikipedia (síntesis de fuentes)"},
     {"d":"2004-01-01","lat":50.11,"lon":8.68,"c":"Germany","t":"senales","ev":1,"h":"Operación Eikonal","x":"El BND intercepta tráfico en un nodo de internet de Fráncfort y comparte datos con la NSA hasta 2008.","u":"https://dserver.bundestag.de/btd/18/128/1812850.pdf","st":"Bundestag, informe de la comisión NSA (2017)"},
     {"d":"2015-05-01","lat":52.52,"lon":13.38,"c":"Germany","t":"contra","ev":1,"h":"Hackeo al Bundestag","x":"Piratas del grupo APT28 roban datos de la red del Parlamento; Alemania lo atribuyó a la inteligencia militar rusa (GRU).","u":"https://en.wikipedia.org/wiki/Fancy_Bear","st":"Wikipedia (síntesis de fuentes)"},
-    {"d":"2019-08-23","lat":52.52,"lon":13.35,"c":"Germany","t":"contra","ev":1,"h":"El asesinato del Tiergarten","x":"Un ciudadano georgiano es asesinado en un parque de Berlín; en 2021 un tribunal concluyó que el crimen fue encargado por el Estado ruso.","u":"https://en.wikipedia.org/wiki/Assassination_of_Zelimkhan_Khangoshvili","st":"Wikipedia (síntesis de fuentes)"},
+    {"d":"2019-08-23","lat":52.52,"lon":13.35,"c":"Germany","t":"contra","ev":1,"h":"El asesinato del Tiergarten","x":"Un ciudadano georgiano es asesinado en un parque de Berlín; en 2021 un tribunal concluyó que el crimen fue encargado por el Estado ruso.","u":"https://en.wikipedia.org/wiki/Assassination_of_Zelimkhan_Khangoshvili","st":"Wikipedia (síntesis de fuentes)","op":"asesinato","por":"ru"},
     {"d":"2022-12-21","lat":52.53,"lon":13.38,"c":"Germany","t":"contra","ev":1,"h":"Un topo en el BND","x":"Detienen en Berlín a Carsten L., jefe de una unidad del BND, acusado de entregar documentos al FSB ruso.","u":"https://generalbundesanwalt.de/SharedDocs/Pressemitteilungen/EN/2023/Pressemitteilung-vom-08-09-2023.html","st":"Fiscalía federal de Alemania"},
     {"d":"2025-12-12","lat":52.51,"lon":13.4,"c":"Germany","t":"contra","ev":1,"h":"Berlín culpa al GRU","x":"El gobierno convoca al embajador ruso y atribuye al GRU un ciberataque al control aéreo y una campaña de desinformación electoral.","u":"https://www.zdfheute.de/politik/deutschland/bundesregierung-russland-cyberangriff-botschafter-100.html","st":"ZDF"},
     {"d":"2026-01-15","lat":52.5,"lon":13.42,"c":"Germany","t":"contra","ev":2,"h":"Detenida una lobista prorrusa","x":"La fiscalía federal hace detener en Berlín a una germano-ucraniana acusada de pasar datos sobre la guerra a un contacto en la embajada rusa.","u":"https://www.zdfheute.de/politik/deutschland/berlin-mutmassliche-spionin-russland-anklage-100.html","st":"ZDF"},
@@ -191,7 +191,7 @@
     "engano": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
     "ilegales": {"ev":1,"x":"La Stasi envió a Occidente agentes con identidad falsa, entre ellos los \"Romeos\" que seducían a secretarias de gobierno.","u":"https://en.wikipedia.org/wiki/Markus_Wolf","st":"Wikipedia: Markus Wolf"},
     "financiera": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
-    "mediacion": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
+    "mediacion": {"ev":1,"x":"El agente del BND Gerhard Conrad medió los canjes de presos y restos entre Israel y Hezbollah de 2004 y 2008, y luego el canje de Gilad Shalit con Hamás en 2011.","u":"https://www.jta.org/archive/the-german-mediator-who-brokered-the-prisoner-exchange-deal","st":"JTA"},
     "privados": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
     "tortura": {"ev":2,"x":"Agentes alemanes interrogaron a detenidos en Siria y en Guantánamo después del 11-S, entre ellos al alemán Murat Kurnaz. Una comisión del Bundestag investigó si eso significó aprovechar o tolerar malos tratos.","u":"https://en.wikipedia.org/wiki/Murat_Kurnaz","st":"Wikipedia (síntesis de fuentes)"},
     "secuestro": {"ev":0,"x":"Esta ficha no encontró secuestros hechos por servicios alemanes. Alemania sí fue afectada: en 2003 la CIA secuestró en Macedonia del Norte al ciudadano alemán Khaled el-Masri."},

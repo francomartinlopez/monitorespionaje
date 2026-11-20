@@ -1,7 +1,7 @@
-// Ficha de Corea del Norte · contenido real · revisada el 2026-11-15
+// Ficha de Corea del Norte · contenido real · revisada el 2026-11-20
 (window.FICHAS = window.FICHAS || {})["kp"] = {
   "id": "kp",
-  "updated": "2026-11-15",
+  "updated": "2026-11-20",
   "summary": [
     "Corea del Norte tiene un aparato de inteligencia al servicio de un solo objetivo: la supervivencia del régimen de Kim Jong Un. La Oficina General de Reconocimiento (RGB) hace espionaje, operaciones encubiertas y ciberataques en el exterior. La Seguridad del Estado vigila y castiga a la población. Ambos cambiaron de nombre entre 2025 y 2026.",
     "En septiembre de 2025 la RGB pasó a llamarse Oficina General de Información de Reconocimiento y en julio de 2026 el partido ordenó ampliar sus funciones. En marzo de 2026 el Ministerio de Seguridad del Estado se convirtió en la Oficina Estatal de Información, con Ri Chang Dae como director, y Kim Jong Un anunció la creación de una policía formal.",
@@ -166,7 +166,7 @@
     "economico": {"ev":1,"x":"El grupo Lazarus roba criptomonedas y secretos de empresas para financiar al régimen, según el FBI y la ONU.","u":"https://en.wikipedia.org/wiki/Lazarus_Group","st":"Wikipedia: Lazarus Group"},
     "engano": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
     "ilegales": {"ev":1,"x":"Los autores del atentado al vuelo 858 viajaban con pasaportes japoneses falsos.","u":"https://en.wikipedia.org/wiki/Kim_Hyon-hui","st":"Wikipedia: Kim Hyon-hui"},
-    "financiera": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
+    "financiera": {"ev":1,"x":"El FBI atribuye a hackers norcoreanos robos de criptomonedas por miles de millones de dólares, como el de Bybit en 2025, y el lavado posterior que financia al régimen.","u":"https://www.ic3.gov/PSA/2025/PSA250226","st":"FBI (IC3)"},
     "mediacion": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
     "privados": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
     "tortura": {"ev":1,"x":"La comisión de la ONU de 2014 documentó torturas sistemáticas en cárceles y campos políticos.","u":"https://en.wikipedia.org/wiki/Human_rights_in_North_Korea","st":"Wikipedia (síntesis de fuentes)"},

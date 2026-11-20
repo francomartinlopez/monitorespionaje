@@ -1,7 +1,7 @@
-// Ficha de Francia · contenido real · revisada el 2026-11-15
+// Ficha de Francia · contenido real · revisada el 2026-11-20
 (window.FICHAS = window.FICHAS || {})["fr"] = {
   "id": "fr",
-  "updated": "2026-11-15",
+  "updated": "2026-11-20",
   "summary": [
     "Francia organiza su inteligencia en un primer círculo de seis servicios. Los principales son la Dirección General de Seguridad Exterior (DGSE), que espía fuera del país y concentra la interceptación técnica, y la Dirección General de Seguridad Interior (DGSI), a cargo del antiterrorismo y la contrainteligencia. Una coordinación nacional en el Elíseo los ordena.",
     "Nicolas Lerner dirige la DGSE desde enero de 2024, después de cinco años al frente de la DGSI; Céline Berthon encabeza la DGSI desde 2024 y es la primera mujer en el cargo. Ambos describen una amenaza simultánea de Rusia, Irán, China y del terrorismo islamista, con el Sahel como zona más sensible.",
@@ -76,7 +76,7 @@
     {"d":"2024-07","dir":"amplia","area":"Privacidad","h":"Ley contra injerencias extranjeras","x":"Extiende los algoritmos a la detección de injerencias y crea un registro de representantes de intereses extranjeros."}
   ],
   "events": [
-    {"d":"1965-10-29","lat":48.85,"lon":2.33,"c":"France","t":"encubierta","ev":1,"h":"La desaparición de Ben Barka","x":"El opositor marroquí Mehdi Ben Barka es secuestrado en París por policías franceses y nunca aparece; el caso involucró a agentes del SDECE.","u":"https://en.wikipedia.org/wiki/Mehdi_Ben_Barka","st":"Wikipedia (síntesis de fuentes)"},
+    {"d":"1965-10-29","lat":48.85,"lon":2.33,"c":"France","t":"encubierta","ev":1,"h":"La desaparición de Ben Barka","x":"El opositor marroquí Mehdi Ben Barka es secuestrado en París por policías franceses y nunca aparece; el caso involucró a agentes del SDECE.","u":"https://en.wikipedia.org/wiki/Mehdi_Ben_Barka","st":"Wikipedia (síntesis de fuentes)","op":"secuestro","por":"ma"},
     {"d":"1981-01-01","lat":55.75,"lon":37.62,"c":"Russia","t":"humana","ev":1,"h":"El caso Farewell","x":"La contrainteligencia francesa maneja en Moscú a un coronel de la KGB que entrega miles de documentos sobre espionaje tecnológico soviético.","u":"https://en.wikipedia.org/wiki/Vladimir_Vetrov","st":"Wikipedia (síntesis de fuentes)"},
     {"d":"1985-07-10","lat":-37.4,"lon":175.2,"c":"New Zealand","t":"sabotaje","ev":1,"h":"El Rainbow Warrior","x":"Agentes de la DGSE hunden con explosivos el barco de Greenpeace en Auckland y muere un fotógrafo. Francia lo reconoció semanas después.","u":"https://en.wikipedia.org/wiki/Sinking_of_the_Rainbow_Warrior","st":"Wikipedia (síntesis de fuentes)","op":"atentado"},
     {"d":"2008-01-01","lat":44.8,"lon":1.22,"c":"France","t":"senales","ev":2,"h":"Las antenas de Domme","x":"Estaciones de la DGSE como la de Domme interceptan comunicaciones satelitales; la prensa francesa reveló en 2013 que se guardaban sin un marco legal claro.","u":"https://en.wikipedia.org/wiki/Frenchelon","st":"Wikipedia (síntesis de fuentes)"},

@@ -1,7 +1,7 @@
-// Ficha de Egipto · contenido real · revisada el 2026-11-17
+// Ficha de Egipto · contenido real · revisada el 2026-11-20
 (window.FICHAS = window.FICHAS || {})["eg"] = {
   "id": "eg",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "summary": [
     "El Servicio General de Inteligencia (GIS), la Mujabarat, es uno de los pilares del poder en Egipto junto con el Ejército. Lo dirige desde octubre de 2024 el general Hassan Rashad, que en enero de 2026 se sumó a la junta ejecutiva para la reconstrucción de Gaza. El presidente Abdel Fattah al-Sisi fue jefe de la Inteligencia Militar antes del golpe de 2013.",
     "El GIS maneja los expedientes más sensibles de la política exterior: la mediación entre Israel y Hamás, Libia, Sudán y la relación con EE.UU. Hacia adentro controla, a través de una empresa propia, la mayor parte de los canales y diarios privados del país. El Sector de Seguridad Nacional (NSS), la policía política, se ocupa de la represión interna.",
@@ -68,7 +68,7 @@
   "events": [
     {"d":"1965-02","lat":30.04,"lon":31.24,"c":"Egypt","t":"contra","ev":1,"h":"Cae Wolfgang Lotz","x":"Egipto detiene en El Cairo a un espía israelí que se hacía pasar por criador de caballos alemán.","u":"https://en.wikipedia.org/wiki/Wolfgang_Lotz","st":"Wikipedia: Wolfgang Lotz"},
     {"d":"1973-10-06","lat":30.6,"lon":32.3,"c":"Egypt","t":"encubierta","ev":1,"h":"El engaño antes de la guerra","x":"Egipto cruza el canal de Suez después de meses de ejercicios y señales que hicieron creer a Israel que no atacaría.","u":"https://en.wikipedia.org/wiki/Yom_Kippur_War","st":"Wikipedia: Yom Kippur War"},
-    {"d":"2003-02-17","lat":45.48,"lon":9.2,"c":"Italy","t":"encubierta","ev":1,"h":"Secuestro de Abu Omar","x":"La CIA secuestra en Milán a un clérigo egipcio y lo lleva a Egipto, donde denunció torturas; Italia condenó a agentes estadounidenses.","u":"https://en.wikipedia.org/wiki/Imam_Rapito_affair","st":"Wikipedia (síntesis de fuentes)"},
+    {"d":"2003-02-17","lat":45.48,"lon":9.2,"c":"Italy","t":"encubierta","ev":1,"h":"Secuestro de Abu Omar","x":"La CIA secuestra en Milán a un clérigo egipcio y lo lleva a Egipto, donde denunció torturas; Italia condenó a agentes estadounidenses.","u":"https://en.wikipedia.org/wiki/Imam_Rapito_affair","st":"Wikipedia (síntesis de fuentes)","op":"secuestro","por":"us"},
     {"d":"2007-06-27","lat":51.5,"lon":-0.15,"c":"United Kingdom","t":"contra","ev":3,"h":"Muerte de Ashraf Marwan","x":"El yerno de Nasser, que había sido fuente del Mossad, cae de un balcón en Londres; la investigación británica no determinó si fue asesinato.","u":"https://en.wikipedia.org/wiki/Ashraf_Marwan","st":"Wikipedia (síntesis de fuentes)"},
     {"d":"2016-01-25","lat":30,"lon":31.2,"c":"Egypt","t":"contra","ev":1,"h":"Secuestro de Giulio Regeni","x":"El investigador italiano desaparece en El Cairo; su cuerpo torturado aparece días después. Un tribunal de Roma condenó a tres oficiales egipcios en 2026.","u":"https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni","st":"Al Jazeera","op":"secuestro"},
     {"d":"2023-08","lat":30.05,"lon":31.25,"c":"Egypt","t":"ciber","ev":2,"h":"Predator contra un candidato","x":"Intentan infectar el teléfono del opositor Ahmed Tantawy con un programa espía tras anunciar su candidatura; Citizen Lab lo atribuye al gobierno egipcio.","u":"https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/","st":"Citizen Lab"}

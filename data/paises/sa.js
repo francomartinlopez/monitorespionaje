@@ -1,7 +1,7 @@
-// Ficha de Arabia Saudita · contenido real · revisada el 2026-11-17
+// Ficha de Arabia Saudita · contenido real · revisada el 2026-11-20
 (window.FICHAS = window.FICHAS || {})["sa"] = {
   "id": "sa",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "summary": [
     "Arabia Saudita tiene dos servicios principales: la Presidencia General de Inteligencia (GIP), a cargo del exterior, y la Presidencia de Seguridad del Estado (PSS), creada en 2017 para la seguridad interna y el antiterrorismo. Ambos responden al príncipe heredero y primer ministro Mohammed bin Salman, que concentró el control de los servicios desde 2017. Khalid bin Ali Al Humaidan dirige la GIP desde 2015.",
     "Durante décadas los servicios sauditas fueron socios de la CIA: financiaron a los muyahidines afganos en la década de 1980 y a rebeldes sirios después de 2012. También fueron un canal de financiamiento de redes religiosas en el exterior.",
@@ -74,7 +74,7 @@
     {"d":"2015","lat":37.4,"lon":-121.95,"c":"United States of America","t":"humana","ev":1,"h":"Espías dentro de Twitter","x":"Dos empleados de Twitter pasan datos de usuarios críticos a un colaborador del príncipe heredero; uno fue condenado en 2022.","u":"https://www.securityweek.com/three-charged-us-spying-twitter-users-saudi-arabia/amp/","st":"SecurityWeek"},
     {"d":"2017-11-04","lat":24.68,"lon":46.62,"c":"Saudi Arabia","t":"contra","ev":1,"h":"Hariri retenido en Riad","x":"El primer ministro libanés anuncia su renuncia desde Riad; Francia negoció su salida días después.","u":"https://en.wikipedia.org/wiki/2017_Lebanon%E2%80%93Saudi_Arabia_dispute","st":"Wikipedia (síntesis de fuentes)"},
     {"d":"2018-06","lat":51.5,"lon":-0.12,"c":"United Kingdom","t":"ciber","ev":1,"h":"Pegasus contra Ghanem al-Masarir","x":"El teléfono del disidente en Londres es infectado con Pegasus; un tribunal británico responsabilizó al reino en 2026.","u":"https://citizenlab.ca/saudi-arabia-ordered-to-pay-3m-to-london-dissident-over-pegasus-spying/","st":"Citizen Lab"},
-    {"d":"2018-10","lat":43.65,"lon":-79.6,"c":"Canada","t":"encubierta","ev":3,"h":"El equipo enviado a Canadá","x":"Saad al-Jabri sostiene en una demanda que un grupo saudita intentó entrar a Canadá para matarlo y fue frenado en la frontera.","u":"https://www.middleeasteye.net/news/saudi-hit-squad-mbs-kill-saad-aljabri-us-canada-lawsuit","st":"Middle East Eye"},
+    {"d":"2018-10","lat":43.65,"lon":-79.6,"c":"Canada","t":"encubierta","ev":3,"h":"El equipo enviado a Canadá","x":"Saad al-Jabri sostiene en una demanda que un grupo saudita intentó entrar a Canadá para matarlo y fue frenado en la frontera.","u":"https://www.middleeasteye.net/news/saudi-hit-squad-mbs-kill-saad-aljabri-us-canada-lawsuit","st":"Middle East Eye","op":"intento"},
     {"d":"2018-10-02","lat":40.9,"lon":29.4,"c":"Turkey","t":"encubierta","ev":1,"h":"Asesinato de Jamal Khashoggi","x":"Un equipo saudita mata al periodista en el consulado de Estambul; la inteligencia de EE.UU. concluyó que Mohammed bin Salman aprobó la operación.","u":"https://en.wikipedia.org/wiki/Assassination_of_Jamal_Khashoggi","st":"Wikipedia (síntesis de fuentes)","op":"asesinato"},
     {"d":"2026-01-26","lat":51.51,"lon":-0.12,"c":"United Kingdom","t":"ciber","ev":1,"h":"Condena en Londres por Pegasus","x":"El Tribunal Superior de Inglaterra concluye que Arabia Saudita ordenó hackear el teléfono del disidente Ghanem al-Masarir y lo condena a pagar 3 millones de libras.","u":"https://citizenlab.ca/saudi-arabia-ordered-to-pay-3m-to-london-dissident-over-pegasus-spying/","st":"Citizen Lab"}
   ],

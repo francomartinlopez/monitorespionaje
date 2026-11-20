@@ -251,7 +251,7 @@
 
   // ================= EXPULSIONES =================
   R.expulsiones = { title: "Expulsiones y canjes", render(args, root) { const app = root || ME.app;
-    const E = window.EXPULSIONES, ys = E.map(e => e.y), years = Array.from({ length: Math.max(...ys) - Math.min(...ys) + 1 }, (_, i) => Math.min(...ys) + i);
+    const E = window.EXPULSIONES, ys = E.map(e => e.y), years = [...new Set(ys)].sort((a, b) => a - b);
     let yr = "all";
     app.innerHTML = head("Expulsiones y canjes", "Diplomáticos expulsados por espionaje y espías canjeados entre países. El grosor de cada línea es la cantidad de personas. Sólo se cuentan los pares entre países del monitor, con fuente en cada caso.") + `
       <div class="chips" id="exChips"><button type="button" class="chip on" data-y="all">Todos los años</button>${years.map(y => `<button type="button" class="chip" data-y="${y}">${y}</button>`).join("")}</div>
@@ -266,7 +266,7 @@
       const rows = Object.entries(agg).map(([k, n]) => { const [a, b, t] = k.split(">"); return { a, b, t, n }; }).sort((x, y) => y.n - x.n);
       const max = Math.max(1, ...rows.map(r => r.n));
       document.getElementById("exMap").innerHTML = stage(rows.map(r => { const A = pt(byId[r.a].center), B = pt(byId[r.b].center);
-        return `<path class="exp" data-k="${r.a}|${r.b}|${r.n}|${r.t}" d="${arc(A, B, .22)}" fill="none" stroke="${r.t === "canje" ? "var(--amber)" : "var(--red)"}" stroke-width="${(1 + r.n / max * 7).toFixed(1)}" stroke-dasharray="${r.t === "canje" ? "6 4" : ""}" opacity=".75"/>`; }).join("") + monitorNodes(), "Mapa de expulsiones", `<b>${yr === "all" ? "2014–2026" : yr}</b>${L.reduce((s, e) => s + e.n, 0)} personas`);
+        return `<path class="exp" data-k="${r.a}|${r.b}|${r.n}|${r.t}" d="${arc(A, B, .22)}" fill="none" stroke="${r.t === "canje" ? "var(--amber)" : "var(--red)"}" stroke-width="${(1 + r.n / max * 7).toFixed(1)}" stroke-dasharray="${r.t === "canje" ? "6 4" : ""}" opacity=".75"/>`; }).join("") + monitorNodes(), "Mapa de expulsiones", `<b>${yr === "all" ? years[0] + "–" + years[years.length - 1] : yr}</b>${L.reduce((s, e) => s + e.n, 0)} personas`);
       document.getElementById("exTot").textContent = `Pares de países · ${rows.length}`;
       document.getElementById("exList").innerHTML = rows.map(r => `<div class="ev-item" style="--c:${r.t === "canje" ? "var(--amber)" : "var(--red)"}"><i></i><div><span class="d">${r.t === "canje" ? "Canje" : "Expulsión"}</span><b>${esc(byId[r.a].name)} → ${esc(byId[r.b].name)}</b><p>${r.n} personas</p>${L.filter(e => e.a === r.a && e.b === r.b && e.k === r.t).map(e => `<p class="muted">${esc(fmt(e.d))} · ${esc(e.x)} <a href="${esc(e.u)}" target="_blank" rel="noopener">${esc(e.st)} ↗</a></p>`).join("")}</div></div>`).join("");
       bindTips(app, ".exp", el => { const [a, b, n, t] = el.dataset.k.split("|"); return `<b>${esc(byId[a].name)} → ${esc(byId[b].name)}</b><span class="d">${n} personas · ${t === "canje" ? "canje" : "expulsión"}</span>`; });

@@ -1,7 +1,7 @@
-// Ficha de Irán · contenido real · revisada el 2026-11-15
+// Ficha de Irán · contenido real · revisada el 2026-11-20
 (window.FICHAS = window.FICHAS || {})["ir"] = {
   "id": "ir",
-  "updated": "2026-11-15",
+  "updated": "2026-11-20",
   "summary": [
     "Irán tiene dos aparatos de inteligencia que compiten entre sí. El Ministerio de Inteligencia (MOIS) es civil y responde al gobierno. La Organización de Inteligencia de la Guardia Revolucionaria (CGRI) y la Fuerza Quds, a cargo de las operaciones en el exterior, responden al líder supremo. La policía, FARAJA, tiene su propia rama de inteligencia.",
     "El país vive su peor crisis desde 1979. Entre diciembre de 2025 y enero de 2026 las fuerzas de seguridad reprimieron protestas en todo el país, con miles de muertos según organizaciones de derechos humanos. El 28 de febrero de 2026 EE.UU. e Israel atacaron Irán y mataron al líder supremo Alí Jamenei. Su hijo Mojtaba lo sucedió.",
@@ -74,6 +74,7 @@
   ],
   "events": [
     {"d":"1991-08-06","lat":48.84,"lon":2.25,"c":"France","t":"encubierta","ev":1,"h":"Asesinato de Shapur Bajtiar","x":"El último primer ministro del sha es asesinado en su casa de las afueras de París; la justicia francesa condenó a un iraní.","u":"https://en.wikipedia.org/wiki/Shapour_Bakhtiar","st":"Wikipedia (síntesis de fuentes)","op":"asesinato"},
+    {"d":"1992-03-17","lat":-34.595,"lon":-58.381,"c":"Argentina","t":"encubierta","ev":2,"h":"Atentado a la Embajada de Israel en Buenos Aires","x":"Un coche bomba mata a 22 personas en la embajada israelí. La Cámara de Casación argentina concluyó en 2024 que Irán lo ordenó y Hezbollah lo ejecutó; Teherán lo niega.","u":"https://www.lacapital.com.ar/politica/la-justicia-sentencio-que-iran-ordeno-los-atentados-la-embajada-israel-y-la-amia-n10128225.html","st":"La Capital","op":"atentado"},
     {"d":"1992-09-17","lat":52.49,"lon":13.3,"c":"Germany","t":"encubierta","ev":1,"h":"Restaurante Mykonos","x":"Cuatro dirigentes kurdos iraníes son asesinados en Berlín; en 1997 un tribunal concluyó que la orden vino de la cúpula iraní.","u":"https://en.wikipedia.org/wiki/Mykonos_restaurant_assassinations","st":"Wikipedia (síntesis de fuentes)","op":"asesinato"},
     {"d":"1994-07-18","lat":-34.6,"lon":-58.4,"c":"Argentina","t":"encubierta","ev":2,"h":"Atentado a la AMIA","x":"Un coche bomba mata a 85 personas en Buenos Aires; la justicia argentina lo atribuye a Irán y Hezbollah, que lo niegan.","u":"https://www.ellitoral.com/politica/juicio-ausencia-amia-atentado-decision-judicial-iranies-acusados-justicia-federal-rafecas-procesamiento_0_zQENsx9zVe.html","st":"El Litoral","op":"atentado"},
     {"d":"2012-08-15","lat":26.29,"lon":50.11,"c":"Saudi Arabia","t":"ciber","ev":2,"h":"Shamoon en Saudi Aramco","x":"Un virus borra datos de unas 30.000 computadoras de la petrolera saudí; EE.UU. y expertos lo atribuyeron a Irán.","u":"https://en.wikipedia.org/wiki/Shamoon","st":"Wikipedia (síntesis de fuentes)"},
@@ -189,7 +190,7 @@
     "economico": {"ev":1,"x":"Irán recibió diseños de centrifugadoras de la red de A. Q. Khan, según el OIEA.","u":"https://en.wikipedia.org/wiki/Abdul_Qadeer_Khan","st":"Wikipedia: Abdul Qadeer Khan"},
     "engano": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
     "ilegales": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
-    "financiera": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
+    "financiera": {"ev":1,"x":"El Departamento del Tesoro de EE.UU. sancionó redes de empresas de fachada en Hong Kong, Emiratos y Turquía que cobran la venta de petróleo para la Fuerza Quds y le pasan el dinero.","u":"https://maritime-executive.com/article/u-s-cracks-down-on-iran-s-oil-marketing-network-in-hong-kong","st":"The Maritime Executive"},
     "mediacion": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
     "privados": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
     "tortura": {"ev":1,"x":"La ONU, Amnistía Internacional y videos filtrados de la cárcel de Evin documentan torturas a detenidos políticos.","u":"https://en.wikipedia.org/wiki/Evin_Prison","st":"Wikipedia (síntesis de fuentes)"},

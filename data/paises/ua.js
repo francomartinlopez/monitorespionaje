@@ -1,7 +1,7 @@
-// Ficha de Ucrania · contenido real · revisada el 2026-11-15
+// Ficha de Ucrania · contenido real · revisada el 2026-11-20
 (window.FICHAS = window.FICHAS || {})["ua"] = {
   "id": "ua",
-  "updated": "2026-11-15",
+  "updated": "2026-11-20",
   "summary": [
     "Ucrania tiene tres servicios principales, todos transformados por la guerra con Rusia. El Servicio de Seguridad (SBU) hace contrainteligencia, antiterrorismo y, desde 2022, ataques profundos en Rusia. La Dirección Principal de Inteligencia (GUR) del Ministerio de Defensa hace inteligencia militar y operaciones especiales. El Servicio de Inteligencia Exterior (SZRU) trabaja desde las embajadas.",
     "En enero de 2026 Volodímir Zelenski reorganizó la cúpula: Kirilo Budánov dejó la GUR para dirigir la Oficina del Presidente y lo reemplazó Oleh Ivashchenko. Vasyl Maliuk dejó el SBU, que pasó a conducir en forma interina Yevhen Khmara y, desde julio, Oleksandr Poklad. Rustem Umerov, negociador con Rusia y EE.UU., encabeza el SZRU desde agosto.",
@@ -158,7 +158,7 @@
     "engano": {"ev":1,"x":"El SBU fingió en 2018 el asesinato del periodista Arkadi Bábchenko para atrapar a quienes lo habían encargado.","u":"https://en.wikipedia.org/wiki/Arkady_Babchenko","st":"Wikipedia: Arkady Babchenko"},
     "ilegales": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
     "financiera": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
-    "mediacion": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
+    "mediacion": {"ev":1,"x":"El jefe de la inteligencia militar HUR, Kirilo Budánov, dirigió desde 2022 el organismo que negocia con Rusia los canjes de prisioneros, con mediación de los Emiratos y de otros países.","u":"https://kyivindependent.com/prisoner-exchanges-in-the-ukraine-russia-war-have-transformed","st":"The Kyiv Independent"},
     "privados": {"ev":0,"x":"Esta ficha no encontró casos documentados."},
     "tortura": {"ev":2,"x":"La misión de derechos humanos de la ONU documentó malos tratos de las fuerzas ucranianas a detenidos y prisioneros, en una escala menor que los cometidos por Rusia.","u":"https://en.wikipedia.org/wiki/Human_rights_in_Ukraine","st":"Wikipedia (síntesis de fuentes)"},
     "secuestro": {"ev":2,"x":"El subcomandante Stepan Kaplunov denunció que el SBU lo secuestró y retuvo nueve días sin orden judicial en 2026; el SBU sostiene que confesó contactos con el FSB.","u":"https://kyivindependent.com/sbu-accuses-russian-volunteer-corps-deputy-commander-of-fsb-ties-as-he-alleges-threats-in-secret-detention/","st":"The Kyiv Independent"},

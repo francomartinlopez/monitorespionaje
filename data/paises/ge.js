@@ -1,7 +1,7 @@
-// Ficha de Georgia · contenido real · revisada el 2026-11-16
+// Ficha de Georgia · contenido real · revisada el 2026-11-20
 (window.FICHAS = window.FICHAS || {})["ge"] = {
   "id": "ge",
-  "updated": "2026-11-16",
+  "updated": "2026-11-20",
   "summary": [
     "El Servicio de Seguridad del Estado de Georgia (SSG) concentra contraespionaje, antiterrorismo y vigilancia interna, mientras que el Servicio de Inteligencia (GIS) se ocupa del exterior. Rusia ocupa desde la guerra de 2008 Abjasia y Osetia del Sur, alrededor del 20% del territorio.",
     "En septiembre de 2021 un ex empleado filtró miles de archivos del SSG que mostraban escuchas a sacerdotes de la Iglesia ortodoxa, periodistas, políticos de todos los partidos y diplomáticos, incluido el embajador de la UE. El gobierno de Sueño Georgiano dijo que los archivos no eran auténticos, aunque varios espiados confirmaron las conversaciones.",
@@ -66,7 +66,7 @@
   ],
   "events": [
     {"d":"2008-08","lat":42.23,"lon":43.97,"c":"Georgia","t":"ciber","ev":2,"h":"Guerra con Rusia","x":"La invasión rusa se combina con ciberataques a sitios del gobierno georgiano.","u":"https://en.wikipedia.org/wiki/Russo-Georgian_War","st":"Wikipedia (síntesis de fuentes)"},
-    {"d":"2017-05-29","lat":41.72,"lon":44.79,"c":"Georgia","t":"encubierta","ev":2,"h":"Secuestro de Afgán Mukhtarli","x":"El periodista azerbaiyano exiliado es secuestrado en Tiflis y aparece detenido en Azerbaiyán; denunció la participación de agentes georgianos.","u":"https://oc-media.org/tag/ssg-files","st":"OC Media"},
+    {"d":"2017-05-29","lat":41.72,"lon":44.79,"c":"Georgia","t":"encubierta","ev":2,"h":"Secuestro de Afgán Mukhtarli","x":"El periodista azerbaiyano exiliado es secuestrado en Tiflis y aparece detenido en Azerbaiyán; denunció la participación de agentes georgianos.","u":"https://oc-media.org/tag/ssg-files","st":"OC Media","op":"secuestro","por":"az"},
     {"d":"2021-09-13","lat":41.7,"lon":44.8,"c":"Georgia","t":"contra","ev":2,"h":"Filtración de los archivos del SSG","x":"Se publican miles de archivos con escuchas a clérigos, periodistas, políticos y diplomáticos.","u":"https://www.occrp.org/en/daily/15182-files-show-georgian-security-service-spied-on-diplomats-journalists-clerics","st":"OCCRP"}
   ],
   "interest": {

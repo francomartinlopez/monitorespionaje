@@ -1,5 +1,7 @@
 # Cambios
 
+- 2026-11-20 · Contenido: atentados a la Embajada de Israel (1992) y a la AMIA (1994) en el mapa de Argentina e Irán; 12 operaciones letales más marcadas para #asesinatos (Zawahiri, Tiergarten, Abu Omar, Ben Barka, Mukhtarli, Lillehammer, Jamenei, Mabhouh, Adén, Khashoggi y dos complots); poder recalibrado: Israel señales 5→4 e imágenes 4→3 (26/30), Emiratos señales 4→3 (21/30); alianzas Maximator, AUKUS y OTSC; seis expulsiones y canjes anteriores a 2014 (Operación Foot, Gordievsky, Daniloff, Hanssen, Litvinenko, ilegales de 2010); ilegales rusos con identidad argentina y brasileña en el mapa; mediación secreta del BND, el SVR, el Mossad y la HUR, y finanzas de Irán y Corea del Norte en #practicas; el archivo de la DIPPBA, ampliado. Expulsiones: sólo se muestran los años con datos.
+
 - 2026-11-20 · Actualización semanal: revisa a fondo cuatro fichas por semana en turnos (lista en SEGUIMIENTO.md), retira las alertas de más de 14 días y manda un resumen por mail. La alerta de Binance pasa a nivel 0 por antigüedad.
 
 - 2026-11-20 · Técnica: las fuentes tipográficas se sirven desde el sitio (sin Google Fonts); una página estática por país (p/<id>.html) con vista previa para redes, más sitemap.xml y robots.txt; el validador controla URLs, fechas futuras, duplicados y páginas al día; GitHub Actions valida cada subida y revisa enlaces cada semana; licencia CC BY 4.0 para textos y datos y MIT para el código.

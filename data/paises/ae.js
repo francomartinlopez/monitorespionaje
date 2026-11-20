@@ -1,7 +1,7 @@
-// Ficha de Emiratos Árabes Unidos · contenido real · revisada el 2026-11-15
+// Ficha de Emiratos Árabes Unidos · contenido real · revisada el 2026-11-20
 (window.FICHAS = window.FICHAS || {})["ae"] = {
   "id": "ae",
-  "updated": "2026-11-15",
+  "updated": "2026-11-20",
   "summary": [
     "Los Emiratos Árabes Unidos tienen servicios chicos pero muy financiados, conducidos desde la familia gobernante de Abu Dabi. El jeque Tahnoun bin Zayed, hermano del presidente Mohammed bin Zayed, es asesor de seguridad nacional y controla la Seguridad del Estado y la Agencia de Inteligencia de Señales. También preside grandes fondos de inversión, lo que mezcla seguridad, finanzas y tecnología.",
     "Su rasgo distintivo es la contratación de personal extranjero. Entre 2016 y 2019 ex agentes de la Agencia de Seguridad Nacional de EE.UU. trabajaron en el Proyecto Raven, que hackeó teléfonos de activistas, periodistas y gobernantes extranjeros. En Yemen, según una demanda presentada en EE.UU. en 2026, Abu Dabi pagó a ex militares estadounidenses para matar a dirigentes políticos.",
@@ -15,7 +15,7 @@
   ],
   "power": {
     "humana": 3,
-    "senales": 4,
+    "senales": 3,
     "ciber": 4,
     "imagenes": 3,
     "encubierta": 4,
@@ -23,7 +23,7 @@
   },
   "powerWhy": {
     "humana": "Redes en Yemen, Sudán, Libia y el Cuerno de África, apoyadas en dinero e intermediarios.",
-    "senales": "La Agencia de Inteligencia de Señales compró herramientas avanzadas y contrató a ex agentes occidentales.",
+    "senales": "La Agencia de Inteligencia de Señales compró herramientas avanzadas y contrató a ex agentes occidentales; depende de proveedores extranjeros.",
     "ciber": "El Proyecto Raven usó una herramienta que entraba en iPhones sin interacción del usuario, según Reuters y la justicia de EE.UU.",
     "imagenes": "Satélites propios en desarrollo y compras de imágenes comerciales.",
     "encubierta": "Uso de empresas militares privadas y de intermediarios en Yemen, Libia y Sudán.",
@@ -67,8 +67,8 @@
     {"d":"2021-09","dir":"amplia","area":"Expresión","h":"Reforma de la ley de delitos informáticos","x":"Amplía las penas por difundir noticias consideradas falsas."}
   ],
   "events": [
-    {"d":"2010-01-19","lat":25.2,"lon":55.4,"c":"United Arab Emirates","t":"contra","ev":2,"h":"La policía de Dubái expone el caso Mabhouh","x":"Tras el asesinato de un dirigente de Hamás en un hotel, la policía de Dubái publica videos e identidades de los sospechosos, que atribuyó al Mossad.","u":"https://en.wikipedia.org/wiki/Assassination_of_Mahmoud_Al-Mabhouh","st":"Wikipedia (síntesis de fuentes)"},
-    {"d":"2015-12-29","lat":12.85,"lon":45,"c":"Yemen","t":"encubierta","ev":2,"h":"Intento de asesinato en Adén","x":"Mercenarios estadounidenses contratados por los Emiratos ponen una bomba en la sede de un partido islamista, según su propio jefe y una demanda de 2026.","u":"https://www.npr.org/2026/03/30/nx-s1-5707305/yemen-politician-assassination-us-soldiers-lawsuit","st":"NPR"},
+    {"d":"2010-01-19","lat":25.2,"lon":55.4,"c":"United Arab Emirates","t":"contra","ev":2,"h":"La policía de Dubái expone el caso Mabhouh","x":"Tras el asesinato de un dirigente de Hamás en un hotel, la policía de Dubái publica videos e identidades de los sospechosos, que atribuyó al Mossad.","u":"https://en.wikipedia.org/wiki/Assassination_of_Mahmoud_Al-Mabhouh","st":"Wikipedia (síntesis de fuentes)","op":"asesinato","por":"il"},
+    {"d":"2015-12-29","lat":12.85,"lon":45,"c":"Yemen","t":"encubierta","ev":2,"h":"Intento de asesinato en Adén","x":"Mercenarios estadounidenses contratados por los Emiratos ponen una bomba en la sede de un partido islamista, según su propio jefe y una demanda de 2026.","u":"https://www.npr.org/2026/03/30/nx-s1-5707305/yemen-politician-assassination-us-soldiers-lawsuit","st":"NPR","op":"atentado"},
     {"d":"2016-08","lat":24.2,"lon":54.8,"c":"United Arab Emirates","t":"ciber","ev":1,"h":"Pegasus contra Ahmed Mansoor","x":"Citizen Lab detecta un intento de infectar el teléfono del activista emiratí con Pegasus; Mansoor fue condenado en 2018 a diez años.","u":"https://en.wikipedia.org/wiki/Ahmed_Mansoor","st":"Wikipedia (síntesis de fuentes)"},
     {"d":"2017-05-24","lat":25.25,"lon":51.45,"c":"Qatar","t":"ciber","ev":2,"h":"El hackeo de la agencia de noticias de Catar","x":"Hackean la agencia estatal catarí y publican declaraciones falsas del emir; inteligencia de EE.UU. atribuyó la operación a los Emiratos, según The Washington Post.","u":"https://en.wikipedia.org/wiki/Qatar_diplomatic_crisis","st":"Wikipedia (síntesis de fuentes)"},
     {"d":"2023-04","lat":12.05,"lon":24.88,"c":"Sudan","t":"encubierta","ev":2,"h":"Armas para las Fuerzas de Apoyo Rápido","x":"Vuelos de carga ligados a empresas emiratíes abastecen a la milicia sudanesa, según la ONU, inteligencia de EE.UU. y medios.","u":"https://www.rusi.org/news-and-comment/in-the-news/how-uae-involved-sudans-civil-war","st":"RUSI"},

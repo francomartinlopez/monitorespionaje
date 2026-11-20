@@ -1,7 +1,7 @@
-// Ficha de Afganistán · contenido real · revisada el 2026-11-16
+// Ficha de Afganistán · contenido real · revisada el 2026-11-20
 (window.FICHAS = window.FICHAS || {})["af"] = {
   "id": "af",
-  "updated": "2026-11-16",
+  "updated": "2026-11-20",
   "summary": [
     "Desde que los talibanes tomaron Kabul en agosto de 2021, la Dirección General de Inteligencia (GDI) reemplazó a la antigua Dirección Nacional de Seguridad (NDS), creada y financiada por la CIA. La GDI persigue a ex funcionarios, periodistas, mujeres activistas y al Estado Islámico Provincia de Jorasán (ISKP), el principal rival armado del régimen.",
     "Afganistán es una zona de operaciones abierta: EE.UU. mató en Kabul en julio de 2022 al jefe de Al Qaeda, Ayman al-Zawahiri, en una casa vinculada a la red Haqqani, que ocupa ministerios clave. Pakistán acusa a los talibanes de proteger al Tehrik-e-Taliban Pakistan (TTP) y bombardeó Kabul en octubre de 2025.",
@@ -67,7 +67,7 @@
     {"d":"2001-09-09","lat":37.33,"lon":69.47,"c":"Afghanistan","t":"encubierta","ev":1,"h":"Asesinato de Massoud","x":"Dos agentes de Al Qaeda que se hacían pasar por periodistas matan al jefe de la Alianza del Norte, dos días antes del 11-S.","u":"https://en.wikipedia.org/wiki/Ahmad_Shah_Massoud","st":"Wikipedia: Ahmad Shah Massoud"},
     {"d":"2009-12-30","lat":33.34,"lon":69.95,"c":"Afghanistan","t":"humana","ev":1,"h":"Ataque en Khost","x":"Un doble agente jordano se inmola en una base de la CIA y mata a siete estadounidenses.","u":"https://en.wikipedia.org/wiki/Camp_Chapman_attack","st":"Wikipedia: ataque de Camp Chapman"},
     {"d":"2021-08-26","lat":34.56,"lon":69.21,"c":"Afghanistan","t":"contra","ev":1,"h":"Atentado en el aeropuerto de Kabul","x":"El ISKP mata a unos 170 afganos y 13 soldados de EE.UU. durante la evacuación.","u":"https://en.wikipedia.org/wiki/2021_Kabul_airport_attack","st":"Wikipedia (síntesis de fuentes)"},
-    {"d":"2022-07-31","lat":34.53,"lon":69.17,"c":"Afghanistan","t":"encubierta","ev":1,"h":"Muerte de Zawahiri","x":"Un dron de la CIA mata al jefe de Al Qaeda en una casa de Kabul vinculada a la red Haqqani.","u":"https://en.wikipedia.org/wiki/Killing_of_Ayman_al-Zawahiri","st":"Wikipedia (síntesis de fuentes)"},
+    {"d":"2022-07-31","lat":34.53,"lon":69.17,"c":"Afghanistan","t":"encubierta","ev":1,"h":"Muerte de Zawahiri","x":"Un dron de la CIA mata al jefe de Al Qaeda en una casa de Kabul vinculada a la red Haqqani.","u":"https://en.wikipedia.org/wiki/Killing_of_Ayman_al-Zawahiri","st":"Wikipedia (síntesis de fuentes)","op":"asesinato","por":"us"},
     {"d":"2025-10-09","lat":34.52,"lon":69.18,"c":"Afghanistan","t":"encubierta","ev":2,"h":"Bombardeo pakistaní en Kabul","x":"Pakistán ataca en Kabul a dirigentes del TTP, según Islamabad; siguen combates fronterizos.","u":"https://en.wikipedia.org/wiki/Afghanistan%E2%80%93Pakistan_relations","st":"Wikipedia (síntesis de fuentes)"}
   ],
   "interest": {

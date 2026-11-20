@@ -1,7 +1,7 @@
-// Ficha de Polonia · contenido real · revisada el 2026-11-17
+// Ficha de Polonia · contenido real · revisada el 2026-11-20
 (window.FICHAS = window.FICHAS || {})["pl"] = {
   "id": "pl",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "summary": [
     "Polonia es el principal centro de tránsito de la ayuda occidental a Ucrania y uno de los blancos preferidos de la guerra híbrida rusa. Sus servicios son la Agencia de Inteligencia (AW), la Agencia de Seguridad Interior (ABW), los servicios militares de inteligencia (SWW) y contrainteligencia (SKW) y la Oficina Central Anticorrupción (CBA). Los coordina un ministro de servicios especiales, Tomasz Siemoniak.",
     "Desde 2022 la ABW desarmó decenas de redes reclutadas por Rusia, muchas por Telegram y con ciudadanos de terceros países. En noviembre de 2025 una explosión dañó la vía férrea entre Varsovia y Lublin; el primer ministro Donald Tusk atribuyó el sabotaje a dos ucranianos que trabajaban para la inteligencia rusa. En agosto de 2026 la ABW frustró un plan ruso para matar en Varsovia a un ciudadano ucraniano-estadounidense.",
@@ -76,7 +76,7 @@
     {"d":"2025-10-17","lat":52.23,"lon":21.01,"c":"Poland","t":"contra","ev":1,"h":"Polonia se niega a extraditar a un sospechoso","x":"Un juez de Varsovia rechaza entregar a Alemania al buzo ucraniano Volodímir Z. y considera que el sabotaje fue un acto de defensa contra Rusia. Donald Tusk dijo que extraditarlo no era de interés polaco.","u":"https://www.euronews.com/2026/10/14/former-ukrainian-military-officer-to-stand-trial-in-germany-over-nord-stream-sabotage","st":"Euronews"},
     {"d":"2025-11-16","lat":51.85,"lon":21.6,"c":"Poland","t":"sabotaje","ev":2,"h":"Explosión en la vía Varsovia-Lublin","x":"Una carga militar daña la vía usada para enviar ayuda a Ucrania; Tusk acusó a dos ucranianos al servicio de la inteligencia rusa.","u":"https://www.thestar.com.my/news/world/2025/11/18/polish-pm-says-two-responsible-for-railway-blast-worked-for-russian-intelligence","st":"Reuters, vía The Star"},
     {"d":"2026-06-29","lat":52.23,"lon":21,"c":"Poland","t":"contra","ev":2,"h":"Protestas pagadas por Rusia","x":"La ABW detiene a once personas que, desde 2025, reclutaban y pagaban a refugiados ucranianos para manifestarse; el dinero venía de Rusia, según la agencia.","u":"https://notesfrompoland.com/2026/06/29/poland-breaks-up-russian-operation-paying-ukrainian-refugees-to-hold-protests/","st":"Notes from Poland"},
-    {"d":"2026-08","lat":52.24,"lon":21.02,"c":"Poland","t":"contra","ev":2,"h":"Plan para matar a un disidente","x":"La ABW detiene a un ruso acusado de planear el asesinato de un ciudadano ucraniano-estadounidense por orden de Moscú.","u":"https://www.euronews.com/my-europe/2026/08/13/poland-thwarts-unprecedented-plot-by-russia-to-kill-ukrainian-us-citizen-in-a-nato-country","st":"Euronews"},
+    {"d":"2026-08","lat":52.24,"lon":21.02,"c":"Poland","t":"contra","ev":2,"h":"Plan para matar a un disidente","x":"La ABW detiene a un ruso acusado de planear el asesinato de un ciudadano ucraniano-estadounidense por orden de Moscú.","u":"https://www.euronews.com/my-europe/2026/08/13/poland-thwarts-unprecedented-plot-by-russia-to-kill-ukrainian-us-citizen-in-a-nato-country","st":"Euronews","op":"intento","por":"ru"},
     {"d":"2026-11-05","lat":54.12,"lon":19.4,"c":"Poland","t":"contra","ev":2,"h":"Seis detenidos por trabajar para Rusia","x":"La ABW detiene a cinco polacos y un ruso acusados de cooperar con la inteligencia rusa y enviar material militar a Rusia.","u":"https://kyivindependent.com/poland-detains-6-suspects-working-for-russian-intelligence-polish-official-says/","st":"Kyiv Independent"}
   ],
   "interest": {
